@@ -31,14 +31,14 @@ Rode `bash build.sh` e faça commit de `public/` junto com as mudanças em `src/
 
 Há duas versões no ar:
 
-- **estável**: ramo `main`, em https://faro-six-azure.vercel.app, com o banco `faro`
+- **estável**: ramo `main`, em https://farovest.vercel.app (o endereço antigo, faro-six-azure.vercel.app, continua funcionando), com o banco `faro`
 - **teste**: ramo `teste`, em https://faro-git-teste-faroapp.vercel.app, com o banco `faro-teste`
 
 O desenvolvimento acontece no ramo `teste`. Quando a versão de teste estiver boa, ela entra na `main`
 por um pull request, e a Vercel atualiza o site estável. Se algo der errado, a Vercel volta para a
 publicação anterior em Deployments › Instant Rollback.
 
-`src/web.js` escolhe o banco pelo endereço: só `faro-six-azure.vercel.app` usa o banco de verdade.
+`src/web.js` escolhe o banco pelo endereço: só `farovest.vercel.app` e `faro-six-azure.vercel.app` usam o banco de verdade.
 Qualquer outro endereço (a versão de teste, o computador) usa o banco de teste e mostra a etiqueta
 "versão de teste". Se o site estável ganhar um domínio próprio, ele precisa entrar nessa conta.
 
