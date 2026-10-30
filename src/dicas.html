@@ -1,0 +1,1320 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Faro · dicas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&family=VT323&display=swap">
+<style>
+/* layout: a mesma coluna de caixas de borda reta do treino, uma caixa por tópico */
+:root {
+  --paper: #ffffff;
+  --ink: #111111;
+  --mute: #8a8a8a;
+  --line: #111111;
+  --faint: #e6e6e6;
+  --display: "Silkscreen", "VT323", ui-monospace, monospace;
+  --body: "VT323", ui-monospace, "Courier New", monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; border-radius: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 12px; }
+html, body { background: var(--paper); color: var(--ink); }
+body {
+  margin: 0; font-family: var(--body); font-size: 20px; line-height: 1.25;
+  padding-block: 40px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+main { max-width: 560px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 28px; letter-spacing: .04em; margin: 0; text-wrap: balance; }
+.sub { margin: 0; color: var(--mute); }
+.box { border: 1px solid var(--line); }
+.box > .hd {
+  display: flex; justify-content: space-between; gap: 8px; border-bottom: 1px solid var(--line); padding: 4px 10px;
+  font-family: var(--display); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+}
+.box > .bd { padding: 12px 10px; }
+a { color: var(--ink); }
+a:focus-visible { outline: 1px dashed var(--ink); outline-offset: 3px; }
+.go {
+  display: block; text-align: center; text-decoration: none; padding: 16px 10px;
+  font-family: var(--display); font-size: 20px; letter-spacing: .1em;
+}
+.go:hover { background: var(--ink); color: var(--paper); }
+.idx { display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5em, 1fr)); gap: 6px; }
+.idx a { border: 1px solid var(--line); padding: 4px 8px; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 19px; }
+.idx a::before { content: "→ "; color: var(--mute); }
+.idx a:hover { background: var(--ink); color: var(--paper); }
+.tip + .tip { border-top: 1px solid var(--faint); margin-top: 12px; padding-top: 12px; }
+.tip h3 { font-family: var(--display); font-weight: 400; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 4px; }
+.tip h3 span { color: var(--mute); margin-right: 6px; }
+.tip h3 span + span { margin: 0 0 0 4px; text-transform: none; font-family: var(--body); font-size: 18px; letter-spacing: 0; }
+.tip .lg { margin: 6px 0 0; padding: 6px 10px; border: 1px dashed var(--mute); font-size: 18px; line-height: 1.35; color: var(--mute); max-width: none; }
+.tip .lg b { font-weight: 400; color: var(--ink); }
+.tip .lg .lt { font-family: var(--display); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); margin-right: 4px; }
+.tip .lg sub, .tip .lg sup { font-size: .7em; }
+.tip p { margin: 0 0 8px; max-width: 62ch; text-wrap: pretty; }
+.eq { font-size: 21px; padding: 6px 10px; border: 1px solid var(--faint); overflow-wrap: anywhere; }
+.top { font-family: var(--display); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; color: var(--mute); }
+.top:hover { color: var(--ink); }
+.note { color: var(--mute); font-size: 17px; margin: 0; }
+.ig { font-family: var(--display); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; margin: 14px 0 6px; }
+.ig:first-child { margin-top: 0; }
+.subj { font-family: var(--display); font-size: 16px; letter-spacing: .1em; margin: 8px 0 -4px; }
+.eq sup, .eq sub, .tip p sup, .tip p sub { font-size: .7em; }
+/* destaque temporário do tópico que veio pelo link "mais dicas" */
+@keyframes flash {
+  0%, 70% { background: var(--ink); color: var(--paper); }
+  100% { background: var(--paper); color: var(--ink); }
+}
+.box.flash, .box.flash .eq, .box.flash .top, .box.flash h3 span { animation: flash 3s ease-in forwards; }
+.box.flash .hd { animation: flashLine 3s ease-in forwards; }
+@keyframes flashLine { 0%, 70% { border-bottom-color: var(--paper); } 100% { border-bottom-color: var(--line); } }
+@media (prefers-reduced-motion: reduce) { .box.flash, .box.flash * { animation-timing-function: steps(1, end) !important; } }
+</style>
+</head>
+<body>
+<main id="inicio">
+  <header>
+    <h1 style="display:flex;align-items:center;gap:12px"><span style="display:inline-flex"><svg viewBox="0 0 12 11" shape-rendering="crispEdges" fill="currentColor" aria-hidden="true" style="height:1.15em;width:auto;display:block"><path d="M6 0h1v1h-1zM7 0h1v1h-1zM9 0h1v1h-1zM10 0h1v1h-1zM6 1h1v1h-1zM8 1h1v1h-1zM10 1h1v1h-1zM5 2h1v1h-1zM7 2h1v1h-1zM9 2h1v1h-1zM11 2h1v1h-1zM1 3h1v1h-1zM2 3h1v1h-1zM5 3h1v1h-1zM7 3h1v1h-1zM9 3h1v1h-1zM11 3h1v1h-1zM0 4h1v1h-1zM3 4h1v1h-1zM6 4h1v1h-1zM8 4h1v1h-1zM10 4h1v1h-1zM0 5h1v1h-1zM3 5h1v1h-1zM7 5h1v1h-1zM8 5h1v1h-1zM9 5h1v1h-1zM0 6h1v1h-1zM2 6h1v1h-1zM4 6h1v1h-1zM6 6h1v1h-1zM10 6h1v1h-1zM1 7h1v1h-1zM5 7h1v1h-1zM10 7h1v1h-1zM2 8h1v1h-1zM6 8h1v1h-1zM8 8h1v1h-1zM10 8h1v1h-1zM3 9h1v1h-1zM6 9h1v1h-1zM8 9h1v1h-1zM10 9h1v1h-1zM4 10h1v1h-1zM5 10h1v1h-1zM6 10h1v1h-1zM7 10h1v1h-1zM8 10h1v1h-1zM9 10h1v1h-1z"/></svg></span>FARO · DICAS</h1>
+    <p class="sub">matemática · física · química · atalhos por tópico, fórmulas, leis e constantes</p>
+  </header>
+  <section class="box">
+    <a class="go" href="@FARO@">▶ TREINAR NO FARO</a>
+  </section>
+  <section class="box">
+    <div class="hd"><span>Índice</span><span id="count"></span></div>
+    <div class="bd" id="idx"></div>
+  </section>
+  <div id="list" style="display:contents"></div>
+  <p class="note">Os exemplos foram conferidos um a um. Cada atalho vale para o caso descrito: leia a condição antes de aplicar. Os valores de referência (g = 10, N<sub>A</sub> = 6 × 10²³…) são os de costume no vestibular, salvo aviso no enunciado.</p>
+</main>
+<script>
+const TIPS = [
+ ['soma','Soma',[
+  ['Arredonde e compense','Some um número redondo e depois desconte a diferença.','47 + 38 = 47 + 40 − 2 = 85'],
+  ['Comece pela esquerda','Some centenas, depois dezenas, depois unidades. É a ordem em que você fala o número, então pesa menos na memória.','456 + 372 = 700 + 120 + 8 = 828'],
+  ['Procure pares que fecham','Antes de somar uma lista, junte os pares que dão 10, 100 ou 1000.','25 + 14 + 86 + 75 = (25 + 75) + (14 + 86) = 200'],
+  ['Soma de 1 até n','Some o primeiro com o último e multiplique pela metade da quantidade de termos: n·(n+1)/2.','1 + 2 + … + 100 = 100 × 101 ÷ 2 = 5.050'],
+  ['Soma dos ímpares','A soma dos n primeiros ímpares é n².','1 + 3 + 5 + … + 19 = 10² = 100'],
+ ]],
+ ['sub','Subtração',[
+  ['Mova os dois números','Somar a mesma coisa aos dois lados não muda a diferença. Leve o subtraendo até um número redondo.','83 − 47 = 86 − 50 = 36'],
+  ['Conte para cima','Pense em quanto falta do menor até o maior, em saltos até números redondos. É como se dá troco.','83 − 47: 47 → 50 (3) → 83 (33) = 36'],
+  ['Complemento de 1000','Para 1000 − x, complete cada algarismo até 9 e o último até 10.','1000 − 367 = 633 (3→6, 6→3, 7→3)'],
+  ['Tirar 9, 99, 999','Tire 10, 100 ou 1000 e devolva 1.','532 − 99 = 432 + 1 = 433'],
+ ]],
+ ['mult','Multiplicação',[
+  ['Quebre um dos fatores','Separe dezenas e unidades e some os dois produtos (propriedade distributiva).','23 × 47 = 23 × 40 + 23 × 7 = 920 + 161 = 1.081'],
+  ['× 5, × 25, × 50','× 5 é × 10 ÷ 2. × 25 é × 100 ÷ 4. × 50 é × 100 ÷ 2.','68 × 25 = 6.800 ÷ 4 = 1.700'],
+  ['× 9 e × 99','Multiplique por 10 ou 100 e tire o número uma vez.','37 × 99 = 3.700 − 37 = 3.663'],
+  ['× 11 com dois algarismos','Separe os algarismos e ponha a soma deles no meio. Se passar de 9, vai um para a esquerda.','75 × 11: 7 | 12 | 5 → 825'],
+  ['Dobre e divida','Dobrar um fator e dividir o outro por 2 não muda o produto. Repita até a conta ficar fácil.','16 × 35 = 8 × 70 = 560'],
+  ['Diferença de quadrados','Se os fatores estão à mesma distância de um número redondo: (a − d)(a + d) = a² − d².','48 × 52 = 50² − 2² = 2.500 − 4 = 2.496'],
+  ['Perto de 100','Para dois números pouco abaixo de 100: tire de um a falta do outro, e cole o produto das faltas com 2 algarismos.','97 × 96: 97 − 4 = 93, 3 × 4 = 12 → 9.312'],
+ ]],
+ ['div','Divisão',[
+  ['÷ 5 e ÷ 25','÷ 5 é × 2 ÷ 10. ÷ 25 é × 4 ÷ 100.','340 ÷ 5 = 680 ÷ 10 = 68'],
+  ['Divida em etapas','÷ 4 é metade da metade, ÷ 8 é metade três vezes, ÷ 12 é ÷ 3 e depois ÷ 4.','864 ÷ 8: 432 → 216 → 108'],
+  ['Simplifique os dois','Dividir dividendo e divisor pelo mesmo número não muda o resultado.','180 ÷ 12 = 90 ÷ 6 = 30 ÷ 2 = 15'],
+  ['Quebre o dividendo','Separe o dividendo em partes que você sabe dividir.','592 ÷ 8 = 560 ÷ 8 + 32 ÷ 8 = 70 + 4 = 74'],
+  ['Regras de divisibilidade','Por 3 ou 9: a soma dos algarismos é divisível. Por 4: os dois últimos. Por 8: os três últimos. Por 6: par e por 3. Por 11: a soma alternada dos algarismos é múltiplo de 11.','918 → 9 + 1 + 8 = 18, divisível por 9 · 2.948 → 8 − 4 + 9 − 2 = 11, divisível por 11'],
+ ]],
+ ['pot','Potência',[
+  ['Quadrado terminado em 5','Multiplique a dezena pelo seguinte e escreva 25 no final.','65²: 6 × 7 = 42 → 4.225'],
+  ['Quebre em dezena + unidade','(a + b)² = a² + 2ab + b².','43² = 1.600 + 240 + 9 = 1.849'],
+  ['Perto de 50','(50 + d)² = 2.500 + 100·d + d². Vale com d negativo.','53² = 2.500 + 300 + 9 = 2.809'],
+  ['Perto de 100','(100 + d)² = 10.000 + 200·d + d².','97² = 10.000 − 600 + 9 = 9.409'],
+  ['Potências de 2','Decore até 2¹⁰ = 1.024. Daí 2²⁰ ≈ um milhão e 2³⁰ ≈ um bilhão.','2¹³ = 2¹⁰ × 2³ = 1.024 × 8 = 8.192'],
+  ['Regras dos expoentes','Na multiplicação de mesma base, some os expoentes; na potência de potência, multiplique.','2⁴ × 2⁵ = 2⁹ = 512 · (3²)³ = 3⁶ = 729'],
+ ]],
+ ['raiz','Raiz',[
+  ['Decore os quadrados até 25','Eles aparecem o tempo todo e são a base de todos os truques.','21² = 441 · 23² = 529 · 24² = 576 · 25² = 625'],
+  ['Raiz de quadrado perfeito','Ache entre que dezenas está e use o último algarismo: 1 → 1 ou 9; 4 → 2 ou 8; 9 → 3 ou 7; 6 → 4 ou 6; 5 → 5. Desempate comparando com o quadrado do número terminado em 5.','√2.304: entre 40² e 50², termina em 4 → 42 ou 48; 45² = 2.025 < 2.304 → 48'],
+  ['Raiz cúbica de cubo perfeito','O último algarismo do cubo diz o da raiz (1→1, 8→2, 7→3, 4→4, 5→5, 6→6, 3→7, 2→8, 9→9, 0→0). Tire os três últimos algarismos para achar a dezena.','∛39.304: 39 está entre 3³ e 4³ → 3_; termina em 4 → 34'],
+  ['Separe fatores quadrados','√(a·b) = √a · √b. Multiplique raízes que formam um quadrado juntas.','√20 × √45 = √900 = 30 · √1.600 = √16 × √100 = 40'],
+  ['Ternos pitagóricos','3-4-5, 5-12-13, 8-15-17, 7-24-25 e seus múltiplos dão hipotenusas inteiras.','√(9² + 12²) = 15 (3-4-5 × 3)'],
+ ]],
+ ['porc','Porcentagem',[
+  ['Parta de 10% e 1%','10% é ÷ 10 e 1% é ÷ 100. Monte o resto a partir deles.','15% de 240 = 24 + 12 = 36'],
+  ['Inverta quando ajudar','x% de y é igual a y% de x.','8% de 25 = 25% de 8 = 2'],
+  ['Aumento e desconto num passo só','Aumento de p% é multiplicar por (1 + p/100); desconto, por (1 − p/100).','R$ 80 com 25% de desconto = 80 × 0,75 = R$ 60'],
+  ['Descontos seguidos não se somam','Dois descontos de 20% dão 36%, não 40%, porque o segundo incide sobre o preço já reduzido.','0,8 × 0,8 = 0,64 → 36% de desconto'],
+  ['Misturas','Volume × teor dá a quantidade pura; o teor final é puro ÷ total. Para diluir, o puro não muda: só o total cresce.','300 mL de álcool 90% + 200 mL de água → 270 ÷ 500 = 54%'],
+ ]],
+ ['fat','Fatorial',[
+  ['Decore até 7!','1, 2, 6, 24, 120, 720, 5.040. E 0! = 1.','8! = 8 × 5.040 = 40.320'],
+  ['Cancele antes de multiplicar','Em n! / m!, sobram só os fatores de m + 1 até n.','10! / 7! = 10 × 9 × 8 = 720'],
+  ['Use n! = n · (n − 1)!','Para somar ou subtrair fatoriais vizinhos, ponha o menor em evidência.','6! − 5! = 5! × (6 − 1) = 600'],
+  ['Zeros no final de n!','Cada zero vem de um par 2 × 5, e sempre sobra 2. Conte os fatores 5: n ÷ 5 + n ÷ 25 + n ÷ 125… (partes inteiras).','100!: 20 + 4 = 24 zeros'],
+ ]],
+ ['perm','Permutação',[
+  ['Fila de n elementos é n!','O primeiro lugar tem n opções, o segundo n − 1, e assim por diante.','5 pessoas numa fila: 5! = 120'],
+  ['Mesa redonda é (n − 1)!','Girar todo mundo não muda a disposição, então fixe uma pessoa e permute as outras.','6 pessoas numa mesa redonda: 5! = 120'],
+  ['Quem fica junto vira bloco','Trate o grupo como um só elemento e multiplique pelas ordens dentro dele.','5 pessoas, casal junto: 4! × 2 = 48'],
+  ['Restrição primeiro','Preencha antes as posições com regra (começar com vogal, terminar em par) e depois o resto.','AMOR começando com vogal: 2 × 3! = 12'],
+ ]],
+ ['prep','Permutação com repetição',[
+  ['Divida pelas repetições','Trocar letras iguais não cria anagrama novo: n! / (a! · b! · …).','BANANA: 6! / (3! · 2!) = 720 / 12 = 60'],
+  ['Duas cores é combinação','Arrumar a itens de um tipo e b de outro é o mesmo que escolher as a posições: C(a + b, a).','3 pretas e 2 brancas: C(5, 2) = 10'],
+  ['Caminhos numa grade','Ir de (0,0) a (m,n) andando só para a direita e para cima é arrumar m "D" e n "C": C(m + n, m).','até (3,3): C(6, 3) = 20'],
+ ]],
+ ['arr','Arranjo',[
+  ['Produto decrescente de k fatores','A(n, k) = n × (n − 1) × … com exatamente k fatores, sem precisar de fatorial.','A(8, 3) = 8 × 7 × 6 = 336'],
+  ['Teste da ordem','Se trocar dois escolhidos de posição gera um resultado diferente (pódio, senha, presidente e vice), é arranjo. Se não, é combinação.','pódio de 10 atletas: 10 × 9 × 8 = 720'],
+  ['Cuidado com o zero','Números não começam com 0: conte a primeira casa à parte.','3 algarismos distintos: 9 × 9 × 8 = 648'],
+ ]],
+ ['comb','Combinação',[
+  ['Arranjo dividido por k!','C(n, k) = A(n, k) / k!, porque cada grupo foi contado k! vezes no arranjo.','C(7, 3) = 7 × 6 × 5 ÷ 6 = 35'],
+  ['Cancele no caminho','Simplifique os fatores com o k! antes de multiplicar.','C(10, 3) = 10 × 9 × 8 ÷ 6 = 10 × 3 × 4 = 120'],
+  ['Escolher é deixar de fora','C(n, k) = C(n, n − k). Use o k menor.','C(12, 10) = C(12, 2) = 66'],
+  ['Pares: n(n − 1)/2','Apertos de mão, jogos de turno único, retas por n pontos.','20 pessoas: 20 × 19 ÷ 2 = 190 apertos'],
+  ['Diagonais de polígono','Pares de vértices menos os lados: n(n − 3)/2.','decágono: 10 × 7 ÷ 2 = 35'],
+ ]],
+ ['conj','Conjuntos',[
+  ['Inclusão-exclusão','n(A ∪ B) = n(A) + n(B) − n(A ∩ B): a interseção foi contada duas vezes.','30 + 25 − 10 = 45'],
+  ['Três conjuntos','Some os três, tire as três interseções duplas, devolva a tripla.','n(A∪B∪C) = A + B + C − AB − AC − BC + ABC'],
+  ['"Nenhum" e "pelo menos um"','Pelo menos um = total − nenhum. Muitas vezes é mais fácil contar o complemento.','40 alunos, 33 em pelo menos um → 7 em nenhum'],
+  ['Subconjuntos são 2ⁿ','Cada elemento entra ou não entra. Não vazios: 2ⁿ − 1. Contendo um elemento fixo: 2ⁿ⁻¹.','conjunto de 5 elementos: 32 subconjuntos'],
+  ['Preencha o Venn de dentro para fora','Comece pela interseção e vá descontando para achar as regiões de "só A" e "só B".','A = 20, A ∩ B = 8 → só A = 12'],
+ ]],
+ ['mdc','MDC · MMC',[
+  ['Algoritmo de Euclides','mdc(a, b) = mdc(b, resto de a ÷ b). Repita até o resto ser 0.','mdc(84, 36) = mdc(36, 12) = 12'],
+  ['mdc × mmc = a × b','Achou um, o outro sai de graça.','mdc(12, 18) = 6 → mmc = 216 ÷ 6 = 36'],
+  ['Primos entre si','Se não têm fator comum, o mmc é o produto.','mmc(8, 9) = 72'],
+  ['Múltiplos do maior','Para o mmc de dois números pequenos, percorra os múltiplos do maior até achar um divisível pelo menor.','mmc(6, 8): 8, 16, 24 → 24'],
+ ]],
+ ['cont','Contagem',[
+  ['Princípio multiplicativo','Escolhas independentes em sequência se multiplicam.','4 camisas × 3 calças × 2 tênis = 24 looks'],
+  ['Número de divisores','Fatore, some 1 a cada expoente e multiplique.','72 = 2³ · 3² → (3 + 1)(2 + 1) = 12 divisores'],
+  ['Múltiplos até N','Quantidade de múltiplos de k de 1 a N é a parte inteira de N ÷ k.','múltiplos de 7 até 100: 14'],
+  ['Conte o que não serve','Quando a condição é "pelo menos um", conte tudo e tire os casos sem nenhum.','senhas de 3 dígitos com pelo menos um 0: 1.000 − 729 = 271'],
+ ]],
+ ['geral','Conferir a conta',[
+  ['Estime antes','Arredonde tudo e calcule a ordem de grandeza. Se a resposta exata estiver longe, refaça.','48 × 52 ≈ 50 × 50 = 2.500'],
+  ['Último algarismo','O último algarismo de um produto depende só dos últimos algarismos dos fatores.','37 × 43 termina em 1 (7 × 3 = 21)'],
+  ['Noves fora','Reduza cada número à soma dos algarismos (até um só). A conta com esses resíduos tem que bater com o resíduo do resultado. Pega a maioria dos erros, mas não percebe algarismos trocados de lugar.','23 × 47 = 1.081: 5 × 2 = 10 → 1, e 1 + 0 + 8 + 1 = 10 → 1 ✓'],
+ ]],
+];
+
+const TIPS_MAT2 = [
+ ['frac','Frações e decimais',[
+  ['Decore as frações-chave','1/2 = 0,5 · 1/4 = 0,25 · 1/5 = 0,2 · 1/8 = 0,125 · 1/3 ≈ 0,333 · 1/6 ≈ 0,167. Com elas, quase toda fração vira decimal na hora.','3/8 = 3 × 0,125 = 0,375 = 37,5%'],
+  ['Fração de uma quantidade','Divida pelo denominador e multiplique pelo numerador, nessa ordem, para trabalhar com números menores.','3/4 de 120 = 120 ÷ 4 × 3 = 90'],
+  ['Vírgula na multiplicação','Multiplique como se fossem inteiros e depois conte o total de casas decimais.','0,3 × 0,02 = 6 com 3 casas = 0,006'],
+  ['Divisão por decimal','Multiplique os dois números pela mesma potência de 10 até o divisor ficar inteiro.','1,2 ÷ 0,03 = 120 ÷ 3 = 40'],
+  ['Dividir fração é multiplicar pelo inverso','Inverta a segunda e multiplique. Simplifique cruzado antes.','3/4 ÷ 1/8 = 3/4 × 8 = 6'],
+  ['Comparar frações','Multiplique cruzado: a/b > c/d quando a·d > c·b.','3/7 × 4/9: 27 < 28 → 4/9 é maior'],
+ ]],
+ ['seq','Progressões (PA e PG)',[
+  ['Termo geral da PA','aₙ = a₁ + (n − 1)·r. Entre dois termos quaisquer: aⱼ − aᵢ = (j − i)·r.','a₃ = 7 e a₇ = 19 → r = 12 ÷ 4 = 3'],
+  ['Soma da PA','Primeiro mais último, vezes a quantidade, dividido por 2.','2 + 5 + … + 29 (10 termos) = 31 × 10 ÷ 2 = 155'],
+  ['Termo do meio','Em três termos seguidos de uma PA, o do meio é a média aritmética; numa PG positiva, a média geométrica.','4, x, 16 em PG → x = √64 = 8'],
+  ['Termo geral e soma da PG','aₙ = a₁·qⁿ⁻¹. Soma finita: a₁(qⁿ − 1)/(q − 1).','1 + 2 + 4 + … + 2⁹ = 2¹⁰ − 1 = 1.023'],
+  ['PG infinita com |q| < 1','A soma converge para a₁/(1 − q).','8 + 4 + 2 + … = 8 ÷ (1 − 1/2) = 16'],
+  ['Números consecutivos','Com quantidade ímpar de termos, o do meio é a soma ÷ quantidade, e os outros vêm somando e subtraindo a razão. Em qualquer PA, a₁ + aₙ = 2S/n.','3 consecutivos somam 168 → o do meio é 56 e o maior, 57'],
+ ]],
+ ['juros','Juros e porcentagem',[
+  ['Juros simples são uma PA','J = C·i·t: os juros de cada período são sempre os mesmos, calculados sobre o capital inicial.','R$ 1.000 a 2% ao mês, 5 meses: J = 100'],
+  ['Juros compostos são uma PG','M = C·(1 + i)ᵗ. Decore 1,1² = 1,21, 1,1³ = 1,331, 1,2² = 1,44 e 1,5² = 2,25.','R$ 2.000 a 10% por 3 meses = 2.000 × 1,331 = R$ 2.662'],
+  ['Fator multiplicativo','Aumento de p% é × (1 + p/100); desconto, × (1 − p/100). Variações seguidas se multiplicam.','+20% e −20% = 1,2 × 0,8 = 0,96 → queda de 4%'],
+  ['Voltar ao valor original','Depois de cair p%, é preciso subir p/(100 − p), não p.','caiu 20% → precisa subir 20/80 = 25%'],
+  ['Simples × compostos','No começo a diferença é pequena: em 2 meses a 10%, os compostos rendem só 1% do capital a mais (1,21 contra 1,20). Ela cresce com o tempo.','R$ 1.000 a 10% por 3 meses: 1.331 − 1.300 = R$ 31'],
+ ]],
+ ['func','Funções',[
+  ['Raiz da função afim','ax + b = 0 → x = −b/a. O coeficiente a é a inclinação: Δy/Δx.','2x − 6 = 0 → x = 3'],
+  ['Soma e produto das raízes','Em x² + bx + c = 0 (a = 1): soma = −b e produto = c. Procure dois números que satisfaçam os dois.','x² − 7x + 10: soma 7, produto 10 → 2 e 5'],
+  ['Vértice da parábola','xᵥ = −b/2a, que também é a média das raízes. yᵥ = f(xᵥ) é o máximo (a < 0) ou o mínimo (a > 0).','y = x² − 6x + 5: xᵥ = 3, yᵥ = 9 − 18 + 5 = −4'],
+  ['Δ diz quantas raízes','Δ = b² − 4ac: positivo, duas raízes reais; zero, uma dupla; negativo, nenhuma real.','x² + 2x + 5: Δ = 4 − 20 < 0'],
+  ['Composta e inversa','f(g(x)): calcule g primeiro. Para f⁻¹(y), resolva f(x) = y.','f(x) = 3x − 6: f⁻¹(9) → 3x − 6 = 9 → x = 5'],
+  ['Translações','f(x − k) desloca k para a direita; f(x) + k desloca k para cima; −f(x) reflete no eixo x.','y = (x − 2)² é a parábola y = x² 2 unidades à direita'],
+  ['Iterar e recorrência','f(f(x)): aplique uma vez e use o resultado como nova entrada. Se f(x + 1) = f(x) + r, os valores formam uma PA: f(n) = f(0) + n·r.','f(x + 1) = f(x) + 3 e f(0) = 2 → f(20) = 62'],
+  ['Máximo em problemas','Lucro e área máximos ficam no vértice da parábola. Um retângulo de perímetro fixo tem área máxima quando é quadrado.','perímetro 40 → quadrado de lado 10, área 100'],
+ ]],
+ ['poli','Polinômios',[
+  ['Teorema do resto','O resto da divisão de P(x) por (x − a) é P(a). Se P(a) = 0, a é raiz.','P(x) = x³ − 2x + 1 por (x − 2): P(2) = 5'],
+  ['Relações de Girard (grau 3)','Para ax³ + bx² + cx + d: soma = −b/a, soma dos produtos 2 a 2 = c/a, produto = −d/a.','x³ − 6x² + 11x − 6: soma 6, produto 6'],
+  ['Soma dos coeficientes','É P(1). E o termo independente é P(0).','P(x) = 2x³ − x + 5: P(1) = 6'],
+  ['Raízes complexas vêm em pares','Com coeficientes reais, se a + bi é raiz, a − bi também é. Por isso todo polinômio de grau ímpar tem ao menos uma raiz real.','grau 5 com raiz 2 + i: no máximo 3 raízes reais'],
+ ]],
+ ['prob','Probabilidade',[
+  ['Casos favoráveis sobre possíveis','Só vale quando os casos são igualmente prováveis. Liste o espaço amostral se tiver dúvida.','2 dados, soma 7: 6 de 36 = 1/6'],
+  ['Soma de dois dados','O número de formas de obter a soma s é 6 − |s − 7|. A soma 7 é a mais provável.','soma 10: 6 − 3 = 3 formas'],
+  ['Use o complementar','"Pelo menos um" = 1 − P(nenhum).','3 moedas, pelo menos uma cara: 1 − 1/8 = 7/8'],
+  ['E (independentes) multiplica, OU soma','P(A e B) = P(A)·P(B) se independentes. P(A ou B) = P(A) + P(B) − P(A e B).','P(A) = 0,5, P(B) = 0,2 independentes: P(A e B) = 0,1'],
+  ['Condicional reduz o espaço','P(A|B): considere só os casos em que B aconteceu.','dado par (2, 4, 6) e maior que 3: 2 de 3'],
+ ]],
+ ['binom','Binômio de Newton',[
+  ['Termos e coeficientes','(x + y)ⁿ tem n + 1 termos, com coeficientes C(n, 0), C(n, 1), …, C(n, n): a linha n do triângulo de Pascal.','(x + y)⁴: 1, 4, 6, 4, 1'],
+  ['Soma dos coeficientes','Troque todas as variáveis por 1.','(2x − 1)⁷: (2 − 1)⁷ = 1'],
+  ['Termo geral','Tₖ₊₁ = C(n, k)·aⁿ⁻ᵏ·bᵏ. Para achar o coeficiente de xᵐ, iguale o expoente de x a m.','x² em (x + 2)⁴: C(4,2)·2² = 24'],
+  ['Linha de Pascal soma 2ⁿ','C(n, 0) + C(n, 1) + … + C(n, n) = 2ⁿ, que é o número de subconjuntos.','linha 5: 1 + 5 + 10 + 10 + 5 + 1 = 32'],
+ ]],
+ ['matr','Matrizes e sistemas',[
+  ['Determinante 2×2','Diagonal principal menos diagonal secundária: ad − bc.','|3 2; 1 4| = 12 − 2 = 10'],
+  ['Triangular é fácil','Em matriz triangular ou diagonal, o determinante é o produto da diagonal principal.','diagonal 2, 3, 5 → det = 30'],
+  ['Propriedades do det','det(kA) = kⁿ·det A (n = ordem); det(AB) = det A·det B; det(Aᵀ) = det A; det(A⁻¹) = 1/det A.','A 3×3 com det 2: det(2A) = 8 × 2 = 16'],
+  ['Produto de matrizes','(m×n)·(n×p) dá m×p. O elemento cᵢⱼ é linha i de A vezes coluna j de B.','(2×3)·(3×4) → 2×4, 8 elementos'],
+  ['Sistema 2×2','Some ou subtraia as equações para eliminar uma variável. Se o det dos coeficientes é zero, não há solução única.','x + y = 10, x − y = 4 → 2x = 14 → x = 7'],
+  ['Problemas com duas incógnitas','Suponha que todos são do tipo mais simples e veja o que sobra. Ou some e subtraia as equações, como num sistema 2×2.','20 cabeças e 56 pés: só galinhas dariam 40 pés; os 16 a mais são 2 por coelho → 8 coelhos'],
+ ]],
+ ['gplan','Geometria plana',[
+  ['Ângulos de polígonos','Soma dos internos: (n − 2)·180°. Cada externo de um regular: 360°/n. Interno = 180° − externo.','hexágono regular: externo 60°, interno 120°'],
+  ['Áreas básicas','Triângulo b·h/2; trapézio (B + b)·h/2; losango D·d/2; círculo πr²; setor (θ/360)·πr².','trapézio 6 e 4, altura 5: 25'],
+  ['Semelhança','Se os lados estão na razão k, as áreas estão na razão k² (e volumes, k³).','razão 3: área × 9'],
+  ['Diagonal do quadrado','d = ℓ√2, porque a diagonal é a hipotenusa de catetos ℓ e ℓ. Na volta, ℓ = d/√2 = d√2/2. A área também sai da diagonal: d²/2. (A do cubo é ℓ√3.)','ℓ = 5: d = 5√2; d = 10: ℓ = 5√2 e área 50'],
+  ['Triângulo equilátero e hexágono','Altura ℓ√3/2; área ℓ²√3/4. Hexágono regular = 6 equiláteros.','ℓ = 4: área 4√3'],
+  ['Relações no triângulo retângulo','h² = m·n (projeções); cateto² = hipotenusa × projeção; hipotenusa inscrita é diâmetro.','projeções 4 e 9 → h = 6'],
+  ['Área vai com o quadrado','Diâmetro × k → área × k². Para comparar pizzas (ou preço por área), compare d².','uma pizza de 40 cm tem a área de 4 de 20 cm; diâmetro +20% → área +44%'],
+  ['Existência do triângulo','Cada lado fica entre a diferença e a soma dos outros dois: |b − c| < a < b + c.','lados 3 e 7 → 4 < x < 10 → 5 valores inteiros'],
+ ]],
+ ['gesp','Geometria espacial',[
+  ['Volumes','Prisma e cilindro: área da base × altura. Pirâmide e cone: um terço disso. Esfera: 4πr³/3.','cone r = 3, h = 4: 9π × 4 ÷ 3 = 12π'],
+  ['Diagonais','Cubo: a√3. Paralelepípedo: √(a² + b² + c²). Há ternos que dão inteiro: 1-2-2 → 3, 2-3-6 → 7.','2 × 3 × 6: √49 = 7'],
+  ['Euler','Em poliedros convexos, V − A + F = 2. Prisma de base n: V = 2n, A = 3n, F = n + 2. Pirâmide: V = n + 1, A = 2n, F = n + 1.','prisma hexagonal: 12 − 18 + 8 = 2'],
+  ['Litros e cm³','1 L = 1 dm³ = 1.000 cm³; 1 m³ = 1.000 L.','caixa 20 × 20 × 20 cm = 8.000 cm³ = 8 L'],
+  ['Cilindro com π = 3','V = πr²h. Com medidas em cm, o resultado em cm³ já é o volume em mL.','lata de raio 3 cm e altura 10 cm → 3 × 9 × 10 = 270 mL'],
+ ]],
+ ['trig','Trigonometria',[
+  ['Tabela dos notáveis','sen 30°, 45°, 60° = 1/2, √2/2, √3/2. O cosseno é a mesma lista ao contrário. tg = sen/cos: √3/3, 1, √3.','cos 30° = √3/2'],
+  ['Graus e radianos','π rad = 180°. Então π/6 = 30°, π/4 = 45°, π/3 = 60°, π/2 = 90°.','5π/6 = 150°'],
+  ['Redução ao 1º quadrante','Ache o ângulo de referência e ajuste o sinal: sen é positivo no 1º e 2º quadrantes; cos no 1º e 4º.','cos 120° = −cos 60° = −1/2'],
+  ['Identidade fundamental','sen² x + cos² x = 1. Com sen 0,6, o cos é 0,8 (terno 3-4-5).','sen x = 0,6 → cos x = 0,8 e tg x = 0,75'],
+  ['Lei dos cossenos','a² = b² + c² − 2bc·cos A. Com 60°: a² = b² + c² − bc; com 120°: + bc.','lados 3 e 8 com 60°: 9 + 64 − 24 = 49 → 7'],
+  ['Período e imagem','sen(kx) tem período 2π/k. a + b·sen x varia de a − |b| a a + |b|.','sen(4x): período π/2'],
+  ['Período de fenômenos','Em sen(kt) ou cos(kt), o período é 2π/k. O seno chega ao máximo quando o argumento vale π/2, a 1/4 do período.','h(t) = 2 + cos(πt/6) → período 2π ÷ (π/6) = 12 h'],
+ ]],
+ ['ganal','Geometria analítica',[
+  ['Distância entre pontos','√(Δx² + Δy²): procure ternos pitagóricos nos Δ.','(1, 2) e (7, 10): Δ 6 e 8 → 10'],
+  ['Ponto médio','Média das coordenadas.','(2, 4) e (6, −2) → (4, 1)'],
+  ['Retas','m = Δy/Δx. Paralelas têm o mesmo m; perpendiculares, m₁·m₂ = −1.','perpendicular a y = 2x + 1: m = −1/2'],
+  ['Circunferência','(x − a)² + (y − b)² = r². Na forma expandida x² + y² − 2ax − 2by + c = 0: r² = a² + b² − c.','x² + y² − 4x − 6y + 4 = 0: centro (2, 3), r = 3'],
+  ['Distância de ponto a reta','|ax₀ + by₀ + c| / √(a² + b²).','(0, 0) a 3x + 4y − 10 = 0: 10 ÷ 5 = 2'],
+ ]],
+ ['logexp','Logaritmos e exponenciais',[
+  ['Logaritmo é um expoente','log_b a = x significa bˣ = a.','log₂ 32 = 5 porque 2⁵ = 32'],
+  ['Propriedades','log(a·b) = log a + log b; log(a/b) = log a − log b; log aⁿ = n·log a; log_b a = log a / log b.','log 2 + log 5 = log 10 = 1'],
+  ['Com log 2 = 0,3 e log 3 = 0,48','Escreva o número com 2, 3 e 10.','log 12 = 2·0,3 + 0,48 = 1,08'],
+  ['Equação exponencial','Iguale as bases e depois os expoentes.','4ˣ = 8 → 2²ˣ = 2³ → x = 3/2'],
+  ['Número de algarismos','N tem ⌊log N⌋ + 1 algarismos.','2¹⁰⁰: 100 × 0,301 = 30,1 → 31 algarismos'],
+  ['Condição de existência','log_b a existe se a > 0, b > 0 e b ≠ 1.','log(x − 3) exige x > 3'],
+  ['Escalas logarítmicas','Richter, pH e decibel: cada unidade é um fator 10 (no decibel, cada 10 dB). Diferença de 2 na escala = fator 100. Se log E = 1,5M + c, cada ponto multiplica a energia por 10<sup>1,5</sup> ≈ 32.','magnitude 7 contra 5 → amplitude 100 vezes maior'],
+ ]],
+ ['med','Médias e estatística',[
+  ['Média é soma ÷ quantidade','Para achar o número que entrou ou saiu, trabalhe com as somas: soma = média × quantidade.','5 números com média 8 somam 40; 6 com média 9 somam 54 → entrou 14'],
+  ['Média ponderada','Multiplique cada valor pelo seu peso, some e divida pela soma dos pesos. Para juntar grupos, os pesos são os tamanhos.','20 alunos com média 6 e 30 com média 8 → (120 + 240) ÷ 50 = 7,2'],
+  ['Mediana','Ponha os valores em ordem: é o do meio, ou a média dos dois do meio quando a quantidade é par.','1, 3, 5, 7, 8, 9 → (5 + 7) ÷ 2 = 6'],
+  ['Transformar todos os valores','Somar k a todos soma k à média; multiplicar todos por k multiplica a média por k.','média 20 → os valores 3x + 5 têm média 65'],
+  ['Trabalhe com os desvios','Escolha um valor perto do meio e some só as diferenças até ele.','97, 101, 104, 98: −3 + 1 + 4 − 2 = 0 → média 100'],
+ ]],
+ ['estm','Estimar contas',[
+  ['Margem de erro','Nestas questões vale qualquer resposta a até 10% do valor exato (5% nas raízes). Não faça a conta inteira: arredonde e responda.','exato 9.761 → 9.000 a 10.700 valem'],
+  ['Arredonde e compense','Arredonde para números redondos. Se um fator sobe, tente descer o outro, e os erros se cancelam.','49,3 × 198 ≈ 50 × 200 = 10.000 (exato 9.761)'],
+  ['Porcentagem aproximada','Troque a porcentagem por uma vizinha fácil (10%, 20%, 25%, 50%) e o valor por um redondo.','19,4% de 4.130 ≈ 20% de 4.000 = 800'],
+  ['Raiz aproximada','Ache o quadrado perfeito mais perto: a raiz fica perto dele. Para refinar, √(k² + d) ≈ k + d/(2k).','√2.050: 45² = 2.025 → ≈ 45 (exato 45,3)'],
+  ['Notação científica','Arredonde as mantissas, faça a conta com elas e some (ou subtraia) os expoentes.','3,1 × 10⁵ × 2,9 × 10⁻³ ≈ 3 × 3 × 10² = 900'],
+ ]],
+];
+
+const TIPS_FIS = [
+ ['f_un','Grandezas e unidades',[
+  ['km/h e m/s','Divida por 3,6 para ir de km/h a m/s; multiplique para voltar.','72 km/h = 20 m/s · 108 km/h = 30 m/s'],
+  ['Prefixos','G = 10⁹, M = 10⁶, k = 10³, c = 10⁻², m = 10⁻³, µ = 10⁻⁶, n = 10⁻⁹. Em área, eleve ao quadrado; em volume, ao cubo.','1 cm² = 10⁻⁴ m² · 1 cm³ = 10⁻⁶ m³ · 1 L = 10⁻³ m³'],
+  ['Notação científica','Multiplique as mantissas e some os expoentes; na divisão, subtraia.','(3 × 10⁸)(2 × 10⁻³) = 6 × 10⁵'],
+  ['Ordem de grandeza','Escreva como a × 10ⁿ. Se a ≥ √10 ≈ 3,16, a ordem é 10ⁿ⁺¹; senão, 10ⁿ.','86.400 s = 8,64 × 10⁴ → 10⁵'],
+  ['Análise dimensional','Confira a resposta pelas unidades: N = kg·m/s², J = N·m, W = J/s, Pa = N/m².','Ec = mv²/2 → kg·m²/s² = J ✓'],
+  ['Carga e energia de bateria','Q = i·Δt com o tempo em segundos: 1 A·h = 3.600 C, então mAh × 3,6 dá a carga em coulombs. Energia: Wh = V × A·h, e 1 kWh = 3,6 MJ.','3.000 mAh = 3 A·h = 10.800 C; a 5 V, guarda 15 Wh'],
+  ['Escala: L, L² e L³','Se todas as medidas ficam k vezes maiores, as áreas ficam × k² e os volumes (e pesos) × k³. Por isso a pressão nas patas (peso ÷ área) fica × k.','animal 2 vezes maior: área × 4, peso × 8, pressão × 2'],
+ ]],
+ ['f_cin','Cinemática',[
+  ['MUV em três fórmulas','v = v₀ + at · s = v₀t + at²/2 · v² = v₀² + 2aΔs (Torricelli, quando não há tempo).','0 a 20 m/s com a = 4: Δs = 400 ÷ 8 = 50 m'],
+  ['Queda livre com g = 10','h = 5t² e v = 10t. Decore: 1 s → 5 m; 2 s → 20 m; 3 s → 45 m; 4 s → 80 m.','cai 45 m → 3 s, chega a 30 m/s'],
+  ['Lançamento vertical','Subida: t = v₀/g; altura máxima v₀²/2g. Volta à mão em 2v₀/g.','v₀ = 20 m/s: sobe 20 m em 2 s'],
+  ['Horizontal: movimentos independentes','O tempo de queda depende só da altura; o alcance é v·t.','de 20 m, a 5 m/s: t = 2 s, alcance 10 m'],
+  ['Velocidade média em trechos iguais','Para distâncias iguais com v₁ e v₂, a média é 2v₁v₂/(v₁ + v₂), não a média simples.','40 e 60 km/h → 48 km/h'],
+  ['Gráfico v × t','A área sob a curva é o deslocamento; a inclinação é a aceleração.','0 a 20 m/s em 10 s: área 100 m'],
+  ['MCU','v = ωR, ω = 2πf, T = 1/f, a꜀ = v²/R. rpm ÷ 60 = Hz.','120 rpm = 2 Hz → T = 0,5 s'],
+  ['Vento e correnteza','Na mesma direção, some (a favor) ou subtraia (contra). Perpendiculares: use Pitágoras.','avião a 400 km/h com vento lateral de 300 km/h → 500 km/h em relação ao solo'],
+  ['Voltas e polias','f = voltas ÷ tempo e T = tempo ÷ voltas; v = 2πR·f. Polias ligadas por correia, e coroa e catraca pela corrente, têm a mesma velocidade na borda: R₁f₁ = R₂f₂ (com engrenagens, use o número de dentes).','coroa de 30 dentes a 1 volta/s e catraca de 10 → a roda dá 3 voltas/s'],
+  ['Achar a aceleração','Partindo do repouso, s = at²/2 → a = 2s/t². A velocidade final é v = 2s/t, o dobro da média.','50 m em 5 s → a = 100 ÷ 25 = 4 m/s²'],
+ ]],
+ ['f_din','Leis de Newton e atrito',[
+  ['Resultante = m·a','Some as forças com sinal no eixo do movimento antes de dividir pela massa.','F = 50 N, atrito 20 N, m = 5 kg → a = 6 m/s²'],
+  ['Blocos juntos','Para achar a, trate tudo como um só corpo: a = F/(soma das massas). Para a tração, olhe só o bloco puxado pelo fio.','F = 30 N em 2 + 4 kg → a = 5; tração no de 4 kg = 20 N'],
+  ['Plano inclinado sem atrito','a = g·sen θ, sem depender da massa. Componente do peso: P·sen θ ao longo, P·cos θ normal.','30°: a = 5 m/s²'],
+  ['Elevador','Normal = m(g + a) acelerando para cima (ou freando ao descer); m(g − a) no caso oposto.','60 kg, a = 2 subindo: 720 N'],
+  ['Atrito','Estático máximo e cinético: f = μN. Em MRU, a força aplicada iguala o atrito.','10 kg, μ = 0,3: f = 30 N'],
+  ['Ação e reação','Atuam em corpos diferentes. Peso e normal não formam par.','Terra puxa a maçã ↔ maçã puxa a Terra'],
+  ['Velocidade terminal','Velocidade constante quer dizer resultante nula: a resistência do ar iguala o peso. Com F = b·v, v = mg/b; com F = b·v², v = √(mg/b).','paraquedista de 80 kg em queda constante: resistência de 800 N'],
+  ['Mola com peso pendurado','No equilíbrio, kx = mg: a elongação é proporcional à massa pendurada. Passe cm para m antes de usar k em N/m.','2 kg em k = 400 N/m → x = 20 ÷ 400 = 0,05 m = 5 cm'],
+ ]],
+ ['f_en','Trabalho, energia e potência',[
+  ['Conservação','Sem atrito, mgh = mv²/2 → v = √(2gh), sem depender da massa.','h = 5 m → v = 10 m/s · h = 20 m → 20 m/s'],
+  ['Ec cresce com v²','Dobrar a velocidade quadruplica a energia cinética (e a distância de frenagem).','30 → 60 km/h: frenagem 4 vezes maior'],
+  ['Trabalho','W = F·d·cos θ: nulo a 90° (força centrípeta, normal no plano), negativo a 180° (atrito).','F = 10 N, d = 4 m, 60°: W = 20 J'],
+  ['Potência','P = W/t = F·v. Rendimento = útil/total.','100 kg erguidos 5 m em 10 s: 500 W'],
+  ['Energia dissipada','É a diferença entre a mecânica inicial e a final.','2 kg de 10 m chegam a 10 m/s: 200 − 100 = 100 J'],
+  ['Teorema da energia cinética','O trabalho da força resultante é a variação da energia cinética: W = m(v² − v₀²)/2. Freando até parar, F·d = mv²/2.','1.000 kg de 10 para 20 m/s: W = 500 × (400 − 100) = 150 kJ'],
+  ['Energia em altura','Para saber a que altura uma energia ergueria um corpo, iguale a mgh: h = E/(mg). Converta antes: 1 Wh = 3.600 J; 1 kcal ≈ 4,2 kJ.','10 Wh = 36.000 J → pessoa de 72 kg: 36.000 ÷ 720 = 50 m'],
+  ['Usina e painel solar','Hidrelétrica: P = ρ·Z·g·h, com ρ = 1.000 kg/m³ (cada m³/s caindo 1 m dá 10 kW). Painel: P = irradiância × área × eficiência.','2 m³/s caindo 50 m = 1 MW; 2 m² × 1.000 W/m² × 20% = 400 W'],
+ ]],
+ ['f_mom','Quantidade de movimento',[
+  ['Impulso = variação de p','F·Δt = m·Δv. Aumentar o tempo de impacto reduz a força (airbag, colchão).','0,5 kg de 20 m/s a 0 em 0,1 s: F = 100 N'],
+  ['Colisão: p sempre se conserva','Em sistemas isolados, a soma de m·v antes = depois. A energia cinética só se conserva na elástica.','2 kg a 6 m/s gruda em 1 kg parado: v = 4 m/s'],
+  ['Explosão e recuo','Partindo do repouso, os p ficam iguais e opostos: m₁v₁ = m₂v₂.','60 kg a 2 m/s ↔ 40 kg a 3 m/s'],
+  ['Elástica com massas iguais','Os corpos trocam de velocidade.','bola de bilhar para; a outra sai com a velocidade dela'],
+ ]],
+ ['f_grav','Gravitação e astronomia',[
+  ['Inverso do quadrado','F e g caem com 1/d² (d a partir do centro). Dobrar a distância divide por 4.','altura igual ao raio: g = 10/4 = 2,5 m/s²'],
+  ['3ª lei de Kepler','T² ∝ a³. Em anos e unidades astronômicas, T² = a³.','a = 4 UA → T = 8 anos'],
+  ['2ª lei de Kepler','Áreas iguais em tempos iguais: o planeta é mais rápido no periélio.',''],
+  ['Massa × peso','Massa não muda de lugar para lugar; peso = m·g muda.','60 kg na Lua continua 60 kg'],
+  ['Luz como régua','c = 3 × 10⁵ km/s: Sol–Terra ≈ 500 s (≈ 8 min); Terra–Lua ≈ 1,3 s.','1 ano-luz ≈ 9,5 × 10¹² km (distância)'],
+  ['Estações e eclipses','Estações vêm da inclinação do eixo; eclipse solar só na lua nova, lunar só na cheia.',''],
+  ['Onde as atrações se anulam','Com massas M e m, as distâncias até o ponto ficam na razão √M : √m. Terra e Lua (81 : 1) → 9 : 1, então o ponto fica a 9/10 do caminho, a partir da Terra.','massas 4 : 1 a 30 UA → 20 UA da maior e 10 da menor'],
+ ]],
+ ['f_hid','Torque e hidrostática',[
+  ['Equilíbrio de alavanca','Torques iguais: F₁d₁ = F₂d₂ (ou m₁d₁ = m₂d₂).','40 kg a 3 m equilibra 60 kg a 2 m'],
+  ['Pressão na água','Cada 10 m de água somam ≈ 1 atm (10⁵ Pa). p = p₀ + ρgh.','a 30 m: 1 + 3 = 4 atm'],
+  ['Empuxo','E = ρ<sub>líq</sub>·V<sub>sub</sub>·g. Em água, 1 L submerso dá 10 N.','2 L submersos: 20 N'],
+  ['Fração submersa','Num corpo flutuando, fração submersa = ρ<sub>corpo</sub>/ρ<sub>líquido</sub>.','gelo 0,9 em água: 90% submerso'],
+  ['Prensa hidráulica','F₂ = F₁·A₂/A₁. Raio 3 vezes maior → área 9 vezes maior.','10 N no pequeno → 90 N no grande'],
+  ['Pressão em área pequena','Passe a área para m² antes de dividir: 1 cm² = 10⁻⁴ m² e 1 mm² = 10⁻⁶ m². Depois, 1 atm ≈ 10⁵ Pa.','0,05 N numa área de 0,004 mm² → 1,25 × 10⁷ Pa = 125 atm'],
+  ['Vazão','Z = V/Δt = A·v. Num cano que afina, A·v não muda: diâmetro pela metade → área ÷ 4 → velocidade × 4. Atalho: cm² × m/s ÷ 10 = L/s.','10 cm² a 2 m/s = 2 L/s'],
+ ]],
+ ['f_term','Termometria e calor',[
+  ['Escalas: a proporção','Toda escala marca o gelo e a água fervendo, e uma temperatura fica na mesma posição entre esses dois pontos em qualquer escala: (C − 0)/(100 − 0) = (F − 32)/(212 − 32) = (K − 273)/(373 − 273). Simplificando: C/5 = (F − 32)/9 = (K − 273)/5.','25 °C: 25/5 = 5, então F − 32 = 45, F = 77 °F e K = 298 K'],
+  ['Escala inventada','Mesma ideia, com os pontos do enunciado: (X − X<sub>gelo</sub>)/(X<sub>vapor</sub> − X<sub>gelo</sub>) = C/100.','gelo 20 °X e vapor 220 °X: 50 °C fica na metade, X = 20 + 100 = 120 °X'],
+  ['Atalho de cabeça','Isolando F na proporção: F = 1,8C + 32 e K = C + 273. Nas variações o 32 e o 273 somem: ΔF = 1,8ΔC e ΔK = ΔC.','subir 10 °C = subir 18 °F = subir 10 K'],
+  ['Calor sensível','Q = m·c·ΔT. Água: c = 1 cal/g·°C (4.200 J/kg·°C).','200 g de água + 30 °C = 6.000 cal'],
+  ['Calor latente','Q = m·L, sem mudar a temperatura. Gelo: 80 cal/g; vaporização da água: 540 cal/g.','10 g de gelo derretem com 800 cal'],
+  ['Mistura de águas','A temperatura final é a média das temperaturas ponderada pelas massas.','100 g a 20 °C + 300 g a 60 °C → 50 °C'],
+  ['Dilatação','ΔL = L₀αΔT; superficial β = 2α; volumétrica γ = 3α.','100 m de aço (1,2 × 10⁻⁵), +50 °C: 6 cm'],
+  ['Propagação','Condução (sólidos), convecção (fluidos se movendo), irradiação (única no vácuo).',''],
+  ['Gelo até água morna','Some as etapas: derreter (m·80) e depois aquecer (m·1·ΔT). Gelo abaixo de 0 °C precisa antes chegar a 0 °C, com c = 0,5 cal/g·°C.','50 g de gelo a 0 °C até 20 °C: 50 × (80 + 20) = 5.000 cal'],
+ ]],
+ ['f_gas','Gases e termodinâmica',[
+  ['Sempre em kelvin','pV/T = constante com T em K. Isotérmica: pV constante; isobárica: V/T; isocórica: p/T.','27 °C → 327 °C é 300 K → 600 K: volume dobra'],
+  ['1ª lei','ΔU = Q − W. Q > 0 recebe calor; W > 0 o gás realiza trabalho (expande).','recebe 500 J e realiza 200 J: ΔU = 300 J'],
+  ['Trabalho na isobárica','W = p·ΔV. Atenção: 1 L = 10⁻³ m³.','2 × 10⁵ Pa e 3 L: W = 600 J'],
+  ['Casos especiais','Isotérmica: ΔU = 0. Adiabática: Q = 0. Isocórica: W = 0.',''],
+  ['Carnot','η = 1 − T<sub>fria</sub>/T<sub>quente</sub>, em kelvin. Nenhuma máquina real passa disso.','300 K e 600 K: 50%'],
+ ]],
+ ['f_ond','Ondas e som',[
+  ['Equação fundamental','v = λ·f e f = 1/T. A frequência é da fonte; ao mudar de meio, mudam v e λ.','som 340 m/s, 170 Hz → λ = 2 m'],
+  ['Eco','A distância até o obstáculo é v·t/2, porque o som vai e volta.','eco em 2 s → 340 m'],
+  ['Cordas e tubos','Corda e tubo aberto: fₙ = n·v/2L (todos os harmônicos). Tubo fechado: v/4L, só ímpares.','corda 1 m, v = 200: f₁ = 100 Hz'],
+  ['Decibéis','Cada +10 dB multiplica a intensidade por 10.','+30 dB = × 1.000'],
+  ['Espectro','Rádio < micro-ondas < infravermelho < visível (vermelho → violeta) < UV < X < gama, em frequência.','FM 100 MHz → λ = 3 m'],
+  ['Fenômenos','Polarização só em ondas transversais (som não polariza). Difração é forte quando a fenda ≈ λ.',''],
+  ['Luz: λ e f','f = c/λ, com λ em metros (1 nm = 10⁻⁹ m). O visível vai de ≈ 400 nm (violeta) a 750 nm (vermelho): f de 7,5 a 4 × 10¹⁴ Hz. Ao mudar de meio a frequência fica e λ é dividido por n.','500 nm → 3 × 10⁸ ÷ (5 × 10⁻⁷) = 6 × 10¹⁴ Hz'],
+  ['Fótons','E = h·f. Com h ≈ 4 × 10⁻¹⁵ eV·s, hc ≈ 1.200 eV·nm e E (eV) ≈ 1.200 ÷ λ (nm) (o valor exato é 1.240). Fótons por segundo = potência ÷ energia de um fóton.','600 nm → 2 eV; laser de 1 mW com fótons de 2 × 10⁻¹⁹ J → 5 × 10¹⁵ por segundo'],
+  ['Marcas de gotas','Algo que pinga com frequência f sobre uma superfície que anda a v deixa marcas a v/f uma da outra. É o mesmo λ = v/f das ondas.','4 gotas/s numa esteira a 0,8 m/s → marcas a 20 cm'],
+ ]],
+ ['f_opt','Óptica',[
+  ['Espelho plano','A imagem fica tão atrás quanto o objeto está à frente. Girar o espelho θ gira o raio 2θ. Espelhos em ângulo α formam 360/α − 1 imagens.','espelhos a 60°: 5 imagens'],
+  ['Equação de Gauss','1/f = 1/p + 1/p′ e A = −p′/p. p′ negativo = imagem virtual.','f = 10, p = 15 → p′ = 30, A = −2'],
+  ['Vergência','V = 1/f com f em metros (dioptrias). Convergente +, divergente −.','f = 25 cm → 4 di'],
+  ['Refração','n = c/v; n₁·sen θ₁ = n₂·sen θ₂. Entrando em meio mais refringente, o raio se aproxima da normal.','v = 2 × 10⁸ → n = 1,5'],
+  ['Reflexão total','Só do meio mais refringente para o menos, com ângulo maior que o limite: sen L = n<sub>menor</sub>/n<sub>maior</sub>.','n = 2 → L = 30°'],
+  ['Olho','Miopia: divergente. Hipermetropia e presbiopia: convergente. Astigmatismo: cilíndrica.',''],
+  ['Aumento da imagem','|A| = p′/p = tamanho da imagem ÷ tamanho do objeto. Um projetor põe o objeto pouco além do foco para ter p′ grande.','slide a 5 cm da lente, tela a 3 m → A = 300 ÷ 5 = 60'],
+ ]],
+ ['f_ele','Eletrostática e capacitores',[
+  ['Coulomb','F = kq₁q₂/d², k = 9 × 10⁹. Mesmas proporções da gravitação: dobrar d divide F por 4.','1 µC e 1 µC a 0,3 m: 0,1 N'],
+  ['Contato entre esferas iguais','A carga total se divide igualmente.','+6 µC e −2 µC → +2 µC cada'],
+  ['Campo e potencial','F = qE; U = E·d em campo uniforme; W = q·U.','E = 500 V/m, d = 2 cm: U = 10 V'],
+  ['Capacitores','Q = CU; energia CU²/2. Em paralelo somam; em série, produto/soma (o contrário dos resistores).','3 µF e 6 µF em série: 2 µF'],
+  ['Condutor em equilíbrio','Campo interno nulo; cargas na superfície (gaiola de Faraday).',''],
+ ]],
+ ['f_cir','Circuitos elétricos',[
+  ['Ohm e potência','U = Ri; P = Ui = U²/R = Ri². Use a forma que tiver os dados.','100 Ω sob 200 V: P = 400 W'],
+  ['Associações','Série: soma. Paralelo de dois: produto/soma. n iguais em paralelo: R/n.','4 Ω ∥ 12 Ω = 48/16 = 3 Ω'],
+  ['Energia elétrica','E (kWh) = P (kW) × t (h).','chuveiro 4.000 W por 30 min = 2 kWh'],
+  ['Gerador real','U = ε − r·i; i = ε/(R + r); curto: ε/r.','12 V, r = 1 Ω, R = 5 Ω → 2 A'],
+  ['2ª lei de Ohm','R = ρL/A. Dobrar o diâmetro → área × 4 → R ÷ 4.',''],
+  ['Chuveiro e tomada','Com U fixa, menor R → maior potência (posição inverno). Em casa tudo fica em paralelo.',''],
+  ['Corrente de um aparelho','i = P/U e R = U²/P. Com a mesma resistência, a potência vai com U²: um chuveiro de 220 V ligado em 110 V dá só 1/4 da potência.','chuveiro de 5.500 W em 220 V → 25 A'],
+  ['Bateria','Energia (Wh) = tensão (V) × carga (A·h). Duração = energia ÷ potência do aparelho; para carregar, energia ÷ potência do carregador.','5 V × 4 A·h = 20 Wh; com 2 W, dura 10 h'],
+ ]],
+ ['f_mag','Magnetismo e indução',[
+  ['Força magnética','Sobre carga: F = qvB·sen θ (nula se v = 0 ou v ∥ B). Sobre fio: F = BiL·sen θ.','B = 0,5 T, i = 4 A, L = 0,2 m: 0,4 N'],
+  ['Trajetória circular','r = mv/(qB): mais rápida, raio maior; campo mais forte, raio menor. A força não realiza trabalho.',''],
+  ['Fio longo','B = μ₀i/(2πd) = 2 × 10⁻⁷·i/d. Correntes paralelas no mesmo sentido se atraem.','10 A a 0,1 m: 2 × 10⁻⁵ T'],
+  ['Faraday e Lenz','ε = N·ΔΦ/Δt, com Φ = BA·cos θ. A corrente induzida se opõe à variação do fluxo. Barra: ε = BLv.','ΔΦ = 0,5 Wb em 0,1 s: 5 V'],
+  ['Transformador','U₂/U₁ = N₂/N₁ e i₂/i₁ = N₁/N₂. Só funciona com corrente alternada.','100 → 1.000 espiras: 12 V vira 120 V'],
+ ]],
+ ['f_est','Ordem de grandeza e estimativas',[
+  ['Ordem de grandeza','Escreva como a × 10ⁿ. Se a ≥ √10 ≈ 3,16, a ordem é 10ⁿ⁺¹; senão, 10ⁿ.','86.400 s = 8,64 × 10⁴ → 10⁵ · 2,1 × 10⁸ → 10⁸'],
+  ['Contagens do cotidiano','Multiplique a taxa pelo tempo, com tudo na mesma unidade. 1 dia = 86.400 s ≈ 10⁵ s; 1 ano ≈ 3 × 10⁷ s; 1 ano ≈ 5 × 10⁵ min.','70 batidas por minuto × 1.440 min ≈ 10⁵ batidas por dia'],
+  ['Valores típicos','Vale decorar: pessoa ≈ 70 kg e 1,7 m; carro ≈ 1.000 kg; Brasil ≈ 2 × 10⁸ pessoas; raio da Terra ≈ 6.400 km; Terra–Lua ≈ 3,8 × 10⁵ km; Terra–Sol ≈ 1,5 × 10⁸ km; átomo ≈ 10⁻¹⁰ m.','massa de um elefante ≈ 5.000 kg → 10⁴'],
+  ['Estimativa com dados','Arredonde os dados para números fáceis antes de multiplicar. A resposta vale dentro da margem, então não precisa da conta exata.','5.400 W por 12 min/dia em 30 dias ≈ 5 kW × 0,2 h × 30 = 30 kWh (exato 32,4)'],
+ ]],
+];
+
+const TIPS_QUI = [
+ ['q_mol','Mol e massa molar',[
+  ['Massas para decorar','H 1, C 12, N 14, O 16, Na 23, Mg 24, Al 27, S 32, Cl 35,5, K 39, Ca 40, Fe 56.','H₂SO₄ = 2 + 32 + 64 = 98 g/mol'],
+  ['Moléculas que aparecem sempre','H₂O 18 · CO₂ 44 · CH₄ 16 · NH₃ 17 · O₂ 32 · NaOH 40 · NaCl 58,5 · CaCO₃ 100 · glicose 180.',''],
+  ['n = m/M','Escolha números redondos: 88 g de CO₂ são 2 mol.','9 g de H₂O = 0,5 mol'],
+  ['Avogadro','1 mol = 6 × 10²³ entidades. Conte os átomos da fórmula para ter mols de átomos.','1 mol de H₂O = 3 mol de átomos = 1,8 × 10²⁴ átomos'],
+  ['% em massa','Massa do elemento na fórmula ÷ massa molar.','Ca em CaCO₃: 40/100 = 40%'],
+ ]],
+ ['q_gas','Gases',[
+  ['Volume molar','Nas CNTP (0 °C, 1 atm), 1 mol de gás ideal ocupa 22,4 L. A 25 °C e 1 atm, ≈ 24,5 L.','44,8 L nas CNTP = 2 mol'],
+  ['Transformações','pV/T constante, com T em kelvin. Boyle: pV; Charles/Gay-Lussac: V/T ou p/T.','4 L a 1 atm → 2 atm: 2 L'],
+  ['Clapeyron','pV = nRT, R = 0,082 atm·L/mol·K. A 27 °C, RT = 24,6.','1 mol em 24,6 L a 27 °C: 1 atm'],
+  ['Dalton','Pressão parcial = fração em mol × pressão total.','1 mol O₂ + 3 mol N₂ a 4 atm: p(O₂) = 1 atm'],
+  ['Graham','v₁/v₂ = √(M₂/M₁): gases leves se difundem mais rápido.','H₂ é 4 vezes mais rápido que O₂ (√16)'],
+ ]],
+ ['q_sol','Soluções e concentração',[
+  ['Concentração comum e molar','C = m/V (g/L); M = n/V (mol/L). Ligue as duas: C = M × massa molar.','0,5 mol/L de NaOH = 20 g/L'],
+  ['Diluição','C₁V₁ = C₂V₂. Diluir 10 vezes divide a concentração por 10.','100 mL de 2 mol/L até 400 mL: 0,5 mol/L'],
+  ['Mistura do mesmo soluto','Some os solutos (C·V) e divida pelo volume total.','100 mL a 1 + 300 mL a 0,2 → 0,4 mol/L'],
+  ['ppm','1 ppm = 1 mg por kg (≈ 1 mg/L de água).','2 mg em 4 L = 0,5 ppm'],
+  ['Coligativas','Dependem do número de partículas: use i (van’t Hoff). NaCl i = 2, CaCl₂ i = 3, glicose i = 1.','mesma molaridade: CaCl₂ ferve mais alto que NaCl'],
+  ['Rótulos do dia a dia','% (m/V) é grama por 100 mL: × 10 dá g/L. mg/L ÷ massa molar = mmol/L. Dose de remédio: mg/kg × massa da pessoa ÷ concentração do frasco.','soro 0,9% = 9 g/L; 10 mg/kg × 15 kg ÷ 50 mg/mL = 3 mL'],
+ ]],
+ ['q_ato','Átomo e tabela periódica',[
+  ['A, Z e n','n = A − Z. Íons: cátion perde elétrons (elétrons = Z − carga), ânion ganha.','Fe³⁺ (Z = 26): 23 elétrons'],
+  ['Distribuição eletrônica','Ordem de Pauling: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p. Capacidades s 2, p 6, d 10.','Fe (26): …4s² 3d⁶'],
+  ['Valência e grupo','Grupos 1 e 2: 1 e 2 elétrons de valência. Grupos 13 a 18: grupo − 10. Período = número de camadas.','S (grupo 16): 6 de valência'],
+  ['Tendências','Raio cresce para baixo e para a esquerda. Eletronegatividade e energia de ionização, para cima e para a direita (F é o mais eletronegativo).',''],
+  ['Iso-','Isótopos: mesmo Z. Isóbaros: mesmo A. Isótonos: mesmo n. Isoeletrônicos: mesmos elétrons.','Na⁺, Mg²⁺ e F⁻: 10 elétrons'],
+ ]],
+ ['q_rad','Radioatividade',[
+  ['Meia-vida','Depois de n meias-vidas resta (1/2)ⁿ. 1/2, 1/4, 1/8, 1/16 = 50%, 25%, 12,5%, 6,25%.','80 g, 3 meias-vidas: 10 g'],
+  ['Emissões','α (⁴₂He): A − 4, Z − 2. β⁻: A igual, Z + 1. γ: não muda A nem Z.','²³⁸U emite α → ²³⁴Th'],
+  ['Contar α e β numa série','α = ΔA/4. Depois, β = 2α − ΔZ.','²³⁸U(92) → ²⁰⁶Pb(82): 8 α e 6 β'],
+  ['Penetração','α < β < γ. A meia-vida não depende de temperatura, pressão nem do composto.',''],
+ ]],
+ ['q_lig','Ligações e interações',[
+  ['Tipo de ligação','Metal + ametal: iônica. Ametal + ametal: covalente. Metal puro: metálica.','NaCl iônica, CO₂ covalente'],
+  ['Fórmula iônica','Cruze as cargas e simplifique.','Al³⁺ e O²⁻ → Al₂O₃'],
+  ['Polaridade','Molécula simétrica com átomo central sem pares livres é apolar (CO₂, CH₄, CCl₄, BF₃). H₂O, NH₃ e HCl são polares.',''],
+  ['Geometria','2 nuvens: linear. 3: trigonal plana. 4 ligações: tetraédrica. 3 ligações + 1 par: piramidal (NH₃). 2 ligações + 2 pares: angular (H₂O).',''],
+  ['Forças intermoleculares','Ligação de hidrogênio (H ligado a F, O, N) > dipolo-dipolo > London. Mais forte → ponto de ebulição maior.','H₂O ferve a 100 °C; H₂S a −60 °C'],
+ ]],
+ ['q_est','Estequiometria',[
+  ['Balanceie na ordem MACHO','Metais, Ametais, Carbono, Hidrogênio e por último Oxigênio.','CH₄ + 2 O₂ → CO₂ + 2 H₂O'],
+  ['Os coeficientes são proporção em mol','Monte a regra de três em mol e só no fim converta para massa ou volume.','2 mol de CH₄ → 2 mol de CO₂ = 88 g'],
+  ['Volume de gás','Nas CNTP, cada mol de gás produzido ocupa 22,4 L.','1 mol de CaCO₃ → 22,4 L de CO₂'],
+  ['Pureza, rendimento e excesso','Corte a impureza no início, aplique o rendimento no fim, e use o reagente limitante (o que acaba primeiro).','N₂ + 3 H₂ com 2 mol e 3 mol: H₂ limita → 2 mol de NH₃'],
+  ['Leis ponderais','Lavoisier: massa se conserva. Proust: proporção fixa.','2 g H + 16 g O → 18 g H₂O'],
+  ['Economia atômica','Massa molar do produto desejado ÷ soma das massas dos reagentes (com os coeficientes). Reações de adição chegam a 100%. Fator E = massa de resíduo ÷ massa de produto.','CaCO₃ → CaO + CO₂: 56 ÷ 100 = 56% para obter CaO'],
+ ]],
+ ['q_ter','Termoquímica',[
+  ['Sinal do ΔH','ΔH < 0: exotérmica (libera). ΔH > 0: endotérmica (absorve). Fusão e vaporização são endotérmicas.',''],
+  ['ΔH por formação','ΔH = Σ ΔH<sub>f</sub> produtos − Σ ΔH<sub>f</sub> reagentes. Substância simples padrão tem ΔH<sub>f</sub> = 0.','CH₄: (−394 − 572) − (−75) = −891 kJ'],
+  ['Hess','Some etapas como equações: inverter troca o sinal; multiplicar a equação multiplica o ΔH.',''],
+  ['Energia de ligação','ΔH = ligações quebradas − ligações formadas.','H₂ + Cl₂: 436 + 243 − 2·432 = −185 kJ'],
+  ['Calor por massa','Converta a massa em mol e multiplique pelo ΔH molar.','8 g de CH₄ (0,5 mol) × 890 = 445 kJ'],
+  ['Energia dos alimentos','Carboidrato e proteína dão 4 kcal/g; gordura, 9 kcal/g. Para a % da energia, divida pela energia total, não pela massa.','4 g de gordura e 9 g de açúcar: 36 de 72 kcal → 50% da energia, embora seja 31% da massa'],
+ ]],
+ ['q_cin','Cinética química',[
+  ['Velocidade e coeficientes','v média = Δ[ ]/Δt. As velocidades das espécies seguem os coeficientes.','N₂ + 3 H₂ → 2 NH₃: NH₃ se forma 2 vezes mais rápido que N₂ some'],
+  ['Lei de velocidade','v = k[A]ᵃ[B]ᵇ. Ordem 2 em A: dobrar [A] multiplica v por 4. Em reação elementar, expoentes = coeficientes.',''],
+  ['Achar a ordem','Dobrou a concentração e v ficou × 2ⁿ → ordem n.','× 8 → ordem 3'],
+  ['Fatores','Temperatura, superfície de contato, concentração e catalisador aceleram. O catalisador baixa a Ea e não muda o ΔH.','regra prática: +10 °C ≈ v × 2'],
+  ['Diagrama de energia','Ea = complexo ativado − reagentes; ΔH = produtos − reagentes.',''],
+ ]],
+ ['q_eq','Equilíbrio e pH',[
+  ['pH e pOH','pH = −log[H⁺]; a 25 °C, pH + pOH = 14. Cada unidade de pH é um fator 10 em [H⁺].','pH 3 tem 1.000 vezes mais H⁺ que pH 6'],
+  ['Ácido ou base forte','[H⁺] (ou [OH⁻]) é a própria concentração, vezes o número de H⁺/OH⁻ liberados.','HCl 0,01 mol/L → pH 2; NaOH 0,001 → pH 11'],
+  ['Le Chatelier','O sistema reage contra a perturbação: pressão favorece o lado com menos mols de gás; aquecer favorece o endotérmico; catalisador não desloca.',''],
+  ['Kc','Produtos sobre reagentes, cada um elevado ao coeficiente (sem sólidos e líquidos puros). Só a temperatura muda K.','A + B ⇌ C: Kc = [C]/([A][B])'],
+  ['Hidrólise de sais','Íon de ácido fraco deixa básico; íon de base fraca deixa ácido; forte + forte fica neutro.','NH₄Cl ácido · Na₂CO₃ básico · NaCl neutro'],
+  ['Tampão','pH = pKa + log([base conjugada]/[ácido]). Concentrações iguais → pH = pKa; 10 vezes mais base → pKa + 1; 10 vezes mais ácido → pKa − 1.','ácido acético (pKa 4,7) com quantidades iguais → pH 4,7'],
+ ]],
+ ['q_elq','Eletroquímica',[
+  ['Nox','H = +1, O = −2 (peróxido −1), alcalinos +1, alcalino-terrosos +2. A soma é a carga da espécie.','S em H₂SO₄: 2 + x − 8 = 0 → +6'],
+  ['Pilha','Quem tem maior E° de redução é o cátodo (reduz, polo +). O outro é o ânodo (oxida, perde massa). ddp = E<sub>maior</sub> − E<sub>menor</sub>.','Cu (+0,34) e Zn (−0,76): 1,10 V'],
+  ['Oxidante e redutor','O oxidante é quem se reduz (ganha elétrons); o redutor é quem se oxida.','Zn + Cu²⁺: Cu²⁺ oxidante, Zn redutor'],
+  ['Faraday','Q = i·t; 1 mol de elétrons = 96.500 C. Mols de metal = mols de e⁻ ÷ carga do íon.','9.650 C = 0,1 mol e⁻ → 3,175 g de Cu'],
+  ['Eletrólise','Não espontânea. Fundido: o cátion do sal vai ao cátodo. Em água, metais muito reativos (Na, K) não se depositam: sai H₂.',''],
+  ['Massa depositada','mol de e⁻ = Q ÷ 96.500; mol de metal = mol de e⁻ ÷ carga do íon; depois multiplique pela massa molar.','965 C → 0,01 mol de e⁻ → 0,01 mol de Ag = 1,08 g'],
+ ]],
+ ['q_org','Química orgânica',[
+  ['Prefixos','met 1, et 2, prop 3, but 4, pent 5, hex 6, hept 7, oct 8, non 9, dec 10.','pentano: 5 C'],
+  ['Fórmulas gerais','Alcano CₙH₂ₙ₊₂, alceno e ciclano CₙH₂ₙ, alcino CₙH₂ₙ₋₂. Massa de alcano = 14n + 2.','octano C₈H₁₈ = 114 g/mol'],
+  ['Funções pelo sufixo','-ol álcool, -al aldeído, -ona cetona, -oico ácido, -oato éster, -amina, -amida. Éter: O entre carbonos. Fenol: OH no anel.','propanona = cetona'],
+  ['σ e π','Toda ligação tem um σ. Dupla: + 1 π. Tripla: + 2 π. Hibridização: só simples sp³, uma dupla sp², tripla sp.','eteno: 5 σ e 1 π'],
+  ['Isomeria','Cis-trans: C=C com ligantes diferentes em cada carbono. Óptica: carbono com 4 ligantes diferentes.','but-2-eno tem cis-trans; butan-2-ol tem C quiral'],
+ ]],
+ ['q_amb','Química e ambiente',[
+  ['Composição do ar','≈ 78% N₂, 21% O₂, 0,9% Ar, 0,04% CO₂.',''],
+  ['Problemas e culpados','Efeito estufa: CO₂ e CH₄. Chuva ácida: SO₂ e NOx. Buraco de ozônio: CFCs. Eutrofização: fosfatos e nitratos.',''],
+  ['Metalurgia','Ferro: alto-forno com CO. Alumínio: eletrólise da bauxita, por isso reciclar economiza muita energia.',''],
+ ]],
+];
+// leis, teoremas e constantes: [chave, matéria, nome, [[nome, enunciado ou valor, [erradas]]]]
+const LAWS = [
+ ['T_mat', 'mat', 'Teoremas e princípios', [
+  ['Teorema de Pitágoras', 'Num triângulo retângulo, o quadrado da hipotenusa é a soma dos quadrados dos catetos.', ['Num triângulo qualquer, o quadrado de um lado é a soma dos quadrados dos outros dois.', 'A hipotenusa é a soma dos catetos.', 'O quadrado de um cateto é a soma dos quadrados da hipotenusa e do outro cateto.']],
+  ['Teorema de Tales', 'Retas paralelas cortadas por duas transversais determinam segmentos proporcionais.', ['Retas paralelas cortadas por transversais determinam segmentos iguais.', 'Duas retas paralelas nunca são cortadas pela mesma transversal.', 'Ângulos opostos pelo vértice são proporcionais aos lados.']],
+  ['Soma dos ângulos do triângulo', 'A soma dos ângulos internos de qualquer triângulo é 180°.', ['A soma dos ângulos internos de um triângulo é 360°.', 'Só no triângulo retângulo a soma dos ângulos é 180°.', 'A soma depende do tamanho dos lados.']],
+  ['Teorema do ângulo externo', 'Um ângulo externo de um triângulo é igual à soma dos dois ângulos internos não adjacentes a ele.', ['Um ângulo externo é igual ao ângulo interno adjacente.', 'Um ângulo externo é a metade da soma dos internos.', 'Um ângulo externo sempre mede 180°.']],
+  ['Ângulo inscrito', 'O ângulo inscrito numa circunferência vale metade do ângulo central que enxerga o mesmo arco.', ['O ângulo inscrito vale o dobro do ângulo central de mesmo arco.', 'O ângulo inscrito é igual ao ângulo central de mesmo arco.', 'O ângulo inscrito sempre mede 90°.']],
+  ['Triângulo na semicircunferência', 'Todo triângulo inscrito numa semicircunferência, com o diâmetro como lado, é retângulo.', ['Todo triângulo inscrito numa circunferência é retângulo.', 'Todo triângulo inscrito numa semicircunferência é equilátero.', 'O ângulo oposto ao diâmetro mede 180°.']],
+  ['Desigualdade triangular', 'Cada lado de um triângulo é menor que a soma dos outros dois.', ['Cada lado de um triângulo é maior que a soma dos outros dois.', 'O maior lado é igual à soma dos outros dois.', 'Os três lados de um triângulo têm de ser diferentes.']],
+  ['Teorema da bissetriz interna', 'A bissetriz interna divide o lado oposto em partes proporcionais aos lados adjacentes.', ['A bissetriz interna divide o lado oposto ao meio.', 'A bissetriz interna é perpendicular ao lado oposto.', 'A bissetriz interna mede a média dos lados adjacentes.']],
+  ['Mediana relativa à hipotenusa', 'A mediana relativa à hipotenusa mede metade da hipotenusa.', ['A mediana relativa à hipotenusa é igual à altura.', 'A mediana relativa à hipotenusa mede o dobro da hipotenusa.', 'A mediana relativa à hipotenusa é igual ao menor cateto.']],
+  ['Teorema do resto', 'O resto da divisão de P(x) por (x − a) é P(a).', ['O resto da divisão de P(x) por (x − a) é P(−a).', 'O resto da divisão de P(x) por (x − a) é sempre zero.', 'O resto da divisão de P(x) por (x − a) é a.']],
+  ['Teorema de D’Alembert', 'P(x) é divisível por (x − a) se, e somente se, P(a) = 0.', ['P(x) é divisível por (x − a) se, e somente se, P(0) = a.', 'P(x) é divisível por (x − a) se a for inteiro.', 'P(x) nunca é divisível por (x − a).']],
+  ['Teorema fundamental da álgebra', 'Todo polinômio de grau n ≥ 1 tem exatamente n raízes complexas, contando as multiplicidades.', ['Todo polinômio de grau n tem n raízes reais distintas.', 'Todo polinômio tem pelo menos uma raiz inteira.', 'Um polinômio de grau n tem no máximo n − 1 raízes.']],
+  ['Raízes complexas conjugadas', 'Se um polinômio de coeficientes reais tem a raiz a + bi, então a − bi também é raiz.', ['Se a + bi é raiz, então −a − bi também é raiz.', 'Polinômios de coeficientes reais não têm raízes complexas.', 'Se a + bi é raiz, então b + ai também é raiz.']],
+  ['Teorema fundamental da aritmética', 'Todo inteiro maior que 1 se escreve de modo único (a menos da ordem) como produto de primos.', ['Todo inteiro é a soma de dois primos.', 'Existem finitos números primos.', 'Todo número par é primo ou quadrado perfeito.']],
+  ['Princípio fundamental da contagem', 'Se uma etapa tem m possibilidades e outra, independente, tem n, há m·n formas de fazer as duas.', ['Se uma etapa tem m possibilidades e outra tem n, há m + n formas de fazer as duas.', 'O número de formas é sempre m!·n!.', 'O número de formas é o maior entre m e n.']],
+  ['Princípio da casa dos pombos', 'Distribuindo n + 1 objetos em n caixas, alguma caixa recebe pelo menos dois.', ['Distribuindo n objetos em n caixas, cada caixa recebe exatamente um.', 'Distribuindo n + 1 objetos em n caixas, alguma caixa fica vazia.', 'Distribuindo 2n objetos em n caixas, todas recebem dois.']],
+  ['Relação de Stifel', 'Somando dois elementos vizinhos de uma linha do triângulo de Pascal obtém-se o elemento logo abaixo do segundo.', ['Cada linha do triângulo de Pascal soma n!.', 'Os elementos de uma linha do triângulo de Pascal são todos iguais.', 'Cada elemento é o produto dos dois de cima.']],
+ ]],
+ ['T_fis', 'fis', 'Leis da física', [
+  ['1ª lei de Newton (inércia)', 'Se a força resultante é nula, o corpo permanece em repouso ou em movimento retilíneo uniforme.', ['Sem forças, todo corpo tende a parar.', 'A força resultante é proporcional à velocidade.', 'Um corpo em movimento precisa de força para continuar em MRU.']],
+  ['2ª lei de Newton', 'A força resultante é igual à massa vezes a aceleração.', ['A força resultante é igual à massa vezes a velocidade.', 'Uma força constante produz velocidade constante.', 'A aceleração não depende da massa.']],
+  ['3ª lei de Newton (ação e reação)', 'A toda ação corresponde uma reação de mesma intensidade e direção, em sentido oposto, aplicada no outro corpo.', ['Ação e reação atuam no mesmo corpo e por isso se anulam.', 'A reação é sempre menor que a ação.', 'A reação tem o mesmo sentido da ação.']],
+  ['Conservação da energia mecânica', 'Sem forças dissipativas, a soma das energias cinética e potencial permanece constante.', ['A energia cinética de um corpo é sempre constante.', 'A energia mecânica sempre aumenta com a altura.', 'Com atrito, a energia mecânica se conserva.']],
+  ['Conservação da quantidade de movimento', 'Num sistema isolado, a quantidade de movimento total se conserva.', ['Em toda colisão a energia cinética se conserva.', 'A velocidade de cada corpo se conserva numa colisão.', 'A quantidade de movimento só se conserva em colisões elásticas.']],
+  ['Lei da gravitação universal', 'Duas massas se atraem com força proporcional ao produto das massas e inversamente proporcional ao quadrado da distância.', ['A força gravitacional é inversamente proporcional à distância.', 'A força gravitacional é proporcional à soma das massas.', 'Só corpos celestes se atraem gravitacionalmente.']],
+  ['1ª lei de Kepler', 'As órbitas dos planetas são elipses, com o Sol num dos focos.', ['As órbitas são circunferências com o Sol no centro.', 'As órbitas são elipses com o Sol no centro.', 'Os planetas giram em torno da Terra.']],
+  ['2ª lei de Kepler', 'A linha Sol–planeta varre áreas iguais em tempos iguais.', ['Os planetas têm velocidade constante na órbita.', 'O planeta é mais lento perto do Sol.', 'A linha Sol–planeta varre ângulos iguais em tempos iguais.']],
+  ['3ª lei de Kepler', 'O quadrado do período é proporcional ao cubo do raio médio da órbita.', ['O período é proporcional ao raio da órbita.', 'O cubo do período é proporcional ao quadrado do raio.', 'Todos os planetas têm o mesmo período.']],
+  ['Lei de Stevin', 'A diferença de pressão entre dois pontos de um líquido em equilíbrio depende só do desnível entre eles.', ['A pressão num líquido depende do formato do recipiente.', 'A pressão no fundo depende da área do fundo.', 'A pressão é a mesma em todos os pontos de um líquido.']],
+  ['Princípio de Pascal', 'Um acréscimo de pressão num líquido em equilíbrio se transmite integralmente a todos os pontos do líquido.', ['A pressão num líquido é igual em qualquer profundidade.', 'Todo corpo imerso recebe empuxo igual ao próprio peso.', 'A pressão diminui com a profundidade.']],
+  ['Princípio de Arquimedes', 'Todo corpo imerso num fluido recebe um empuxo vertical, para cima, igual ao peso do fluido deslocado.', ['O empuxo é igual ao peso do corpo, sempre.', 'O empuxo é igual ao volume do corpo.', 'O empuxo aponta para baixo.']],
+  ['Lei zero da termodinâmica', 'Dois corpos em equilíbrio térmico com um terceiro estão em equilíbrio térmico entre si.', ['A energia de um sistema isolado se conserva.', 'O calor flui espontaneamente do corpo frio para o quente.', 'É impossível atingir o zero absoluto.']],
+  ['1ª lei da termodinâmica', 'A variação da energia interna é o calor recebido menos o trabalho realizado pelo gás.', ['A variação da energia interna é o calor recebido mais o trabalho realizado pelo gás.', 'O calor recebido é sempre igual ao trabalho.', 'A energia interna de um gás nunca varia.']],
+  ['2ª lei da termodinâmica', 'O calor não passa espontaneamente do corpo frio para o quente, e nenhuma máquina térmica tem rendimento de 100%.', ['Uma máquina térmica ideal converte todo o calor em trabalho.', 'O calor passa espontaneamente do corpo frio para o quente.', 'A entropia do universo diminui com o tempo.']],
+  ['Lei de Boyle', 'Com temperatura constante, a pressão e o volume de um gás são inversamente proporcionais.', ['Com temperatura constante, pressão e volume são diretamente proporcionais.', 'Com volume constante, a pressão é proporcional à temperatura.', 'Com pressão constante, o volume é proporcional à temperatura.']],
+  ['Lei de Charles e Gay-Lussac', 'Com pressão constante, o volume de um gás é proporcional à temperatura absoluta.', ['Com pressão constante, o volume é proporcional à temperatura em °C.', 'Com pressão constante, o volume é inversamente proporcional à temperatura.', 'Com temperatura constante, o volume é proporcional à pressão.']],
+  ['Conservação da carga elétrica', 'Num sistema isolado, a soma algébrica das cargas elétricas permanece constante.', ['Num sistema isolado, as cargas positivas se anulam com o tempo.', 'A carga elétrica pode ser criada por atrito.', 'A carga total de um corpo é sempre zero.']],
+  ['Lei de Coulomb', 'A força entre duas cargas é proporcional ao produto das cargas e inversamente proporcional ao quadrado da distância.', ['A força entre duas cargas é proporcional à soma das cargas.', 'A força entre duas cargas não depende da distância.', 'Cargas de mesmo sinal se atraem.']],
+  ['Lei de Ohm', 'Num resistor ôhmico, a tensão é proporcional à corrente, e a resistência é constante.', ['Num resistor, a corrente é proporcional à resistência.', 'A tensão é inversamente proporcional à corrente.', 'Todo componente elétrico obedece à lei de Ohm.']],
+  ['1ª lei de Kirchhoff (nós)', 'A soma das correntes que chegam a um nó é igual à soma das que saem.', ['A soma das tensões num nó é zero.', 'A corrente é a mesma em todos os ramos de um circuito.', 'A corrente se divide igualmente entre os ramos.']],
+  ['2ª lei de Kirchhoff (malhas)', 'A soma algébrica das tensões ao longo de uma malha fechada é zero.', ['A soma das correntes numa malha é zero.', 'A tensão é a mesma em todos os resistores de uma malha.', 'A soma das tensões numa malha é igual à fem dividida por dois.']],
+  ['Lei de Faraday', 'Surge força eletromotriz induzida quando o fluxo magnético através do circuito varia.', ['Um campo magnético constante sempre induz corrente.', 'Só ímãs parados induzem corrente.', 'A fem induzida é proporcional ao fluxo, não à sua variação.']],
+  ['Lei de Lenz', 'A corrente induzida cria um campo magnético que se opõe à variação de fluxo que a originou.', ['A corrente induzida reforça a variação de fluxo que a originou.', 'A corrente induzida sempre circula no sentido horário.', 'O sentido da corrente induzida não depende da variação do fluxo.']],
+  ['Leis da reflexão', 'O raio incidente, o refletido e a normal são coplanares, e o ângulo de incidência é igual ao de reflexão.', ['O ângulo de reflexão é o dobro do ângulo de incidência.', 'O raio refletido é sempre perpendicular ao espelho.', 'Os ângulos de incidência e reflexão somam 90°.']],
+  ['Lei de Snell', 'Na refração, n₁·sen θ₁ = n₂·sen θ₂: a luz se aproxima da normal ao entrar num meio mais refringente.', ['A luz se afasta da normal ao entrar num meio mais refringente.', 'A frequência da luz muda na refração.', 'Na refração a luz nunca muda de direção.']],
+  ['Efeito Doppler', 'Quando fonte e observador se aproximam, a frequência percebida é maior que a emitida.', ['Quando fonte e observador se aproximam, a frequência percebida é menor.', 'O efeito Doppler muda a velocidade do som no ar.', 'A frequência percebida não depende do movimento.']],
+  ['Princípio da relatividade (Einstein)', 'As leis da física são as mesmas em todos os referenciais inerciais, e a velocidade da luz no vácuo é a mesma para todos eles.', ['A velocidade da luz depende da velocidade da fonte.', 'As leis da física mudam conforme a velocidade do referencial.', 'A massa de um corpo nunca se transforma em energia.']],
+  ['Efeito fotoelétrico', 'Elétrons só são arrancados se a frequência da luz superar um valor mínimo, não importa a intensidade.', ['Qualquer luz arranca elétrons, desde que seja intensa.', 'A energia dos elétrons cresce com a intensidade da luz.', 'Só luz vermelha arranca elétrons de metais.']],
+ ]],
+ ['T_qui', 'qui', 'Leis da química', [
+  ['Lei de Lavoisier', 'Num sistema fechado, a massa total dos reagentes é igual à massa total dos produtos.', ['Os elementos se combinam sempre na mesma proporção em massa.', 'Volumes iguais de gases têm o mesmo número de moléculas.', 'A massa dos produtos é sempre maior que a dos reagentes.']],
+  ['Lei de Proust', 'Uma substância é sempre formada pelos mesmos elementos, na mesma proporção em massa.', ['Num sistema fechado, a massa se conserva.', 'A proporção entre os elementos varia conforme a origem da substância.', 'Os volumes de gases que reagem estão em razão simples.']],
+  ['Lei de Dalton (proporções múltiplas)', 'Quando dois elementos formam vários compostos, as massas de um, para massa fixa do outro, estão em razão de números inteiros pequenos.', ['Dois elementos só podem formar um composto.', 'A massa dos produtos é igual à dos reagentes.', 'A pressão total de uma mistura é a soma das parciais.']],
+  ['Hipótese de Avogadro', 'Volumes iguais de gases, na mesma pressão e temperatura, têm o mesmo número de moléculas.', ['Volumes iguais de gases têm a mesma massa.', 'Gases mais pesados ocupam mais volume.', 'O volume de um gás não depende do número de moléculas.']],
+  ['Lei volumétrica de Gay-Lussac', 'Os volumes de gases que reagem e que se formam, nas mesmas condições, estão em razão de números inteiros simples.', ['O volume dos produtos é sempre igual ao dos reagentes.', 'Os volumes dos gases não têm relação com os coeficientes.', 'Só gases nobres obedecem a proporções de volume.']],
+  ['Lei de Dalton (pressões parciais)', 'A pressão total de uma mistura gasosa é a soma das pressões parciais dos gases.', ['A pressão total é a média das pressões parciais.', 'A pressão total é a do gás mais abundante.', 'A pressão de cada gás não depende da mistura.']],
+  ['Princípio de Le Chatelier', 'Um sistema em equilíbrio, quando perturbado, se desloca no sentido de diminuir a perturbação.', ['Um equilíbrio perturbado se desloca para aumentar a perturbação.', 'Um catalisador desloca o equilíbrio para os produtos.', 'Um equilíbrio químico nunca é afetado por mudanças externas.']],
+  ['Lei de Hess', 'O ΔH de uma reação depende só dos estados inicial e final, não do caminho.', ['O ΔH depende das etapas intermediárias.', 'Toda reação em etapas libera mais energia.', 'O ΔH de uma reação é sempre negativo.']],
+  ['Lei da ação das massas (Guldberg–Waage)', 'A velocidade de uma reação elementar é proporcional ao produto das concentrações dos reagentes elevadas aos coeficientes.', ['A velocidade é proporcional à soma das concentrações.', 'A velocidade não depende das concentrações.', 'A velocidade depende só dos produtos formados.']],
+  ['Lei de Henry', 'A solubilidade de um gás num líquido é proporcional à pressão parcial desse gás.', ['A solubilidade de um gás é inversamente proporcional à pressão.', 'A solubilidade de um gás não depende da pressão.', 'A solubilidade de um gás aumenta com a temperatura.']],
+  ['Lei de Raoult (tonoscopia)', 'Um soluto não volátil abaixa a pressão de vapor do solvente.', ['Um soluto não volátil aumenta a pressão de vapor do solvente.', 'A pressão de vapor não depende do soluto.', 'Um soluto não volátil abaixa a temperatura de ebulição.']],
+  ['Lei periódica (Moseley)', 'As propriedades dos elementos variam periodicamente com o número atômico.', ['As propriedades variam periodicamente com a massa atômica.', 'As propriedades dos elementos não seguem padrão.', 'As propriedades variam com o número de nêutrons.']],
+  ['Regra do octeto', 'Os átomos tendem a ganhar, perder ou compartilhar elétrons até ficar com 8 elétrons na camada de valência.', ['Os átomos tendem a ficar com 8 prótons no núcleo.', 'Todo átomo tem 8 elétrons na última camada.', 'Os átomos tendem a ficar com 2 elétrons em todas as camadas.']],
+  ['Princípio de exclusão de Pauli', 'Um orbital comporta no máximo dois elétrons, com spins opostos.', ['Um orbital comporta até oito elétrons.', 'Dois elétrons num orbital têm o mesmo spin.', 'Cada subnível tem um único orbital.']],
+  ['Regra de Hund', 'Num subnível, os elétrons ocupam primeiro os orbitais vazios, com spins paralelos, e só depois emparelham.', ['Os elétrons emparelham antes de ocupar orbitais vazios.', 'Os elétrons sempre ocupam o subnível de maior energia primeiro.', 'Cada orbital recebe três elétrons.']],
+  ['Ácido e base de Arrhenius', 'Ácido libera H⁺ em água; base libera OH⁻ em água.', ['Ácido recebe par de elétrons; base doa par de elétrons.', 'Ácido libera OH⁻ em água; base libera H⁺.', 'Ácido doa elétrons; base recebe elétrons.']],
+  ['Ácido e base de Brønsted–Lowry', 'Ácido doa próton (H⁺); base recebe próton.', ['Ácido recebe próton; base doa próton.', 'Ácido recebe par de elétrons; base doa par de elétrons.', 'Ácido libera OH⁻; base libera H⁺.']],
+  ['Ácido e base de Lewis', 'Ácido recebe par de elétrons; base doa par de elétrons.', ['Ácido doa par de elétrons; base recebe par de elétrons.', 'Ácido doa próton; base recebe próton.', 'Ácido libera H⁺ em água; base libera OH⁻.']],
+  ['Semelhante dissolve semelhante', 'Substâncias polares tendem a dissolver polares, e apolares tendem a dissolver apolares.', ['Substâncias polares dissolvem melhor as apolares.', 'Toda substância se dissolve em água.', 'A polaridade não influi na solubilidade.']],
+ ]],
+ ['K_mat', 'mat', 'Constantes da matemática', [
+  ['π (pi)', '≈ 3,1416', ['≈ 2,7183', '≈ 1,6180', '≈ 1,4142']],
+  ['Número de Euler, e', '≈ 2,7183', ['≈ 3,1416', '≈ 1,7321', '≈ 0,5772']],
+  ['√2', '≈ 1,414', ['≈ 1,732', '≈ 1,618', '≈ 2,236']],
+  ['√3', '≈ 1,732', ['≈ 1,414', '≈ 1,618', '≈ 2,449']],
+  ['√5', '≈ 2,236', ['≈ 2,449', '≈ 1,732', '≈ 2,646']],
+  ['Razão áurea, φ = (1 + √5)/2', '≈ 1,618', ['≈ 1,414', '≈ 2,718', '≈ 0,577']],
+  ['log 2 (base 10)', '≈ 0,301', ['≈ 0,477', '≈ 0,699', '≈ 0,693']],
+  ['log 3 (base 10)', '≈ 0,477', ['≈ 0,301', '≈ 0,602', '≈ 1,099']],
+  ['ln 2', '≈ 0,693', ['≈ 0,301', '≈ 1,099', '≈ 0,477']],
+  ['1 radiano em graus', '≈ 57,3°', ['≈ 3,14°', '180°', '≈ 90°']],
+ ]],
+ ['K_fis', 'fis', 'Constantes da física', [
+  ['Velocidade da luz no vácuo, c', '3 × 10⁸ m/s', ['3 × 10⁶ m/s', '3 × 10⁵ m/s', '340 m/s']],
+  ['Aceleração da gravidade na superfície da Terra, g', '≈ 9,8 m/s²', ['≈ 6,7 m/s²', '≈ 1,6 m/s²', '≈ 98 m/s²']],
+  ['Constante da gravitação universal, G', '6,67 × 10⁻¹¹ N·m²/kg²', ['9 × 10⁹ N·m²/C²', '6,67 × 10⁻⁹ N·m²/kg²', '6,02 × 10²³ mol⁻¹']],
+  ['Constante eletrostática no vácuo, k', '9 × 10⁹ N·m²/C²', ['6,67 × 10⁻¹¹ N·m²/kg²', '9 × 10⁻⁹ N·m²/C²', '8,85 × 10⁻¹² F/m']],
+  ['Carga elementar, e', '1,6 × 10⁻¹⁹ C', ['9,1 × 10⁻³¹ C', '1,6 × 10⁻¹⁹ kg', '6,02 × 10⁻²³ C']],
+  ['Massa do elétron', '9,1 × 10⁻³¹ kg', ['1,67 × 10⁻²⁷ kg', '1,6 × 10⁻¹⁹ kg', '9,1 × 10⁻¹¹ kg']],
+  ['Massa do próton', '1,67 × 10⁻²⁷ kg', ['9,1 × 10⁻³¹ kg', '1,6 × 10⁻¹⁹ kg', '6,67 × 10⁻¹¹ kg']],
+  ['Permeabilidade magnética do vácuo, μ₀', '4π × 10⁻⁷ T·m/A', ['4π × 10⁷ T·m/A', '8,85 × 10⁻¹² T·m/A', '9 × 10⁹ T·m/A']],
+  ['Constante de Planck, h', '6,63 × 10⁻³⁴ J·s', ['6,63 × 10³⁴ J·s', '1,38 × 10⁻²³ J·s', '6,67 × 10⁻¹¹ J·s']],
+  ['Velocidade do som no ar', '≈ 340 m/s', ['≈ 1.500 m/s', '3 × 10⁸ m/s', '≈ 34 m/s']],
+  ['Velocidade do som na água', '≈ 1.500 m/s', ['≈ 340 m/s', '≈ 150 m/s', '3 × 10⁸ m/s']],
+  ['Pressão atmosférica ao nível do mar', '≈ 10⁵ Pa (76 cmHg)', ['≈ 10³ Pa (76 mmHg)', '≈ 10⁷ Pa', '≈ 1 Pa']],
+  ['Densidade da água', '1 g/cm³ = 1.000 kg/m³', ['1 kg/m³', '100 kg/m³', '10 g/cm³']],
+  ['Calor específico da água', '1 cal/g·°C', ['0,5 cal/g·°C', '80 cal/g·°C', '540 cal/g·°C']],
+  ['Calor latente de fusão do gelo', '80 cal/g', ['540 cal/g', '1 cal/g', '100 cal/g']],
+  ['Calor latente de vaporização da água', '540 cal/g', ['80 cal/g', '100 cal/g', '1 cal/g']],
+  ['Equivalente mecânico da caloria', '1 cal ≈ 4,2 J', ['1 cal = 1 J', '1 cal ≈ 0,24 J', '1 cal ≈ 42 J']],
+  ['Zero absoluto', '0 K = −273 °C', ['0 K = 0 °C', '0 K = −100 °C', '0 K = −373 °C']],
+  ['Elétron-volt', '1 eV = 1,6 × 10⁻¹⁹ J', ['1 eV = 1 J', '1 eV = 9,1 × 10⁻³¹ J', '1 eV = 6,02 × 10²³ J']],
+  ['Ano-luz', '≈ 9,5 × 10¹⁵ m', ['3 × 10⁸ m', '≈ 1,5 × 10¹¹ m', '≈ 9,5 × 10¹² m']],
+  ['Distância Terra–Sol (1 UA)', '≈ 1,5 × 10¹¹ m', ['≈ 3,8 × 10⁸ m', '≈ 6,4 × 10⁶ m', '≈ 9,5 × 10¹⁵ m']],
+  ['Distância Terra–Lua', '≈ 3,8 × 10⁵ km', ['≈ 1,5 × 10⁸ km', '≈ 6.400 km', '≈ 3,8 × 10⁸ km']],
+  ['Raio da Terra', '≈ 6.400 km', ['≈ 640 km', '≈ 64.000 km', '≈ 1.700 km']],
+ ]],
+ ['K_qui', 'qui', 'Constantes da química', [
+  ['Constante de Avogadro, N<sub>A</sub>', '6,02 × 10²³ mol⁻¹', ['6,67 × 10⁻¹¹ mol⁻¹', '1,6 × 10⁻¹⁹ mol⁻¹', '6,02 × 10⁻²³ mol⁻¹']],
+  ['Constante dos gases, R', '0,082 atm·L/mol·K = 8,31 J/mol·K', ['8,31 atm·L/mol·K = 0,082 J/mol·K', '22,4 atm·L/mol·K', '6,02 J/mol·K']],
+  ['Volume molar de gás nas CNTP', '22,4 L/mol', ['2,24 L/mol', '224 L/mol', '11,2 L/mol']],
+  ['Condições normais (CNTP)', '0 °C e 1 atm', ['25 °C e 1 atm', '0 °C e 0 atm', '100 °C e 1 atm']],
+  ['Produto iônico da água a 25 °C, K<sub>w</sub>', '10⁻¹⁴', ['10⁻⁷', '10¹⁴', '14']],
+  ['pH da água pura a 25 °C', '7', ['0', '14', '1']],
+  ['Constante de Faraday, F', '≈ 96.500 C/mol', ['1,6 × 10⁻¹⁹ C/mol', '6,02 × 10²³ C/mol', '≈ 9.650 C/mol']],
+  ['Unidade de massa atômica, 1 u', '≈ 1,66 × 10⁻²⁴ g', ['1 g', '6,02 × 10²³ g', '1,6 × 10⁻¹⁹ g']],
+  ['Potencial padrão do eletrodo de hidrogênio', '0 V (referência)', ['1 V', '−1 V', '1,23 V']],
+  ['Composição aproximada do ar seco', '78% N₂ e 21% O₂', ['78% O₂ e 21% N₂', '50% N₂ e 50% O₂', '21% N₂ e 78% CO₂']],
+  ['Ponto de ebulição da água a 1 atm', '100 °C', ['80 °C', '273 °C', '212 °C']],
+ ]],
+];
+
+const FORMS = [
+  ['F_alg', 'mat', 'Álgebra e funções', 'func', [
+    ['Fórmula de Bhaskara', 'x', '(−b ± √Δ)/2a', ['(−b ± √Δ)/a', '(b ± √Δ)/2a', '(−b ± Δ)/2a']],
+    ['Discriminante', 'Δ', 'b² − 4ac', ['b² + 4ac', '4ac − b²', 'b − 4ac']],
+    ['Soma das raízes de ax² + bx + c', 'x₁ + x₂', '−b/a', ['b/a', 'c/a', '−c/a']],
+    ['Produto das raízes de ax² + bx + c', 'x₁·x₂', 'c/a', ['−c/a', 'b/a', '−b/a']],
+    ['x do vértice da parábola', 'x<sub>v</sub>', '−b/2a', ['b/2a', '−b/a', '−Δ/4a']],
+    ['y do vértice da parábola', 'y<sub>v</sub>', '−Δ/4a', ['Δ/4a', '−b/2a', '−Δ/2a']],
+    ['Quadrado da soma', '(a + b)²', 'a² + 2ab + b²', ['a² + b²', 'a² + ab + b²', 'a² − 2ab + b²']],
+    ['Quadrado da diferença', '(a − b)²', 'a² − 2ab + b²', ['a² − b²', 'a² + 2ab − b²', 'a² − 2ab − b²']],
+    ['Diferença de quadrados', 'a² − b²', '(a + b)(a − b)', ['(a − b)²', '(a + b)²', 'a(a − b)']],
+    ['Soma de cubos', 'a³ + b³', '(a + b)(a² − ab + b²)', ['(a + b)(a² + ab + b²)', '(a + b)³', '(a − b)(a² + ab + b²)']],
+  ], [
+    ['Isole x em y = ax + b', '', '(y − b)/a', ['y/a − b', '(y + b)/a', 'a(y − b)']],
+    ['Forma fatorada de ax² + bx + c, com raízes x₁ e x₂', '', 'a(x − x₁)(x − x₂)', ['(x + x₁)(x + x₂)', 'a(x + x₁)(x + x₂)', 'x(x − x₁)(x − x₂)']],
+  ]],
+  ['F_seq', 'mat', 'Progressões e juros', 'seq', [
+    ['Termo geral da PA', 'a<sub>n</sub>', 'a₁ + (n − 1)r', ['a₁ + nr', 'a₁·r<sup>n−1</sup>', 'a₁ + (n + 1)r']],
+    ['Soma dos n termos da PA', 'S<sub>n</sub>', '(a₁ + a<sub>n</sub>)·n/2', ['(a₁ + a<sub>n</sub>)·n', '(a₁·a<sub>n</sub>)·n/2', '(a₁ + a<sub>n</sub>)/2n']],
+    ['Termo geral da PG', 'a<sub>n</sub>', 'a₁·q<sup>n−1</sup>', ['a₁·q<sup>n</sup>', 'a₁ + (n − 1)q', 'a₁·q<sup>n+1</sup>']],
+    ['Soma dos n termos da PG', 'S<sub>n</sub>', 'a₁(q<sup>n</sup> − 1)/(q − 1)', ['a₁(q<sup>n</sup> − 1)/q', 'a₁·q<sup>n</sup>/(q − 1)', 'a₁(q − 1)/(q<sup>n</sup> − 1)']],
+    ['Soma da PG infinita (|q| < 1)', 'S', 'a₁/(1 − q)', ['a₁/(q − 1)', 'a₁(1 − q)', 'a₁/(1 + q)']],
+    ['Juros simples', 'J', 'C·i·t', ['C(1 + i)<sup>t</sup>', 'C·i/t', 'C + i·t']],
+    ['Montante a juros compostos', 'M', 'C(1 + i)<sup>t</sup>', ['C(1 + i·t)', 'C·i<sup>t</sup>', 'C(1 + t)<sup>i</sup>']],
+    ['Montante a juros simples', 'M', 'C(1 + i·t)', ['C(1 + i)<sup>t</sup>', 'C·i·t', 'C + i + t']],
+  ], [
+    ['Isole a razão r em a<sub>n</sub> = a₁ + (n − 1)r', '', '(a<sub>n</sub> − a₁)/(n − 1)', ['(a<sub>n</sub> − a₁)/n', '(a<sub>n</sub> + a₁)/(n − 1)', 'a<sub>n</sub>/(n − 1) − a₁']],
+    ['Termo do meio de três termos em PA (a, b, c)', '', 'b = (a + c)/2', ['b = √(ac)', 'b = a + c', 'b = (a·c)/2']],
+    ['Termo do meio de três termos em PG (a, b, c)', '', 'b² = a·c', ['b = (a + c)/2', 'b = a·c', 'b² = a + c']],
+  ]],
+  ['F_comb', 'mat', 'Contagem e probabilidade', 'comb', [
+    ['Arranjo simples', 'A<sub>n,p</sub>', 'n!/(n − p)!', ['n!/p!', 'n!/(p!(n − p)!)', '(n − p)!/n!']],
+    ['Combinação simples', 'C<sub>n,p</sub>', 'n!/(p!(n − p)!)', ['n!/(n − p)!', 'n!/p!', 'p!(n − p)!/n!']],
+    ['Permutação simples', 'P<sub>n</sub>', 'n!', ['n<sup>n</sup>', '(n − 1)!', 'n·(n − 1)']],
+    ['Permutação com repetição (a e b repetidos)', 'P', 'n!/(a!·b!)', ['n!/(a + b)!', 'n!·a!·b!', '(n − a − b)!']],
+    ['Permutação circular', 'PC<sub>n</sub>', '(n − 1)!', ['n!', 'n!/2', '(n − 2)!']],
+    ['Probabilidade (casos equiprováveis)', 'P', 'favoráveis/possíveis', ['possíveis/favoráveis', 'favoráveis − possíveis', 'favoráveis/(possíveis + favoráveis)']],
+    ['Probabilidade da união', 'P(A ∪ B)', 'P(A) + P(B) − P(A ∩ B)', ['P(A) + P(B)', 'P(A)·P(B)', 'P(A) + P(B) + P(A ∩ B)']],
+    ['Eventos independentes', 'P(A ∩ B)', 'P(A)·P(B)', ['P(A) + P(B)', 'P(A)/P(B)', 'P(A) + P(B) − 1']],
+    ['Probabilidade condicional', 'P(A | B)', 'P(A ∩ B)/P(B)', ['P(A ∩ B)/P(A)', 'P(A)·P(B)', 'P(A)/P(B)']],
+    ['Evento complementar', 'P(Ā)', '1 − P(A)', ['−P(A)', '1/P(A)', 'P(A) − 1']],
+    ['Termo geral do binômio (a + b)<sup>n</sup>', 'T<sub>p+1</sub>', 'C<sub>n,p</sub>·a<sup>n−p</sup>·b<sup>p</sup>', ['C<sub>n,p</sub>·a<sup>p</sup>·b<sup>p</sup>', 'C<sub>n,p</sub>·a<sup>n+p</sup>·b<sup>p</sup>', 'n!·a<sup>n−p</sup>·b<sup>p</sup>']],
+    ['União de dois conjuntos', 'n(A ∪ B)', 'n(A) + n(B) − n(A ∩ B)', ['n(A) + n(B)', 'n(A)·n(B)', 'n(A) + n(B) + n(A ∩ B)']],
+  ], [
+    ['Número de subconjuntos de um conjunto com n elementos', '', '2<sup>n</sup>', ['n²', 'n!', '2n']],
+    ['Número de apertos de mão entre n pessoas', '', 'n(n − 1)/2', ['n(n − 1)', 'n²/2', 'n!/2']],
+  ]],
+  ['F_geo', 'mat', 'Geometria plana', 'gplan', [
+    ['Área do triângulo', 'A', 'b·h/2', ['b·h', '(b + h)/2', 'b²·h/2']],
+    ['Área do trapézio', 'A', '(B + b)·h/2', ['(B + b)·h', 'B·b·h/2', '(B − b)·h/2']],
+    ['Área do losango', 'A', 'D·d/2', ['D·d', '(D + d)/2', 'D·d/4']],
+    ['Área do círculo', 'A', 'πr²', ['2πr', 'πd²', '2πr²']],
+    ['Comprimento da circunferência', 'C', '2πr', ['πr²', 'πr', '4πr']],
+    ['Área do triângulo equilátero', 'A', 'ℓ²√3/4', ['ℓ²√3/2', 'ℓ√3/2', 'ℓ²/2']],
+    ['Altura do triângulo equilátero', 'h', 'ℓ√3/2', ['ℓ√3/4', 'ℓ√2/2', 'ℓ²√3/4']],
+    ['Diagonal do quadrado', 'd', 'ℓ√2', ['ℓ√3', '2ℓ', 'ℓ²']],
+    ['Soma dos ângulos internos de um polígono', 'S<sub>i</sub>', '(n − 2)·180°', ['n·180°', '(n − 1)·180°', '360°/n']],
+    ['Número de diagonais de um polígono', 'd', 'n(n − 3)/2', ['n(n − 1)/2', 'n(n − 3)', '(n − 3)/2']],
+    ['Área do triângulo por dois lados e o ângulo entre eles', 'A', 'a·b·sen θ/2', ['a·b·sen θ', 'a·b·cos θ/2', '(a + b)·sen θ/2']],
+    ['Teorema de Pitágoras', 'a²', 'b² + c²', ['(b + c)²', 'b² − c²', '2bc']],
+    ['Área do setor circular de ângulo θ', 'A', '(θ/360°)·πr²', ['(θ/360°)·2πr', 'θ·πr²', '(360°/θ)·πr²']],
+    ['Raio do círculo inscrito no triângulo (área A, semiperímetro p)', 'r', 'A/p', ['p/A', 'A·p', '2A/p²']],
+  ], [
+    ['Altura relativa à hipotenusa (catetos b, c, hipotenusa a)', '', 'h = b·c/a', ['h = a·b/c', 'h = (b + c)/a', 'h = b·c·a']],
+    ['Semelhança de triângulos: razão das áreas para razão de lados k', '', 'k²', ['k', '2k', 'k³']],
+  ]],
+  ['F_esp', 'mat', 'Geometria espacial', 'gesp', [
+    ['Volume do prisma', 'V', 'A<sub>b</sub>·h', ['A<sub>b</sub>·h/3', 'A<sub>b</sub> + h', '2A<sub>b</sub>·h']],
+    ['Volume da pirâmide', 'V', 'A<sub>b</sub>·h/3', ['A<sub>b</sub>·h', 'A<sub>b</sub>·h/2', 'A<sub>b</sub>·h/4']],
+    ['Volume do cilindro', 'V', 'πr²h', ['2πrh', 'πr²h/3', 'πrh²']],
+    ['Volume do cone', 'V', 'πr²h/3', ['πr²h', 'πr²h/2', '2πr²h/3']],
+    ['Volume da esfera', 'V', '4πr³/3', ['4πr²', 'πr³', '2πr³/3']],
+    ['Área da superfície esférica', 'A', '4πr²', ['4πr³/3', '2πr²', 'πr²']],
+    ['Área lateral do cilindro', 'A<sub>ℓ</sub>', '2πrh', ['πr²h', '2πr²', 'πrh']],
+    ['Diagonal do cubo', 'D', 'a√3', ['a√2', '3a', 'a²√3']],
+    ['Diagonal do paralelepípedo', 'D', '√(a² + b² + c²)', ['a + b + c', '√(a² + b²)', '√(abc)']],
+    ['Relação de Euler (poliedros convexos)', 'V − A + F', '2', ['0', '1', 'A']],
+  ], [
+    ['Dobrando todas as medidas de um sólido, o volume fica multiplicado por', '', '2³', ['2', '2²', '2·3']],
+    ['Isole h em V = πr²h/3', '', '3V/(πr²)', ['V/(3πr²)', '3πr²/V', 'πr²/(3V)']],
+  ]],
+  ['F_trig', 'mat', 'Trigonometria', 'trig', [
+    ['Relação fundamental', 'sen²x + cos²x', '1', ['0', 'tg²x', 'sen 2x']],
+    ['Tangente', 'tg x', 'sen x/cos x', ['cos x/sen x', 'sen x·cos x', '1/sen x']],
+    ['Seno do arco duplo', 'sen 2x', '2·sen x·cos x', ['2·sen x', 'cos²x − sen²x', 'sen x·cos x']],
+    ['Cosseno do arco duplo', 'cos 2x', 'cos²x − sen²x', ['2·cos x', 'sen²x − cos²x', '2·sen x·cos x']],
+    ['Seno da soma', 'sen(a + b)', 'sen a·cos b + sen b·cos a', ['sen a + sen b', 'sen a·cos b − sen b·cos a', 'cos a·cos b − sen a·sen b']],
+    ['Cosseno da soma', 'cos(a + b)', 'cos a·cos b − sen a·sen b', ['cos a + cos b', 'cos a·cos b + sen a·sen b', 'sen a·cos b + sen b·cos a']],
+    ['Lei dos cossenos', 'a²', 'b² + c² − 2bc·cos A', ['b² + c² + 2bc·cos A', 'b² + c² − 2bc·sen A', 'b² − c² − 2bc·cos A']],
+    ['Lei dos senos (R = raio da circunscrita)', 'a/sen A', '2R', ['R', 'R/2', 'b·sen B']],
+    ['Período de sen(kx)', 'T', '2π/k', ['2πk', 'π/k', 'k/2π']],
+    ['Graus para radianos', 'rad', 'graus·π/180', ['graus·180/π', 'graus/π', 'graus·π/360']],
+    ['Secante', 'sec x', '1/cos x', ['1/sen x', 'cos x/sen x', '1/tg x']],
+  ], [
+    ['Imagem de f(x) = a + b·sen x (b > 0)', '', '[a − b, a + b]', ['[−1, 1]', '[a, a + b]', '[−b, b]']],
+    ['Isole o lado a pela lei dos senos', '', 'a = b·sen A/sen B', ['a = b·sen B/sen A', 'a = sen A/(b·sen B)', 'a = b + sen A − sen B']],
+  ]],
+  ['F_anal', 'mat', 'Geometria analítica', 'ganal', [
+    ['Distância entre dois pontos', 'd', '√((x₂ − x₁)² + (y₂ − y₁)²)', ['(x₂ − x₁)² + (y₂ − y₁)²', '|x₂ − x₁| + |y₂ − y₁|', '√((x₂ + x₁)² + (y₂ + y₁)²)']],
+    ['Ponto médio', 'M', '((x₁ + x₂)/2, (y₁ + y₂)/2)', ['((x₂ − x₁)/2, (y₂ − y₁)/2)', '(x₁ + x₂, y₁ + y₂)', '((x₁ + y₁)/2, (x₂ + y₂)/2)']],
+    ['Coeficiente angular', 'm', '(y₂ − y₁)/(x₂ − x₁)', ['(x₂ − x₁)/(y₂ − y₁)', '(y₂ + y₁)/(x₂ + x₁)', '(y₂ − x₂)/(y₁ − x₁)']],
+    ['Reta por um ponto (x₀, y₀) com inclinação m', 'y − y₀', 'm(x − x₀)', ['m(x + x₀)', 'x − m·x₀', 'm(y − x₀)']],
+    ['Retas perpendiculares', 'm₁·m₂', '−1', ['1', '0', 'm₁']],
+    ['Circunferência de centro (a, b) e raio r', '(x − a)² + (y − b)²', 'r²', ['r', '2r', '(a + b)²']],
+    ['Distância do ponto (x₀, y₀) à reta ax + by + c = 0', 'd', '|ax₀ + by₀ + c|/√(a² + b²)', ['|ax₀ + by₀ + c|/(a² + b²)', '(ax₀ + by₀ + c)/(a + b)', '|ax₀ + by₀|/√(a² + b²)']],
+    ['Área do triângulo pelos vértices (D = determinante)', 'A', '|D|/2', ['|D|', 'D²', '2|D|']],
+    ['Coeficiente angular pela inclinação α', 'm', 'tg α', ['sen α', 'cos α', '1/tg α']],
+  ], [
+    ['Duas retas paralelas têm', '', 'mesmo coeficiente angular', ['coeficientes com produto −1', 'mesmo coeficiente linear', 'coeficientes opostos']],
+    ['Isole o raio na equação x² + y² = r²', '', 'r = √(x² + y²)', ['r = x + y', 'r = x² + y²', 'r = √(x + y)']],
+  ]],
+  ['F_log', 'mat', 'Logaritmos e potências', 'logexp', [
+    ['Logaritmo do produto', 'log(a·b)', 'log a + log b', ['log a·log b', 'log(a + b)', 'log a − log b']],
+    ['Logaritmo do quociente', 'log(a/b)', 'log a − log b', ['log a/log b', 'log(a − b)', 'log b − log a']],
+    ['Logaritmo da potência', 'log aⁿ', 'n·log a', ['(log a)ⁿ', 'log(n·a)', 'n + log a']],
+    ['Mudança de base', 'log<sub>b</sub> a', 'log a/log b', ['log b/log a', 'log a − log b', 'log(a/b)']],
+    ['Logaritmo de 1', 'log<sub>b</sub> 1', '0', ['1', 'b', '−1']],
+    ['Logaritmo da própria base', 'log<sub>b</sub> b', '1', ['0', 'b', 'b²']],
+    ['Produto de potências de mesma base', 'aᵐ·aⁿ', 'a<sup>m+n</sup>', ['a<sup>m·n</sup>', 'a<sup>m−n</sup>', '(2a)<sup>m+n</sup>']],
+    ['Potência de potência', '(aᵐ)ⁿ', 'a<sup>m·n</sup>', ['a<sup>m+n</sup>', 'a<sup>mⁿ</sup>', 'aᵐ·n']],
+    ['Expoente negativo', 'a<sup>−n</sup>', '1/aⁿ', ['−aⁿ', 'a/n', '−1/aⁿ']],
+    ['Expoente fracionário', 'a<sup>1/n</sup>', 'ⁿ√a', ['a/n', '1/aⁿ', '√(a/n)']],
+    ['Quociente de potências de mesma base', 'aᵐ/aⁿ', 'a<sup>m−n</sup>', ['a<sup>m/n</sup>', 'a<sup>m+n</sup>', '1<sup>m−n</sup>']],
+  ], [
+    ['Definição: log<sub>b</sub> a = x equivale a', '', 'b<sup>x</sup> = a', ['a<sup>x</sup> = b', 'x<sup>b</sup> = a', 'b<sup>a</sup> = x']],
+    ['Isole t em N = N₀·2<sup>t</sup>', '', 't = log₂(N/N₀)', ['t = N/(2N₀)', 't = log(N − N₀)', 't = log₂N·N₀']],
+  ]],
+
+  ['F_cin', 'fis', 'Cinemática', 'f_cin', [
+    ['Movimento uniforme', 's', 's₀ + v·t', ['s₀ + at²/2', 'v·t²', 's₀·v·t']],
+    ['Posição no MUV', 's', 's₀ + v₀t + at²/2', ['s₀ + v₀t + at²', 's₀ + at + v₀t²/2', 's₀ + v₀t − at']],
+    ['Velocidade no MUV', 'v', 'v₀ + a·t', ['v₀ + at²/2', 'v₀·a·t', 'v₀ − at²']],
+    ['Equação de Torricelli', 'v²', 'v₀² + 2aΔs', ['v₀² + aΔs', 'v₀² + 2at', '(v₀ + aΔs)²']],
+    ['Velocidade média', 'v<sub>m</sub>', 'Δs/Δt', ['Δt/Δs', 'Δs·Δt', 'Δs/Δt²']],
+    ['Aceleração média', 'a<sub>m</sub>', 'Δv/Δt', ['Δt/Δv', 'Δv·Δt', 'Δs/Δt²']],
+    ['Altura de queda livre', 'h', 'g·t²/2', ['g·t²', 'g·t/2', '2g·t²']],
+    ['Altura máxima no lançamento vertical', 'h<sub>máx</sub>', 'v₀²/2g', ['v₀/2g', 'v₀²/g', '2v₀²/g']],
+    ['Aceleração centrípeta', 'a<sub>c</sub>', 'v²/R', ['v/R', 'v·R', 'v²·R']],
+    ['Velocidade angular', 'ω', '2π/T', ['2πT', 'T/2π', 'π/T']],
+    ['Velocidade linear no MCU', 'v', 'ω·R', ['ω/R', 'ω·R²', 'R/ω']],
+    ['Frequência', 'f', '1/T', ['T', '2πT', 'T/2π']],
+  ], [
+    ['Isole Δs na equação de Torricelli', '', '(v² − v₀²)/2a', ['(v² − v₀²)/a', '(v − v₀)²/2a', '2a/(v² − v₀²)']],
+    ['Isole t em h = g·t²/2', '', '√(2h/g)', ['√(h/2g)', '2h/g', '√(2gh)']],
+    ['Velocidade ao cair de uma altura h (sem atrito)', '', '√(2gh)', ['√(gh)', '2gh', '√(gh/2)']],
+  ]],
+  ['F_din', 'fis', 'Forças e hidrostática', 'f_din', [
+    ['2ª lei de Newton', 'F<sub>R</sub>', 'm·a', ['m/a', 'm·v', 'm·a²']],
+    ['Peso', 'P', 'm·g', ['m/g', 'm·g·h', 'g/m']],
+    ['Força de atrito', 'f<sub>at</sub>', 'μ·N', ['μ/N', 'μ·m', 'N/μ']],
+    ['Lei de Hooke', 'F', 'k·x', ['k·x²/2', 'k/x', 'x/k']],
+    ['Força centrípeta', 'F<sub>c</sub>', 'm·v²/R', ['m·v/R', 'm·v²·R', 'm·v²/2']],
+    ['Componente do peso ao longo do plano inclinado', 'P<sub>x</sub>', 'P·sen θ', ['P·cos θ', 'P·tg θ', 'P/sen θ']],
+    ['Normal no plano inclinado sem atrito', 'N', 'P·cos θ', ['P·sen θ', 'P', 'P/cos θ']],
+    ['Momento de uma força (perpendicular)', 'M', 'F·d', ['F/d', 'F·d²', 'F + d']],
+    ['Pressão', 'p', 'F/A', ['F·A', 'A/F', 'F/A²']],
+    ['Pressão hidrostática (lei de Stevin)', 'p', 'p₀ + ρ·g·h', ['p₀ + ρ·g/h', 'p₀·ρ·g·h', 'p₀ + ρ·h']],
+    ['Empuxo', 'E', 'ρ<sub>líq</sub>·V<sub>sub</sub>·g', ['ρ<sub>corpo</sub>·V·g', 'm·g·h', 'ρ<sub>líq</sub>·V<sub>sub</sub>/g']],
+    ['Densidade', 'd', 'm/V', ['m·V', 'V/m', 'm/V²']],
+  ], [
+    ['Prensa hidráulica (pistões 1 e 2)', '', 'F₁/A₁ = F₂/A₂', ['F₁·A₁ = F₂·A₂', 'F₁/A₂ = F₂/A₁', 'F₁ + A₁ = F₂ + A₂']],
+    ['Equilíbrio de uma alavanca', '', 'F₁·d₁ = F₂·d₂', ['F₁/d₁ = F₂/d₂', 'F₁ + d₁ = F₂ + d₂', 'F₁·d₂ = F₂·d₁']],
+    ['Fração submersa de um corpo que flutua', '', 'ρ<sub>corpo</sub>/ρ<sub>líq</sub>', ['ρ<sub>líq</sub>/ρ<sub>corpo</sub>', 'ρ<sub>corpo</sub>·ρ<sub>líq</sub>', '1 − ρ<sub>corpo</sub>/ρ<sub>líq</sub>']],
+  ]],
+  ['F_en', 'fis', 'Energia, impulso e gravitação', 'f_en', [
+    ['Energia cinética', 'E<sub>c</sub>', 'm·v²/2', ['m·v²', 'm·v/2', 'm²·v/2']],
+    ['Energia potencial gravitacional', 'E<sub>p</sub>', 'm·g·h', ['m·g/h', 'm·h/2', 'm·g·h²']],
+    ['Energia potencial elástica', 'E<sub>el</sub>', 'k·x²/2', ['k·x', 'k·x²', 'k²·x/2']],
+    ['Trabalho de uma força constante', 'τ', 'F·d·cos θ', ['F·d·sen θ', 'F/d', 'F·d/cos θ']],
+    ['Potência média', 'P', 'τ/Δt', ['τ·Δt', 'Δt/τ', 'F·d·Δt']],
+    ['Potência com força e velocidade', 'P', 'F·v', ['F/v', 'F·v²', 'm·v']],
+    ['Rendimento', 'η', 'P<sub>útil</sub>/P<sub>total</sub>', ['P<sub>total</sub>/P<sub>útil</sub>', 'P<sub>útil</sub> − P<sub>total</sub>', 'P<sub>útil</sub>·P<sub>total</sub>']],
+    ['Quantidade de movimento', 'Q', 'm·v', ['m·v²/2', 'm/v', 'm·a']],
+    ['Impulso', 'I', 'F·Δt', ['F/Δt', 'F·Δs', 'm·a·Δt²']],
+    ['Teorema do impulso', 'I', 'ΔQ', ['ΔE<sub>c</sub>', 'Q', 'm·Δa']],
+    ['Lei da gravitação universal', 'F', 'G·M·m/d²', ['G·M·m/d', 'G·M·m·d²', 'G(M + m)/d²']],
+    ['Gravidade na superfície de um planeta', 'g', 'G·M/R²', ['G·M/R', 'G·M·R²', 'G·M·m/R²']],
+    ['3ª lei de Kepler', 'T²/R³', 'constante', ['T/R', 'R³·T²', 'zero']],
+    ['Teorema da energia cinética', 'τ<sub>total</sub>', 'ΔE<sub>c</sub>', ['ΔQ', 'E<sub>p</sub>', 'ΔE<sub>p</sub> + ΔE<sub>c</sub>']],
+  ], [
+    ['Isole v em E<sub>c</sub> = m·v²/2', '', '√(2E<sub>c</sub>/m)', ['√(E<sub>c</sub>/2m)', '2E<sub>c</sub>/m', '√(2m·E<sub>c</sub>)']],
+    ['Colisão perfeitamente inelástica: velocidade final', '', '(m₁v₁ + m₂v₂)/(m₁ + m₂)', ['(v₁ + v₂)/2', '(m₁v₁ + m₂v₂)/(m₁·m₂)', 'm₁v₁ + m₂v₂']],
+    ['Velocidade de satélite em órbita circular', '', '√(G·M/R)', ['G·M/R', '√(G·M·R)', '√(2G·M/R²)']],
+  ]],
+  ['F_term', 'fis', 'Calor e gases', 'f_term', [
+    ['Calor sensível', 'Q', 'm·c·ΔT', ['m·L', 'm·c/ΔT', 'c·ΔT/m']],
+    ['Calor latente', 'Q', 'm·L', ['m·c·ΔT', 'L/m', 'm·L·ΔT']],
+    ['Capacidade térmica', 'C', 'm·c', ['m/c', 'Q·ΔT', 'c/m']],
+    ['Kelvin a partir de Celsius', 'T<sub>K</sub>', 'T<sub>C</sub> + 273', ['T<sub>C</sub> − 273', 'T<sub>C</sub>·273', '273 − T<sub>C</sub>']],
+    ['Dilatação linear', 'ΔL', 'L₀·α·ΔT', ['L₀·α/ΔT', 'α·ΔT', 'L₀ + α·ΔT']],
+    ['Equação de Clapeyron', 'p·V', 'n·R·T', ['n·R/T', 'R·T/n', 'n·T/R']],
+    ['Lei geral dos gases', 'p₁V₁/T₁', 'p₂V₂/T₂', ['p₂V₂T₂', 'p₂T₂/V₂', 'T₂/(p₂V₂)']],
+    ['1ª lei da termodinâmica', 'ΔU', 'Q − τ', ['Q + τ', 'τ − Q', 'Q·τ']],
+    ['Trabalho a pressão constante', 'τ', 'p·ΔV', ['V·Δp', 'p/ΔV', 'n·R·Δp']],
+    ['Rendimento de Carnot', 'η', '1 − T<sub>F</sub>/T<sub>Q</sub>', ['1 − T<sub>Q</sub>/T<sub>F</sub>', 'T<sub>F</sub>/T<sub>Q</sub>', '1 + T<sub>F</sub>/T<sub>Q</sub>']],
+    ['Rendimento de uma máquina térmica', 'η', 'τ/Q<sub>quente</sub>', ['Q<sub>quente</sub>/τ', 'τ·Q<sub>quente</sub>', 'Q<sub>fria</sub>/τ']],
+    ['Fluxo de calor por condução', 'φ', 'k·A·ΔT/L', ['k·A·L/ΔT', 'k·ΔT/(A·L)', 'k·A·ΔT·L']],
+  ], [
+    ['Conversão Celsius–Fahrenheit', '', 'C/5 = (F − 32)/9', ['C/9 = (F − 32)/5', 'C/5 = F/9 − 32', 'C/100 = (F − 32)/212']],
+    ['Dilatação volumétrica: γ em função de α', '', 'γ = 3α', ['γ = 2α', 'γ = α', 'γ = α³']],
+    ['Isole ΔT em Q = m·c·ΔT', '', 'Q/(m·c)', ['m·c/Q', 'Q·m/c', 'Q − m·c']],
+    ['Temperatura de equilíbrio de duas porções de água', '', '(m₁T₁ + m₂T₂)/(m₁ + m₂)', ['(T₁ + T₂)/2', '(m₁T₁ + m₂T₂)/(m₁·m₂)', 'm₁T₁ + m₂T₂']],
+  ]],
+  ['F_ond', 'fis', 'Ondas, MHS e óptica', 'f_ond', [
+    ['Equação fundamental da ondulatória', 'v', 'λ·f', ['λ/f', 'f/λ', 'λ·T']],
+    ['Índice de refração', 'n', 'c/v', ['v/c', 'c·v', '1 − v/c']],
+    ['Lei de Snell', 'n₁·sen θ₁', 'n₂·sen θ₂', ['n₂·cos θ₂', 'n₂/sen θ₂', 'n₁·sen θ₂']],
+    ['Equação de Gauss (lentes e espelhos)', '1/f', '1/p + 1/p′', ['1/p − 1/p′', 'p + p′', 'p·p′']],
+    ['Aumento linear', 'A', '−p′/p', ['p/p′', '−p/p′', 'p·p′']],
+    ['Vergência de uma lente (f em metros)', 'V', '1/f', ['f', 'f²', '2/f']],
+    ['Foco de espelho esférico', 'f', 'R/2', ['2R', 'R', 'R/4']],
+    ['Harmônicos de uma corda fixa', 'f<sub>n</sub>', 'n·v/2L', ['n·v/L', 'n·v/4L', 'v/2nL']],
+    ['Velocidade de onda numa corda', 'v', '√(T/μ)', ['T/μ', '√(μ/T)', 'T·μ']],
+    ['Período do pêndulo simples', 'T', '2π√(L/g)', ['2π√(g/L)', '2π·L/g', '√(L/g)/2π']],
+    ['Período do sistema massa-mola', 'T', '2π√(m/k)', ['2π√(k/m)', '2π·m/k', '√(m·k)']],
+    ['Nível sonoro', 'β', '10·log(I/I₀)', ['log(I/I₀)', '10·I/I₀', '10·log(I₀/I)']],
+    ['Número de imagens entre dois espelhos planos', 'N', '360°/α − 1', ['360°/α', '360°/α + 1', '180°/α − 1']],
+    ['Ângulo limite', 'sen L', 'n<sub>menor</sub>/n<sub>maior</sub>', ['n<sub>maior</sub>/n<sub>menor</sub>', 'n<sub>menor</sub>·n<sub>maior</sub>', '1 − n<sub>menor</sub>']],
+  ], [
+    ['Isole p′ na equação de Gauss', '', 'p·f/(p − f)', ['p·f/(f − p)', '(p − f)/(p·f)', 'p + f']],
+    ['Tubo fechado numa ponta: frequências possíveis', '', 'n·v/4L, com n ímpar', ['n·v/2L, com n par', 'n·v/4L, com n par', 'n·v/L, qualquer n']],
+  ]],
+  ['F_ele', 'fis', 'Eletricidade', 'f_cir', [
+    ['Lei de Coulomb', 'F', 'k·|Q·q|/d²', ['k·|Q·q|/d', 'k·|Q·q|·d²', 'k(Q + q)/d²']],
+    ['Campo elétrico', 'E', 'F/q', ['F·q', 'q/F', 'F/q²']],
+    ['Campo de uma carga pontual', 'E', 'k·Q/d²', ['k·Q/d', 'k·Q·d²', 'k·Q·q/d²']],
+    ['Potencial de uma carga pontual', 'V', 'k·Q/d', ['k·Q/d²', 'k·Q·d', 'k/(Q·d)']],
+    ['Trabalho da força elétrica', 'τ', 'q·U', ['q/U', 'U/q', 'q·E']],
+    ['Campo uniforme e diferença de potencial', 'U', 'E·d', ['E/d', 'd/E', 'E·d²']],
+    ['Carga de um capacitor', 'Q', 'C·U', ['C/U', 'U/C', 'C·U²']],
+    ['Energia de um capacitor', 'E', 'C·U²/2', ['C·U', 'C·U²', 'Q·U']],
+    ['Carga quantizada', 'Q', 'n·e', ['n/e', 'e/n', 'n + e']],
+    ['Corrente elétrica', 'i', 'Q/Δt', ['Q·Δt', 'Δt/Q', 'Q/Δt²']],
+    ['1ª lei de Ohm', 'U', 'R·i', ['R/i', 'i/R', 'R·i²']],
+    ['2ª lei de Ohm', 'R', 'ρ·L/A', ['ρ·A/L', 'ρ·L·A', 'L/(ρ·A)']],
+    ['Potência elétrica', 'P', 'U·i', ['U/i', 'U·i²', 'R·i']],
+    ['Potência dissipada num resistor (com i)', 'P', 'R·i²', ['R·i', 'R²·i', 'R/i²']],
+    ['Potência dissipada num resistor (com U)', 'P', 'U²/R', ['U/R', 'U²·R', 'U/R²']],
+    ['Energia elétrica consumida', 'E', 'P·Δt', ['P/Δt', 'Δt/P', 'P·Δt²']],
+    ['Resistores em série', 'R<sub>eq</sub>', 'R₁ + R₂ + …', ['1/R₁ + 1/R₂ + …', 'R₁·R₂·…', '(R₁ + R₂)/2']],
+    ['Dois resistores em paralelo', 'R<sub>eq</sub>', 'R₁·R₂/(R₁ + R₂)', ['R₁ + R₂', '(R₁ + R₂)/(R₁·R₂)', 'R₁·R₂']],
+    ['Tensão nos terminais de um gerador', 'U', 'ε − r·i', ['ε + r·i', 'ε·r·i', 'ε/(r·i)']],
+  ], [
+    ['Isole d na lei de Coulomb', '', '√(k·|Q·q|/F)', ['k·|Q·q|/F', '√(F/(k·|Q·q|))', '√(k·|Q·q|·F)']],
+    ['Isole U em P = U²/R', '', '√(P·R)', ['P·R', '√(P/R)', 'P/R']],
+    ['Capacitores em série (dois)', '', 'C₁·C₂/(C₁ + C₂)', ['C₁ + C₂', '(C₁ + C₂)/2', 'C₁·C₂']],
+  ]],
+  ['F_mag', 'fis', 'Magnetismo e indução', 'f_mag', [
+    ['Força magnética sobre carga', 'F', 'q·v·B·sen θ', ['q·v·B·cos θ', 'q·v/B', 'q·B/v']],
+    ['Força magnética sobre fio', 'F', 'B·i·L·sen θ', ['B·i/L', 'B·L/i', 'B·i·L·cos θ']],
+    ['Raio da trajetória de carga em campo uniforme', 'R', 'm·v/(q·B)', ['q·B/(m·v)', 'm·v·q·B', 'm·q/(v·B)']],
+    ['Campo de fio longo e reto', 'B', 'μ₀·i/(2π·d)', ['μ₀·i/(2d)', 'μ₀·i·2π·d', 'μ₀·i/(4π·d)']],
+    ['Campo no centro de uma espira', 'B', 'μ₀·i/(2R)', ['μ₀·i/(2π·R)', 'μ₀·i·R/2', 'μ₀·i/R²']],
+    ['Campo no interior de um solenoide', 'B', 'μ₀·N·i/L', ['μ₀·N·i·L', 'μ₀·i/(N·L)', 'μ₀·N/(i·L)']],
+    ['Fluxo magnético', 'Φ', 'B·A·cos θ', ['B·A·sen θ', 'B/A', 'B·A/cos θ']],
+    ['Lei de Faraday', 'ε', '−ΔΦ/Δt', ['−Φ·Δt', 'ΔΦ·Δt', '−Δt/ΔΦ']],
+    ['Fem numa barra que se move', 'ε', 'B·L·v', ['B·L/v', 'B·v/L', 'B·L·v²']],
+    ['Transformador', 'U₁/U₂', 'N₁/N₂', ['N₂/N₁', 'N₁·N₂', '(N₁/N₂)²']],
+  ], [
+    ['Isole B em R = m·v/(q·B)', '', 'm·v/(q·R)', ['q·R/(m·v)', 'm·v·q·R', 'R·m/(q·v)']],
+    ['Período do movimento circular de carga em campo B', '', '2π·m/(q·B)', ['2π·q·B/m', 'm/(q·B)', '2π·m·v/(q·B)']],
+  ]],
+
+  ['F_qmol', 'qui', 'Mol, gases e soluções', 'q_sol', [
+    ['Número de mols', 'n', 'm/M', ['m·M', 'M/m', 'm/(M·V)']],
+    ['Número de partículas', 'N', 'n·N<sub>A</sub>', ['n/N<sub>A</sub>', 'N<sub>A</sub>/n', 'n + N<sub>A</sub>']],
+    ['Equação de Clapeyron', 'p·V', 'n·R·T', ['n·R/T', 'R·T/n', 'n·T/R']],
+    ['Densidade de um gás', 'd', 'p·M/(R·T)', ['p·R/(M·T)', 'M·R·T/p', 'p·M·R·T']],
+    ['Concentração comum', 'C', 'm<sub>soluto</sub>/V<sub>solução</sub>', ['m<sub>soluto</sub>/V<sub>solvente</sub>', 'm<sub>soluto</sub>·V<sub>solução</sub>', 'V<sub>solução</sub>/m<sub>soluto</sub>']],
+    ['Concentração em mol/L', '𝔐', 'n<sub>soluto</sub>/V<sub>solução</sub>', ['n<sub>soluto</sub>·V<sub>solução</sub>', 'V<sub>solução</sub>/n<sub>soluto</sub>', 'm<sub>soluto</sub>/V<sub>solução</sub>']],
+    ['Concentração em mol/L a partir da massa', '𝔐', 'm/(M·V)', ['m·M/V', 'M/(m·V)', 'm/(M·V²)']],
+    ['Relação entre concentração comum e mol/L', 'C', '𝔐·M', ['𝔐/M', 'M/𝔐', '𝔐 + M']],
+    ['Título em massa', 'τ', 'm<sub>soluto</sub>/m<sub>solução</sub>', ['m<sub>soluto</sub>/m<sub>solvente</sub>', 'm<sub>solução</sub>/m<sub>soluto</sub>', 'm<sub>soluto</sub>·m<sub>solução</sub>']],
+    ['Fração molar', 'x<sub>A</sub>', 'n<sub>A</sub>/n<sub>total</sub>', ['n<sub>total</sub>/n<sub>A</sub>', 'n<sub>A</sub>/n<sub>B</sub>', 'n<sub>A</sub>·n<sub>total</sub>']],
+    ['Pressão parcial (Dalton)', 'p<sub>A</sub>', 'x<sub>A</sub>·p<sub>total</sub>', ['p<sub>total</sub>/x<sub>A</sub>', 'x<sub>A</sub>/p<sub>total</sub>', 'x<sub>A</sub> + p<sub>total</sub>']],
+  ], [
+    ['Diluição', '', 'C₁·V₁ = C₂·V₂', ['C₁/V₁ = C₂/V₂', 'C₁·V₂ = C₂·V₁', 'C₁ + V₁ = C₂ + V₂']],
+    ['Mistura de duas soluções do mesmo soluto', '', 'C<sub>f</sub> = (C₁V₁ + C₂V₂)/(V₁ + V₂)', ['C<sub>f</sub> = (C₁ + C₂)/2', 'C<sub>f</sub> = (C₁V₁ + C₂V₂)/(V₁·V₂)', 'C<sub>f</sub> = C₁V₁ + C₂V₂']],
+    ['Isole V em pV = nRT', '', 'n·R·T/p', ['p/(n·R·T)', 'p·n·R·T', 'n·R/(p·T)']],
+    ['Transformação a volume constante', '', 'p₁/T₁ = p₂/T₂', ['p₁·T₁ = p₂·T₂', 'p₁/V₁ = p₂/V₂', 'p₁·V₁ = p₂·V₂']],
+  ]],
+  ['F_qfis', 'qui', 'Equilíbrio, cinética e energia', 'q_eq', [
+    ['Constante de equilíbrio de aA + bB ⇌ cC + dD', 'K<sub>c</sub>', '[C]<sup>c</sup>[D]<sup>d</sup>/([A]<sup>a</sup>[B]<sup>b</sup>)', ['[A]<sup>a</sup>[B]<sup>b</sup>/([C]<sup>c</sup>[D]<sup>d</sup>)', '([C] + [D])/([A] + [B])', 'c[C]·d[D]/(a[A]·b[B])']],
+    ['pH', 'pH', '−log[H⁺]', ['log[H⁺]', '−log[OH⁻]', '1/[H⁺]']],
+    ['pOH', 'pOH', '−log[OH⁻]', ['log[OH⁻]', '−log[H⁺]', '14·[OH⁻]']],
+    ['Produto iônico da água', 'K<sub>w</sub>', '[H⁺]·[OH⁻]', ['[H⁺]/[OH⁻]', '[H⁺] + [OH⁻]', '[OH⁻]/[H⁺]']],
+    ['Lei da diluição de Ostwald (α pequeno)', 'K<sub>a</sub>', '𝔐·α²', ['𝔐·α', '𝔐²·α', 'α²/𝔐']],
+    ['[H⁺] de um ácido fraco', '[H⁺]', '𝔐·α', ['𝔐·α²', '𝔐/α', 'α/𝔐']],
+    ['Lei de velocidade (reação elementar aA + bB)', 'v', 'k[A]<sup>a</sup>[B]<sup>b</sup>', ['k([A] + [B])', 'k·a[A]·b[B]', '[A]<sup>a</sup>[B]<sup>b</sup>/k']],
+    ['Massa restante após n meias-vidas', 'm', 'm₀/2ⁿ', ['m₀/2n', 'm₀·2ⁿ', 'm₀/n²']],
+    ['Variação de entalpia', 'ΔH', 'H<sub>produtos</sub> − H<sub>reagentes</sub>', ['H<sub>reagentes</sub> − H<sub>produtos</sub>', 'H<sub>produtos</sub> + H<sub>reagentes</sub>', 'H<sub>produtos</sub>/H<sub>reagentes</sub>']],
+    ['ΔH por energias de ligação', 'ΔH', 'Σ rompidas − Σ formadas', ['Σ formadas − Σ rompidas', 'Σ rompidas + Σ formadas', 'Σ formadas']],
+    ['Energia livre de Gibbs', 'ΔG', 'ΔH − T·ΔS', ['ΔH + T·ΔS', 'ΔS − T·ΔH', 'T·ΔH − ΔS']],
+    ['ddp de uma pilha', 'ΔE°', 'E°<sub>red, maior</sub> − E°<sub>red, menor</sub>', ['E°<sub>red, menor</sub> − E°<sub>red, maior</sub>', 'E°<sub>red, maior</sub> + E°<sub>red, menor</sub>', 'E°<sub>red, maior</sub>·E°<sub>red, menor</sub>']],
+    ['Carga na eletrólise', 'Q', 'i·t', ['i/t', 't/i', 'i·t²']],
+    ['Carga e mols de elétrons', 'Q', 'n<sub>e⁻</sub>·F', ['n<sub>e⁻</sub>/F', 'F/n<sub>e⁻</sub>', 'n<sub>e⁻</sub> + F']],
+  ], [
+    ['Relação entre pH e pOH a 25 °C', '', 'pH + pOH = 14', ['pH − pOH = 14', 'pH·pOH = 14', 'pH + pOH = 7']],
+    ['Velocidade média de consumo de um reagente', '', '|Δ[R]|/Δt', ['Δt/|Δ[R]|', '|Δ[R]|·Δt', '[R]/Δt²']],
+    ['Reação espontânea a T e p constantes', '', 'ΔG < 0', ['ΔG > 0', 'ΔH > 0', 'ΔS < 0']],
+    ['Soma dos Nox num íon', '', 'igual à carga do íon', ['sempre zero', 'igual ao número de átomos', 'o oposto da carga']],
+  ]],
+];
+
+// do que trata cada lei ou fórmula com nome de pessoa: aparece na pergunta, sem entregar a resposta
+const ABOUT = {
+ 'Fórmula de Bhaskara': 'raízes da equação do 2º grau', 'Equação de Torricelli': 'MUV sem o tempo', 'Lei de Hooke': 'força de uma mola',
+ '2ª lei de Newton': 'força e aceleração', 'Lei da gravitação universal': 'atração entre massas', '3ª lei de Kepler': 'período e raio das órbitas',
+ 'Teorema do impulso': 'impulso e quantidade de movimento', 'Teorema da energia cinética': 'trabalho e energia', 'Equação de Clapeyron': 'gás ideal',
+ '1ª lei da termodinâmica': 'energia num gás', 'Rendimento de Carnot': 'máquina térmica ideal', 'Lei de Snell': 'refração da luz',
+ 'Lei de Coulomb': 'força entre cargas', '1ª lei de Ohm': 'tensão e corrente num resistor', '2ª lei de Ohm': 'resistência de um fio',
+ 'Lei de Faraday': 'tensão induzida', 'Pressão parcial (Dalton)': 'mistura de gases', 'Lei da diluição de Ostwald (α pequeno)': 'ionização de ácido fraco',
+ 'Energia livre de Gibbs': 'se a reação é espontânea', 'Relação de Euler (poliedros convexos)': 'vértices, arestas e faces',
+ 'Teorema de Pitágoras': 'triângulo retângulo', 'Lei dos cossenos': 'lado oposto a um ângulo', 'Nível sonoro': 'decibéis',
+ 'Vergência de uma lente (f em metros)': 'o “grau” da lente, em dioptrias', 'Transformador': 'tensão e número de espiras',
+ 'Equação fundamental da ondulatória': 'velocidade de uma onda', 'Título em massa': 'fração do soluto na solução', 'Lei de velocidade (reação elementar aA + bB)': 'rapidez da reação',
+ 'Teorema de Tales': 'paralelas e proporção', 'Teorema do ângulo externo': 'ângulos de um triângulo', 'Ângulo inscrito': 'ângulos na circunferência',
+ 'Desigualdade triangular': 'quando três medidas formam triângulo', 'Teorema da bissetriz interna': 'bissetriz e lados', 'Teorema do resto': 'divisão de polinômio por (x − a)',
+ 'Teorema de D’Alembert': 'divisibilidade de polinômios', 'Teorema fundamental da álgebra': 'quantas raízes tem um polinômio', 'Teorema fundamental da aritmética': 'fatoração em primos',
+ 'Princípio fundamental da contagem': 'contar escolhas em etapas', 'Princípio da casa dos pombos': 'garantir uma repetição', 'Relação de Stifel': 'triângulo de Pascal',
+ '1ª lei de Newton (inércia)': 'o que acontece sem força resultante', '3ª lei de Newton (ação e reação)': 'pares de forças entre dois corpos',
+ 'Conservação da energia mecânica': 'movimentos sem atrito', 'Conservação da quantidade de movimento': 'colisões e explosões', '1ª lei de Kepler': 'forma das órbitas',
+ '2ª lei de Kepler': 'velocidade do planeta na órbita', 'Lei de Stevin': 'pressão e profundidade', 'Princípio de Pascal': 'prensa hidráulica e freios',
+ 'Princípio de Arquimedes': 'empuxo e flutuação', 'Lei zero da termodinâmica': 'equilíbrio térmico e termômetros', '2ª lei da termodinâmica': 'sentido do calor e máquinas térmicas',
+ 'Lei de Boyle': 'gás a temperatura constante', 'Lei de Charles e Gay-Lussac': 'gás a pressão constante', 'Conservação da carga elétrica': 'eletrização',
+ 'Lei de Ohm': 'resistores', '1ª lei de Kirchhoff (nós)': 'correntes que se encontram', '2ª lei de Kirchhoff (malhas)': 'tensões num caminho fechado',
+ 'Lei de Lenz': 'sentido da corrente induzida', 'Leis da reflexão': 'espelhos', 'Efeito Doppler': 'som de uma fonte em movimento',
+ 'Princípio da relatividade (Einstein)': 'velocidade da luz e referenciais', 'Efeito fotoelétrico': 'luz arrancando elétrons',
+ 'Lei de Lavoisier': 'massa numa reação', 'Lei de Proust': 'proporção dos elementos num composto', 'Lei de Dalton (proporções múltiplas)': 'vários compostos dos mesmos elementos',
+ 'Hipótese de Avogadro': 'volumes de gases e moléculas', 'Lei volumétrica de Gay-Lussac': 'volumes de gases que reagem', 'Lei de Dalton (pressões parciais)': 'mistura de gases',
+ 'Princípio de Le Chatelier': 'deslocamento de equilíbrio', 'Lei de Hess': 'ΔH de reações em etapas', 'Lei da ação das massas (Guldberg–Waage)': 'velocidade e concentração',
+ 'Lei de Henry': 'gás dissolvido em líquido, como no refrigerante', 'Lei de Raoult (tonoscopia)': 'pressão de vapor de soluções', 'Lei periódica (Moseley)': 'organização da tabela periódica',
+ 'Regra do octeto': 'por que os átomos se ligam', 'Princípio de exclusão de Pauli': 'elétrons num orbital', 'Regra de Hund': 'ordem de preenchimento dos orbitais',
+ 'Ácido e base de Arrhenius': 'ácidos e bases em água', 'Ácido e base de Brønsted–Lowry': 'troca de H⁺', 'Ácido e base de Lewis': 'pares de elétrons', 'Semelhante dissolve semelhante': 'solubilidade',
+};
+
+// o que cada símbolo significa: aparece na resolução
+const FDESC = {
+ 'Fórmula de Bhaskara': 'as duas raízes de ax² + bx + c = 0, com Δ = b² − 4ac', 'Discriminante': 'Δ > 0: duas raízes reais; Δ = 0: uma; Δ < 0: nenhuma real',
+ 'Soma das raízes de ax² + bx + c': 'relação de Girard: não precisa achar as raízes', 'Produto das raízes de ax² + bx + c': 'relação de Girard: não precisa achar as raízes',
+ 'x do vértice da parábola': 'é a média das raízes; eixo de simetria', 'y do vértice da parábola': 'valor máximo (a < 0) ou mínimo (a > 0) da função',
+ 'Quadrado da soma': 'o quadrado do primeiro, mais duas vezes o produto, mais o quadrado do segundo', 'Quadrado da diferença': 'igual ao da soma, com o termo do meio negativo',
+ 'Diferença de quadrados': 'produto da soma pela diferença', 'Soma de cubos': 'um fator (a + b) e o “quase quadrado” com sinal trocado no meio',
+ 'Termo geral da PA': 'a₁: primeiro termo; r: razão; n: posição', 'Soma dos n termos da PA': 'média entre o primeiro e o último, vezes a quantidade de termos',
+ 'Termo geral da PG': 'a₁: primeiro termo; q: razão; n: posição', 'Soma dos n termos da PG': 'a₁: primeiro termo; q: razão (q ≠ 1)',
+ 'Soma da PG infinita (|q| < 1)': 'só converge se a razão estiver entre −1 e 1', 'Juros simples': 'C: capital; i: taxa por período; t: número de períodos',
+ 'Montante a juros compostos': 'os juros incidem sobre o montante do período anterior', 'Montante a juros simples': 'capital mais juros que crescem em PA',
+ 'Arranjo simples': 'escolher p de n quando a ordem importa', 'Combinação simples': 'escolher p de n quando a ordem não importa', 'Permutação simples': 'ordenar n elementos distintos',
+ 'Permutação com repetição (a e b repetidos)': 'divide pelas trocas entre elementos iguais', 'Permutação circular': 'em roda, girar todos não gera arranjo novo',
+ 'Probabilidade (casos equiprováveis)': 'vale quando todos os casos têm a mesma chance', 'Probabilidade da união': 'tira a interseção, que foi contada duas vezes',
+ 'Eventos independentes': 'um não muda a chance do outro', 'Probabilidade condicional': 'o espaço amostral vira só B', 'Evento complementar': 'útil para “pelo menos um”',
+ 'Termo geral do binômio (a + b)<sup>n</sup>': 'p vai de 0 a n; C<sub>n,p</sub> é o coeficiente do triângulo de Pascal', 'União de dois conjuntos': 'tira a interseção, que foi contada duas vezes',
+ 'Área do triângulo': 'b: base; h: altura relativa a essa base', 'Área do trapézio': 'B e b: bases; h: altura', 'Área do losango': 'D e d: diagonais',
+ 'Área do círculo': 'r: raio', 'Comprimento da circunferência': 'r: raio (ou πd, com d = diâmetro)', 'Área do triângulo equilátero': 'ℓ: lado',
+ 'Altura do triângulo equilátero': 'ℓ: lado', 'Diagonal do quadrado': 'ℓ: lado', 'Soma dos ângulos internos de um polígono': 'n: número de lados; a soma dos externos é sempre 360°',
+ 'Número de diagonais de um polígono': 'cada vértice liga a n − 3 outros; divide por 2 porque cada diagonal conta duas vezes',
+ 'Área do triângulo por dois lados e o ângulo entre eles': 'a e b: lados; θ: ângulo entre eles', 'Teorema de Pitágoras': 'a: hipotenusa; b e c: catetos',
+ 'Área do setor circular de ângulo θ': 'a fração θ/360° do círculo', 'Raio do círculo inscrito no triângulo (área A, semiperímetro p)': 'p = metade do perímetro',
+ 'Volume do prisma': 'A<sub>b</sub>: área da base; h: altura', 'Volume da pirâmide': 'um terço do prisma de mesma base e altura', 'Volume do cilindro': 'área da base (πr²) vezes a altura',
+ 'Volume do cone': 'um terço do cilindro de mesma base e altura', 'Volume da esfera': 'r: raio', 'Área da superfície esférica': 'quatro vezes a área de um círculo máximo',
+ 'Área lateral do cilindro': 'retângulo de comprimento 2πr e altura h', 'Diagonal do cubo': 'a: aresta', 'Diagonal do paralelepípedo': 'a, b e c: as três dimensões',
+ 'Relação de Euler (poliedros convexos)': 'V: vértices; A: arestas; F: faces',
+ 'Relação fundamental': 'vale para qualquer ângulo x', 'Tangente': 'não existe quando cos x = 0', 'Seno do arco duplo': 'caso a = b do seno da soma',
+ 'Cosseno do arco duplo': 'também = 2cos²x − 1 = 1 − 2sen²x', 'Seno da soma': '“sen cos + sen cos”, com os ângulos trocados', 'Cosseno da soma': '“cos cos − sen sen”: o sinal se inverte',
+ 'Lei dos cossenos': 'A: ângulo oposto ao lado a; com A = 90° vira Pitágoras', 'Lei dos senos (R = raio da circunscrita)': 'cada lado sobre o seno do ângulo oposto dá o mesmo valor, 2R',
+ 'Período de sen(kx)': 'k comprime o gráfico; o período normal é 2π', 'Graus para radianos': 'π rad = 180°', 'Secante': 'inverso do cosseno',
+ 'Distância entre dois pontos': 'Pitágoras com Δx e Δy', 'Ponto médio': 'média das coordenadas', 'Coeficiente angular': 'variação de y dividida pela variação de x',
+ 'Reta por um ponto (x₀, y₀) com inclinação m': 'm: coeficiente angular', 'Retas perpendiculares': 'um coeficiente é o inverso oposto do outro',
+ 'Circunferência de centro (a, b) e raio r': 'todos os pontos à distância r do centro', 'Distância do ponto (x₀, y₀) à reta ax + by + c = 0': 'módulo no numerador, raiz no denominador',
+ 'Área do triângulo pelos vértices (D = determinante)': 'D: determinante com as coordenadas dos vértices e uma coluna de 1', 'Coeficiente angular pela inclinação α': 'α: ângulo da reta com o eixo x',
+ 'Logaritmo do produto': 'log transforma produto em soma', 'Logaritmo do quociente': 'log transforma divisão em subtração', 'Logaritmo da potência': 'o expoente “desce” multiplicando',
+ 'Mudança de base': 'qualquer base comum serve no numerador e no denominador', 'Logaritmo de 1': 'porque b⁰ = 1', 'Logaritmo da própria base': 'porque b¹ = b',
+ 'Produto de potências de mesma base': 'conserva a base e soma os expoentes', 'Potência de potência': 'multiplica os expoentes', 'Expoente negativo': 'inverte a base',
+ 'Expoente fracionário': 'o denominador vira o índice da raiz', 'Quociente de potências de mesma base': 'conserva a base e subtrai os expoentes',
+ 'Movimento uniforme': 's₀: posição inicial; v: velocidade constante; t: tempo', 'Posição no MUV': 'v₀: velocidade inicial; a: aceleração constante',
+ 'Velocidade no MUV': 'v₀: velocidade inicial; a: aceleração; t: tempo', 'Equação de Torricelli': 'liga velocidades e deslocamento sem usar o tempo',
+ 'Velocidade média': 'deslocamento total dividido pelo tempo total', 'Aceleração média': 'variação de velocidade dividida pelo tempo', 'Altura de queda livre': 'com g = 10, h = 5t²',
+ 'Altura máxima no lançamento vertical': 'v₀: velocidade de lançamento; no topo v = 0', 'Aceleração centrípeta': 'aponta para o centro da curva; R: raio',
+ 'Velocidade angular': 'T: período, tempo de uma volta', 'Velocidade linear no MCU': 'ω: velocidade angular; R: raio', 'Frequência': 'voltas (ou oscilações) por segundo; T: período',
+ '2ª lei de Newton': 'F<sub>R</sub>: força resultante; m: massa; a: aceleração', 'Peso': 'g: aceleração da gravidade', 'Força de atrito': 'μ: coeficiente de atrito; N: força normal',
+ 'Lei de Hooke': 'k: constante elástica da mola; x: deformação', 'Força centrípeta': 'a resultante que faz o corpo curvar; R: raio',
+ 'Componente do peso ao longo do plano inclinado': 'θ: inclinação do plano; é o que puxa o bloco ladeira abaixo', 'Normal no plano inclinado sem atrito': 'equilibra a componente do peso perpendicular ao plano',
+ 'Momento de uma força (perpendicular)': 'F: força; d: distância até o eixo (braço)', 'Pressão': 'força dividida pela área', 'Pressão hidrostática (lei de Stevin)': 'p₀: pressão na superfície; ρ: densidade; h: profundidade',
+ 'Empuxo': 'ρ<sub>líq</sub>: densidade do líquido; V<sub>sub</sub>: volume submerso', 'Densidade': 'massa dividida pelo volume',
+ 'Energia cinética': 'm: massa; v: velocidade', 'Energia potencial gravitacional': 'h: altura em relação ao nível de referência', 'Energia potencial elástica': 'k: constante da mola; x: deformação',
+ 'Trabalho de uma força constante': 'θ: ângulo entre força e deslocamento; a 90° o trabalho é nulo', 'Potência média': 'trabalho (ou energia) dividido pelo tempo', 'Potência com força e velocidade': 'força na direção do movimento',
+ 'Rendimento': 'sempre menor que 1 (100%)', 'Quantidade de movimento': 'grandeza vetorial, no sentido da velocidade', 'Impulso': 'força média vezes o tempo de atuação',
+ 'Teorema do impulso': 'o impulso da resultante muda a quantidade de movimento', 'Lei da gravitação universal': 'G: constante gravitacional; d: distância entre os centros',
+ 'Gravidade na superfície de um planeta': 'M: massa do planeta; R: raio', '3ª lei de Kepler': 'T: período; R: raio médio da órbita', 'Teorema da energia cinética': 'trabalho de todas as forças',
+ 'Calor sensível': 'm: massa; c: calor específico; ΔT: variação de temperatura', 'Calor latente': 'muda o estado sem mudar a temperatura; L: calor latente', 'Capacidade térmica': 'calor por grau de variação do corpo todo',
+ 'Kelvin a partir de Celsius': 'mesmo tamanho de grau, zero deslocado', 'Dilatação linear': 'L₀: comprimento inicial; α: coeficiente de dilatação linear', 'Equação de Clapeyron': 'n: mols; R: constante dos gases; T em kelvin',
+ 'Lei geral dos gases': 'mesma quantidade de gás; T em kelvin', '1ª lei da termodinâmica': 'Q: calor recebido; τ: trabalho realizado pelo gás; ΔU: variação da energia interna',
+ 'Trabalho a pressão constante': 'expansão: τ > 0; compressão: τ < 0', 'Rendimento de Carnot': 'T<sub>F</sub> e T<sub>Q</sub>: fontes fria e quente, em kelvin',
+ 'Rendimento de uma máquina térmica': 'τ: trabalho; Q<sub>quente</sub>: calor recebido da fonte quente', 'Fluxo de calor por condução': 'k: condutividade; A: área; L: espessura',
+ 'Equação fundamental da ondulatória': 'λ: comprimento de onda; f: frequência', 'Índice de refração': 'c: velocidade da luz no vácuo; v: no meio', 'Lei de Snell': 'θ medido em relação à normal',
+ 'Equação de Gauss (lentes e espelhos)': 'p: objeto; p′: imagem (negativa se virtual); f: foco', 'Aumento linear': 'A < 0: imagem invertida', 'Vergência de uma lente (f em metros)': 'unidade: dioptria (o “grau”)',
+ 'Foco de espelho esférico': 'R: raio de curvatura', 'Harmônicos de uma corda fixa': 'n: número do harmônico; L: comprimento da corda', 'Velocidade de onda numa corda': 'T: tração; μ: massa por comprimento',
+ 'Período do pêndulo simples': 'não depende da massa nem da amplitude (pequena)', 'Período do sistema massa-mola': 'm: massa; k: constante da mola', 'Nível sonoro': 'I₀: intensidade mínima audível; cada 10 dB multiplica I por 10',
+ 'Número de imagens entre dois espelhos planos': 'α: ângulo entre os espelhos', 'Ângulo limite': 'acima dele há reflexão total (luz indo para o meio menos refringente)',
+ 'Lei de Coulomb': 'k: constante eletrostática; Q e q: cargas; d: distância', 'Campo elétrico': 'força por unidade de carga de prova', 'Campo de uma carga pontual': 'cai com o quadrado da distância',
+ 'Potencial de uma carga pontual': 'escalar, cai com a distância (não ao quadrado)', 'Trabalho da força elétrica': 'q: carga; U: diferença de potencial', 'Campo uniforme e diferença de potencial': 'd: distância na direção do campo',
+ 'Carga de um capacitor': 'C: capacitância; U: tensão', 'Energia de um capacitor': 'também = Q·U/2', 'Carga quantizada': 'n: número de elétrons; e: carga elementar',
+ 'Corrente elétrica': 'carga que passa por segundo', '1ª lei de Ohm': 'U: tensão; R: resistência; i: corrente', '2ª lei de Ohm': 'ρ: resistividade; L: comprimento; A: área da seção',
+ 'Potência elétrica': 'U: tensão; i: corrente', 'Potência dissipada num resistor (com i)': 'útil quando a corrente é a mesma (série)', 'Potência dissipada num resistor (com U)': 'útil quando a tensão é a mesma (paralelo)',
+ 'Energia elétrica consumida': 'em kWh: kW vezes horas', 'Resistores em série': 'a mesma corrente passa por todos', 'Dois resistores em paralelo': 'produto pela soma; o equivalente é menor que o menor',
+ 'Tensão nos terminais de um gerador': 'ε: força eletromotriz; r: resistência interna',
+ 'Força magnética sobre carga': 'θ: ângulo entre v e B; paralela ao campo, a força é nula', 'Força magnética sobre fio': 'L: comprimento do fio no campo; θ entre fio e B',
+ 'Raio da trajetória de carga em campo uniforme': 'a força magnética faz o papel de centrípeta', 'Campo de fio longo e reto': 'd: distância ao fio', 'Campo no centro de uma espira': 'R: raio da espira',
+ 'Campo no interior de um solenoide': 'N/L: espiras por comprimento', 'Fluxo magnético': 'θ: ângulo entre B e a normal da espira', 'Lei de Faraday': 'o sinal negativo é a lei de Lenz',
+ 'Fem numa barra que se move': 'L: comprimento da barra; v: velocidade', 'Transformador': 'só funciona com corrente alternada',
+ 'Número de mols': 'm: massa; M: massa molar', 'Número de partículas': 'N<sub>A</sub>: constante de Avogadro', 'Densidade de um gás': 'sai de pV = nRT com n = m/M',
+ 'Concentração comum': 'em g/L', 'Concentração em mol/L': 'mols de soluto por litro de solução', 'Concentração em mol/L a partir da massa': 'm: massa do soluto; M: massa molar; V: volume em litros',
+ 'Relação entre concentração comum e mol/L': 'g/L = mol/L × g/mol', 'Título em massa': 'sem unidade; vezes 100 dá a porcentagem', 'Fração molar': 'soma das frações = 1',
+ 'Pressão parcial (Dalton)': 'cada gás contribui na proporção dos seus mols',
+ 'Constante de equilíbrio de aA + bB ⇌ cC + dD': 'produtos em cima, reagentes embaixo, elevados aos coeficientes; sólidos e líquidos puros ficam de fora',
+ 'pH': 'pH < 7 ácido; 7 neutro; > 7 básico (a 25 °C)', 'pOH': 'pH + pOH = 14 a 25 °C', 'Produto iônico da água': 'vale 10⁻¹⁴ a 25 °C',
+ 'Lei da diluição de Ostwald (α pequeno)': 'α: grau de ionização; 𝔐: concentração em mol/L', '[H⁺] de um ácido fraco': 'só a fração ionizada libera H⁺',
+ 'Lei de velocidade (reação elementar aA + bB)': 'em reação elementar, as ordens são os coeficientes', 'Massa restante após n meias-vidas': 'a cada meia-vida, a amostra cai pela metade',
+ 'Variação de entalpia': 'ΔH < 0: exotérmica; ΔH > 0: endotérmica', 'ΔH por energias de ligação': 'romper ligação absorve energia; formar libera',
+ 'Energia livre de Gibbs': 'ΔG < 0: espontânea', 'ddp de uma pilha': 'quem tem maior E° de redução é o cátodo (polo +)', 'Carga na eletrólise': 'i: corrente; t: tempo em segundos',
+ 'Carga e mols de elétrons': 'F ≈ 96.500 C por mol de elétrons',
+};
+
+// por que a resposta das questões de isolar e de propriedades é aquela
+
+// ---------- o que é cada termo das fórmulas (legenda embaixo da questão) ----------
+// SYM: significado padrão de cada símbolo no tópico; SYMF: quando uma fórmula usa o símbolo de outro jeito
+// x_{v} quer dizer x com índice v
+const SYM = {
+  F_alg: { x: 'variável (na equação, a incógnita)', y: 'valor da função', a: 'coeficiente de x²', b: 'coeficiente de x', c: 'termo independente',
+    'Δ': 'discriminante, b² − 4ac', 'x₁': 'uma raiz', 'x₂': 'a outra raiz', 'x_{v}': 'x do vértice', 'y_{v}': 'y do vértice (valor máximo ou mínimo)' },
+  F_seq: { 'a_{n}': 'termo da posição n', 'a₁': 'primeiro termo', n: 'número de termos (ou posição do termo)', r: 'razão da PA', q: 'razão da PG',
+    'S_{n}': 'soma dos n primeiros termos', S: 'soma de todos os termos', J: 'juros', C: 'capital (valor inicial)', i: 'taxa por período, em decimal',
+    t: 'número de períodos', M: 'montante (capital + juros)', a: 'primeiro dos três termos', b: 'termo do meio', c: 'terceiro termo' },
+  F_comb: { 'A_{n,p}': 'arranjos de n elementos, p a p', 'C_{n,p}': 'combinações de n elementos, p a p', 'P_{n}': 'permutações de n elementos',
+    'PC_{n}': 'permutações circulares de n elementos', n: 'total de elementos', p: 'quantos são escolhidos', P: 'probabilidade', A: 'evento A', B: 'evento B',
+    'Ā': 'A não acontece (complementar)', '∪': 'união: A ou B', '∩': 'interseção: A e B', 'T_{p+1}': 'termo da posição p + 1' },
+  F_geo: { A: 'área', b: 'base', h: 'altura', B: 'base maior', r: 'raio', C: 'comprimento da circunferência', 'ℓ': 'lado', d: 'diagonal',
+    'S_{i}': 'soma dos ângulos internos', n: 'número de lados', a: 'hipotenusa', c: 'cateto', 'θ': 'ângulo', p: 'semiperímetro', k: 'razão entre os lados' },
+  F_esp: { V: 'volume', 'A_{b}': 'área da base', h: 'altura', r: 'raio', A: 'área da superfície', 'A_{ℓ}': 'área lateral', D: 'diagonal',
+    a: 'aresta', b: 'segunda dimensão', c: 'terceira dimensão' },
+  F_trig: { x: 'ângulo (arco)', a: 'lado oposto ao ângulo A', b: 'lado oposto ao ângulo B', c: 'terceiro lado', A: 'ângulo oposto ao lado a',
+    B: 'ângulo oposto ao lado b', R: 'raio da circunferência circunscrita', T: 'período', k: 'número que multiplica x', rad: 'medida em radianos', graus: 'medida em graus' },
+  F_anal: { d: 'distância', 'x₁': 'x do 1º ponto', 'y₁': 'y do 1º ponto', 'x₂': 'x do 2º ponto', 'y₂': 'y do 2º ponto', M: 'ponto médio',
+    m: 'coeficiente angular (inclinação)', 'x₀': 'x do ponto dado', 'y₀': 'y do ponto dado', x: 'x de um ponto qualquer', y: 'y de um ponto qualquer',
+    'm₁': 'coeficiente angular da 1ª reta', 'm₂': 'coeficiente angular da 2ª reta', a: 'x do centro', b: 'y do centro', r: 'raio', c: 'termo independente da reta',
+    A: 'área', D: 'determinante com as coordenadas dos vértices', 'α': 'ângulo de inclinação da reta' },
+  F_log: { a: 'logaritmando (o número)', b: 'base do logaritmo', n: 'expoente', m: 'expoente', x: 'o logaritmo (um expoente)',
+    N: 'quantidade depois do tempo t', 'N₀': 'quantidade inicial', t: 'número de vezes que dobrou' },
+  F_cin: { s: 'posição no instante t', 's₀': 'posição inicial', v: 'velocidade', 'v₀': 'velocidade inicial', t: 'tempo', a: 'aceleração',
+    'Δs': 'deslocamento', 'v_{m}': 'velocidade média', 'Δt': 'intervalo de tempo', 'a_{m}': 'aceleração média', 'Δv': 'variação da velocidade',
+    h: 'altura', g: 'aceleração da gravidade', 'h_{máx}': 'altura máxima', 'a_{c}': 'aceleração centrípeta', R: 'raio da curva',
+    'ω': 'velocidade angular', T: 'período (tempo de uma volta)', f: 'frequência (voltas por segundo)' },
+  F_din: { 'F_{R}': 'força resultante', m: 'massa', a: 'aceleração', P: 'peso', g: 'aceleração da gravidade', 'f_{at}': 'força de atrito',
+    'μ': 'coeficiente de atrito', N: 'força normal', F: 'força', k: 'constante elástica da mola', x: 'deformação da mola', 'F_{c}': 'força centrípeta',
+    v: 'velocidade', R: 'raio da curva', 'P_{x}': 'parte do peso ao longo do plano', 'θ': 'inclinação do plano', M: 'momento (torque)',
+    d: 'distância da força ao ponto de apoio', p: 'pressão', A: 'área', 'p₀': 'pressão na superfície (atmosférica)', 'ρ': 'densidade do líquido',
+    h: 'profundidade', E: 'empuxo', 'ρ_{líq}': 'densidade do líquido', 'V_{sub}': 'volume submerso', 'ρ_{corpo}': 'densidade do corpo', V: 'volume',
+    'F₁': 'força no pistão 1', 'A₁': 'área do pistão 1', 'F₂': 'força no pistão 2', 'A₂': 'área do pistão 2' },
+  F_en: { 'E_{c}': 'energia cinética', m: 'massa', v: 'velocidade', 'E_{p}': 'energia potencial gravitacional', g: 'aceleração da gravidade', h: 'altura',
+    'E_{el}': 'energia potencial elástica', k: 'constante elástica da mola', x: 'deformação da mola', 'τ': 'trabalho', F: 'força', d: 'deslocamento',
+    'θ': 'ângulo entre a força e o deslocamento', P: 'potência', 'Δt': 'intervalo de tempo', 'η': 'rendimento', 'P_{útil}': 'potência útil',
+    'P_{total}': 'potência total recebida', Q: 'quantidade de movimento', I: 'impulso', a: 'aceleração', 'Δs': 'deslocamento',
+    G: 'constante da gravitação universal', M: 'massa do planeta (ou do corpo central)', R: 'raio do planeta (ou da órbita)', T: 'período da órbita',
+    'τ_{total}': 'trabalho da força resultante', 'm₁': 'massa do corpo 1', 'v₁': 'velocidade do corpo 1', 'm₂': 'massa do corpo 2', 'v₂': 'velocidade do corpo 2' },
+  F_term: { Q: 'calor', m: 'massa', c: 'calor específico', 'ΔT': 'variação de temperatura', L: 'calor latente', C: 'capacidade térmica',
+    'T_{K}': 'temperatura em kelvin', 'T_{C}': 'temperatura em Celsius', 'ΔL': 'variação do comprimento', 'L₀': 'comprimento inicial',
+    'α': 'coeficiente de dilatação linear', 'γ': 'coeficiente de dilatação volumétrica', p: 'pressão', V: 'volume', n: 'número de mols',
+    R: 'constante dos gases', T: 'temperatura em kelvin', 'p₁': 'pressão inicial', 'V₁': 'volume inicial', 'T₁': 'temperatura inicial (K)',
+    'p₂': 'pressão final', 'V₂': 'volume final', 'T₂': 'temperatura final (K)', 'ΔU': 'variação da energia interna', 'τ': 'trabalho feito pelo gás',
+    'ΔV': 'variação do volume', 'η': 'rendimento', 'T_{F}': 'temperatura da fonte fria (K)', 'T_{Q}': 'temperatura da fonte quente (K)',
+    'Q_{quente}': 'calor recebido da fonte quente', 'Q_{fria}': 'calor cedido à fonte fria', 'φ': 'fluxo de calor', k: 'condutividade térmica',
+    A: 'área da parede', F: 'temperatura em Fahrenheit' },
+  F_ond: { v: 'velocidade da onda', 'λ': 'comprimento de onda', f: 'frequência', n: 'índice de refração', c: 'velocidade da luz no vácuo',
+    'n₁': 'índice de refração do meio 1', 'θ₁': 'ângulo com a normal no meio 1', 'n₂': 'índice de refração do meio 2', 'θ₂': 'ângulo com a normal no meio 2',
+    p: 'distância do objeto', 'p′': 'distância da imagem', A: 'aumento linear', V: 'vergência (em dioptrias)', R: 'raio de curvatura',
+    'f_{n}': 'frequência do harmônico n', L: 'comprimento', T: 'período', 'μ': 'densidade linear da corda (massa/comprimento)', g: 'aceleração da gravidade',
+    m: 'massa', k: 'constante elástica da mola', 'β': 'nível sonoro (dB)', I: 'intensidade do som', 'I₀': 'menor intensidade audível',
+    N: 'número de imagens', 'α': 'ângulo entre os espelhos', 'n_{menor}': 'índice do meio menos refringente', 'n_{maior}': 'índice do meio mais refringente' },
+  F_ele: { F: 'força elétrica', k: 'constante eletrostática', Q: 'carga', q: 'carga de prova', d: 'distância', E: 'campo elétrico', V: 'potencial elétrico',
+    'τ': 'trabalho da força elétrica', U: 'tensão (diferença de potencial)', C: 'capacitância', n: 'número de elétrons a mais ou a menos',
+    e: 'carga elementar (1,6 × 10⁻¹⁹ C)', i: 'corrente elétrica', 'Δt': 'intervalo de tempo', R: 'resistência', 'ρ': 'resistividade do material',
+    L: 'comprimento do fio', A: 'área da seção do fio', P: 'potência', 'R_{eq}': 'resistência equivalente', 'R₁': 'resistência 1', 'R₂': 'resistência 2',
+    'ε': 'força eletromotriz do gerador', r: 'resistência interna do gerador', 'C₁': 'capacitância 1', 'C₂': 'capacitância 2' },
+  F_mag: { F: 'força magnética', q: 'carga', v: 'velocidade', B: 'campo magnético', 'θ': 'ângulo', i: 'corrente elétrica', L: 'comprimento',
+    R: 'raio', m: 'massa da partícula', 'μ₀': 'permeabilidade magnética do vácuo', d: 'distância até o fio', N: 'número de espiras',
+    'Φ': 'fluxo magnético', A: 'área da espira', 'ε': 'força eletromotriz induzida', 'ΔΦ': 'variação do fluxo', 'Δt': 'intervalo de tempo',
+    'U₁': 'tensão no primário', 'U₂': 'tensão no secundário', 'N₁': 'espiras do primário', 'N₂': 'espiras do secundário' },
+  F_qmol: { n: 'número de mols', m: 'massa', M: 'massa molar', V: 'volume', N: 'número de partículas', 'N_{A}': 'constante de Avogadro', p: 'pressão',
+    R: 'constante dos gases', T: 'temperatura em kelvin', d: 'densidade do gás', C: 'concentração comum (g/L)', 'm_{soluto}': 'massa do soluto',
+    'V_{solução}': 'volume da solução', 'V_{solvente}': 'volume do solvente', '𝔐': 'concentração em mol/L', 'n_{soluto}': 'mols de soluto',
+    'τ': 'título (fração da massa que é soluto)', 'm_{solução}': 'massa da solução', 'm_{solvente}': 'massa do solvente', 'x_{A}': 'fração molar de A',
+    'n_{A}': 'mols de A', 'n_{B}': 'mols de B', 'n_{total}': 'mols no total', 'p_{A}': 'pressão parcial de A', 'p_{total}': 'pressão total',
+    'C₁': 'concentração antes', 'V₁': 'volume antes', 'C₂': 'concentração depois', 'V₂': 'volume depois', 'C_{f}': 'concentração final',
+    'p₁': 'pressão inicial', 'T₁': 'temperatura inicial (K)', 'p₂': 'pressão final', 'T₂': 'temperatura final (K)' },
+  F_qfis: { 'K_{c}': 'constante de equilíbrio', '[': 'concentração em mol/L', A: 'reagente A', B: 'reagente B', C: 'produto C', D: 'produto D',
+    a: 'coeficiente de A', b: 'coeficiente de B', c: 'coeficiente de C', d: 'coeficiente de D', 'H⁺': 'íon hidrogênio', 'OH⁻': 'íon hidróxido',
+    pH: '−log da concentração de H⁺', pOH: '−log da concentração de OH⁻', 'K_{w}': 'produto iônico da água (10⁻¹⁴ a 25 °C)',
+    'K_{a}': 'constante de ionização do ácido', '𝔐': 'concentração em mol/L', 'α': 'grau de ionização', v: 'velocidade da reação',
+    k: 'constante de velocidade', m: 'massa restante', 'm₀': 'massa inicial', n: 'número de meias-vidas', 'ΔH': 'variação de entalpia',
+    'H_{produtos}': 'entalpia dos produtos', 'H_{reagentes}': 'entalpia dos reagentes', 'Σ': 'soma das energias das ligações',
+    'ΔG': 'variação de energia livre', T: 'temperatura em kelvin', 'ΔS': 'variação de entropia', 'ΔE°': 'ddp da pilha', 'ΔE': 'ddp da pilha',
+    'E°_{red, maior}': 'maior potencial de redução', 'E°_{red, menor}': 'menor potencial de redução', Q: 'carga elétrica', i: 'corrente elétrica',
+    t: 'tempo', 'n_{e⁻}': 'mols de elétrons', F: 'constante de Faraday (96 500 C/mol)', R: 'reagente', 'Δt': 'intervalo de tempo' },
+};
+const SYMF = {
+  'Quadrado da soma': { a: 'um número qualquer', b: 'outro número qualquer' }, 'Quadrado da diferença': { a: 'um número qualquer', b: 'outro número qualquer' },
+  'Diferença de quadrados': { a: 'um número qualquer', b: 'outro número qualquer' }, 'Soma de cubos': { a: 'um número qualquer', b: 'outro número qualquer' },
+  'Isole x em y = ax + b': { a: 'coeficiente angular (inclinação da reta)', b: 'coeficiente linear (onde a reta corta o eixo y)' },
+  'Forma fatorada de ax² + bx + c, com raízes x₁ e x₂': { x: 'variável' },
+  'Permutação com repetição (a e b repetidos)': { P: 'número de permutações', n: 'total de elementos', a: 'repetições do 1º elemento', b: 'repetições do 2º elemento' },
+  'Termo geral do binômio (a + b)<sup>n</sup>': { a: '1º termo do binômio', b: '2º termo do binômio', n: 'expoente do binômio', p: 'posição do termo menos 1' },
+  'União de dois conjuntos': { n: 'número de elementos', A: 'conjunto A', B: 'conjunto B' },
+  'Número de subconjuntos de um conjunto com n elementos': { n: 'número de elementos do conjunto' },
+  'Número de apertos de mão entre n pessoas': { n: 'número de pessoas' },
+  'Área do trapézio': { B: 'base maior', b: 'base menor' }, 'Área do losango': { D: 'diagonal maior', d: 'diagonal menor' },
+  'Número de diagonais de um polígono': { d: 'número de diagonais', n: 'número de lados' },
+  'Área do triângulo por dois lados e o ângulo entre eles': { a: 'um lado', b: 'outro lado', 'θ': 'ângulo entre esses dois lados' },
+  'Teorema de Pitágoras': { a: 'hipotenusa', b: 'um cateto', c: 'o outro cateto' },
+  'Área do setor circular de ângulo θ': { 'θ': 'ângulo central, em graus' },
+  'Raio do círculo inscrito no triângulo (área A, semiperímetro p)': { r: 'raio do círculo inscrito', A: 'área do triângulo' },
+  'Altura relativa à hipotenusa (catetos b, c, hipotenusa a)': { h: 'altura relativa à hipotenusa', a: 'hipotenusa', b: 'um cateto', c: 'o outro cateto' },
+  'Relação de Euler (poliedros convexos)': { V: 'número de vértices', A: 'número de arestas', F: 'número de faces' },
+  'Diagonal do cubo': { a: 'aresta do cubo' }, 'Diagonal do paralelepípedo': { a: 'comprimento', b: 'largura', c: 'altura' },
+  'Seno da soma': { a: 'um ângulo', b: 'outro ângulo' }, 'Cosseno da soma': { a: 'um ângulo', b: 'outro ângulo' },
+  'Imagem de f(x) = a + b·sen x (b > 0)': { a: 'quanto o gráfico sobe ou desce', b: 'amplitude', x: 'ângulo' },
+  'Distância do ponto (x₀, y₀) à reta ax + by + c = 0': { a: 'coeficiente de x na reta', b: 'coeficiente de y na reta', c: 'termo independente da reta' },
+  'Isole o raio na equação x² + y² = r²': { x: 'x de um ponto da circunferência', y: 'y de um ponto da circunferência' },
+  'Logaritmo do produto': { a: 'um número positivo', b: 'outro número positivo' }, 'Logaritmo do quociente': { a: 'um número positivo', b: 'outro número positivo' },
+  'Logaritmo da potência': { a: 'número positivo' }, 'Mudança de base': { a: 'logaritmando', b: 'base original' },
+  'Produto de potências de mesma base': { a: 'base da potência' }, 'Potência de potência': { a: 'base da potência' },
+  'Expoente negativo': { a: 'base da potência' }, 'Expoente fracionário': { a: 'base da potência' },
+  'Quociente de potências de mesma base': { a: 'base da potência' },
+  'Velocidade no MUV': { v: 'velocidade no instante t' },
+  'Densidade': { d: 'densidade', m: 'massa' }, 'Momento de uma força (perpendicular)': { d: 'distância da força ao ponto de apoio (braço)', F: 'força' },
+  'Pressão': { F: 'força perpendicular à superfície' },
+  'Equilíbrio de uma alavanca': { 'F₁': 'força de um lado', 'F₂': 'força do outro lado', 'd₁': 'distância de F₁ ao apoio', 'd₂': 'distância de F₂ ao apoio' },
+  'Lei da gravitação universal': { M: 'massa de um corpo', m: 'massa do outro corpo', d: 'distância entre os centros', F: 'força de atração' },
+  'Gravidade na superfície de um planeta': { g: 'aceleração da gravidade na superfície' },
+  '3ª lei de Kepler': { T: 'período da órbita', R: 'raio médio da órbita' },
+  'Velocidade de satélite em órbita circular': { R: 'raio da órbita' },
+  'Fluxo de calor por condução': { L: 'espessura da parede', 'ΔT': 'diferença de temperatura entre os lados' },
+  'Conversão Celsius–Fahrenheit': { C: 'temperatura em Celsius', F: 'temperatura em Fahrenheit' },
+  'Temperatura de equilíbrio de duas porções de água': { 'm₁': 'massa da 1ª porção', 'T₁': 'temperatura da 1ª porção', 'm₂': 'massa da 2ª porção', 'T₂': 'temperatura da 2ª porção' },
+  'Rendimento de uma máquina térmica': { 'τ': 'trabalho realizado pela máquina' },
+  'Equação de Gauss (lentes e espelhos)': { f: 'distância focal' }, 'Vergência de uma lente (f em metros)': { f: 'distância focal, em metros' },
+  'Foco de espelho esférico': { f: 'distância focal', R: 'raio de curvatura do espelho' }, 'Isole p′ na equação de Gauss': { f: 'distância focal' },
+  'Harmônicos de uma corda fixa': { n: 'número do harmônico (1, 2, 3…)', L: 'comprimento da corda', v: 'velocidade da onda na corda' },
+  'Velocidade de onda numa corda': { T: 'tração (força que estica a corda)', v: 'velocidade da onda na corda' },
+  'Período do pêndulo simples': { L: 'comprimento do fio' }, 'Ângulo limite': { L: 'ângulo limite' },
+  'Tubo fechado numa ponta: frequências possíveis': { n: 'número do harmônico (só ímpares)', L: 'comprimento do tubo', v: 'velocidade do som' },
+  'Lei de Coulomb': { Q: 'uma carga', q: 'a outra carga', d: 'distância entre as cargas' }, 'Isole d na lei de Coulomb': { Q: 'uma carga', q: 'a outra carga', d: 'distância entre as cargas' },
+  'Campo de uma carga pontual': { Q: 'carga que cria o campo', d: 'distância até a carga' }, 'Potencial de uma carga pontual': { Q: 'carga que cria o potencial', d: 'distância até a carga' },
+  'Campo uniforme e diferença de potencial': { d: 'distância ao longo do campo' },
+  'Carga de um capacitor': { Q: 'carga armazenada' }, 'Energia de um capacitor': { E: 'energia armazenada' },
+  'Corrente elétrica': { Q: 'carga que atravessa o fio' }, 'Energia elétrica consumida': { E: 'energia consumida' },
+  'Carga quantizada': { Q: 'carga total do corpo' },
+  'Força magnética sobre carga': { 'θ': 'ângulo entre a velocidade e o campo' }, 'Força magnética sobre fio': { 'θ': 'ângulo entre o fio e o campo', L: 'comprimento do fio dentro do campo' },
+  'Raio da trajetória de carga em campo uniforme': { R: 'raio da trajetória' }, 'Isole B em R = m·v/(q·B)': { R: 'raio da trajetória' },
+  'Campo no centro de uma espira': { R: 'raio da espira' }, 'Campo no interior de um solenoide': { L: 'comprimento do solenoide' },
+  'Fluxo magnético': { 'θ': 'ângulo entre o campo e a reta perpendicular à espira' }, 'Fem numa barra que se move': { L: 'comprimento da barra', v: 'velocidade da barra' },
+  'Concentração em mol/L a partir da massa': { m: 'massa do soluto', M: 'massa molar do soluto', V: 'volume da solução (L)' },
+  'Mistura de duas soluções do mesmo soluto': { 'C₁': 'concentração da solução 1', 'V₁': 'volume da solução 1', 'C₂': 'concentração da solução 2', 'V₂': 'volume da solução 2' },
+  'Relação entre concentração comum e mol/L': { M: 'massa molar do soluto' },
+  'Velocidade média de consumo de um reagente': { R: 'o reagente' },
+  'Lei de velocidade (reação elementar aA + bB)': { A: 'reagente A', B: 'reagente B' },
+};
+
+// separa os símbolos de um texto de fórmula; palavras do português ficam de fora
+const SYM_FUN = new Set(['sen', 'cos', 'tg', 'log', 'ln', 'sec', 'com', 'par', 'do', 'da', 'de', 'ao', 'em', 'um', 'ou', 'íon', 'à', 'o', 'é']);
+const SYM_RE = /[∪∩[]|(?:[A-Za-zÀ-ÖØ-öø-ÿĀα-ωΑ-Ωµℓ]|𝔐)+[°′']?(?:[₀-₉ₐₑₒₓₕₖₗₘₙₚₛₜ]+|_\{[^}]*\})?[⁺⁻]?/gu;
+function symToks(s, has) {
+  s = String(s || '').replace(/<sub>(.*?)<\/sub>/g, '_{$1}').replace(/<sup>(.*?)<\/sup>/g, ' $1 ').replace(/<[^>]+>/g, ' ');
+  const out = [];
+  for (const [t] of s.matchAll(SYM_RE)) {
+    if (has(t)) { out.push(t); continue; }
+    const m = t.match(/^((?:[^°′'₀-₉ₐₑₒₓₕₖₗₘₙₚₛₜ_⁺⁻])+)(.*)$/u); if (!m) continue;
+    const [, word, tail] = m, units = [...word];
+    if (SYM_FUN.has(word) || (units.length >= 4 && /^[A-Za-zÀ-ÿ]+$/.test(word))) continue;   // palavra, não símbolo
+    // produto sem sinal (ab, πr²h, aΔs): um símbolo por letra; o Δ fica com a letra seguinte
+    const us = word.match(/Δ?./gu);
+    us.forEach((u, i) => out.push(i === us.length - 1 ? u + tail : u));
+  }
+  return out;
+}
+// parts: [[texto, nome da fórmula], ...] → legenda em HTML, na ordem em que os símbolos aparecem.
+// A primeira parte é a pergunta e manda no significado; se as alternativas usam o mesmo símbolo
+// de jeitos diferentes, vale o significado geral do tópico, para a legenda não apontar a certa
+function legend(key, parts) {
+  const base = SYM[key]; if (!base) return '';
+  const seen = new Map();
+  parts.forEach(([txt, nm], i) => {
+    const over = SYMF[nm] || {};
+    const mean = t => over[t] ?? base[t] ?? (t[0] === 'Δ' && (over[t.slice(1)] ?? base[t.slice(1)]) ? 'variação de ' + (over[t.slice(1)] ?? base[t.slice(1)]) : null);
+    for (const t of symToks(txt, t => mean(t) != null)) {
+      const d = mean(t); if (d == null) continue;
+      const o = seen.get(t);
+      if (!o) seen.set(t, { d, q: i === 0 });
+      else if (!o.q && o.d !== d) o.d = base[t] ?? o.d;
+    }
+  });
+  return [...seen].map(([t, { d }]) => `<b>${t === '[' ? '[X]' : t.replace(/_\{(.*?)\}/g, '<sub>$1</sub>')}</b> ${t === '[' ? 'concentração de X em mol/L' : d}`).join(' · ');
+}
+
+(() => {
+  const idx = document.getElementById('idx'), list = document.getElementById('list');
+  const geral = TIPS.filter(t => t[0] === 'geral');
+  // o nome vem com o assunto, para quem conhece a lei pelo que ela faz
+  const nm = n => n + (ABOUT[n] ? ` <span>· ${ABOUT[n]}</span>` : '');
+  const GROUPS = [['mat', 'Matemática', [...TIPS.filter(t => t[0] !== 'geral'), ...TIPS_MAT2]], ['fis', 'Física', TIPS_FIS], ['qui', 'Química', TIPS_QUI], ['formulas', 'Fórmulas', FORMS.map(([id, , name, , items]) => [id, name, items.map(([n, l, r]) => [nm(n), FDESC[n] || '', l ? `${l} = ${r}` : r, legend(id, [[l ? `${l} = ${r}` : r, n]])])])], ['teoria', 'Leis, teoremas e constantes', LAWS.map(([id, , name, items]) => [id, name, items.map(([n, t]) => [nm(n), t, ''])])], ['geral', 'Geral', geral]];
+  let n = 0;
+  for (const [gid, gname, items] of GROUPS) {
+    if (!items.length) continue;
+    idx.insertAdjacentHTML('beforeend', `<div class="ig">${gname} · ${items.length}</div><nav class="idx">${items.map(([id, name]) => `<a href="#${id}">${name}</a>`).join('')}</nav>`);
+    list.insertAdjacentHTML('beforeend', `<h2 class="subj" id="g-${gid}">${gname.toUpperCase()}</h2>`);
+    for (const [id, name, tips] of items) {
+      const body = tips.map(([t, d, ex, lg], i) => { n++; return `<div class="tip"><h3><span>${String(i + 1).padStart(2, '0')}</span>${t}</h3>${d ? `<p>${d}</p>` : ''}${ex ? `<div class="eq">${ex}</div>` : ''}${lg ? `<p class="lg"><span class="lt">termos</span> ${lg}</p>` : ''}</div>`; }).join('');
+      list.insertAdjacentHTML('beforeend', `<section class="box" id="${id}"><div class="hd"><span>${name}</span><a class="top" href="#inicio">↑ topo</a></div><div class="bd">${body}</div></section>`);
+    }
+  }
+  document.getElementById('count').textContent = `${n} dicas`;
+
+  // o tópico do link fica em contraste por 3 s e depois volta ao normal
+  function flash(jump) {
+    const id = decodeURIComponent(location.hash.slice(1));
+    const el = id && document.getElementById(id);
+    if (!el || !el.matches('section.box')) return;
+    if (jump) {
+      el.scrollIntoView({ block: 'start', behavior: 'instant' });
+      // as fontes chegam depois e mudam a altura das caixas: alinha de novo
+      if (document.fonts) document.fonts.ready.then(() => el.scrollIntoView({ block: 'start', behavior: 'instant' }));
+    }
+    el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
+    clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('flash'), 3100);
+  }
+  // as seções são criadas aqui, então o pulo para a âncora acontece agora
+  flash(true);
+  addEventListener('hashchange', () => flash(false));
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+  <div id="vAcct" class="view" hidden>
+    <section class="box" id="acOff" hidden>
+      <div class="hd"><span>Conta</span></div>
+      <div class="bd cf"><p class="note">As contas ainda não estão ligadas neste endereço. O progresso fica salvo neste navegador.</p></div>
+    </section>
+    <section class="box" id="acOut" hidden>
+      <div class="hd"><span id="acOutT">Entrar</span></div>
+      <div class="bd cf">
+        <p class="note">Com uma conta, o seu progresso fica salvo e vale em qualquer aparelho: rating, marcadas, tempo, calendário, hábitos e metas. Também dá para entrar no ranking. Sem conta, tudo continua funcionando, mas fica só neste navegador.</p>
+        <div class="seg" id="acTab" role="group" aria-label="Entrar ou criar conta" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="in">ENTRAR</button><button type="button" data-v="new">CRIAR CONTA</button></div>
+        <form class="acf" id="acForm" novalidate>
+          <label class="fl" id="acNameRow"><span class="lb">Nome</span><input id="acName" maxlength="40" autocomplete="nickname" spellcheck="false" placeholder="como você quer aparecer"></label>
+          <label class="fl"><span class="lb">E-mail</span><input id="acEmail" type="email" autocomplete="email" inputmode="email" spellcheck="false" autocapitalize="off"></label>
+          <label class="fl" id="acPassRow"><span class="lb">Senha</span><input id="acPass" type="password" autocomplete="current-password"></label>
+          <p class="note" id="acHint"></p>
+          <button type="submit" class="mk pri" id="acGo">entrar</button>
+          <div class="lk"><button type="button" id="acForgot">esqueci a senha</button><button type="button" id="acBack" hidden>voltar</button></div>
+        </form>
+      </div>
+    </section>
+    <section class="box" id="acRec" hidden>
+      <div class="hd"><span>Nova senha</span></div>
+      <div class="bd cf">
+        <form class="acf" id="acRecForm" novalidate>
+          <label class="fl"><span class="lb">Nova senha</span><input id="acNew" type="password" autocomplete="new-password"></label>
+          <p class="note">Pelo menos 8 caracteres.</p>
+          <button type="submit" class="mk pri">salvar a nova senha</button>
+        </form>
+      </div>
+    </section>
+    <section class="box" id="acIn" hidden>
+      <div class="hd"><span>Conta</span></div>
+      <div class="bd cf">
+        <p class="acw">Você entrou como <b id="acWho"></b>.</p>
+        <p class="note">O seu progresso fica salvo na conta e vale em qualquer aparelho em que você entrar. O nome e a foto ficam em Configurações › Perfil.</p>
+        <div class="lk"><button type="button" id="acPwBtn">trocar a senha</button><button type="button" id="acOutBtn">sair desta conta</button><button type="button" id="acDelBtn">apagar a conta</button></div>
+        <form class="acf" id="acPwForm" novalidate hidden>
+          <label class="fl"><span class="lb">Nova senha</span><input id="acPw" type="password" autocomplete="new-password"></label>
+          <p class="note">Pelo menos 8 caracteres.</p>
+          <div class="acr"><button type="submit" class="mk pri">salvar a nova senha</button><button type="button" class="mk" id="acPwNo">cancelar</button></div>
+        </form>
+        <div class="acdel" id="acDelBox" hidden>
+          <p class="note">Isso apaga a sua conta e todo o progresso salvo nela, para sempre, e tira você do ranking. Não dá para desfazer.</p>
+          <div class="acr"><button type="button" class="mk pri" id="acDelYes">apagar para sempre</button><button type="button" class="mk" id="acDelNo">cancelar</button></div>
+        </div>
+      </div>
+    </section>
+    <p class="acm" id="acMsg" role="status" hidden></p>
+  </div>

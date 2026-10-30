@@ -1,0 +1,538 @@
+<body>
+<div class="app">
+<nav class="side" id="side" aria-label="Menu">
+  <div class="brand"><button type="button" class="home" id="home" aria-label="Faro: ir para os exercícios"><span class="logo" id="logo" aria-hidden="true"></span><span>FARO</span></button><button type="button" class="x" id="sideX" aria-label="Fechar o menu"></button></div>
+  <p class="tag">exatas de cabeça para o vestibular</p>
+  <div class="ng" id="nav">
+    <span class="lb">Treinar</span>
+    <button type="button" data-v="exercicios"><span class="ni" data-i="calc"></span><span>Exercícios</span></button>
+    <button type="button" data-v="teoria"><span class="ni" data-i="book"></span><span>Teoria</span></button>
+    <button type="button" data-v="marcadas"><span class="ni" data-i="mark"></span><span>Marcadas</span><span class="ct" id="mCount"></span></button>
+    <span class="lb">Acompanhar</span>
+    <button type="button" data-v="estatisticas"><span class="ni" data-i="stats"></span><span>Estatísticas</span></button>
+    <button type="button" data-v="ranking"><span class="ni" data-i="rank"></span><span>Ranking</span></button>
+    <span class="lb">Foco</span>
+    <button type="button" data-v="ruido"><span class="ni" data-i="noise"></span><span>Ruído branco</span><span class="ct" id="nzNav"></span></button>
+    <button type="button" data-v="tempo"><span class="ni" data-i="clock"></span><span>Tempo</span><span class="ct" id="tmNav"></span></button>
+    <span class="lb">Rotina</span>
+    <button type="button" data-v="calendario"><span class="ni" data-i="cal"></span><span>Calendário</span><span class="ct" id="calNav"></span></button>
+    <button type="button" data-v="habitos"><span class="ni" data-i="hab"></span><span>Hábitos</span><span class="ct" id="hbNav"></span></button>
+    <span class="lb">Motivação</span>
+    <button type="button" data-v="metas"><span class="ni" data-i="flag"></span><span>Metas</span></button>
+  </div>
+  <div class="pins" id="pins">
+    <section class="box mini noise" id="pinNz" aria-label="Ruído branco" hidden>
+      <div class="hd"><button type="button" class="mt" data-go="ruido">Ruído branco</button><span class="ms" data-nz="state">desligado</span><button type="button" class="unpin" data-unpin="nz" aria-label="Tirar o ruído branco do menu"></button></div>
+      <div class="mr"><button type="button" class="mp" data-nz="play" aria-label="Tocar o ruído branco">▶</button><canvas class="nzs" data-nz="scope" width="150" height="30" aria-hidden="true"></canvas></div>
+      <div class="bd"><div class="nzc"><label for="nzVolM">volume</label><input id="nzVolM" data-nz="vol" type="range" min="0" max="100" value="40"><output data-nz="volOut">40%</output></div></div>
+    </section>
+    <section class="box mini" id="pinTimer" aria-label="Timer" hidden>
+      <div class="hd"><button type="button" class="mt" data-go="timer">Timer</button><span class="ms" data-tm="timer.sub"></span><button type="button" class="unpin" data-unpin="timer" aria-label="Tirar o timer do menu"></button></div>
+      <div class="mr"><span class="md" data-tm="timer.t">00:00</span><button type="button" class="mp" data-tm-go="timer" aria-label="Iniciar ou pausar o timer">▶</button><button type="button" class="mp" data-tm-rst="timer" aria-label="Zerar o timer">↺</button></div>
+    </section>
+    <section class="box mini" id="pinCrono" aria-label="Cronômetro" hidden>
+      <div class="hd"><button type="button" class="mt" data-go="crono">Cronômetro</button><span class="ms" data-tm="crono.sub"></span><button type="button" class="unpin" data-unpin="crono" aria-label="Tirar o cronômetro do menu"></button></div>
+      <div class="mr"><span class="md" data-tm="crono.t">00:00</span><button type="button" class="mp" data-tm-go="crono" aria-label="Iniciar ou pausar o cronômetro">▶</button><button type="button" class="mp" data-tm-rst="crono" aria-label="Zerar o cronômetro">↺</button></div>
+    </section>
+    <section class="box mini" id="pinPomo" aria-label="Pomodoro" hidden>
+      <div class="hd"><button type="button" class="mt" data-go="pomo">Pomodoro</button><span class="ms" data-tm="pomo.sub"></span><button type="button" class="unpin" data-unpin="pomo" aria-label="Tirar o pomodoro do menu"></button></div>
+      <div class="mr"><span class="md" data-tm="pomo.t">25:00</span><button type="button" class="mp" data-tm-go="pomo" aria-label="Iniciar ou pausar o pomodoro">▶</button><button type="button" class="mp" data-tm-alt="pomo" aria-label="Pular para a próxima fase">⏭</button></div>
+    </section>
+  </div>
+  <div class="nf">
+    <a class="dl" href="https://claude.ai/artifact/3wHqTT2rP8Z8v8FsAXw1fG" target="_blank" rel="noopener">Dicas por tópico ↗</a>
+    <button type="button" class="me" id="me" data-v="config"><span class="av" id="meAv"></span><span class="mt"><span id="meName"></span><span class="ms">configurações</span></span></button>
+  </div>
+</nav>
+<div class="scrim" id="scrim" hidden></div>
+<main>
+  <header class="ph">
+    <button type="button" class="menu" id="menu" aria-label="Abrir o menu" aria-expanded="false" aria-controls="side"><span class="ico" id="icoMenu"></span></button>
+    <h1><button type="button" class="logo m" id="logo2" aria-label="Ir para os exercícios"></button><span id="pTitle">EXERCÍCIOS</span></h1>
+    <span class="qk"><button type="button" class="tmq" id="tmQuick" hidden aria-label="Abrir o tempo"><span class="ico" id="icoClock"></span><span id="tmQuickT"></span></button><button type="button" class="nzq" id="nzQuick" hidden aria-label="Parar o ruído branco">■ RUÍDO</button></span>
+  </header>
+  <p class="sub" id="modeSub"></p>
+
+  <div id="vTrain" class="view">
+  <div class="col">
+  <div class="goal" id="goal" aria-live="polite"><span id="gTxt"></span><span class="gbar" id="gBar" aria-hidden="true"><i id="gFill"></i></span><span id="gSeq"></span></div>
+  <div class="seg subj" id="subj" role="group" aria-label="Matéria">
+    <button type="button" data-s="all">TUDO</button>
+    <button type="button" data-s="mat">MAT</button>
+    <button type="button" data-s="fis">FÍS</button>
+    <button type="button" data-s="qui">QUÍ</button>
+  </div>
+
+  <section class="box" aria-label="Exercício">
+    <div class="hd"><span id="topic">—</span><span class="qr"><span id="qlvl"></span><span id="clock">0,0 s</span></span></div>
+    <div class="bd q" id="qbox">
+      <p id="ctx" class="ctx"></p>
+      <div id="expr" class="expr"></div>
+      <div id="opts" class="opts" role="group" aria-label="Alternativas"></div>
+      <p id="lg" class="lg" aria-label="O que é cada termo"></p>
+      <form id="form" autocomplete="off">
+        <input id="ans" inputmode="decimal" enterkeyhint="done" aria-label="Resposta" placeholder="?">
+        <span id="unit"></span>
+        <button id="ok" type="submit">OK</button>
+      </form>
+      <div id="fb" class="fb" aria-live="polite"></div>
+      <div class="pad" id="pad" aria-label="Teclado numérico">
+        <button type="button" data-d="1">1</button><button type="button" data-d="2">2</button><button type="button" data-d="3">3</button><button type="button" data-d="del" aria-label="Apagar">⌫</button>
+        <button type="button" data-d="4">4</button><button type="button" data-d="5">5</button><button type="button" data-d="6">6</button><button type="button" data-d="neg" aria-label="Trocar sinal">−</button>
+        <button type="button" data-d="7">7</button><button type="button" data-d="8">8</button><button type="button" data-d="9">9</button><button type="button" data-d="," aria-label="Vírgula">,</button>
+        <button type="button" data-d="0">0</button><button type="button" data-d="ok" id="padOk">OK</button>
+      </div>
+      <div id="tips" class="tips" hidden></div>
+      <p id="how" class="how"></p>
+    </div>
+    <div class="foot">
+      <button id="help" type="button" aria-expanded="false" aria-controls="tips" title="Dicas do tópico (tecla ?)"><span class="ico" id="icoLamp"></span>DICA</button>
+      <button id="mark" type="button" aria-pressed="false" title="Guardar esta questão para estudar depois (tecla m)"><span class="ico" id="icoMark"></span><span id="markTxt">MARCAR</span></button>
+      <button id="act" type="button">PULAR <span class="key">esc</span></button>
+    </div>
+  </section>
+
+  <section class="box">
+    <div class="hd"><span>Dificuldade</span><span id="lvlName"></span></div>
+    <div class="bd">
+      <div class="seg" id="seg">
+        <button type="button" data-l="-1">AUTO</button>
+        <button type="button" data-l="0">FÁCIL</button>
+        <button type="button" data-l="1">MÉDIO</button>
+        <button type="button" data-l="2">DIFÍCIL</button>
+      </div>
+    </div>
+  </section>
+
+  </div>
+
+  <aside class="col aside">
+
+
+  <section class="box">
+    <div class="hd"><span>Tópicos <span id="tCount"></span></span><span>rating <span id="rAll">—</span> · <button type="button" id="all">todos</button></span></div>
+    <div class="bd">
+      <div class="tl" id="rt"></div>
+      <details class="more">
+        <summary>como funciona o rating</summary>
+        <p>Vai de 0 a 2500 e começa em 800. Cada questão tem o próprio rating, que aparece ao lado do tópico: conta quantos passos ela pede, o tamanho dos números e as pegadinhas. Até 1000 é fácil, de 1000 a 1600 é médio, acima de 1600 é difícil.</p>
+        <p>Acertar uma questão acima do seu rating sobe muito; errar uma abaixo cai muito. Acerto lento ou depois de abrir a dica vale menos. No AUTO, as questões ficam perto do seu rating em cada tópico.</p>
+        <p>Toque num tópico para tirá-lo do treino ou trazê-lo de volta. Para zerar o rating, use as configurações, no fim do menu.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="box def" id="consts">
+    <div class="hd"><span>Valores de referência</span><span>salvo aviso</span></div>
+    <div class="bd">
+      <div class="eq"><span>g = 10 m/s²</span><span>gravidade</span></div>
+      <div class="eq"><span>c = 3 × 10⁸ m/s · som no ar ≈ 340 m/s</span><span>velocidades</span></div>
+      <div class="eq"><span>k = 9 × 10⁹ N·m²/C² · e = 1,6 × 10⁻¹⁹ C</span><span>elétrica</span></div>
+      <div class="eq"><span>água: c = 1 cal/g·°C · L<sub>f</sub> = 80 · L<sub>v</sub> = 540 cal/g</span><span>calor</span></div>
+      <div class="eq"><span>N<sub>A</sub> = 6 × 10²³ · R = 0,082 atm·L/mol·K</span><span>mol e gases</span></div>
+      <div class="eq"><span>V<sub>m</sub> = 22,4 L/mol (0 °C, 1 atm)</span><span>CNTP</span></div>
+      <div class="eq"><span>√2 ≈ 1,41 · √3 ≈ 1,73 · log 2 ≈ 0,30 · log 3 ≈ 0,48</span><span>aproximações</span></div>
+      <p class="note">Quando a questão usa outro valor, ela diz no enunciado. A resposta aceita vírgula ou ponto, e a unidade já aparece ao lado do campo.</p>
+      <p class="note kbd">Atalhos: Enter confirma e avança · Esc pula · 1–4 escolhem a alternativa · ? abre a dica · M marca.</p>
+    </div>
+  </section>
+  </aside>
+  </div>
+
+  <div id="vMarked" class="view" hidden>
+    <section class="box">
+      <div class="hd"><span>Para estudar depois</span><button type="button" id="mClear">apagar todas</button></div>
+      <div class="bd">
+        <p class="note" style="margin:0">Questões que você marcou durante o treino, da mais recente para a mais antiga. Ficam salvas na sua conta quando ela está conectada (veja o rodapé), senão neste navegador. Tente de novo antes de abrir a resposta.</p>
+      </div>
+    </section>
+    <div id="mList" class="mlist"></div>
+  </div>
+
+  <div id="vStats" class="view" hidden>
+    <div class="tiles" id="tiles"></div>
+    <section class="box" id="stBox">
+      <div class="hd"><span>Tempo de estudo</span><span>últimos 14 dias</span></div>
+      <div class="bd study">
+        <div class="sl3" id="stSum"></div>
+        <div class="sch" id="stChart" role="img"></div>
+        <div class="sman" id="stMan">
+          <div class="mhd"><span class="lb">Registrado à mão</span><button type="button" class="mk" id="manOpen" aria-expanded="false" aria-controls="manForm">+ registrar tempo</button></div>
+          <form class="mform cf" id="manForm" hidden>
+            <div class="row"><span class="lb">Dia</span><div class="tpre mdays" id="manDays" role="group" aria-label="Dia do estudo"></div></div>
+            <div class="row"><span class="lb">Quanto tempo</span><div class="sts" id="manDur"></div></div>
+            <label class="fl"><span class="lb">O que você estudou (opcional)</span><input id="manWhat" maxlength="40" autocomplete="off" placeholder="aula, lista de física…"></label>
+            <p class="note" id="manHint" aria-live="polite"></p>
+            <div class="mbtns"><button type="submit" class="mk pri" id="manSave">salvar</button><button type="button" class="mk" id="manCancel">cancelar</button></div>
+          </form>
+          <p class="note mmsg" id="manMsg" aria-live="polite" hidden></p>
+          <ol class="manl" id="manList"></ol>
+          <p class="note">Vale a confiança: registre só o tempo que você estudou de verdade, longe dos relógios do Faro. Dá para lançar até 7 dias atrás, e um dia não passa de 24 h. No ranking, quem tem tempo registrado à mão aparece com um lápis ao lado do tempo.</p>
+        </div>
+        <div class="sbr"><span class="lb">Esta semana, por parte</span><div id="stParts"></div>
+          <p class="note">O tempo de estudo junta o foco do pomodoro, o timer, o cronômetro e o tempo resolvendo questões; o que roda junto conta uma vez só, e as pausas ficam de fora. O tempo registrado à mão soma por cima. Cada resposta conta até 3 min, e o relógio da questão pausa quando o Faro sai da tela (outra aba, outro app, tela bloqueada ou outra página do menu) e depois de 90 s sem você mexer em nada. Um relógio esquecido ligado conta até 4 h seguidas.</p></div>
+      </div>
+    </section>
+    <div class="cols2">
+    <section class="box">
+      <div class="hd"><span>Dias de treino</span><span>últimas 12 semanas</span></div>
+      <div class="bd"><div class="cal" id="cal" role="img"></div>
+        <div class="calk"><span><i class="c0"></i>nenhuma</span><span><i class="c1"></i>abaixo da meta</span><span><i class="c2"></i>meta cumprida</span></div></div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Evolução do rating</span><select id="evoK" aria-label="Tópico do gráfico"></select></div>
+      <div class="evo" id="evo"></div>
+      <p class="evs" id="evoSum"></p>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Rating por matéria</span><span id="srMode"></span></div>
+      <div class="bd"><div class="sr" id="subjR"></div></div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Nesta sessão</span><span>últimas 40 respostas</span></div>
+      <div class="cv"><canvas id="hist" width="540" height="96" aria-label="Tempo de cada resposta: barra cheia é acerto, barra vazada é erro"></canvas><p class="hempty" id="histEmpty">as suas respostas aparecem aqui</p></div>
+      <div class="axis"><span>← antigas</span><span>altura = tempo</span><span>recentes →</span></div>
+      <div class="stats">
+        <div><span>acertos</span><output id="sOk">0</output></div>
+        <div><span>erros</span><output id="sBad">0</output></div>
+        <div><span>sequência</span><output id="sSeq">0</output></div>
+        <div><span>média</span><output id="sAvg">—</output></div>
+      </div>
+    </section>
+    </div>
+  </div>
+
+  <div id="vRank" class="view" hidden>
+    <div class="rkf"><div class="seg" id="rkKind" role="group" aria-label="O que conta" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="q">QUESTÕES</button><button type="button" data-v="t">TEMPO</button></div>
+    <div class="seg" id="rkSeg" role="group" aria-label="Período" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="dia">HOJE</button><button type="button" data-v="semana">ESTA SEMANA</button></div></div>
+    <section class="box">
+      <div class="hd"><span id="rkTitle">Questões respondidas hoje</span><span id="rkN"></span></div>
+      <ol class="rk" id="rkList"></ol>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Participar</span></div>
+      <div class="bd cf">
+        <button type="button" class="chk" id="rkJoin" aria-pressed="false">aparecer no ranking</button>
+        <p class="note" id="rkNote"></p>
+      </div>
+    </section>
+  </div>
+
+  <div id="vNoise" class="view" hidden>
+  <div class="col">
+    <section class="box noise big" aria-label="Ruído branco">
+      <div class="hd"><span>Gerador</span><span data-nz="state">desligado</span></div>
+      <canvas class="nzs" data-nz="scope" width="540" height="120" aria-hidden="true"></canvas>
+      <button type="button" class="nzp" data-nz="play" aria-pressed="false">▶ TOCAR</button>
+    </section>
+    <button type="button" class="chk" id="nzPin" aria-pressed="false">mostrar o ruído branco no menu lateral</button>
+  </div>
+  <aside class="col aside">
+    <section class="box">
+      <div class="hd"><span>Som</span><span id="nzPre"></span></div>
+      <div class="bd cf">
+        <div class="nzc"><label for="nzVol">volume</label><input id="nzVol" data-nz="vol" type="range" min="0" max="100" value="40"><output data-nz="volOut" for="nzVol">40%</output></div>
+        <div class="row"><span class="lb">Cor do ruído</span><div class="seg" id="nzColor"><button type="button" data-v="branco">BRANCO</button><button type="button" data-v="suave">SUAVE</button><button type="button" data-v="grave">GRAVE</button><button type="button" data-v="agudo">AGUDO</button></div></div>
+        <div class="nzc"><label for="nzHp">corta graves abaixo de</label><input id="nzHp" data-nz="hp" type="range" min="0" max="1000" value="0"><output data-nz="hpOut" for="nzHp">desl.</output></div>
+        <div class="nzc"><label for="nzLp">corta agudos acima de</label><input id="nzLp" data-nz="lp" type="range" min="0" max="1000" value="1000"><output data-nz="lpOut" for="nzLp">desl.</output></div>
+        <p class="note">Ruído branco tem a mesma energia em todas as frequências. Os filtros deixam o som mais grave (corta agudos) ou mais fino (corta graves); SUAVE e GRAVE costumam cansar menos em sessões longas.</p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Desligar sozinho</span><span id="nzOffIn"></span></div>
+      <div class="bd cf">
+        <div class="seg" id="nzOff" style="grid-template-columns:repeat(5,1fr)"><button type="button" data-v="0">NÃO</button><button type="button" data-v="15">15 MIN</button><button type="button" data-v="30">30 MIN</button><button type="button" data-v="60">1 H</button><button type="button" data-v="120">2 H</button></div>
+        <p class="note">Conta a partir de quando você escolhe (ou de quando o som começa). Para ligar e desligar junto com o foco do pomodoro, use a opção do pomodoro, na página Tempo.</p>
+      </div>
+    </section>
+    <section class="box nzdef">
+      <div class="hd"><span>Definição</span><span>w[n]</span></div>
+      <div class="bd">
+        <p>Ruído branco é um processo aleatório estacionário de média zero cujas amostras não têm correlação entre si. A autocorrelação é um impulso na origem, e por isso a densidade espectral de potência é constante em todas as frequências.</p>
+        <div class="nzeq"><span>E{w[n]} = 0</span><span>R(k) = σ² δ(k)</span><span>S(f) = σ²</span></div>
+        <p>Aqui cada amostra é sorteada de forma independente, com distribuição gaussiana, e gerada continuamente, sem repetir um trecho em loop. Como o áudio digital é limitado à metade da taxa de amostragem, o espectro é plano de 0 Hz até essa frequência de Nyquist<span data-nz="ny"></span>.</p>
+        <p>As cores SUAVE, GRAVE e AGUDO e os dois filtros removem faixas do espectro. Com qualquer um deles, o ruído deixa de ser branco no sentido estrito e passa a ser ruído colorido.</p>
+        <p class="note">Fonte: J. O. Smith III, <a href="https://ccrma.stanford.edu/~jos/sasp/White_Noise_I.html" target="_blank" rel="noopener">Spectral Audio Signal Processing, “White Noise”</a>, CCRMA, Stanford.</p>
+      </div>
+    </section>
+  </aside>
+  </div>
+
+  <div id="vTime" class="view" hidden>
+  <div class="col">
+    <div class="seg" id="tmTabs" role="group" aria-label="Ferramenta" style="grid-template-columns:repeat(3,1fr)"><button type="button" data-v="timer">TIMER</button><button type="button" data-v="crono">CRONÔMETRO</button><button type="button" data-v="pomo">POMODORO</button></div>
+    <section class="box tmb" id="tmBox">
+      <div class="hd"><span id="tmHd">Timer</span><span id="tmInfo"></span></div>
+      <div class="bd tmd">
+        <div class="tmc" id="tmCyc" hidden></div>
+        <div class="tmt" id="tmT" role="timer">00:00</div>
+        <div class="gbar tmbar" id="tmBar" aria-hidden="true"><i id="tmFill"></i></div>
+        <p class="tms" id="tmSub"></p>
+        <button type="button" class="lnk tmn" id="tmNote" hidden></button>
+        <div class="tmg" id="tmGoal" hidden><span class="lb">Meta</span><div class="gks cgk" id="tmGoalKs" role="group" aria-label="Meta do tempo"></div></div>
+      </div>
+      <div class="tmk">
+        <button type="button" id="tmGo">▶ INICIAR</button>
+        <button type="button" id="tmAlt">+1 MIN</button>
+        <button type="button" id="tmRst">ZERAR</button>
+      </div>
+    </section>
+    <button type="button" class="chk" id="tmPin" aria-pressed="false">mostrar o timer no menu lateral</button>
+    <section class="box" id="tmLapBox" hidden>
+      <div class="hd"><span>Voltas</span><span id="tmLapN"></span></div>
+      <ol class="laps" id="tmLaps"></ol>
+    </section>
+    <section class="box" id="tsBox">
+      <div class="hd"><span>Seu estudo</span><button type="button" id="tsGoalBtn" aria-expanded="false" aria-controls="tsGoalEd">definir meta</button></div>
+      <div class="bd tsb">
+        <div class="tsh"><span class="lb">Hoje</span><b id="tsToday">0 min</b><span id="tsOf"></span></div>
+        <div class="gbar" id="tsBar" aria-hidden="true"><i id="tsFill"></i></div>
+        <p class="tss" id="tsSub" aria-live="polite"></p>
+        <div class="cf tsg" id="tsGoalEd" hidden>
+          <span class="lb">Meta de estudo por dia</span>
+          <div class="sts" id="tsGoalSt"></div>
+          <p class="note">0 h 0 min deixa sem meta. Conta o mesmo tempo das estatísticas: relógios do Faro, questões e o registrado à mão.</p>
+        </div>
+        <div class="sl3" id="tsSum"></div>
+        <div class="w7" id="tsWk" role="img"></div>
+        <button type="button" class="lnk tscal" id="tsCal" hidden></button>
+        <div class="tsl"><button type="button" class="mk" id="tmManGo">+ registrar tempo</button><button type="button" class="lnk" id="tsMore">ver mais nas estatísticas ›</button></div>
+      </div>
+    </section>
+    <section class="box" id="tnBox">
+      <div class="hd"><span>Sessões</span><span id="tnBoxN"></span></div>
+      <div class="bd tnb">
+        <ol class="tnl" id="tnList"></ol>
+        <button type="button" class="lnk" id="tnMore" aria-expanded="false">mostrar os últimos 7 dias</button>
+        <p class="note">Cada timer, cronômetro ou foco do pomodoro com pelo menos 1 min vira uma sessão. Toque numa sessão para escrever ou mudar o que você fez. Perguntar ao iniciar ou ao terminar é escolhido nas configurações.</p>
+      </div>
+    </section>
+  </div>
+  <aside class="col aside">
+    <section class="box" id="tmPreBox">
+      <div class="hd"><span>Duração do timer</span><span id="tmDur"></span></div>
+      <div class="bd cf" id="tmPreBd">
+        <div class="tpre" id="tmPre" role="group" aria-label="Durações prontas"></div>
+        <div class="sts" id="tmFree"></div>
+      </div>
+    </section>
+    <section class="box" id="tmPomoBox" hidden>
+      <div class="hd"><span>Ciclo do pomodoro</span><span id="tmToday"></span></div>
+      <div class="bd cf">
+        <div class="sts" id="tmPomoSt"></div>
+        <button type="button" class="chk" id="tmAutoP" aria-pressed="false">começar a pausa sozinho</button>
+        <button type="button" class="chk" id="tmAutoF" aria-pressed="false">voltar ao foco sozinho depois da pausa</button>
+        <button type="button" class="chk" id="tmNoise" aria-pressed="false">tocar o ruído branco durante o foco</button>
+        <p class="note">Um ciclo é foco, pausa curta, foco, pausa curta… e, depois do último foco, a pausa longa. Pular uma fase não conta o foco no dia.</p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Som e aviso</span><button type="button" id="tmTest">testar o som</button></div>
+      <div class="bd cf">
+        <div class="row"><span class="lb">Som</span><div class="seg" id="tmSnd"><button type="button" data-v="bipe">BIPE</button><button type="button" data-v="sino">SINO</button><button type="button" data-v="8bits">8 BITS</button><button type="button" data-v="nada">SEM</button></div></div>
+        <div class="nzc"><label for="tmVol">volume</label><input id="tmVol" type="range" min="0" max="100" value="60"><output id="tmVolOut" for="tmVol">60%</output></div>
+        <div class="row"><span class="lb">Tocar</span><div class="seg" id="tmRep" style="grid-template-columns:repeat(3,1fr)"><button type="button" data-v="1">1 VEZ</button><button type="button" data-v="3">3 VEZES</button><button type="button" data-v="0">ATÉ O OK</button></div></div>
+        <button type="button" class="chk" id="tmTick" aria-pressed="false">bipes curtos nos 3 últimos segundos</button>
+        <button type="button" class="chk" id="tmVib" aria-pressed="false" hidden>vibrar o celular</button>
+        <p class="note">O tempo continua contando com o Faro em outra aba ou fechado. O aviso aparece em qualquer página do Faro.</p>
+        <p class="note kbd">Atalhos: Espaço inicia e pausa · V marca a volta, soma 1 min ou pula a fase · R zera.</p>
+      </div>
+    </section>
+  </aside>
+  </div>
+
+  <div id="vGoals" class="view" hidden>
+    <section class="box why" id="glWhy" hidden>
+      <div class="hd"><span>Lembre por quê</span><button type="button" id="glNext">outro motivo</button></div>
+      <div class="bd"><blockquote id="glQ"></blockquote><p class="gwm" id="glQm"></p><p class="gwm" id="glQs"></p></div>
+    </section>
+    <div class="gtop"><button type="button" class="mk pri" id="glNew">+ nova meta</button></div>
+    <form class="box gform" id="glForm" hidden>
+      <div class="hd"><span id="glFormHd">Nova meta</span></div>
+      <div class="bd cf">
+        <label class="fl"><span class="lb">O que você quer conquistar</span><input id="gfT" maxlength="80" autocomplete="off" placeholder="passar em medicina, tocar a Partita nº 2, ler 12 livros…"></label>
+        <div class="row"><span class="lb">Tipo</span><div class="gks" id="gfKs" role="group" aria-label="Tipos sugeridos"></div>
+          <label class="fl"><input id="gfK" maxlength="30" autocomplete="off" placeholder="ou escreva outro" aria-label="Tipo da meta"></label></div>
+        <label class="fl"><span class="lb">Por que isso importa para você</span><textarea id="gfY" maxlength="600" rows="4" placeholder="o que muda na sua vida quando você conseguir?"></textarea></label>
+        <p class="note">Escreva para você mesmo ler num dia difícil. Ajuda pensar: por que você começou? O que fica possível quando conseguir? Quem vai ficar feliz com isso, além de você?</p>
+        <label class="fl gdate"><span class="lb">Prazo (opcional)</span><input id="gfD" type="date"></label>
+        <label class="fl" id="gfSRow"><span class="lb">Primeiro passo (opcional)</span><input id="gfS" maxlength="120" autocomplete="off" placeholder="o menor passo que dá para dar esta semana"></label>
+        <div class="mbtns"><button type="submit" class="mk pri">salvar</button><button type="button" class="mk" id="gfCancel">cancelar</button></div>
+      </div>
+    </form>
+    <p class="note mmsg" id="glMsg" aria-live="polite" hidden></p>
+    <section class="box" id="glEmpty" hidden>
+      <div class="hd"><span>Para que serve esta página</span></div>
+      <div class="bd cf">
+        <p class="gin">Aqui ficam os motivos pelos quais você estuda, escritos por você. Nos dias em que der vontade de largar tudo, eles lembram por que você começou.</p>
+        <p class="note">Cada meta tem o que você quer conquistar, por que isso importa, um prazo se quiser e os próximos passos, bem pequenos. Comece por uma:</p>
+        <div class="gks" id="glEmptyKs"></div>
+      </div>
+    </section>
+    <div class="glist" id="glList"></div>
+    <details class="gsec" id="glPaused" hidden><summary>Pausadas <span id="glPausedN"></span></summary><div class="glist" id="glPausedL"></div></details>
+    <details class="gsec" id="glDone" hidden><summary>Conquistas <span id="glDoneN"></span></summary><div class="glist" id="glDoneL"></div></details>
+    <p class="note gpriv">Só você vê esta página. As metas ficam na sua conta (ou neste navegador, sem conta) e não entram no ranking nem nas estatísticas.</p>
+  </div>
+
+  <div id="vCal" class="view" hidden>
+    <div class="cbar">
+      <div class="cnav"><button type="button" class="mk" id="calPrev" aria-label="Anterior">‹</button><button type="button" class="mk" id="calToday">hoje</button><button type="button" class="mk" id="calNext" aria-label="Próximo">›</button><span class="crng" id="calRange" aria-live="polite"></span></div>
+      <div class="cbr"><div class="seg cmode" id="calMode" role="group" aria-label="Mostrar"><button type="button" data-v="dia">DIA</button><button type="button" data-v="semana">SEMANA</button></div><button type="button" class="mk pri" id="calNew">+ bloco</button></div>
+    </div>
+    <p class="note mmsg" id="calMsg" aria-live="polite" hidden></p>
+    <section class="box" id="calPend" hidden>
+      <div class="hd"><span>Para confirmar</span><span id="calPendN"></span></div>
+      <div class="bd cpb"><p class="note">Esses blocos já passaram. Diga quanto deles foi estudo de verdade para somar ao seu tempo, ou marque que não rolou.</p><ol class="cpl" id="calPendL"></ol></div>
+    </section>
+    <section class="box ccal" id="calBox" aria-label="Calendário">
+      <div class="cdays" id="calDays" role="group" aria-label="Dia"></div>
+      <div class="cgw" id="calGrid"></div>
+    </section>
+    <div class="ckey" aria-hidden="true"><span><i class="k0"></i>planejado</span><span><i class="k1"></i>confirmado</span><span><i class="k2"></i>relógios do Faro</span><span><i class="k4"></i>questões</span><span><i class="k3"></i>passou, falta confirmar</span></div>
+    <p class="note cnote">Toque num horário vazio para criar um bloco (no computador, dá para arrastar o mouse e desenhar o bloco do tamanho certo). O que o Faro mede (timer, cronômetro, foco do pomodoro e questões) aparece sozinho na faixa listrada. Um bloco só vira tempo de estudo quando você confirma quanto dele foi útil; o que o Faro já mediu naquele horário não conta duas vezes. No topo de cada dia fica o total estudado, e ✎ é o tempo registrado à mão, sem horário.</p>
+  </div>
+
+  <div id="vHab" class="view" hidden>
+    <section class="box" id="hbTodayBox">
+      <div class="hd"><span>Hoje</span><span id="hbTodayN"></span></div>
+      <div class="bd"><ul class="hbt" id="hbToday"></ul></div>
+    </section>
+    <div class="gtop"><button type="button" class="mk pri" id="hbNew">+ novo hábito</button></div>
+    <form class="box gform hform" id="hbForm" hidden>
+      <div class="hd"><span id="hbFormHd">Novo hábito</span></div>
+      <div class="bd cf">
+        <label class="fl"><span class="lb">Hábito</span><input id="hfT" maxlength="60" autocomplete="off" placeholder="ler 20 páginas, revisar a aula do dia…"></label>
+        <div class="row"><span class="lb">Como ele é marcado</span>
+          <div class="seg g3" id="hfA" role="group" aria-label="Como ele é marcado"><button type="button" data-v="">EU MARCO</button><button type="button" data-v="tempo">TEMPO</button><button type="button" data-v="q">QUESTÕES</button></div>
+          <div class="sts" id="hfVm"></div><div class="sts" id="hfVq"></div>
+          <p class="note" id="hfANote"></p></div>
+        <div class="row"><span class="lb">Quando</span>
+          <div class="seg g3" id="hfF" role="group" aria-label="Quando"><button type="button" data-v="d">TODO DIA</button><button type="button" data-v="w">ALGUNS DIAS</button><button type="button" data-v="n">POR SEMANA</button></div>
+          <div class="gks hfw" id="hfW" role="group" aria-label="Dias da semana"></div>
+          <div class="sts" id="hfN"></div></div>
+        <div class="mbtns"><button type="submit" class="mk pri">salvar</button><button type="button" class="mk" id="hfCancel">cancelar</button></div>
+      </div>
+    </form>
+    <p class="note mmsg" id="hbMsg" aria-live="polite" hidden></p>
+    <section class="box" id="hbEmpty" hidden>
+      <div class="hd"><span>Para que serve esta página</span></div>
+      <div class="bd cf">
+        <p class="gin">Hábitos são as coisas pequenas que você quer fazer sempre. Aqui você marca cada dia e vê a sequência crescer.</p>
+        <p class="note">Os de tempo e de questões se marcam sozinhos com o que você faz no Faro. Comece por um destes, ou crie o seu:</p>
+        <div class="gks" id="hbIdeas"></div>
+      </div>
+    </section>
+    <div class="glist" id="hbList"></div>
+    <details class="gsec" id="hbPaused" hidden><summary>Pausados <span id="hbPausedN"></span></summary><div class="glist" id="hbPausedL"></div></details>
+    <p class="note gpriv">Toque num quadradinho para marcar ou desmarcar um dia que passou. Os hábitos ficam na sua conta (ou neste navegador, sem conta) e não entram no ranking.</p>
+  </div>
+
+  <div id="vConfig" class="view" hidden>
+    <section class="box">
+      <div class="hd"><span>Perfil</span></div>
+      <div class="bd prof">
+        <span class="av big" id="pAv"></span>
+        <div class="pf">
+          <label class="fl"><span class="lb">Nome</span><input id="pName" maxlength="40" autocomplete="nickname" spellcheck="false"></label>
+          <div class="lk"><button type="button" id="pPhoto">trocar a foto</button><button type="button" id="pNoPhoto">voltar à foto padrão</button></div>
+          <input type="file" id="pFile" accept="image/*" hidden>
+        </div>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Aparência</span></div>
+      <div class="bd cf">
+        <div class="row"><span class="lb">Tema</span><div class="seg" id="cTheme" style="grid-template-columns:repeat(3,1fr)"><button type="button" data-v="claro">CLARO</button><button type="button" data-v="escuro">ESCURO</button><button type="button" data-v="sistema">SISTEMA</button></div></div>
+        <div class="row"><span class="lb">Tamanho do texto das questões</span><div class="seg" id="cFs"><button type="button" data-v="0.9">P</button><button type="button" data-v="1">M</button><button type="button" data-v="1.15">G</button><button type="button" data-v="1.3">GG</button></div></div>
+        <p class="ctx demo">Exemplo: um carro a 72 km/h anda quantos metros em 5 s?</p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Treino</span></div>
+      <div class="bd cf">
+        <div class="row"><span class="lb">Conferir a resposta</span><div class="seg" id="cCheck" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="auto">SOZINHO</button><button type="button" data-v="ok">SÓ NO OK</button></div></div>
+        <p class="note" id="checkNote"></p>
+        <div class="row"><span class="lb">Ir para a próxima sozinho</span><div class="seg g3" id="cAuto"><button type="button" data-v="-1">NÃO</button><button type="button" data-v="0">NA HORA</button><button type="button" data-v="1000">1 S</button><button type="button" data-v="2000">2 S</button><button type="button" data-v="3000">3 S</button><button type="button" data-v="5000">5 S</button></div></div>
+        <button type="button" class="chk" id="cAutoBad" aria-pressed="false">também quando errar ou pular</button>
+        <p class="note" id="autoNote"></p>
+        <div class="row"><span class="lb">Meta do dia</span><div class="seg" id="cGoal" style="grid-template-columns:repeat(5,1fr)"><button type="button" data-v="0">SEM</button><button type="button" data-v="10">10</button><button type="button" data-v="20">20</button><button type="button" data-v="30">30</button><button type="button" data-v="50">50</button></div></div>
+        <p class="note">Conta as questões respondidas no dia (puladas não contam). Os dias seguidos são os dias em que a meta foi cumprida.</p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Tempo de estudo</span></div>
+      <div class="bd cf">
+        <div class="row"><span class="lb">Meta de estudo por dia</span><div class="sts" id="cTGoal"></div></div>
+        <p class="note">Conta o tempo de estudo do dia, o mesmo das estatísticas: relógios do Faro, questões e o registrado à mão. 0 h 0 min deixa sem meta.</p>
+        <div class="row"><span class="lb">Escrever o que você fez</span><div class="seg" id="cTNote" style="grid-template-columns:repeat(3,1fr)"><button type="button" data-v="start">AO INICIAR</button><button type="button" data-v="end">AO TERMINAR</button><button type="button" data-v="off">DESATIVADO</button></div></div>
+        <p class="note" id="tnNoteTxt"></p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Menu lateral</span></div>
+      <div class="bd cf" id="cPins">
+        <button type="button" class="chk" data-pin="nz" aria-pressed="false">mostrar o ruído branco</button>
+        <button type="button" class="chk" data-pin="timer" aria-pressed="false">mostrar o timer</button>
+        <button type="button" class="chk" data-pin="crono" aria-pressed="false">mostrar o cronômetro</button>
+        <button type="button" class="chk" data-pin="pomo" aria-pressed="false">mostrar o pomodoro</button>
+        <p class="note">Ficam fixos no menu, com os controles principais, em qualquer página. As páginas completas continuam em Foco.</p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Dados</span></div>
+      <div class="bd cf">
+        <p class="acct" id="acct2"></p>
+        <p class="note">Para levar o seu progresso para outro endereço do Faro ou outro navegador: copie aqui e cole lá. Ao colar, os dados se juntam aos que já existem, sem apagar nada.</p>
+        <div class="lk"><button type="button" id="xOut">copiar meus dados</button><button type="button" id="xIn">colar dados de outro Faro</button></div>
+        <div class="xbox" id="xBox" hidden>
+          <label class="fl"><span class="lb" id="xLb">Seus dados</span><textarea id="xTa" spellcheck="false" autocomplete="off" autocapitalize="off"></textarea></label>
+          <div class="lk"><button type="button" id="xGo">juntar com os dados daqui</button><button type="button" id="xFile">abrir um arquivo</button><button type="button" id="xDl">baixar como arquivo</button><button type="button" id="xX">fechar</button></div>
+          <input type="file" id="xF" accept=".json,application/json,text/plain" hidden>
+        </div>
+        <p class="note" id="xMsg" hidden></p>
+        <div class="lk"><button type="button" id="rReset">zerar o rating</button><button type="button" id="dReset">apagar a evolução e os dias</button></div>
+      </div>
+    </section>
+  </div>
+
+<!--@WEB-BODY@-->
+  <footer><p class="acct" id="acct"></p></footer>
+</main>
+</div>
+<div class="toast" id="tmToast" role="alert" hidden><span id="tmToastT"></span><button type="button" id="tmToastOk">OK</button></div>
+<form class="tnc" id="tnCard" aria-labelledby="tnQ" hidden>
+  <div class="tnh"><label class="lb" id="tnQ" for="tnIn">O que você fez?</label><span id="tnCtx"></span><button type="button" class="tnx" id="tnSkip" aria-label="Fechar sem anotar"></button></div>
+  <div class="tnr"><input id="tnIn" maxlength="120" autocomplete="off" enterkeyhint="done"><button type="submit" class="mk pri">salvar</button></div>
+  <div class="gks tnk" id="tnRecent" role="group" aria-label="Anotações recentes"></div>
+  <div class="gks tnk cgk tng" id="tnGoal" role="group" aria-label="Meta da sessão" hidden></div>
+</form>
+<div class="tnc ccd" id="calCard" role="dialog" aria-labelledby="ccHd" hidden>
+  <div class="tnh"><span class="lb" id="ccHd">Bloco</span><span id="ccCtx"></span><button type="button" class="tnx" id="ccX" aria-label="Fechar"></button></div>
+  <form class="ccf" id="calForm">
+    <label class="fl"><span class="lb">O que vai estudar</span><input id="cfT" maxlength="40" autocomplete="off" placeholder="química, redação, lista de física…"></label>
+    <div class="gks tnk" id="cfTs" role="group" aria-label="Títulos recentes"></div>
+    <div class="row" id="cfGRow" hidden><span class="lb">Para qual meta (opcional)</span><div class="gks cgk" id="cfG" role="group" aria-label="Meta"></div></div>
+    <div class="cft"><label class="fl"><span class="lb">Dia</span><input id="cfD" type="date" required></label>
+      <label class="fl"><span class="lb">Início</span><input id="cfS" type="time" step="300" required></label>
+      <label class="fl"><span class="lb">Fim</span><input id="cfE" type="time" step="300" required></label></div>
+    <div class="row" id="cfRRow"><span class="lb">Repetir</span><div class="seg crep" id="cfR" role="group" aria-label="Repetir"><button type="button" data-v="no">NÃO</button><button type="button" data-v="d">DIÁRIO</button><button type="button" data-v="w">SEMANAL</button><button type="button" data-v="x">ALGUNS DIAS</button></div>
+      <div class="gks cfw" id="cfW" role="group" aria-label="Dias da semana" hidden></div>
+      <label class="fl cfu" id="cfURow" hidden><span class="lb">Até</span><input id="cfU" type="date"></label></div>
+    <p class="note" id="cfHint"></p>
+    <div class="mbtns"><button type="submit" class="mk pri" id="cfSave">salvar</button><button type="button" class="mk" id="cfCancel">cancelar</button><button type="button" class="mk" id="cfDel" hidden>apagar</button></div>
+  </form>
+  <div class="ccv" id="calView">
+    <p class="cvs" id="cvSt"></p>
+    <p class="cvg" id="cvG" hidden></p>
+    <p class="note" id="cvMeas"></p>
+    <div class="cvc" id="cvConf">
+      <span class="lb">Quanto foi estudo útil</span>
+      <div class="sts" id="cvDur"></div>
+      <p class="note" id="cvHint"></p>
+      <div class="mbtns"><button type="button" class="mk pri" id="cvOk">confirmar</button><button type="button" class="mk" id="cvNo">não estudei</button></div>
+    </div>
+    <ul class="cvl" id="cvList"></ul>
+    <div class="mbtns" id="cvAct"></div>
+  </div>
+</div>
