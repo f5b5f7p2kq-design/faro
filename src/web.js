@@ -1,6 +1,10 @@
   // ---------- contas do site (Supabase): entrar, criar conta, progresso em qualquer aparelho e ranking ----------
   // a chave publicável pode ficar no código: quem protege os dados são as regras do banco (cada um só vê o que é seu)
-  const SB_URL = 'https://osiboauffnkqkjjvmpvv.supabase.co', SB_KEY = 'sb_publishable_V38yZQEpIBXnf8VmUAhpOA_oChBLz6-';
+  // o site estável usa o banco de verdade; qualquer outro endereço (a versão de teste, o computador) usa o banco de teste
+  const SB_ESTAVEL = location.hostname === 'faro-six-azure.vercel.app';
+  const SB_URL = SB_ESTAVEL ? 'https://osiboauffnkqkjjvmpvv.supabase.co' : 'https://tyuaivehqcljbuyiolcc.supabase.co',
+    SB_KEY = SB_ESTAVEL ? 'sb_publishable_V38yZQEpIBXnf8VmUAhpOA_oChBLz6-' : 'sb_publishable_gHGkOXL6jq7fuXdDHGblXA_ZC8KK-8K';
+  if (!SB_ESTAVEL) { document.title += ' · teste'; document.body.insertAdjacentHTML('beforeend', '<div class="tst" aria-hidden="true">versão de teste</div>'); }
   const sb = SB_URL && window.supabase && supabase.createClient
     ? supabase.createClient(SB_URL, SB_KEY, { auth: { flowType: 'implicit', detectSessionInUrl: false, persistSession: true, autoRefreshToken: true, storageKey: 'faro.auth' } }) : null;
   // os links dos e-mails (confirmar a conta, nova senha) voltam com o resultado no endereço; lido antes de a navegação trocar o #

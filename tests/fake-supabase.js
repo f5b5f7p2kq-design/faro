@@ -77,7 +77,7 @@ function fakeSupabase({ autoconfirm = false } = {}) {
     return { status: 404, body: { message: 'fake: no route ' + m + ' ' + p } };
   }
   S.attach = async ctx => {
-    await ctx.route('https://osiboauffnkqkjjvmpvv.supabase.co/**', async route => {
+    await ctx.route(/^https:\/\/\w+\.supabase\.co\//, async route => {
       const req = route.request();
       if (req.method() === 'OPTIONS') return route.fulfill({ status: 204, headers: { 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': '*' } });
       const r = handle(req);
