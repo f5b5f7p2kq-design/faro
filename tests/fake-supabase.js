@@ -3,7 +3,7 @@
 const crypto = require('crypto');
 const b64u = o => Buffer.from(JSON.stringify(o)).toString('base64url');
 function fakeSupabase({ autoconfirm = false } = {}) {
-  const S = { users: new Map(), tokens: new Map(), progresso: new Map(), ranking: new Map(), importar: new Map(), links: [], autoconfirm, calls: [] };
+  const S = { users: new Map(), tokens: new Map(), progresso: new Map(), ranking: new Map(), importar: new Map(), links: [], emailTokens: new Set(), autoconfirm, calls: [] };
   const userOut = u => ({ id: u.id, aud: 'authenticated', role: 'authenticated', email: u.email, email_confirmed_at: u.confirmed ? '2026-10-30T00:00:00Z' : null,
     user_metadata: u.meta, app_metadata: { provider: 'email' }, identities: [{ id: u.id, user_id: u.id, provider: 'email', identity_data: { email: u.email } }], created_at: '2026-10-30T00:00:00Z' });
   const session = u => {
@@ -38,7 +38,22 @@ function fakeSupabase({ autoconfirm = false } = {}) {
       if (!u.confirmed) return err(400, 'email_not_confirmed', 'Email not confirmed');
       return { status: 200, body: session(u) };
     }
-    if (p === '/auth/v1/user' && m === 'GET') { if (!me) return err(401, 'bad_jwt', 'invalid JWT'); me.confirmed = true; return { status: 200, body: userOut(me) }; }
+    if (p === '/auth/v1/user' && m === 'GET') {
+      if (!me) return err(401, 'bad_jwt', 'invalid JWT'); me.confirmed = true;
+      // o segundo link da troca de e-mail aplica o e-mail novo
+      const tk = (req.headers()['authorization'] || '').replace(/^Bearer /, '');
+      if (me.pending && S.emailTokens.has(tk)) { S.users.delete(me.email); me.email = me.pending; me.pending = null; S.users.set(me.email, me); }
+      return { status: 200, body: userOut(me) };
+    }
+    if (p === '/auth/v1/user' && m === 'PUT' && body.email) {
+      if (!me) return err(401, 'bad_jwt', 'invalid JWT');
+      const ne = String(body.email).toLowerCase(); if (S.users.has(ne)) return err(422, 'email_exists', 'A user with this email address has already been registered');
+      me.pending = ne; const redirect = url.searchParams.get('redirect_to');
+      S.links.push({ email: me.email, type: 'email_change_old', url: `${redirect}#message=Confirmation+link+accepted.+Please+proceed+to+confirm+link+sent+to+the+other+email` });
+      const s2 = session(me); S.emailTokens.add(s2.access_token);
+      S.links.push({ email: ne, type: 'email_change', url: `${redirect}#access_token=${s2.access_token}&refresh_token=${s2.refresh_token}&expires_in=3600&token_type=bearer&type=email_change` });
+      return { status: 200, body: userOut(me) };
+    }
     if (p === '/auth/v1/user' && m === 'PUT') { if (!me) return err(401, 'bad_jwt', 'invalid JWT'); if (body.password) { if (body.password === me.password) return err(422, 'same_password', 'New password should be different'); me.password = body.password; } return { status: 200, body: userOut(me) }; }
     if (p === '/auth/v1/recover' && m === 'POST') { const u = S.users.get(String(body.email).toLowerCase()); if (u) link(u, 'recovery', url.searchParams.get('redirect_to')); return { status: 200, body: {} }; }
     if (p === '/auth/v1/logout') return { status: 204, body: null };

@@ -100,17 +100,33 @@ const shots = process.env.SHOTS || '/tmp';
   await p.fill('#acNew', 'outra-senha-456'); await p.click('#acRecForm [type="submit"]'); await p.waitForTimeout(500);
   check('senha nova salva', S.users.get('lumi@exemplo.com').password === 'outra-senha-456' && !(await p.isHidden('#acIn')), await msg(p));
 
+  // 6b. trocar o e-mail
+  await p.click('#acEmBtn'); await p.fill('#acEm', 'lumi@exemplo.com'); await p.click('#acEmForm [type="submit"]');
+  check('trocar para o mesmo e-mail é recusado', /já é o e-mail/.test(await msg(p)));
+  await p.fill('#acEm', 'Lumi.Nova@Exemplo.com'); await p.click('#acEmForm [type="submit"]'); await p.waitForTimeout(400);
+  check('troca de e-mail pede os dois links', /lumi\.nova@exemplo\.com e outro para lumi@exemplo\.com/.test(await msg(p)), await msg(p));
+  await p.screenshot({ path: shots + '/c-d-email.png' });
+  const l1 = S.links.find(l => l.type === 'email_change_old'), l2 = S.links.find(l => l.type === 'email_change');
+  await p.close(); p = await A.c.newPage(); p.on('pageerror', e => errs.push('A: ' + e.message));
+  await p.goto(l1.url); await p.waitForTimeout(1000);
+  check('primeiro link: falta o outro', /Falta abrir o link enviado para o outro e-mail/.test(await msg(p)), await msg(p));
+  await p.close(); p = await A.c.newPage(); p.on('pageerror', e => errs.push('A: ' + e.message));
+  await p.goto(l2.url); await p.waitForTimeout(1200);
+  check('segundo link: e-mail trocado', /e-mail da conta foi trocado/.test(await msg(p)) && (await p.textContent('#acWho')) === 'lumi.nova@exemplo.com', await msg(p) + ' · ' + await p.textContent('#acWho'));
+  check('progresso continua na conta', S.progresso.has(uid));
+  check('rodapé com o e-mail novo', /conta lumi\.nova@exemplo\.com/.test(await p.textContent('#acct')), await p.textContent('#acct'));
+
   // 7. e-mail já usado
   const C = await newPage(undefined, 'C'); const r = C.p;
   await r.goto(URL0 + '#conta'); await r.waitForTimeout(600);
-  await r.click('#acTab [data-v="new"]'); await r.fill('#acEmail', 'lumi@exemplo.com'); await r.fill('#acPass', 'qualquer-coisa'); await r.click('#acGo'); await r.waitForTimeout(400);
+  await r.click('#acTab [data-v="new"]'); await r.fill('#acEmail', 'lumi.nova@exemplo.com'); await r.fill('#acPass', 'qualquer-coisa'); await r.click('#acGo'); await r.waitForTimeout(400);
   check('e-mail já usado', /Já existe uma conta/.test(await msg(r)));
 
   // 8. apagar a conta
   await p.click('#acDelBtn'); await p.waitForTimeout(100);
   await p.screenshot({ path: shots + '/c-d-apagar.png' });
   await p.click('#acDelYes'); await p.waitForTimeout(1200);
-  check('conta apagada', !S.users.has('lumi@exemplo.com') && !S.progresso.has(uid) && !S.ranking.has(uid));
+  check('conta apagada', !S.users.has('lumi.nova@exemplo.com') && !S.progresso.has(uid) && !S.ranking.has(uid));
   check('depois de apagar, sem conta', (await p.textContent('#me .ms')) === 'entrar ou criar conta');
 
   console.log(`\n${ok} ok, ${bad} falhas`); console.log('erros', errs);

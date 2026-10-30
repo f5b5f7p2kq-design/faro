@@ -6,7 +6,7 @@
   // os links dos e-mails (confirmar a conta, nova senha) voltam com o resultado no endereço; lido antes de a navegação trocar o #
   const acLink = (() => {
     const h = new URLSearchParams(location.hash.slice(1)), q = new URLSearchParams(location.search);
-    const r = h.has('access_token') || h.has('error_description') ? h : q.has('error_description') ? q : null;
+    const r = h.has('access_token') || h.has('error_description') || h.has('message') ? h : q.has('error_description') ? q : null;
     if (r) history.replaceState(null, '', location.pathname);
     return r;
   })();
@@ -159,7 +159,23 @@
     if (error) { acMsg(acErr(error), 1); return; }
     acRecOn = false; $('acNew').value = ''; drawAcct(); acMsg('Senha nova salva. Você já está dentro da conta.');
   });
-  $('acPwBtn').addEventListener('click', () => { $('acPwForm').hidden = false; $('acDelBox').hidden = true; acMsg(''); $('acPw').focus(); });
+  // um formulário de cada vez na página da conta
+  const acOnly = id => { for (const x of ['acEmForm', 'acPwForm', 'acDelBox']) $(x).hidden = x !== id; acMsg(''); };
+  $('acEmBtn').addEventListener('click', () => { acOnly('acEmForm'); $('acEm').value = ''; $('acEm').focus(); });
+  $('acEmNo').addEventListener('click', () => { $('acEmForm').hidden = true; });
+  $('acEmForm').addEventListener('submit', async e => {
+    e.preventDefault(); if (acBusyOn) return;
+    const email = $('acEm').value.trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { acMsg('Confira o e-mail novo.', 1); $('acEm').focus(); return; }
+    if (email === acUser.email) { acMsg('Esse já é o e-mail da conta.', 1); return; }
+    acBusy(true);
+    const { error } = await sb.auth.updateUser({ email }, { emailRedirectTo: acHere() });
+    acBusy(false);
+    if (error) { acMsg(acErr(error), 1); return; }
+    $('acEmForm').hidden = true;
+    acMsg(`Enviamos um link para ${email} e outro para ${acUser.email}. A troca vale depois que você abrir os dois (veja também o spam). Até lá, a conta continua com o e-mail atual.`);
+  });
+  $('acPwBtn').addEventListener('click', () => { acOnly('acPwForm'); $('acPw').focus(); });
   $('acPwNo').addEventListener('click', () => { $('acPwForm').hidden = true; $('acPw').value = ''; });
   $('acPwForm').addEventListener('submit', async e => {
     e.preventDefault(); if (acBusyOn) return;
@@ -180,17 +196,19 @@
     localWipe(); location.replace(acHere() + (del ? '#conta' : ''));
   }
   $('acOutBtn').addEventListener('click', () => acLeave(false));
-  $('acDelBtn').addEventListener('click', () => { $('acDelBox').hidden = false; $('acPwForm').hidden = true; acMsg(''); });
+  $('acDelBtn').addEventListener('click', () => acOnly('acDelBox'));
   $('acDelNo').addEventListener('click', () => { $('acDelBox').hidden = true; });
   $('acDelYes').addEventListener('click', () => acLeave(true));
 
+  // o e-mail pode mudar enquanto a conta ainda carrega (link de troca aberto com a sessão antiga)
+  const acFoot = () => { if (cloud && acUser) acct(true, `conta ${acUser.email} · o progresso fica salvo na conta e vale em qualquer aparelho`); };
   function acSession(ev, session) {
     const u = session && session.user;
     if (u && !acUser) {
       acUser = u; acSide(); drawAcct();
       // quem trouxe progresso da versão do claude.ai: ele vira o progresso da conta antes da primeira leitura
-      if (!acStarted) { acStarted = true; const c = sbCloud(u); sb.rpc('importar_meu_progresso').then(() => {}, () => {}).then(() => cloudStart(c.db, c.user, true)); }
-    } else if (u) { acUser = u; drawAcct(); }
+      if (!acStarted) { acStarted = true; const c = sbCloud(u); sb.rpc('importar_meu_progresso').then(() => {}, () => {}).then(() => cloudStart(c.db, c.user, true)).then(acFoot); }
+    } else if (u) { acUser = u; drawAcct(); acFoot(); }
     else if (!u && acUser) { localWipe(); location.replace(acHere()); } // saiu em outra aba
     else { acSide(); drawAcct(); }
   }
@@ -198,15 +216,17 @@
     acct(false, 'sem conta · o progresso fica só neste navegador. Para salvar em qualquer aparelho, entre ou crie uma conta.');
     sb.auth.onAuthStateChange((ev, session) => setTimeout(() => acSession(ev, session), 0));
     if (acLink) (async () => {
-      const ty = acLink.get('type'), bad = acLink.get('error_description');
+      const ty = acLink.get('type'), bad = acLink.get('error_description'), note = acLink.get('message');
       let msg = '', err = false;
-      if (bad) { err = true; msg = /expired|invalid/i.test(bad) || acLink.get('error_code') === 'otp_expired' ? 'Esse link expirou ou já foi usado. Entre com e-mail e senha, ou peça outro em "esqueci a senha".' : 'Não deu para usar esse link: ' + bad; }
+      // troca de e-mail: o primeiro dos dois links só avisa que falta o outro
+      if (note && !acLink.has('access_token')) msg = /other email|outro/i.test(note) ? 'Um dos links foi confirmado. Falta abrir o link enviado para o outro e-mail.' : note;
+      else if (bad) { err = true; msg = /expired|invalid/i.test(bad) || acLink.get('error_code') === 'otp_expired' ? 'Esse link expirou ou já foi usado. Entre com e-mail e senha, ou peça outro em "esqueci a senha".' : 'Não deu para usar esse link: ' + bad; }
       else {
         const { error } = await sb.auth.setSession({ access_token: acLink.get('access_token'), refresh_token: acLink.get('refresh_token') });
         if (error) { err = true; msg = acErr(error); }
         else if (ty === 'recovery') acRecOn = true;
         else if (ty === 'signup') msg = 'E-mail confirmado. A sua conta está pronta.';
-        else if (ty === 'email_change') msg = 'E-mail atualizado.';
+        else if (ty === 'email_change') msg = 'Pronto, o e-mail da conta foi trocado.';
       }
       go('conta'); drawAcct(); acMsg(msg, err);
     })();

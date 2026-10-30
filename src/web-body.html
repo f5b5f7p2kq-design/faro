@@ -33,7 +33,12 @@
       <div class="bd cf">
         <p class="acw">Você entrou como <b id="acWho"></b>.</p>
         <p class="note">O seu progresso fica salvo na conta e vale em qualquer aparelho em que você entrar. O nome e a foto ficam em Configurações › Perfil.</p>
-        <div class="lk"><button type="button" id="acPwBtn">trocar a senha</button><button type="button" id="acOutBtn">sair desta conta</button><button type="button" id="acDelBtn">apagar a conta</button></div>
+        <div class="lk"><button type="button" id="acEmBtn">trocar o e-mail</button><button type="button" id="acPwBtn">trocar a senha</button><button type="button" id="acOutBtn">sair desta conta</button><button type="button" id="acDelBtn">apagar a conta</button></div>
+        <form class="acf" id="acEmForm" novalidate hidden>
+          <label class="fl"><span class="lb">E-mail novo</span><input id="acEm" type="email" autocomplete="email" inputmode="email" spellcheck="false" autocapitalize="off"></label>
+          <p class="note">Enviamos um link de confirmação para o e-mail novo e, por segurança, outro para o atual. A troca vale depois que os dois forem abertos.</p>
+          <div class="acr"><button type="submit" class="mk pri">trocar o e-mail</button><button type="button" class="mk" id="acEmNo">cancelar</button></div>
+        </form>
         <form class="acf" id="acPwForm" novalidate hidden>
           <label class="fl"><span class="lb">Nova senha</span><input id="acPw" type="password" autocomplete="new-password"></label>
           <p class="note">Pelo menos 8 caracteres.</p>
