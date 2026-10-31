@@ -1057,7 +1057,7 @@
 "src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 11",
 "r": 1830,
 "tm": 180,
-"ctx": "Um tanque de 40 cm de profundidade está cheio de um líquido de índice de refração 1,64. Um laser incide na superfície formando 35° com ela. A que distância horizontal do ponto de incidência o laser atinge o fundo, em cm? (sen 55° = 0,82; sen 30° = 0,50; tg 30° = 0,58)",
+"ctx": "Um laser incide a 35° da superfície de um líquido de índice 1,64, num tanque de 40 cm de fundo. A que distância horizontal do ponto de incidência ele atinge o fundo? (sen 55° = 0,82; tg 30° = 0,58)",
 "a": 23.2,
 "u": "cm",
 "tol": 0.02,
@@ -1119,7 +1119,7 @@
 "src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 13",
 "r": 2040,
 "tm": 180,
-"ctx": "Um circuito hexagonal é formado por 6 pilhas idênticas ligadas em sequência, todas no mesmo sentido, cada uma com fem ε = α·r (r é a resistência interna, α constante). Qual a corrente no circuito e a diferença de potencial entre dois pontos A e B quaisquer do hexágono?",
+"ctx": "Seis pilhas iguais formam um hexágono, todas no mesmo sentido, cada uma com fem ε = α·r, sendo r a resistência interna. Qual a corrente, e qual a ddp entre dois pontos quaisquer do hexágono?",
 "opts": [
 "corrente α; V<sub>AB</sub> = 0",
 "corrente 6α; V<sub>AB</sub> = 3ε",

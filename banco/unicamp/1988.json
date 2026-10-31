@@ -198,7 +198,7 @@
 "src": "Unicamp 1988, 2ª fase, Matemática, questão 1",
 "r": 1490,
 "tm": 120,
-"ctx": "Numa estrada em obras, os carros andavam a 80 km/h, mantendo 50 m de distância do veículo da frente. Um engenheiro mandou reduzir a velocidade para 50 km/h e a distância para 25 m, dizendo que o tráfego escoaria mais depressa. Quantos veículos por hora passam em cada situação?",
+"ctx": "Numa estrada, carros a 80 km/h ficam a 50 m um do outro. Um engenheiro reduziu para 50 km/h e 25 m, dizendo que o tráfego escoaria mais rápido. Quantos veículos por hora passam em cada caso?",
 "opts": [
 "1.600 antes e 2.000 depois: o engenheiro tinha razão",
 "1.600 antes e 1.250 depois: o engenheiro errou",
@@ -976,7 +976,7 @@
 "src": "Unicamp 1988, 2ª fase, Física, questão 9",
 "r": 1870,
 "tm": 150,
-"ctx": "Uma esferinha A, presa a um pino O por um fio vertical, encosta num plano horizontal liso. Outra esferinha B, de mesma massa, vem a 1,0 m/s e bate de frente em A, em repouso. Todas as colisões são perfeitamente elásticas. Quantas colisões há, e como terminam as esferas?",
+"ctx": "Uma esferinha A pende de um fio e encosta num plano liso. Outra igual, B, vem a 1,0 m/s e bate de frente em A, parada. Com colisões perfeitamente elásticas, quantas colisões há, e como ficam as esferas?",
 "opts": [
 "2 colisões; A parada e B voltando a 1,0 m/s",
 "1 colisão; B parada e A girando para sempre",
@@ -1249,7 +1249,7 @@
 "src": "Unicamp 1988, 2ª fase, Física, questão 16",
 "r": 1700,
 "tm": 90,
-"ctx": "Blocos de gelo igualmente espaçados deslizam num plano liso e passam por um ponto A à razão de f<sub>1</sub> blocos por segundo. Freados numa rampa, chegam a um segundo plano liso com velocidade v<sub>2</sub>. Quantos blocos por segundo passam num ponto C do segundo plano, e qual o espaçamento entre eles?",
+"ctx": "Blocos de gelo igualmente espaçados passam por um ponto à razão de f₁ por segundo. Freados numa rampa, eles seguem num plano liso com velocidade v₂. Quantos passam por segundo nesse plano, e com que espaçamento?",
 "opts": [
 "f<sub>1</sub> blocos por segundo, espaçados de v<sub>2</sub>/f<sub>1</sub>",
 "menos que f<sub>1</sub>, espaçados como antes",
