@@ -1094,9 +1094,8 @@ button.hc { cursor: pointer; }
 body[data-view="conta"] .acq { display: none; }
 .tst { position: fixed; right: 0; bottom: 0; z-index: 90; pointer-events: none; background: var(--ink); color: var(--paper); font-family: var(--display); font-size: 10px; letter-spacing: .1em; padding: 3px 8px; opacity: .85; }
 
-/* questões da Unicamp: de onde veio, figura, enunciado mais longo e resolução em degraus */
-.src { margin: 0; font-family: var(--display); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
-.src[hidden], .fig[hidden] { display: none; }
+/* questões da Unicamp: figura, enunciado mais longo e resolução em degraus */
+.fig[hidden] { display: none; }
 .fig { margin: 0; }
 .fig svg { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; color: var(--ink); }
 .q.uq { justify-content: flex-start; }
@@ -1181,7 +1180,6 @@ body[data-view="conta"] .acq { display: none; }
   <section class="box" aria-label="Exercício">
     <div class="hd"><span id="topic">—</span><span class="qr"><span id="qlvl"></span><span id="clock">0,0 s</span></span></div>
     <div class="bd q" id="qbox">
-      <p id="src" class="src" hidden></p>
       <div id="fig" class="fig" hidden></div>
       <p id="ctx" class="ctx"></p>
       <div id="expr" class="expr"></div>
@@ -1232,7 +1230,7 @@ body[data-view="conta"] .acq { display: none; }
       <div class="tl" id="rt"></div>
       <details class="more">
         <summary>como funciona o rating</summary>
-        <p>Vai de 0 a 2500 e começa em 1000. Cada questão tem o próprio rating, que aparece ao lado do tópico, na escala dos vestibulandos da Unicamp: uma questão de 1300 é acertada por metade de quem faz a 1ª fase. As questões das provas usam o índice de acerto divulgado pela Comvest; as geradas na hora, uma estimativa do mesmo acerto. Até 1100 é fácil, de 1100 a 1400 é médio, acima de 1400 é difícil.</p>
+        <p>Vai de 0 a 2500 e começa em 1000. Cada questão tem o próprio rating, que aparece ao lado do tópico: uma questão de 1300 é acertada por metade dos vestibulandos. Até 1100 é fácil, de 1100 a 1400 é médio, acima de 1400 é difícil.</p>
         <p>Acertar uma questão acima do seu rating sobe muito; errar uma abaixo cai muito. Acerto lento ou depois de abrir a dica vale menos. No AUTO, as questões ficam perto do seu rating em cada tópico.</p>
         <p>Toque num tópico para tirá-lo do treino ou trazê-lo de volta. Para zerar o rating, use as configurações, no fim do menu.</p>
       </details>
@@ -5396,7 +5394,7 @@ const TIPS_QUI = [
   }
   // questão do banco no formato do treino: as alternativas são embaralhadas (no arquivo, a certa é sempre a primeira)
   function bankQ(it, keep) {
-    const q = { uid: it.id, src: it.src, tm: it.tm, d: it.d || [], fig: it.fig || '', ctx: it.ctx, q: '', h: `<ol class="dg">${(it.h || []).map(x => `<li>${x}</li>`).join('')}</ol>` };
+    const q = { uid: it.id, tm: it.tm, d: it.d || [], fig: it.fig || '', ctx: it.ctx, q: '', h: `<ol class="dg">${(it.h || []).map(x => `<li>${x}</li>`).join('')}</ol>` };
     if (Array.isArray(it.opts)) {
       const o = keep ? it.opts.map((x, i) => [x, i]) : shuffle(it.opts.map((x, i) => [x, i]));
       q.opts = o.map(x => x[0]); q.a = o.findIndex(x => x[1] === it.a);
@@ -5453,7 +5451,6 @@ const TIPS_QUI = [
     remember(cur);
     $('topic').textContent = GEN[key].name; $('topic').title = GEN[key].name;
     $('qlvl').innerHTML = `<span class="bw">${LNAME[band(r)]} </span>${r}`;
-    $('src').textContent = q.src || ''; $('src').hidden = !q.src;
     $('fig').innerHTML = q.fig || ''; $('fig').hidden = !q.fig;
     $('qbox').classList.toggle('uq', !!q.uid);
     $('ctx').innerHTML = q.ctx || '';
@@ -6820,7 +6817,7 @@ const TIPS_QUI = [
     const id = qid(cur);
     if (isMarked()) marked = marked.filter(m => m.id !== id);
     // da Unicamp, guarda só a referência: o texto e a figura voltam do banco (assim a conta não pesa)
-    else if (cur.uid) marked.unshift({ id, uid: cur.uid, key: cur.key, L: cur.L, r: cur.r, src: cur.src || '', t: Date.now() });
+    else if (cur.uid) marked.unshift({ id, uid: cur.uid, key: cur.key, L: cur.L, r: cur.r, t: Date.now() });
     else marked.unshift({ id, key: cur.key, L: cur.L, r: cur.r, ctx: cur.ctx || '', q: cur.q || '', opts: cur.opts, a: cur.a, u: cur.u || '', tol: cur.tol || 0, h: cur.h || '', tip: cur.t || '', tk: cur.tk || '', lg: cur.lg || '', t: Date.now() });
     save('marked', marked); syncMark(); holdOn();
   }
@@ -6833,7 +6830,7 @@ const TIPS_QUI = [
     list.innerHTML = marked.map((m, i) => {
       if (m.uid) {
         const it = BID.get(m.uid), name = GEN[m.key] ? GEN[m.key].name : m.key;
-        const head = `<section class="box mq" data-i="${i}"><div class="hd"><span>${name} · ${LNAME[band(m.r)]} ${m.r}</span><span>${fmtDate(m.t)}</span></div><div class="bd"><p class="src">${esc(m.src || '')}</p>`;
+        const head = `<section class="box mq" data-i="${i}"><div class="hd"><span>${name} · ${LNAME[band(m.r)]} ${m.r}</span><span>${fmtDate(m.t)}</span></div><div class="bd">`;
         const acts = (more) => `<div class="acts">${more}<button type="button" data-a="tirar">tirar da lista</button></div></div></section>`;
         if (!it) return head + `<p class="ctx">${BANK ? 'Esta questão não está mais no banco.' : 'Carregando a questão…'}</p>` + acts('');
         const q = bankQ(it, true), ansTxt = Array.isArray(q.opts) ? q.opts[q.a] : (q.tol ? '≈ ' : '') + f(q.a) + (q.u ? ' ' + q.u : '');

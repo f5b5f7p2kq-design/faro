@@ -3,7 +3,8 @@
 #   - alternativa que é só número (com a mesma unidade nas quatro) vira resposta digitada;
 #   - resposta aproximada com 4 ou mais algarismos significativos é arredondada a 3, aceitando 2% de erro,
 #     para dar conta de cabeça com √2 ≈ 1,41, √3 ≈ 1,73 e π ≈ 3,14;
-#   - resposta muito grande ou muito pequena (3 × 10²⁰, 4,2 × 10⁻⁵) vira mantissa digitada, com a potência de 10 na unidade.
+#   - resposta muito grande ou muito pequena (3 × 10²⁰, 4,2 × 10⁻⁵) vira mantissa digitada, com a potência de 10 na unidade;
+#   - a origem (src) fica só na fonte: o Faro não mostra de onde a questão foi tirada.
 # uso: python3 banco/montar.py   (o build.sh já chama)
 import glob, json, math, os, re
 
@@ -61,7 +62,7 @@ def sci(q):
 
 
 def adapt(it):
-    q = {k: it[k] for k in ('id', 's', 't', 'r', 'tm', 'src', 'ctx') if k in it}
+    q = {k: it[k] for k in ('id', 's', 't', 'r', 'tm', 'ctx') if k in it}
     if 'fig' in it:
         q['fig'] = it['fig']
     q['d'], q['h'] = it['d'], it['h']
@@ -76,7 +77,6 @@ def adapt(it):
                 q['u'] = P[0][2]
             if ',' in P[0][3] or re.search(r'aproximad|cerca de|estim', it['ctx'], re.I):
                 q['tol'] = round(max(0.005, min(0.03, gap / 2.5)), 3)
-            q['src'] = q['src'].replace('adaptada para múltipla escolha', 'adaptada')
             if it['fase'] == 1 and it['ano'] >= 2011:
                 q['r'] = min(2500, it['r'] + 80)  # digitar não tem chute: um pouco mais difícil que marcar
             return sci(q)

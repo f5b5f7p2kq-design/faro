@@ -235,7 +235,7 @@
   }
   // questão do banco no formato do treino: as alternativas são embaralhadas (no arquivo, a certa é sempre a primeira)
   function bankQ(it, keep) {
-    const q = { uid: it.id, src: it.src, tm: it.tm, d: it.d || [], fig: it.fig || '', ctx: it.ctx, q: '', h: `<ol class="dg">${(it.h || []).map(x => `<li>${x}</li>`).join('')}</ol>` };
+    const q = { uid: it.id, tm: it.tm, d: it.d || [], fig: it.fig || '', ctx: it.ctx, q: '', h: `<ol class="dg">${(it.h || []).map(x => `<li>${x}</li>`).join('')}</ol>` };
     if (Array.isArray(it.opts)) {
       const o = keep ? it.opts.map((x, i) => [x, i]) : shuffle(it.opts.map((x, i) => [x, i]));
       q.opts = o.map(x => x[0]); q.a = o.findIndex(x => x[1] === it.a);
@@ -292,7 +292,6 @@
     remember(cur);
     $('topic').textContent = GEN[key].name; $('topic').title = GEN[key].name;
     $('qlvl').innerHTML = `<span class="bw">${LNAME[band(r)]} </span>${r}`;
-    $('src').textContent = q.src || ''; $('src').hidden = !q.src;
     $('fig').innerHTML = q.fig || ''; $('fig').hidden = !q.fig;
     $('qbox').classList.toggle('uq', !!q.uid);
     $('ctx').innerHTML = q.ctx || '';
@@ -1659,7 +1658,7 @@
     const id = qid(cur);
     if (isMarked()) marked = marked.filter(m => m.id !== id);
     // da Unicamp, guarda só a referência: o texto e a figura voltam do banco (assim a conta não pesa)
-    else if (cur.uid) marked.unshift({ id, uid: cur.uid, key: cur.key, L: cur.L, r: cur.r, src: cur.src || '', t: Date.now() });
+    else if (cur.uid) marked.unshift({ id, uid: cur.uid, key: cur.key, L: cur.L, r: cur.r, t: Date.now() });
     else marked.unshift({ id, key: cur.key, L: cur.L, r: cur.r, ctx: cur.ctx || '', q: cur.q || '', opts: cur.opts, a: cur.a, u: cur.u || '', tol: cur.tol || 0, h: cur.h || '', tip: cur.t || '', tk: cur.tk || '', lg: cur.lg || '', t: Date.now() });
     save('marked', marked); syncMark(); holdOn();
   }
@@ -1672,7 +1671,7 @@
     list.innerHTML = marked.map((m, i) => {
       if (m.uid) {
         const it = BID.get(m.uid), name = GEN[m.key] ? GEN[m.key].name : m.key;
-        const head = `<section class="box mq" data-i="${i}"><div class="hd"><span>${name} · ${LNAME[band(m.r)]} ${m.r}</span><span>${fmtDate(m.t)}</span></div><div class="bd"><p class="src">${esc(m.src || '')}</p>`;
+        const head = `<section class="box mq" data-i="${i}"><div class="hd"><span>${name} · ${LNAME[band(m.r)]} ${m.r}</span><span>${fmtDate(m.t)}</span></div><div class="bd">`;
         const acts = (more) => `<div class="acts">${more}<button type="button" data-a="tirar">tirar da lista</button></div></div></section>`;
         if (!it) return head + `<p class="ctx">${BANK ? 'Esta questão não está mais no banco.' : 'Carregando a questão…'}</p>` + acts('');
         const q = bankQ(it, true), ansTxt = Array.isArray(q.opts) ? q.opts[q.a] : (q.tol ? '≈ ' : '') + f(q.a) + (q.u ? ' ' + q.u : '');

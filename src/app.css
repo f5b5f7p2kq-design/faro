@@ -931,9 +931,8 @@ button.hc { cursor: pointer; }
 body[data-view="conta"] .acq { display: none; }
 .tst { position: fixed; right: 0; bottom: 0; z-index: 90; pointer-events: none; background: var(--ink); color: var(--paper); font-family: var(--display); font-size: 10px; letter-spacing: .1em; padding: 3px 8px; opacity: .85; }
 
-/* questões da Unicamp: de onde veio, figura, enunciado mais longo e resolução em degraus */
-.src { margin: 0; font-family: var(--display); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
-.src[hidden], .fig[hidden] { display: none; }
+/* questões da Unicamp: figura, enunciado mais longo e resolução em degraus */
+.fig[hidden] { display: none; }
 .fig { margin: 0; }
 .fig svg { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto; color: var(--ink); }
 .q.uq { justify-content: flex-start; }
