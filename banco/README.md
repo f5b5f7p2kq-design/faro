@@ -38,12 +38,25 @@ O texto é uma adaptação para o treino rápido (enunciado enxuto, resposta dig
 como ela foi. O site de questões idênticas às provas, planejado para depois, vai precisar de uma
 transcrição fiel feita direto dos PDFs da Comvest, com as imagens originais; este banco não serve para isso.
 
+### Como escrever o enunciado
+
+O Faro é para descontração: o comando é curto e direto, mesmo quando o problema é difícil.
+
+- cerca de 200 caracteres de texto, no máximo 250 (o `montar.py` avisa quando passa);
+- só os dados que a resolução usa, sem a história em volta; constantes e unidades entre parênteses no fim;
+- cada item se sustenta sozinho: em vez de repetir o enunciado do item anterior, dá o resultado dele como dado;
+- se a resposta é aproximada, o comando diz "cerca de", "aproximadamente" ou "estime": é isso que faz o
+  `montar.py` dar tolerância quando as alternativas viram resposta digitada;
+- nada de origem no texto que a pessoa vê (enunciado, alternativas, dicas e degraus): sem "Unicamp",
+  "vestibular", "1ª fase", "a banca aceitou"... A origem fica só em `src`, que o `montar.py` não leva para o Faro.
+
 ### O que `montar.py` muda para o Faro
 
 - alternativas que são só número, com a mesma unidade, viram resposta digitada (as da 1ª fase de 2011 em
   diante ganham 80 pontos de rating, porque digitar não tem chute);
 - resposta aproximada com 4 ou mais algarismos é arredondada a 3, com 2% de tolerância (√2 ≈ 1,41 de cabeça);
-- resposta muito grande ou muito pequena vira mantissa digitada, com a potência de 10 na unidade (3 × 10²⁰).
+- resposta muito grande ou muito pequena vira mantissa digitada, com a potência de 10 na unidade (3 × 10²⁰);
+- `src` (de onde a questão foi tirada) não vai para `public/unicamp.json`.
 
 No treino, as alternativas são embaralhadas.
 

@@ -4,7 +4,8 @@
 #   - resposta aproximada com 4 ou mais algarismos significativos é arredondada a 3, aceitando 2% de erro,
 #     para dar conta de cabeça com √2 ≈ 1,41, √3 ≈ 1,73 e π ≈ 3,14;
 #   - resposta muito grande ou muito pequena (3 × 10²⁰, 4,2 × 10⁻⁵) vira mantissa digitada, com a potência de 10 na unidade;
-#   - a origem (src) fica só na fonte: o Faro não mostra de onde a questão foi tirada.
+#   - a origem (src) fica só na fonte: o Faro não mostra de onde a questão foi tirada;
+#   - avisa quando um enunciado passa de 250 caracteres (o comando deve ser curto).
 # uso: python3 banco/montar.py   (o build.sh já chama)
 import glob, json, math, os, re
 
@@ -102,3 +103,7 @@ for fn in sorted(glob.glob(os.path.join(H, 'unicamp', '*.json'))):
 json.dump(items, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 mc = sum('opts' in q for q in items)
 print(f'unicamp.json: {len(items)} questões, {len(items) - mc} digitadas ({n_typed} eram alternativas), {mc} de alternativa, {os.path.getsize(OUT) // 1024} KB')
+# o Faro é para descontração: comando curto (até ~200 caracteres, no máximo 250), mesmo com problema difícil
+longos = [(q['id'], n) for q in items if (n := len(re.sub(r'<[^>]+>', '', q['ctx']))) > 250]
+if longos:
+    print(f'aviso: {len(longos)} enunciado(s) com mais de 250 caracteres:', ', '.join(f'{i} ({n})' for i, n in longos))
