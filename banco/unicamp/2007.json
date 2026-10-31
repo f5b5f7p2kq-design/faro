@@ -2820,9 +2820,9 @@
 "tm": 60,
 "ctx": "Um agrotóxico é pulverizado durante t segundos, com vazão V (L/s), concentração C (mol/L) e massa molar M (g/mol), à temperatura T. Que equação dá a massa Q pulverizada, em gramas?",
 "opts": [
-"Q = V·C·M·t (ou Q = 10·F·t·P)",
+"Q = V·C·M·t",
 "Q = V·C·t/M",
-"Q = F·P·T",
+"Q = C·M·T",
 "Q = V·C·M·T"
 ],
 "a": 0,
@@ -2839,8 +2839,8 @@
 ],
 "h": [
 "Volume pulverizado: V·t (L). Quantidade de agrotóxico: V·t·C (mol).",
-"Massa: V·t·C·M (g). A temperatura não entra.",
-"<b>Q = V·C·M·t</b>; ou Q = F·t·1.000·P/100 = 10·F·t·P."
+"Massa: V·t·C·M (g).",
+"A temperatura não entra: <b>Q = V·C·M·t</b>."
 ]
 },
 {
