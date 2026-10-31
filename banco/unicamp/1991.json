@@ -8,7 +8,7 @@
 "src": "Unicamp 1991, 1ª fase, questão 6 (parte estatística)",
 "r": 1530,
 "tm": 90,
-"ctx": "Uma variedade de milho e outra de mandioca foram plantadas em solos igualmente férteis; cada semente de milho e cada pedaço de caule de mandioca produziu uma planta. A produção de cerca de 100 plantas de cada espécie formou curvas em forma de sino: milho com média de 120 g por planta e desvio padrão de cerca de 40 g; mandioca com média de 4,2 kg de raízes por planta e desvio padrão de cerca de 0,4 kg. Qual variedade tem produção mais homogênea?",
+"ctx": "Milho e mandioca foram plantados em solos iguais. O milho deu em média 120 g por planta, com desvio padrão de 40 g; a mandioca, 4,2 kg de raízes, com desvio de 0,4 kg. Qual tem produção mais homogênea?",
 "opts": [
 "mandioca: dispersão relativa de cerca de 10%, contra 33% do milho",
 "milho: o desvio de 40 g é menor que o de 0,4 kg da mandioca",
@@ -351,7 +351,7 @@
 "src": "Unicamp 1991, 2ª fase, Matemática, questão 5",
 "r": 1280,
 "tm": 90,
-"ctx": "No testamento, uma pessoa decidiu dividir sua fortuna entre a filha, que estava grávida, e os filhos que nascessem: cada criança receberia o dobro do que coubesse à mãe, se fosse menino, e o triplo, se fosse menina. Nasceram trigêmeos: dois meninos e uma menina. Como foi repartida a herança?",
+"ctx": "Uma herança vai para uma mãe grávida e os filhos: cada menino recebe o dobro da mãe, e cada menina, o triplo. Nasceram dois meninos e uma menina. Como fica a partilha?",
 "opts": [
 "mãe 1/8; cada menino 1/4; menina 3/8",
 "mãe 1/6; cada menino 1/3; menina 1/2",
@@ -381,7 +381,7 @@
 "src": "Unicamp 1991, 2ª fase, Matemática, questão 6",
 "r": 1020,
 "tm": 60,
-"ctx": "Numa escola, a nota da 1ª prova tem peso 1, a da 2ª tem peso 2 e a da 3ª, peso 3; a soma é dividida por 6. Com média maior ou igual a 6,5, o aluno é dispensado da recuperação. Um aluno tirou 6,3 na primeira prova e 4,5 na segunda. Quanto precisa tirar, no mínimo, na terceira?",
+"ctx": "Numa escola, as provas têm pesos 1, 2 e 3, e com média 6,5 o aluno passa direto. Quem tirou 6,3 na 1ª e 4,5 na 2ª precisa de quanto, no mínimo, na 3ª?",
 "a": 7.9,
 "tol": 0.001,
 "d": [
@@ -436,7 +436,7 @@
 "src": "Unicamp 1991, 2ª fase, Matemática, questão 8",
 "r": 1530,
 "tm": 120,
-"ctx": "Um foguete foi lançado acidentalmente de um ponto da Terra e cairá de volta. Sua trajetória plana segue y = −x² + 300x. Com que inclinação (coeficiente angular) se deve lançar, do mesmo ponto, outro foguete em trajetória retilínea, para que ele intercepte o primeiro no ponto mais distante da Terra?",
+"ctx": "Um foguete sai da origem pela trajetória y = −x² + 300x. Com que coeficiente angular deve sair, do mesmo ponto, um foguete em linha reta para pegá-lo no ponto mais alto?",
 "opts": [
 "coeficiente angular 150",
 "coeficiente angular 300",
@@ -504,7 +504,7 @@
 "src": "Unicamp 1991, 2ª fase, Matemática, questão 12",
 "r": 1620,
 "tm": 150,
-"ctx": "Começando com um cilindro de raio 1 e altura 1, coloca-se sobre ele outro cilindro de mesma altura e raio igual a 2/3 do anterior, e assim indefinidamente. Embora a altura do sólido resultante seja infinita, seu volume pode ser calculado. Quanto vale?",
+"ctx": "Sobre um cilindro de raio 1 e altura 1 empilha-se outro de mesma altura e raio igual a 2/3 do anterior, e assim sem fim. Qual o volume dessa pilha infinita?",
 "opts": [
 "9π/5",
 "3π",
@@ -581,7 +581,7 @@
 "src": "Unicamp 1991, 2ª fase, Matemática, questão 14",
 "r": 1960,
 "tm": 180,
-"ctx": "Uma esfera de raio 1 está apoiada no plano xy, com o polo sul tocando a origem. A 'projeção estereográfica' de um ponto da esfera é o ponto em que a reta que liga o polo norte a esse ponto toca o plano xy. Qual é a projeção estereográfica dos pontos do hemisfério sul?",
+"ctx": "Uma esfera de raio 1 toca o plano xy na origem com o polo sul. A projeção de um ponto da esfera é onde a reta do polo norte até ele corta o plano. Qual a projeção do hemisfério sul?",
 "opts": [
 "o disco x² + y² ≤ 4 (círculo de raio 2 e seu interior)",
 "o disco x² + y² ≤ 1",
@@ -688,7 +688,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 1",
 "r": 940,
 "tm": 45,
-"ctx": "A resistência elétrica de um fio cilíndrico é diretamente proporcional ao seu comprimento e inversamente proporcional à área da sua seção reta. O que acontece com a resistência quando triplicamos o comprimento? E quando duplicamos o raio (com o comprimento original)?",
+"ctx": "A resistência de um fio é proporcional ao comprimento e inversamente proporcional à área da seção. O que acontece com ela se o comprimento triplicar? E se, em vez disso, o raio dobrar?",
 "opts": [
 "triplica; fica 4 vezes menor",
 "triplica; fica 2 vezes menor",
@@ -782,7 +782,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 3(b)",
 "r": 1740,
 "tm": 180,
-"ctx": "Uma escada homogênea de 40 kg apoia-se numa parede, no ponto P, a 4 m do chão, e no chão, no ponto C, a 3 m da parede. Não há atrito em P. É possível a escada ficar parada? Se for, quais os valores da força normal e da força de atrito em C? (g = 10 m/s²)",
+"ctx": "Uma escada de 40 kg se apoia numa parede lisa a 4 m do chão, com o pé a 3 m da parede. Ela pode ficar parada? Se pode, quais a normal e o atrito no chão? (g = 10 m/s²)",
 "fig": "<svg viewBox='0 0 190 140' class='fg' role='img' aria-label='escada apoiada na parede em P, 4 m acima do chão, e no chão em C, a 3 m da parede'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='20' y1='110' x2='155' y2='110'/><line x1='150' y1='5' x2='150' y2='110'/><line x1='75' y1='110' x2='150' y2='10' stroke-width='3'/><g stroke-dasharray='3 3'><line x1='75' y1='118' x2='150' y2='118'/><line x1='162' y1='10' x2='162' y2='110'/></g></g><g fill='currentColor' font-size='12'><text x='138' y='12'>P</text><text x='60' y='106'>C</text><text x='102' y='134'>3 m</text><text x='166' y='64'>4 m</text></g></svg>",
 "opts": [
 "Sim: normal 400 N e atrito 150 N",
@@ -821,7 +821,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 4(a)",
 "r": 1100,
 "tm": 60,
-"ctx": "Um mol de gás ideal sofre a transformação A → B → C do diagrama: de A (3,0 atm; 8,0 L) a B (3,0 atm; 10,0 L) à pressão constante, e de B a C a volume constante, até a isoterma que passa por A. Qual a temperatura do gás no estado A? (R = 0,082 atm·L/(mol·K))",
+"ctx": "Um mol de gás ideal está a 3,0 atm e ocupa 8,0 L. Qual a sua temperatura? (R = 0,082 atm·L/(mol·K))",
 "fig": "<svg viewBox='0 0 220 130' class='fg' role='img' aria-label='diagrama p por V: A em 8 L e 3 atm, B em 10 L e 3 atm, C em 10 L abaixo de B sobre a isoterma de A'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 210,110'/><polyline points='90,35 160,35 160,58' stroke-width='2'/><path d='M90,35 Q120,55 175,62' stroke-dasharray='4 3'/><g stroke-dasharray='2 3'><line x1='30' y1='35' x2='90' y2='35'/><line x1='90' y1='35' x2='90' y2='110'/><line x1='160' y1='58' x2='160' y2='110'/></g></g><g fill='currentColor' font-size='11'><polygon points='120,31 128,35 120,39'/><polygon points='156,46 160,54 164,46'/><text x='86' y='28'>A</text><text x='156' y='28'>B</text><text x='166' y='56'>C</text><text x='6' y='39'>3,0</text><text x='82' y='122'>8,0</text><text x='150' y='122'>10,0</text><text x='34' y='12'>p (atm)</text><text x='186' y='104'>V (L)</text><text x='100' y='76'>isoterma</text></g></svg>",
 "a": 293,
 "u": "K",
@@ -904,7 +904,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 5",
 "r": 1440,
 "tm": 120,
-"ctx": "A velocidade das ondas numa praia pode depender da aceleração da gravidade g, da altura (profundidade) h da água e da densidade d da água. Por análise dimensional, ela não depende de um desses parâmetros. Qual é, e qual a expressão da velocidade? Na crista da onda, a velocidade é maior ou menor que na base?",
+"ctx": "A velocidade das ondas numa praia poderia depender de g, da profundidade h e da densidade d da água. Pela análise dimensional, de qual ela não depende, qual a sua expressão, e ela é maior na crista ou na base?",
 "opts": [
 "não depende de d; v = √(g·h); maior na crista, onde a água é mais funda",
 "não depende de g; v = √(h/d); menor na crista",
@@ -1221,7 +1221,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 12",
 "r": 1320,
 "tm": 90,
-"ctx": "Um ebulidor elétrico pode funcionar com um ou com dois resistores idênticos, de resistência R, ligado sempre à mesma tomada. Com um resistor, certa quantidade de água ferve em t<sub>0</sub> minutos. Em quanto tempo ferve a mesma quantidade de água com os dois resistores em paralelo? E em série?",
+"ctx": "Um ebulidor ferve certa quantidade de água em t₀ com um resistor. Na mesma tomada, em quanto tempo ele a ferve com dois desses resistores em paralelo? E em série?",
 "opts": [
 "paralelo: t₀/2; série: 2t₀",
 "paralelo: 2t₀; série: t₀/2",
@@ -1259,7 +1259,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 13(a)",
 "r": 1280,
 "tm": 60,
-"ctx": "Para enviar correspondência do Japão ao Brasil (pontos diametralmente opostos), usa-se um satélite em órbita rasante à Terra, com velocidade de módulo constante. Raio da Terra 6400 km, g = 10 m/s²; despreze a resistência do ar e a rotação da Terra. Qual o módulo da aceleração do satélite?",
+"ctx": "Um satélite dá a volta na Terra numa órbita rasante, com velocidade de módulo constante. Qual o módulo da sua aceleração? (g = 10 m/s²; sem ar)",
 "a": 10,
 "u": "m/s²",
 "tol": 0.01,
@@ -1315,7 +1315,7 @@
 "src": "Unicamp 1991, 2ª fase, Física, questão 14",
 "r": 1620,
 "tm": 90,
-"ctx": "O índice de refração de uma lâmina de faces paralelas depende do comprimento de onda: n = A + B/λ², com A e B positivos. Um feixe com luz vermelha (λ = 6500·10<sup>−10</sup> m) e azul (λ = 4500·10<sup>−10</sup> m) incide obliquamente na lâmina. O que acontece com as duas cores?",
+"ctx": "Numa lâmina de faces paralelas, o índice de refração é n = A + B/λ², com A e B positivos. Um feixe de luz vermelha e azul incide obliquamente nela. O que acontece com as duas cores?",
 "opts": [
 "o azul (n maior) se desvia mais dentro da lâmina; na saída, as duas cores saem paralelas ao feixe incidente, separadas lateralmente",
 "o vermelho se desvia mais e sai em outra direção",
@@ -1529,7 +1529,7 @@
 "src": "Unicamp 1991, 2ª fase, Química, questão 2",
 "r": 1100,
 "tm": 60,
-"ctx": "Três frascos de vidro transparente, fechados, de formas e tamanhos iguais, contêm a mesma massa de líquidos diferentes: água (1,0 g/cm³), clorofórmio (1,4 g/cm³) e etanol (0,8 g/cm³). Os três são incolores e não enchem os frascos. Sem abrir os frascos, como identificá-los?",
+"ctx": "Três frascos iguais e fechados têm a mesma massa de água (1,0 g/cm³), clorofórmio (1,4 g/cm³) e etanol (0,8 g/cm³), todos incolores. Sem abri-los, como saber qual é qual?",
 "opts": [
 "pelo nível do líquido: o mais alto é o etanol, o intermediário a água e o mais baixo o clorofórmio",
 "pelo nível: o mais alto é o clorofórmio, que é mais denso",
@@ -1559,7 +1559,7 @@
 "src": "Unicamp 1991, 2ª fase, Química, questão 3",
 "r": 1440,
 "tm": 90,
-"ctx": "Um indicador HInd (amarelo) ⇌ H<sup>+</sup> + Ind<sup>−</sup> (azul) fica amarelo abaixo de pH ≈ 6, verde entre cerca de 6,5 e 7,5 e azul acima de pH ≈ 8. Que cor ele apresenta em soluções aquosas de: (a) ácido acético; (b) amônia; (c) acetato de sódio; (d) cloreto de hidrogênio; (e) cloreto de sódio?",
+"ctx": "Um indicador é amarelo abaixo de pH 6, verde perto de 7 e azul acima de 8. Que cor ele dá em soluções de (a) ácido acético, (b) amônia, (c) acetato de sódio, (d) HCl e (e) NaCl?",
 "opts": [
 "a amarelo; b azul; c azul; d amarelo; e verde",
 "a amarelo; b azul; c verde; d amarelo; e verde",
@@ -1593,7 +1593,7 @@
 "src": "Unicamp 1991, 2ª fase, Química, questão 4",
 "r": 1190,
 "tm": 90,
-"ctx": "Uma solução saturada de nitrato de potássio, com 100 g de água, está a 70 °C. Resfriada a 40 °C, parte do sal precipita. Pelo gráfico, a solubilidade do KNO<sub>3</sub> é cerca de 140 g por 100 g de água a 70 °C e cerca de 64 g a 40 °C. Qual a massa de sal que precipitou?",
+"ctx": "A solubilidade do KNO₃ é de cerca de 140 g por 100 g de água a 70 °C e de 64 g a 40 °C. Uma solução saturada com 100 g de água é resfriada de 70 °C a 40 °C. Quanto sal precipita?",
 "fig": "<svg viewBox='0 0 240 140' class='fg' role='img' aria-label='curva de solubilidade do nitrato de potássio, crescente de cerca de 32 g a 20 graus até cerca de 170 g a 80 graus'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='40,8 40,120 230,120'/><polyline points='40,100.8 70,92.4 100,81.6 130,68.4 160,54 190,36 220,18' stroke-width='2'/><g stroke-dasharray='3 3'><polyline points='40,81.6 100,81.6 100,120'/><polyline points='40,36 190,36 190,120'/></g><line x1='37' y1='96' x2='43' y2='96'/><line x1='37' y1='72' x2='43' y2='72'/><line x1='37' y1='48' x2='43' y2='48'/><line x1='37' y1='24' x2='43' y2='24'/></g><g fill='currentColor' font-size='11'><text x='18' y='100'>40</text><text x='18' y='76'>80</text><text x='12' y='52'>120</text><text x='12' y='28'>160</text><text x='34' y='133'>20</text><text x='94' y='133'>40</text><text x='154' y='133'>60</text><text x='184' y='133'>70</text><text x='214' y='133'>80</text><text x='46' y='12'>g KNO₃/100 g água</text><text x='196' y='112'>T (°C)</text></g></svg>",
 "a": 76,
 "u": "g",
@@ -1748,7 +1748,7 @@
 "src": "Unicamp 1991, 2ª fase, Química, questão 8",
 "r": 1360,
 "tm": 90,
-"ctx": "Um frasco fechado contém NO<sub>2</sub> (castanho) e N<sub>2</sub>O<sub>4</sub> (incolor) em equilíbrio: 2 NO<sub>2</sub>(g) ⇌ N<sub>2</sub>O<sub>4</sub>(g), ΔH < 0. Levado a um segundo ambiente, a cor castanha diminuiu. Qual a expressão de Kp em pressões parciais, e o que se pode dizer da temperatura do segundo ambiente?",
+"ctx": "Num frasco, 2 NO₂ (castanho) ⇌ N₂O₄ (incolor), com ΔH < 0. Levado a outro ambiente, a cor castanha diminuiu. Qual a expressão de Kp, e esse ambiente é mais quente ou mais frio?",
 "opts": [
 "Kp = p(N₂O₄)/p(NO₂)²; o segundo ambiente é mais frio",
 "Kp = p(NO₂)²/p(N₂O₄); o segundo ambiente é mais quente",
@@ -1812,7 +1812,7 @@
 "src": "Unicamp 1991, 2ª fase, Química, questão 10",
 "r": 1100,
 "tm": 60,
-"ctx": "Um pó branco pode ser NaCl, Na<sub>2</sub>CO<sub>3</sub> ou CaCO<sub>3</sub>. Sabe-se que: carbonatos com ácido clorídrico produzem efervescência; os carbonatos são insolúveis, exceto os de metais alcalinos e o de amônio; os cloretos são solúveis, exceto os de chumbo, prata e mercúrio. Só com recipientes de vidro, água e ácido clorídrico, como identificar o sal?",
+"ctx": "Um pó branco é NaCl, Na₂CO₃ ou CaCO₃. Carbonatos fazem efervescência com HCl, e só os de metais alcalinos se dissolvem em água. Só com água e HCl, como descobrir qual é?",
 "opts": [
 "em água: se não dissolve, é CaCO₃; se dissolve, junta-se HCl: efervescência indica Na₂CO₃, e nenhuma indica NaCl",
 "em água: se dissolve, é CaCO₃",
@@ -1936,7 +1936,7 @@
 "src": "Unicamp 1991, 2ª fase, Química, questão 14",
 "r": 1400,
 "tm": 90,
-"ctx": "Na reação I, que ocorre em solução, há desprendimento de O<sub>2</sub>; a reação II, nas mesmas condições, consome O<sub>2</sub>. O gráfico mostra o volume de O<sub>2</sub> de cada uma ao longo do tempo: nas duas primeiras horas, a curva da reação I vai de 5 a cerca de 1,6 unidades e a da reação II, de 0 a cerca de 1,6 unidades. Qual reação tem velocidade maior nesse intervalo?",
+"ctx": "A reação I libera O₂ e a II consome O₂. No gráfico, nas duas primeiras horas, a curva de I vai de 5 a cerca de 1,6 unidades, e a de II, de 0 a cerca de 1,6. Qual reação é mais rápida nesse intervalo?",
 "fig": "<svg viewBox='0 0 300 135' class='fg' role='img' aria-label='gráfico volume de O2 por tempo: curva da reação I cai de 5 para cerca de 1,6 em 2 h e se estabiliza perto de 0,8; curva da reação II sobe de 0 para cerca de 1,6 em 2 h e chega perto de 5 em 10 h'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='40,8 40,115 250,115'/><path d='M40,30 C55,62 70,82 80,88 S120,100 160,101 L240,100.5'/><path d='M40,115 L60,101.4 L80,87.8 Q100,74 120,64 Q140,52 160,45.3 Q190,36 240,31'/><line x1='37' y1='98' x2='43' y2='98'/><line x1='37' y1='81' x2='43' y2='81'/><line x1='37' y1='64' x2='43' y2='64'/><line x1='37' y1='47' x2='43' y2='47'/><line x1='37' y1='30' x2='43' y2='30'/><line x1='80' y1='112' x2='80' y2='118'/><line x1='120' y1='112' x2='120' y2='118'/><line x1='160' y1='112' x2='160' y2='118'/><line x1='200' y1='112' x2='200' y2='118'/><line x1='240' y1='112' x2='240' y2='118'/></g><g fill='currentColor' font-size='11'><text x='28' y='102'>1</text><text x='28' y='68'>3</text><text x='28' y='34'>5</text><text x='77' y='129'>2</text><text x='117' y='129'>4</text><text x='157' y='129'>6</text><text x='197' y='129'>8</text><text x='234' y='129'>10</text><text x='44' y='12'>volume de O₂</text><text x='246' y='104'>reação I</text><text x='246' y='34'>reação II</text><text x='252' y='128'>t (h)</text></g></svg>",
 "opts": [
 "a reação I: variação de cerca de 3,4 unidades em 2 h, contra 1,6 da II",
