@@ -1428,7 +1428,7 @@
 "src": "Unicamp 1995, 2ª fase, Química, questão 1(a)",
 "r": 1280,
 "tm": 60,
-"ctx": "Na correção da 1ª fase, a banca encontrou respostas como \"210 mols de arroz\". Admita que a massa de um grão de arroz seja 20 mg. Constante de Avogadro: 6,0·10²³ mol⁻¹; 1 t = 1,0·10⁹ mg. Qual a massa, em toneladas, de 210 mols de arroz?",
+"ctx": "Alguém escreveu \"210 mols de arroz\" como resposta. Se um grão de arroz tem 20 mg, quantas toneladas pesam 210 mols de arroz? (Avogadro: 6,0·10²³ mol⁻¹; 1 t = 1,0·10⁹ mg)",
 "a": 2.52e+18,
 "u": "t",
 "tol": 0.02,

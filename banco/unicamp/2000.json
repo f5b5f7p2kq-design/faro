@@ -439,7 +439,7 @@
 "src": "Unicamp 2000, 1ª fase, questão 12(a)",
 "r": 1280,
 "tm": 45,
-"ctx": "Num vestibular, com U = nota da 1ª fase e E = nota do Enem, a nota final era NF = U se U ≥ E, e NF = (E + 4U)/5 se U < E. Os candidatos A (U = 6,0; E = 5,0), B (U = 5,5; E = 5,5) e C (U = 5,0; E = 6,0) tiveram que notas finais? Dê a NF de C.",
+"ctx": "Numa seleção, com U = nota da prova e E = nota de outro exame, a nota final é NF = U se U ≥ E, e NF = (E + 4U)/5 se U < E. Qual a NF de quem tirou U = 5,0 e E = 6,0?",
 "a": 5.2,
 "tol": 0,
 "d": [
@@ -450,9 +450,9 @@
 ]
 ],
 "h": [
-"A: U > E, NF = 6,0. B: U = E, NF = 5,5.",
-"C: U < E, NF = (6,0 + 4 × 5,0)/5 = 26/5.",
-"NF de C = <b>5,2</b>."
+"Como U = 5,0 < E = 6,0, vale NF = (E + 4U)/5.",
+"NF = (6,0 + 4 × 5,0)/5 = 26/5.",
+"NF = <b>5,2</b>."
 ]
 },
 {
@@ -464,7 +464,7 @@
 "src": "Unicamp 2000, 1ª fase, questão 12(b)",
 "r": 1490,
 "tm": 75,
-"ctx": "Num vestibular, com U = nota da 1ª fase e E = nota do Enem, a nota final era NF = U se U ≥ E, e NF = (E + 4U)/5 se U < E. O candidato X tem E = 2U e o candidato Y tem U = 2E; os dois tiveram NF = 6,0. Quais as notas U e E de cada um?",
+"ctx": "Numa seleção, com U = nota da prova e E = nota de outro exame, a nota final é NF = U se U ≥ E, e NF = (E + 4U)/5 se U < E. X tem E = 2U, Y tem U = 2E, e os dois tiveram NF = 6,0. Quais as notas U e E de cada um?",
 "opts": [
 "X: U = 5,0 e E = 10,0; Y: U = 6,0 e E = 3,0",
 "X: U = 3,0 e E = 6,0; Y: U = 6,0 e E = 3,0",

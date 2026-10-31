@@ -73,7 +73,7 @@
 "src": "Unicamp 2016, 1ª fase, questão 3",
 "r": 1190,
 "tm": 60,
-"ctx": "Qual processo de troca de calor completa cada frase?<br>I. As grades vazadas da geladeira facilitam o fluxo de calor até o congelador por [...].<br>II. No vácuo, só há troca de calor por [...].<br>III. O vácuo da garrafa térmica impede a troca de calor por [...].",
+"ctx": "Complete com o processo de troca de calor: I. as grades vazadas da geladeira ajudam o calor a chegar ao congelador por [...]; II. no vácuo, só há troca de calor por [...]; III. o vácuo da garrafa térmica impede a troca por [...].",
 "opts": [
 "convecção, radiação e condução.",
 "condução, convecção e radiação.",
@@ -2166,7 +2166,7 @@
 "src": "Unicamp 2016, 2ª fase, Química, questão 4(a) (adaptada para múltipla escolha; no original, as fórmulas estruturais são dadas)",
 "r": 1460,
 "tm": 90,
-"ctx": "Um pigmento tem os equilíbrios I ⇌ II ⇌ III. I é neutro, com C=O à esquerda; II é um cátion, com OH à esquerda e à direita; III é neutro, com C=O à direita. Que íon (H⁺ ou OH⁻) desloca cada equilíbrio para a direita (acima da seta) e para a esquerda (abaixo)?",
+"ctx": "Num pigmento, I ⇌ II ⇌ III: I é neutro, com C=O à esquerda; II é um cátion, com OH nos dois lados; III é neutro, com C=O à direita. Que íon, H⁺ ou OH⁻, desloca cada equilíbrio para a direita (acima da seta) e para a esquerda (abaixo)?",
 "opts": [
 "I ⇌ II: H⁺ acima e OH⁻ abaixo; II ⇌ III: OH⁻ acima e H⁺ abaixo.",
 "I ⇌ II: OH⁻ acima e H⁺ abaixo; II ⇌ III: H⁺ acima e OH⁻ abaixo.",
@@ -2326,7 +2326,7 @@
 "src": "Unicamp 2016, 2ª fase, Química, questão 6(b) (adaptada para múltipla escolha)",
 "r": 1760,
 "tm": 90,
-"ctx": "De 2 mol de NH₃ (e excesso do outro reagente) saíram 14 g de hidrazina, com rendimento maior que a economia de átomos (massa do produto/massa dos reagentes). Qual síntese foi usada?<br>(1) 2 NH₃ + H₂O₂ → N₂H₄ + 2 H₂O<br>(2) 2 NH₃ + OCl⁻ → N₂H₄ + H₂O + Cl⁻<br>(H = 1; N = 14; O = 16; Cl = 35,5)",
+"ctx": "De 2 mol de NH₃ saíram 14 g de hidrazina, com rendimento acima da economia de átomos (massa do produto ÷ a dos reagentes). Qual síntese foi: (1) 2 NH₃ + H₂O₂ → N₂H₄ + 2 H₂O ou (2) 2 NH₃ + OCl⁻ → N₂H₄ + H₂O + Cl⁻? (H = 1; N = 14; O = 16; Cl = 35,5)",
 "opts": [
 "O processo 2: o rendimento (cerca de 44%) supera a economia de átomos de 2 (cerca de 37%), mas não a de 1 (cerca de 47%).",
 "O processo 1: o rendimento (cerca de 44%) supera a economia de átomos de 1 (cerca de 47%).",

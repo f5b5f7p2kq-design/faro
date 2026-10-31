@@ -1420,7 +1420,7 @@
 "src": "Unicamp 2011, 2ª fase, Matemática, questão 23(a)",
 "r": 1960,
 "tm": 120,
-"ctx": "Na figura, dois trechos paralelos de estrada, a d metros um do outro, são ligados por dois arcos de raio r e ângulo α e um segmento de comprimento x = d√2 − 2r(√2 − 1), com α = 45°. Para d = 72 m e r = 36 m, qual a distância horizontal y entre as pontas?",
+"ctx": "Dois trechos paralelos de estrada, a d = 72 m um do outro, são ligados por dois arcos de raio r = 36 m e ângulo 45° e um segmento x = d√2 − 2r(√2 − 1) (figura). Qual a distância horizontal y entre as pontas?",
 "fig": "<svg viewBox='0 0 228 140' class='fg' role='img' aria-label='dois trechos paralelos e horizontais de estrada, um embaixo à esquerda e outro em cima à direita, ligados por uma curva suave tracejada: um arco de circunferência de raio r e ângulo alfa, um segmento reto de comprimento x inclinado e outro arco de raio r e ângulo alfa. Os eixos das faixas centrais distam d na vertical, e y é a distância horizontal entre as extremidades dos trechos'><g fill='currentColor' fill-opacity='0.3'><rect x='14' y='106' width='34' height='12'/><rect x='170.2' y='19.6' width='34' height='12'/></g><g fill='none' stroke='currentColor'><line x1='14.0' y1='106.0' x2='48.0' y2='106.0'/><line x1='14.0' y1='118.0' x2='48.0' y2='118.0'/><line x1='14.0' y1='112.0' x2='48.0' y2='112.0'/><line x1='170.2' y1='19.6' x2='204.2' y2='19.6'/><line x1='170.2' y1='31.6' x2='204.2' y2='31.6'/><line x1='170.2' y1='25.6' x2='204.2' y2='25.6'/><path d='M48.0,106.0 A37.2,37.2 0 0 0 74.3,95.1 L135.4,34.0 A49.2,49.2 0 0 1 170.2,19.6' stroke-width='1.6' stroke-dasharray='4 2.5'/><path d='M48.0,112.0 A43.2,43.2 0 0 0 78.5,99.3 L139.6,38.3 A43.2,43.2 0 0 1 170.2,25.6' stroke-width='1.6' stroke-dasharray='4 2.5'/><path d='M48.0,118.0 A49.2,49.2 0 0 0 82.8,103.6 L143.9,42.5 A37.2,37.2 0 0 1 170.2,31.6' stroke-width='1.6' stroke-dasharray='4 2.5'/><g stroke-width='0.6'><line x1='48.0' y1='68.8' x2='48.0' y2='112.0'/><line x1='48.0' y1='68.8' x2='78.5' y2='99.3'/><line x1='170.2' y1='68.8' x2='170.2' y2='25.6'/><line x1='170.2' y1='68.8' x2='139.6' y2='38.3'/><path d='M54.4,75.2 A9,9 0 0 1 48.0,77.8' stroke-width='0.6'/><path d='M163.8,62.4 A9,9 0 0 1 170.2,59.8' stroke-width='0.6'/><line x1='70.1' y1='90.9' x2='131.2' y2='29.8'/><line x1='48.0' y1='120.0' x2='48.0' y2='131.0'/><line x1='170.2' y1='55.6' x2='170.2' y2='131.0'/><line x1='48.0' y1='127.0' x2='170.2' y2='127.0'/><line x1='206.2' y1='25.6' x2='212.0' y2='25.6'/><line x1='50.0' y1='112.0' x2='212.0' y2='112.0' stroke-dasharray='1.5 1.5'/><line x1='208.0' y1='25.6' x2='208.0' y2='112.0'/></g></g><g fill='currentColor'><circle cx='48' cy='68.8' r='1.3'/><circle cx='170.2' cy='68.8' r='1.3'/><polygon points='70.1,90.9 71.3,87.6 73.4,89.7'/><polygon points='131.2,29.8 130.0,33.1 127.9,31.0'/><polygon points='48.0,127.0 50.7,125.7 50.7,128.3'/><polygon points='170.2,127.0 167.5,128.3 167.5,125.7'/><polygon points='208.0,25.6 209.3,28.3 206.7,28.3'/><polygon points='208.0,112.0 206.7,109.3 209.3,109.3'/><text x='45.0' y='92.8' text-anchor='end' font-size='7'>r</text><text x='173.2' y='46.8' text-anchor='start' font-size='7'>r</text><text x='53.4' y='81.7' text-anchor='middle' font-size='7'>α</text><text x='164.8' y='55.9' text-anchor='middle' font-size='7'>α</text><text x='96.6' y='57.3' text-anchor='middle' font-size='7.5'>x</text><text x='109.1' y='137.0' text-anchor='middle' font-size='7.5'>y</text><text x='213.0' y='71.3' text-anchor='start' font-size='7.5'>d</text><text x='14.0' y='102.0' text-anchor='start' font-size='6.5'>estrada</text><text x='204.2' y='16.6' text-anchor='end' font-size='6.5'>estrada</text></g></svg>",
 "a": 101.82337649086286,
 "u": "m",
@@ -1889,7 +1889,7 @@
 "src": "Unicamp 2011, 2ª fase, Química, questão 14(a)",
 "r": 1720,
 "tm": 75,
-"ctx": "Um lanche, uma batata e uma torta têm, em gramas: carboidratos 36/35/33; proteínas 31/4,1/2,2; gorduras 32/15/11. Há ainda 500 mL de refrigerante, com 11 g de açúcar por 100 mL. Gordura dá 38 kJ/g; açúcar e proteína, 17 kJ/g. Que porcentagem de 8.400 kJ a refeição atinge?",
+"ctx": "Uma refeição tem 104 g de carboidratos, 37,3 g de proteínas e 58 g de gorduras, mais 500 mL de refrigerante com 11 g de açúcar por 100 mL. Gordura dá 38 kJ/g; açúcar e proteína, 17 kJ/g. Que porcentagem de 8.400 kJ ela atinge?",
 "a": 66,
 "u": "%",
 "tol": 0.02,
@@ -1906,7 +1906,7 @@
 ]
 ],
 "h": [
-"Carboidratos: 36 + 35 + 33 + 55 (refrigerante: 5 × 11) = 159 g; proteínas: 37,3 g ⟹ (159 + 37,3) × 17 ≈ 3337 kJ.",
+"Carboidratos: 104 + 55 (refrigerante: 5 × 11) = 159 g; proteínas: 37,3 g ⟹ (159 + 37,3) × 17 ≈ 3337 kJ.",
 "Gorduras: 58 g × 38 = 2204 kJ. Total ≈ 5541 kJ.",
 "5541/8400 ≈ <b>66%</b>."
 ]
