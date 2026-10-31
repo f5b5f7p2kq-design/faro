@@ -1,0 +1,1876 @@
+[
+{
+"id": "1995-1-07a",
+"ano": 1995,
+"fase": 1,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1995, 1ª fase, questão 7(a)",
+"r": 1700,
+"tm": 120,
+"ctx": "Alguns refrigerantes contêm ácido fosfórico, H₃PO₄, e os ânions H₂PO₄⁻, HPO₄²⁻ e PO₄³⁻, vindos da sua ionização. Suspeita-se que o fosfato em excesso diminua a absorção de cálcio, pela formação de fosfato de cálcio, pouco solúvel. H₂PO₄⁻ e HPO₄²⁻ são ácidos fracos; o pH do estômago é cerca de 1, e o do intestino é maior que 8. Em que parte do aparelho digestivo ocorre a precipitação do fosfato de cálcio?",
+"opts": [
+"no intestino: em meio básico, os ácidos fracos perdem H⁺ e predomina o PO₄³⁻, que precipita com o Ca²⁺",
+"no estômago: o meio ácido aumenta a concentração de PO₄³⁻",
+"no estômago, porque lá há mais cálcio",
+"nos dois igualmente, pois o pH não interfere"
+],
+"a": 0,
+"d": [
+[
+"Ácido fraco e pH",
+"Em meio ácido (muito H⁺), o equilíbrio HA ⇌ H⁺ + A⁻ vai para a esquerda; em meio básico, o H⁺ é consumido e predomina A⁻.",
+""
+]
+],
+"h": [
+"O fosfato de cálcio precisa do íon PO₄³⁻.",
+"No estômago (pH 1), o excesso de H⁺ mantém o fosfato protonado (H₃PO₄, H₂PO₄⁻).",
+"No intestino (pH > 8), o H⁺ é retirado e forma-se PO₄³⁻: a precipitação ocorre no <b>intestino</b>."
+]
+},
+{
+"id": "1995-1-07b",
+"ano": 1995,
+"fase": 1,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1995, 1ª fase, questão 7(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Qual a equação da reação entre íons cálcio e íons fosfato, formando fosfato de cálcio sólido?",
+"opts": [
+"3 Ca²⁺ + 2 PO₄³⁻ → Ca₃(PO₄)₂",
+"Ca²⁺ + PO₄³⁻ → CaPO₄",
+"2 Ca²⁺ + 3 PO₄³⁻ → Ca₂(PO₄)₃",
+"Ca²⁺ + 2 PO₄³⁻ → Ca(PO₄)₂"
+],
+"a": 0,
+"d": [
+[
+"Fórmula de composto iônico",
+"O total de cargas positivas tem de igualar o de negativas: o m.m.c. de 2 e 3 é 6.",
+""
+]
+],
+"h": [
+"Ca²⁺ e PO₄³⁻: 3 × (+2) = +6 e 2 × (−3) = −6.",
+"Fórmula: Ca₃(PO₄)₂.",
+"<b>3 Ca²⁺ + 2 PO₄³⁻ → Ca₃(PO₄)₂</b>."
+]
+},
+{
+"id": "1995-1-08a",
+"ano": 1995,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1995, 1ª fase, questão 8(a)",
+"r": 850,
+"tm": 30,
+"ctx": "Um estudante fez uma analogia entre a mistura de arroz e feijão do seu prato e as fórmulas químicas: ele contou dois grãos de feijão para cada sete de arroz e, considerando o tamanho relativo dos grãos, escreveu a \"fórmula química\" do \"composto feijão com arroz\", com F para feijão e A para arroz. Constante de Avogadro: 6,0·10²³ mol⁻¹. Qual a \"fórmula química\" escrita pelo estudante?",
+"opts": [
+"F₂A₇",
+"F₇A₂",
+"FA",
+"F₉"
+],
+"a": 0,
+"d": [
+[
+"Fórmula mínima",
+"Os índices indicam a proporção entre os componentes.",
+""
+]
+],
+"h": [
+"Proporção: 2 feijões para 7 grãos de arroz.",
+"<b>F₂A₇</b>."
+]
+},
+{
+"id": "1995-1-08b",
+"ano": 1995,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1995, 1ª fase, questão 8(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Um estudante fez uma analogia entre a mistura de arroz e feijão do seu prato e as fórmulas químicas: ele contou dois grãos de feijão para cada sete de arroz e, considerando o tamanho relativo dos grãos, escreveu a \"fórmula química\" do \"composto feijão com arroz\", com F para feijão e A para arroz. Constante de Avogadro: 6,0·10²³ mol⁻¹. Se no prato houvesse 60 feijões, quantos mols de arroz haveria no prato?",
+"a": 3.5e-22,
+"u": "mol",
+"tol": 0.02,
+"d": [
+[
+"Mol",
+"1 mol tem 6,0·10²³ unidades: n = número de unidades ÷ 6,0·10²³.",
+""
+],
+[
+"Proporção",
+"2 feijões para 7 grãos de arroz."
+]
+],
+"h": [
+"Grãos de arroz: 60 × 7/2 = 210.",
+"n = 210/6,0·10²³.",
+"n = <b>3,5·10⁻²² mol</b> (o mol é enorme para contar coisas do dia a dia)."
+]
+},
+{
+"id": "1995-1-08c",
+"ano": 1995,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1995, 1ª fase, questão 8(c)",
+"r": 1280,
+"tm": 60,
+"ctx": "Um estudante fez uma analogia entre a mistura de arroz e feijão do seu prato e as fórmulas químicas: ele contou dois grãos de feijão para cada sete de arroz e, considerando o tamanho relativo dos grãos, escreveu a \"fórmula química\" do \"composto feijão com arroz\", com F para feijão e A para arroz. Constante de Avogadro: 6,0·10²³ mol⁻¹. Com 60 feijões no prato, quantos mols do \"composto feijão com arroz\" havia?",
+"a": 5e-23,
+"u": "mol",
+"tol": 0.02,
+"d": [
+[
+"Fórmula unitária",
+"Cada \"unidade\" F₂A₇ usa 2 feijões.",
+""
+],
+[
+"Mol",
+"n = unidades ÷ 6,0·10²³."
+]
+],
+"h": [
+"60 feijões formam 30 unidades F₂A₇.",
+"n = 30/6,0·10²³.",
+"n = <b>5,0·10⁻²³ mol</b>."
+]
+},
+{
+"id": "1995-1-09a",
+"ano": 1995,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1995, 1ª fase, questão 9(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Se dois corpos têm todas as dimensões lineares proporcionais por um fator β, a razão entre suas superfícies é β² e entre seus volumes é β³. Seres vivos perdem água por evaporação proporcionalmente às suas superfícies. Um homem tem 80 kg e 1,80 m de altura e bebe 1,2 litro de água por dia para repor as perdas por evaporação. Uma criança tem todas as dimensões proporcionais às dele. Se a altura da criança é 0,90 m, qual a sua massa?",
+"a": 10,
+"u": "kg",
+"tol": 0.01,
+"d": [
+[
+"Escala",
+"β = razão entre as alturas. Massa ∝ volume ∝ β³ (mesma densidade).",
+""
+]
+],
+"h": [
+"β = 0,90/1,80 = 1/2.",
+"Massa: 80 × (1/2)³ = 80/8.",
+"<b>10 kg</b>."
+]
+},
+{
+"id": "1995-1-09b",
+"ano": 1995,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1995, 1ª fase, questão 9(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Se dois corpos têm todas as dimensões lineares proporcionais por um fator β, a razão entre suas superfícies é β² e entre seus volumes é β³. Seres vivos perdem água por evaporação proporcionalmente às suas superfícies. Um homem tem 80 kg e 1,80 m de altura e bebe 1,2 litro de água por dia para repor as perdas por evaporação. Uma criança tem todas as dimensões proporcionais às dele. Com altura de 0,90 m, quantos litros de água por dia a criança deve beber só para repor as perdas por evaporação?",
+"a": 0.3,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Escala",
+"Superfície ∝ β².",
+""
+]
+],
+"h": [
+"β = 1/2 → superfície × 1/4.",
+"1,2 × 1/4.",
+"<b>0,3 L</b> por dia."
+]
+},
+{
+"id": "1995-1-10a",
+"ano": 1995,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 1ª fase, questão 10(a)",
+"r": 1440,
+"tm": 90,
+"ctx": "A pressão em cada um dos quatro pneus de um automóvel de 800 kg é de 30 libras-força por polegada quadrada. Adote 1,0 libra = 0,50 kg; 1,0 polegada = 2,5 cm; g = 10 m/s². A pressão atmosférica equivale à de uma coluna de 10 m de água. Quantas vezes a pressão dos pneus é maior que a atmosférica?",
+"a": 2.4,
+"tol": 0.02,
+"d": [
+[
+"Conversão de unidades",
+"Converta força (libra-força → kgf → N) e área (polegada² → cm² → m²).",
+""
+],
+[
+"Pressão atmosférica",
+"Coluna de 10 m de água: ρ·g·h = 1000 × 10 × 10 Pa."
+]
+],
+"h": [
+"30 lbf/pol² = 15 kgf/(6,25 cm²) = 2,4 kgf/cm² = 24 N/cm² = 2,4·10⁵ Pa.",
+"p<sub>atm</sub> = 1,0·10⁵ Pa.",
+"Razão: <b>2,4 vezes</b>."
+]
+},
+{
+"id": "1995-1-10b",
+"ano": 1995,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 1ª fase, questão 10(b)",
+"r": 1700,
+"tm": 90,
+"ctx": "A pressão em cada um dos quatro pneus de um automóvel de 800 kg é de 30 libras-força por polegada quadrada. Adote 1,0 libra = 0,50 kg; 1,0 polegada = 2,5 cm; g = 10 m/s². A pressão atmosférica equivale à de uma coluna de 10 m de água. A pressão do pneu é 2,4·10⁵ Pa e a atmosférica 1,0·10⁵ Pa. Supondo que a força da diferença entre essas pressões, agindo na parte achatada de cada pneu, equilibre a reação do chão, qual a área da parte achatada, em m²?",
+"a": 0.0143,
+"u": "m²",
+"tol": 0.03,
+"d": [
+[
+"Pressão",
+"F = Δp·A.",
+""
+],
+[
+"Distribuição do peso",
+"Cada um dos 4 pneus sustenta 1/4 do peso."
+]
+],
+"h": [
+"Força por pneu: 8000/4 = 2000 N.",
+"Δp = 2,4·10⁵ − 1,0·10⁵ = 1,4·10⁵ Pa.",
+"A = 2000/1,4·10⁵ ≈ <b>1,4·10⁻² m²</b> (cerca de 143 cm²)."
+]
+},
+{
+"id": "1995-1-11a",
+"ano": 1995,
+"fase": 1,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1995, 1ª fase, questão 11(a)",
+"r": 850,
+"tm": 30,
+"ctx": "Para transformar graus Fahrenheit em graus Celsius usa-se C = (5/9)(F − 32). Quanto valem 35 °C em graus Fahrenheit?",
+"a": 95,
+"u": "°F",
+"tol": 0.01,
+"d": [
+[
+"Isolar F",
+"F = (9/5)·C + 32.",
+""
+]
+],
+"h": [
+"F = 9 × 35/5 + 32 = 63 + 32.",
+"<b>95 °F</b>."
+]
+},
+{
+"id": "1995-1-11b",
+"ano": 1995,
+"fase": 1,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1995, 1ª fase, questão 11(b)",
+"r": 1190,
+"tm": 60,
+"ctx": "Com C = (5/9)(F − 32), em que temperatura (em °C) o número de graus Fahrenheit é o dobro do número de graus Celsius?",
+"a": 160,
+"u": "°C",
+"tol": 0.01,
+"d": [
+[
+"Substituição",
+"Troque F por 2C e resolva a equação.",
+""
+]
+],
+"h": [
+"C = (5/9)(2C − 32) → 9C = 10C − 160.",
+"C = 160.",
+"<b>160 °C</b> (= 320 °F)."
+]
+},
+{
+"id": "1995-1-12a",
+"ano": 1995,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1995, 1ª fase, questão 12(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Ao serem retirados 128 litros de água de uma caixa d'água cúbica, o nível baixa 20 cm. Qual o comprimento da aresta da caixa?",
+"a": 80,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Volume de um \"fatia\"",
+"V = área da base × altura da camada.",
+""
+],
+[
+"Unidades",
+"1 L = 1 dm³; 20 cm = 2 dm."
+]
+],
+"h": [
+"128 dm³ = área × 2 dm → área = 64 dm².",
+"A base é um quadrado: aresta = √64 = 8 dm.",
+"Aresta = <b>80 cm</b>."
+]
+},
+{
+"id": "1995-1-12b",
+"ano": 1995,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1995, 1ª fase, questão 12(b)",
+"r": 1020,
+"tm": 45,
+"ctx": "Uma caixa d'água cúbica tem aresta de 8 dm. Qual sua capacidade em litros?",
+"a": 512,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Volume do cubo",
+"V = a³; 1 dm³ = 1 L.",
+""
+]
+],
+"h": [
+"V = 8³ = 512 dm³.",
+"<b>512 L</b>."
+]
+},
+{
+"id": "1995-2-mat-01a",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 1(a)",
+"r": 1190,
+"tm": 75,
+"ctx": "Um copo cheio de água pesa 385 g; com 2/3 da água, pesa 310 g. Qual o peso do copo vazio?",
+"a": 160,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Diferença",
+"A diferença entre os dois pesos é a água retirada.",
+""
+]
+],
+"h": [
+"Retirou-se 1/3 da água: 385 − 310 = 75 g → água cheia: 225 g.",
+"Copo = 385 − 225.",
+"<b>160 g</b>."
+]
+},
+{
+"id": "1995-2-mat-01b",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 1(b)",
+"r": 1100,
+"tm": 60,
+"ctx": "Um copo vazio pesa 160 g e, cheio, tem 225 g de água. Qual o peso do copo com 3/5 da água?",
+"a": 295,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Fração",
+"3/5 de 225 g.",
+""
+]
+],
+"h": [
+"3/5 × 225 = 135 g.",
+"160 + 135 = <b>295 g</b>."
+]
+},
+{
+"id": "1995-2-mat-02",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 2",
+"r": 1020,
+"tm": 60,
+"ctx": "Com a = 3³, b = (−2)³, c = 3⁻² e d = (−2)⁻³, qual a ordem crescente?",
+"opts": [
+"b < d < c < a",
+"d < b < c < a",
+"b < c < d < a",
+"c < d < b < a"
+],
+"a": 0,
+"d": [
+[
+"Potência negativa",
+"x⁻ⁿ = 1/xⁿ.",
+""
+],
+[
+"Base negativa",
+"Expoente ímpar mantém o sinal negativo."
+]
+],
+"h": [
+"a = 27; b = −8; c = 1/9; d = −1/8.",
+"Negativos: −8 < −1/8. Positivos: 1/9 < 27.",
+"<b>b < d < c < a</b>."
+]
+},
+{
+"id": "1995-2-mat-03",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 3",
+"r": 1280,
+"tm": 75,
+"ctx": "Num restaurante, todas as pessoas de um grupo pediram o mesmo prato principal e a mesma sobremesa. Gastaram R$ 56,00 com o prato principal e R$ 35,00 com a sobremesa; cada sobremesa custou R$ 3,00 a menos que o prato principal. Quantas pessoas havia, e qual o preço do prato?",
+"opts": [
+"7 pessoas; R$ 8,00",
+"8 pessoas; R$ 7,00",
+"7 pessoas; R$ 5,00",
+"3 pessoas; R$ 18,67"
+],
+"a": 0,
+"d": [
+[
+"Sistema",
+"n·p = 56 e n·(p − 3) = 35. Subtraia as equações.",
+""
+]
+],
+"h": [
+"56 − 35 = 3n → n = 7.",
+"p = 56/7 = 8.",
+"<b>7 pessoas; R$ 8,00</b>."
+]
+},
+{
+"id": "1995-2-mat-04",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 4",
+"r": 1280,
+"tm": 75,
+"ctx": "Um triângulo escaleno ABC tem área 96 m². M e N são os pontos médios de AB e AC. Qual a área do quadrilátero BMNC?",
+"fig": "<svg viewBox='0 0 200 120' class='fg' role='img' aria-label='triângulo ABC com M ponto médio de AB e N ponto médio de AC; o quadrilátero BMNC está sombreado'><polygon points='30,105 175,105 147.5,57.5 75,57.5' fill='currentColor' fill-opacity='0.15' stroke='none'/><g fill='none' stroke='currentColor' stroke-width='1.5'><polygon points='120,10 30,105 175,105'/><line x1='75' y1='57.5' x2='147.5' y2='57.5'/></g><g fill='currentColor' font-size='11'><text x='116' y='8'>A</text><text x='18' y='116'>B</text><text x='177' y='116'>C</text><text x='62' y='57'>M</text><text x='151' y='57'>N</text></g></svg>",
+"a": 72,
+"u": "m²",
+"tol": 0.01,
+"d": [
+[
+"Base média",
+"MN é paralelo a BC e mede metade dele: o triângulo AMN é semelhante a ABC com razão 1/2.",
+""
+],
+[
+"Razão de áreas",
+"Áreas de figuras semelhantes estão na razão do quadrado da razão de semelhança."
+]
+],
+"h": [
+"Área de AMN = 96 × (1/2)² = 24.",
+"BMNC = 96 − 24.",
+"<b>72 m²</b>."
+]
+},
+{
+"id": "1995-2-mat-05",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 5",
+"r": 1440,
+"tm": 90,
+"ctx": "Um número inteiro positivo de três algarismos termina em 7. Se esse último algarismo for colocado antes dos outros dois, o novo número excede de 21 o dobro do número original. Qual é o número inicial?",
+"a": 357,
+"tol": 0,
+"d": [
+[
+"Valor posicional",
+"Se os dois primeiros algarismos formam x, o número é 10x + 7; com o 7 na frente, vira 700 + x.",
+""
+]
+],
+"h": [
+"700 + x = 2(10x + 7) + 21.",
+"700 + x = 20x + 35 → 19x = 665 → x = 35.",
+"Número: <b>357</b> (confira: 735 = 2 × 357 + 21)."
+]
+},
+{
+"id": "1995-2-mat-06",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 6",
+"r": 1960,
+"tm": 150,
+"ctx": "Do ponto (5, −6) traçam-se as duas tangentes ao círculo x² + y² = 25. Qual o comprimento da corda que une os dois pontos de tangência?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='círculo de centro na origem e raio 5; ponto P em (5, −6) fora do círculo, com duas tangentes e a corda que liga os pontos de tangência'><g fill='none' stroke='currentColor' stroke-width='1.3'><line x1='10' y1='55' x2='190' y2='55' stroke-width='0.8'/><line x1='80' y1='5' x2='80' y2='145' stroke-width='0.8'/><circle cx='80' cy='55' r='40'/><line x1='120' y1='103' x2='120' y2='55'/><line x1='120' y1='103' x2='72.8' y2='94.3'/><line x1='120' y1='55' x2='72.8' y2='94.3' stroke-dasharray='3 3'/></g><g fill='currentColor' font-size='10'><circle cx='120' cy='103' r='2.5'/><text x='124' y='112'>P (5, −6)</text><text x='83' y='52'>O</text></g></svg>",
+"a": 7.68,
+"tol": 0.01,
+"d": [
+[
+"Comprimento da tangente",
+"Do ponto P a distância d do centro, a tangente mede √(d² − r²) (Pitágoras com o raio, perpendicular à tangente).",
+""
+],
+[
+"Altura no triângulo retângulo",
+"No triângulo centro–P–ponto de tangência, a altura relativa à hipotenusa é (cateto × cateto)/hipotenusa; a corda é o dobro dessa altura."
+]
+],
+"h": [
+"d = √(25 + 36) = √61; tangente: √(61 − 25) = 6.",
+"Meia corda = (5 × 6)/√61 = 30/√61.",
+"Corda = 60/√61 ≈ <b>7,68</b>."
+]
+},
+{
+"id": "1995-2-mat-07a",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 7(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Um dado é jogado três vezes. Quantos são os resultados possíveis em que os três números obtidos são diferentes?",
+"a": 120,
+"tol": 0,
+"d": [
+[
+"Princípio multiplicativo",
+"Multiplique as possibilidades de cada etapa, descontando as já usadas.",
+""
+]
+],
+"h": [
+"1º lançamento: 6; 2º: 5; 3º: 4.",
+"6 × 5 × 4 = <b>120</b>."
+]
+},
+{
+"id": "1995-2-mat-07b",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 7(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "Um dado é jogado três vezes. Qual a probabilidade de a soma dos resultados ser maior ou igual a 16?",
+"opts": [
+"5/108",
+"1/36",
+"10/108",
+"1/24"
+],
+"a": 0,
+"d": [
+[
+"Espaço amostral",
+"6³ = 216 resultados igualmente prováveis.",
+""
+],
+[
+"Contar por somas",
+"Liste os trios que dão 16, 17 e 18 e conte as ordens de cada um."
+]
+],
+"h": [
+"Soma 18: (6,6,6), 1 caso. Soma 17: (6,6,5), 3 ordens. Soma 16: (6,6,4) e (6,5,5), 3 + 3 = 6 ordens.",
+"Total: 10 casos.",
+"P = 10/216 = <b>5/108</b>."
+]
+},
+{
+"id": "1995-2-mat-08",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 8",
+"r": 1780,
+"tm": 120,
+"ctx": "Quantas soluções tem o sistema sen(x + y) = 0, sen(x − y) = 0, com 0 ≤ x ≤ π e 0 ≤ y ≤ π, e quais são?",
+"opts": [
+"5: (0, 0), (0, π), (π/2, π/2), (π, 0) e (π, π)",
+"3: (0, 0), (π/2, π/2) e (π, π)",
+"4: (0, 0), (0, π), (π, 0) e (π, π)",
+"infinitas"
+],
+"a": 0,
+"d": [
+[
+"Zeros do seno",
+"sen θ = 0 ⇔ θ = kπ, k inteiro.",
+""
+],
+[
+"Faixas",
+"Com x, y entre 0 e π: x + y entre 0 e 2π, x − y entre −π e π."
+]
+],
+"h": [
+"x + y = kπ (k = 0, 1, 2) e x − y = mπ (m = −1, 0, 1); então x = (k + m)π/2 e y = (k − m)π/2.",
+"Teste as combinações e mantenha x e y em [0, π].",
+"<b>5 soluções: (0, 0), (0, π), (π/2, π/2), (π, 0), (π, π)</b>."
+]
+},
+{
+"id": "1995-2-mat-09",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 9",
+"r": 1870,
+"tm": 150,
+"ctx": "Para que valor de a o sistema 2x − y + 3z = a; x + 2y − z = 3; 7x + 4y + 3z = 13 é possível, e qual a solução geral?",
+"opts": [
+"a = 2; (x, y, z) = (7/5 − t, 4/5 + t, t), t real",
+"a = 13; solução única (1, 1, 1)",
+"a = 2; solução única (7/5, 4/5, 0)",
+"qualquer a; (x, y, z) = (a − t, t, t)"
+],
+"a": 0,
+"d": [
+[
+"Determinante nulo",
+"Se o determinante dos coeficientes é zero, o sistema é impossível ou indeterminado.",
+""
+],
+[
+"Combinação das equações",
+"Procure α e β com α·(eq. 1) + β·(eq. 2) = eq. 3 nos coeficientes; o sistema só é possível se o mesmo valer para os termos independentes."
+]
+],
+"h": [
+"Os coeficientes da 3ª equação são 2 × (1ª) + 3 × (2ª): 2·(2, −1, 3) + 3·(1, 2, −1) = (7, 4, 3).",
+"Então 13 = 2a + 9 → a = 2.",
+"Com z = t: y = 4/5 + t e x = 7/5 − t. <b>a = 2; (7/5 − t, 4/5 + t, t)</b>, por exemplo (7/5, 4/5, 0) e (2/5, 9/5, 1)."
+]
+},
+{
+"id": "1995-2-mat-10",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 10",
+"r": 1870,
+"tm": 150,
+"ctx": "Uma pirâmide regular de base quadrada tem altura 20 cm. Sobre a base da pirâmide constrói-se um cubo (com a mesma base), de modo que a face de cima do cubo corta a pirâmide num quadrado de lado 5 cm. Qual o volume do cubo?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='vista lateral: pirâmide de altura 20 cm sobre a mesma base de um cubo; a face de cima do cubo corta a pirâmide num quadrado de lado 5 cm'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='70,140 100,20 130,140'/><rect x='70' y='80' width='60' height='60'/><line x1='85' y1='80' x2='115' y2='80' stroke-width='3'/><line x1='150' y1='20' x2='150' y2='140' stroke-dasharray='3 3' stroke-width='1'/></g><g fill='currentColor' font-size='10'><text x='154' y='84'>20 cm</text><text x='116' y='76'>5 cm</text><text x='88' y='118'>cubo</text></g></svg>",
+"a": 1000,
+"u": "cm³",
+"tol": 0.01,
+"d": [
+[
+"Seção paralela à base",
+"Numa pirâmide de base de lado L e altura H, a seção à altura h é um quadrado de lado L·(1 − h/H).",
+""
+],
+[
+"Cubo",
+"Aresta = lado da base = altura do cubo."
+]
+],
+"h": [
+"A face de cima do cubo está à altura L: L·(1 − L/20) = 5.",
+"L² − 20L + 100 = 0 → (L − 10)² = 0 → L = 10 cm.",
+"Volume = 10³ = <b>1.000 cm³</b>."
+]
+},
+{
+"id": "1995-2-mat-11",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 11",
+"r": 1780,
+"tm": 120,
+"ctx": "Quais são todas as raízes, reais e complexas, de x⁶ − 7x³ − 8 = 0?",
+"opts": [
+"2, −1 ± i√3, −1 e 1/2 ± (√3/2)i",
+"2 e −1",
+"2, −1, ±i√3",
+"8, −1 e ±i"
+],
+"a": 0,
+"d": [
+[
+"Mudança de variável",
+"Com y = x³, a equação vira y² − 7y − 8 = 0.",
+""
+],
+[
+"Raízes cúbicas",
+"As soluções de x³ = c (c real) são ∛c multiplicado por 1, cis 120° e cis 240°."
+]
+],
+"h": [
+"y² − 7y − 8 = 0 → y = 8 ou y = −1.",
+"x³ = 8: x = 2, −1 ± i√3. x³ = −1: x = −1, 1/2 ± (√3/2)i.",
+"<b>2, −1 ± i√3, −1, 1/2 ± (√3/2)i</b>."
+]
+},
+{
+"id": "1995-2-mat-12",
+"ano": 1995,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1995, 2ª fase, Matemática, questão 12",
+"r": 1780,
+"tm": 120,
+"ctx": "A equação eˣ + e⁻ˣ − 3 = 0 tem duas raízes reais simétricas, x = a e x = −a. Quanto vale e³ᵃ + e⁻³ᵃ?",
+"a": 18,
+"tol": 0,
+"d": [
+[
+"Cubo da soma",
+"(u + v)³ = u³ + v³ + 3uv(u + v).",
+""
+],
+[
+"Produto",
+"eᵃ · e⁻ᵃ = 1."
+]
+],
+"h": [
+"Com u = eᵃ e v = e⁻ᵃ: u + v = 3 e uv = 1.",
+"u³ + v³ = (u + v)³ − 3uv(u + v) = 27 − 9.",
+"e³ᵃ + e⁻³ᵃ = <b>18</b>."
+]
+},
+{
+"id": "1995-2-fis-01a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1995, 2ª fase, Física, questão 1(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "No circuito, A é um amperímetro e V um voltímetro, ambos ideais. A bateria de 12 V alimenta, em série, o amperímetro e um resistor de 4,0 Ω, seguidos de dois resistores em paralelo, de 24 Ω e 12 Ω; o voltímetro está ligado aos terminais do resistor de 12 Ω. Qual a resistência equivalente ligada aos terminais da bateria?",
+"fig": "<svg viewBox='0 0 210 95' class='fg' role='img' aria-label='bateria de 12 V; amperímetro A e resistor de 4,0 ohms em série no fio de cima; depois, resistores de 24 e 12 ohms em paralelo, com voltímetro V em paralelo com o de 12 ohms'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='20,40 20,15 40,15'/><line x1='56' y1='15' x2='62' y2='15'/><polyline points='62,15 68,15 71,20 77,10 83,20 89,10 95,20 101,10 104,15 110,15'/><polyline points='110,15 195,15 195,38'/><polyline points='20,55 20,85 195,85 195,58'/><line x1='10' y1='40' x2='30' y2='40'/><line x1='15' y1='55' x2='25' y2='55' stroke-width='3'/><circle cx='48' cy='15' r='8'/><circle cx='195' cy='48' r='10'/><polyline points='125,15 125,21 130,25.8333 120,35.5 130,45.1667 120,54.8333 130,64.5 120,74.1667 125,79 125,85'/><polyline points='160,15 160,21 165,25.8333 155,35.5 165,45.1667 155,54.8333 165,64.5 155,74.1667 160,79 160,85'/></g><g fill='currentColor' font-size='10'><text x='44' y='19'>A</text><text x='191' y='52'>V</text><text x='26' y='52'>12 V</text><text x='12' y='36'>+</text><text x='72' y='9'>4,0 Ω</text><text x='96' y='54'>24 Ω</text><text x='166' y='72'>12 Ω</text></g></svg>",
+"a": 12,
+"u": "Ω",
+"tol": 0.01,
+"d": [
+[
+"Paralelo",
+"R = R₁·R₂/(R₁ + R₂).",
+""
+],
+[
+"Série",
+"R = R₁ + R₂."
+]
+],
+"h": [
+"24 Ω ∥ 12 Ω = 288/36 = 8,0 Ω.",
+"Em série com 4,0 Ω: 12 Ω.",
+"R<sub>eq</sub> = <b>12 Ω</b>."
+]
+},
+{
+"id": "1995-2-fis-01b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1995, 2ª fase, Física, questão 1(b)",
+"r": 1190,
+"tm": 60,
+"ctx": "No circuito, A é um amperímetro e V um voltímetro, ambos ideais. A bateria de 12 V alimenta, em série, o amperímetro e um resistor de 4,0 Ω, seguidos de dois resistores em paralelo, de 24 Ω e 12 Ω; o voltímetro está ligado aos terminais do resistor de 12 Ω. A resistência equivalente é 12 Ω. Quais as leituras do amperímetro e do voltímetro?",
+"fig": "<svg viewBox='0 0 210 95' class='fg' role='img' aria-label='bateria de 12 V; amperímetro A e resistor de 4,0 ohms em série no fio de cima; depois, resistores de 24 e 12 ohms em paralelo, com voltímetro V em paralelo com o de 12 ohms'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='20,40 20,15 40,15'/><line x1='56' y1='15' x2='62' y2='15'/><polyline points='62,15 68,15 71,20 77,10 83,20 89,10 95,20 101,10 104,15 110,15'/><polyline points='110,15 195,15 195,38'/><polyline points='20,55 20,85 195,85 195,58'/><line x1='10' y1='40' x2='30' y2='40'/><line x1='15' y1='55' x2='25' y2='55' stroke-width='3'/><circle cx='48' cy='15' r='8'/><circle cx='195' cy='48' r='10'/><polyline points='125,15 125,21 130,25.8333 120,35.5 130,45.1667 120,54.8333 130,64.5 120,74.1667 125,79 125,85'/><polyline points='160,15 160,21 165,25.8333 155,35.5 165,45.1667 155,54.8333 165,64.5 155,74.1667 160,79 160,85'/></g><g fill='currentColor' font-size='10'><text x='44' y='19'>A</text><text x='191' y='52'>V</text><text x='26' y='52'>12 V</text><text x='12' y='36'>+</text><text x='72' y='9'>4,0 Ω</text><text x='96' y='54'>24 Ω</text><text x='166' y='72'>12 Ω</text></g></svg>",
+"opts": [
+"1,0 A e 8,0 V",
+"1,0 A e 12 V",
+"0,5 A e 6,0 V",
+"3,0 A e 4,0 V"
+],
+"a": 0,
+"d": [
+[
+"Lei de Ohm",
+"i = U/R; a tensão num trecho é R<sub>trecho</sub>·i.",
+""
+]
+],
+"h": [
+"i = 12/12 = 1,0 A (corrente total, que passa no amperímetro).",
+"O paralelo (8,0 Ω) fica com 8,0 × 1,0 = 8,0 V.",
+"<b>1,0 A e 8,0 V</b>."
+]
+},
+{
+"id": "1995-2-fis-03a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 1995, 2ª fase, Física, questão 3(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "Três engrenagens estão acopladas: A (50 dentes) engrena com B (100 dentes), que engrena com C (20 dentes). A gira no sentido horário a 100 rpm. Qual o sentido de rotação de C?",
+"fig": "<svg viewBox='0 0 210 110' class='fg' role='img' aria-label='três engrenagens: B, de 100 dentes, no centro; A, de 50 dentes, à direita, girando no sentido horário; C, de 20 dentes, à esquerda'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='105' cy='45' r='36'/><circle cx='160' cy='62' r='22'/><circle cx='52' cy='65' r='16'/><path d='M178,22 A40,40 0 0 1 178,100'/></g><g fill='currentColor' font-size='11'><polygon points='172,103 182,98 179,92'/><text x='98' y='49'>B</text><text x='154' y='66'>A</text><text x='47' y='69'>C</text><text x='93' y='96'>100</text><text x='152' y='98'>50</text><text x='44' y='95'>20</text></g></svg>",
+"opts": [
+"horário",
+"anti-horário",
+"C fica parada",
+"depende da velocidade"
+],
+"a": 0,
+"d": [
+[
+"Engrenagens em contato",
+"Duas engrenagens engrenadas giram em sentidos opostos.",
+""
+]
+],
+"h": [
+"A horária → B anti-horária.",
+"B anti-horária → C horária.",
+"<b>Horário</b>."
+]
+},
+{
+"id": "1995-2-fis-03b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 1995, 2ª fase, Física, questão 3(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Três engrenagens estão acopladas: A (50 dentes) engrena com B (100 dentes), que engrena com C (20 dentes). A gira no sentido horário a 100 rpm. Qual a velocidade tangencial de A, em dentes por minuto, e a velocidade angular de B, em rpm?",
+"fig": "<svg viewBox='0 0 210 110' class='fg' role='img' aria-label='três engrenagens: B, de 100 dentes, no centro; A, de 50 dentes, à direita, girando no sentido horário; C, de 20 dentes, à esquerda'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='105' cy='45' r='36'/><circle cx='160' cy='62' r='22'/><circle cx='52' cy='65' r='16'/><path d='M178,22 A40,40 0 0 1 178,100'/></g><g fill='currentColor' font-size='11'><polygon points='172,103 182,98 179,92'/><text x='98' y='49'>B</text><text x='154' y='66'>A</text><text x='47' y='69'>C</text><text x='93' y='96'>100</text><text x='152' y='98'>50</text><text x='44' y='95'>20</text></g></svg>",
+"opts": [
+"5.000 dentes/min; 50 rpm",
+"5.000 dentes/min; 200 rpm",
+"100 dentes/min; 50 rpm",
+"2.000 dentes/min; 100 rpm"
+],
+"a": 0,
+"d": [
+[
+"Velocidade tangencial",
+"Dentes que passam por minuto = número de dentes × rotações por minuto.",
+""
+],
+[
+"Engrenagens em contato",
+"Têm a mesma velocidade tangencial (os dentes passam juntos)."
+]
+],
+"h": [
+"A: 50 dentes × 100 rpm = 5.000 dentes/min.",
+"B tem a mesma velocidade tangencial: 5.000/100 dentes = 50 rpm.",
+"<b>5.000 dentes/min; 50 rpm</b>."
+]
+},
+{
+"id": "1995-2-fis-04a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1995, 2ª fase, Física, questão 4(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Recomenda-se manter do veículo da frente uma distância mínima de um carro (4,0 m) para cada 16 km/h. Um carro segue um caminhão numa estrada, ambos a 108 km/h. Qual deveria ser a distância mínima entre os dois veículos?",
+"a": 27,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Proporção",
+"4,0 m para cada 16 km/h de velocidade.",
+""
+]
+],
+"h": [
+"108/16 = 6,75 \"carros\".",
+"6,75 × 4,0.",
+"<b>27 m</b>."
+]
+},
+{
+"id": "1995-2-fis-04b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1995, 2ª fase, Física, questão 4(b)",
+"r": 1360,
+"tm": 75,
+"ctx": "Recomenda-se manter do veículo da frente uma distância mínima de um carro (4,0 m) para cada 16 km/h. Um carro segue um caminhão numa estrada, ambos a 108 km/h. O carro está a apenas 10 m quando o caminhão freia bruscamente. O motorista do carro demora 0,50 s para perceber e pisar no freio; ambos percorreriam a mesma distância até parar depois de acionar os freios. Por que a colisão é inevitável?",
+"opts": [
+"no tempo de reação o carro anda 15 m, mais que os 10 m de separação",
+"porque o carro é mais leve que o caminhão",
+"porque o caminhão freia mais rápido que o carro",
+"não é inevitável: os dois percorrem a mesma distância freando"
+],
+"a": 0,
+"d": [
+[
+"Tempo de reação",
+"Durante a reação, o carro segue com velocidade constante: d = v·t.",
+""
+],
+[
+"Distâncias de frenagem iguais",
+"Se as distâncias de frenagem são iguais, a separação diminui exatamente o que o carro andou durante a reação."
+]
+],
+"h": [
+"108 km/h = 30 m/s; em 0,50 s o carro anda 15 m.",
+"Depois, os dois freiam e percorrem distâncias iguais.",
+"A separação de 10 m é menor que 15 m: <b>a colisão é inevitável</b>."
+]
+},
+{
+"id": "1995-2-fis-05",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 2ª fase, Física, questão 5",
+"r": 1440,
+"tm": 75,
+"ctx": "Um homem de 80 kg quer levantar um objeto usando uma alavanca rígida e leve, de braços 1,0 m e 3,0 m. Qual a maior massa que ele consegue levantar usando a alavanca e o próprio peso, e qual a força no ponto de apoio nessa situação (g = 10 m/s²)?",
+"opts": [
+"240 kg; 3.200 N",
+"240 kg; 2.400 N",
+"26,7 kg; 1.067 N",
+"320 kg; 3.200 N"
+],
+"a": 0,
+"d": [
+[
+"Momento de uma força",
+"M = F·d. Em equilíbrio, os momentos em relação ao apoio se anulam.",
+""
+],
+[
+"Força no apoio",
+"A alavanca é leve: o apoio sustenta a soma das forças para baixo."
+]
+],
+"h": [
+"O homem faz 800 N no braço de 3,0 m; o objeto fica no braço de 1,0 m.",
+"M·10 × 1,0 = 800 × 3,0 → M = 240 kg.",
+"Apoio: 800 + 2400 = 3.200 N. <b>240 kg; 3.200 N</b>."
+]
+},
+{
+"id": "1995-2-fis-06",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1995, 2ª fase, Física, questão 6 (medidas tiradas da figura original, em que cada intervalo vale cerca de 5,1 diâmetros)",
+"r": 1700,
+"tm": 120,
+"ctx": "De um helicóptero parado sobre um campo de futebol, fotografou-se o movimento rasteiro de uma bola com uma câmera que expõe 25 fotos por segundo. Na foto, a bola tem 22 cm de diâmetro, e entre duas exposições consecutivas a bola anda cerca de 5,1 diâmetros, sempre igual. Qual a velocidade da bola?",
+"fig": "<svg viewBox='0 0 210 70' class='fg' role='img' aria-label='cinco posições consecutivas de uma bola, igualmente espaçadas ao longo de uma linha inclinada; cada intervalo vale cerca de cinco diâmetros da bola'><circle cx='18' cy='58' r='4' fill='currentColor' fill-opacity='0.5' stroke='currentColor' stroke-width='1'/><text x='10' y='48' font-size='8' fill='currentColor'>1ª</text><circle cx='60' cy='47' r='4' fill='currentColor' fill-opacity='0.5' stroke='currentColor' stroke-width='1'/><text x='52' y='37' font-size='8' fill='currentColor'>2ª</text><circle cx='102' cy='36' r='4' fill='currentColor' fill-opacity='0.5' stroke='currentColor' stroke-width='1'/><text x='94' y='26' font-size='8' fill='currentColor'>3ª</text><circle cx='144' cy='25' r='4' fill='currentColor' fill-opacity='0.5' stroke='currentColor' stroke-width='1'/><text x='136' y='15' font-size='8' fill='currentColor'>4ª</text><circle cx='186' cy='14' r='4' fill='currentColor' fill-opacity='0.5' stroke='currentColor' stroke-width='1'/><text x='178' y='4' font-size='8' fill='currentColor'>5ª</text></svg>",
+"a": 28,
+"u": "m/s",
+"tol": 0.08,
+"d": [
+[
+"Escala",
+"Use o diâmetro da bola como régua: distância real = número de diâmetros × 0,22 m.",
+""
+],
+[
+"Intervalo entre fotos",
+"25 fotos por segundo: Δt = 1/25 s = 0,04 s."
+]
+],
+"h": [
+"Distância por intervalo: 5,1 × 0,22 ≈ 1,12 m.",
+"v = 1,12/0,04.",
+"v ≈ <b>28 m/s</b> (cerca de 100 km/h)."
+]
+},
+{
+"id": "1995-2-fis-07a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 2ª fase, Física, questão 7(a)",
+"r": 1530,
+"tm": 90,
+"ctx": "Pescando no Rio Tietê, um turista fisgou um pneu de 10,5 kg, de densidade 1.400 kg/m³ (g = 10 m/s²). Tabela da tração máxima de uma linha de pesca pelo diâmetro: 0,20 mm: 2,70 kgf; 0,25 mm: 4,20 kgf; 0,30 mm: 5,30 kgf; 0,35 mm: 6,80 kgf; 0,40 mm: 9,10 kgf; 0,45 mm: 11,60 kgf; 0,50 mm: 15,00 kgf; 0,60 mm: 20,00 kgf. Qual o diâmetro mínimo da linha para levantar o pneu enquanto ele está totalmente submerso?",
+"opts": [
+"0,25 mm",
+"0,20 mm",
+"0,45 mm",
+"0,30 mm"
+],
+"a": 0,
+"d": [
+[
+"Empuxo",
+"E = ρ<sub>água</sub>·V·g, com V = massa ÷ densidade do corpo.",
+""
+],
+[
+"Peso aparente",
+"Tração necessária = peso − empuxo."
+]
+],
+"h": [
+"V = 10,5/1400 = 7,5·10⁻³ m³ = 7,5 L; empuxo = 7,5 kgf.",
+"Tração: 10,5 − 7,5 = 3,0 kgf.",
+"A menor linha que aguenta 3,0 kgf é a de <b>0,25 mm</b> (4,20 kgf)."
+]
+},
+{
+"id": "1995-2-fis-07b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 2ª fase, Física, questão 7(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "Pescando no Rio Tietê, um turista fisgou um pneu de 10,5 kg, de densidade 1.400 kg/m³ (g = 10 m/s²). Tabela da tração máxima de uma linha de pesca pelo diâmetro: 0,20 mm: 2,70 kgf; 0,25 mm: 4,20 kgf; 0,30 mm: 5,30 kgf; 0,35 mm: 6,80 kgf; 0,40 mm: 9,10 kgf; 0,45 mm: 11,60 kgf; 0,50 mm: 15,00 kgf; 0,60 mm: 20,00 kgf. Qual o diâmetro mínimo da linha para levantar o pneu totalmente fora d'água, sabendo que a parte côncava inferior retém 3,0 litros de água?",
+"opts": [
+"0,50 mm",
+"0,45 mm",
+"0,40 mm",
+"0,60 mm"
+],
+"a": 0,
+"d": [
+[
+"Peso total",
+"Fora da água não há empuxo: a linha sustenta o pneu e a água retida (1 L de água = 1 kg).",
+""
+]
+],
+"h": [
+"Peso: 10,5 + 3,0 = 13,5 kgf.",
+"Na tabela, 11,60 kgf (0,45 mm) não basta; 15,00 kgf basta.",
+"<b>0,50 mm</b>."
+]
+},
+{
+"id": "1995-2-fis-08a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 2ª fase, Física, questão 8(a) (o original pede um valor razoável para a área; aqui ela é dada)",
+"r": 1440,
+"tm": 75,
+"ctx": "Admita que a diferença de pressão entre as partes de baixo e de cima de uma asa-delta seja ΔP = ρV²/2, com ρ = 1,2 kg/m³ (densidade do ar) e V a velocidade da asa em relação ao ar. Considere uma asa típica de 15 m² e massa total (asa + pessoa) de 100 kg; g = 10 m/s². Qual a diferença de pressão necessária para sustentar a asa?",
+"a": 66.7,
+"u": "Pa",
+"tol": 0.02,
+"d": [
+[
+"Sustentação",
+"Força = ΔP·A; para voar sem cair, ela iguala o peso.",
+""
+]
+],
+"h": [
+"Peso: 100 × 10 = 1000 N.",
+"ΔP = 1000/15.",
+"ΔP ≈ <b>67 Pa</b>."
+]
+},
+{
+"id": "1995-2-fis-08b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1995, 2ª fase, Física, questão 8(b)",
+"r": 1530,
+"tm": 75,
+"ctx": "Admita que a diferença de pressão entre as partes de baixo e de cima de uma asa-delta seja ΔP = ρV²/2, com ρ = 1,2 kg/m³ (densidade do ar) e V a velocidade da asa em relação ao ar. Considere uma asa típica de 15 m² e massa total (asa + pessoa) de 100 kg; g = 10 m/s². Com ΔP ≈ 67 Pa, qual a velocidade da asa-delta?",
+"a": 10.5,
+"u": "m/s",
+"tol": 0.03,
+"d": [
+[
+"Isolar V",
+"V = √(2ΔP/ρ).",
+""
+]
+],
+"h": [
+"V² = 2 × 66,7/1,2 ≈ 111.",
+"V ≈ <b>10,5 m/s</b> (cerca de 38 km/h)."
+]
+},
+{
+"id": "1995-2-fis-09a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1995, 2ª fase, Física, questão 9(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Numa câmara frigorífica, um bloco de gelo de 8,0 kg desliza por uma rampa de madeira, partindo do repouso de uma altura de 1,8 m, até o ponto A, no solo (g = 10 m/s²). Sem atrito, qual seria a velocidade do bloco em A?",
+"fig": "<svg viewBox='0 0 200 110' class='fg' role='img' aria-label='rampa curva, côncava, que desce de 1,8 m de altura até o ponto A no solo; bloco de gelo no alto'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='20' y1='95' x2='180' y2='95'/><path d='M60,95 Q130,90 160,20'/><line x1='170' y1='20' x2='170' y2='95' stroke-width='1'/><rect x='153' y='10' width='12' height='12' transform='rotate(25 159 16)'/></g><g fill='currentColor' font-size='10'><text x='56' y='107'>A</text><text x='174' y='60'>1,8 m</text></g></svg>",
+"a": 6,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Conservação da energia",
+"m·g·h = m·v²/2 → v = √(2gh).",
+""
+]
+],
+"h": [
+"v = √(2 × 10 × 1,8) = √36.",
+"v = <b>6,0 m/s</b>."
+]
+},
+{
+"id": "1995-2-fis-09b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1995, 2ª fase, Física, questão 9(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Numa câmara frigorífica, um bloco de gelo de 8,0 kg desliza por uma rampa de madeira, partindo do repouso de uma altura de 1,8 m, até o ponto A, no solo (g = 10 m/s²). Com atrito, o bloco chega a A com 4,0 m/s. Qual a energia dissipada pelo atrito?",
+"fig": "<svg viewBox='0 0 200 110' class='fg' role='img' aria-label='rampa curva, côncava, que desce de 1,8 m de altura até o ponto A no solo; bloco de gelo no alto'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='20' y1='95' x2='180' y2='95'/><path d='M60,95 Q130,90 160,20'/><line x1='170' y1='20' x2='170' y2='95' stroke-width='1'/><rect x='153' y='10' width='12' height='12' transform='rotate(25 159 16)'/></g><g fill='currentColor' font-size='10'><text x='56' y='107'>A</text><text x='174' y='60'>1,8 m</text></g></svg>",
+"a": 80,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Energia dissipada",
+"É a energia mecânica perdida: m·g·h − m·v²/2.",
+""
+]
+],
+"h": [
+"Inicial: 8,0 × 10 × 1,8 = 144 J.",
+"Final: 8,0 × 4,0²/2 = 64 J.",
+"Dissipada: <b>80 J</b>."
+]
+},
+{
+"id": "1995-2-fis-09c",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1995, 2ª fase, Física, questão 9(c)",
+"r": 1360,
+"tm": 60,
+"ctx": "O atrito entre um bloco de gelo a 0 °C e uma rampa de madeira dissipou 80 J. Que massa de gelo seria fundida com essa energia? Calor latente de fusão do gelo: 80 cal/g; adote 1 cal = 4,0 J.",
+"a": 0.25,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Calor latente",
+"Q = m·L.",
+""
+],
+[
+"Conversão",
+"cal = J ÷ 4,0."
+]
+],
+"h": [
+"80 J = 20 cal.",
+"m = 20/80.",
+"m = <b>0,25 g</b>."
+]
+},
+{
+"id": "1995-2-fis-10a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1995, 2ª fase, Física, questão 10(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Um forno de micro-ondas opera a 120 V e 5,0 A. Colocam-se nele 200 mL de água a 25 °C; toda a energia do forno aquece a água. Adote 1,0 cal = 4,0 J. Qual a energia necessária para elevar a temperatura da água a 100 °C?",
+"a": 60000,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·ΔT, com c = 1 cal/(g·°C) para a água.",
+""
+]
+],
+"h": [
+"Q = 200 × 1 × 75 = 15.000 cal.",
+"× 4,0 J/cal.",
+"Q = <b>60.000 J</b>."
+]
+},
+{
+"id": "1995-2-fis-10b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1995, 2ª fase, Física, questão 10(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Um forno de micro-ondas opera a 120 V e 5,0 A. Colocam-se nele 200 mL de água a 25 °C; toda a energia do forno aquece a água. Adote 1,0 cal = 4,0 J. São necessários 60.000 J. Em quanto tempo a água chega a 100 °C?",
+"a": 100,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Potência",
+"P = U·i; Δt = E/P.",
+""
+]
+],
+"h": [
+"P = 120 × 5,0 = 600 W.",
+"Δt = 60.000/600.",
+"Δt = <b>100 s</b>."
+]
+},
+{
+"id": "1995-2-fis-11a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1995, 2ª fase, Física, questão 11(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Uma lâmpada incandescente (100 W, 120 V) tem filamento de tungstênio com 31,4 cm de comprimento e 4,0·10⁻² mm de diâmetro. A resistividade do tungstênio à temperatura ambiente é 5,6·10⁻⁸ Ω·m. Qual a resistência do filamento à temperatura ambiente?",
+"a": 14,
+"u": "Ω",
+"tol": 0.02,
+"d": [
+[
+"Segunda lei de Ohm",
+"R = ρ·L/A, com A = π·r².",
+""
+],
+[
+"Unidades",
+"Raio = 2,0·10⁻² mm = 2,0·10⁻⁵ m."
+]
+],
+"h": [
+"A = 3,14 × (2,0·10⁻⁵)² = 1,256·10⁻⁹ m².",
+"R = 5,6·10⁻⁸ × 0,314/1,256·10⁻⁹.",
+"R = <b>14 Ω</b>."
+]
+},
+{
+"id": "1995-2-fis-11b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1995, 2ª fase, Física, questão 11(b)",
+"r": 1190,
+"tm": 45,
+"ctx": "Uma lâmpada incandescente (100 W, 120 V) tem filamento de tungstênio com 31,4 cm de comprimento e 4,0·10⁻² mm de diâmetro. A resistividade do tungstênio à temperatura ambiente é 5,6·10⁻⁸ Ω·m. Qual a resistência do filamento com a lâmpada acesa?",
+"a": 144,
+"u": "Ω",
+"tol": 0.01,
+"d": [
+[
+"Potência",
+"P = U²/R → R = U²/P.",
+""
+]
+],
+"h": [
+"R = 120²/100 = 14.400/100.",
+"R = <b>144 Ω</b> (cerca de 10 vezes a resistência a frio: a resistividade aumenta com a temperatura)."
+]
+},
+{
+"id": "1995-2-fis-12a",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1995, 2ª fase, Física, questão 12(a)",
+"r": 1360,
+"tm": 60,
+"ctx": "Um elétron é acelerado a partir do repouso, ao longo de 8,8 mm, por um campo elétrico uniforme de 1,0·10⁵ V/m. A razão carga/massa do elétron é 1,76·10¹¹ C/kg. Qual a aceleração do elétron?",
+"a": 1.76e+16,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"Força elétrica",
+"F = q·E; a = F/m = (q/m)·E.",
+""
+]
+],
+"h": [
+"a = 1,76·10¹¹ × 1,0·10⁵.",
+"a = <b>1,76·10¹⁶ m/s²</b>."
+]
+},
+{
+"id": "1995-2-fis-12b",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1995, 2ª fase, Física, questão 12(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "Um elétron é acelerado a partir do repouso, ao longo de 8,8 mm, por um campo elétrico uniforme de 1,0·10⁵ V/m. A razão carga/massa do elétron é 1,76·10¹¹ C/kg. A aceleração é 1,76·10¹⁶ m/s². Qual a velocidade final do elétron?",
+"a": 17600000.0,
+"u": "m/s",
+"tol": 0.02,
+"d": [
+[
+"Torricelli",
+"v² = 2·a·d.",
+""
+]
+],
+"h": [
+"v² = 2 × 1,76·10¹⁶ × 8,8·10⁻³ = 3,1·10¹⁴.",
+"v = <b>1,76·10⁷ m/s</b>."
+]
+},
+{
+"id": "1995-2-fis-12c",
+"ano": 1995,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1995, 2ª fase, Física, questão 12(c)",
+"r": 1620,
+"tm": 75,
+"ctx": "Um elétron com velocidade 1,76·10⁷ m/s entra perpendicularmente num campo magnético uniforme de 1,0·10⁻² T. Com carga/massa = 1,76·10¹¹ C/kg, qual o raio da órbita?",
+"a": 0.01,
+"u": "m",
+"tol": 0.02,
+"d": [
+[
+"Raio no campo magnético",
+"q·v·B = m·v²/r → r = v/[(q/m)·B].",
+""
+]
+],
+"h": [
+"r = 1,76·10⁷/(1,76·10¹¹ × 1,0·10⁻²).",
+"r = <b>1,0·10⁻² m</b> (1 cm)."
+]
+},
+{
+"id": "1995-2-qui-01a",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1995, 2ª fase, Química, questão 1(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Na correção da 1ª fase, a banca encontrou respostas como \"210 mols de arroz\". Admita que a massa de um grão de arroz seja 20 mg. Constante de Avogadro: 6,0·10²³ mol⁻¹; 1 t = 1,0·10⁹ mg. Qual a massa, em toneladas, de 210 mols de arroz?",
+"a": 2.52e+18,
+"u": "t",
+"tol": 0.02,
+"d": [
+[
+"Mol",
+"Número de grãos = n × 6,0·10²³.",
+""
+]
+],
+"h": [
+"Grãos: 210 × 6,0·10²³ = 1,26·10²⁶.",
+"Massa: 1,26·10²⁶ × 20 mg = 2,52·10²⁷ mg.",
+"÷ 10⁹: <b>2,52·10¹⁸ t</b>."
+]
+},
+{
+"id": "1995-2-qui-01b",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1995, 2ª fase, Química, questão 1(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Na correção da 1ª fase, a banca encontrou respostas como \"210 mols de arroz\". Admita que a massa de um grão de arroz seja 20 mg. Constante de Avogadro: 6,0·10²³ mol⁻¹; 1 t = 1,0·10⁹ mg. 210 mols de arroz pesam 2,52·10¹⁸ t. Se o consumo mundial de arroz é de 3·10⁸ t por ano, por quantos anos daria para alimentar a população mundial?",
+"a": 8400000000.0,
+"u": "anos",
+"tol": 0.02,
+"d": [
+[
+"Divisão",
+"Anos = estoque ÷ consumo anual.",
+""
+]
+],
+"h": [
+"2,52·10¹⁸/3·10⁸.",
+"<b>8,4·10⁹ anos</b>: oito bilhões e quatrocentos milhões de anos."
+]
+},
+{
+"id": "1995-2-qui-02",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1995, 2ª fase, Química, questão 2",
+"r": 1440,
+"tm": 90,
+"ctx": "Os α-aminoácidos têm um grupo amino e um carboxila ligados ao mesmo carbono (o carbono α). A alanina tem também um H e um grupo metila ligados ao carbono α. A ligação peptídica se forma entre o amino de uma molécula e a carboxila de outra, com eliminação de água. Qual a fórmula da alanina e a da reação entre duas alaninas?",
+"opts": [
+"CH₃–CH(NH₂)–COOH; 2 alanina → CH₃–CH(NH₂)–CO–NH–CH(CH₃)–COOH + H₂O",
+"NH₂–CH₂–CH₂–COOH; 2 alanina → dímero + H₂",
+"CH₃–CH(NH₂)–COOH; 2 alanina → CH₃–CH(NH₂)–CO–O–CO–CH(NH₂)–CH₃ + H₂O",
+"CH₃–NH–CH₂–COOH; 2 alanina → peptídeo + NH₃"
+],
+"a": 0,
+"d": [
+[
+"Grupos funcionais",
+"Amino: –NH₂. Carboxila: –COOH. Ligação peptídica (amida): –CO–NH–.",
+""
+]
+],
+"h": [
+"Carbono α com NH₂, COOH, H e CH₃: CH₃–CH(NH₂)–COOH.",
+"O –OH da carboxila de uma e um H do –NH₂ da outra saem como água.",
+"<b>CH₃–CH(NH₂)–CO–NH–CH(CH₃)–COOH + H₂O</b>."
+]
+},
+{
+"id": "1995-2-qui-03",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1995, 2ª fase, Química, questão 3",
+"r": 1360,
+"tm": 75,
+"ctx": "O alumínio reage com íons H⁺ em solução aquosa, liberando H₂. Três soluções 0,1 mol/L foram postas a reagir com amostras iguais de alumínio: ácido acético (Ka = 2·10⁻⁵), ácido clorídrico (Ka muito grande) e ácido monocloroacético (Ka = 1,4·10⁻³). O gás é recolhido num frasco graduado cheio de água, invertido. Em qual solução a reação é mais rápida, e como se percebe isso?",
+"opts": [
+"no ácido clorídrico, que tem a maior concentração de H⁺; o nível de água no frasco desce mais depressa",
+"no ácido acético, o de menor Ka; o nível de água sobe mais depressa",
+"são iguais, porque as concentrações são iguais",
+"no monocloroacético; a solução esquenta mais"
+],
+"a": 0,
+"d": [
+[
+"Força de ácidos",
+"Com a mesma concentração, o ácido de maior Ka libera mais H⁺.",
+""
+],
+[
+"Velocidade",
+"Mais reagente disponível (H⁺) → reação mais rápida → mais gás por segundo."
+]
+],
+"h": [
+"Ka: HCl ≫ monocloroacético > acético; [H⁺] segue a mesma ordem.",
+"Mais H⁺, mais H₂ por unidade de tempo.",
+"Reação mais rápida no <b>ácido clorídrico</b>: o gás expulsa a água do frasco mais depressa."
+]
+},
+{
+"id": "1995-2-qui-04",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 1995, 2ª fase, Química, questão 4",
+"r": 1100,
+"tm": 60,
+"ctx": "A irrigação artificial intensa pode salinizar o solo, principalmente onde chove pouco. Onde chove regularmente, a salinização não ocorre. Por quê?",
+"opts": [
+"a água de irrigação traz sais dissolvidos, que ficam no solo quando ela evapora; a chuva é praticamente água destilada e ainda arrasta os sais",
+"a chuva traz sais que neutralizam os da irrigação",
+"a irrigação dissolve os sais do solo e a chuva os devolve",
+"a salinização depende só da temperatura do solo"
+],
+"a": 0,
+"d": [
+[
+"Evaporação",
+"Quando a água evapora, os sais dissolvidos ficam para trás.",
+""
+],
+[
+"Ciclo da água",
+"A chuva vem da evaporação: quase não tem sais."
+]
+],
+"h": [
+"Água de rio ou lago tem sais; evaporando no solo, deixa-os acumulados.",
+"A chuva não traz sais e, quando abundante, lava e arrasta os sais para fora do solo.",
+"<b>Sais acumulam com a evaporação; a chuva é quase pura e os lava</b>."
+]
+},
+{
+"id": "1995-2-qui-05",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 1995, 2ª fase, Química, questão 5",
+"r": 1190,
+"tm": 60,
+"ctx": "Imagine um futuro em que a energia venha da combustão do H₂, obtido da decomposição da água (que também dá O₂). Pode faltar água no planeta, como faltou combustível fóssil? A atmosfera ficará super-enriquecida de O₂?",
+"opts": [
+"não e não: a combustão do H₂ refaz a mesma água e consome o mesmo O₂ liberado na decomposição",
+"sim e sim: a água é consumida e o O₂ se acumula",
+"não falta água, mas o O₂ se acumula",
+"falta água, mas o O₂ não se acumula"
+],
+"a": 0,
+"d": [
+[
+"Ciclo fechado",
+"Compare 2 H₂O → 2 H₂ + O₂ com 2 H₂ + O₂ → 2 H₂O.",
+""
+]
+],
+"h": [
+"A decomposição gasta água e libera O₂.",
+"A combustão do H₂ consome a mesma quantidade de O₂ e devolve a mesma água.",
+"<b>Nem falta água nem sobra O₂</b>."
+]
+},
+{
+"id": "1995-2-qui-06",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1995, 2ª fase, Química, questão 6",
+"r": 1360,
+"tm": 75,
+"ctx": "Para Cu(s) + 2 Ag⁺(aq) ⇌ Cu²⁺(aq) + 2 Ag(s), a constante de equilíbrio a 298 K é muito grande. Qual a expressão de K, e o que ocorre ao misturar cobre metálico com uma solução de Ag⁺?",
+"opts": [
+"K = [Cu²⁺]/[Ag⁺]²; o cobre se dissolve (a solução fica azul) e deposita-se prata, até quase não restar Ag⁺",
+"K = [Ag⁺]²/[Cu²⁺]; nada ocorre",
+"K = [Cu²⁺][Ag]²/([Cu][Ag⁺]²); a prata se dissolve",
+"K = [Cu²⁺]/[Ag⁺]; o cobre recebe elétrons da prata"
+],
+"a": 0,
+"d": [
+[
+"Constante de equilíbrio",
+"Sólidos não entram na expressão.",
+""
+],
+[
+"K muito grande",
+"O equilíbrio fica muito deslocado para os produtos: a reação é quase completa."
+]
+],
+"h": [
+"K = [Cu²⁺]/[Ag⁺]².",
+"Com K muito grande, a reação direta ocorre quase totalmente.",
+"O <b>cobre se oxida a Cu²⁺ (azul) e a prata metálica se deposita</b>."
+]
+},
+{
+"id": "1995-2-qui-07a",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1995, 2ª fase, Química, questão 7(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Num dia quente, enche-se 3/4 do volume de um saco plástico preto com ar e fecha-se a boca hermeticamente. Ao sol, o ar é aquecido e passa a ocupar todo o volume; o saco sobe como um balão. A pressão é constante, e o ar estava inicialmente a 27 °C. Qual a variação da temperatura do ar entre a situação inicial e a final?",
+"a": 100,
+"u": "K",
+"tol": 0.01,
+"d": [
+[
+"Pressão constante",
+"V₁/T₁ = V₂/T₂, com T em kelvin.",
+""
+]
+],
+"h": [
+"T₁ = 300 K; V₂/V₁ = 4/3.",
+"T₂ = 300 × 4/3 = 400 K.",
+"ΔT = <b>100 K</b> (ou 100 °C)."
+]
+},
+{
+"id": "1995-2-qui-07b",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1995, 2ª fase, Química, questão 7(b)",
+"r": 1190,
+"tm": 60,
+"ctx": "Num dia quente, enche-se 3/4 do volume de um saco plástico preto com ar e fecha-se a boca hermeticamente. Ao sol, o ar é aquecido e passa a ocupar todo o volume; o saco sobe como um balão. A pressão é constante, e o ar estava inicialmente a 27 °C. Qual a razão entre a densidade do ar no início e no instante em que o saco fica cheio?",
+"opts": [
+"d<sub>inicial</sub>/d<sub>final</sub> = 4/3",
+"3/4",
+"1",
+"16/9"
+],
+"a": 0,
+"d": [
+[
+"Densidade",
+"d = m/V; o saco é fechado, então a massa de ar não muda.",
+""
+]
+],
+"h": [
+"Mesma massa, volume de 3V/4 para V.",
+"d ∝ 1/V: d<sub>i</sub>/d<sub>f</sub> = V/(3V/4).",
+"<b>4/3</b>."
+]
+},
+{
+"id": "1995-2-qui-08",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1995, 2ª fase, Química, questão 8",
+"r": 1190,
+"tm": 60,
+"ctx": "Soluções de água oxigenada, H₂O₂, decompõem-se em água e O₂. O gráfico mostra a concentração de H₂O₂ em função do tempo para três soluções, uma delas catalisada por Fe₂O₃. A curva 1 cai mais devagar, a 2 é intermediária e a 3 cai mais depressa. Qual curva é a reação mais lenta e qual é a catalisada?",
+"fig": "<svg viewBox='0 0 200 115' class='fg' role='img' aria-label='concentração de H2O2 em função do tempo para três soluções: a curva 1, tracejada, cai mais devagar; a curva 2, contínua, é intermediária; a curva 3, traço e ponto, cai mais depressa'><g fill='none' stroke='currentColor'><polyline points='25,5 25,100 190,100' stroke-width='1.5'/><path d='M25,15 C60,50 110,92 185,98' stroke-dasharray='5 3' stroke-width='1.5'/><path d='M25,15 C40,60 80,92 185,99' stroke-width='1.8'/><path d='M25,15 C30,75 55,95 185,99.5' stroke-dasharray='6 2 1 2' stroke-width='1.5'/></g><g fill='currentColor' font-size='10'><text x='80' y='55'>1</text><text x='55' y='70'>2</text><text x='34' y='84'>3</text><text x='30' y='12'>concentração</text><text x='150' y='112'>tempo</text></g></svg>",
+"opts": [
+"mais lenta: 1; catalisada: 3",
+"mais lenta: 3; catalisada: 1",
+"mais lenta: 2; catalisada: 3",
+"mais lenta: 1; catalisada: 2"
+],
+"a": 0,
+"d": [
+[
+"Velocidade no gráfico",
+"A rapidez é a inclinação da curva de concentração: quanto mais íngreme, mais rápida.",
+""
+],
+[
+"Catalisador",
+"Aumenta a velocidade da reação."
+]
+],
+"h": [
+"A curva 1 tem a menor inclinação: reação mais lenta.",
+"A curva 3 cai mais depressa: a reação mais rápida.",
+"<b>Mais lenta: 1; catalisada: 3</b>."
+]
+},
+{
+"id": "1995-2-qui-09",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1995, 2ª fase, Química, questão 9",
+"r": 1620,
+"tm": 90,
+"ctx": "Comprimentos de ligação e entalpias de ligação dos haletos de hidrogênio: H–F, 92 pm (?); H–Cl, 127 pm, 431 kJ/mol; H–Br, 141 pm (?); H–I, 161 pm, 299 kJ/mol. Supondo que a energia varie linearmente com o comprimento da ligação, estime as energias de ligação do H–F e do H–Br.",
+"opts": [
+"H–F ≈ 567 kJ/mol e H–Br ≈ 377 kJ/mol",
+"H–F ≈ 360 kJ/mol e H–Br ≈ 490 kJ/mol",
+"H–F ≈ 431 kJ/mol e H–Br ≈ 365 kJ/mol",
+"H–F ≈ 299 kJ/mol e H–Br ≈ 431 kJ/mol"
+],
+"a": 0,
+"d": [
+[
+"Interpolação linear",
+"Com dois pontos conhecidos, a variação por unidade é Δ(energia)/Δ(comprimento); aplique a partir de um deles.",
+""
+],
+[
+"Tendência",
+"Ligações mais curtas são mais fortes."
+]
+],
+"h": [
+"Inclinação: (299 − 431)/(161 − 127) = −132/34 ≈ −3,9 kJ/mol por pm.",
+"H–Br: 431 − 3,9 × 14 ≈ 377. H–F: 431 + 3,9 × 35 ≈ 567.",
+"<b>H–F ≈ 567 e H–Br ≈ 377 kJ/mol</b> (valores reais: 568 e 366)."
+]
+},
+{
+"id": "1995-2-qui-10",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1995, 2ª fase, Química, questão 10",
+"r": 1280,
+"tm": 60,
+"ctx": "Uma indústria comprou ácido acetilsalicílico, C₉H₈O₄. A análise indicou um teor de carbono de 50%. O produto estava puro? (C = 12; H = 1; O = 16)",
+"opts": [
+"não: o puro tem 60% de carbono",
+"sim: o puro tem 50% de carbono",
+"não: o puro tem 45% de carbono",
+"sim: o teor de carbono não indica pureza"
+],
+"a": 0,
+"d": [
+[
+"Porcentagem em massa",
+"%C = (massa de C na fórmula ÷ massa molar) × 100.",
+""
+]
+],
+"h": [
+"M = 9 × 12 + 8 × 1 + 4 × 16 = 108 + 8 + 64 = 180 g/mol.",
+"%C = 108/180 = 60%.",
+"50% ≠ 60%: <b>não estava puro</b>."
+]
+},
+{
+"id": "1995-2-qui-11a",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1995, 2ª fase, Química, questão 11(a)",
+"r": 1440,
+"tm": 90,
+"ctx": "Para CH₄(g) + Cl₂(g) → H₃CCl(g) + HCl(g). Entalpias de formação (kJ/mol): CH₄ −75; Cl₂ 0; HCl −92. Energias de ligação (kJ/mol): H₃C–H 435; Cl–Cl 242; H₃C–Cl 452; H–Cl 431. Qual o ΔH da reação?",
+"a": -206,
+"u": "kJ/mol",
+"tol": 0.01,
+"d": [
+[
+"Energias de ligação",
+"ΔH = (energia das ligações rompidas) − (energia das ligações formadas).",
+""
+]
+],
+"h": [
+"Rompidas: uma C–H (435) e uma Cl–Cl (242) = 677.",
+"Formadas: uma C–Cl (452) e uma H–Cl (431) = 883.",
+"ΔH = 677 − 883 = <b>−206 kJ/mol</b>."
+]
+},
+{
+"id": "1995-2-qui-11b",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1995, 2ª fase, Química, questão 11(b)",
+"r": 1530,
+"tm": 90,
+"ctx": "Para CH₄(g) + Cl₂(g) → H₃CCl(g) + HCl(g). Entalpias de formação (kJ/mol): CH₄ −75; Cl₂ 0; HCl −92. Energias de ligação (kJ/mol): H₃C–H 435; Cl–Cl 242; H₃C–Cl 452; H–Cl 431. O ΔH da reação é −206 kJ/mol. Qual a entalpia de formação do H₃CCl(g)?",
+"a": -189,
+"u": "kJ/mol",
+"tol": 0.01,
+"d": [
+[
+"Entalpias de formação",
+"ΔH = ΣΔH<sub>f</sub>(produtos) − ΣΔH<sub>f</sub>(reagentes).",
+""
+]
+],
+"h": [
+"−206 = [x + (−92)] − [(−75) + 0].",
+"−206 = x − 17.",
+"x = <b>−189 kJ/mol</b>."
+]
+},
+{
+"id": "1995-2-qui-12",
+"ano": 1995,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1995, 2ª fase, Química, questão 12",
+"r": 1620,
+"tm": 90,
+"ctx": "Na esterilização da água: (I) Cl₂(g) + n H₂O(l) ⇌ Cl₂(aq); (II) Cl₂(aq) + H₂O(l) ⇌ HClO(aq) + H⁺(aq) + Cl⁻(aq). Qual reação é de oxirredução, e a adição de NaOH altera a quantidade de Cl₂(g) que se dissolve?",
+"opts": [
+"a II (o cloro vai de 0 a +1 no HClO e a −1 no Cl⁻); o NaOH consome H⁺, desloca II para a direita e faz dissolver mais Cl₂(g)",
+"a I; o NaOH não altera nada",
+"a II; o NaOH diminui a dissolução do Cl₂",
+"nenhuma; o NaOH aumenta a dissolução porque reage com a água"
+],
+"a": 0,
+"d": [
+[
+"Número de oxidação",
+"Cl₂: 0. Em HClO, o Cl é +1; em Cl⁻, −1.",
+""
+],
+[
+"Equilíbrios encadeados",
+"Retirar um produto de II consome Cl₂(aq), o que desloca I para a direita."
+]
+],
+"h": [
+"Em II, o cloro se oxida e se reduz ao mesmo tempo (desproporcionamento): é oxirredução. Em I, só há dissolução.",
+"OH⁻ neutraliza H⁺ (e HClO), deslocando II para a direita e baixando o Cl₂(aq).",
+"Para repor, I se desloca para a direita: <b>a II é redox, e o NaOH aumenta a dissolução do Cl₂</b>."
+]
+}
+]

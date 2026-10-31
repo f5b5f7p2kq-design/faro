@@ -1,0 +1,2535 @@
+[
+{
+"id": "1994-1-07a",
+"ano": 1994,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1994, 1ª fase, questão 7(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Uma mistura de nitrogênio, N₂(g), e oxigênio, O₂(g), reage formando diferentes óxidos de nitrogênio. No esquema, o nitrogênio é representado por ⊗ (círculo com x) e o oxigênio por ● (círculo cheio). Qual a fórmula do composto formado na reação I?",
+"fig": "<svg viewBox='0 0 245 115' class='fg' role='img' aria-label='esquemas de duas reações: em I, moléculas N2 e O2 formam moléculas com um N no meio e dois O nas pontas; em II, moléculas N2 e O2 formam moléculas com um O no meio e dois N nas pontas'><g stroke='currentColor' stroke-width='1.1' fill='none'><rect x='16' y='5' width='86' height='45'/><rect x='150' y='5' width='86' height='45'/><rect x='16' y='65' width='86' height='45'/><rect x='150' y='65' width='86' height='45'/><line x1='108' y1='28' x2='138' y2='28'/><line x1='108' y1='88' x2='138' y2='88'/><circle cx='26' cy='17' r='4' fill='none'/><line x1='23.2' y1='14.2' x2='28.8' y2='19.8'/><line x1='23.2' y1='19.8' x2='28.8' y2='14.2'/><circle cx='34' cy='17' r='4' fill='none'/><line x1='31.2' y1='14.2' x2='36.8' y2='19.8'/><line x1='31.2' y1='19.8' x2='36.8' y2='14.2'/><circle cx='50' cy='17' r='4' fill='currentColor'/><circle cx='58' cy='17' r='4' fill='currentColor'/><circle cx='76' cy='17' r='4' fill='currentColor'/><circle cx='84' cy='17' r='4' fill='currentColor'/><circle cx='26' cy='38' r='4' fill='currentColor'/><circle cx='34' cy='38' r='4' fill='currentColor'/><circle cx='50' cy='38' r='4' fill='none'/><line x1='47.2' y1='35.2' x2='52.8' y2='40.8'/><line x1='47.2' y1='40.8' x2='52.8' y2='35.2'/><circle cx='58' cy='38' r='4' fill='none'/><line x1='55.2' y1='35.2' x2='60.8' y2='40.8'/><line x1='55.2' y1='40.8' x2='60.8' y2='35.2'/><circle cx='76' cy='38' r='4' fill='currentColor'/><circle cx='84' cy='38' r='4' fill='currentColor'/><circle cx='160' cy='17' r='4' fill='currentColor'/><circle cx='168' cy='17' r='4' fill='none'/><line x1='165.2' y1='14.2' x2='170.8' y2='19.8'/><line x1='165.2' y1='19.8' x2='170.8' y2='14.2'/><circle cx='176' cy='17' r='4' fill='currentColor'/><circle cx='200' cy='17' r='4' fill='currentColor'/><circle cx='208' cy='17' r='4' fill='none'/><line x1='205.2' y1='14.2' x2='210.8' y2='19.8'/><line x1='205.2' y1='19.8' x2='210.8' y2='14.2'/><circle cx='216' cy='17' r='4' fill='currentColor'/><circle cx='160' cy='38' r='4' fill='currentColor'/><circle cx='168' cy='38' r='4' fill='none'/><line x1='165.2' y1='35.2' x2='170.8' y2='40.8'/><line x1='165.2' y1='40.8' x2='170.8' y2='35.2'/><circle cx='176' cy='38' r='4' fill='currentColor'/><circle cx='200' cy='38' r='4' fill='currentColor'/><circle cx='208' cy='38' r='4' fill='none'/><line x1='205.2' y1='35.2' x2='210.8' y2='40.8'/><line x1='205.2' y1='40.8' x2='210.8' y2='35.2'/><circle cx='216' cy='38' r='4' fill='currentColor'/><circle cx='26' cy='77' r='4' fill='none'/><line x1='23.2' y1='74.2' x2='28.8' y2='79.8'/><line x1='23.2' y1='79.8' x2='28.8' y2='74.2'/><circle cx='34' cy='77' r='4' fill='none'/><line x1='31.2' y1='74.2' x2='36.8' y2='79.8'/><line x1='31.2' y1='79.8' x2='36.8' y2='74.2'/><circle cx='50' cy='77' r='4' fill='currentColor'/><circle cx='58' cy='77' r='4' fill='currentColor'/><circle cx='76' cy='77' r='4' fill='none'/><line x1='73.2' y1='74.2' x2='78.8' y2='79.8'/><line x1='73.2' y1='79.8' x2='78.8' y2='74.2'/><circle cx='84' cy='77' r='4' fill='none'/><line x1='81.2' y1='74.2' x2='86.8' y2='79.8'/><line x1='81.2' y1='79.8' x2='86.8' y2='74.2'/><circle cx='26' cy='98' r='4' fill='none'/><line x1='23.2' y1='95.2' x2='28.8' y2='100.8'/><line x1='23.2' y1='100.8' x2='28.8' y2='95.2'/><circle cx='34' cy='98' r='4' fill='none'/><line x1='31.2' y1='95.2' x2='36.8' y2='100.8'/><line x1='31.2' y1='100.8' x2='36.8' y2='95.2'/><circle cx='50' cy='98' r='4' fill='currentColor'/><circle cx='58' cy='98' r='4' fill='currentColor'/><circle cx='76' cy='98' r='4' fill='none'/><line x1='73.2' y1='95.2' x2='78.8' y2='100.8'/><line x1='73.2' y1='100.8' x2='78.8' y2='95.2'/><circle cx='84' cy='98' r='4' fill='none'/><line x1='81.2' y1='95.2' x2='86.8' y2='100.8'/><line x1='81.2' y1='100.8' x2='86.8' y2='95.2'/><circle cx='160' cy='77' r='4' fill='none'/><line x1='157.2' y1='74.2' x2='162.8' y2='79.8'/><line x1='157.2' y1='79.8' x2='162.8' y2='74.2'/><circle cx='168' cy='77' r='4' fill='currentColor'/><circle cx='176' cy='77' r='4' fill='none'/><line x1='173.2' y1='74.2' x2='178.8' y2='79.8'/><line x1='173.2' y1='79.8' x2='178.8' y2='74.2'/><circle cx='200' cy='77' r='4' fill='none'/><line x1='197.2' y1='74.2' x2='202.8' y2='79.8'/><line x1='197.2' y1='79.8' x2='202.8' y2='74.2'/><circle cx='208' cy='77' r='4' fill='currentColor'/><circle cx='216' cy='77' r='4' fill='none'/><line x1='213.2' y1='74.2' x2='218.8' y2='79.8'/><line x1='213.2' y1='79.8' x2='218.8' y2='74.2'/><circle cx='160' cy='98' r='4' fill='none'/><line x1='157.2' y1='95.2' x2='162.8' y2='100.8'/><line x1='157.2' y1='100.8' x2='162.8' y2='95.2'/><circle cx='168' cy='98' r='4' fill='currentColor'/><circle cx='176' cy='98' r='4' fill='none'/><line x1='173.2' y1='95.2' x2='178.8' y2='100.8'/><line x1='173.2' y1='100.8' x2='178.8' y2='95.2'/><circle cx='200' cy='98' r='4' fill='none'/><line x1='197.2' y1='95.2' x2='202.8' y2='100.8'/><line x1='197.2' y1='100.8' x2='202.8' y2='95.2'/><circle cx='208' cy='98' r='4' fill='currentColor'/><circle cx='216' cy='98' r='4' fill='none'/><line x1='213.2' y1='95.2' x2='218.8' y2='100.8'/><line x1='213.2' y1='100.8' x2='218.8' y2='95.2'/></g><g fill='currentColor' font-size='11'><polygon points='144,28 137,24 137,32'/><polygon points='144,88 137,84 137,92'/><text x='0' y='32'>I)</text><text x='0' y='92'>II)</text></g></svg>",
+"opts": [
+"NO₂",
+"N₂O",
+"NO",
+"N₂O₄"
+],
+"a": 0,
+"d": [
+[
+"Ler o modelo",
+"Cada conjunto de bolinhas ligadas é uma molécula: conte quantos átomos de cada elemento ela tem.",
+""
+]
+],
+"h": [
+"Nos produtos de I, cada molécula tem um ⊗ (N) no meio e dois ● (O) nas pontas.",
+"Um N e dois O.",
+"<b>NO₂</b>."
+]
+},
+{
+"id": "1994-1-07b",
+"ano": 1994,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1994, 1ª fase, questão 7(b)",
+"r": 1280,
+"tm": 75,
+"ctx": "Uma mistura de nitrogênio, N₂(g), e oxigênio, O₂(g), reage formando diferentes óxidos de nitrogênio. No esquema, o nitrogênio é representado por ⊗ (círculo com x) e o oxigênio por ● (círculo cheio). Qual a equação balanceada da reação II?",
+"fig": "<svg viewBox='0 0 245 115' class='fg' role='img' aria-label='esquemas de duas reações: em I, moléculas N2 e O2 formam moléculas com um N no meio e dois O nas pontas; em II, moléculas N2 e O2 formam moléculas com um O no meio e dois N nas pontas'><g stroke='currentColor' stroke-width='1.1' fill='none'><rect x='16' y='5' width='86' height='45'/><rect x='150' y='5' width='86' height='45'/><rect x='16' y='65' width='86' height='45'/><rect x='150' y='65' width='86' height='45'/><line x1='108' y1='28' x2='138' y2='28'/><line x1='108' y1='88' x2='138' y2='88'/><circle cx='26' cy='17' r='4' fill='none'/><line x1='23.2' y1='14.2' x2='28.8' y2='19.8'/><line x1='23.2' y1='19.8' x2='28.8' y2='14.2'/><circle cx='34' cy='17' r='4' fill='none'/><line x1='31.2' y1='14.2' x2='36.8' y2='19.8'/><line x1='31.2' y1='19.8' x2='36.8' y2='14.2'/><circle cx='50' cy='17' r='4' fill='currentColor'/><circle cx='58' cy='17' r='4' fill='currentColor'/><circle cx='76' cy='17' r='4' fill='currentColor'/><circle cx='84' cy='17' r='4' fill='currentColor'/><circle cx='26' cy='38' r='4' fill='currentColor'/><circle cx='34' cy='38' r='4' fill='currentColor'/><circle cx='50' cy='38' r='4' fill='none'/><line x1='47.2' y1='35.2' x2='52.8' y2='40.8'/><line x1='47.2' y1='40.8' x2='52.8' y2='35.2'/><circle cx='58' cy='38' r='4' fill='none'/><line x1='55.2' y1='35.2' x2='60.8' y2='40.8'/><line x1='55.2' y1='40.8' x2='60.8' y2='35.2'/><circle cx='76' cy='38' r='4' fill='currentColor'/><circle cx='84' cy='38' r='4' fill='currentColor'/><circle cx='160' cy='17' r='4' fill='currentColor'/><circle cx='168' cy='17' r='4' fill='none'/><line x1='165.2' y1='14.2' x2='170.8' y2='19.8'/><line x1='165.2' y1='19.8' x2='170.8' y2='14.2'/><circle cx='176' cy='17' r='4' fill='currentColor'/><circle cx='200' cy='17' r='4' fill='currentColor'/><circle cx='208' cy='17' r='4' fill='none'/><line x1='205.2' y1='14.2' x2='210.8' y2='19.8'/><line x1='205.2' y1='19.8' x2='210.8' y2='14.2'/><circle cx='216' cy='17' r='4' fill='currentColor'/><circle cx='160' cy='38' r='4' fill='currentColor'/><circle cx='168' cy='38' r='4' fill='none'/><line x1='165.2' y1='35.2' x2='170.8' y2='40.8'/><line x1='165.2' y1='40.8' x2='170.8' y2='35.2'/><circle cx='176' cy='38' r='4' fill='currentColor'/><circle cx='200' cy='38' r='4' fill='currentColor'/><circle cx='208' cy='38' r='4' fill='none'/><line x1='205.2' y1='35.2' x2='210.8' y2='40.8'/><line x1='205.2' y1='40.8' x2='210.8' y2='35.2'/><circle cx='216' cy='38' r='4' fill='currentColor'/><circle cx='26' cy='77' r='4' fill='none'/><line x1='23.2' y1='74.2' x2='28.8' y2='79.8'/><line x1='23.2' y1='79.8' x2='28.8' y2='74.2'/><circle cx='34' cy='77' r='4' fill='none'/><line x1='31.2' y1='74.2' x2='36.8' y2='79.8'/><line x1='31.2' y1='79.8' x2='36.8' y2='74.2'/><circle cx='50' cy='77' r='4' fill='currentColor'/><circle cx='58' cy='77' r='4' fill='currentColor'/><circle cx='76' cy='77' r='4' fill='none'/><line x1='73.2' y1='74.2' x2='78.8' y2='79.8'/><line x1='73.2' y1='79.8' x2='78.8' y2='74.2'/><circle cx='84' cy='77' r='4' fill='none'/><line x1='81.2' y1='74.2' x2='86.8' y2='79.8'/><line x1='81.2' y1='79.8' x2='86.8' y2='74.2'/><circle cx='26' cy='98' r='4' fill='none'/><line x1='23.2' y1='95.2' x2='28.8' y2='100.8'/><line x1='23.2' y1='100.8' x2='28.8' y2='95.2'/><circle cx='34' cy='98' r='4' fill='none'/><line x1='31.2' y1='95.2' x2='36.8' y2='100.8'/><line x1='31.2' y1='100.8' x2='36.8' y2='95.2'/><circle cx='50' cy='98' r='4' fill='currentColor'/><circle cx='58' cy='98' r='4' fill='currentColor'/><circle cx='76' cy='98' r='4' fill='none'/><line x1='73.2' y1='95.2' x2='78.8' y2='100.8'/><line x1='73.2' y1='100.8' x2='78.8' y2='95.2'/><circle cx='84' cy='98' r='4' fill='none'/><line x1='81.2' y1='95.2' x2='86.8' y2='100.8'/><line x1='81.2' y1='100.8' x2='86.8' y2='95.2'/><circle cx='160' cy='77' r='4' fill='none'/><line x1='157.2' y1='74.2' x2='162.8' y2='79.8'/><line x1='157.2' y1='79.8' x2='162.8' y2='74.2'/><circle cx='168' cy='77' r='4' fill='currentColor'/><circle cx='176' cy='77' r='4' fill='none'/><line x1='173.2' y1='74.2' x2='178.8' y2='79.8'/><line x1='173.2' y1='79.8' x2='178.8' y2='74.2'/><circle cx='200' cy='77' r='4' fill='none'/><line x1='197.2' y1='74.2' x2='202.8' y2='79.8'/><line x1='197.2' y1='79.8' x2='202.8' y2='74.2'/><circle cx='208' cy='77' r='4' fill='currentColor'/><circle cx='216' cy='77' r='4' fill='none'/><line x1='213.2' y1='74.2' x2='218.8' y2='79.8'/><line x1='213.2' y1='79.8' x2='218.8' y2='74.2'/><circle cx='160' cy='98' r='4' fill='none'/><line x1='157.2' y1='95.2' x2='162.8' y2='100.8'/><line x1='157.2' y1='100.8' x2='162.8' y2='95.2'/><circle cx='168' cy='98' r='4' fill='currentColor'/><circle cx='176' cy='98' r='4' fill='none'/><line x1='173.2' y1='95.2' x2='178.8' y2='100.8'/><line x1='173.2' y1='100.8' x2='178.8' y2='95.2'/><circle cx='200' cy='98' r='4' fill='none'/><line x1='197.2' y1='95.2' x2='202.8' y2='100.8'/><line x1='197.2' y1='100.8' x2='202.8' y2='95.2'/><circle cx='208' cy='98' r='4' fill='currentColor'/><circle cx='216' cy='98' r='4' fill='none'/><line x1='213.2' y1='95.2' x2='218.8' y2='100.8'/><line x1='213.2' y1='100.8' x2='218.8' y2='95.2'/></g><g fill='currentColor' font-size='11'><polygon points='144,28 137,24 137,32'/><polygon points='144,88 137,84 137,92'/><text x='0' y='32'>I)</text><text x='0' y='92'>II)</text></g></svg>",
+"opts": [
+"2 N₂ + O₂ → 2 N₂O",
+"N₂ + O₂ → 2 NO",
+"N₂ + 2 O₂ → 2 NO₂",
+"N₂ + O₂ → N₂O₂"
+],
+"a": 0,
+"d": [
+[
+"Ler o modelo",
+"Identifique a fórmula do produto contando os átomos de cada molécula.",
+""
+],
+[
+"Balanceamento",
+"O número de átomos de cada elemento tem de ser igual nos dois lados."
+]
+],
+"h": [
+"Nos produtos de II, cada molécula tem dois N e um O: N₂O.",
+"Para 2 N₂O são precisos 4 N (2 N₂) e 2 O (1 O₂).",
+"<b>2 N₂ + O₂ → 2 N₂O</b>."
+]
+},
+{
+"id": "1994-1-08",
+"ano": 1994,
+"fase": 1,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1994, 1ª fase, questão 8",
+"r": 1360,
+"tm": 75,
+"ctx": "A água pura em contato com o ar absorve gás carbônico, que pode ser eliminado por fervura: CO₂(g) + H₂O(l) ⇌ HCO₃⁻(aq) + H⁺(aq). O azul de bromotimol é amarelo em meio ácido, verde em meio neutro e azul em meio básico. Uma amostra de água pura foi fervida e depois deixada exposta ao ar por longo tempo; em seguida, adicionou-se o indicador. Qual a cor resultante?",
+"opts": [
+"amarela: a água voltou a absorver CO₂ do ar e ficou ácida",
+"verde: a fervura eliminou o CO₂ e a água ficou neutra",
+"azul: a fervura deixou a água básica",
+"incolor: o indicador se decompõe em água fervida"
+],
+"a": 0,
+"d": [
+[
+"Le Chatelier",
+"Mais CO₂ dissolvido desloca o equilíbrio para a direita, produzindo H⁺.",
+""
+],
+[
+"Ordem dos fatos",
+"Veja o que acontece por último com a amostra antes do teste."
+]
+],
+"h": [
+"A fervura retira o CO₂, mas depois a água fica longo tempo exposta ao ar.",
+"Ela volta a dissolver CO₂, formando H⁺: a solução fica ácida.",
+"O indicador fica <b>amarelo</b>."
+]
+},
+{
+"id": "1994-1-09a",
+"ano": 1994,
+"fase": 1,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1994, 1ª fase, questão 9(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "A atração gravitacional da Lua e o movimento conjunto de rotação da Lua e da Terra fazem a água dos oceanos formar dois \"bojos\" (marés altas): um voltado para a Lua e outro no lado oposto da Terra. A influência do Sol é menor, mas não desprezível. Quantas marés altas ocorrem num dia, num mesmo local?",
+"a": 2,
+"u": "marés",
+"tol": 0,
+"d": [
+[
+"Dois bojos",
+"A Terra gira uma vez por dia sob os dois bojos de água.",
+""
+]
+],
+"h": [
+"Em uma rotação, um ponto da Terra passa pelos dois bojos.",
+"<b>2 marés altas</b> por dia (a cada cerca de 12 h 25 min)."
+]
+},
+{
+"id": "1994-1-09b",
+"ano": 1994,
+"fase": 1,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1994, 1ª fase, questão 9(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "A atração gravitacional da Lua e o movimento conjunto de rotação da Lua e da Terra fazem a água dos oceanos formar dois \"bojos\" (marés altas): um voltado para a Lua e outro no lado oposto da Terra. A influência do Sol é menor, mas não desprezível. Como estará a maré no Brasil quando a Lua estiver bem acima do Japão (do outro lado do planeta)?",
+"opts": [
+"alta: o Brasil está no bojo oposto ao da Lua",
+"baixa: a Lua está longe do Brasil",
+"média, sem maré alta nem baixa",
+"baixa, porque o Sol está acima do Brasil"
+],
+"a": 0,
+"d": [
+[
+"Bojos opostos",
+"A água se acumula tanto do lado voltado para a Lua quanto do lado oposto.",
+""
+]
+],
+"h": [
+"Japão e Brasil estão em lados quase opostos da Terra.",
+"Com a Lua sobre o Japão, o Brasil fica no bojo oposto.",
+"Maré <b>alta</b> no Brasil."
+]
+},
+{
+"id": "1994-1-09c",
+"ano": 1994,
+"fase": 1,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1994, 1ª fase, questão 9(c)",
+"r": 1190,
+"tm": 45,
+"ctx": "A atração gravitacional da Lua e o movimento conjunto de rotação da Lua e da Terra fazem a água dos oceanos formar dois \"bojos\" (marés altas): um voltado para a Lua e outro no lado oposto da Terra. A influência do Sol é menor, mas não desprezível. Em que situação a maré é mais intensa, e qual a fase da Lua?",
+"opts": [
+"Sol, Terra e Lua alinhados: Lua nova ou Lua cheia",
+"Sol e Lua formando 90° com a Terra: quarto crescente ou minguante",
+"só na Lua cheia, quando a Lua está mais perto",
+"só na Lua nova, quando a Lua fica invisível"
+],
+"a": 0,
+"d": [
+[
+"Efeitos somados",
+"Quando as forças de maré do Sol e da Lua atuam na mesma linha, os bojos se somam.",
+""
+]
+],
+"h": [
+"Os bojos do Sol e da Lua coincidem quando os três astros estão alinhados.",
+"Isso ocorre com a Lua entre Terra e Sol (nova) ou do lado oposto (cheia).",
+"<b>Lua nova ou Lua cheia</b> (marés de sizígia)."
+]
+},
+{
+"id": "1994-1-10",
+"ano": 1994,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1994, 1ª fase, questão 10",
+"r": 1280,
+"tm": 75,
+"ctx": "A potência de um chuveiro elétrico ligado a 220 V é P = V²/R, e a resistência R é proporcional ao comprimento do resistor; V = R·I. Deseja-se aumentar a potência mudando só o comprimento do resistor. O que acontece com a temperatura da água, com o comprimento do resistor, com a corrente e com a tensão?",
+"opts": [
+"água mais quente; diminuir o comprimento; a corrente aumenta; a tensão continua 220 V",
+"água mais quente; aumentar o comprimento; a corrente diminui; a tensão aumenta",
+"água mais fria; diminuir o comprimento; a corrente aumenta; a tensão diminui",
+"água mais quente; diminuir o comprimento; a corrente diminui; a tensão continua 220 V"
+],
+"a": 0,
+"d": [
+[
+"Potência com tensão fixa",
+"P = V²/R: com V constante, menor R dá maior P.",
+""
+],
+[
+"Segunda lei de Ohm",
+"R é proporcional ao comprimento do fio."
+]
+],
+"h": [
+"Mais potência aquece mais a água.",
+"Para P aumentar com V fixo, R precisa diminuir: encurte o resistor.",
+"I = V/R aumenta, e V é a da rede: <b>mais quente, encurtar, corrente maior, tensão igual</b>."
+]
+},
+{
+"id": "1994-1-11a",
+"ano": 1994,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1994, 1ª fase, questão 11(a) (o original pede o volume total a partir da parte não submersa)",
+"r": 1190,
+"tm": 60,
+"ctx": "Num iceberg, a parte submersa corresponde a 8/9 do volume total, e o volume da parte não submersa é 135.000 m³. Qual o volume total do iceberg?",
+"a": 1215000,
+"u": "m³",
+"tol": 0.01,
+"d": [
+[
+"Fração",
+"Se 8/9 está submerso, a parte de fora é 1/9 do total.",
+""
+]
+],
+"h": [
+"A parte não submersa é 1/9 do volume total.",
+"V = 9 × 135.000.",
+"V = <b>1.215.000 m³</b>."
+]
+},
+{
+"id": "1994-1-11b",
+"ano": 1994,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1994, 1ª fase, questão 11(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Um iceberg tem volume total de 1.215.000 m³. Se 2% do volume são \"impurezas\" (matéria orgânica, ar, minerais), qual o volume de gelo puro?",
+"a": 1190700,
+"u": "m³",
+"tol": 0.01,
+"d": [
+[
+"Porcentagem",
+"Gelo puro = 98% do total.",
+""
+]
+],
+"h": [
+"1.215.000 × 0,98.",
+"<b>1.190.700 m³</b>."
+]
+},
+{
+"id": "1994-1-12",
+"ano": 1994,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1994, 1ª fase, questão 12",
+"r": 1530,
+"tm": 90,
+"ctx": "Dois círculos concêntricos têm raios 3 cm e 5 cm. Qual o comprimento do maior segmento de reta inteiramente contido na região entre eles (dentro do maior e fora do menor)?",
+"a": 8,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Corda tangente",
+"O maior segmento que não entra no círculo menor é a corda do círculo maior tangente ao menor.",
+""
+],
+[
+"Pitágoras",
+"O raio até o ponto de tangência é perpendicular à corda e a corta ao meio."
+]
+],
+"h": [
+"Metade da corda: √(5² − 3²) = √16 = 4 cm.",
+"Corda inteira: 2 × 4.",
+"<b>8 cm</b>."
+]
+},
+{
+"id": "1994-2-mat-01",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "frac",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 1",
+"r": 1020,
+"tm": 60,
+"ctx": "Uma senhora comprou uma caixa de bombons para os dois filhos. Um deles tirou para si metade dos bombons da caixa. Mais tarde, o outro tirou metade dos bombons que encontrou. Restaram 10 bombons. Quantos bombons havia na caixa?",
+"a": 40,
+"u": "bombons",
+"tol": 0,
+"d": [
+[
+"Desfazer as operações",
+"Comece do fim: se depois de tirar metade sobraram 10, antes havia o dobro.",
+""
+]
+],
+"h": [
+"Antes do segundo menino: 2 × 10 = 20.",
+"Antes do primeiro: 2 × 20 = 40.",
+"<b>40 bombons</b>."
+]
+},
+{
+"id": "1994-2-mat-02",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 2",
+"r": 1280,
+"tm": 60,
+"ctx": "A divisão de um inteiro positivo N por 1994 deixa resto 148. Qual o resto da divisão de N + 2000 por 1994?",
+"a": 154,
+"tol": 0,
+"d": [
+[
+"Divisão euclidiana",
+"N = 1994q + r, com 0 ≤ r < 1994.",
+""
+],
+[
+"Somar e reduzir",
+"Some ao resto e tire 1994 se passar."
+]
+],
+"h": [
+"N + 2000 = 1994q + 148 + 2000 = 1994q + 2148.",
+"2148 = 1994 + 154.",
+"Resto: <b>154</b>."
+]
+},
+{
+"id": "1994-2-mat-03",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 3",
+"r": 1280,
+"tm": 75,
+"ctx": "Uma rampa de inclinação constante tem 4 m de altura no ponto mais alto. Uma pessoa, depois de caminhar 12,3 m sobre a rampa, está a 1,5 m de altura. Quantos metros ela ainda precisa caminhar para chegar ao topo?",
+"a": 20.5,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Semelhança",
+"Com inclinação constante, altura e distância percorrida na rampa são proporcionais.",
+""
+]
+],
+"h": [
+"Comprimento total: 12,3 × 4/1,5 = 32,8 m.",
+"Falta: 32,8 − 12,3.",
+"<b>20,5 m</b>."
+]
+},
+{
+"id": "1994-2-mat-04",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 4",
+"r": 1280,
+"tm": 75,
+"ctx": "Num quadrilátero convexo ABCD, a diagonal AC mede 12 cm, e os vértices B e D distam, respectivamente, 3 cm e 5 cm da diagonal AC. Qual a área do quadrilátero?",
+"a": 48,
+"u": "cm²",
+"tol": 0.01,
+"d": [
+[
+"Decomposição",
+"A diagonal AC divide o quadrilátero em dois triângulos de base AC.",
+""
+],
+[
+"Área do triângulo",
+"base × altura ÷ 2; a altura é a distância do vértice à base."
+]
+],
+"h": [
+"Triângulo ABC: 12 × 3/2 = 18. Triângulo ACD: 12 × 5/2 = 30.",
+"18 + 30.",
+"<b>48 cm²</b>."
+]
+},
+{
+"id": "1994-2-mat-05a",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 5(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Suponha que os preços venham subindo 30% ao mês e continuem assim nos próximos meses. Quanto custará, daqui a 60 dias, um objeto que hoje custa CR$ 27.300,00?",
+"a": 46137,
+"u": "CR$",
+"tol": 0.005,
+"d": [
+[
+"Aumentos sucessivos",
+"Cada aumento de 30% multiplica o preço por 1,3; dois meses: × 1,3².",
+""
+]
+],
+"h": [
+"1,3² = 1,69.",
+"27.300 × 1,69.",
+"<b>CR$ 46.137,00</b>."
+]
+},
+{
+"id": "1994-2-mat-05b",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 5(b)",
+"r": 1360,
+"tm": 60,
+"ctx": "Suponha que os preços venham subindo 30% ao mês e continuem assim nos próximos meses. Quanto custava há um mês um objeto que hoje custa CR$ 27.300,00?",
+"a": 21000,
+"u": "CR$",
+"tol": 0.005,
+"d": [
+[
+"Desfazer um aumento",
+"Se o preço de hoje é o de antes × 1,3, o de antes é o de hoje ÷ 1,3 (não basta tirar 30%).",
+""
+]
+],
+"h": [
+"P × 1,3 = 27.300.",
+"P = 27.300/1,3.",
+"<b>CR$ 21.000,00</b>."
+]
+},
+{
+"id": "1994-2-mat-06",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 6",
+"r": 1440,
+"tm": 75,
+"ctx": "Os números a = 2121 e b = 136 estão escritos nos sistemas de numeração de bases 3 e 7, respectivamente. Qual deles é maior, e quanto vale em base 10?",
+"opts": [
+"b, que vale 76",
+"a, que vale 70",
+"a, que vale 2121",
+"b, que vale 70"
+],
+"a": 0,
+"d": [
+[
+"Mudança de base",
+"Em base B, o número dₖ...d₁d₀ vale dₖ·Bᵏ + ... + d₁·B + d₀.",
+""
+]
+],
+"h": [
+"a = 2·3³ + 1·3² + 2·3 + 1 = 54 + 9 + 6 + 1 = 70.",
+"b = 1·7² + 3·7 + 6 = 49 + 21 + 6 = 76.",
+"O maior é <b>b = 76</b>."
+]
+},
+{
+"id": "1994-2-mat-07",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 7",
+"r": 1620,
+"tm": 120,
+"ctx": "Uma torneira enche um tanque em 12 min; outra enche o mesmo tanque em 18 min. Com o tanque vazio, abre-se a primeira durante x minutos; depois ela é fechada e abre-se a segunda, que termina de encher o tanque em x + 3 minutos. Qual o tempo total gasto para encher o tanque?",
+"a": 15,
+"u": "min",
+"tol": 0,
+"d": [
+[
+"Vazão",
+"Uma torneira que enche o tanque em T min enche 1/T do tanque por minuto.",
+""
+],
+[
+"Partes somam um tanque",
+"Some as frações enchidas por cada torneira e iguale a 1."
+]
+],
+"h": [
+"x/12 + (x + 3)/18 = 1 → 3x + 2(x + 3) = 36.",
+"5x = 30 → x = 6 min; a segunda fica 9 min.",
+"Total: 6 + 9 = <b>15 min</b>."
+]
+},
+{
+"id": "1994-2-mat-08",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 8",
+"r": 1620,
+"tm": 90,
+"ctx": "De um barril de 100 litros de vinho retiram-se x litros e adicionam-se x litros de água. Da mistura, retiram-se outros x litros e adicionam-se x litros de água. Agora o barril tem 64 litros de vinho e 36 de água. Quanto vale x?",
+"a": 20,
+"u": "L",
+"tol": 0,
+"d": [
+[
+"Fração que sobra",
+"Retirar x litros de uma mistura de 100 litros tira a fração x/100 de cada componente.",
+""
+],
+[
+"Repetição",
+"Duas retiradas: o vinho fica multiplicado por (1 − x/100)²."
+]
+],
+"h": [
+"Vinho: 100·(1 − x/100)² = 64.",
+"(1 − x/100)² = 0,64 → 1 − x/100 = 0,8.",
+"x = <b>20 L</b>."
+]
+},
+{
+"id": "1994-2-mat-09",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 9",
+"r": 1780,
+"tm": 120,
+"ctx": "Quais são o quociente e o resto da divisão de x¹⁰⁰ + x + 1 por x² − 1?",
+"opts": [
+"quociente x⁹⁸ + x⁹⁶ + ... + x² + 1; resto x + 2",
+"quociente x⁹⁸; resto x + 1",
+"quociente x⁹⁸ + x⁹⁶ + ... + x² + 1; resto 2",
+"quociente x⁵⁰ + 1; resto x + 2"
+],
+"a": 0,
+"d": [
+[
+"Resto da divisão por grau 2",
+"O resto tem grau menor que 2: r(x) = ax + b. Use as raízes do divisor: p(1) = r(1) e p(−1) = r(−1).",
+""
+],
+[
+"Soma de PG",
+"x¹⁰⁰ − 1 = (x² − 1)(x⁹⁸ + x⁹⁶ + ... + x² + 1)."
+]
+],
+"h": [
+"p(1) = 3 = a + b e p(−1) = 1 = −a + b → b = 2, a = 1: resto x + 2.",
+"x¹⁰⁰ + x + 1 − (x + 2) = x¹⁰⁰ − 1 = (x² − 1)(x⁹⁸ + ... + x² + 1).",
+"<b>Quociente x⁹⁸ + x⁹⁶ + ... + x² + 1; resto x + 2</b>."
+]
+},
+{
+"id": "1994-2-mat-10a",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 10(a)",
+"r": 1620,
+"tm": 90,
+"ctx": "Usando sen²α + cos²α = 1 e o cosseno da soma, como se deduzem as fórmulas sen(α/2) = ±√[(1 − cos α)/2] e cos(α/2) = ±√[(1 + cos α)/2]?",
+"opts": [
+"cos α = cos²(α/2) − sen²(α/2), que dá cos α = 1 − 2sen²(α/2) = 2cos²(α/2) − 1; isole sen² e cos²",
+"sen α = 2sen(α/2)cos(α/2), dividindo por 2",
+"cos α = cos(α/2) + cos(α/2)",
+"tg α = 2tg(α/2)/(1 − tg²(α/2))"
+],
+"a": 0,
+"d": [
+[
+"Cosseno da soma",
+"cos(a + b) = cos a·cos b − sen a·sen b.",
+""
+],
+[
+"Relação fundamental",
+"sen² x + cos² x = 1."
+]
+],
+"h": [
+"Com a = b = α/2: cos α = cos²(α/2) − sen²(α/2).",
+"Trocando cos² por 1 − sen²: cos α = 1 − 2sen²(α/2) → sen²(α/2) = (1 − cos α)/2.",
+"Trocando sen² por 1 − cos²: cos²(α/2) = (1 + cos α)/2. Tire a raiz: <b>daí as duas fórmulas</b>."
+]
+},
+{
+"id": "1994-2-mat-10b",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 10(b)",
+"r": 1780,
+"tm": 90,
+"ctx": "Nas fórmulas sen(α/2) = ±√[(1 − cos α)/2] e cos(α/2) = ±√[(1 + cos α)/2], com α entre 0 e 2π, quando se usa cada sinal?",
+"opts": [
+"sen(α/2): sempre \"+\"; cos(α/2): \"+\" para 0 ≤ α ≤ π e \"−\" para π < α ≤ 2π",
+"sen(α/2): \"+\" para 0 ≤ α ≤ π e \"−\" depois; cos(α/2): sempre \"+\"",
+"os dois sempre com \"+\"",
+"sen(α/2): sempre \"−\"; cos(α/2): sempre \"+\""
+],
+"a": 0,
+"d": [
+[
+"Sinal pelo quadrante",
+"O sinal certo é o sinal real de sen(α/2) e cos(α/2), que depende do quadrante de α/2.",
+""
+]
+],
+"h": [
+"Para 0 ≤ α ≤ 2π, α/2 está entre 0 e π (1º ou 2º quadrante).",
+"Nesses quadrantes o seno é ≥ 0; o cosseno é ≥ 0 no 1º (α ≤ π) e ≤ 0 no 2º (α > π).",
+"<b>sen: sempre \"+\"; cos: \"+\" até α = π e \"−\" depois</b>."
+]
+},
+{
+"id": "1994-2-mat-11",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 11",
+"r": 1620,
+"tm": 90,
+"ctx": "Seja f(x) = ln(−x), com domínio x < 0. Como o gráfico de g(x) = ln(1 − x) se obtém a partir do de f?",
+"opts": [
+"g(x) = f(x − 1): é o gráfico de f deslocado 1 unidade para a direita (domínio x < 1, passa por (0, 0))",
+"g(x) = f(x + 1): deslocado 1 unidade para a esquerda",
+"g(x) = f(x) + 1: deslocado 1 unidade para cima",
+"g(x) = −f(x): refletido no eixo x"
+],
+"a": 0,
+"d": [
+[
+"Translação horizontal",
+"O gráfico de f(x − c) é o de f deslocado c unidades para a direita.",
+""
+],
+[
+"Reflexão",
+"ln(−x) é o gráfico de ln x refletido no eixo y."
+]
+],
+"h": [
+"1 − x = −(x − 1), então g(x) = ln(−(x − 1)) = f(x − 1).",
+"Deslocamento de 1 para a direita: o domínio x < 0 vira x < 1.",
+"<b>g é f deslocada 1 unidade para a direita</b>; g(0) = ln 1 = 0."
+]
+},
+{
+"id": "1994-2-mat-12a",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 12(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Considere as circunferências x² + y² = x e x² + y² = y. Quais são seus centros e raios?",
+"opts": [
+"(1/2, 0) e (0, 1/2), ambas de raio 1/2",
+"(1, 0) e (0, 1), ambas de raio 1",
+"(0, 0), de raios 1 e 1/2",
+"(−1/2, 0) e (0, −1/2), ambas de raio 1/2"
+],
+"a": 0,
+"d": [
+[
+"Completar quadrados",
+"x² − x = (x − 1/2)² − 1/4.",
+""
+],
+[
+"Forma reduzida",
+"(x − a)² + (y − b)² = r²: centro (a, b), raio r."
+]
+],
+"h": [
+"x² − x + y² = 0 → (x − 1/2)² + y² = 1/4.",
+"Do mesmo modo: x² + (y − 1/2)² = 1/4.",
+"<b>Centros (1/2, 0) e (0, 1/2); raios 1/2</b>."
+]
+},
+{
+"id": "1994-2-mat-12b",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 12(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "Considere as circunferências x² + y² = x e x² + y² = y. Em que pontos elas se cortam?",
+"opts": [
+"(0, 0) e (1/2, 1/2)",
+"(1/2, 0) e (0, 1/2)",
+"só em (0, 0)",
+"(1, 1) e (0, 0)"
+],
+"a": 0,
+"d": [
+[
+"Interseção",
+"Resolva o sistema: subtraia uma equação da outra.",
+""
+]
+],
+"h": [
+"Subtraindo: x = y.",
+"Na primeira: 2x² = x → x = 0 ou x = 1/2.",
+"Pontos <b>(0, 0) e (1/2, 1/2)</b>. Em (0, 0), as tangentes são os eixos (x = 0 e y = 0), perpendiculares."
+]
+},
+{
+"id": "1994-2-mat-13",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 13",
+"r": 1960,
+"tm": 150,
+"ctx": "Seja α ≠ −1 um número complexo com αⁿ = 1, n inteiro positivo. Quanto vale S = 1 − α + α² − α³ + ... + (−α)ⁿ?",
+"opts": [
+"S = 1 se n é par; S = (1 − α)/(1 + α) se n é ímpar",
+"S = 0 sempre",
+"S = 1 se n é ímpar; S = (1 − α)/(1 + α) se n é par",
+"S = (1 + α)/(1 − α) sempre"
+],
+"a": 0,
+"d": [
+[
+"Soma de PG",
+"Razão q = −α, n + 1 termos: S = [1 − (−α)ⁿ⁺¹]/(1 + α).",
+""
+],
+[
+"Usar αⁿ = 1",
+"αⁿ⁺¹ = α."
+]
+],
+"h": [
+"(−α)ⁿ⁺¹ = (−1)ⁿ⁺¹·αⁿ⁺¹ = (−1)ⁿ⁺¹·α.",
+"n par: (−α)ⁿ⁺¹ = −α → S = (1 + α)/(1 + α) = 1. n ímpar: (−α)ⁿ⁺¹ = α → S = (1 − α)/(1 + α).",
+"<b>1 para n par; (1 − α)/(1 + α) para n ímpar</b>."
+]
+},
+{
+"id": "1994-2-mat-14",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 14",
+"r": 1870,
+"tm": 150,
+"ctx": "Para qualquer sequência, Σ(aⱼ₋₁ − aⱼ), de j = 1 a n, vale a₀ − aₙ (soma telescópica). Com aⱼ = j³, fica Σ[(j − 1)³ − j³] = −n³. Que passo leva daí a 1² + 2² + ... + n² = n³/3 + n²/2 + n/6?",
+"opts": [
+"expandir (j − 1)³ − j³ = −3j² + 3j − 1 e somar: −3Σj² + 3·n(n + 1)/2 − n = −n³; isolar Σj²",
+"trocar j³ por j² e repetir a soma",
+"derivar a identidade em relação a n",
+"dividir os dois lados por 3"
+],
+"a": 0,
+"d": [
+[
+"Cubo da diferença",
+"(j − 1)³ = j³ − 3j² + 3j − 1.",
+""
+],
+[
+"Somas conhecidas",
+"Σj = n(n + 1)/2 e Σ1 = n (de 1 a n)."
+]
+],
+"h": [
+"(j − 1)³ − j³ = −3j² + 3j − 1.",
+"Somando: −3Σj² + 3n(n + 1)/2 − n = −n³.",
+"3Σj² = n³ + 3n²/2 + 3n/2 − n → <b>Σj² = n³/3 + n²/2 + n/6</b>."
+]
+},
+{
+"id": "1994-2-mat-15a",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 15(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Seja a₁ uma aproximação por excesso de √N (N inteiro, N > 1), isto é, a₁ > √N. Por que N/a₁ é uma aproximação por falta, isto é, N/a₁ < √N?",
+"opts": [
+"porque a₁ > √N implica N/a₁ < N/√N = √N",
+"porque N/a₁ é sempre menor que 1",
+"porque N/a₁ = a₁ − 1",
+"porque a₁² < N"
+],
+"a": 0,
+"d": [
+[
+"Inverter desigualdade",
+"Para números positivos, se a > b, então 1/a < 1/b.",
+""
+]
+],
+"h": [
+"De a₁ > √N > 0: 1/a₁ < 1/√N.",
+"Multiplicando por N: N/a₁ < N/√N.",
+"N/√N = √N, logo <b>N/a₁ < √N</b>."
+]
+},
+{
+"id": "1994-2-mat-15b",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 15(b)",
+"r": 1960,
+"tm": 150,
+"ctx": "Seja a₁ uma aproximação por excesso de √N (N inteiro, N > 1), isto é, a₁ > √N. Seja a₂ = (a₁ + N/a₁)/2. Que identidade mostra que a₂ também é aproximação por excesso e que seu erro é menor que metade do erro de a₁?",
+"opts": [
+"a₂ − √N = (a₁ − √N)²/(2a₁), que é positivo e igual a (a₁ − √N)·[(a₁ − √N)/(2a₁)], com (a₁ − √N)/(2a₁) < 1/2",
+"a₂ − √N = (a₁ − √N)/2",
+"a₂ = √(a₁·N)",
+"a₂ − √N = a₁ − N"
+],
+"a": 0,
+"d": [
+[
+"Quadrado perfeito",
+"a₁² − 2a₁√N + N = (a₁ − √N)².",
+""
+],
+[
+"Comparar frações",
+"Se 0 < x < a, então x/(2a) < 1/2."
+]
+],
+"h": [
+"a₂ − √N = (a₁² + N − 2a₁√N)/(2a₁) = (a₁ − √N)²/(2a₁) > 0.",
+"Escreva como (a₁ − √N) × (a₁ − √N)/(2a₁), e note que (a₁ − √N) < a₁.",
+"O fator é menor que 1/2: <b>a₂ − √N < (a₁ − √N)/2</b>. (Ex.: √10 com a₁ = 4: a₂ = 3,25, erro 0,09 contra 0,84.)"
+]
+},
+{
+"id": "1994-2-mat-16a",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 16(a)",
+"r": 1700,
+"tm": 120,
+"ctx": "Numa pirâmide de base quadrada, as faces laterais são triângulos equiláteros e todas as oito arestas medem 1. Quais são a altura e o volume da pirâmide?",
+"opts": [
+"altura √2/2 e volume √2/6",
+"altura √3/2 e volume √3/6",
+"altura 1/2 e volume 1/6",
+"altura √2/2 e volume √2/2"
+],
+"a": 0,
+"d": [
+[
+"Altura da pirâmide regular",
+"O pé da altura é o centro da base; a aresta lateral, a altura e a meia diagonal da base formam um triângulo retângulo.",
+""
+],
+[
+"Volume da pirâmide",
+"V = (área da base × altura)/3."
+]
+],
+"h": [
+"Meia diagonal da base: √2/2. h² = 1² − (√2/2)² = 1/2 → h = √2/2.",
+"V = (1 × √2/2)/3.",
+"<b>h = √2/2 e V = √2/6</b>."
+]
+},
+{
+"id": "1994-2-mat-16b",
+"ano": 1994,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1994, 2ª fase, Matemática, questão 16(b)",
+"r": 2120,
+"tm": 180,
+"ctx": "Numa pirâmide de base quadrada, as faces laterais são triângulos equiláteros e todas as oito arestas medem 1. A esfera centrada no centro da base e tangente às arestas da base também é tangente às arestas laterais. Qual o raio do círculo em que essa esfera corta cada face lateral?",
+"a": 0.289,
+"tol": 0.01,
+"d": [
+[
+"Raio da esfera",
+"A distância do centro da base ao meio de uma aresta da base é 1/2.",
+""
+],
+[
+"Círculo de corte",
+"Esfera de raio R cortada por plano a distância d do centro: círculo de raio √(R² − d²)."
+],
+[
+"Círculo inscrito",
+"Se a esfera toca as três arestas de uma face, o círculo de corte é o inscrito nessa face."
+]
+],
+"h": [
+"A esfera tem raio 1/2 e toca os três lados de cada face lateral.",
+"Então o círculo de corte é o inscrito no triângulo equilátero de lado 1: r = lado·√3/6.",
+"r = √3/6 ≈ <b>0,289</b>."
+]
+},
+{
+"id": "1994-2-fis-01a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1994, 2ª fase, Física, questão 1(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "No circuito, A é um amperímetro de resistência nula e V um voltímetro de resistência infinita. A bateria, de 100 V, tem resistência interna nula e alimenta dois resistores em paralelo: por R₁ passam 10 A e por R₂, 2,0 A. O amperímetro está no fio principal e o voltímetro, em paralelo com R₂. Qual a corrente medida pelo amperímetro?",
+"fig": "<svg viewBox='0 0 220 100' class='fg' role='img' aria-label='bateria de 100 V, amperímetro A no fio de cima, e dois resistores em paralelo: R1, com corrente de 10 A, e R2, com corrente de 2,0 A; voltímetro V em paralelo com R2'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,42 30,15 70,15'/><polyline points='86,15 205,15 205,40'/><polyline points='30,58 30,88 205,88 205,60'/><line x1='20' y1='42' x2='40' y2='42'/><line x1='25' y1='58' x2='35' y2='58' stroke-width='3'/><circle cx='78' cy='15' r='8'/><circle cx='205' cy='50' r='10'/><polyline points='110,15 110,21 115,26.0833 105,36.25 115,46.4167 105,56.5833 115,66.75 105,76.9167 110,82 110,88'/><polyline points='165,15 165,21 170,26.0833 160,36.25 170,46.4167 160,56.5833 170,66.75 160,76.9167 165,82 165,88'/><line x1='98' y1='35' x2='98' y2='65'/><line x1='153' y1='35' x2='153' y2='65'/></g><g fill='currentColor' font-size='10'><polygon points='98,70 95,63 101,63'/><polygon points='153,70 150,63 156,63'/><text x='74' y='19'>A</text><text x='201' y='54'>V</text><text x='2' y='54'>100 V</text><text x='76' y='55'>10 A</text><text x='118' y='55'>R₁</text><text x='126' y='75'>2,0 A</text><text x='173' y='55'>R₂</text></g></svg>",
+"a": 12,
+"u": "A",
+"tol": 0.01,
+"d": [
+[
+"Nós",
+"A corrente que chega a um nó é igual à soma das que saem.",
+""
+]
+],
+"h": [
+"O amperímetro está antes da divisão em R₁ e R₂.",
+"i = 10 + 2,0 = <b>12 A</b>."
+]
+},
+{
+"id": "1994-2-fis-01b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1994, 2ª fase, Física, questão 1(b)",
+"r": 1190,
+"tm": 60,
+"ctx": "No circuito, A é um amperímetro de resistência nula e V um voltímetro de resistência infinita. A bateria, de 100 V, tem resistência interna nula e alimenta dois resistores em paralelo: por R₁ passam 10 A e por R₂, 2,0 A. O amperímetro está no fio principal e o voltímetro, em paralelo com R₂. Quais são a leitura do voltímetro e os valores de R₁ e R₂?",
+"fig": "<svg viewBox='0 0 220 100' class='fg' role='img' aria-label='bateria de 100 V, amperímetro A no fio de cima, e dois resistores em paralelo: R1, com corrente de 10 A, e R2, com corrente de 2,0 A; voltímetro V em paralelo com R2'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,42 30,15 70,15'/><polyline points='86,15 205,15 205,40'/><polyline points='30,58 30,88 205,88 205,60'/><line x1='20' y1='42' x2='40' y2='42'/><line x1='25' y1='58' x2='35' y2='58' stroke-width='3'/><circle cx='78' cy='15' r='8'/><circle cx='205' cy='50' r='10'/><polyline points='110,15 110,21 115,26.0833 105,36.25 115,46.4167 105,56.5833 115,66.75 105,76.9167 110,82 110,88'/><polyline points='165,15 165,21 170,26.0833 160,36.25 170,46.4167 160,56.5833 170,66.75 160,76.9167 165,82 165,88'/><line x1='98' y1='35' x2='98' y2='65'/><line x1='153' y1='35' x2='153' y2='65'/></g><g fill='currentColor' font-size='10'><polygon points='98,70 95,63 101,63'/><polygon points='153,70 150,63 156,63'/><text x='74' y='19'>A</text><text x='201' y='54'>V</text><text x='2' y='54'>100 V</text><text x='76' y='55'>10 A</text><text x='118' y='55'>R₁</text><text x='126' y='75'>2,0 A</text><text x='173' y='55'>R₂</text></g></svg>",
+"opts": [
+"100 V; R₁ = 10 Ω e R₂ = 50 Ω",
+"100 V; R₁ = 50 Ω e R₂ = 10 Ω",
+"12 V; R₁ = 1,2 Ω e R₂ = 6 Ω",
+"83 V; R₁ = 8,3 Ω e R₂ = 42 Ω"
+],
+"a": 0,
+"d": [
+[
+"Paralelo",
+"Todos os ramos em paralelo com a bateria (ideal) ficam com a tensão dela.",
+""
+],
+[
+"Lei de Ohm",
+"R = U/i."
+]
+],
+"h": [
+"Sem resistência interna, cada resistor fica com 100 V: o voltímetro marca 100 V.",
+"R₁ = 100/10 = 10 Ω; R₂ = 100/2,0 = 50 Ω.",
+"<b>100 V; 10 Ω e 50 Ω</b>."
+]
+},
+{
+"id": "1994-2-fis-01c",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1994, 2ª fase, Física, questão 1(c)",
+"r": 1100,
+"tm": 45,
+"ctx": "No circuito, A é um amperímetro de resistência nula e V um voltímetro de resistência infinita. A bateria, de 100 V, tem resistência interna nula e alimenta dois resistores em paralelo: por R₁ passam 10 A e por R₂, 2,0 A. O amperímetro está no fio principal e o voltímetro, em paralelo com R₂. Qual a potência fornecida pela bateria?",
+"fig": "<svg viewBox='0 0 220 100' class='fg' role='img' aria-label='bateria de 100 V, amperímetro A no fio de cima, e dois resistores em paralelo: R1, com corrente de 10 A, e R2, com corrente de 2,0 A; voltímetro V em paralelo com R2'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,42 30,15 70,15'/><polyline points='86,15 205,15 205,40'/><polyline points='30,58 30,88 205,88 205,60'/><line x1='20' y1='42' x2='40' y2='42'/><line x1='25' y1='58' x2='35' y2='58' stroke-width='3'/><circle cx='78' cy='15' r='8'/><circle cx='205' cy='50' r='10'/><polyline points='110,15 110,21 115,26.0833 105,36.25 115,46.4167 105,56.5833 115,66.75 105,76.9167 110,82 110,88'/><polyline points='165,15 165,21 170,26.0833 160,36.25 170,46.4167 160,56.5833 170,66.75 160,76.9167 165,82 165,88'/><line x1='98' y1='35' x2='98' y2='65'/><line x1='153' y1='35' x2='153' y2='65'/></g><g fill='currentColor' font-size='10'><polygon points='98,70 95,63 101,63'/><polygon points='153,70 150,63 156,63'/><text x='74' y='19'>A</text><text x='201' y='54'>V</text><text x='2' y='54'>100 V</text><text x='76' y='55'>10 A</text><text x='118' y='55'>R₁</text><text x='126' y='75'>2,0 A</text><text x='173' y='55'>R₂</text></g></svg>",
+"a": 1200,
+"u": "W",
+"tol": 0.01,
+"d": [
+[
+"Potência",
+"P = U·i, com a corrente total.",
+""
+]
+],
+"h": [
+"Corrente total: 12 A.",
+"P = 100 × 12 = <b>1.200 W</b>."
+]
+},
+{
+"id": "1994-2-fis-02a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1994, 2ª fase, Física, questão 2(a)",
+"r": 1280,
+"tm": 75,
+"ctx": "Um homem está deitado numa rede de massa desprezível. As forças que a rede aplica em cada parede formam 30° com a horizontal, e cada uma tem intensidade de 60 kgf. Qual o peso do homem?",
+"fig": "<svg viewBox='0 0 200 95' class='fg' role='img' aria-label='rede presa a duas paredes; as forças nos ganchos fazem 30 graus com a horizontal; peso mg do homem para baixo no meio'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='12' y1='8' x2='12' y2='70'/><line x1='188' y1='8' x2='188' y2='70'/><polyline points='12,25 100,55 188,25' stroke-width='2'/><line x1='100' y1='55' x2='100' y2='85'/><g stroke-dasharray='3 3' stroke-width='1'><line x1='12' y1='25' x2='60' y2='25'/><line x1='140' y1='25' x2='188' y2='25'/></g></g><g fill='currentColor' font-size='10'><polygon points='100,91 96,83 104,83'/><text x='62' y='34'>30°</text><text x='116' y='34'>30°</text><text x='106' y='86'>mg</text></g></svg>",
+"a": 60,
+"u": "kgf",
+"tol": 0.01,
+"d": [
+[
+"Equilíbrio",
+"A soma das componentes verticais das trações equilibra o peso.",
+""
+],
+[
+"Componente vertical",
+"T·sen θ, com θ o ângulo com a horizontal."
+]
+],
+"h": [
+"Cada tração tem componente vertical 60 × sen 30° = 30 kgf.",
+"Duas trações: 60 kgf.",
+"Peso = <b>60 kgf</b>."
+]
+},
+{
+"id": "1994-2-fis-02b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1994, 2ª fase, Física, questão 2(b)",
+"r": 1530,
+"tm": 90,
+"ctx": "Numa rede de massa desprezível, as forças nos ganchos fazem 30° com a horizontal. Um dos ganchos resiste apenas até 130 kgf. Quantas crianças de 30 kg a rede suporta, mantendo o mesmo ângulo?",
+"fig": "<svg viewBox='0 0 200 95' class='fg' role='img' aria-label='rede presa a duas paredes; as forças nos ganchos fazem 30 graus com a horizontal; peso mg do homem para baixo no meio'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='12' y1='8' x2='12' y2='70'/><line x1='188' y1='8' x2='188' y2='70'/><polyline points='12,25 100,55 188,25' stroke-width='2'/><line x1='100' y1='55' x2='100' y2='85'/><g stroke-dasharray='3 3' stroke-width='1'><line x1='12' y1='25' x2='60' y2='25'/><line x1='140' y1='25' x2='188' y2='25'/></g></g><g fill='currentColor' font-size='10'><polygon points='100,91 96,83 104,83'/><text x='62' y='34'>30°</text><text x='116' y='34'>30°</text><text x='106' y='86'>mg</text></g></svg>",
+"a": 4,
+"u": "crianças",
+"tol": 0,
+"d": [
+[
+"Equilíbrio",
+"Peso total = 2·T·sen 30° = T.",
+""
+],
+[
+"Limite",
+"A tração em cada gancho não pode passar de 130 kgf."
+]
+],
+"h": [
+"Com T = 130 kgf, a rede sustenta no máximo 2 × 130 × 0,5 = 130 kgf.",
+"130/30 ≈ 4,3.",
+"Suporta <b>4 crianças</b> (120 kgf)."
+]
+},
+{
+"id": "1994-2-fis-03a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1994, 2ª fase, Física, questão 3(a)",
+"r": 1360,
+"tm": 60,
+"ctx": "Um escultor de praia fez a estátua de areia de uma modelo (1,70 m de altura, 55 kg), do mesmo tamanho dela. Adotando valores razoáveis, qual o volume da estátua, em litros?",
+"a": 55,
+"u": "L",
+"tol": 0.1,
+"d": [
+[
+"Densidade do corpo humano",
+"O corpo humano tem densidade próxima à da água (ele quase flutua): cerca de 1 kg/L.",
+""
+]
+],
+"h": [
+"Volume da modelo: 55 kg ÷ 1 kg/L ≈ 55 L.",
+"A estátua tem o mesmo tamanho: <b>cerca de 55 L</b>."
+]
+},
+{
+"id": "1994-2-fis-03b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1994, 2ª fase, Física, questão 3(b)",
+"r": 1780,
+"tm": 90,
+"ctx": "Uma estátua de areia tem cerca de 55 L. Tratando cada grão de areia como um cubinho de 0,5 mm de lado, quantos grãos foram usados, aproximadamente?",
+"opts": [
+"cerca de 4·10⁸",
+"cerca de 4·10⁵",
+"cerca de 4·10¹¹",
+"cerca de 4·10⁶"
+],
+"a": 0,
+"d": [
+[
+"Contagem por volume",
+"Número de grãos ≈ volume total ÷ volume de um grão.",
+""
+],
+[
+"Conversão",
+"1 L = 10⁶ mm³."
+]
+],
+"h": [
+"Volume de um grão: 0,5³ = 0,125 mm³.",
+"Volume da estátua: 55 L = 5,5·10⁷ mm³.",
+"5,5·10⁷/0,125 ≈ <b>4·10⁸ grãos</b>."
+]
+},
+{
+"id": "1994-2-fis-04a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1994, 2ª fase, Física, questão 4(a)",
+"r": 1360,
+"tm": 90,
+"ctx": "A velocidade de um automóvel de 800 kg numa avenida entre dois sinais luminosos varia assim: de 0 a 54 km/h entre t = 0 e t = 10 s (uniformemente), constante em 54 km/h até t = 60 s, e de 54 km/h a zero entre t = 60 s e t = 65 s. Qual a força resultante sobre o automóvel em t = 5 s, t = 40 s e t = 62 s?",
+"fig": "<svg viewBox='0 0 200 125' class='fg' role='img' aria-label='gráfico da velocidade em função do tempo: sobe de 0 a 54 km/h entre 0 e 10 s, fica em 54 km/h até 60 s e cai a zero em 65 s'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='36' x2='180' y2='36'/><line x1='50' y1='36' x2='50' y2='105'/><line x1='150' y1='36' x2='150' y2='105'/></g><polyline points='30,8 30,105 185,105' stroke-width='1.5'/><polyline points='30,105 50,36 150,36 160,105' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='116'>0</text><text x='45' y='116'>10</text><text x='85' y='116'>30</text><text x='125' y='116'>50</text><text x='145' y='116'>60</text><text x='160' y='116'>65</text><text x='22' y='108'>0</text><text x='17' y='85'>18</text><text x='17' y='62'>36</text><text x='17' y='39'>54</text><text x='34' y='8'>v (km/h)</text><text x='150' y='124'>t (s)</text></g></svg>",
+"opts": [
+"1.200 N, zero e 2.400 N (esta contrária ao movimento)",
+"1.200 N, 800 N e 2.400 N",
+"4.320 N, zero e 8.640 N",
+"zero, zero e zero, pois a velocidade é constante em cada trecho"
+],
+"a": 0,
+"d": [
+[
+"Aceleração no gráfico v × t",
+"a = Δv/Δt, a inclinação do trecho.",
+""
+],
+[
+"Segunda lei",
+"F = m·a."
+],
+[
+"Conversão",
+"54 km/h = 15 m/s."
+]
+],
+"h": [
+"t = 5 s: a = 15/10 = 1,5 m/s² → F = 800 × 1,5 = 1.200 N.",
+"t = 40 s: velocidade constante → F = 0.",
+"t = 62 s: a = 15/5 = 3,0 m/s² (freando) → F = <b>2.400 N</b>. Resposta: <b>1.200 N, zero e 2.400 N</b>."
+]
+},
+{
+"id": "1994-2-fis-04b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1994, 2ª fase, Física, questão 4(b)",
+"r": 1280,
+"tm": 75,
+"ctx": "A velocidade de um automóvel de 800 kg numa avenida entre dois sinais luminosos varia assim: de 0 a 54 km/h entre t = 0 e t = 10 s (uniformemente), constante em 54 km/h até t = 60 s, e de 54 km/h a zero entre t = 60 s e t = 65 s. Qual a distância entre os dois sinais luminosos?",
+"fig": "<svg viewBox='0 0 200 125' class='fg' role='img' aria-label='gráfico da velocidade em função do tempo: sobe de 0 a 54 km/h entre 0 e 10 s, fica em 54 km/h até 60 s e cai a zero em 65 s'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='36' x2='180' y2='36'/><line x1='50' y1='36' x2='50' y2='105'/><line x1='150' y1='36' x2='150' y2='105'/></g><polyline points='30,8 30,105 185,105' stroke-width='1.5'/><polyline points='30,105 50,36 150,36 160,105' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='116'>0</text><text x='45' y='116'>10</text><text x='85' y='116'>30</text><text x='125' y='116'>50</text><text x='145' y='116'>60</text><text x='160' y='116'>65</text><text x='22' y='108'>0</text><text x='17' y='85'>18</text><text x='17' y='62'>36</text><text x='17' y='39'>54</text><text x='34' y='8'>v (km/h)</text><text x='150' y='124'>t (s)</text></g></svg>",
+"a": 862.5,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Área sob v × t",
+"O deslocamento é a área entre o gráfico da velocidade e o eixo do tempo.",
+""
+],
+[
+"Conversão",
+"54 km/h = 15 m/s."
+]
+],
+"h": [
+"Trapézio: bases 65 s e 50 s, altura 15 m/s.",
+"Área = (65 + 50)/2 × 15 = 57,5 × 15.",
+"d = <b>862,5 m</b>."
+]
+},
+{
+"id": "1994-2-fis-05a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1994, 2ª fase, Física, questão 5(a)",
+"r": 1360,
+"tm": 75,
+"ctx": "Um menino, andando de skate a 2,5 m/s num plano horizontal, lança para cima uma bolinha de gude com velocidade de 4,0 m/s (em relação a ele) e a apanha de volta (g = 10 m/s²). Qual a trajetória da bolinha vista da Terra, e qual a altura máxima que ela atinge?",
+"opts": [
+"parábola; 0,80 m",
+"reta vertical; 0,80 m",
+"parábola; 1,6 m",
+"reta vertical; 0,40 m"
+],
+"a": 0,
+"d": [
+[
+"Composição de movimentos",
+"Para a Terra, a bolinha tem a velocidade horizontal do menino e a vertical do lançamento: lançamento oblíquo.",
+""
+],
+[
+"Altura máxima",
+"h = v<sub>y</sub>²/(2g)."
+]
+],
+"h": [
+"Horizontal 2,5 m/s constante + vertical 4,0 m/s para cima: parábola.",
+"h = 4,0²/20.",
+"<b>Parábola; 0,80 m</b>."
+]
+},
+{
+"id": "1994-2-fis-05b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1994, 2ª fase, Física, questão 5(b)",
+"r": 1360,
+"tm": 60,
+"ctx": "Um menino, andando de skate a 2,5 m/s num plano horizontal, lança para cima uma bolinha de gude com velocidade de 4,0 m/s (em relação a ele) e a apanha de volta (g = 10 m/s²). Que distância horizontal a bolinha percorre?",
+"a": 2,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Tempo de voo",
+"Sobe e desce: t = 2v<sub>y</sub>/g.",
+""
+],
+[
+"Alcance",
+"x = vₓ·t."
+]
+],
+"h": [
+"t = 2 × 4,0/10 = 0,80 s.",
+"x = 2,5 × 0,80.",
+"x = <b>2,0 m</b> (o menino anda o mesmo e a apanha)."
+]
+},
+{
+"id": "1994-2-fis-06a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1994, 2ª fase, Física, questão 6(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Uma bola metálica cai de 1,0 m de altura sobre um chão duro e repica várias vezes; em cada colisão, perde 20% de sua energia. Despreze a resistência do ar (g = 10 m/s²). Qual a altura máxima que a bola atinge depois de duas colisões?",
+"a": 0.64,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Energia potencial",
+"No ponto mais alto, toda a energia é potencial: E = m·g·h, proporcional a h.",
+""
+],
+[
+"Perdas sucessivas",
+"Perder 20% é ficar com 80%: cada colisão multiplica a energia por 0,8."
+]
+],
+"h": [
+"Depois de duas colisões, a energia é 0,8² = 0,64 da inicial.",
+"A altura é proporcional à energia: 0,64 × 1,0 m.",
+"h = <b>0,64 m</b>."
+]
+},
+{
+"id": "1994-2-fis-06b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1994, 2ª fase, Física, questão 6(b)",
+"r": 1620,
+"tm": 75,
+"ctx": "Uma bola metálica cai de 1,0 m de altura sobre um chão duro e repica várias vezes; em cada colisão, perde 20% de sua energia. Despreze a resistência do ar (g = 10 m/s²). Depois de duas colisões, a bola sobe até 0,64 m. Com que velocidade ela atinge o chão na terceira colisão?",
+"a": 3.58,
+"u": "m/s",
+"tol": 0.02,
+"d": [
+[
+"Queda livre",
+"v = √(2·g·h).",
+""
+]
+],
+"h": [
+"A bola cai de 0,64 m.",
+"v = √(2 × 10 × 0,64) = √12,8.",
+"v ≈ <b>3,6 m/s</b>."
+]
+},
+{
+"id": "1994-2-fis-07a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1994, 2ª fase, Física, questão 7(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Sob a ação de uma força constante, um corpo de 4,0 kg adquire, a partir do repouso, a velocidade de 10 m/s. Qual o trabalho realizado por essa força?",
+"a": 200,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Teorema da energia cinética",
+"W = ΔE<sub>c</sub> = m·v²/2 − m·v₀²/2.",
+""
+]
+],
+"h": [
+"W = 4,0 × 10²/2 − 0.",
+"W = <b>200 J</b>."
+]
+},
+{
+"id": "1994-2-fis-07b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1994, 2ª fase, Física, questão 7(b)",
+"r": 1020,
+"tm": 45,
+"ctx": "Sob a ação de uma força constante, um corpo de 4,0 kg adquire, a partir do repouso, a velocidade de 10 m/s. O trabalho foi de 200 J e o corpo se deslocou 25 m. Qual o valor da força?",
+"a": 8,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Trabalho de força constante",
+"W = F·d, com força e deslocamento na mesma direção.",
+""
+]
+],
+"h": [
+"F = W/d = 200/25.",
+"F = <b>8,0 N</b>."
+]
+},
+{
+"id": "1994-2-fis-08a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1994, 2ª fase, Física, questão 8(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Uma criança solta uma pedrinha de 50 g, do repouso, do alto de um prédio de 100 m. Por causa do atrito com o ar, o gráfico da altura em função do tempo não é a parábola y = 100 − 5t²: a altura cai cada vez mais rápido no começo e, a partir de cerca de 4 s, diminui em linha reta, 10 m a cada segundo, até o chão em t = 11 s. Com que velocidade a pedrinha bate no chão?",
+"fig": "<svg viewBox='0 0 200 145' class='fg' role='img' aria-label='gráfico da altura em função do tempo: começa em 100 m com tangente horizontal, curva até 70 m em 4 s e depois segue em linha reta, caindo 10 m por segundo, até chegar a 0 em 11 s'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='105' x2='180' y2='105'/><line x1='30' y1='85' x2='180' y2='85'/><line x1='30' y1='65' x2='180' y2='65'/><line x1='30' y1='45' x2='180' y2='45'/><line x1='30' y1='25' x2='180' y2='25'/><line x1='55' y1='5' x2='55' y2='125'/><line x1='80' y1='5' x2='80' y2='125'/><line x1='105' y1='5' x2='105' y2='125'/><line x1='130' y1='5' x2='130' y2='125'/><line x1='155' y1='5' x2='155' y2='125'/></g><polyline points='30,3 30,125 185,125' stroke-width='1.5'/><polyline points='30,25 42.5,28 55,36 67.5,45 80,55 92.5,65 105,75 117.5,85 130,95 142.5,105 155,115 167.5,125' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='136'>0</text><text x='52' y='136'>2</text><text x='77' y='136'>4</text><text x='102' y='136'>6</text><text x='127' y='136'>8</text><text x='152' y='136'>10</text><text x='12' y='108'>20</text><text x='12' y='88'>40</text><text x='12' y='68'>60</text><text x='12' y='48'>80</text><text x='12' y='28'>100</text><text x='34' y='8'>altura (m)</text><text x='150' y='144'>t (s)</text></g></svg>",
+"a": 10,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Gráfico posição × tempo",
+"A velocidade é a inclinação do gráfico; num trecho reto, ela é constante.",
+""
+],
+[
+"Velocidade terminal",
+"Quando o atrito do ar iguala o peso, a velocidade para de aumentar."
+]
+],
+"h": [
+"No trecho final reto, a altura cai 10 m por segundo (de 30 m em t = 8 s a 0 em t = 11 s).",
+"A velocidade é constante nesse trecho.",
+"v = <b>10 m/s</b> (velocidade terminal)."
+]
+},
+{
+"id": "1994-2-fis-08b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1994, 2ª fase, Física, questão 8(b)",
+"r": 1700,
+"tm": 90,
+"ctx": "Uma criança solta uma pedrinha de 50 g, do repouso, do alto de um prédio de 100 m. Por causa do atrito com o ar, o gráfico da altura em função do tempo não é a parábola y = 100 − 5t²: a altura cai cada vez mais rápido no começo e, a partir de cerca de 4 s, diminui em linha reta, 10 m a cada segundo, até o chão em t = 11 s. A pedrinha chega ao chão a 10 m/s. Qual o trabalho da força de atrito entre t = 0 e t = 11 s (g = 10 m/s²)?",
+"fig": "<svg viewBox='0 0 200 145' class='fg' role='img' aria-label='gráfico da altura em função do tempo: começa em 100 m com tangente horizontal, curva até 70 m em 4 s e depois segue em linha reta, caindo 10 m por segundo, até chegar a 0 em 11 s'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='105' x2='180' y2='105'/><line x1='30' y1='85' x2='180' y2='85'/><line x1='30' y1='65' x2='180' y2='65'/><line x1='30' y1='45' x2='180' y2='45'/><line x1='30' y1='25' x2='180' y2='25'/><line x1='55' y1='5' x2='55' y2='125'/><line x1='80' y1='5' x2='80' y2='125'/><line x1='105' y1='5' x2='105' y2='125'/><line x1='130' y1='5' x2='130' y2='125'/><line x1='155' y1='5' x2='155' y2='125'/></g><polyline points='30,3 30,125 185,125' stroke-width='1.5'/><polyline points='30,25 42.5,28 55,36 67.5,45 80,55 92.5,65 105,75 117.5,85 130,95 142.5,105 155,115 167.5,125' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='136'>0</text><text x='52' y='136'>2</text><text x='77' y='136'>4</text><text x='102' y='136'>6</text><text x='127' y='136'>8</text><text x='152' y='136'>10</text><text x='12' y='108'>20</text><text x='12' y='88'>40</text><text x='12' y='68'>60</text><text x='12' y='48'>80</text><text x='12' y='28'>100</text><text x='34' y='8'>altura (m)</text><text x='150' y='144'>t (s)</text></g></svg>",
+"a": -47.5,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Energia mecânica",
+"O trabalho do atrito é a variação da energia mecânica: W<sub>at</sub> = E<sub>final</sub> − E<sub>inicial</sub>.",
+""
+],
+[
+"Energias",
+"E<sub>c</sub> = m·v²/2; E<sub>p</sub> = m·g·h. Use m em kg."
+]
+],
+"h": [
+"Início: E<sub>p</sub> = 0,050 × 10 × 100 = 50 J; E<sub>c</sub> = 0.",
+"Final: E<sub>c</sub> = 0,050 × 10²/2 = 2,5 J; E<sub>p</sub> = 0.",
+"W<sub>at</sub> = 2,5 − 50 = <b>−47,5 J</b>."
+]
+},
+{
+"id": "1994-2-fis-09a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1994, 2ª fase, Física, questão 9(a)",
+"r": 1870,
+"tm": 120,
+"ctx": "Suponha que um meteorito de 1,0·10¹² kg colida frontalmente com a Terra (6,0·10²⁴ kg) a 36.000 km/h, numa colisão perfeitamente inelástica que libera enorme quantidade de calor. Que fração da energia cinética do meteorito vira calor, e que fração vira energia cinética do conjunto Terra + meteorito?",
+"opts": [
+"praticamente toda vira calor; só cerca de 1,7·10⁻¹³ fica como energia cinética do conjunto",
+"metade vira calor e metade fica como energia cinética",
+"nenhuma vira calor, pois o momento se conserva",
+"cerca de 1,7·10⁻¹³ vira calor; o resto fica como energia cinética"
+],
+"a": 0,
+"d": [
+[
+"Colisão perfeitamente inelástica",
+"Os corpos ficam juntos: m·v = (m + M)·V.",
+""
+],
+[
+"Energia que sobra",
+"E<sub>c,final</sub>/E<sub>c,inicial</sub> = m/(m + M)."
+]
+],
+"h": [
+"V = m·v/(m + M); E<sub>final</sub> = (m + M)V²/2 = E<sub>inicial</sub> × m/(m + M).",
+"m/(m + M) = 10¹²/(6·10²⁴) ≈ 1,7·10⁻¹³.",
+"<b>Praticamente toda a energia vira calor</b>; só 1,7·10⁻¹³ fica como movimento."
+]
+},
+{
+"id": "1994-2-fis-09b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1994, 2ª fase, Física, questão 9(b)",
+"r": 1700,
+"tm": 90,
+"ctx": "Suponha que um meteorito de 1,0·10¹² kg colida frontalmente com a Terra (6,0·10²⁴ kg) a 36.000 km/h, numa colisão perfeitamente inelástica que libera enorme quantidade de calor. São necessários 2,5·10⁶ J para vaporizar 1,0 litro de água. Que fração da água dos oceanos (2,0·10²¹ litros) será vaporizada se o meteorito cair no oceano e toda a sua energia virar calor?",
+"a": 1e-08,
+"tol": 0.02,
+"d": [
+[
+"Energia cinética",
+"E = m·v²/2, com v em m/s (km/h ÷ 3,6).",
+""
+],
+[
+"Proporção",
+"Litros vaporizados = energia ÷ energia por litro."
+]
+],
+"h": [
+"v = 36.000 km/h = 1,0·10⁴ m/s. E = 10¹² × 10⁸/2 = 5,0·10¹⁹ J.",
+"Litros vaporizados: 5,0·10¹⁹/2,5·10⁶ = 2,0·10¹³ L.",
+"Fração: 2,0·10¹³/2,0·10²¹ = <b>1,0·10⁻⁸</b>."
+]
+},
+{
+"id": "1994-2-fis-10a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1994, 2ª fase, Física, questão 10(a)",
+"r": 1530,
+"tm": 75,
+"ctx": "Suponha que o sangue tenha a densidade da água e que o coração seja uma bomba capaz de bombeá-lo a uma pressão de 150 mmHg acima da atmosférica. O cérebro de uma pessoa está 50 cm acima do coração. Adote 1 atm = 750 mmHg = 1,0·10⁵ Pa e g = 10 m/s². Até que altura o coração consegue bombear o sangue?",
+"a": 2,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Conversão de pressão",
+"150 mmHg é 150/750 de 1 atm.",
+""
+],
+[
+"Coluna de líquido",
+"Δp = ρ·g·h."
+]
+],
+"h": [
+"150 mmHg = 0,20 atm = 2,0·10⁴ Pa.",
+"h = Δp/(ρg) = 2,0·10⁴/(1000 × 10).",
+"h = <b>2,0 m</b>."
+]
+},
+{
+"id": "1994-2-fis-10b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1994, 2ª fase, Física, questão 10(b)",
+"r": 1620,
+"tm": 75,
+"ctx": "Suponha que o sangue tenha a densidade da água e que o coração seja uma bomba capaz de bombeá-lo a uma pressão de 150 mmHg acima da atmosférica. O cérebro de uma pessoa está 50 cm acima do coração. Adote 1 atm = 750 mmHg = 1,0·10⁵ Pa e g = 10 m/s². Em outro planeta, qual a aceleração gravitacional máxima para que a pessoa ainda receba sangue no cérebro?",
+"a": 40,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"Coluna de líquido",
+"Δp = ρ·g·h: com Δp fixo, g máximo corresponde à altura que precisa ser vencida.",
+""
+]
+],
+"h": [
+"O coração fornece Δp = 2,0·10⁴ Pa e precisa elevar o sangue h = 0,50 m.",
+"g = 2,0·10⁴/(1000 × 0,50).",
+"g = <b>40 m/s²</b>."
+]
+},
+{
+"id": "1994-2-fis-11a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1994, 2ª fase, Física, questão 11(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Num dia quente, um atleta corre dissipando 750 W durante 30 min. Suponha que ele só transfira essa energia ao meio pela evaporação do suor, e que todo o suor sirva para resfriá-lo. Calor latente de evaporação da água: L = 2.500 J/g. Qual a taxa de perda de água do atleta, em kg/min?",
+"a": 0.018,
+"u": "kg/min",
+"tol": 0.01,
+"d": [
+[
+"Calor latente",
+"Q = m·L.",
+""
+],
+[
+"Taxa",
+"Por minuto, a energia é P × 60 s."
+]
+],
+"h": [
+"Por minuto: 750 × 60 = 45.000 J.",
+"m = 45.000/2.500 = 18 g.",
+"Taxa = <b>0,018 kg/min</b>."
+]
+},
+{
+"id": "1994-2-fis-11b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1994, 2ª fase, Física, questão 11(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Num dia quente, um atleta corre dissipando 750 W durante 30 min. Suponha que ele só transfira essa energia ao meio pela evaporação do suor, e que todo o suor sirva para resfriá-lo. Calor latente de evaporação da água: L = 2.500 J/g. O atleta perde 0,018 kg de água por minuto. Quantos litros ele perde nos 30 min de corrida?",
+"a": 0.54,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Total",
+"Multiplique a taxa pelo tempo; 1 kg de água ≈ 1 L.",
+""
+]
+],
+"h": [
+"0,018 × 30 = 0,54 kg.",
+"<b>0,54 L</b>."
+]
+},
+{
+"id": "1994-2-fis-12a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1994, 2ª fase, Física, questão 12(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Um cilindro de 2,0 L é dividido em duas partes por uma parede móvel fina. O lado esquerdo contém 1,0 mol de um gás ideal; o direito, 2,0 mol do mesmo gás. O conjunto está a 300 K. Adote R = 0,080 atm·L/(mol·K). Qual o volume do lado esquerdo quando a parede está em equilíbrio?",
+"a": 0.667,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Parede em equilíbrio",
+"As pressões dos dois lados ficam iguais.",
+""
+],
+[
+"Gás ideal",
+"Com p e T iguais, V é proporcional a n."
+]
+],
+"h": [
+"p e T iguais: V<sub>esq</sub>/V<sub>dir</sub> = 1/2.",
+"V<sub>esq</sub> = 2,0 × 1/3.",
+"V<sub>esq</sub> ≈ <b>0,67 L</b> (2/3 L)."
+]
+},
+{
+"id": "1994-2-fis-12b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1994, 2ª fase, Física, questão 12(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "Um cilindro de 2,0 L é dividido em duas partes por uma parede móvel fina. O lado esquerdo contém 1,0 mol de um gás ideal; o direito, 2,0 mol do mesmo gás. O conjunto está a 300 K. Adote R = 0,080 atm·L/(mol·K). O lado esquerdo fica com 2/3 L. Qual a pressão nos dois lados, em equilíbrio?",
+"a": 36,
+"u": "atm",
+"tol": 0.01,
+"d": [
+[
+"Gás ideal",
+"p = n·R·T/V.",
+""
+]
+],
+"h": [
+"p = 1,0 × 0,080 × 300/(2/3).",
+"p = 24 × 1,5.",
+"p = <b>36 atm</b> (dos dois lados)."
+]
+},
+{
+"id": "1994-2-fis-13a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1994, 2ª fase, Física, questão 13(a)",
+"r": 1530,
+"tm": 90,
+"ctx": "Um feixe de luz paralelo, vindo da esquerda, com 5,0 cm de diâmetro, passa pela lente A, por um pequeno furo no anteparo P, pela lente B e sai paralelo, com 10 cm de diâmetro. A distância do anteparo à lente A é de 10 cm. Qual a distância entre a lente B e o anteparo?",
+"fig": "<svg viewBox='0 0 210 90' class='fg' role='img' aria-label='feixe paralelo de 5 cm de diâmetro entra pela esquerda na lente A, converge num pequeno furo no anteparo P e diverge até a lente B, de onde sai paralelo com 10 cm de diâmetro'><g fill='none' stroke='currentColor' stroke-width='1.3'><line x1='5' y1='45' x2='205' y2='45' stroke-dasharray='1 3' stroke-width='0.8'/><line x1='60' y1='20' x2='60' y2='70' stroke-width='2'/><line x1='90' y1='10' x2='90' y2='42'/><line x1='90' y1='48' x2='90' y2='80'/><line x1='150' y1='10' x2='150' y2='80' stroke-width='2'/><polyline points='10,35 60,35 90,45 150,25 200,25'/><polyline points='10,55 60,55 90,45 150,65 200,65'/></g><g fill='currentColor' font-size='10'><polygon points='35,35 28,32 28,38'/><polygon points='35,55 28,52 28,58'/><polygon points='185,25 178,22 178,28'/><polygon points='185,65 178,62 178,68'/><text x='56' y='84'>A</text><text x='87' y='90'>P</text><text x='146' y='90'>B</text><text x='65' y='17'>10 cm</text></g></svg>",
+"a": 20,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Feixe que passa por um ponto",
+"Os raios se cruzam no furo e se abrem em linha reta: use semelhança de triângulos.",
+""
+]
+],
+"h": [
+"Antes do furo: o feixe vai de 5,0 cm de largura a 0 em 10 cm.",
+"Depois: de 0 a 10 cm de largura na mesma abertura angular, então percorre o dobro.",
+"Distância P–B = <b>20 cm</b>."
+]
+},
+{
+"id": "1994-2-fis-13b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1994, 2ª fase, Física, questão 13(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "Um feixe de luz paralelo, vindo da esquerda, com 5,0 cm de diâmetro, passa pela lente A, por um pequeno furo no anteparo P, pela lente B e sai paralelo, com 10 cm de diâmetro. A distância do anteparo à lente A é de 10 cm. A lente B está a 20 cm do anteparo. Quais as distâncias focais das lentes (negativa se divergente)?",
+"fig": "<svg viewBox='0 0 210 90' class='fg' role='img' aria-label='feixe paralelo de 5 cm de diâmetro entra pela esquerda na lente A, converge num pequeno furo no anteparo P e diverge até a lente B, de onde sai paralelo com 10 cm de diâmetro'><g fill='none' stroke='currentColor' stroke-width='1.3'><line x1='5' y1='45' x2='205' y2='45' stroke-dasharray='1 3' stroke-width='0.8'/><line x1='60' y1='20' x2='60' y2='70' stroke-width='2'/><line x1='90' y1='10' x2='90' y2='42'/><line x1='90' y1='48' x2='90' y2='80'/><line x1='150' y1='10' x2='150' y2='80' stroke-width='2'/><polyline points='10,35 60,35 90,45 150,25 200,25'/><polyline points='10,55 60,55 90,45 150,65 200,65'/></g><g fill='currentColor' font-size='10'><polygon points='35,35 28,32 28,38'/><polygon points='35,55 28,52 28,58'/><polygon points='185,25 178,22 178,28'/><polygon points='185,65 178,62 178,68'/><text x='56' y='84'>A</text><text x='87' y='90'>P</text><text x='146' y='90'>B</text><text x='65' y='17'>10 cm</text></g></svg>",
+"opts": [
+"f<sub>A</sub> = +10 cm e f<sub>B</sub> = +20 cm (as duas convergentes)",
+"f<sub>A</sub> = +10 cm e f<sub>B</sub> = −20 cm",
+"f<sub>A</sub> = −10 cm e f<sub>B</sub> = +20 cm",
+"f<sub>A</sub> = +5 cm e f<sub>B</sub> = +10 cm"
+],
+"a": 0,
+"d": [
+[
+"Foco",
+"Raios paralelos ao eixo, numa lente convergente, passam pelo foco; raios que saem do foco saem paralelos.",
+""
+]
+],
+"h": [
+"A lente A faz o feixe paralelo convergir no furo: o furo é o foco de A, a 10 cm.",
+"Os raios que saem do furo ficam paralelos depois de B: o furo é o foco de B, a 20 cm.",
+"<b>f<sub>A</sub> = +10 cm e f<sub>B</sub> = +20 cm</b>, ambas convergentes."
+]
+},
+{
+"id": "1994-2-fis-14a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1994, 2ª fase, Física, questão 14(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "Uma piscina tem fundo plano horizontal. Uma onda eletromagnética de 100 MHz, vinda de um satélite, incide perpendicularmente e é parcialmente refletida pela superfície da água e pelo fundo. Nessa frequência, a luz se propaga na água a 4,0·10⁷ m/s. Qual o comprimento de onda na água?",
+"a": 0.4,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Equação fundamental da onda",
+"v = λ·f.",
+""
+]
+],
+"h": [
+"λ = v/f = 4,0·10⁷/1,0·10⁸.",
+"λ = <b>0,40 m</b>."
+]
+},
+{
+"id": "1994-2-fis-14b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1994, 2ª fase, Física, questão 14(b)",
+"r": 1870,
+"tm": 120,
+"ctx": "Uma piscina tem fundo plano horizontal. Uma onda eletromagnética de 100 MHz, vinda de um satélite, incide perpendicularmente e é parcialmente refletida pela superfície da água e pelo fundo. Nessa frequência, a luz se propaga na água a 4,0·10⁷ m/s. O comprimento de onda na água é 0,40 m. Desconsiderando inversões de fase nas reflexões, quais as três menores alturas de água para as quais as ondas refletidas tendem a se cancelar?",
+"opts": [
+"0,10 m, 0,30 m e 0,50 m",
+"0,20 m, 0,40 m e 0,60 m",
+"0,40 m, 0,80 m e 1,2 m",
+"0,05 m, 0,15 m e 0,25 m"
+],
+"a": 0,
+"d": [
+[
+"Diferença de caminho",
+"A onda refletida no fundo percorre a mais 2h (desce e sobe).",
+""
+],
+[
+"Interferência destrutiva",
+"Cancelamento quando a diferença de caminho é um número ímpar de meios comprimentos de onda: (2k + 1)·λ/2."
+]
+],
+"h": [
+"2h = (2k + 1)·λ/2 → h = (2k + 1)·λ/4.",
+"λ/4 = 0,10 m.",
+"h = <b>0,10 m, 0,30 m e 0,50 m</b>."
+]
+},
+{
+"id": "1994-2-fis-15",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1994, 2ª fase, Física, questão 15",
+"r": 1700,
+"tm": 90,
+"ctx": "Partículas α (núcleos de hélio), partículas β (elétrons) e radiação γ (onda eletromagnética) entram, com velocidades comparáveis, perpendicularmente a um campo elétrico uniforme entre duas placas horizontais. A trajetória 1 se curva pouco para cima, a 2 segue reta e a 3 se curva fortemente para baixo. Associe as trajetórias e diga o sentido do campo.",
+"fig": "<svg viewBox='0 0 200 90' class='fg' role='img' aria-label='duas placas horizontais; três trajetórias entrando pela esquerda: uma se curva pouco para cima, uma segue reta e uma se curva fortemente para baixo'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='40' y='5' width='150' height='8'/><rect x='40' y='77' width='150' height='8'/><path d='M20,45 Q120,42 185,16'/><line x1='20' y1='45' x2='185' y2='45'/><path d='M20,45 Q60,45 70,74'/></g><g fill='currentColor' font-size='10'><text x='120' y='30'>1</text><text x='160' y='42'>2</text><text x='76' y='68'>3</text></g></svg>",
+"opts": [
+"1: α, 2: γ, 3: β; campo para cima",
+"1: β, 2: γ, 3: α; campo para baixo",
+"1: α, 2: γ, 3: β; campo para baixo",
+"1: γ, 2: α, 3: β; campo para cima"
+],
+"a": 0,
+"d": [
+[
+"Força elétrica",
+"F = q·E: cargas positivas são empurradas no sentido do campo; negativas, no sentido oposto. Sem carga, nada muda.",
+""
+],
+[
+"Desvio e massa",
+"Com forças de mesma ordem, a = F/m: a partícula muito mais leve desvia muito mais."
+]
+],
+"h": [
+"γ não tem carga: segue reta (2).",
+"O elétron é cerca de 7.000 vezes mais leve que a α: desvia muito (3); a α desvia pouco, para o lado oposto (1).",
+"A α, positiva, vai para cima: o campo aponta para cima. <b>1: α, 2: γ, 3: β; campo para cima</b>."
+]
+},
+{
+"id": "1994-2-fis-16a",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1994, 2ª fase, Física, questão 16(a)",
+"r": 1530,
+"tm": 75,
+"ctx": "Uma espira quadrada de lado 0,20 m e resistência 2,0 Ω atravessa, a 10 m/s, uma região de largura 0,50 m (de x = 0 a x = 0,50 m) com campo magnético uniforme de 0,30 T, entrando no papel; a espira se move no sentido de x positivo. Considere positivo o sentido horário da corrente. Qual a intensidade da corrente na espira enquanto ela entra na região?",
+"fig": "<svg viewBox='0 0 210 100' class='fg' role='img' aria-label='espira quadrada de lado 0,20 m à esquerda, movendo-se para a direita a 10 m/s, em direção a uma região de campo magnético entrando no papel, entre x = 0 e x = 0,50 m'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='15' y='30' width='32' height='32'/><line x1='50' y1='46' x2='68' y2='46'/><line x1='5' y1='88' x2='205' y2='88'/><line x1='90' y1='84' x2='90' y2='92'/><line x1='170' y1='84' x2='170' y2='92'/></g><g fill='currentColor' font-size='9'><polygon points='73,46 66,42 66,50'/><text x='92' y='16'>×</text><text x='92' y='29'>×</text><text x='92' y='42'>×</text><text x='92' y='55'>×</text><text x='92' y='68'>×</text><text x='92' y='81'>×</text><text x='105' y='16'>×</text><text x='105' y='29'>×</text><text x='105' y='42'>×</text><text x='105' y='55'>×</text><text x='105' y='68'>×</text><text x='105' y='81'>×</text><text x='118' y='16'>×</text><text x='118' y='29'>×</text><text x='118' y='42'>×</text><text x='118' y='55'>×</text><text x='118' y='68'>×</text><text x='118' y='81'>×</text><text x='131' y='16'>×</text><text x='131' y='29'>×</text><text x='131' y='42'>×</text><text x='131' y='55'>×</text><text x='131' y='68'>×</text><text x='131' y='81'>×</text><text x='144' y='16'>×</text><text x='144' y='29'>×</text><text x='144' y='42'>×</text><text x='144' y='55'>×</text><text x='144' y='68'>×</text><text x='144' y='81'>×</text><text x='157' y='16'>×</text><text x='157' y='29'>×</text><text x='157' y='42'>×</text><text x='157' y='55'>×</text><text x='157' y='68'>×</text><text x='157' y='81'>×</text><text x='14' y='24'>a = 0,20 m</text><text x='50' y='40'>v</text><text x='84' y='99'>x = 0</text><text x='150' y='99'>x = 0,50 m</text></g></svg>",
+"a": 0.3,
+"u": "A",
+"tol": 0.01,
+"d": [
+[
+"FEM de movimento",
+"ε = B·L·v, com L o lado que corta as linhas de campo.",
+""
+],
+[
+"Lei de Ohm",
+"i = ε/R."
+]
+],
+"h": [
+"ε = 0,30 × 0,20 × 10 = 0,60 V.",
+"i = 0,60/2,0.",
+"i = <b>0,30 A</b>."
+]
+},
+{
+"id": "1994-2-fis-16b",
+"ano": 1994,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1994, 2ª fase, Física, questão 16(b)",
+"r": 1870,
+"tm": 120,
+"ctx": "Uma espira quadrada de lado 0,20 m e resistência 2,0 Ω atravessa, a 10 m/s, uma região de largura 0,50 m (de x = 0 a x = 0,50 m) com campo magnético uniforme de 0,30 T, entrando no papel; a espira se move no sentido de x positivo. Considere positivo o sentido horário da corrente. Como é o gráfico da corrente em função da posição x do centro da espira?",
+"fig": "<svg viewBox='0 0 210 100' class='fg' role='img' aria-label='espira quadrada de lado 0,20 m à esquerda, movendo-se para a direita a 10 m/s, em direção a uma região de campo magnético entrando no papel, entre x = 0 e x = 0,50 m'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='15' y='30' width='32' height='32'/><line x1='50' y1='46' x2='68' y2='46'/><line x1='5' y1='88' x2='205' y2='88'/><line x1='90' y1='84' x2='90' y2='92'/><line x1='170' y1='84' x2='170' y2='92'/></g><g fill='currentColor' font-size='9'><polygon points='73,46 66,42 66,50'/><text x='92' y='16'>×</text><text x='92' y='29'>×</text><text x='92' y='42'>×</text><text x='92' y='55'>×</text><text x='92' y='68'>×</text><text x='92' y='81'>×</text><text x='105' y='16'>×</text><text x='105' y='29'>×</text><text x='105' y='42'>×</text><text x='105' y='55'>×</text><text x='105' y='68'>×</text><text x='105' y='81'>×</text><text x='118' y='16'>×</text><text x='118' y='29'>×</text><text x='118' y='42'>×</text><text x='118' y='55'>×</text><text x='118' y='68'>×</text><text x='118' y='81'>×</text><text x='131' y='16'>×</text><text x='131' y='29'>×</text><text x='131' y='42'>×</text><text x='131' y='55'>×</text><text x='131' y='68'>×</text><text x='131' y='81'>×</text><text x='144' y='16'>×</text><text x='144' y='29'>×</text><text x='144' y='42'>×</text><text x='144' y='55'>×</text><text x='144' y='68'>×</text><text x='144' y='81'>×</text><text x='157' y='16'>×</text><text x='157' y='29'>×</text><text x='157' y='42'>×</text><text x='157' y='55'>×</text><text x='157' y='68'>×</text><text x='157' y='81'>×</text><text x='14' y='24'>a = 0,20 m</text><text x='50' y='40'>v</text><text x='84' y='99'>x = 0</text><text x='150' y='99'>x = 0,50 m</text></g></svg>",
+"opts": [
+"−0,30 A (anti-horária) de x = −0,10 a 0,10 m; zero de 0,10 a 0,40 m; +0,30 A (horária) de 0,40 a 0,60 m",
+"+0,30 A de −0,10 a 0,10 m; zero de 0,10 a 0,40 m; −0,30 A de 0,40 a 0,60 m",
+"+0,30 A durante toda a travessia, de −0,10 a 0,60 m",
+"zero na entrada e na saída; 0,30 A com a espira inteira dentro do campo"
+],
+"a": 0,
+"d": [
+[
+"Lei de Lenz",
+"A corrente induzida cria um campo que se opõe à variação do fluxo.",
+""
+],
+[
+"Sem variação, sem corrente",
+"Com a espira inteira dentro do campo uniforme, o fluxo não muda."
+],
+[
+"Regra da mão direita",
+"Corrente anti-horária cria campo saindo do papel; horária, entrando."
+]
+],
+"h": [
+"Entrando (centro de −0,10 a 0,10 m): o fluxo para dentro aumenta; a corrente cria campo para fora: anti-horária, −0,30 A.",
+"Inteira dentro (centro de 0,10 a 0,40 m): fluxo constante, corrente zero.",
+"Saindo (centro de 0,40 a 0,60 m): o fluxo para dentro diminui; corrente horária, <b>+0,30 A</b>. Resposta: <b>−0,30 A, zero, +0,30 A</b>."
+]
+},
+{
+"id": "1994-2-qui-01",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1994, 2ª fase, Química, questão 1",
+"r": 1190,
+"tm": 75,
+"ctx": "Em regiões desérticas da Austrália, obtém-se água potável de água salobra com um \"aparelho\" improvisado: num buraco no solo com água salobra, coloca-se um copo vazio no centro e cobre-se o buraco com um plástico transparente, com uma pedra no meio, logo acima do copo. Que mudanças de estado ocorrem, onde, e qual absorve energia (de onde ela vem)?",
+"opts": [
+"evaporação, na superfície da água salobra, e condensação, na face interna do plástico; a evaporação absorve energia, que vem do Sol",
+"condensação na água salobra e evaporação no plástico; a condensação absorve energia do solo",
+"fusão e solidificação no copo; a fusão absorve energia do Sol",
+"ebulição no copo e sublimação no plástico; a sublimação absorve energia do ar"
+],
+"a": 0,
+"d": [
+[
+"Mudanças de estado",
+"Líquido → vapor: evaporação (absorve calor). Vapor → líquido: condensação (libera calor).",
+""
+],
+[
+"Destilação",
+"A água evapora deixando os sais para trás."
+]
+],
+"h": [
+"O Sol aquece a água salobra, que evapora; os sais não evaporam.",
+"O vapor encontra o plástico, mais frio, e condensa; as gotas escorrem até a pedra e pingam no copo.",
+"<b>Evaporação (na água salobra) e condensação (no plástico); a evaporação absorve a energia do Sol</b>."
+]
+},
+{
+"id": "1994-2-qui-02a",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1994, 2ª fase, Química, questão 2(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Uma garrafa de 1,5 L, indeformável e seca, foi fechada com uma tampa plástica, à pressão ambiente de 1,0 atm e a 27 °C. Colocada ao sol, a temperatura em seu interior subiu para 57 °C e a tampa foi arremessada pela pressão interna. Qual era a pressão no interior da garrafa imediatamente antes da expulsão da tampa?",
+"a": 1.1,
+"u": "atm",
+"tol": 0.01,
+"d": [
+[
+"Volume constante",
+"p₁/T₁ = p₂/T₂, com T em kelvin.",
+""
+]
+],
+"h": [
+"T₁ = 300 K e T₂ = 330 K.",
+"p₂ = 1,0 × 330/300.",
+"p₂ = <b>1,1 atm</b>."
+]
+},
+{
+"id": "1994-2-qui-02b",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1994, 2ª fase, Química, questão 2(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Uma garrafa de 1,5 L, indeformável e seca, foi fechada com uma tampa plástica, à pressão ambiente de 1,0 atm e a 27 °C. Colocada ao sol, a temperatura em seu interior subiu para 57 °C e a tampa foi arremessada pela pressão interna. Qual a pressão no interior da garrafa depois da saída da tampa?",
+"opts": [
+"1,0 atm, igual à do ambiente, porque o gás escapa até as pressões se igualarem",
+"1,1 atm, pois a temperatura continua 57 °C",
+"zero, pois todo o gás sai",
+"0,9 atm, porque sai gás demais"
+],
+"a": 0,
+"d": [
+[
+"Recipiente aberto",
+"Com a garrafa aberta, o gás flui até a pressão interna igualar a externa.",
+""
+]
+],
+"h": [
+"Sem a tampa, o excesso de gás sai.",
+"O fluxo para quando a pressão dentro é igual à de fora.",
+"<b>1,0 atm</b>."
+]
+},
+{
+"id": "1994-2-qui-03",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1994, 2ª fase, Química, questão 3",
+"r": 1280,
+"tm": 75,
+"ctx": "1,0 mol de um composto contém 72 g de carbono, 12 mol de átomos de hidrogênio e 12·10²³ átomos de oxigênio. Com a constante de Avogadro 6,0·10²³ mol⁻¹ (C = 12), quais são as fórmulas molecular e mínima?",
+"opts": [
+"C₆H₁₂O₂ e C₃H₆O",
+"C₇₂H₁₂O₁₂ e C₆HO",
+"C₆H₁₂O₂ e C₆H₁₂O₂",
+"C₃H₆O e C₆H₁₂O₂"
+],
+"a": 0,
+"d": [
+[
+"Mol de átomos",
+"n = massa ÷ massa molar; n = número de átomos ÷ 6,0·10²³.",
+""
+],
+[
+"Fórmula mínima",
+"Divida os índices pelo seu máximo divisor comum."
+]
+],
+"h": [
+"C: 72/12 = 6 mol. H: 12 mol. O: 12·10²³/6,0·10²³ = 2 mol.",
+"Fórmula molecular: C₆H₁₂O₂.",
+"Dividindo por 2: <b>C₆H₁₂O₂ e C₃H₆O</b>."
+]
+},
+{
+"id": "1994-2-qui-04",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1994, 2ª fase, Química, questão 4",
+"r": 1700,
+"tm": 120,
+"ctx": "O farelo de soja tem alto teor de proteínas, que é avaliado pelo conteúdo de nitrogênio. Compradores descobriram um carregamento adulterado com ureia, (NH₂)₂CO, e pedra moída. Por que os falsificadores usaram as duas coisas juntas?",
+"opts": [
+"a ureia tem muito nitrogênio (cerca de 47%) e aumentaria demais o teor aparente de proteína; a pedra, sem nitrogênio, aumenta a massa e \"dilui\" a ureia até o teor normal",
+"a pedra fornece nitrogênio e a ureia dá a cor do farelo",
+"a ureia reage com a pedra e forma proteína",
+"os dois aumentam o teor de nitrogênio, somando seus efeitos"
+],
+"a": 0,
+"d": [
+[
+"Porcentagem em massa",
+"%N = (massa de N na fórmula ÷ massa molar) × 100.",
+""
+],
+[
+"Diluição",
+"Misturar algo sem nitrogênio baixa o teor de N da mistura."
+]
+],
+"h": [
+"Ureia: M = 60 g/mol, com 28 g de N: cerca de 47% de N, muito mais que o farelo.",
+"Só com ureia, o teor medido ficaria alto demais e denunciaria a fraude.",
+"A pedra moída aumenta a massa vendida e traz o teor de N ao valor esperado: <b>uma compensa a outra</b>."
+]
+},
+{
+"id": "1994-2-qui-05a",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1994, 2ª fase, Química, questão 5(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Uma usina termelétrica poderá lançar na atmosfera cerca de 250 toneladas de SO₂ por dia. Quantas toneladas de enxofre estão contidas nessa massa? (S = 32; O = 16)",
+"a": 125,
+"u": "t",
+"tol": 0.01,
+"d": [
+[
+"Proporção em massa",
+"Em SO₂ (64 g/mol), o enxofre representa 32/64 da massa.",
+""
+]
+],
+"h": [
+"Fração de S: 32/64 = 1/2.",
+"250 × 1/2.",
+"<b>125 t</b> de enxofre."
+]
+},
+{
+"id": "1994-2-qui-05b",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1994, 2ª fase, Química, questão 5(b)",
+"r": 1020,
+"tm": 45,
+"ctx": "A densidade do enxofre sólido é 2,0 kg/L. A que volume, em litros, correspondem 125 toneladas de enxofre?",
+"a": 62500,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Densidade",
+"V = m/d.",
+""
+],
+[
+"Conversão",
+"1 t = 1000 kg."
+]
+],
+"h": [
+"125 t = 125.000 kg.",
+"V = 125.000/2,0.",
+"V = <b>62.500 L</b>."
+]
+},
+{
+"id": "1994-2-qui-06",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1994, 2ª fase, Química, questão 6",
+"r": 1280,
+"tm": 60,
+"ctx": "Três substâncias, CH₄, NH₃ e H₂O, têm as temperaturas de ebulição 373 K, 112 K e 240 K. Considerando estrutura e polaridade, qual a correspondência?",
+"opts": [
+"CH₄: 112 K; NH₃: 240 K; H₂O: 373 K",
+"CH₄: 373 K; NH₃: 240 K; H₂O: 112 K",
+"CH₄: 240 K; NH₃: 112 K; H₂O: 373 K",
+"CH₄: 112 K; NH₃: 373 K; H₂O: 240 K"
+],
+"a": 0,
+"d": [
+[
+"Forças intermoleculares",
+"Moléculas apolares têm só forças fracas (dipolo induzido); ligações de hidrogênio elevam muito a ebulição.",
+""
+],
+[
+"Ligação de hidrogênio",
+"O–H forma ligações mais fortes e mais numerosas que N–H."
+]
+],
+"h": [
+"CH₄ é apolar: forças fracas, menor ebulição (112 K).",
+"NH₃ e H₂O fazem ligações de hidrogênio; as da água são mais fortes e em maior número.",
+"<b>CH₄ 112 K; NH₃ 240 K; H₂O 373 K</b>."
+]
+},
+{
+"id": "1994-2-qui-07",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1994, 2ª fase, Química, questão 7",
+"r": 1190,
+"tm": 60,
+"ctx": "A fórmula geral dos alcenos (hidrocarbonetos de cadeia aberta com uma dupla ligação) é CₙH₂ₙ. Qual o segundo composto da série, e quais são os pentenos de cadeia linear?",
+"opts": [
+"propeno (CH₂=CH–CH₃); pent-1-eno e pent-2-eno",
+"eteno (CH₂=CH₂); pent-1-eno e pent-3-eno",
+"propeno; pent-1-eno, pent-2-eno e pent-3-eno",
+"propano; pent-1-eno e pent-2-eno"
+],
+"a": 0,
+"d": [
+[
+"Série dos alcenos",
+"O menor alceno tem n = 2 (eteno); o seguinte, n = 3.",
+""
+],
+[
+"Numeração",
+"A dupla recebe o menor número possível: pent-3-eno é o mesmo que pent-2-eno."
+]
+],
+"h": [
+"n = 2: eteno; n = 3: propeno, CH₂=CH–CH₃.",
+"Cadeia linear de 5 carbonos: dupla entre C1 e C2 ou entre C2 e C3.",
+"<b>Propeno; pent-1-eno e pent-2-eno</b>."
+]
+},
+{
+"id": "1994-2-qui-08",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1994, 2ª fase, Química, questão 8",
+"r": 1360,
+"tm": 75,
+"ctx": "Numa pilha de mercúrio de relógio ocorrem: Zn(s) → Zn²⁺(aq) + 2 e⁻ e HgO(s) + H₂O(l) + 2 e⁻ → Hg(l) + 2 OH⁻(aq). De qual eletrodo partem os elétrons, e quais substâncias diminuem com o funcionamento?",
+"opts": [
+"do zinco, que se oxida; diminuem Zn, HgO (e H₂O)",
+"do óxido de mercúrio, que se reduz; diminuem Hg e OH⁻",
+"do zinco; diminuem Hg e Zn²⁺",
+"do aço inox; diminuem KOH e Zn"
+],
+"a": 0,
+"d": [
+[
+"Pilha",
+"Os elétrons saem do ânodo, onde ocorre oxidação, e chegam ao cátodo, onde ocorre redução.",
+""
+],
+[
+"Reagentes",
+"O que aparece à esquerda das semirreações é consumido."
+]
+],
+"h": [
+"O zinco perde elétrons (oxidação): é o ânodo, de onde partem os elétrons.",
+"São consumidos o Zn e, no cátodo, o HgO e a H₂O.",
+"<b>Elétrons saem do zinco; diminuem Zn e HgO</b>."
+]
+},
+{
+"id": "1994-2-qui-09a",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1994, 2ª fase, Química, questão 9(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "A reação Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) foi acompanhada no tempo: a curva I (Fe³⁺) cai de 13·10⁻³ para 8·10⁻³ mol/L; a curva II (FeSCN²⁺) sobe de 0 para 5·10⁻³ mol/L; a curva III (SCN⁻) cai de 7·10⁻³ para 2·10⁻³ mol/L. As três ficam constantes a partir de cerca de 400 ms. A partir de que instante o sistema está em equilíbrio?",
+"fig": "<svg viewBox='0 0 210 140' class='fg' role='img' aria-label='concentração em função do tempo: curva I (Fe3+) cai de 13 para 8 milésimos de mol por litro; curva II (FeSCN2+) sobe de 0 para 5; curva III (SCN−) cai de 7 para 2; todas ficam constantes a partir de cerca de 400 ms'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='80' x2='190' y2='80'/><line x1='30' y1='40' x2='190' y2='40'/><line x1='94' y1='10' x2='94' y2='120'/></g><polyline points='30,5 30,120 192,120' stroke-width='1.5'/><path d='M30,16 C45,40 60,56 94,56 L190,56' stroke-width='2'/><path d='M30,120 C40,90 60,82 94,80 L190,80' stroke-width='2'/><path d='M30,64 C45,90 60,104 94,104 L190,104' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='131'>0</text><text x='85' y='131'>400</text><text x='176' y='131'>1000</text><text x='22' y='123'>0</text><text x='4' y='83'>5·10⁻³</text><text x='0' y='43'>10·10⁻³</text><text x='160' y='52'>I</text><text x='160' y='76'>II</text><text x='160' y='100'>III</text><text x='140' y='139'>t (ms)</text><text x='34' y='8'>mol/L</text></g></svg>",
+"opts": [
+"a partir de cerca de 400 ms, quando as concentrações param de variar",
+"em cerca de 100 ms, quando as curvas II e III se cruzam",
+"em t = 0",
+"só em t = 1000 ms"
+],
+"a": 0,
+"d": [
+[
+"Equilíbrio químico",
+"No equilíbrio, as velocidades direta e inversa se igualam e as concentrações ficam constantes (não necessariamente iguais).",
+""
+]
+],
+"h": [
+"O cruzamento das curvas não significa equilíbrio: as concentrações continuam mudando.",
+"Elas ficam constantes por volta de 400 ms.",
+"<b>Cerca de 400 ms</b>."
+]
+},
+{
+"id": "1994-2-qui-09b",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1994, 2ª fase, Química, questão 9(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "A reação Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) foi acompanhada no tempo: a curva I (Fe³⁺) cai de 13·10⁻³ para 8·10⁻³ mol/L; a curva II (FeSCN²⁺) sobe de 0 para 5·10⁻³ mol/L; a curva III (SCN⁻) cai de 7·10⁻³ para 2·10⁻³ mol/L. As três ficam constantes a partir de cerca de 400 ms. Qual a constante de equilíbrio da formação do FeSCN²⁺?",
+"fig": "<svg viewBox='0 0 210 140' class='fg' role='img' aria-label='concentração em função do tempo: curva I (Fe3+) cai de 13 para 8 milésimos de mol por litro; curva II (FeSCN2+) sobe de 0 para 5; curva III (SCN−) cai de 7 para 2; todas ficam constantes a partir de cerca de 400 ms'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='80' x2='190' y2='80'/><line x1='30' y1='40' x2='190' y2='40'/><line x1='94' y1='10' x2='94' y2='120'/></g><polyline points='30,5 30,120 192,120' stroke-width='1.5'/><path d='M30,16 C45,40 60,56 94,56 L190,56' stroke-width='2'/><path d='M30,120 C40,90 60,82 94,80 L190,80' stroke-width='2'/><path d='M30,64 C45,90 60,104 94,104 L190,104' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='131'>0</text><text x='85' y='131'>400</text><text x='176' y='131'>1000</text><text x='22' y='123'>0</text><text x='4' y='83'>5·10⁻³</text><text x='0' y='43'>10·10⁻³</text><text x='160' y='52'>I</text><text x='160' y='76'>II</text><text x='160' y='100'>III</text><text x='140' y='139'>t (ms)</text><text x='34' y='8'>mol/L</text></g></svg>",
+"a": 312.5,
+"u": "L/mol",
+"tol": 0.05,
+"d": [
+[
+"Constante de equilíbrio",
+"K = [FeSCN²⁺]/([Fe³⁺]·[SCN⁻]), com as concentrações de equilíbrio.",
+""
+]
+],
+"h": [
+"No equilíbrio: [FeSCN²⁺] = 5·10⁻³, [Fe³⁺] = 8·10⁻³ e [SCN⁻] = 2·10⁻³ mol/L.",
+"K = 5·10⁻³/(8·10⁻³ × 2·10⁻³) = 5·10⁻³/1,6·10⁻⁵.",
+"K ≈ <b>3,1·10²</b> (L/mol)."
+]
+},
+{
+"id": "1994-2-qui-10",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1994, 2ª fase, Química, questão 10",
+"r": 1530,
+"tm": 90,
+"ctx": "Para C(s) + CO₂(g) ⇌ 2 CO(g), ΔH = +174 kJ/mol, K = p²(CO)/p(CO₂). Qual o efeito sobre o equilíbrio de: (a) adicionar carbono sólido; (b) aumentar a temperatura; (c) introduzir um catalisador?",
+"opts": [
+"(a) nenhum; (b) desloca para a direita; (c) nenhum",
+"(a) desloca para a direita; (b) desloca para a esquerda; (c) desloca para a direita",
+"(a) nenhum; (b) desloca para a esquerda; (c) nenhum",
+"(a) desloca para a direita; (b) desloca para a direita; (c) acelera e desloca para a direita"
+],
+"a": 0,
+"d": [
+[
+"Sólidos no equilíbrio",
+"Sólidos não entram na expressão de K: mudar sua quantidade não desloca o equilíbrio.",
+""
+],
+[
+"Temperatura",
+"Aquecer favorece o sentido endotérmico."
+],
+[
+"Catalisador",
+"Acelera igualmente os dois sentidos: só faz o equilíbrio chegar mais rápido."
+]
+],
+"h": [
+"(a) C é sólido, fora de K: sem efeito.",
+"(b) ΔH > 0: a reação direta é endotérmica, favorecida pelo aquecimento.",
+"(c) Catalisador não desloca. <b>Nenhum; direita; nenhum</b>."
+]
+},
+{
+"id": "1994-2-qui-11",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 1994, 2ª fase, Química, questão 11",
+"r": 1280,
+"tm": 60,
+"ctx": "O gás hidrogênio, H₂, tem densidade de 0,090 g/L a 0 °C e 1 atm. O átomo de hidrogênio tem 1 próton e 1 elétron; o deutério, 1 próton, 1 nêutron e 1 elétron. Qual a relação entre as massas dos átomos de H e de D, e qual a densidade do gás deutério (D₂) nas mesmas condições?",
+"opts": [
+"m(H) : m(D) = 1 : 2; densidade do D₂ = 0,18 g/L",
+"m(H) : m(D) = 1 : 3; densidade do D₂ = 0,27 g/L",
+"m(H) : m(D) = 1 : 1; densidade do D₂ = 0,090 g/L",
+"m(H) : m(D) = 2 : 1; densidade do D₂ = 0,045 g/L"
+],
+"a": 0,
+"d": [
+[
+"Massa do átomo",
+"Próton e nêutron têm massas quase iguais; a do elétron é desprezível.",
+""
+],
+[
+"Densidade de gás",
+"Nas mesmas condições, volumes iguais têm o mesmo número de moléculas: a densidade é proporcional à massa molar."
+]
+],
+"h": [
+"H tem massa ≈ 1 u (um próton); D ≈ 2 u (próton + nêutron): 1 : 2.",
+"D₂ tem massa molar 4 g/mol, o dobro do H₂.",
+"Densidade = 2 × 0,090 = <b>0,18 g/L</b>."
+]
+},
+{
+"id": "1994-2-qui-12",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 1994, 2ª fase, Química, questão 12",
+"r": 1440,
+"tm": 75,
+"ctx": "A produção industrial de metanol e sua combustão em motores são: (I) 3 CH₄ + 2 H₂O + CO₂ → 4 CH₃OH; (II) CH₃OH + 3/2 O₂ → CO₂ + 2 H₂O. Se o CO₂ de (I) vier da atmosfera, é verdade que \"a produção e o consumo de metanol não alterariam a quantidade de CO₂ na atmosfera\"?",
+"opts": [
+"não: a produção de 4 mol de metanol retira 1 mol de CO₂, mas a queima desses 4 mol devolve 4 mol; sobram 3 mol de CO₂ a mais",
+"sim: o CO₂ retirado na produção é devolvido na queima",
+"não: o ciclo retira CO₂ da atmosfera",
+"sim: o metanol não produz CO₂ ao queimar"
+],
+"a": 0,
+"d": [
+[
+"Balanço por quantidade",
+"Compare o CO₂ consumido e o produzido para a mesma quantidade de metanol.",
+""
+]
+],
+"h": [
+"(I) consome 1 mol de CO₂ para 4 mol de CH₃OH.",
+"Queimar 4 mol de CH₃OH (II) produz 4 mol de CO₂.",
+"Saldo: +3 mol de CO₂: a afirmação é <b>falsa</b> (o carbono do CH₄ vai para a atmosfera)."
+]
+},
+{
+"id": "1994-2-qui-13",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1994, 2ª fase, Química, questão 13",
+"r": 1100,
+"tm": 45,
+"ctx": "O sódio reage com o cloro: 2 Na + Cl₂ → 2 NaCl. Pela posição na Tabela Periódica, quais as equações das reações do potássio (K) com o cloro e do cálcio (Ca) com o bromo (Br₂)?",
+"opts": [
+"2 K + Cl₂ → 2 KCl e Ca + Br₂ → CaBr₂",
+"K + Cl₂ → KCl₂ e 2 Ca + Br₂ → 2 CaBr",
+"2 K + Cl₂ → 2 KCl e 2 Ca + Br₂ → 2 CaBr",
+"K + Cl → KCl e Ca + Br → CaBr"
+],
+"a": 0,
+"d": [
+[
+"Famílias",
+"Metais alcalinos (família 1) formam íons +1; alcalinoterrosos (família 2), +2; halogênios (família 17), −1.",
+""
+]
+],
+"h": [
+"K está na família do Na: K⁺ e Cl⁻ → KCl.",
+"Ca forma Ca²⁺; com Br⁻: CaBr₂.",
+"<b>2 K + Cl₂ → 2 KCl; Ca + Br₂ → CaBr₂</b>."
+]
+},
+{
+"id": "1994-2-qui-14a",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1994, 2ª fase, Química, questão 14(a)",
+"r": 1440,
+"tm": 90,
+"ctx": "Combustões: (I) C₂H₅OH(l) + 3 O₂(g) → 2 CO₂(g) + 3 H₂O(l), ΔH = −1368 kJ/mol de etanol; (II) C₂H₄(g) + 3 O₂(g) → 2 CO₂(g) + 2 H₂O(l), ΔH = −1410 kJ/mol de etileno. É possível obter etanol pela reação (III): C₂H₄(g) + H₂O(l) → C₂H₅OH(l). Qual a variação de entalpia, por mol de C₂H₄, da reação III? Ela absorve ou libera calor?",
+"a": -42,
+"u": "kJ/mol",
+"tol": 0.01,
+"d": [
+[
+"Lei de Hess",
+"Some equações (invertendo quando preciso, e trocando o sinal do ΔH) até obter a desejada.",
+""
+]
+],
+"h": [
+"III = II − I: escreva II e a inversa de I (2 CO₂ + 3 H₂O → C₂H₅OH + 3 O₂, ΔH = +1368).",
+"Somando: C₂H₄ + H₂O → C₂H₅OH, ΔH = −1410 + 1368.",
+"ΔH = <b>−42 kJ/mol</b>: libera calor (exotérmica)."
+]
+},
+{
+"id": "1994-2-qui-14b",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1994, 2ª fase, Química, questão 14(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "Combustões: (I) C₂H₅OH(l) + 3 O₂(g) → 2 CO₂(g) + 3 H₂O(l), ΔH = −1368 kJ/mol de etanol; (II) C₂H₄(g) + 3 O₂(g) → 2 CO₂(g) + 2 H₂O(l), ΔH = −1410 kJ/mol de etileno. É possível obter etanol pela reação (III): C₂H₄(g) + H₂O(l) → C₂H₅OH(l). A reação III tem ΔH = −42 kJ/mol. Sabendo que as entalpias de formação da H₂O(l) e do C₂H₄(g) são −286 kJ/mol e +52 kJ/mol, qual a entalpia de formação do C₂H₅OH(l)?",
+"a": -276,
+"u": "kJ/mol",
+"tol": 0.01,
+"d": [
+[
+"ΔH pelas entalpias de formação",
+"ΔH = ΣΔH<sub>f</sub>(produtos) − ΣΔH<sub>f</sub>(reagentes).",
+""
+]
+],
+"h": [
+"−42 = ΔH<sub>f</sub>(etanol) − [52 + (−286)].",
+"−42 = ΔH<sub>f</sub>(etanol) + 234.",
+"ΔH<sub>f</sub>(etanol) = <b>−276 kJ/mol</b>."
+]
+},
+{
+"id": "1994-2-qui-15",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1994, 2ª fase, Química, questão 15",
+"r": 1100,
+"tm": 60,
+"ctx": "Em 100 mL de leite integral há cerca de 120 mg de cálcio. Qual a concentração de cálcio no leite, em mol/L? (Ca = 40)",
+"a": 0.03,
+"u": "mol/L",
+"tol": 0.01,
+"d": [
+[
+"Concentração em massa",
+"Leve para g/L: multiplique a massa em 100 mL por 10.",
+""
+],
+[
+"Concentração molar",
+"mol/L = (g/L) ÷ massa molar."
+]
+],
+"h": [
+"120 mg/100 mL = 1,2 g/L.",
+"1,2/40.",
+"<b>0,030 mol/L</b>."
+]
+},
+{
+"id": "1994-2-qui-16",
+"ano": 1994,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1994, 2ª fase, Química, questão 16",
+"r": 1620,
+"tm": 90,
+"ctx": "Uma lâmpada acende ligada a eletrodos numa solução de ácido sulfúrico. Adiciona-se continuamente água de barita, Ba(OH)₂(aq). A luminosidade cai até quase zero e depois volta a aumentar. Dado: Ba²⁺ + SO₄²⁻ ⇌ BaSO₄(s), Kₛ = 1,0·10⁻¹⁰. Por quê?",
+"fig": "<svg viewBox='0 0 200 110' class='fg' role='img' aria-label='luminosidade da lâmpada em função do volume de água de barita adicionado: cai em linha reta até quase zero e depois volta a subir mais devagar'><g fill='none' stroke='currentColor'><polyline points='25,5 25,95 190,95' stroke-width='1.5'/><polyline points='25,15 85,90 185,60' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='30' y='12'>luminosidade</text><text x='70' y='107'>volume de água de barita</text></g></svg>",
+"opts": [
+"os íons H⁺ e SO₄²⁻ são retirados como H₂O e BaSO₄ (insolúvel), a condução cai até a neutralização total; depois, o excesso de Ba²⁺ e OH⁻ volta a conduzir",
+"o Ba(OH)₂ não conduz, então dilui a solução e a luz cai sempre",
+"a lâmpada esquenta e sua resistência aumenta, depois diminui",
+"o BaSO₄ formado conduz melhor, por isso a luz volta a subir"
+],
+"a": 0,
+"d": [
+[
+"Condução em soluções",
+"A luminosidade depende da quantidade de íons livres.",
+""
+],
+[
+"Reação",
+"H₂SO₄ + Ba(OH)₂ → BaSO₄(s) + 2 H₂O: produtos praticamente sem íons livres (Kₛ muito pequeno)."
+]
+],
+"h": [
+"Cada Ba(OH)₂ adicionado retira H⁺ (vira água) e SO₄²⁻ (vira BaSO₄ sólido): menos íons, menos luz.",
+"No ponto de equivalência quase não há íons: a lâmpada quase apaga.",
+"Depois, o Ba(OH)₂ em excesso fornece Ba²⁺ e OH⁻ livres, e <b>a luz volta a aumentar</b>."
+]
+}
+]

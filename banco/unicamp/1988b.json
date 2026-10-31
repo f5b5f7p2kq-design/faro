@@ -1,0 +1,1702 @@
+[
+{
+"id": "1988b-1-07",
+"ano": 1988,
+"fase": 1,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1988 (2º vestibular), 1ª fase, questão 7",
+"r": 1060,
+"tm": 45,
+"ctx": "O gráfico é a curva de aquecimento do paradiclorobenzeno, sólido à temperatura ambiente. Qual trecho representa a fusão, e o que representa o trecho CD?",
+"fig": "<svg viewBox='0 0 200 120' class='fg' role='img' aria-label='curva de aquecimento: sobe de A a B, patamar de B a C, sobe de C a D'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='25,8 25,105 195,105'/><polyline points='30,100 80,55 130,55 165,12'/></g><g fill='currentColor' font-size='13'><text x='34' y='98'>A</text><text x='74' y='48'>B</text><text x='130' y='70'>C</text><text x='168' y='16'>D</text><text x='29' y='12'>T (°C)</text><text x='150' y='118'>tempo (min)</text></g></svg>",
+"opts": [
+"fusão em BC; CD é o aquecimento do líquido",
+"fusão em AB; CD é a ebulição",
+"fusão em CD; BC é o aquecimento do sólido",
+"fusão em BC; CD é a solidificação"
+],
+"a": 0,
+"d": [
+[
+"Curva de aquecimento",
+"Trechos inclinados: a temperatura sobe numa fase só. Patamares: mudança de estado, com temperatura constante.",
+""
+]
+],
+"h": [
+"AB: o sólido esquenta.",
+"BC: patamar, a temperatura não muda enquanto o sólido derrete: é a fusão.",
+"CD: o <b>líquido esquenta</b>."
+]
+},
+{
+"id": "1988b-1-08",
+"ano": 1988,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1988 (2º vestibular), 1ª fase, questão 8",
+"r": 1400,
+"tm": 90,
+"ctx": "Os alcanos CH<sub>4</sub>, CH<sub>3</sub>CH<sub>3</sub>, ... têm fórmula geral C<sub>n</sub>H<sub>2n+2</sub>. Quais as fórmulas gerais das séries de cadeia aberta saturada dos álcoois primários (CH<sub>3</sub>OH, CH<sub>3</sub>CH<sub>2</sub>OH, ...), das aminas primárias (CH<sub>3</sub>NH<sub>2</sub>, ...) e dos aldeídos (HCHO, CH<sub>3</sub>CHO, ...)?",
+"opts": [
+"C<sub>n</sub>H<sub>2n+2</sub>O, C<sub>n</sub>H<sub>2n+3</sub>N e C<sub>n</sub>H<sub>2n</sub>O",
+"C<sub>n</sub>H<sub>2n+1</sub>O, C<sub>n</sub>H<sub>2n+2</sub>N e C<sub>n</sub>H<sub>2n</sub>O",
+"C<sub>n</sub>H<sub>2n</sub>O, C<sub>n</sub>H<sub>2n+1</sub>N e C<sub>n</sub>H<sub>2n−2</sub>O",
+"C<sub>n</sub>H<sub>2n+2</sub>O, C<sub>n</sub>H<sub>2n+2</sub>N e C<sub>n</sub>H<sub>2n+2</sub>O"
+],
+"a": 0,
+"d": [
+[
+"Fórmula geral",
+"Escreva os dois primeiros membros da série, conte C e H e veja como H depende de n.",
+""
+],
+[
+"Trocar H por grupo",
+"Trocar um H do alcano por OH não muda o número de H (entra o H do OH). Por NH<sub>2</sub>, ganha 1 H. Um C=O tira 2 H.",
+""
+]
+],
+"h": [
+"Álcool: CH<sub>4</sub>O, C<sub>2</sub>H<sub>6</sub>O → C<sub>n</sub>H<sub>2n+2</sub>O.",
+"Amina: CH<sub>5</sub>N, C<sub>2</sub>H<sub>7</sub>N → C<sub>n</sub>H<sub>2n+3</sub>N.",
+"Aldeído: CH<sub>2</sub>O, C<sub>2</sub>H<sub>4</sub>O → C<sub>n</sub>H<sub>2n</sub>O."
+]
+},
+{
+"id": "1988b-1-09",
+"ano": 1988,
+"fase": 1,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1988 (2º vestibular), 1ª fase, questão 9",
+"r": 1320,
+"tm": 60,
+"ctx": "Numa dilatação térmica, todas as dimensões lineares de um cubo multiplicam-se por um fator f. Por quanto ficam multiplicadas a área total e a densidade do cubo?",
+"opts": [
+"área por f²; densidade por 1/f³",
+"área por f; densidade por 1/f",
+"área por f²; densidade por f³",
+"área por f³; densidade não muda"
+],
+"a": 0,
+"d": [
+[
+"Escala",
+"Comprimentos × f → áreas × f² → volumes × f³.",
+""
+],
+[
+"Densidade",
+"d = m/V; na dilatação a massa não muda.",
+""
+]
+],
+"h": [
+"Área total: cada face é ℓ², então multiplica por f².",
+"Volume multiplica por f³ e a massa fica igual.",
+"Densidade fica multiplicada por <b>1/f³</b>."
+]
+},
+{
+"id": "1988b-1-10",
+"ano": 1988,
+"fase": 1,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1988 (2º vestibular), 1ª fase, questão 10(b)",
+"r": 1190,
+"tm": 45,
+"ctx": "Duas cargas Q<sub>1</sub> e Q<sub>2</sub> estão no vácuo, com |Q<sub>1</sub>| &gt; |Q<sub>2</sub>|. A força que Q<sub>1</sub> faz em Q<sub>2</sub> é maior que a que Q<sub>2</sub> faz em Q<sub>1</sub>?",
+"opts": [
+"Não: as duas forças têm a mesma intensidade (ação e reação)",
+"Sim: a carga maior faz mais força",
+"Sim, e a razão é |Q<sub>1</sub>|/|Q<sub>2</sub>|",
+"Depende do sinal das cargas"
+],
+"a": 0,
+"d": [
+[
+"Terceira lei de Newton",
+"Forças de interação entre dois corpos têm mesma intensidade e sentidos opostos.",
+""
+],
+[
+"Lei de Coulomb",
+"F = k|Q<sub>1</sub>||Q<sub>2</sub>|/d²: a fórmula é simétrica nas duas cargas.",
+""
+]
+],
+"h": [
+"A lei de Coulomb dá um único valor k|Q<sub>1</sub>Q<sub>2</sub>|/d² para a interação.",
+"É um par ação e reação.",
+"<b>Não</b>: as intensidades são iguais (sinais iguais repelem, opostos atraem)."
+]
+},
+{
+"id": "1988b-1-11",
+"ano": 1988,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1988 (2º vestibular), 1ª fase, questão 11",
+"r": 1190,
+"tm": 60,
+"ctx": "Um funcionário teve o salário reajustado em 6/10 do que recebia antes e passou a ganhar Cz$ 8.600,00. Qual era o salário antes do aumento?",
+"a": 5375,
+"u": "Cz$",
+"d": [
+[
+"Aumento por fração",
+"Aumentar x em 6/10 de x dá x·(1 + 6/10) = 1,6x.",
+""
+]
+],
+"h": [
+"Novo salário: x + 0,6x = 1,6x.",
+"1,6x = 8.600.",
+"x = <b>Cz$ 5.375,00</b>."
+]
+},
+{
+"id": "1988b-1-12",
+"ano": 1988,
+"fase": 1,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1988 (2º vestibular), 1ª fase, questão 12",
+"r": 1280,
+"tm": 75,
+"ctx": "Dois observadores na mesma margem de um rio, a 300 m um do outro, veem na outra margem a mesma árvore sob um ângulo de 45° com a linha da margem. Qual a largura do rio, em metros?",
+"a": 150,
+"u": "m",
+"d": [
+[
+"Triângulo retângulo isósceles",
+"Com um ângulo de 45°, os dois catetos são iguais.",
+""
+],
+[
+"Simetria",
+"Se os dois veem a árvore com o mesmo ângulo, ela fica na frente do ponto médio entre eles.",
+""
+]
+],
+"h": [
+"A árvore fica em frente ao ponto médio M entre os observadores, a 150 m de cada.",
+"De cada observador, o triângulo (observador, M, árvore) é retângulo em M com ângulo de 45°.",
+"Largura = 150 m (cateto oposto = cateto adjacente): <b>150 m</b>."
+]
+},
+{
+"id": "1988b-2-mat-01",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 1",
+"r": 890,
+"tm": 45,
+"ctx": "Quantos ladrilhos de 20 cm por 20 cm são necessários para ladrilhar um cômodo de 4 m por 5 m?",
+"a": 500,
+"u": "ladrilhos",
+"d": [
+[
+"Área",
+"Retângulo: base × altura. Use as mesmas unidades para o cômodo e o ladrilho.",
+""
+]
+],
+"h": [
+"Cômodo: 400 cm × 500 cm, ou 20 m².",
+"Ladrilho: 0,2 × 0,2 = 0,04 m².",
+"20/0,04 = <b>500 ladrilhos</b> (20 × 25 em fila)."
+]
+},
+{
+"id": "1988b-2-mat-02",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 2",
+"r": 1100,
+"tm": 60,
+"ctx": "Para passar de °F para °C, subtrai-se 32 e multiplica-se por 5/9. Qual temperatura é expressa pelo mesmo número nas duas escalas?",
+"a": -40,
+"u": "°",
+"d": [
+[
+"Conversão de escalas",
+"C = (F − 32)·5/9.",
+""
+],
+[
+"Mesmo número",
+"Faça C = F = x e resolva a equação.",
+""
+]
+],
+"h": [
+"x = (x − 32)·5/9.",
+"9x = 5x − 160 → 4x = −160.",
+"x = <b>−40</b> (−40 °C = −40 °F)."
+]
+},
+{
+"id": "1988b-2-mat-03",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 3",
+"r": 1100,
+"tm": 60,
+"ctx": "Qual família come mais pizza: a que pede uma grande de 43 cm de diâmetro ou a que pede duas médias de 30 cm de diâmetro?",
+"opts": [
+"a da grande de 43 cm",
+"a das duas médias",
+"comem a mesma quantidade",
+"depende da espessura"
+],
+"a": 0,
+"d": [
+[
+"Área do círculo",
+"A = πr² = πd²/4: a área cresce com o quadrado do diâmetro.",
+""
+]
+],
+"h": [
+"Compare d²: a grande dá 43² = 1.849.",
+"As duas médias: 2 × 30² = 1.800.",
+"1.849 &gt; 1.800: <b>a grande tem mais pizza</b>."
+]
+},
+{
+"id": "1988b-2-mat-04",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 4",
+"r": 1060,
+"tm": 45,
+"ctx": "Um vértice de um triângulo percorre uma reta paralela à que contém os outros dois vértices. Como varia a área do triângulo?",
+"opts": [
+"não varia",
+"aumenta",
+"diminui",
+"primeiro aumenta, depois diminui"
+],
+"a": 0,
+"d": [
+[
+"Área do triângulo",
+"A = base × altura ÷ 2.",
+""
+],
+[
+"Retas paralelas",
+"A distância entre duas retas paralelas é a mesma em todo ponto.",
+""
+]
+],
+"h": [
+"A base (os dois vértices fixos) não muda.",
+"A altura é a distância do vértice móvel à reta da base: constante, porque as retas são paralelas.",
+"A área <b>não varia</b>."
+]
+},
+{
+"id": "1988b-2-mat-05",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 5",
+"r": 1620,
+"tm": 150,
+"ctx": "Geraldo gastou Cz$ 32.000,00 com livros iguais numa livraria. Noutra livraria, com desconto de Cz$ 400,00 por livro, compraria com os mesmos Cz$ 32.000,00 quatro livros a mais. Quantos livros ele comprou na primeira livraria?",
+"a": 16,
+"u": "livros",
+"d": [
+[
+"Preço e quantidade",
+"quantidade = valor total ÷ preço unitário.",
+""
+],
+[
+"Equação do 2º grau",
+"Monte a equação com o preço p e resolva por Bhaskara.",
+""
+]
+],
+"h": [
+"32.000/(p − 400) − 32.000/p = 4 → 32.000 × 400 = 4p(p − 400).",
+"p² − 400p − 3.200.000 = 0 → p = (400 + 3.600)/2 = 2.000.",
+"32.000/2.000 = <b>16 livros</b> (na segunda seriam 20)."
+]
+},
+{
+"id": "1988b-2-mat-06",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 6",
+"r": 1440,
+"tm": 90,
+"ctx": "Um octógono regular de lado ℓ está inscrito num quadrado, como na figura. Qual a área da região hachurada (dentro do quadrado e fora do octógono)?",
+"fig": "<svg viewBox='0 0 140 140' class='fg' role='img' aria-label='quadrado com octógono regular inscrito; os quatro cantos são triângulos retângulos isósceles'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='10' y='10' width='120' height='120'/><polygon points='45,10 95,10 130,45 130,95 95,130 45,130 10,95 10,45'/></g><g stroke='currentColor' stroke-width='0.8'><line x1='10' y1='20' x2='35' y2='20'/><line x1='10' y1='30' x2='25' y2='30'/><line x1='105' y1='20' x2='130' y2='20'/><line x1='115' y1='30' x2='130' y2='30'/><line x1='10' y1='120' x2='35' y2='120'/><line x1='10' y1='110' x2='25' y2='110'/><line x1='105' y1='120' x2='130' y2='120'/><line x1='115' y1='110' x2='130' y2='110'/></g><text x='30' y='40' fill='currentColor' font-size='13'>ℓ</text></svg>",
+"opts": [
+"ℓ²",
+"ℓ²/2",
+"2ℓ²",
+"ℓ²/4"
+],
+"a": 0,
+"d": [
+[
+"Ângulo do octógono regular",
+"Cada ângulo interno mede 135°: os cantos cortados são triângulos retângulos isósceles.",
+""
+],
+[
+"Triângulo retângulo isósceles",
+"Hipotenusa ℓ → catetos ℓ/√2.",
+""
+]
+],
+"h": [
+"Cada canto é um triângulo retângulo isósceles de hipotenusa ℓ e catetos ℓ/√2.",
+"Área de um canto: (ℓ/√2)²/2 = ℓ²/4.",
+"Quatro cantos: <b>ℓ²</b>."
+]
+},
+{
+"id": "1988b-2-mat-07",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 7",
+"r": 1660,
+"tm": 150,
+"ctx": "Quinze toras de madeira de 1,5 m de diâmetro são empilhadas em triângulo (5 na base, depois 4, 3, 2 e 1). Qual a altura da pilha, em metros? (√3 ≈ 1,732)",
+"a": 6.7,
+"u": "m",
+"tol": 0.01,
+"fig": "<svg viewBox='0 0 160 140' class='fg' role='img' aria-label='15 círculos empilhados em triângulo: 5, 4, 3, 2 e 1'><g fill='none' stroke='currentColor' stroke-width='1.3'><circle cx='20' cy='120' r='14'/><circle cx='48' cy='120' r='14'/><circle cx='76' cy='120' r='14'/><circle cx='104' cy='120' r='14'/><circle cx='132' cy='120' r='14'/><circle cx='34' cy='96' r='14'/><circle cx='62' cy='96' r='14'/><circle cx='90' cy='96' r='14'/><circle cx='118' cy='96' r='14'/><circle cx='48' cy='72' r='14'/><circle cx='76' cy='72' r='14'/><circle cx='104' cy='72' r='14'/><circle cx='62' cy='48' r='14'/><circle cx='90' cy='48' r='14'/><circle cx='76' cy='24' r='14'/><line x1='0' y1='134' x2='155' y2='134'/></g></svg>",
+"d": [
+[
+"Centros de círculos tangentes",
+"Os centros de três toras que se tocam formam um triângulo equilátero de lado d.",
+""
+],
+[
+"Altura do triângulo equilátero",
+"h = d√3/2.",
+""
+]
+],
+"h": [
+"Entre o centro de uma fileira e o da de cima, a altura sobe d√3/2 = 1,5 × 0,866 = 1,30 m. São 4 subidas: 5,20 m.",
+"Some um raio embaixo (até o chão) e um em cima: 0,75 + 0,75 = 1,5 m.",
+"Altura = 1,5(1 + 2√3) ≈ <b>6,70 m</b>."
+]
+},
+{
+"id": "1988b-2-mat-08",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 8",
+"r": 2000,
+"tm": 240,
+"ctx": "Sejam a = x² + 2, b = x² − 2x + 2 e c = x² + 2x + 2. Para quais valores de x os números a, b e c podem ser lados de um triângulo?",
+"opts": [
+"x &lt; −2 − √2, ou −2 + √2 &lt; x &lt; 2 − √2, ou x &gt; 2 + √2",
+"−2 &lt; x &lt; 2",
+"para todo x real",
+"x &lt; 2 − √2 ou x &gt; 2 + √2"
+],
+"a": 0,
+"d": [
+[
+"Desigualdade triangular",
+"Basta o maior lado ser menor que a soma dos outros dois.",
+""
+],
+[
+"Qual é o maior",
+"Para x &gt; 0, c é o maior; para x &lt; 0, b é o maior.",
+""
+],
+[
+"Inequação do 2º grau",
+"Ache as raízes e use o sinal da parábola.",
+""
+]
+],
+"h": [
+"Os três são sempre positivos. Se x &gt; 0: a + b &gt; c → x² − 4x + 2 &gt; 0 → x &lt; 2 − √2 ou x &gt; 2 + √2.",
+"Se x &lt; 0: a + c &gt; b → x² + 4x + 2 &gt; 0 → x &gt; −2 + √2 ou x &lt; −2 − √2. Em x = 0 os três valem 2.",
+"Juntando: <b>x &lt; −2 − √2, ou −2 + √2 &lt; x &lt; 2 − √2, ou x &gt; 2 + √2</b>."
+]
+},
+{
+"id": "1988b-2-mat-09",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 9",
+"r": 1490,
+"tm": 75,
+"ctx": "Numa cartela da Sena com 50 números (00 a 49), um jogador marca 6. São sorteados 6 números, sem repetição. Qual a probabilidade de ele errar todos?",
+"opts": [
+"C(44, 6)/C(50, 6)",
+"(44/50)<sup>6</sup>",
+"1 − 6/50",
+"C(6, 6)/C(50, 6)"
+],
+"a": 0,
+"d": [
+[
+"Probabilidade com combinações",
+"P = (sorteios favoráveis)/(sorteios possíveis), contando grupos sem ordem.",
+""
+],
+[
+"Errar todos",
+"Os 6 sorteados têm que sair dos números que o jogador não marcou.",
+""
+]
+],
+"h": [
+"Sorteios possíveis: C(50, 6).",
+"Para errar tudo, os 6 sorteados saem dos 44 números não marcados: C(44, 6).",
+"P = <b>C(44, 6)/C(50, 6)</b> (≈ 0,44)."
+]
+},
+{
+"id": "1988b-2-mat-10a",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 10(a)",
+"r": 1280,
+"tm": 75,
+"ctx": "Uma comissão de 5 pessoas é formada numa congregação de 8 homens e 4 mulheres. De quantas maneiras a comissão pode ter exatamente 2 mulheres?",
+"a": 336,
+"u": "maneiras",
+"d": [
+[
+"Combinação",
+"Escolher k de n sem ordem: C(n, k) = n!/(k!(n − k)!).",
+""
+],
+[
+"Princípio multiplicativo",
+"Escolha as mulheres e os homens separadamente e multiplique.",
+""
+]
+],
+"h": [
+"Mulheres: C(4, 2) = 6.",
+"Homens (3 vagas): C(8, 3) = 56.",
+"6 × 56 = <b>336</b>."
+]
+},
+{
+"id": "1988b-2-mat-10b",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 10(b)",
+"r": 1490,
+"tm": 90,
+"ctx": "Uma comissão de 5 pessoas é formada numa congregação de 8 homens e 4 mulheres. De quantas maneiras ela pode ter pelo menos 2 mulheres?",
+"a": 456,
+"u": "maneiras",
+"d": [
+[
+"Pelo menos",
+"Total − (casos que não servem) costuma ser mais rápido.",
+""
+],
+[
+"Combinação",
+"C(n, k) = n!/(k!(n − k)!).",
+""
+]
+],
+"h": [
+"Total: C(12, 5) = 792.",
+"Sem mulher: C(8, 5) = 56. Com uma mulher: 4 × C(8, 4) = 4 × 70 = 280.",
+"792 − 56 − 280 = <b>456</b>."
+]
+},
+{
+"id": "1988b-2-mat-11",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 11",
+"r": 1960,
+"tm": 180,
+"ctx": "Na figura, BD é um diâmetro da circunferência de centro O e raio R, as retas AC e AD formam o ângulo α, e BC = CD. Qual a área do triângulo ACD?",
+"fig": "<svg viewBox='0 0 230 130' class='fg' role='img' aria-label='reta de A passa por B e C na circunferência; reta de A passa por E e D; BD é diâmetro'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='170' cy='65' r='50'/><line x1='10' y1='30' x2='205' y2='30'/><line x1='10' y1='30' x2='205' y2='100'/><line x1='135' y1='30' x2='205' y2='100'/><line x1='205' y1='30' x2='205' y2='100'/></g><g fill='currentColor' font-size='13'><text x='2' y='24'>A</text><text x='128' y='24'>B</text><text x='208' y='26'>C</text><text x='208' y='112'>D</text><text x='126' y='86'>E</text><text x='172' y='70'>O</text><text x='40' y='42'>α</text></g></svg>",
+"opts": [
+"R²·cotg α",
+"R²·tg α",
+"2R²·cotg α",
+"R²·sen α"
+],
+"a": 0,
+"d": [
+[
+"Ângulo inscrito no semicírculo",
+"Um ângulo inscrito que enxerga um diâmetro é reto.",
+""
+],
+[
+"Triângulo retângulo isósceles",
+"Hipotenusa 2R e catetos iguais → catetos R√2.",
+""
+],
+[
+"Tangente",
+"No triângulo retângulo: tg α = cateto oposto / cateto adjacente.",
+""
+]
+],
+"h": [
+"BD é diâmetro, então o ângulo BCD é reto; com BC = CD, os catetos medem 2R/√2 = R√2.",
+"A, B e C estão alinhados, então o triângulo ACD também é retângulo em C: tg α = CD/AC → AC = R√2/tg α.",
+"Área = AC·CD/2 = (R√2)²/(2 tg α) = <b>R²·cotg α</b>."
+]
+},
+{
+"id": "1988b-2-mat-12",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 12",
+"r": 1150,
+"tm": 60,
+"ctx": "O nível médio diário de monóxido de carbono será c(p) = 0,4p + 1 partes por milhão quando a população for p mil. Daqui a t anos, a população será p(t) = 8 + 0,2t² mil. Qual o nível de monóxido daqui a 2 anos, em ppm?",
+"a": 4.52,
+"u": "ppm",
+"d": [
+[
+"Composição de funções",
+"Calcule primeiro a função de dentro, p(2), e use o resultado na de fora.",
+""
+]
+],
+"h": [
+"p(2) = 8 + 0,2 × 4 = 8,8 mil.",
+"c(8,8) = 0,4 × 8,8 + 1 = 3,52 + 1.",
+"<b>4,52 ppm</b>."
+]
+},
+{
+"id": "1988b-2-mat-13",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 13",
+"r": 1530,
+"tm": 90,
+"ctx": "Uma população é P(t) = P<sub>0</sub>·10<sup>t/4</sup>, com t em anos. Para que valor de t a população é 2,5 vezes a inicial? (log 2 = 0,301)",
+"a": 1.592,
+"u": "anos",
+"tol": 0.01,
+"d": [
+[
+"Isolar o expoente",
+"Se 10<sup>x</sup> = k, então x = log k.",
+""
+],
+[
+"Escrever 2,5 com potências de 2 e 10",
+"2,5 = 10/4.",
+""
+]
+],
+"h": [
+"10<sup>t/4</sup> = 2,5 → t/4 = log 2,5.",
+"log 2,5 = log 10 − log 4 = 1 − 2 × 0,301 = 0,398.",
+"t = 4 × 0,398 ≈ <b>1,59 anos</b>."
+]
+},
+{
+"id": "1988b-2-mat-14",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 14",
+"r": 2000,
+"tm": 240,
+"ctx": "Uma sequência infinita de círculos é tangente a duas retas que se cruzam em A, e cada círculo é tangente ao seguinte. O primeiro, C<sub>1</sub>, tem centro O, raio 5 cm, e OA = 10 cm. Qual a soma das áreas de todos os círculos?",
+"fig": "<svg viewBox='0 0 230 130' class='fg' role='img' aria-label='duas retas que se encontram em A, com círculos tangentes cada vez menores'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='70' cy='65' r='50'/><circle cx='137' cy='65' r='17'/><circle cx='159' cy='65' r='5.6'/><line x1='45' y1='22' x2='170' y2='65'/><line x1='45' y1='108' x2='170' y2='65'/><line x1='70' y1='65' x2='170' y2='65' stroke-dasharray='3 3'/></g><g fill='currentColor' font-size='13'><text x='62' y='60'>O</text><text x='174' y='70'>A</text><text x='50' y='100'>C₁</text><text x='130' y='96'>C₂</text></g></svg>",
+"opts": [
+"225π/8 cm²",
+"25π cm²",
+"100π/3 cm²",
+"75π/2 cm²"
+],
+"a": 0,
+"d": [
+[
+"Ângulo entre as retas",
+"sen(θ) = raio/distância do centro ao vértice, sendo θ a metade do ângulo entre as retas.",
+""
+],
+[
+"Semelhança",
+"Todos os círculos são semelhantes em relação a A: os raios formam uma PG; as áreas, uma PG de razão q².",
+""
+],
+[
+"Soma da PG infinita",
+"S = a<sub>1</sub>/(1 − q).",
+""
+]
+],
+"h": [
+"sen θ = 5/10 → θ = 30°. Para o 2º círculo, de raio r e centro a 10 − 5 − r de A: r = (5 − r)·(1/2) → r = 5/3. A razão dos raios é 1/3.",
+"As áreas formam uma PG de razão 1/9, começando em 25π.",
+"S = 25π/(1 − 1/9) = <b>225π/8 cm²</b> ≈ 88 cm²."
+]
+},
+{
+"id": "1988b-2-mat-15",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Matemática, questão 15",
+"r": 2080,
+"tm": 240,
+"ctx": "Júpiter, Saturno e Urano têm períodos de 12, 30 e 84 anos, em órbitas circulares e coplanares. Haverá algum instante em que os três estarão em posições simétricas (diametralmente opostas em relação ao Sol) às que ocupavam num instante de observação?",
+"opts": [
+"Não, nunca",
+"Sim, depois de 210 anos",
+"Sim, depois de 420 anos",
+"Sim, depois de 105 anos"
+],
+"a": 0,
+"d": [
+[
+"Posição oposta",
+"Um planeta de período T está do lado oposto nos instantes T/2, 3T/2, 5T/2...: múltiplos ímpares de T/2.",
+""
+],
+[
+"Paridade",
+"Se t precisa ser múltiplo ímpar de 6, de 15 e de 42 ao mesmo tempo, analise t/6, t/15 e t/42.",
+""
+]
+],
+"h": [
+"Precisamos de t = (ímpar) × 6 = (ímpar) × 15 = (ímpar) × 42. Então t é múltiplo do MMC(6, 15, 42) = 210.",
+"Com t = 210m: t/15 = 14m, que é sempre par.",
+"Nunca é ímpar: <b>não existe tal instante</b>."
+]
+},
+{
+"id": "1988b-2-fis-01",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 1",
+"r": 1780,
+"tm": 150,
+"ctx": "Num sistema de unidades, as unidades de comprimento, velocidade e força são multiplicadas por um mesmo fator α. Por quanto ficam multiplicadas as unidades de tempo, massa e energia?",
+"opts": [
+"tempo por 1, massa por 1, energia por α²",
+"tempo por α, massa por α, energia por α",
+"tempo por 1/α, massa por α², energia por α³",
+"tempo por 1, massa por α, energia por α²"
+],
+"a": 0,
+"d": [
+[
+"Análise dimensional",
+"Escreva cada grandeza em função de comprimento, velocidade e força.",
+"tempo = comprimento/velocidade"
+],
+[
+"Massa e energia",
+"m = F/a, com a = v/t; E = F × distância.",
+""
+]
+],
+"h": [
+"Tempo = L/v → α/α = 1.",
+"Aceleração = v/t → α/1 = α; massa = F/a → α/α = 1.",
+"Energia = F·L → α·α = <b>α²</b>. Tempo e massa não mudam."
+]
+},
+{
+"id": "1988b-2-fis-02",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 2",
+"r": 1100,
+"tm": 60,
+"ctx": "Num gerador de força eletromotriz ε = 12 V e resistência interna r = 1 Ω, a tensão V<sub>AB</sub> entre os terminais cai linearmente com a corrente. Para qual corrente V<sub>AB</sub> é nula?",
+"a": 12,
+"u": "A",
+"d": [
+[
+"Gerador real",
+"V<sub>AB</sub> = ε − r·I.",
+""
+]
+],
+"h": [
+"V<sub>AB</sub> = 12 − 1·I.",
+"Zera quando I = 12/1.",
+"<b>12 A</b> (é a corrente de curto-circuito)."
+]
+},
+{
+"id": "1988b-2-fis-03",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 3",
+"r": 1230,
+"tm": 60,
+"ctx": "A velocidade de um móvel em linha reta cai linearmente com o tempo, passando de positiva a negativa. Qual gráfico de aceleração × tempo combina com esse movimento?",
+"opts": [
+"uma reta horizontal abaixo do eixo (aceleração constante negativa)",
+"uma reta descendente que corta o eixo",
+"uma reta horizontal acima do eixo",
+"uma parábola"
+],
+"a": 0,
+"d": [
+[
+"Aceleração no v × t",
+"a é a inclinação do gráfico v × t. Reta: inclinação constante.",
+""
+]
+],
+"h": [
+"v × t é uma reta: a inclinação é a mesma o tempo todo.",
+"A reta desce: inclinação negativa.",
+"<b>a constante e negativa</b>: reta horizontal abaixo do eixo. A posição × t é uma parábola com concavidade para baixo."
+]
+},
+{
+"id": "1988b-2-fis-04",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 4",
+"r": 940,
+"tm": 30,
+"ctx": "Qual par traz um exemplo de onda transversal e um de onda longitudinal, nessa ordem?",
+"opts": [
+"onda numa corda de violão; som no ar",
+"som no ar; luz",
+"luz; onda numa corda",
+"som na água; som no ar"
+],
+"a": 0,
+"d": [
+[
+"Transversal × longitudinal",
+"Transversal: o meio vibra perpendicular à propagação. Longitudinal: vibra na mesma direção da propagação.",
+""
+]
+],
+"h": [
+"Na corda, os pontos sobem e descem enquanto a onda anda para o lado: transversal (a luz também é).",
+"O som no ar comprime e rarefaz o ar na direção em que se propaga: longitudinal.",
+"<b>Corda: transversal; som: longitudinal</b>."
+]
+},
+{
+"id": "1988b-2-fis-05",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 5",
+"r": 1190,
+"tm": 60,
+"ctx": "Dois pelotes de massa de modelar, de mesma massa e velocidades opostas de mesmo módulo, colidem de frente e param. Houve conservação da quantidade de movimento, e para onde foi a energia cinética?",
+"opts": [
+"Sim; a energia cinética virou calor e deformação",
+"Não; a energia cinética se conservou",
+"Não; a quantidade de movimento sumiu junto com a energia",
+"Sim; a energia cinética virou energia potencial gravitacional"
+],
+"a": 0,
+"d": [
+[
+"Sistema isolado",
+"Sem forças externas, a quantidade de movimento total se conserva em qualquer colisão.",
+""
+],
+[
+"Colisão inelástica",
+"A energia cinética não se conserva: vira térmica, som e deformação.",
+""
+]
+],
+"h": [
+"Antes: mv<sub>0</sub> + m(−v<sub>0</sub>) = 0. Depois: 0. Q se conservou.",
+"A energia cinética era mv<sub>0</sub>² e virou zero.",
+"<b>Q conservada; energia cinética virou calor e deformação</b>."
+]
+},
+{
+"id": "1988b-2-fis-06",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 6(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Duas esferinhas de mesma massa m e mesma carga q estão em equilíbrio, penduradas por fios de comprimento ℓ, cada fio formando um ângulo θ com a vertical. Qual a razão entre a força elétrica e o peso em cada esfera?",
+"opts": [
+"tg θ",
+"sen θ",
+"cos θ",
+"1/tg θ"
+],
+"a": 0,
+"d": [
+[
+"Equilíbrio de três forças",
+"Peso (vertical), força elétrica (horizontal) e tração (no fio). Decomponha a tração.",
+""
+]
+],
+"h": [
+"Vertical: T·cos θ = P. Horizontal: T·sen θ = F.",
+"Dividindo: F/P = sen θ/cos θ.",
+"<b>F/P = tg θ</b>."
+]
+},
+{
+"id": "1988b-2-fis-07a",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 7(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Andorinhas migram 9.000 km em 30 dias, voando 12 horas por dia. Qual a velocidade média enquanto voam, em km/h?",
+"a": 25,
+"u": "km/h",
+"d": [
+[
+"Velocidade média",
+"v = distância ÷ tempo, contando só o tempo de voo.",
+""
+]
+],
+"h": [
+"Tempo de voo: 30 × 12 = 360 h.",
+"9.000/360.",
+"<b>25 km/h</b>."
+]
+},
+{
+"id": "1988b-2-fis-07b",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 7(b)",
+"r": 1320,
+"tm": 75,
+"ctx": "Andorinhas voam 9.000 km ao longo de um meridiano. Com a Terra uma esfera de raio 6.400 km, qual o ângulo descrito por elas, em graus? (π = 3,14)",
+"a": 80.6,
+"u": "°",
+"tol": 0.02,
+"d": [
+[
+"Arco e ângulo",
+"Em radianos, θ = arco ÷ raio.",
+""
+],
+[
+"Radianos em graus",
+"180° = π rad.",
+""
+]
+],
+"h": [
+"θ = 9.000/6.400 = 1,406 rad.",
+"Em graus: 1,406 × 180/3,14.",
+"≈ <b>81°</b>."
+]
+},
+{
+"id": "1988b-2-fis-08",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 8",
+"r": 1530,
+"tm": 120,
+"ctx": "A força resultante sobre um corpo de 1,2 kg, em linha reta, cresce linearmente de 0 a 20 N entre x = 0 e x = 2,0 m e depois fica constante em 20 N. Se a velocidade era nula em x = 0, qual a velocidade em x = 4,0 m?",
+"a": 10,
+"u": "m/s",
+"fig": "<svg viewBox='0 0 220 110' class='fg' role='img' aria-label='F por x: sobe de 0 a 20 N até x = 2 m e fica constante'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,95 215,95'/><polyline points='30,95 70,30 200,30'/></g><g fill='none' stroke='currentColor' stroke-dasharray='3 3'><line x1='30' y1='30' x2='70' y2='30'/><line x1='70' y1='30' x2='70' y2='95'/></g><g fill='currentColor' font-size='12'><text x='10' y='34'>20</text><text x='62' y='108'>2,0</text><text x='102' y='108'>4,0</text><text x='142' y='108'>6,0</text><text x='34' y='12'>F (N)</text><text x='192' y='108'>x (m)</text></g></svg>",
+"d": [
+[
+"Trabalho no gráfico F × x",
+"O trabalho é a área sob o gráfico.",
+""
+],
+[
+"Teorema da energia cinética",
+"W<sub>resultante</sub> = m·v²/2 − m·v<sub>0</sub>²/2.",
+""
+]
+],
+"h": [
+"Área de 0 a 2 m: triângulo 2 × 20/2 = 20 J. De 2 a 4 m: retângulo 2 × 20 = 40 J. Total: 60 J.",
+"60 = 1,2·v²/2 → v² = 100.",
+"v = <b>10 m/s</b> (em x = 4 m a aceleração é 20/1,2 ≈ 16,7 m/s²)."
+]
+},
+{
+"id": "1988b-2-fis-09",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 9",
+"r": 1400,
+"tm": 75,
+"ctx": "Um gás ideal passa pelos estados A (V<sub>C</sub>, 2P<sub>C</sub>), B (V<sub>C</sub>, P<sub>C</sub>) e C (3V<sub>C</sub>, P<sub>C</sub>). Como se ordenam as temperaturas?",
+"opts": [
+"T<sub>C</sub> &gt; T<sub>A</sub> &gt; T<sub>B</sub>",
+"T<sub>A</sub> &gt; T<sub>C</sub> &gt; T<sub>B</sub>",
+"T<sub>A</sub> = T<sub>B</sub> &lt; T<sub>C</sub>",
+"T<sub>B</sub> &gt; T<sub>A</sub> &gt; T<sub>C</sub>"
+],
+"a": 0,
+"d": [
+[
+"Gás ideal",
+"pV = nRT: para a mesma quantidade de gás, T é proporcional ao produto pV.",
+""
+]
+],
+"h": [
+"pV em A: 2P<sub>C</sub>V<sub>C</sub>. Em B: P<sub>C</sub>V<sub>C</sub>. Em C: 3P<sub>C</sub>V<sub>C</sub>.",
+"T é proporcional a 2, 1 e 3.",
+"<b>T<sub>C</sub> &gt; T<sub>A</sub> &gt; T<sub>B</sub></b> (pressões: P<sub>A</sub> &gt; P<sub>B</sub> = P<sub>C</sub>)."
+]
+},
+{
+"id": "1988b-2-fis-10",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 10",
+"r": 1570,
+"tm": 120,
+"ctx": "Duas barras A e B têm o mesmo comprimento à temperatura ambiente. Os coeficientes de dilatação são 2 × 10<sup>−5</sup> °C<sup>−1</sup> (A) e 1 × 10<sup>−5</sup> °C<sup>−1</sup> (B). Para que aumento de temperatura a diferença entre os comprimentos será 0,07% do comprimento inicial, em °C?",
+"a": 70,
+"u": "°C",
+"d": [
+[
+"Dilatação linear",
+"ΔL = L<sub>0</sub>·α·ΔT, então ΔL/L<sub>0</sub> = α·ΔT.",
+""
+],
+[
+"Diferença",
+"A diferença entre as dilatações relativas é (α<sub>A</sub> − α<sub>B</sub>)·ΔT.",
+""
+]
+],
+"h": [
+"(α<sub>A</sub> − α<sub>B</sub>)·ΔT = 0,07% = 7 × 10<sup>−4</sup>.",
+"1 × 10<sup>−5</sup> × ΔT = 7 × 10<sup>−4</sup>.",
+"ΔT = <b>70 °C</b>."
+]
+},
+{
+"id": "1988b-2-fis-11",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 11",
+"r": 1830,
+"tm": 180,
+"ctx": "Um tanque de 40 cm de profundidade está cheio de um líquido de índice de refração 1,64. Um laser incide na superfície formando 35° com ela. A que distância horizontal do ponto de incidência o laser atinge o fundo, em cm? (sen 55° = 0,82; sen 30° = 0,50; tg 30° = 0,58)",
+"a": 23.2,
+"u": "cm",
+"tol": 0.02,
+"d": [
+[
+"Ângulo com a normal",
+"O ângulo de incidência é medido a partir da normal: 90° − ângulo com a superfície.",
+""
+],
+[
+"Lei de Snell",
+"n<sub>1</sub>·sen i = n<sub>2</sub>·sen r.",
+""
+],
+[
+"Trajeto no fundo",
+"Deslocamento horizontal = profundidade × tg r.",
+""
+]
+],
+"h": [
+"Incidência: 90° − 35° = 55° com a normal (o raio refletido também faz 55°).",
+"1 × 0,82 = 1,64 × sen r → sen r = 0,5 → r = 30°.",
+"Horizontal: 40 × tg 30° = 40 × 0,58 ≈ <b>23 cm</b>."
+]
+},
+{
+"id": "1988b-2-fis-12",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 12(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Qual a frequência de oscilação de um pêndulo simples de 0,4 m, em Hz? (g = 10 m/s², π = 3,14)",
+"a": 0.796,
+"u": "Hz",
+"tol": 0.02,
+"d": [
+[
+"Pêndulo simples",
+"T = 2π√(ℓ/g) e f = 1/T.",
+""
+]
+],
+"h": [
+"√(ℓ/g) = √(0,04) = 0,2 s.",
+"T = 2 × 3,14 × 0,2 = 1,256 s.",
+"f = 1/1,256 ≈ <b>0,80 Hz</b>."
+]
+},
+{
+"id": "1988b-2-fis-13",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 13",
+"r": 2040,
+"tm": 180,
+"ctx": "Um circuito hexagonal é formado por 6 pilhas idênticas ligadas em sequência, todas no mesmo sentido, cada uma com fem ε = α·r (r é a resistência interna, α constante). Qual a corrente no circuito e a diferença de potencial entre dois pontos A e B quaisquer do hexágono?",
+"opts": [
+"corrente α; V<sub>AB</sub> = 0",
+"corrente 6α; V<sub>AB</sub> = 3ε",
+"corrente α/6; V<sub>AB</sub> = ε",
+"corrente α; V<sub>AB</sub> = 2ε"
+],
+"a": 0,
+"d": [
+[
+"Lei de Pouillet",
+"Num circuito de uma malha só: i = (soma das fem)/(soma das resistências).",
+""
+],
+[
+"Tensão num gerador real",
+"U = ε − r·i, nos terminais de cada pilha.",
+""
+]
+],
+"h": [
+"i = 6ε/(6r) = ε/r = α.",
+"Em cada pilha: U = ε − r·α = ε − ε = 0.",
+"Todas as pilhas têm tensão zero nos terminais: <b>i = α e V<sub>AB</sub> = 0</b> entre quaisquer pontos."
+]
+},
+{
+"id": "1988b-2-fis-14",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 14(b)",
+"r": 1620,
+"tm": 120,
+"ctx": "Uma esfera de 2,5 kg rola sobre uma prancha homogênea de 1,0 kg, apoiada simetricamente em dois suportes S<sub>1</sub> e S<sub>2</sub> a 1,0 m um do outro. Até que distância à direita de S<sub>2</sub> a esfera pode chegar sem a prancha tombar, em cm?",
+"a": 20,
+"u": "cm",
+"d": [
+[
+"Prestes a tombar",
+"No limite, o suporte do outro lado deixa de fazer força: a prancha só se apoia em S<sub>2</sub>.",
+""
+],
+[
+"Momentos",
+"Em torno de S<sub>2</sub>: peso da esfera × sua distância = peso da prancha × distância do centro da prancha.",
+""
+]
+],
+"h": [
+"O centro da prancha fica no meio dos suportes, a 0,5 m de S<sub>2</sub>.",
+"Limite: 25 N × d = 10 N × 0,5 m.",
+"d = 0,2 m = <b>20 cm</b>."
+]
+},
+{
+"id": "1988b-2-fis-16",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Física, questão 16",
+"r": 1530,
+"tm": 90,
+"ctx": "Uma espira metálica atravessa, em linha reta, uma região de campo magnético uniforme que entra no papel: entra na região, fica toda dentro e depois sai. Em que partes aparece corrente na espira?",
+"opts": [
+"só enquanto ela entra e enquanto sai, com sentidos opostos nos dois casos",
+"durante todo o tempo em que está no campo",
+"só quando está toda dentro do campo",
+"em nenhum momento, porque a espira não gira"
+],
+"a": 0,
+"d": [
+[
+"Lei de Faraday",
+"Só há corrente induzida enquanto o fluxo magnético pela espira está variando.",
+""
+],
+[
+"Lei de Lenz",
+"A corrente induzida cria um campo que se opõe à variação do fluxo.",
+""
+]
+],
+"h": [
+"Entrando: o fluxo para dentro do papel aumenta → corrente anti-horária (cria campo para fora).",
+"Toda dentro: o fluxo é constante → sem corrente.",
+"Saindo: o fluxo diminui → corrente horária. <b>Só ao entrar e ao sair, em sentidos opostos</b>."
+]
+},
+{
+"id": "1988b-2-qui-17",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 17",
+"r": 1100,
+"tm": 45,
+"ctx": "Um frasco aberto de amônia concentrada perto de outro frasco aberto de ácido clorídrico concentrado forma uma nuvem branca acima deles. Qual reação explica a nuvem?",
+"opts": [
+"NH<sub>3</sub>(g) + HCl(g) → NH<sub>4</sub>Cl(s)",
+"NH<sub>3</sub> + HCl → N<sub>2</sub> + H<sub>2</sub> + Cl<sub>2</sub>",
+"HCl → H<sub>2</sub> + Cl<sub>2</sub>",
+"NH<sub>3</sub> + H<sub>2</sub>O → NH<sub>4</sub>OH(s)"
+],
+"a": 0,
+"d": [
+[
+"Ácido + base",
+"Amônia é base e HCl é ácido: reagem formando um sal.",
+""
+],
+[
+"Volatilidade",
+"Os dois são gases dissolvidos que escapam dos frascos e se encontram no ar.",
+""
+]
+],
+"h": [
+"Os vapores de NH<sub>3</sub> e de HCl escapam e se encontram no ar.",
+"NH<sub>3</sub> + HCl → NH<sub>4</sub>Cl.",
+"O NH<sub>4</sub>Cl é um <b>sólido branco</b> em partículas finas: a nuvem."
+]
+},
+{
+"id": "1988b-2-qui-18",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 18",
+"r": 1060,
+"tm": 45,
+"ctx": "Quantas moléculas de butano (C<sub>4</sub>H<sub>10</sub>) há num isqueiro com 5,8 g dessa substância? (C = 12; H = 1; Avogadro 6,0 × 10<sup>23</sup>; responda em 10<sup>22</sup>)",
+"a": 6,
+"u": "× 10<sup>22</sup>",
+"d": [
+[
+"Mol",
+"n = m/M; moléculas = n × 6,0 × 10<sup>23</sup>.",
+""
+]
+],
+"h": [
+"M(C<sub>4</sub>H<sub>10</sub>) = 48 + 10 = 58 g/mol.",
+"n = 5,8/58 = 0,1 mol.",
+"0,1 × 6,0 × 10<sup>23</sup> = <b>6,0 × 10<sup>22</sup></b>."
+]
+},
+{
+"id": "1988b-2-qui-19",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 19(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Água dura tem Ca<sup>2+</sup> vindo do bicarbonato de cálcio, Ca(HCO<sub>3</sub>)<sub>2</sub>, solúvel. Em caldeiras, o aquecimento decompõe o bicarbonato liberando gás carbônico e precipitando carbonato de cálcio. Qual é a equação?",
+"opts": [
+"Ca(HCO<sub>3</sub>)<sub>2</sub> → CaCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O",
+"Ca(HCO<sub>3</sub>)<sub>2</sub> → CaO + 2 CO<sub>2</sub> + H<sub>2</sub>",
+"Ca(HCO<sub>3</sub>)<sub>2</sub> → Ca + 2 HCO<sub>3</sub>",
+"Ca(HCO<sub>3</sub>)<sub>2</sub> → CaCO<sub>3</sub> + H<sub>2</sub>CO<sub>3</sub> + O<sub>2</sub>"
+],
+"a": 0,
+"d": [
+[
+"Decomposição térmica de bicarbonatos",
+"Bicarbonato aquecido → carbonato + CO<sub>2</sub> + H<sub>2</sub>O.",
+"2 NaHCO<sub>3</sub> → Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O"
+]
+],
+"h": [
+"Os dois HCO<sub>3</sub><sup>−</sup> viram CO<sub>3</sub><sup>2−</sup> + CO<sub>2</sub> + H<sub>2</sub>O.",
+"Confira os átomos: 1 Ca, 2 H, 2 C, 6 O dos dois lados.",
+"<b>Ca(HCO<sub>3</sub>)<sub>2</sub> → CaCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O</b>. (No sabão: 2 RCOO<sup>−</sup> + Ca<sup>2+</sup> → (RCOO)<sub>2</sub>Ca↓.)"
+]
+},
+{
+"id": "1988b-2-qui-20",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 20",
+"r": 1490,
+"tm": 90,
+"ctx": "Um balão tem 1,31 g de O<sub>2</sub> e outro, de mesmo volume, tem 1,72 g de um hidrocarboneto gasoso, ambos na mesma temperatura e pressão. Qual a massa molar do hidrocarboneto, em g/mol? (O = 16)",
+"a": 42,
+"u": "g/mol",
+"tol": 0.01,
+"d": [
+[
+"Hipótese de Avogadro",
+"Volumes iguais de gases, na mesma pressão e temperatura, têm o mesmo número de mols.",
+""
+]
+],
+"h": [
+"n(O<sub>2</sub>) = 1,31/32 = 0,0409 mol, e o hidrocarboneto tem o mesmo número de mols.",
+"M = 1,72/0,0409 ≈ 42 g/mol.",
+"<b>42 g/mol</b>. Com fórmula mínima CH<sub>2</sub> (14), a molecular é C<sub>3</sub>H<sub>6</sub>."
+]
+},
+{
+"id": "1988b-2-qui-21",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 21",
+"r": 1360,
+"tm": 60,
+"ctx": "Um mol de um hidrocarboneto cíclico insaturado, C<sub>6</sub>H<sub>10</sub>, reage com um mol de bromo (Br<sub>2</sub>), formando um único produto. Quem são o hidrocarboneto e o produto?",
+"opts": [
+"ciclo-hexeno e 1,2-dibromociclo-hexano",
+"benzeno e bromobenzeno",
+"ciclo-hexano e bromociclo-hexano",
+"hex-1-eno e 1,2-dibromo-hexano"
+],
+"a": 0,
+"d": [
+[
+"Insaturação",
+"C<sub>n</sub>H<sub>2n</sub> com anel: cicloalcano. C<sub>n</sub>H<sub>2n−2</sub> com anel: anel com uma dupla.",
+""
+],
+[
+"Adição a dupla ligação",
+"Br<sub>2</sub> se adiciona à dupla, um Br em cada carbono.",
+""
+]
+],
+"h": [
+"C<sub>6</sub>H<sub>10</sub> cíclico tem um anel e uma dupla: ciclo-hexeno.",
+"O Br<sub>2</sub> abre a dupla e entra um Br em cada carbono dela.",
+"Produto: <b>1,2-dibromociclo-hexano</b>."
+]
+},
+{
+"id": "1988b-2-qui-22",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 22",
+"r": 1320,
+"tm": 75,
+"ctx": "CH<sub>4</sub> + 2 O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O, ΔH = −890 kJ/mol. Qual o calor liberado na combustão de 1.000 dm³ de metano medidos nas CNTP (volume molar 22,4 dm³), em kJ?",
+"a": 39732,
+"u": "kJ",
+"tol": 0.01,
+"d": [
+[
+"Volume molar",
+"n = V/22,4 nas CNTP.",
+""
+],
+[
+"Entalpia por mol",
+"Multiplique o ΔH pelo número de mols.",
+""
+]
+],
+"h": [
+"n = 1.000/22,4 ≈ 44,6 mol.",
+"44,6 × 890.",
+"≈ <b>39.700 kJ</b> (cerca de 4 × 10<sup>4</sup> kJ)."
+]
+},
+{
+"id": "1988b-2-qui-23",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 23",
+"r": 1280,
+"tm": 60,
+"ctx": "A pólvora negra tem nitrato de sódio (solúvel em água), enxofre (solúvel em dissulfeto de carbono) e carvão (insolúvel nos dois). Como separar os três?",
+"opts": [
+"água → filtrar (o nitrato fica na solução, evapora-se a água); o sólido com CS<sub>2</sub> → filtrar (fica o carvão) e evaporar o CS<sub>2</sub> (fica o enxofre)",
+"aquecer até o enxofre evaporar e depois peneirar",
+"dissolver tudo em água e decantar",
+"dissolver em CS<sub>2</sub> e evaporar: sobram os três separados"
+],
+"a": 0,
+"d": [
+[
+"Dissolução fracionada",
+"Use um solvente que dissolva só um componente, filtre, e repita com outro solvente.",
+""
+]
+],
+"h": [
+"Com água: só o NaNO<sub>3</sub> dissolve. Filtra-se; evaporando a solução, recupera-se o nitrato.",
+"O resíduo (enxofre + carvão) com CS<sub>2</sub>: o enxofre dissolve. Filtra-se: fica o carvão.",
+"Evaporando o CS<sub>2</sub>, sobra o <b>enxofre</b>."
+]
+},
+{
+"id": "1988b-2-qui-24",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 24",
+"r": 1280,
+"tm": 60,
+"ctx": "Puros, LiBr, ácido acético e etanol não conduzem eletricidade. Em solução aquosa, LiBr conduz muito, o ácido acético conduz pouco e o etanol praticamente não conduz. Por quê?",
+"opts": [
+"LiBr é iônico e se dissocia totalmente; o ácido acético se ioniza só em parte; o etanol não forma íons",
+"os três se ionizam totalmente, mas os íons do etanol são lentos",
+"LiBr é molecular e o etanol é iônico",
+"a condutividade depende só da massa molar"
+],
+"a": 0,
+"d": [
+[
+"Condução em solução",
+"Conduz quem tem íons livres. Mais íons = mais condução.",
+""
+],
+[
+"Eletrólitos fortes e fracos",
+"Sais se dissociam totalmente; ácidos fracos se ionizam pouco; álcoois não se ionizam.",
+""
+]
+],
+"h": [
+"LiBr: composto iônico, dissocia por completo em Li<sup>+</sup> e Br<sup>−</sup>.",
+"Ácido acético: ácido fraco, só uma pequena fração vira CH<sub>3</sub>COO<sup>−</sup> + H<sup>+</sup>.",
+"Etanol: molecular, não forma íons. <b>Íons: muitos, poucos, quase nenhum</b>."
+]
+},
+{
+"id": "1988b-2-qui-25",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 25",
+"r": 1320,
+"tm": 75,
+"ctx": "Sulfato de ferro(III) com hidróxido de sódio forma um precipitado de hidróxido de ferro(III). Que massa de precipitado se forma quando reagem 0,10 mol de íons Fe<sup>3+</sup>, em g? (Fe = 56; O = 16; H = 1)",
+"a": 10.7,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Precipitação",
+"Fe<sup>3+</sup> + 3 OH<sup>−</sup> → Fe(OH)<sub>3</sub>: cada íon Fe<sup>3+</sup> forma uma unidade de Fe(OH)<sub>3</sub>.",
+""
+],
+[
+"Massa molar",
+"Some as massas atômicas de toda a fórmula.",
+""
+]
+],
+"h": [
+"0,10 mol de Fe<sup>3+</sup> → 0,10 mol de Fe(OH)<sub>3</sub>.",
+"M(Fe(OH)<sub>3</sub>) = 56 + 3 × 17 = 107 g/mol.",
+"m = 0,10 × 107 = <b>10,7 g</b>."
+]
+},
+{
+"id": "1988b-2-qui-26",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 26",
+"r": 1320,
+"tm": 60,
+"ctx": "Quais são três hidrocarbonetos insaturados de fórmula C<sub>4</sub>H<sub>8</sub>?",
+"opts": [
+"but-1-eno, but-2-eno e metilpropeno",
+"butano, metilpropano e ciclobutano",
+"but-1-ino, but-2-ino e buta-1,3-dieno",
+"ciclobutano, metilciclopropano e but-1-eno"
+],
+"a": 0,
+"d": [
+[
+"Fórmula C<sub>n</sub>H<sub>2n</sub>",
+"Corresponde a alcenos (cadeia aberta com uma dupla) ou a cicloalcanos (anel, saturados).",
+""
+],
+[
+"Isomeria de posição e de cadeia",
+"Mude a posição da dupla e ramifique a cadeia.",
+""
+]
+],
+"h": [
+"Insaturados com C<sub>4</sub>H<sub>8</sub> são alcenos (os cíclicos são saturados).",
+"Cadeia normal: dupla no C1 (but-1-eno) ou no C2 (but-2-eno, com cis e trans).",
+"Ramificado: <b>metilpropeno</b>."
+]
+},
+{
+"id": "1988b-2-qui-27",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 27",
+"r": 1280,
+"tm": 60,
+"ctx": "Os pontos de ebulição seguem a ordem H<sub>2</sub>O &gt; NH<sub>3</sub> &gt; CH<sub>4</sub>. Qual a explicação?",
+"opts": [
+"a água faz pontes de hidrogênio mais fortes e em maior número que a amônia; o metano só tem forças de dispersão",
+"a ordem segue as massas molares",
+"o metano faz pontes de hidrogênio fracas",
+"a amônia é iônica"
+],
+"a": 0,
+"d": [
+[
+"Forças intermoleculares",
+"Mais fortes → ponto de ebulição maior. Ordem: ponte de hidrogênio &gt; dipolo-dipolo &gt; dispersão (London), para moléculas de tamanho parecido.",
+""
+],
+[
+"Ponte de hidrogênio",
+"Só com H ligado a F, O ou N. O é mais eletronegativo que N.",
+""
+]
+],
+"h": [
+"As três moléculas têm massas parecidas (18, 17 e 16): a diferença vem das forças intermoleculares.",
+"H<sub>2</sub>O: pontes O–H···O, mais fortes e mais numerosas. NH<sub>3</sub>: pontes N–H···N, mais fracas.",
+"CH<sub>4</sub>: apolar, só <b>forças de dispersão</b>."
+]
+},
+{
+"id": "1988b-2-qui-29a",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 29(a)",
+"r": 1150,
+"tm": 60,
+"ctx": "Na reação CH<sub>3</sub>COOH + CH<sub>3</sub>OH ⇌ CH<sub>3</sub>COOCH<sub>3</sub> + H<sub>2</sub>O, o gráfico mostra as quantidades de ácido acético e de acetato de metila (partindo de 1,0 mol de ácido). Quanto resta de ácido e quanto se formou de acetato em 120 s?",
+"fig": "<svg viewBox='0 0 230 130' class='fg' role='img' aria-label='ácido acético cai de 1,0 mol: 0,5 em 50 s e 0,2 em 120 s; acetato de metila sobe de 0: 0,5 em 50 s e 0,8 em 120 s'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 225,110'/><path d='M30 14 C60 46 80 58 85 62 C120 82 150 92 162 91 C185 98 205 101 220 104'/><path d='M30 110 C60 78 80 66 85 62 C120 42 150 32 162 33 C185 26 205 23 220 20'/></g><g fill='none' stroke='currentColor' stroke-dasharray='2 3'><line x1='162' y1='20' x2='162' y2='110'/><line x1='30' y1='33' x2='162' y2='33'/><line x1='30' y1='91' x2='162' y2='91'/></g><g fill='currentColor' font-size='12'><text x='6' y='18'>1,0</text><text x='6' y='37'>0,8</text><text x='6' y='66'>0,5</text><text x='6' y='95'>0,2</text><text x='78' y='124'>50</text><text x='152' y='124'>120</text><text x='34' y='12'>mol</text><text x='196' y='124'>t (s)</text><text x='168' y='22'>acetato</text><text x='168' y='86'>ácido</text></g></svg>",
+"opts": [
+"≈ 0,2 mol de ácido e ≈ 0,8 mol de acetato",
+"≈ 0,8 mol de ácido e ≈ 0,2 mol de acetato",
+"≈ 0,5 mol de cada",
+"0 mol de ácido e 1,0 mol de acetato"
+],
+"a": 0,
+"d": [
+[
+"Leitura de gráfico",
+"Suba na vertical a partir de t = 120 s e leia cada curva no eixo.",
+""
+],
+[
+"Proporção 1 : 1",
+"Cada mol de ácido consumido forma 1 mol de acetato: as duas quantidades somam 1,0 mol.",
+""
+]
+],
+"h": [
+"Em 120 s, a curva do ácido está em ≈ 0,2 mol.",
+"Consumiu-se ≈ 0,8 mol, que virou ≈ 0,8 mol de acetato (a outra curva confirma).",
+"<b>≈ 0,2 mol de ácido e ≈ 0,8 mol de acetato</b>. As curvas se cruzam em ≈ 50 s: dali em diante há mais produto que reagente."
+]
+},
+{
+"id": "1988b-2-qui-30",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 30",
+"r": 1400,
+"tm": 75,
+"ctx": "No equilíbrio 2 NO(g) + O<sub>2</sub>(g) ⇌ 2 NO<sub>2</sub>(g), ΔH = −113 kJ, mantendo a proporção entre NO e O<sub>2</sub>, quais são duas maneiras de aumentar a concentração de NO<sub>2</sub>?",
+"opts": [
+"aumentar a pressão e diminuir a temperatura",
+"diminuir a pressão e aumentar a temperatura",
+"adicionar catalisador e aumentar a temperatura",
+"retirar O<sub>2</sub> e aumentar a temperatura"
+],
+"a": 0,
+"d": [
+[
+"Le Chatelier: pressão",
+"Aumentar a pressão favorece o lado com menos mols de gás.",
+""
+],
+[
+"Le Chatelier: temperatura",
+"Esfriar favorece o sentido exotérmico (ΔH &lt; 0).",
+""
+],
+[
+"Catalisador",
+"Não desloca equilíbrio.",
+""
+]
+],
+"h": [
+"Reagentes: 3 mols de gás; produto: 2. Aumentar a pressão desloca para o NO<sub>2</sub>.",
+"A reação direta é exotérmica: baixar a temperatura desloca para o NO<sub>2</sub>.",
+"<b>Aumentar a pressão e diminuir a temperatura</b>."
+]
+},
+{
+"id": "1988b-2-qui-31",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 31",
+"r": 1400,
+"tm": 60,
+"ctx": "A fenolftaleína é incolor em meio ácido e rosa em meio básico. Em quais destas soluções aquosas ela fica rosa: H<sub>2</sub>SO<sub>4</sub>, NH<sub>3</sub>, Na<sub>2</sub>CO<sub>3</sub> e AlCl<sub>3</sub>?",
+"opts": [
+"NH<sub>3</sub> e Na<sub>2</sub>CO<sub>3</sub>",
+"só NH<sub>3</sub>",
+"H<sub>2</sub>SO<sub>4</sub> e AlCl<sub>3</sub>",
+"Na<sub>2</sub>CO<sub>3</sub> e AlCl<sub>3</sub>"
+],
+"a": 0,
+"d": [
+[
+"Hidrólise de sais",
+"Sal de ácido fraco e base forte dá solução básica; sal de ácido forte e base fraca dá ácida.",
+"Na<sub>2</sub>CO<sub>3</sub>: vem de NaOH (forte) e H<sub>2</sub>CO<sub>3</sub> (fraco)"
+]
+],
+"h": [
+"H<sub>2</sub>SO<sub>4</sub>: ácido. NH<sub>3</sub>: base (NH<sub>3</sub> + H<sub>2</sub>O ⇌ NH<sub>4</sub><sup>+</sup> + OH<sup>−</sup>).",
+"Na<sub>2</sub>CO<sub>3</sub>: o carbonato hidrolisa e libera OH<sup>−</sup> → básica. AlCl<sub>3</sub>: o Al<sup>3+</sup> hidrolisa → ácida.",
+"Rosa em <b>NH<sub>3</sub> e Na<sub>2</sub>CO<sub>3</sub></b>."
+]
+},
+{
+"id": "1988b-2-qui-32",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1988 (2º vestibular), 2ª fase, Química, questão 32",
+"r": 1400,
+"tm": 75,
+"ctx": "Açúcares redutores reagem com Cu<sup>2+</sup> em meio básico: R–CHO + 2 Cu<sup>2+</sup> + 5 OH<sup>−</sup> → R–COO<sup>−</sup> + Cu<sub>2</sub>O + 3 H<sub>2</sub>O. Qual é o oxidante e qual o redutor?",
+"opts": [
+"oxidante: Cu<sup>2+</sup>; redutor: o aldeído (R–CHO)",
+"oxidante: o aldeído; redutor: Cu<sup>2+</sup>",
+"oxidante: OH<sup>−</sup>; redutor: Cu<sup>2+</sup>",
+"não há oxirredução"
+],
+"a": 0,
+"d": [
+[
+"Oxidante e redutor",
+"O oxidante se reduz (nox diminui); o redutor se oxida (nox aumenta).",
+""
+],
+[
+"Aldeído → ácido",
+"Aldeídos se oxidam facilmente a ácidos carboxílicos (aqui, ao íon carboxilato).",
+""
+]
+],
+"h": [
+"Cobre: +2 no Cu<sup>2+</sup> → +1 no Cu<sub>2</sub>O. Reduziu: é o oxidante.",
+"O grupo aldeído (–CHO) vira carboxilato (–COO<sup>−</sup>): oxidou.",
+"<b>Oxidante Cu<sup>2+</sup>, redutor o aldeído</b>."
+]
+}
+]

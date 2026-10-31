@@ -1,0 +1,1722 @@
+[
+{
+"id": "1997-1-01a",
+"ano": 1997,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1997, 1ª fase, questão 1(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "O imposto de renda é i = r·a − p, com r a renda líquida, a a alíquota e p a parcela a deduzir. Tabela: até R$ 8.800,00, isento; de R$ 8.801,00 a R$ 17.170,00, a = 15% e p = R$ 1.320,00; de R$ 17.171,00 a R$ 158.450,00, a = 25% e p = R$ 3.037,00; acima de R$ 158.450,00, a = 35% e p = R$ 18.882,00. Qual o imposto de quem teve renda líquida de R$ 17.200,00?",
+"a": 1263,
+"u": "R$",
+"tol": 0.002,
+"d": [
+[
+"Faixa",
+"Primeiro ache a linha da tabela em que a renda se encaixa; depois aplique i = r·a − p.",
+""
+]
+],
+"h": [
+"17.200 está na faixa de 25%, com p = 3.037.",
+"i = 17.200 × 0,25 − 3.037 = 4.300 − 3.037.",
+"i = <b>R$ 1.263,00</b>."
+]
+},
+{
+"id": "1997-1-01b",
+"ano": 1997,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1997, 1ª fase, questão 1(b)",
+"r": 1190,
+"tm": 60,
+"ctx": "O imposto de renda é i = r·a − p, com r a renda líquida, a a alíquota e p a parcela a deduzir. Tabela: até R$ 8.800,00, isento; de R$ 8.801,00 a R$ 17.170,00, a = 15% e p = R$ 1.320,00; de R$ 17.171,00 a R$ 158.450,00, a = 25% e p = R$ 3.037,00; acima de R$ 158.450,00, a = 35% e p = R$ 18.882,00. Qual seria o imposto com renda líquida de R$ 17.000,00 (R$ 200,00 a menos)?",
+"a": 1230,
+"u": "R$",
+"tol": 0.002,
+"d": [
+[
+"Faixa",
+"Uma renda um pouco menor pode cair em outra faixa, com outra alíquota e outra parcela a deduzir.",
+""
+]
+],
+"h": [
+"17.000 está na faixa de 15%, com p = 1.320.",
+"i = 17.000 × 0,15 − 1.320 = 2.550 − 1.320.",
+"i = <b>R$ 1.230,00</b> (só R$ 33,00 a menos, para R$ 200,00 a menos de renda)."
+]
+},
+{
+"id": "1997-1-03",
+"ano": 1997,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1997, 1ª fase, questão 3",
+"r": 1190,
+"tm": 75,
+"ctx": "Augusto dos Anjos escreveu: \"O oxigênio eficaz do ar atmosférico, / O calor e o carbono e o amplo éter são / Valem três vezes menos que este Américo...\". Qual a fórmula do gás diatômico essencial à respiração, a do constituinte majoritário do ar (com sua porcentagem em volume) e a fórmula estrutural do primeiro composto da série homóloga dos éteres?",
+"opts": [
+"O₂; N₂, cerca de 78%; H₃C–O–CH₃",
+"O₃; O₂, cerca de 21%; H₃C–O–H",
+"O₂; N₂, cerca de 21%; H₃C–CH₂–OH",
+"O₂; CO₂, cerca de 78%; H–O–H"
+],
+"a": 0,
+"d": [
+[
+"Composição do ar",
+"Em volume: cerca de 78% de N₂, 21% de O₂, 1% de argônio e outros.",
+""
+],
+[
+"Éteres",
+"Função R–O–R': um oxigênio entre dois grupos de carbono."
+]
+],
+"h": [
+"Gás diatômico da respiração: O₂.",
+"Ar atmosférico: o majoritário é o N₂, com cerca de 78% em volume.",
+"O menor éter tem um carbono de cada lado do O: <b>O₂; N₂ (78%); H₃C–O–CH₃</b> (éter dimetílico)."
+]
+},
+{
+"id": "1997-1-04",
+"ano": 1997,
+"fase": 1,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1997, 1ª fase, questão 4",
+"r": 1440,
+"tm": 90,
+"ctx": "Três minerais, CaCO₃, SrSO₄ e MnO(OH), foram testados. A é riscada apenas pela lâmina de aço e não libera gás com ácido; B é riscada pela lâmina de ferro e não libera gás; C é riscada pela lâmina de ferro e libera gás (escala de dureza: unha < ferro < aço). O MnO(OH) risca os outros dois. Qual a correspondência?",
+"opts": [
+"A: MnO(OH); B: SrSO₄; C: CaCO₃",
+"A: CaCO₃; B: SrSO₄; C: MnO(OH)",
+"A: SrSO₄; B: MnO(OH); C: CaCO₃",
+"A: MnO(OH); B: CaCO₃; C: SrSO₄"
+],
+"a": 0,
+"d": [
+[
+"Carbonato com ácido",
+"Carbonatos reagem com ácidos liberando CO₂ (efervescência).",
+""
+],
+[
+"Dureza",
+"Quem risca é mais duro do que quem é riscado."
+]
+],
+"h": [
+"Só o carbonato libera gás com ácido: C é CaCO₃ (esse dá para identificar com certeza, mesmo sem saber a dureza).",
+"O MnO(OH) é o mais duro: é A, que só o aço consegue riscar.",
+"Sobra B: <b>A: MnO(OH); B: SrSO₄; C: CaCO₃</b>."
+]
+},
+{
+"id": "1997-1-05a",
+"ano": 1997,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1997, 1ª fase, questão 5(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Num gráfico aproximado, a velocidade de um atleta numa prova olímpica sobe uniformemente de 0 a 12 m/s entre 0 e 6 s, fica constante em 12 m/s até 16 s e cai uniformemente para 10 m/s em 20 s. Em que intervalo o módulo da aceleração é menor e em qual é máximo?",
+"fig": "<svg viewBox='0 0 210 130' class='fg' role='img' aria-label='velocidade do atleta em função do tempo: sobe de 0 a 12 m/s entre 0 e 6 s, fica em 12 m/s até 16 s e cai para 10 m/s em 20 s'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='45' x2='190' y2='45'/><line x1='30' y1='51.7' x2='190' y2='51.7'/><line x1='78' y1='10' x2='78' y2='105'/><line x1='158' y1='10' x2='158' y2='105'/></g><polyline points='30,8 30,105 195,105' stroke-width='1.5'/><polyline points='30,105 78,45 158,45 190,51.7' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='116'>0</text><text x='75' y='116'>6</text><text x='152' y='116'>16</text><text x='184' y='116'>20</text><text x='18' y='48'>12</text><text x='18' y='58'>10</text><text x='34' y='8'>v (m/s)</text><text x='160' y='126'>t (s)</text></g></svg>",
+"opts": [
+"menor: de 6 a 16 s (aceleração nula); máximo: de 0 a 6 s (2 m/s²)",
+"menor: de 16 a 20 s; máximo: de 0 a 6 s",
+"menor: de 0 a 6 s; máximo: de 16 a 20 s",
+"menor: de 6 a 16 s; máximo: de 16 a 20 s"
+],
+"a": 0,
+"d": [
+[
+"Aceleração no gráfico v × t",
+"É a inclinação de cada trecho: a = Δv/Δt.",
+""
+]
+],
+"h": [
+"0 a 6 s: 12/6 = 2 m/s². 6 a 16 s: 0. 16 a 20 s: −2/4 = −0,5 m/s².",
+"Menor módulo: o trecho horizontal. Maior: o primeiro trecho.",
+"<b>Menor: 6 a 16 s; máximo: 0 a 6 s</b>."
+]
+},
+{
+"id": "1997-1-05b",
+"ano": 1997,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1997, 1ª fase, questão 5(b)",
+"r": 1280,
+"tm": 75,
+"ctx": "Num gráfico aproximado, a velocidade de um atleta numa prova olímpica sobe uniformemente de 0 a 12 m/s entre 0 e 6 s, fica constante em 12 m/s até 16 s e cai uniformemente para 10 m/s em 20 s. Qual a distância percorrida nos 20 s, e qual a velocidade média?",
+"fig": "<svg viewBox='0 0 210 130' class='fg' role='img' aria-label='velocidade do atleta em função do tempo: sobe de 0 a 12 m/s entre 0 e 6 s, fica em 12 m/s até 16 s e cai para 10 m/s em 20 s'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 3' stroke-width='0.6'><line x1='30' y1='45' x2='190' y2='45'/><line x1='30' y1='51.7' x2='190' y2='51.7'/><line x1='78' y1='10' x2='78' y2='105'/><line x1='158' y1='10' x2='158' y2='105'/></g><polyline points='30,8 30,105 195,105' stroke-width='1.5'/><polyline points='30,105 78,45 158,45 190,51.7' stroke-width='2'/></g><g fill='currentColor' font-size='9'><text x='27' y='116'>0</text><text x='75' y='116'>6</text><text x='152' y='116'>16</text><text x='184' y='116'>20</text><text x='18' y='48'>12</text><text x='18' y='58'>10</text><text x='34' y='8'>v (m/s)</text><text x='160' y='126'>t (s)</text></g></svg>",
+"opts": [
+"200 m; 10 m/s",
+"240 m; 12 m/s",
+"180 m; 9 m/s",
+"220 m; 11 m/s"
+],
+"a": 0,
+"d": [
+[
+"Área sob v × t",
+"A distância percorrida é a área sob o gráfico da velocidade.",
+""
+],
+[
+"Velocidade média",
+"v<sub>m</sub> = distância ÷ tempo."
+]
+],
+"h": [
+"0 a 6 s: 6 × 12/2 = 36 m. 6 a 16 s: 10 × 12 = 120 m. 16 a 20 s: (12 + 10)/2 × 4 = 44 m.",
+"Total: 200 m (é a prova de 200 m).",
+"v<sub>m</sub> = 200/20: <b>200 m; 10 m/s</b>."
+]
+},
+{
+"id": "1997-1-06",
+"ano": 1997,
+"fase": 1,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1997, 1ª fase, questão 6",
+"r": 1440,
+"tm": 75,
+"ctx": "Quatro blocos de gelo iguais, embrulhados em plástico, estão pendurados num quarto fechado a 25 °C: A e B perto do teto, C e D perto do chão. A e D estão enrolados em cobertores; B e C não. O único movimento de ar é a convecção. Qual bloco derrete primeiro e qual demora mais?",
+"opts": [
+"primeiro: B; por último: D",
+"primeiro: C; por último: A",
+"primeiro: A; por último: C",
+"primeiro: B; por último: A"
+],
+"a": 0,
+"d": [
+[
+"Convecção",
+"O ar frio, mais denso, desce; o ar quente sobe. Perto do teto o ar é mais quente.",
+""
+],
+[
+"Isolante",
+"O cobertor dificulta a passagem de calor."
+]
+],
+"h": [
+"O ar esfriado pelos blocos desce e se acumula embaixo: o ar perto do teto é o mais quente.",
+"B está no alto e sem cobertor: recebe calor mais depressa.",
+"D está embaixo, no ar mais frio, e embrulhado: <b>B derrete primeiro e D por último</b>."
+]
+},
+{
+"id": "1997-2-mat-01a",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 1(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Numa agência, cinco caixas atendem em fila única; cada atendimento demora exatamente 3 minutos. Na abertura, o caixa 1 atende o primeiro da fila, o caixa 2 o segundo, e assim por diante. Em que caixa será atendido o 68º cliente?",
+"a": 3,
+"tol": 0,
+"d": [
+[
+"Resto da divisão",
+"Os caixas se repetem de 5 em 5: o caixa é dado pelo resto da divisão por 5.",
+""
+]
+],
+"h": [
+"68 = 5 × 13 + 3.",
+"Resto 3: <b>caixa 3</b>."
+]
+},
+{
+"id": "1997-2-mat-01b",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 1(b)",
+"r": 1190,
+"tm": 60,
+"ctx": "Numa agência, cinco caixas atendem em fila única; cada atendimento demora exatamente 3 minutos. Na abertura, o caixa 1 atende o primeiro da fila, o caixa 2 o segundo, e assim por diante. Quantos minutos depois da abertura começa o atendimento do 68º cliente?",
+"a": 39,
+"u": "min",
+"tol": 0,
+"d": [
+[
+"Rodadas",
+"A cada 3 minutos começa uma nova rodada de 5 clientes.",
+""
+]
+],
+"h": [
+"Antes dele, completam-se 13 rodadas (65 clientes): ele está na 14ª rodada.",
+"A 14ª rodada começa após 13 × 3 min.",
+"<b>39 minutos</b>."
+]
+},
+{
+"id": "1997-2-mat-02",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 2",
+"r": 1360,
+"tm": 90,
+"ctx": "A, B, C e D têm juntas R$ 2.718,00. Se A tivesse o dobro do que tem, B a metade, C R$ 10,00 a mais e D R$ 10,00 a menos, todos teriam a mesma quantia. Quanto tem cada um?",
+"opts": [
+"A: 302; B: 1.208; C: 594; D: 614",
+"A: 604; B: 302; C: 614; D: 594",
+"A: 679,50 cada",
+"A: 302; B: 1.208; C: 614; D: 594"
+],
+"a": 0,
+"d": [
+[
+"Incógnita auxiliar",
+"Chame de k a quantia igual e escreva cada pessoa em função de k.",
+""
+]
+],
+"h": [
+"2A = k → A = k/2; B/2 = k → B = 2k; C = k − 10; D = k + 10.",
+"Soma: 4,5k = 2.718 → k = 604.",
+"<b>A = 302; B = 1.208; C = 594; D = 614</b>."
+]
+},
+{
+"id": "1997-2-mat-03",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 3",
+"r": 1280,
+"tm": 75,
+"ctx": "Um número a₈...a₁a₀ é divisível por 11 se, e só se, a₀ − a₁ + a₂ − a₃ + ... for divisível por 11. Qual o menor natural que se deve subtrair de 123.456.789 para que a diferença seja divisível por 11?",
+"a": 5,
+"tol": 0,
+"d": [
+[
+"Critério do 11",
+"Some e subtraia os algarismos alternadamente, começando pelas unidades.",
+""
+],
+[
+"Resto",
+"O resultado dá o resto da divisão por 11."
+]
+],
+"h": [
+"9 − 8 + 7 − 6 + 5 − 4 + 3 − 2 + 1 = 5.",
+"O número deixa resto 5 na divisão por 11.",
+"Subtraia <b>5</b>: 123.456.784 é divisível por 11."
+]
+},
+{
+"id": "1997-2-mat-04",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 4",
+"r": 1190,
+"tm": 75,
+"ctx": "A média das idades de 120 pessoas é 40 anos. A média das mulheres é 35 anos e a dos homens, 50. Quantas pessoas de cada sexo há no grupo?",
+"opts": [
+"80 mulheres e 40 homens",
+"40 mulheres e 80 homens",
+"60 de cada",
+"70 mulheres e 50 homens"
+],
+"a": 0,
+"d": [
+[
+"Média ponderada",
+"Soma total das idades = média × quantidade, em cada grupo e no total.",
+""
+]
+],
+"h": [
+"35m + 50(120 − m) = 40 × 120 = 4.800.",
+"6.000 − 15m = 4.800 → m = 80.",
+"<b>80 mulheres e 40 homens</b>."
+]
+},
+{
+"id": "1997-2-mat-05a",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 5(a)",
+"r": 1360,
+"tm": 90,
+"ctx": "O retângulo de uma bandeira do Brasil mede 2 m por 1,40 m; a parte fora do losango é verde. Os vértices do losango distam 17 cm dos lados do retângulo; a parte do losango fora do círculo é amarela, e o círculo tem raio de 35 cm. Use π = 22/7. Qual a área da região verde?",
+"fig": "<svg viewBox='0 0 210 150' class='fg' role='img' aria-label='bandeira retangular de 2 m por 1,40 m; losango com vértices a 17 cm dos lados; círculo de raio 35 cm no centro'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='5' y='5' width='200' height='140'/><polygon points='22,75 105,22 188,75 105,128'/><circle cx='105' cy='75' r='35'/><line x1='5' y1='75' x2='22' y2='75' stroke-dasharray='2 2' stroke-width='1'/><line x1='105' y1='75' x2='140' y2='75' stroke-dasharray='2 2' stroke-width='1'/></g><g fill='currentColor' font-size='9'><text x='6' y='70'>17</text><text x='112' y='72'>35</text></g></svg>",
+"a": 1.9202,
+"u": "m²",
+"tol": 0.003,
+"d": [
+[
+"Área do losango",
+"A = D·d/2, com D e d as diagonais.",
+""
+],
+[
+"Diagonais",
+"Cada diagonal é o lado do retângulo menos 2 × 17 cm."
+]
+],
+"h": [
+"Diagonais: 2,00 − 0,34 = 1,66 m e 1,40 − 0,34 = 1,06 m.",
+"Losango: 1,66 × 1,06/2 = 0,8798 m².",
+"Verde: 2,80 − 0,8798 = <b>1,9202 m²</b>."
+]
+},
+{
+"id": "1997-2-mat-05b",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 5(b)",
+"r": 1530,
+"tm": 90,
+"ctx": "O retângulo de uma bandeira do Brasil mede 2 m por 1,40 m; a parte fora do losango é verde. Os vértices do losango distam 17 cm dos lados do retângulo; a parte do losango fora do círculo é amarela, e o círculo tem raio de 35 cm. Use π = 22/7. O losango tem 0,8798 m². Que porcentagem da área da bandeira é amarela?",
+"fig": "<svg viewBox='0 0 210 150' class='fg' role='img' aria-label='bandeira retangular de 2 m por 1,40 m; losango com vértices a 17 cm dos lados; círculo de raio 35 cm no centro'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='5' y='5' width='200' height='140'/><polygon points='22,75 105,22 188,75 105,128'/><circle cx='105' cy='75' r='35'/><line x1='5' y1='75' x2='22' y2='75' stroke-dasharray='2 2' stroke-width='1'/><line x1='105' y1='75' x2='140' y2='75' stroke-dasharray='2 2' stroke-width='1'/></g><g fill='currentColor' font-size='9'><text x='6' y='70'>17</text><text x='112' y='72'>35</text></g></svg>",
+"a": 17.67,
+"u": "%",
+"tol": 0.003,
+"d": [
+[
+"Área do círculo",
+"A = π·r² = (22/7)·r².",
+""
+],
+[
+"Porcentagem",
+"amarelo ÷ total × 100."
+]
+],
+"h": [
+"Círculo: (22/7) × 0,35² = 0,385 m².",
+"Amarelo: 0,8798 − 0,385 = 0,4948 m².",
+"0,4948/2,80 ≈ <b>17,67%</b>."
+]
+},
+{
+"id": "1997-2-mat-06a",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 6(a)",
+"r": 1440,
+"tm": 90,
+"ctx": "Os ciclistas A e B partem juntos do ponto P(−1, 1), com velocidades de módulo constante. A segue a reta 4y − 3x − 7 = 0 e B a circunferência x² + y² − 6x − 8y = 0 (unidades em km). Em que ponto Q, diferente de P, as trajetórias se cruzam?",
+"opts": [
+"(7, 7)",
+"(3, 4)",
+"(−1, 1)",
+"(5, 5)"
+],
+"a": 0,
+"d": [
+[
+"Interseção",
+"Isole y na reta e substitua na equação da circunferência.",
+""
+]
+],
+"h": [
+"y = (3x + 7)/4. Substituindo e simplificando: 25x² − 150x − 175 = 0 → x² − 6x − 7 = 0.",
+"x = −1 (é o P) ou x = 7 → y = 7.",
+"<b>Q = (7, 7)</b>."
+]
+},
+{
+"id": "1997-2-mat-06b",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 6(b)",
+"r": 1780,
+"tm": 120,
+"ctx": "Os ciclistas A e B partem juntos do ponto P(−1, 1), com velocidades de módulo constante. A segue a reta 4y − 3x − 7 = 0 e B a circunferência x² + y² − 6x − 8y = 0 (unidades em km). As trajetórias se cruzam em Q(7, 7). Se A vai a 20 km/h, qual deve ser a velocidade de B para que cheguem juntos a Q?",
+"a": 31.4,
+"u": "km/h",
+"tol": 0.01,
+"d": [
+[
+"Centro e raio",
+"Complete quadrados: (x − 3)² + (y − 4)² = 25.",
+""
+],
+[
+"Diâmetro",
+"Se a corda PQ mede 2r, ela é um diâmetro e o arco PQ é meia circunferência."
+]
+],
+"h": [
+"PQ = √(8² + 6²) = 10 km = 2 × 5: PQ é um diâmetro; A leva 10/20 = 0,5 h.",
+"B percorre meia circunferência: π × 5 ≈ 15,7 km.",
+"v<sub>B</sub> = 5π/0,5 = 10π ≈ <b>31,4 km/h</b>."
+]
+},
+{
+"id": "1997-2-mat-07a",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 7(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Uma urna tem 50 bolas: X brancas numeradas de 1 a X, X + 1 azuis numeradas de 1 a X + 1, X + 2 amarelas numeradas de 1 a X + 2 e X + 3 verdes numeradas de 1 a X + 3. Qual o valor de X?",
+"a": 11,
+"tol": 0,
+"d": [
+[
+"Total",
+"Some as quatro quantidades e iguale a 50.",
+""
+]
+],
+"h": [
+"4X + 6 = 50.",
+"X = <b>11</b>."
+]
+},
+{
+"id": "1997-2-mat-07b",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 7(b)",
+"r": 1530,
+"tm": 90,
+"ctx": "Uma urna tem 50 bolas: X brancas numeradas de 1 a X, X + 1 azuis numeradas de 1 a X + 1, X + 2 amarelas numeradas de 1 a X + 2 e X + 3 verdes numeradas de 1 a X + 3. Com X = 11, qual a probabilidade de retirar ao acaso uma bola azul ou uma bola com o número 12?",
+"opts": [
+"7/25",
+"13/50",
+"3/25",
+"15/50"
+],
+"a": 0,
+"d": [
+[
+"União de eventos",
+"P(A ou B) = P(A) + P(B) − P(A e B).",
+""
+],
+[
+"Quais têm o número 12",
+"Brancas vão até 11; azuis até 12; amarelas até 13; verdes até 14."
+]
+],
+"h": [
+"Azuis: 12. Com o número 12: azul, amarela e verde, 3 bolas.",
+"A azul de número 12 foi contada duas vezes: 12 + 3 − 1 = 14.",
+"P = 14/50 = <b>7/25</b>."
+]
+},
+{
+"id": "1997-2-mat-09",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 9",
+"r": 1620,
+"tm": 90,
+"ctx": "A hipotenusa de um triângulo retângulo mede 1 m, e um dos ângulos agudos é o triplo do outro. Quanto mede o cateto maior?",
+"a": 0.924,
+"u": "m",
+"tol": 0.003,
+"d": [
+[
+"Ângulos agudos",
+"Somam 90°: α + 3α = 90°.",
+""
+],
+[
+"Arco metade",
+"cos(θ/2) = √[(1 + cos θ)/2]."
+]
+],
+"h": [
+"α = 22,5° e 3α = 67,5°. O cateto maior é oposto a 67,5°: mede cos 22,5°.",
+"cos 22,5° = √[(1 + √2/2)/2] = √(2 + √2)/2.",
+"≈ <b>0,924 m</b> (entre 92 e 93 cm). O menor mede √(2 − √2)/2 ≈ 0,383 m."
+]
+},
+{
+"id": "1997-2-mat-10",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "binom",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 10",
+"r": 1440,
+"tm": 75,
+"ctx": "Seja S = C(n,0) + C(n,1) + ... + C(n,n), em que C(n,p) = n!/[p!(n − p)!] são os coeficientes de (a + b)ⁿ. Quanto vale log₂ S?",
+"opts": [
+"n",
+"2n",
+"n²",
+"n/2"
+],
+"a": 0,
+"d": [
+[
+"Binômio de Newton",
+"(a + b)ⁿ = Σ C(n,p)·aⁿ⁻ᵖ·bᵖ.",
+""
+],
+[
+"Truque",
+"Escolha a = b = 1."
+]
+],
+"h": [
+"Com a = b = 1: (1 + 1)ⁿ = C(n,0) + ... + C(n,n).",
+"S = 2ⁿ.",
+"log₂ S = <b>n</b>."
+]
+},
+{
+"id": "1997-2-mat-11",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 11 (o enunciado digitalizado mostra 3 + i; o símbolo da raiz se perdeu na conversão)",
+"r": 1780,
+"tm": 120,
+"ctx": "Um triângulo equilátero, inscrito numa circunferência de centro na origem, tem um vértice no ponto associado ao complexo √3 + i. Quais os outros dois vértices e quanto mede o lado?",
+"opts": [
+"−√3 + i e −2i; lado 2√3",
+"−√3 − i e 2i; lado 2",
+"−1 + √3i e −1 − √3i; lado 2√3",
+"√3 − i e −2i; lado 2"
+],
+"a": 0,
+"d": [
+[
+"Forma polar",
+"√3 + i = 2·cis 30°.",
+""
+],
+[
+"Vértices do polígono regular",
+"Os vértices do triângulo inscrito ficam a 120° um do outro: multiplique por cis 120°."
+],
+[
+"Lado",
+"Triângulo equilátero inscrito em círculo de raio R: lado R√3."
+]
+],
+"h": [
+"Módulo 2 e argumento 30°. Os outros: 2·cis 150° e 2·cis 270°.",
+"2·cis 150° = −√3 + i; 2·cis 270° = −2i.",
+"Lado = 2√3. <b>−√3 + i e −2i; lado 2√3</b>."
+]
+},
+{
+"id": "1997-2-mat-12",
+"ano": 1997,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 1997, 2ª fase, Matemática, questão 12",
+"r": 1960,
+"tm": 150,
+"ctx": "Seja p(x) = x³ − 12x + 16, que tem x = 2 como raiz. Fatorando p(x), por que p(x) > 0 para x > 0 e x ≠ 2? E como isso mostra que, entre os prismas retos de base quadrada com volume 8 m³, o cubo tem a menor área total?",
+"opts": [
+"p(x) = (x − 2)²(x + 4) > 0; a área de base a é 2a² + 32/a, e 2a² + 32/a − 24 = 2p(a)/a ≥ 0, com igualdade só em a = 2 (o cubo)",
+"p(x) = (x − 2)(x² + 2x − 8); a área é 2a² + 8a, mínima em a = 2",
+"p(x) = (x + 2)²(x − 4); o cubo tem a maior área",
+"p(x) = (x − 2)³; a área é sempre 24"
+],
+"a": 0,
+"d": [
+[
+"Briot-Ruffini",
+"Divida p(x) por (x − 2) para fatorar.",
+""
+],
+[
+"Área do prisma",
+"Base de lado a e altura h = 8/a²: área total = 2a² + 4ah."
+]
+],
+"h": [
+"p(x) = (x − 2)(x² + 2x − 8) = (x − 2)²(x + 4), positivo para x > 0, x ≠ 2.",
+"Área: 2a² + 4a·8/a² = 2a² + 32/a. Área − 24 = (2a³ − 24a + 32)/a = 2p(a)/a.",
+"Isso é ≥ 0, e só zera em a = 2 (h = 2): <b>o cubo de aresta 2 m tem a menor área, 24 m²</b>."
+]
+},
+{
+"id": "1997-2-fis-01a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1997, 2ª fase, Física, questão 1(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Um carro popular acelera de 0 a 100 km/h em 18 s numa estrada horizontal, com aceleração constante. Qual a aceleração?",
+"a": 1.54,
+"u": "m/s²",
+"tol": 0.03,
+"d": [
+[
+"Aceleração média",
+"a = Δv/Δt, com v em m/s (km/h ÷ 3,6).",
+""
+]
+],
+"h": [
+"100 km/h ≈ 27,8 m/s.",
+"a = 27,8/18.",
+"a ≈ <b>1,5 m/s²</b>."
+]
+},
+{
+"id": "1997-2-fis-01b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1997, 2ª fase, Física, questão 1(b)",
+"r": 1100,
+"tm": 60,
+"ctx": "Um carro popular acelera de 0 a 100 km/h em 18 s numa estrada horizontal, com aceleração constante. A aceleração é cerca de 1,54 m/s². Que distância o carro percorre nos primeiros 10 s?",
+"a": 77,
+"u": "m",
+"tol": 0.03,
+"d": [
+[
+"MUV a partir do repouso",
+"d = a·t²/2.",
+""
+]
+],
+"h": [
+"d = 1,54 × 10²/2.",
+"d ≈ <b>77 m</b>."
+]
+},
+{
+"id": "1997-2-fis-01c",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1997, 2ª fase, Física, questão 1(c)",
+"r": 1190,
+"tm": 60,
+"ctx": "Um carro popular acelera de 0 a 100 km/h em 18 s numa estrada horizontal, com aceleração constante. Qual deve ser o comprimento mínimo da faixa de aceleração de uma rodovia para que o carro chegue a 100 km/h?",
+"a": 250,
+"u": "m",
+"tol": 0.02,
+"d": [
+[
+"Velocidade média no MUV",
+"Partindo do repouso com aceleração constante: v<sub>m</sub> = v/2 e d = v<sub>m</sub>·t.",
+""
+]
+],
+"h": [
+"v = 27,8 m/s; v<sub>m</sub> = 13,9 m/s.",
+"d = 13,9 × 18.",
+"d ≈ <b>250 m</b>."
+]
+},
+{
+"id": "1997-2-fis-02a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1997, 2ª fase, Física, questão 2(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Um avião em voo num plano vertical percorre, com velocidade de módulo constante de 900 km/h, um arco BMC de 90° de uma circunferência de 2,5 km de raio, cujo ponto mais baixo é M. O piloto, de 80 kg, está sentado sobre uma balança de mola. Quanto tempo o avião leva para percorrer o arco BMC?",
+"a": 15.7,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Comprimento de arco",
+"Arco de 90° = um quarto da circunferência: 2πR/4.",
+""
+],
+[
+"Conversão",
+"900 km/h = 250 m/s."
+]
+],
+"h": [
+"Arco: π × 2500/2 ≈ 3.927 m.",
+"t = 3.927/250.",
+"t ≈ <b>15,7 s</b>."
+]
+},
+{
+"id": "1997-2-fis-02b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1997, 2ª fase, Física, questão 2(b)",
+"r": 1530,
+"tm": 75,
+"ctx": "Um avião em voo num plano vertical percorre, com velocidade de módulo constante de 900 km/h, um arco BMC de 90° de uma circunferência de 2,5 km de raio, cujo ponto mais baixo é M. O piloto, de 80 kg, está sentado sobre uma balança de mola. Qual a marcação da balança no ponto M?",
+"a": 2800,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Ponto mais baixo da curva",
+"A resultante aponta para o centro (para cima): N − m·g = m·v²/R.",
+""
+]
+],
+"h": [
+"v²/R = 250²/2500 = 25 m/s².",
+"N = 80 × (10 + 25).",
+"N = <b>2.800 N</b> (3,5 vezes o peso)."
+]
+},
+{
+"id": "1997-2-fis-03a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1997, 2ª fase, Física, questão 3(a)",
+"r": 1620,
+"tm": 90,
+"ctx": "Duas bolas de sinuca de 200 g colidem; B estava parada. A chega com V = 2,0 m/s, formando ângulo α com a direção y, sen α = 0,80. Após a colisão B sai na direção y e, como as massas são iguais, A sai perpendicular a B, na direção x. Quais as velocidades de A e de B logo após a colisão?",
+"fig": "<svg viewBox='0 0 200 160' class='fg' role='img' aria-label='bola B parada acima da bola A, sobre o eixo y; a bola A chega de baixo e da esquerda com velocidade V, formando ângulo alfa com a direção y'><g fill='none' stroke='currentColor' stroke-width='1.3'><line x1='110' y1='5' x2='110' y2='155' stroke-dasharray='4 3' stroke-width='1'/><line x1='40' y1='88' x2='190' y2='88' stroke-dasharray='4 3' stroke-width='1'/><circle cx='110' cy='60' r='14'/><circle cx='110' cy='88' r='14'/><circle cx='60' cy='128' r='14'/><line x1='72' y1='118' x2='92' y2='102'/><path d='M110,118 A30,30 0 0 0 86,107'/></g><g fill='currentColor' font-size='10'><polygon points='97,98 87,100 92,107'/><text x='113' y='64'>B</text><text x='113' y='92'>A</text><text x='56' y='132'>A</text><text x='70' y='104'>V</text><text x='92' y='126'>α</text><text x='114' y='12'>y</text><text x='183' y='84'>x</text></g></svg>",
+"opts": [
+"A: 1,6 m/s em x; B: 1,2 m/s em y",
+"A: 1,2 m/s em x; B: 1,6 m/s em y",
+"A: 2,0 m/s em x; B: zero",
+"A: 1,0 m/s em x; B: 1,0 m/s em y"
+],
+"a": 0,
+"d": [
+[
+"Conservação do momento",
+"Em cada eixo, o momento total antes = depois.",
+""
+],
+[
+"Componentes",
+"Com α medido a partir do eixo y: Vₓ = V·sen α e V<sub>y</sub> = V·cos α."
+]
+],
+"h": [
+"Antes: Vₓ = 2,0 × 0,80 = 1,6 m/s e V<sub>y</sub> = 2,0 × 0,60 = 1,2 m/s (só da bola A).",
+"Depois, em x só A se move: v<sub>A</sub> = 1,6 m/s. Em y só B: v<sub>B</sub> = 1,2 m/s.",
+"<b>A: 1,6 m/s em x; B: 1,2 m/s em y</b>."
+]
+},
+{
+"id": "1997-2-fis-03b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1997, 2ª fase, Física, questão 3(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "Duas bolas de sinuca de 200 g colidem; B estava parada. A chega com V = 2,0 m/s, formando ângulo α com a direção y, sen α = 0,80. Após a colisão B sai na direção y e, como as massas são iguais, A sai perpendicular a B, na direção x. Depois da colisão, A sai a 1,6 m/s e B a 1,2 m/s. Qual a variação da energia cinética?",
+"fig": "<svg viewBox='0 0 200 160' class='fg' role='img' aria-label='bola B parada acima da bola A, sobre o eixo y; a bola A chega de baixo e da esquerda com velocidade V, formando ângulo alfa com a direção y'><g fill='none' stroke='currentColor' stroke-width='1.3'><line x1='110' y1='5' x2='110' y2='155' stroke-dasharray='4 3' stroke-width='1'/><line x1='40' y1='88' x2='190' y2='88' stroke-dasharray='4 3' stroke-width='1'/><circle cx='110' cy='60' r='14'/><circle cx='110' cy='88' r='14'/><circle cx='60' cy='128' r='14'/><line x1='72' y1='118' x2='92' y2='102'/><path d='M110,118 A30,30 0 0 0 86,107'/></g><g fill='currentColor' font-size='10'><polygon points='97,98 87,100 92,107'/><text x='113' y='64'>B</text><text x='113' y='92'>A</text><text x='56' y='132'>A</text><text x='70' y='104'>V</text><text x='92' y='126'>α</text><text x='114' y='12'>y</text><text x='183' y='84'>x</text></g></svg>",
+"a": 0,
+"u": "J",
+"d": [
+[
+"Energia cinética",
+"E = m·v²/2 de cada bola.",
+""
+]
+],
+"h": [
+"Antes: 0,2 × 2,0²/2 = 0,40 J.",
+"Depois: 0,2 × (1,6² + 1,2²)/2 = 0,1 × 4,0 = 0,40 J.",
+"ΔE = <b>0</b>: a colisão é elástica."
+]
+},
+{
+"id": "1997-2-fis-04a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1997, 2ª fase, Física, questão 4(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "O planeta Mercúrio tem massa 0,040 vez a da Terra e diâmetro 0,40 vez o da Terra (g na Terra = 10 m/s²). Qual seria, em Mercúrio, o peso da água de uma caixa de 1.000 litros?",
+"a": 2500,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Gravidade na superfície",
+"g = G·M/R²: proporcional à massa e inversamente ao quadrado do raio.",
+""
+]
+],
+"h": [
+"g<sub>M</sub> = 10 × 0,040/0,40² = 10 × 0,25 = 2,5 m/s².",
+"1.000 L de água = 1.000 kg.",
+"P = 1.000 × 2,5 = <b>2.500 N</b>."
+]
+},
+{
+"id": "1997-2-fis-04b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1997, 2ª fase, Física, questão 4(b)",
+"r": 1700,
+"tm": 90,
+"ctx": "O planeta Mercúrio tem massa 0,040 vez a da Terra e diâmetro 0,40 vez o da Terra (g na Terra = 10 m/s²). Um satélite da Terra em órbita circular de 40.000 km de raio tem período de 24 h. Qual seria o período de um satélite de Mercúrio numa órbita de mesmo raio?",
+"a": 120,
+"u": "h",
+"tol": 0.01,
+"d": [
+[
+"Órbita circular",
+"G·M·m/r² = m·(2π/T)²·r → T² = 4π²r³/(G·M).",
+""
+],
+[
+"Mesmo raio",
+"T é proporcional a 1/√M."
+]
+],
+"h": [
+"T<sub>M</sub>/T<sub>T</sub> = √(M<sub>T</sub>/M<sub>M</sub>) = √(1/0,04) = 5.",
+"T<sub>M</sub> = 5 × 24 h.",
+"<b>120 h</b>."
+]
+},
+{
+"id": "1997-2-fis-05a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1997, 2ª fase, Física, questão 5(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Um halterofilista levanta 200 kg até uma altura de 2,0 m em 1,0 s (g = 10 m/s²). Qual a potência desenvolvida?",
+"a": 4000,
+"u": "W",
+"tol": 0.01,
+"d": [
+[
+"Trabalho contra o peso",
+"W = m·g·h.",
+""
+],
+[
+"Potência",
+"P = W/Δt."
+]
+],
+"h": [
+"W = 200 × 10 × 2,0 = 4.000 J.",
+"P = 4.000/1,0.",
+"P = <b>4.000 W</b>."
+]
+},
+{
+"id": "1997-2-fis-05b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1997, 2ª fase, Física, questão 5(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Os 4.000 J gastos por um halterofilista ao levantar um peso aqueceriam 50 litros de água, inicialmente a 20 °C, até que temperatura? (1 cal = 4,0 J)",
+"a": 20.02,
+"u": "°C",
+"tol": 0.0002,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·ΔT, com c = 1 cal/(g·°C).",
+""
+]
+],
+"h": [
+"Q = 4.000 J = 1.000 cal; m = 50.000 g.",
+"ΔT = 1.000/50.000 = 0,02 °C.",
+"T = <b>20,02 °C</b>: quase nada."
+]
+},
+{
+"id": "1997-2-fis-06a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1997, 2ª fase, Física, questão 6(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Um barril de chope tem bomba e serpentina. A bomba aumenta a pressão na parte de cima do barril e força o chope a subir por um tubo que sai do fundo, passa 0,4 m acima do topo do barril e desce até a saída, que fica 0,2 m abaixo desse ponto mais alto. O barril tem 0,6 m de altura. Densidade do chope = 1.000 kg/m³; g = 10 m/s². Qual a mínima pressão (acima da atmosférica) aplicada pela bomba para que comece a sair chope, com o barril cheio até o topo e a serpentina vazia?",
+"fig": "<svg viewBox='0 0 235 135' class='fg' role='img' aria-label='barril de 0,6 m de altura; o tubo sai do fundo do barril, sobe até 0,4 m acima do topo do barril, desce por uma serpentina dentro de uma caixa e sobe até a saída, 0,2 m abaixo do ponto mais alto do tubo; bomba no topo do barril'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='135' y='55' width='55' height='60' rx='6'/><rect x='58' y='55' width='46' height='60' stroke-width='1'/><path d='M20,40 L20,35 L70,35 L70,105 Q74,112 78,105 L78,70 Q82,63 86,70 L86,105 Q90,112 94,105 L94,15 L148,15 L148,110'/><rect x='168' y='40' width='8' height='15'/><g stroke-width='1'><line x1='200' y1='15' x2='200' y2='115'/><line x1='195' y1='15' x2='205' y2='15'/><line x1='195' y1='55' x2='205' y2='55'/><line x1='195' y1='115' x2='205' y2='115'/><line x1='8' y1='15' x2='8' y2='35'/><line x1='3' y1='15' x2='13' y2='15'/><line x1='3' y1='35' x2='13' y2='35'/><line x1='20' y1='15' x2='148' y2='15' stroke-dasharray='2 3'/></g></g><g fill='currentColor' font-size='9'><text x='204' y='38'>0,4 m</text><text x='204' y='88'>0,6 m</text><text x='12' y='28'>0,2 m</text><text x='12' y='50'>saída</text><text x='56' y='127'>serpentina</text><text x='154' y='90'>barril</text><text x='160' y='35'>bomba</text></g></svg>",
+"a": 4000,
+"u": "Pa",
+"tol": 0.01,
+"d": [
+[
+"Lei de Stevin",
+"Para elevar um líquido a uma altura h, é preciso uma sobrepressão Δp = ρ·g·h.",
+""
+]
+],
+"h": [
+"O chope precisa subir do nível do barril (o topo) até o ponto mais alto do tubo: 0,4 m.",
+"Δp = 1.000 × 10 × 0,4.",
+"Δp = <b>4,0·10³ Pa</b>."
+]
+},
+{
+"id": "1997-2-fis-06b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1997, 2ª fase, Física, questão 6(b)",
+"r": 1780,
+"tm": 90,
+"ctx": "Um barril de chope tem bomba e serpentina. A bomba aumenta a pressão na parte de cima do barril e força o chope a subir por um tubo que sai do fundo, passa 0,4 m acima do topo do barril e desce até a saída, que fica 0,2 m abaixo desse ponto mais alto. O barril tem 0,6 m de altura. Densidade do chope = 1.000 kg/m³; g = 10 m/s². No fim da festa, com o nível do chope a 10 cm do fundo e a serpentina cheia, qual a mínima pressão para o chope sair?",
+"fig": "<svg viewBox='0 0 235 135' class='fg' role='img' aria-label='barril de 0,6 m de altura; o tubo sai do fundo do barril, sobe até 0,4 m acima do topo do barril, desce por uma serpentina dentro de uma caixa e sobe até a saída, 0,2 m abaixo do ponto mais alto do tubo; bomba no topo do barril'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='135' y='55' width='55' height='60' rx='6'/><rect x='58' y='55' width='46' height='60' stroke-width='1'/><path d='M20,40 L20,35 L70,35 L70,105 Q74,112 78,105 L78,70 Q82,63 86,70 L86,105 Q90,112 94,105 L94,15 L148,15 L148,110'/><rect x='168' y='40' width='8' height='15'/><g stroke-width='1'><line x1='200' y1='15' x2='200' y2='115'/><line x1='195' y1='15' x2='205' y2='15'/><line x1='195' y1='55' x2='205' y2='55'/><line x1='195' y1='115' x2='205' y2='115'/><line x1='8' y1='15' x2='8' y2='35'/><line x1='3' y1='15' x2='13' y2='15'/><line x1='3' y1='35' x2='13' y2='35'/><line x1='20' y1='15' x2='148' y2='15' stroke-dasharray='2 3'/></g></g><g fill='currentColor' font-size='9'><text x='204' y='38'>0,4 m</text><text x='204' y='88'>0,6 m</text><text x='12' y='28'>0,2 m</text><text x='12' y='50'>saída</text><text x='56' y='127'>serpentina</text><text x='154' y='90'>barril</text><text x='160' y='35'>bomba</text></g></svg>",
+"a": 7000,
+"u": "Pa",
+"tol": 0.01,
+"d": [
+[
+"Tubo cheio",
+"Com o tubo todo cheio de líquido, o que importa é o desnível entre a superfície no barril e a saída (como num sifão).",
+""
+]
+],
+"h": [
+"Do nível (0,1 m do fundo) ao topo do barril: 0,5 m. A saída está 0,2 m acima do topo do barril.",
+"Desnível: 0,5 + 0,2 = 0,7 m.",
+"Δp = 1.000 × 10 × 0,7 = <b>7,0·10³ Pa</b>."
+]
+},
+{
+"id": "1997-2-fis-07a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1997, 2ª fase, Física, questão 7(a)",
+"r": 1360,
+"tm": 60,
+"ctx": "O nível sonoro em decibéis é N = 10·log₁₀(I/I₀), com I₀ = 10⁻¹² W/m². Um ser humano começa a sentir dor a cerca de 120 dB. O nível mínimo que um indivíduo B consegue ouvir a 100 Hz é de cerca de 30 dB. Qual a intensidade mínima de um som que causa dor?",
+"a": 1,
+"u": "W/m²",
+"tol": 0.01,
+"d": [
+[
+"Inverter o logaritmo",
+"I = I₀·10<sup>N/10</sup>.",
+""
+]
+],
+"h": [
+"120 dB → I/I₀ = 10¹².",
+"I = 10⁻¹² × 10¹².",
+"I = <b>1 W/m²</b>."
+]
+},
+{
+"id": "1997-2-fis-07b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1997, 2ª fase, Física, questão 7(b)",
+"r": 1620,
+"tm": 75,
+"ctx": "O nível sonoro em decibéis é N = 10·log₁₀(I/I₀), com I₀ = 10⁻¹² W/m². Um ser humano começa a sentir dor a cerca de 120 dB. O nível mínimo que um indivíduo B consegue ouvir a 100 Hz é de cerca de 30 dB. Um beija-flor bate as asas 100 vezes por segundo, e seu ruído chega ao ouvinte com 10 dB. Por quanto a intensidade precisa ser multiplicada para que o indivíduo B o ouça?",
+"a": 100,
+"tol": 0.01,
+"d": [
+[
+"Diferença de níveis",
+"ΔN = 10·log₁₀(I₂/I₁): cada 10 dB a mais multiplica a intensidade por 10.",
+""
+]
+],
+"h": [
+"O som tem 100 Hz; B precisa de 30 dB nessa frequência.",
+"Faltam 20 dB: I₂/I₁ = 10².",
+"Multiplicar por <b>100</b>."
+]
+},
+{
+"id": "1997-2-fis-08",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1997, 2ª fase, Física, questão 8",
+"r": 1960,
+"tm": 150,
+"ctx": "Luz incide a 45° sobre uma tela T, e um pequeno objeto O faz sombra nela. Coloca-se entre o objeto e a tela, paralela à tela, uma lâmina de plástico de 1,2 cm de espessura e índice de refração n = 5√2/6 ≈ 1,18. De quanto a sombra se desloca na tela?",
+"a": 0.3,
+"u": "cm",
+"tol": 0.02,
+"d": [
+[
+"Lei de Snell",
+"sen 45° = n·sen r.",
+""
+],
+[
+"Deslocamento ao longo da lâmina",
+"Atravessando uma espessura e, o raio avança e·tg θ ao longo da lâmina, com θ o ângulo com a normal."
+]
+],
+"h": [
+"sen r = (√2/2)/(5√2/6) = 0,6 → tg r = 0,75.",
+"Sem lâmina, nesse trecho de 1,2 cm o raio avança 1,2 × tg 45° = 1,2 cm; com lâmina, 1,2 × 0,75 = 0,9 cm.",
+"A sombra se desloca <b>0,3 cm</b> (3 mm)."
+]
+},
+{
+"id": "1997-2-fis-09",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1997, 2ª fase, Física, questão 9",
+"r": 1780,
+"tm": 120,
+"ctx": "Dois alto-falantes iguais, um de frente para o outro a 6,0 m de distância, emitem em fase um som de 220 Hz (velocidade do som: 330 m/s). Qual o comprimento de onda, e em que pontos do eixo entre eles o som tem intensidade máxima?",
+"opts": [
+"λ = 1,5 m; a cada 0,75 m a partir do ponto médio (0,75; 1,5; 2,25; ... ; 5,25 m de um dos alto-falantes)",
+"λ = 1,5 m; só no ponto médio, a 3,0 m",
+"λ = 0,67 m; a cada 0,33 m",
+"λ = 1,5 m; a cada 1,5 m a partir de um alto-falante"
+],
+"a": 0,
+"d": [
+[
+"Comprimento de onda",
+"λ = v/f.",
+""
+],
+[
+"Interferência construtiva",
+"Diferença de caminho = número inteiro de comprimentos de onda."
+]
+],
+"h": [
+"λ = 330/220 = 1,5 m.",
+"A um deslocamento x do ponto médio, a diferença de caminho é 2x: 2x = kλ → x = 0,75k.",
+"Máximos a cada <b>0,75 m</b>, começando no ponto médio: 0,75; 1,5; ...; 5,25 m de um alto-falante."
+]
+},
+{
+"id": "1997-2-fis-10a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1997, 2ª fase, Física, questão 10(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Num banho de prata, uma barra de prata e o objeto a ser prateado ficam numa solução condutora. Passa uma corrente de 6,0 A, e cada coulomb de carga transporta cerca de 1,1 mg de prata. Que carga passa nos eletrodos em uma hora?",
+"a": 21600,
+"u": "C",
+"tol": 0.01,
+"d": [
+[
+"Corrente",
+"Q = i·Δt.",
+""
+]
+],
+"h": [
+"Q = 6,0 × 3.600.",
+"Q = <b>21.600 C</b>."
+]
+},
+{
+"id": "1997-2-fis-10b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1997, 2ª fase, Física, questão 10(b)",
+"r": 1100,
+"tm": 60,
+"ctx": "Num banho de prata, uma barra de prata e o objeto a ser prateado ficam numa solução condutora. Passa uma corrente de 6,0 A, e cada coulomb de carga transporta cerca de 1,1 mg de prata. Quantos gramas de prata se depositam num banho de 20 minutos?",
+"a": 7.92,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Carga",
+"Q = i·Δt.",
+""
+],
+[
+"Proporção",
+"massa = carga × 1,1 mg/C."
+]
+],
+"h": [
+"Q = 6,0 × 1.200 = 7.200 C.",
+"7.200 × 1,1 mg = 7.920 mg.",
+"<b>7,9 g</b>."
+]
+},
+{
+"id": "1997-2-fis-11a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1997, 2ª fase, Física, questão 11(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "O circuito simplificado de um automóvel tem bateria de 12 V, fusível F e duas lâmpadas de 6,0 Ω em paralelo, L₁ (sempre ligada) e L₂ (com chave C). Pela curva do fusível, abaixo de cerca de 3 A ele nunca derrete; a 3 A leva cerca de 4 s, a 4 A cerca de 1 s e a 6 A cerca de 0,04 s. Qual a corrente com a chave aberta, e por quanto tempo o circuito funciona depois que a chave é fechada?",
+"fig": "<svg viewBox='0 0 230 115' class='fg' role='img' aria-label='circuito com bateria V, fusível F e lâmpada L1 em paralelo com a lâmpada L2, que tem uma chave C em série; ao lado, curva tempo versus corrente do fusível: abaixo de cerca de 3 A o fusível não derrete; cerca de 4 s em 3 A, 1 s em 4 A, 0,04 s em 6 A'><g fill='none' stroke='currentColor' stroke-width='1.3'><polyline points='15,45 15,15 30,15'/><path d='M30,15 q5,-6 10,0'/><polyline points='40,15 60,15 60,40'/><line x1='60' y1='15' x2='72' y2='15'/><line x1='72' y1='15' x2='86' y2='8'/><polyline points='88,15 95,15 95,40'/><circle cx='60' cy='50' r='9'/><circle cx='95' cy='50' r='9'/><polyline points='60,59 60,85 15,85 15,55'/><polyline points='95,59 95,85 60,85'/><line x1='8' y1='45' x2='22' y2='45'/><line x1='11' y1='55' x2='19' y2='55' stroke-width='2.5'/><polyline points='130,8 130,100 225,100'/><polyline points='149.6,12 149.6,25 167,70 205,87' stroke-width='2'/></g><g fill='currentColor' font-size='8'><text x='31' y='26'>F</text><text x='78' y='7'>C</text><text x='2' y='70'>V</text><text x='50' y='75'>L₁</text><text x='99' y='75'>L₂</text><text x='121' y='15'>10</text><text x='124' y='47'>1</text><text x='117' y='79'>0,1</text><text x='133' y='110'>1</text><text x='160' y='110'>5</text><text x='196' y='110'>10</text><text x='134' y='8'>t (s)</text><text x='208' y='110'>I (A)</text></g><g fill='none' stroke='currentColor' stroke-dasharray='2 3' stroke-width='0.6'><line x1='130' y1='15' x2='220' y2='15'/><line x1='130' y1='47' x2='220' y2='47'/><line x1='130' y1='79' x2='220' y2='79'/></g></svg>",
+"opts": [
+"2,0 A; cerca de 1 s (com a chave fechada a corrente vai a 4,0 A)",
+"2,0 A; indefinidamente",
+"4,0 A; cerca de 4 s",
+"1,0 A; cerca de 0,04 s"
+],
+"a": 0,
+"d": [
+[
+"Lei de Ohm",
+"i = U/R.",
+""
+],
+[
+"Paralelo",
+"Duas resistências iguais R em paralelo: R/2."
+]
+],
+"h": [
+"Chave aberta: só L₁, i = 12/6 = 2,0 A (abaixo do limite: o fusível aguenta).",
+"Chave fechada: 3,0 Ω, i = 4,0 A.",
+"Pela curva, 4 A derrete o fusível em cerca de 1 s: <b>2,0 A; cerca de 1 s</b>."
+]
+},
+{
+"id": "1997-2-fis-11b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1997, 2ª fase, Física, questão 11(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "O circuito simplificado de um automóvel tem bateria de 12 V, fusível F e duas lâmpadas de 6,0 Ω em paralelo, L₁ (sempre ligada) e L₂ (com chave C). Pela curva do fusível, abaixo de cerca de 3 A ele nunca derrete; a 3 A leva cerca de 4 s, a 4 A cerca de 1 s e a 6 A cerca de 0,04 s. Qual a menor resistência de uma lâmpada no lugar de L₂ para que o circuito funcione indefinidamente?",
+"fig": "<svg viewBox='0 0 230 115' class='fg' role='img' aria-label='circuito com bateria V, fusível F e lâmpada L1 em paralelo com a lâmpada L2, que tem uma chave C em série; ao lado, curva tempo versus corrente do fusível: abaixo de cerca de 3 A o fusível não derrete; cerca de 4 s em 3 A, 1 s em 4 A, 0,04 s em 6 A'><g fill='none' stroke='currentColor' stroke-width='1.3'><polyline points='15,45 15,15 30,15'/><path d='M30,15 q5,-6 10,0'/><polyline points='40,15 60,15 60,40'/><line x1='60' y1='15' x2='72' y2='15'/><line x1='72' y1='15' x2='86' y2='8'/><polyline points='88,15 95,15 95,40'/><circle cx='60' cy='50' r='9'/><circle cx='95' cy='50' r='9'/><polyline points='60,59 60,85 15,85 15,55'/><polyline points='95,59 95,85 60,85'/><line x1='8' y1='45' x2='22' y2='45'/><line x1='11' y1='55' x2='19' y2='55' stroke-width='2.5'/><polyline points='130,8 130,100 225,100'/><polyline points='149.6,12 149.6,25 167,70 205,87' stroke-width='2'/></g><g fill='currentColor' font-size='8'><text x='31' y='26'>F</text><text x='78' y='7'>C</text><text x='2' y='70'>V</text><text x='50' y='75'>L₁</text><text x='99' y='75'>L₂</text><text x='121' y='15'>10</text><text x='124' y='47'>1</text><text x='117' y='79'>0,1</text><text x='133' y='110'>1</text><text x='160' y='110'>5</text><text x='196' y='110'>10</text><text x='134' y='8'>t (s)</text><text x='208' y='110'>I (A)</text></g><g fill='none' stroke='currentColor' stroke-dasharray='2 3' stroke-width='0.6'><line x1='130' y1='15' x2='220' y2='15'/><line x1='130' y1='47' x2='220' y2='47'/><line x1='130' y1='79' x2='220' y2='79'/></g></svg>",
+"a": 12,
+"u": "Ω",
+"tol": 0.02,
+"d": [
+[
+"Limite do fusível",
+"A corrente total não pode passar de 3 A.",
+""
+],
+[
+"Correntes em paralelo",
+"Corrente total = soma das correntes dos ramos."
+]
+],
+"h": [
+"L₁ já consome 2,0 A; sobra no máximo 1,0 A para L₂.",
+"R<sub>2</sub> = 12/1,0.",
+"R<sub>2</sub> ≥ <b>12 Ω</b>."
+]
+},
+{
+"id": "1997-2-fis-12a",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1997, 2ª fase, Física, questão 12(a)",
+"r": 1620,
+"tm": 90,
+"ctx": "Um fio condutor rígido de 200 g e 20 cm, num plano vertical, liga-se ao circuito por contatos deslizantes sem atrito (A à esquerda, B à direita) e está preso a um dinamômetro. Há um campo magnético de 1,0 T entrando no plano da figura (g = 10 m/s²). Com a chave aberta, o dinamômetro marca o peso do fio. Fechada a chave, ele passa a marcar zero. Qual a corrente e o seu sentido no fio?",
+"fig": "<svg viewBox='0 0 210 125' class='fg' role='img' aria-label='fio condutor horizontal preso a um dinamômetro, apoiado em dois contatos verticais A e B, numa região com campo magnético entrando no plano; os contatos ligam-se a uma bateria e a uma chave'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='105' y1='5' x2='105' y2='60'/><rect x='100' y='15' width='10' height='25'/><line x1='45' y1='60' x2='165' y2='60' stroke-width='3'/><rect x='38' y='40' width='7' height='40'/><rect x='165' y='40' width='7' height='40'/><polyline points='38,62 20,62 20,110 70,110'/><line x1='70' y1='110' x2='84' y2='103'/><polyline points='88,110 120,110'/><rect x='120' y='100' width='40' height='20'/><polyline points='160,110 190,110 190,62 172,62'/></g><g fill='currentColor' font-size='9'><text x='114' y='30'>dinamômetro</text><text x='30' y='36'>A</text><text x='170' y='36'>B</text><text x='55' y='54'>×</text><text x='55' y='74'>×</text><text x='73' y='54'>×</text><text x='73' y='74'>×</text><text x='91' y='54'>×</text><text x='91' y='74'>×</text><text x='109' y='54'>×</text><text x='109' y='74'>×</text><text x='127' y='54'>×</text><text x='127' y='74'>×</text><text x='145' y='54'>×</text><text x='145' y='74'>×</text><text x='126' y='113'>bateria</text><text x='68' y='122'>chave</text></g></svg>",
+"opts": [
+"10 A, de A para B (da esquerda para a direita)",
+"10 A, de B para A",
+"1,0 A, de A para B",
+"2,0 A, de B para A"
+],
+"a": 0,
+"d": [
+[
+"Força magnética",
+"F = B·i·L, perpendicular ao fio e ao campo.",
+""
+],
+[
+"Regra da mão direita",
+"F = i·L × B: com B entrando no plano, corrente para a direita dá força para cima."
+]
+],
+"h": [
+"Dinamômetro em zero: força magnética para cima igual ao peso, 0,2 × 10 = 2,0 N.",
+"i = F/(B·L) = 2,0/(1,0 × 0,20) = 10 A.",
+"Para a força ser para cima com B entrando: corrente <b>de A para B, 10 A</b>."
+]
+},
+{
+"id": "1997-2-fis-12b",
+"ano": 1997,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1997, 2ª fase, Física, questão 12(b)",
+"r": 1020,
+"tm": 45,
+"ctx": "Um fio condutor rígido de 200 g e 20 cm, num plano vertical, liga-se ao circuito por contatos deslizantes sem atrito (A à esquerda, B à direita) e está preso a um dinamômetro. Há um campo magnético de 1,0 T entrando no plano da figura (g = 10 m/s²). A corrente é de 10 A, e a resistência total do circuito é 6,0 Ω. Qual a tensão da bateria?",
+"fig": "<svg viewBox='0 0 210 125' class='fg' role='img' aria-label='fio condutor horizontal preso a um dinamômetro, apoiado em dois contatos verticais A e B, numa região com campo magnético entrando no plano; os contatos ligam-se a uma bateria e a uma chave'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='105' y1='5' x2='105' y2='60'/><rect x='100' y='15' width='10' height='25'/><line x1='45' y1='60' x2='165' y2='60' stroke-width='3'/><rect x='38' y='40' width='7' height='40'/><rect x='165' y='40' width='7' height='40'/><polyline points='38,62 20,62 20,110 70,110'/><line x1='70' y1='110' x2='84' y2='103'/><polyline points='88,110 120,110'/><rect x='120' y='100' width='40' height='20'/><polyline points='160,110 190,110 190,62 172,62'/></g><g fill='currentColor' font-size='9'><text x='114' y='30'>dinamômetro</text><text x='30' y='36'>A</text><text x='170' y='36'>B</text><text x='55' y='54'>×</text><text x='55' y='74'>×</text><text x='73' y='54'>×</text><text x='73' y='74'>×</text><text x='91' y='54'>×</text><text x='91' y='74'>×</text><text x='109' y='54'>×</text><text x='109' y='74'>×</text><text x='127' y='54'>×</text><text x='127' y='74'>×</text><text x='145' y='54'>×</text><text x='145' y='74'>×</text><text x='126' y='113'>bateria</text><text x='68' y='122'>chave</text></g></svg>",
+"a": 60,
+"u": "V",
+"tol": 0.01,
+"d": [
+[
+"Lei de Ohm",
+"U = R·i.",
+""
+]
+],
+"h": [
+"U = 6,0 × 10.",
+"U = <b>60 V</b>."
+]
+},
+{
+"id": "1997-2-qui-01",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1997, 2ª fase, Química, questão 1",
+"r": 1100,
+"tm": 60,
+"ctx": "O sangue é vermelho por causa da hemoglobina, que contém o íon de um elemento presente no corpo em cerca de 4 g (o suficiente para um prego). A hemoglobina leva O₂ às células, onde os carboidratos (C₆H₁₂O₆) são oxidados e liberam um gás que o sangue leva aos pulmões. Qual o elemento e qual a equação da oxidação?",
+"opts": [
+"ferro; C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O",
+"cobre; C₆H₁₂O₆ + 6 O₂ → 6 CO + 6 H₂O",
+"ferro; C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂",
+"magnésio; C₆H₁₂O₆ + 3 O₂ → 6 CO₂ + 6 H₂"
+],
+"a": 0,
+"d": [
+[
+"Respiração celular",
+"A glicose é oxidada pelo O₂ a CO₂ e água.",
+""
+],
+[
+"Balanceamento",
+"Acerte C, depois H, por último O."
+]
+],
+"h": [
+"O metal da hemoglobina (e do prego) é o ferro.",
+"O gás liberado é o CO₂.",
+"C: 6 CO₂; H: 6 H₂O; O: 6 + 12 = 18 = 6 + 2x → x = 6. <b>Ferro; C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O</b>."
+]
+},
+{
+"id": "1997-2-qui-02",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1997, 2ª fase, Química, questão 2",
+"r": 1620,
+"tm": 90,
+"ctx": "Fez-se reagir 0,10 g de cálcio com 0,10 dm³ de água (Ca + 2 H₂O → Ca(OH)₂ + H₂). Terminada a reação, completou-se o volume a 0,5 dm³ de solução. Qual o pH da solução final? (Ca = 40)",
+"a": 12,
+"tol": 0.01,
+"d": [
+[
+"Base forte",
+"Ca(OH)₂ libera 2 OH⁻ por fórmula.",
+""
+],
+[
+"pH",
+"pOH = −log[OH⁻]; pH = 14 − pOH (a 25 °C)."
+]
+],
+"h": [
+"n(Ca) = 0,10/40 = 2,5·10⁻³ mol → 5,0·10⁻³ mol de OH⁻.",
+"[OH⁻] = 5,0·10⁻³/0,5 = 1,0·10⁻² mol/L → pOH = 2.",
+"pH = <b>12</b>."
+]
+},
+{
+"id": "1997-2-qui-03",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1997, 2ª fase, Química, questão 3",
+"r": 1190,
+"tm": 60,
+"ctx": "Gorduras insaturadas reagem com O₂ formando aldeídos (o ranço): R–CH=CH–R + O₂ → 2 R–CHO. Alimentos embalados sob nitrogênio e com antioxidante (que reage rapidamente com o oxigênio) duram 6 meses fechados, mas devem ser guardados na geladeira e consumidos em 5 dias depois de abertos. Por quê?",
+"opts": [
+"aberto, entra O₂ em grande quantidade, que consome o antioxidante e oxida a gordura; na geladeira, a temperatura menor deixa a reação mais lenta",
+"aberto, o nitrogênio reage com a gordura; na geladeira, o nitrogênio volta",
+"o antioxidante evapora quando a embalagem é aberta; a geladeira o repõe",
+"a luz da geladeira impede a oxidação"
+],
+"a": 0,
+"d": [
+[
+"Reagente limitante",
+"Fechada, a embalagem tem pouquíssimo O₂; aberta, o O₂ do ar é praticamente ilimitado.",
+""
+],
+[
+"Temperatura e velocidade",
+"Temperaturas menores diminuem a velocidade das reações."
+]
+],
+"h": [
+"Com a embalagem aberta, o O₂ do ar entra continuamente.",
+"O antioxidante se esgota e a gordura passa a ser oxidada.",
+"<b>O O₂ entra e consome o antioxidante; o frio desacelera a oxidação</b>."
+]
+},
+{
+"id": "1997-2-qui-04",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1997, 2ª fase, Química, questão 4",
+"r": 1780,
+"tm": 120,
+"ctx": "Uma amostra de H₂S e CS₂ reagiu com excesso de O₂, formando 2,16 g de água, 9,24 g de CO₂ e certa quantidade de SO₂. Qual a massa de SO₂ formada? (H = 1; C = 12; O = 16; S = 32)",
+"a": 34.56,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Equações",
+"2 H₂S + 3 O₂ → 2 H₂O + 2 SO₂; CS₂ + 3 O₂ → CO₂ + 2 SO₂.",
+""
+],
+[
+"Quantidade de matéria",
+"n = m/M: H₂O = 18 g/mol; CO₂ = 44; SO₂ = 64."
+]
+],
+"h": [
+"H₂O: 2,16/18 = 0,12 mol → vem de 0,12 mol de H₂S → 0,12 mol de SO₂.",
+"CO₂: 9,24/44 = 0,21 mol → vem de 0,21 mol de CS₂ → 0,42 mol de SO₂.",
+"Total 0,54 mol × 64 = <b>34,56 g</b> de SO₂."
+]
+},
+{
+"id": "1997-2-qui-05",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 1997, 2ª fase, Química, questão 5",
+"r": 1360,
+"tm": 75,
+"ctx": "O magnésio (Z = 12, massa molar 24,3 g/mol) tem isótopos de massa 24, 25 e 26. Qual é o mais abundante? Reagindo só o magnésio-24 com cloro (isótopos 35 e 37), que massas molares têm os cloretos de magnésio formados?",
+"opts": [
+"o ²⁴Mg; 94, 96 e 98 g/mol",
+"o ²⁵Mg; 94 e 98 g/mol",
+"o ²⁶Mg; 94, 96 e 98 g/mol",
+"o ²⁴Mg; 59 e 61 g/mol"
+],
+"a": 0,
+"d": [
+[
+"Massa atômica média",
+"É a média ponderada dos isótopos: fica mais perto do mais abundante.",
+""
+],
+[
+"MgCl₂",
+"Cada fórmula tem 1 Mg e 2 Cl; os dois Cl podem ser 35-35, 35-37 ou 37-37."
+]
+],
+"h": [
+"24,3 está muito perto de 24: o ²⁴Mg é o mais abundante.",
+"Cloretos: 24 + 35 + 35 = 94; 24 + 35 + 37 = 96; 24 + 37 + 37 = 98.",
+"<b>²⁴Mg; 94, 96 e 98 g/mol</b>."
+]
+},
+{
+"id": "1997-2-qui-07",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1997, 2ª fase, Química, questão 7",
+"r": 1700,
+"tm": 90,
+"ctx": "Na purificação do cobre, passa-se corrente por uma solução de CuSO₄ (azul) com dois eletrodos de cobre, um deles impuro. A fonte envia elétrons para o eletrodo A. Em qual eletrodo se deposita o cobre puro, e o que acontece com a cor azul (proporcional à concentração de Cu²⁺) ao final?",
+"fig": "<svg viewBox='0 0 200 110' class='fg' role='img' aria-label='cuba com solução de sulfato de cobre II e dois eletrodos de cobre, A e B, ligados a uma fonte; os elétrons saem da fonte em direção ao eletrodo A'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='45' y='45' width='110' height='60'/><line x1='45' y1='55' x2='155' y2='55' stroke-width='1'/><rect x='60' y='35' width='6' height='60' fill='currentColor'/><rect x='134' y='35' width='6' height='60' fill='currentColor'/><polyline points='63,35 63,15 95,15'/><polyline points='105,15 137,15 137,35'/><line x1='95' y1='8' x2='95' y2='22'/><line x1='105' y1='11' x2='105' y2='19' stroke-width='3'/><line x1='90' y1='4' x2='72' y2='4' stroke-width='1'/></g><g fill='currentColor' font-size='10'><polygon points='68,4 74,1 74,7'/><text x='92' y='7'>e⁻</text><text x='48' y='40'>A</text><text x='144' y='40'>B</text><text x='78' y='84' font-size='9'>CuSO₄(aq)</text></g></svg>",
+"opts": [
+"em A; a cor diminui, porque no eletrodo impuro (B) também se oxidam outros metais, e entra menos Cu²⁺ do que sai",
+"em B; a cor aumenta",
+"em A; a cor aumenta, porque o eletrodo impuro libera mais Cu²⁺",
+"em B; a cor não se altera"
+],
+"a": 0,
+"d": [
+[
+"Eletrólise",
+"Onde chegam os elétrons ocorre redução: Cu²⁺ + 2e⁻ → Cu (cátodo).",
+""
+],
+[
+"Ânodo de cobre impuro",
+"Metais mais reativos que o cobre presentes como impurezas se oxidam junto, consumindo parte da corrente."
+]
+],
+"h": [
+"Os elétrons chegam a A: ali Cu²⁺ se reduz e se deposita cobre puro.",
+"Em B (impuro), oxidam-se Cu e também impurezas como Zn e Fe.",
+"Sai mais Cu²⁺ da solução do que entra: <b>deposita em A e a cor azul diminui</b>."
+]
+},
+{
+"id": "1997-2-qui-08",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1997, 2ª fase, Química, questão 8",
+"r": 1280,
+"tm": 75,
+"ctx": "A dissolução do oxigênio na água é O₂(g) + H₂O(l) ⇌ O₂(aq), ΔH = −11,7 kJ/mol. Onde há mais O₂ dissolvido: num lago a 10 °C ou a 25 °C (mesma altitude)? E, na mesma temperatura, num lago no alto dos Andes ou na base da cordilheira?",
+"opts": [
+"a 10 °C; na base",
+"a 25 °C; no alto",
+"a 10 °C; no alto",
+"a 25 °C; na base"
+],
+"a": 0,
+"d": [
+[
+"Le Chatelier e temperatura",
+"Para um processo exotérmico, esfriar desloca o equilíbrio no sentido direto.",
+""
+],
+[
+"Pressão parcial",
+"A solubilidade de um gás cresce com a sua pressão parcial (lei de Henry)."
+]
+],
+"h": [
+"A dissolução libera calor: a água mais fria dissolve mais O₂.",
+"Na base da montanha a pressão atmosférica (e a do O₂) é maior.",
+"<b>A 10 °C; na base da cordilheira</b>."
+]
+},
+{
+"id": "1997-2-qui-09a",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1997, 2ª fase, Química, questão 9(a)",
+"r": 1700,
+"tm": 120,
+"ctx": "No air bag: (1) 2 NaN₃ → 2 Na + 3 N₂; (2) 10 Na + 2 KNO₃ → 5 Na₂O + K₂O + N₂; (3) K₂O + Na₂O + SiO₂ → vidro. Inicialmente há 2,0 mol de NaN₃ e 2,0 mol de KNO₃; o balão cheio tem 70 L. Qual a pressão do gás, em kPa, no balão cheio, a 27 °C? (R = 8,3 kPa·L/(mol·K))",
+"a": 113.8,
+"u": "kPa",
+"tol": 0.02,
+"d": [
+[
+"Estequiometria em cadeia",
+"O Na produzido em (1) é o reagente de (2).",
+""
+],
+[
+"Gás ideal",
+"p = n·R·T/V, com T em kelvin."
+]
+],
+"h": [
+"(1): 2,0 mol de NaN₃ dão 2,0 mol de Na e 3,0 mol de N₂.",
+"(2): 2,0 mol de Na reagem com 0,4 mol de KNO₃ e dão 0,2 mol de N₂. Total: 3,2 mol.",
+"p = 3,2 × 8,3 × 300/70 ≈ <b>114 kPa</b>."
+]
+},
+{
+"id": "1997-2-qui-09b",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1997, 2ª fase, Química, questão 9(b)",
+"r": 1870,
+"tm": 120,
+"ctx": "No air bag: (1) 2 NaN₃ → 2 Na + 3 N₂; (2) 10 Na + 2 KNO₃ → 5 Na₂O + K₂O + N₂; (3) K₂O + Na₂O + SiO₂ → vidro. Inicialmente há 2,0 mol de NaN₃ e 2,0 mol de KNO₃; o balão cheio tem 70 L. Considerando só as reações 1 e 2, qual a massa total de sólidos restantes? (Na = 23; K = 39; N = 14; O = 16)",
+"a": 242.4,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Excesso",
+"Em (2), o Na é o limitante: o KNO₃ que sobra continua sólido.",
+""
+],
+[
+"Massas molares",
+"Na₂O = 62; K₂O = 94; KNO₃ = 101 g/mol."
+]
+],
+"h": [
+"2,0 mol de Na formam 1,0 mol de Na₂O (62 g) e 0,2 mol de K₂O (18,8 g), consumindo 0,4 mol de KNO₃.",
+"Sobram 1,6 mol de KNO₃: 161,6 g.",
+"Total: 62 + 18,8 + 161,6 ≈ <b>242 g</b>."
+]
+},
+{
+"id": "1997-2-qui-10",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1997, 2ª fase, Química, questão 10",
+"r": 1870,
+"tm": 120,
+"ctx": "O HgS tem constante do produto de solubilidade 9·10⁻⁵² a 25 °C. Que volume de solução saturada de HgS seria necessário para encontrar um único íon Hg²⁺? (Constante de Avogadro: 6·10²³ mol⁻¹)",
+"a": 55.6,
+"u": "dm³",
+"tol": 0.02,
+"d": [
+[
+"Solubilidade",
+"Para HgS ⇌ Hg²⁺ + S²⁻: Kps = s², logo s = √Kps.",
+""
+],
+[
+"Um íon em mol",
+"1 íon = 1/(6·10²³) mol."
+]
+],
+"h": [
+"s = √(9·10⁻⁵²) = 3·10⁻²⁶ mol/L.",
+"Um íon: 1,67·10⁻²⁴ mol.",
+"V = 1,67·10⁻²⁴/3·10⁻²⁶ ≈ <b>56 dm³</b>. (Para dissolver 1 mol seriam 3·10²⁵ dm³, mais que toda a água da Terra.)"
+]
+},
+{
+"id": "1997-2-qui-11",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1997, 2ª fase, Química, questão 11",
+"r": 1530,
+"tm": 90,
+"ctx": "Quatro garrafas térmicas estão em equilíbrio térmico: (1) 20 g de água + 80 g de gelo; (2) 70 g de solução 0,5 mol/L de sacarose + 30 g de gelo; (3) 50 g de água + 50 g de gelo; (4) 70 g de solução 0,5 mol/L de NaCl + 30 g de gelo. Qual a ordem crescente das temperaturas?",
+"opts": [
+"T₄ < T₂ < T₁ = T₃",
+"T₁ < T₃ < T₂ < T₄",
+"T₂ < T₄ < T₁ = T₃",
+"T₁ = T₂ = T₃ = T₄"
+],
+"a": 0,
+"d": [
+[
+"Abaixamento do ponto de congelamento",
+"Solutos baixam a temperatura de fusão; o efeito é proporcional ao número de partículas dissolvidas.",
+""
+],
+[
+"Dissociação",
+"NaCl → Na⁺ + Cl⁻ (2 partículas); sacarose não se dissocia."
+]
+],
+"h": [
+"Água pura com gelo: 0 °C, qualquer que seja a proporção (T₁ = T₃).",
+"Sacarose 0,5 mol/L: 0,5 mol de partículas por litro; NaCl: 1,0 mol.",
+"Mais partículas, temperatura menor: <b>T₄ < T₂ < T₁ = T₃</b>."
+]
+},
+{
+"id": "1997-2-qui-12",
+"ano": 1997,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1997, 2ª fase, Química, questão 12",
+"r": 1780,
+"tm": 120,
+"ctx": "O frasco 1 tem um gás a 1 atm; os frascos 2 e 3 estão em vácuo. O volume do frasco 1 é 9 vezes o do 2, e o do 3 é 9 vezes o do 1. Abre-se a torneira entre 1 e 2 até o equilíbrio; fecha-se; depois abre-se a torneira entre 1 e 3. Qual frasco termina com menos moléculas, e quanto vale p₂/p₃ no final (temperatura constante)?",
+"opts": [
+"frasco 1; p₂/p₃ = 10",
+"frasco 2; p₂/p₃ = 10",
+"frasco 2; p₂/p₃ = 1/10",
+"frasco 3; p₂/p₃ = 9"
+],
+"a": 0,
+"d": [
+[
+"Boyle",
+"Com T constante, ao se expandir num volume total maior: p₁V₁ = p₂V₂.",
+""
+],
+[
+"Moléculas",
+"n é proporcional a p·V."
+]
+],
+"h": [
+"Volumes: V₂ = 1, V₁ = 9, V₃ = 81. Abrindo 1–2: p = 9/10 = 0,9 atm; n₂ ∝ 0,9 × 1 = 0,9.",
+"Abrindo 1–3: o gás do frasco 1 (0,9 × 9) ocupa 90: p = 0,09 atm; n₁ ∝ 0,81 e n₃ ∝ 7,29.",
+"Menos moléculas no <b>frasco 1</b>; p₂/p₃ = 0,9/0,09 = <b>10</b>."
+]
+}
+]

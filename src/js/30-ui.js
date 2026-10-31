@@ -1,11 +1,14 @@
 
+  // tópicos que só existem no banco da Unicamp (não têm gerador); ficam escondidos até o banco carregar
+  for (const [k, name, s] of [['arit', 'Razões e problemas', 'mat'], ['cplx', 'Números complexos', 'mat'], ['f_mod', 'Física moderna', 'fis'], ['q_inorg', 'Química inorgânica', 'qui']])
+    if (!GEN[k]) GEN[k] = { name, s, g: () => null, bank: true };
   for (const k in GEN) GEN[k].s = GEN[k].s || 'mat';
   const KEYS = Object.keys(GEN);
   const SUBJ = { mat: 'Matemática', fis: 'Física', qui: 'Química' };
   const SK = Object.keys(SUBJ);
-  const LEVELS = ['questões até 1000', 'questões de 1000 a 1600', 'questões acima de 1600'];
+  const LEVELS = ['questões até 1100', 'questões de 1100 a 1400', 'questões acima de 1400'];
   const LNAME = ['FÁCIL', 'MÉDIO', 'DIFÍCIL'];
-  const BAND = [[0, 1000], [1000, 1600], [1600, 2501]];
+  const BAND = [[0, 1100], [1100, 1400], [1400, 2501]];
   const TIPS_URL = 'https://claude.ai/artifact/3wHqTT2rP8Z8v8FsAXw1fG';
   const tipKey = k => k;
   const TIPMAP = {};
@@ -28,24 +31,34 @@
   let mode = load('mode', 'exercicios'); if (mode !== 'teoria') mode = 'exercicios';
   let view = 'treino';
   // a marcação é reconhecida pela pergunta e pela resposta certa, não pela ordem das alternativas
-  const qid = q => `${q.key}|${q.ctx || ''}|${q.q || ''}|${Array.isArray(q.opts) ? q.opts[q.a] : ''}`;
+  const qid = q => q.uid ? 'u|' + q.uid : `${q.key}|${q.ctx || ''}|${q.q || ''}|${Array.isArray(q.opts) ? q.opts[q.a] : ''}`;
   const fixMarked = a => { const seen = new Set(); return (Array.isArray(a) ? a : []).filter(m => m && m.key).map(m => ({ ...m, id: qid(m) })).filter(m => !seen.has(m.id) && seen.add(m.id)); };
   let marked = fixMarked(load('marked', []));
   let level = load('level', -1); if (![-1, 0, 1, 2].includes(level)) level = -1;
-  // rating de 0 a 2500 por tópico, estilo Elo; a escala antiga (v1) é mantida, mas volta a mexer rápido
-  const RV = 2;
+  // rating de 0 a 2500 por tópico, estilo Elo. Até a v2 as questões geradas tinham uma escala própria; na v3 elas
+  // passaram para a escala das questões da Unicamp. O rating de quem já treinava é convertido tópico a tópico:
+  // [média antiga, média nova, inclinação], da comparação entre a tabela antiga e a nova de cada tipo de questão
+  const RV = 3;
+  const RMAP = { soma: [738, 1117, 0.79], sub: [645, 988, 0.61], mult: [886, 1108, 0.51], div: [767, 1058, 0.41], pot: [1062, 1184, 0.39], raiz: [882, 1128, 0.43], porc: [920, 1206, 0.34], fat: [1194, 1222, 0.26], perm: [1321, 1265, 0.33], prep: [1444, 1393, 0.20], arr: [1097, 1263, 0.26], comb: [1318, 1347, 0.27], conj: [1008, 1240, 0.43], mdc: [1104, 1217, 0.29], cont: [1252, 1279, 0.25], frac: [1071, 1220, 0.20], seq: [1224, 1283, 0.29], juros: [1220, 1285, 0.30], func: [1175, 1230, 0.25], poli: [1348, 1294, 0.25], prob: [1413, 1298, 0.23], binom: [1280, 1367, 0.20], matr: [1330, 1302, 0.23], gplan: [1126, 1275, 0.22], gesp: [1199, 1283, 0.20], trig: [1349, 1293, 0.31], ganal: [1318, 1258, 0.26], logexp: [1302, 1274, 0.26], f_un: [1092, 1280, 0.33], f_cin: [1154, 1224, 0.39], f_din: [1179, 1256, 0.33], f_en: [1123, 1249, 0.28], f_mom: [1283, 1197, 0.33], f_grav: [1356, 1348, 0.20], f_hid: [1168, 1219, 0.31], f_term: [1236, 1275, 0.30], f_gas: [1376, 1276, 0.25], f_ond: [1278, 1299, 0.27], f_opt: [1276, 1299, 0.22], f_ele: [1273, 1285, 0.26], f_cir: [1144, 1260, 0.34], f_mag: [1442, 1325, 0.23], q_mol: [941, 1152, 0.25], q_gas: [1274, 1277, 0.26], q_sol: [1245, 1287, 0.20], q_ato: [1099, 1210, 0.30], q_rad: [1262, 1224, 0.22], q_lig: [1300, 1302, 0.26], q_est: [1298, 1218, 0.27], q_ter: [1236, 1288, 0.23], q_cin: [1272, 1271, 0.20], q_eq: [1307, 1282, 0.23], q_elq: [1366, 1334, 0.20], q_org: [1286, 1293, 0.25], q_amb: [750, 1172, 0.20], med: [991, 1201, 0.38], estm: [975, 1276, 0.36], f_est: [925, 1369, 0.20], '*form': [1150, 1315, 0.20], '*lei': [1183, 1341, 0.20], '*const': [1100, 1357, 0.20] };
+  FORMS.forEach(([k]) => { RMAP[k] = RMAP['*form']; });
+  LAWS.forEach(([k]) => { RMAP[k] = RMAP[k[0] === 'K' ? '*const' : '*lei']; });
+  const rConv = (k, r) => { const [a, b, m] = RMAP[k] || [1181, 1254, .28]; return Math.max(0, Math.min(2500, Math.round(b + m * (r - a)))); };
   const mig = (rs, v) => {
     if (v === RV) return { ...(rs || {}) };
     const o = {};
-    for (const k in rs) if (rs[k] && Number.isFinite(rs[k].r)) o[k] = { r: Math.max(0, Math.min(2500, Math.round(rs[k].r))), n: Math.min(rs[k].n || 0, 5) };
+    for (const k in rs) if (rs[k] && Number.isFinite(rs[k].r)) o[k] = { r: rConv(k, rs[k].r), n: Math.min(rs[k].n || 0, 5) };
     return o;
   };
-  let ratings = mig(load('ratings', {}), load('rv', 1));
+  // o histórico de cada dia guarda o rating dos tópicos: vai para a escala nova junto
+  const migDays = (d, v) => v === RV ? d : Object.fromEntries(Object.entries(d).map(([t, x]) => [t, { ...x, r: Object.fromEntries(Object.entries(x.r).map(([k, r]) => [k, Number.isFinite(r) ? rConv(k, r) : r])) }]));
+  const rv0 = load('rv', 1);
+  let ratings = mig(load('ratings', {}), rv0);
   try { localStorage.setItem('cm.ratings', JSON.stringify(ratings)); localStorage.setItem('cm.rv', RV); } catch (e) {}
-  const R = k => ratings[k] || { r: 800, n: 0 };
-  function rate(key, rq, correct, dt, helped) {
-    const o = R(key), e = 1 / (1 + 10 ** ((rq - o.r) / 400));
-    const s = !correct ? 0 : helped ? .5 : dt <= 15000 ? 1 : dt <= 30000 ? .85 : .7;
+  const R = k => ratings[k] || { r: 1000, n: 0 };
+  // tm: tempo esperado da questão, em segundos (as da Unicamp têm o seu); acima dele o acerto vale um pouco menos
+  function rate(key, rq, correct, dt, helped, tm) {
+    const o = R(key), e = 1 / (1 + 10 ** ((rq - o.r) / 400)), t1 = (tm || 15) * 1000;
+    const s = !correct ? 0 : helped ? .5 : dt <= t1 ? 1 : dt <= 2 * t1 ? .85 : .7;
     const k = o.n < 10 ? 60 : o.n < 30 ? 36 : 24;
     const r = Math.max(0, Math.min(2500, o.r + Math.round(k * (s - e))));
     ratings[key] = { r, n: o.n + 1 }; save('ratings', ratings);
@@ -79,12 +92,21 @@
   // um registro por dia: questões respondidas, acertos e o rating de cada tópico mexido no fim do dia
   const dayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   const fixDays = d => (d && typeof d === 'object' && !Array.isArray(d) ? Object.fromEntries(Object.entries(d).filter(([k, v]) => /^\d{4}-\d\d-\d\d$/.test(k) && v && typeof v === 'object').map(([k, v]) => [k, { n: +v.n || 0, ok: +v.ok || 0, r: v.r && typeof v.r === 'object' ? v.r : {} }])) : {});
-  let days = fixDays(load('days', {}));
+  let days = migDays(fixDays(load('days', {})), rv0);
+  if (rv0 !== RV) try { localStorage.setItem('cm.days', JSON.stringify(days)); } catch (e) {}
   let acctName = '', acctPhoto = '';
   let cur = null, revealed = false, helped = false, timer, hist = [], seq = 0, okN = 0, badN = 0, nextT;
 
+  // ---------- questões da Unicamp (banco/unicamp, montado em unicamp.json) ----------
+  // entram misturadas com as geradas; um tópico que só existe no banco aparece quando o banco carrega
+  let BANK = null;
+  const BK = {}, BID = new Map();
+  let uSeen = new Set(load('useen', []));
+  const nb = k => (BK[k] || []).length;
+  const avail = k => !!GEN[k].form || !GEN[k].bank || nb(k) > 0;
   const inMode = k => !!GEN[k].form === (mode === 'teoria');
-  const inSubj = k => inMode(k) && (subj === 'all' || GEN[k].s === subj);
+  const listed = k => inMode(k) && avail(k);
+  const inSubj = k => listed(k) && (subj === 'all' || GEN[k].s === subj);
   const shown = () => KEYS.filter(inSubj);
   const pool = () => { const p = shown().filter(k => !off.has(k)); return p.length ? p : shown(); };
 
@@ -97,7 +119,7 @@
     if (b.dataset.k) { const k = b.dataset.k; off.has(k) ? off.delete(k) : off.add(k); }
     else if (b.dataset.g) {
       e.preventDefault();   // o botão fica no título do grupo: não abre nem fecha o grupo
-      const ks = KEYS.filter(k => inMode(k) && GEN[k].s === b.dataset.g), allOn = ks.every(k => !off.has(k));
+      const ks = KEYS.filter(k => listed(k) && GEN[k].s === b.dataset.g), allOn = ks.every(k => !off.has(k));
       ks.forEach(k => allOn ? off.add(k) : off.delete(k));
     } else return;
     save('off', [...off]); syncSettings();
@@ -151,7 +173,7 @@
   function drawRatings() {
     const one = subj !== 'all';
     rt.innerHTML = SK.filter(s => !one || s === subj).map(s => {
-      const ks = KEYS.filter(k => inMode(k) && GEN[k].s === s), nOn = ks.filter(k => !off.has(k)).length;
+      const ks = KEYS.filter(k => listed(k) && GEN[k].s === s), nOn = ks.filter(k => !off.has(k)).length;
       return `<details class="tg" data-s="${s}"${one || openG[s] ? ' open' : ''}><summary><span class="gn">${SUBJ[s]}</span>`
         + `<span class="gc">${nOn}/${ks.length}</span><span class="ga">${avg(ks)}</span><button type="button" data-g="${s}">${nOn === ks.length ? 'nenhum' : 'todos'}</button></summary><div class="rows">`
         + ks.map(k => {
@@ -181,26 +203,56 @@
   // sorteia o tópico (de preferência outro, não o da questão anterior), gera várias candidatas
   // e sorteia entre as que estão na faixa certa e não apareceram há pouco:
   // no AUTO, perto do rating do tópico; nos outros, dentro da faixa escolhida.
-  // Se o tópico já se esgotou, volta a que foi vista há mais tempo
+  // Se o tópico já se esgotou, volta a que foi vista há mais tempo.
+  // As da Unicamp entram na mesma disputa; uma já vista só volta quando as outras da faixa acabaram,
+  // e, havendo das duas, a da Unicamp sai em PB das vezes (ela é mais longa que uma conta gerada)
+  const PB = .3;
   function next() {
     clearTimeout(nextT);
     const all = pool(), keys = cur && all.length > 2 ? all.filter(k => k !== cur.key) : all;
     const age = new Map(recent.map((id, i) => [id, i])), [lo, hi] = BAND[level] || [];
     let best = null, bs = Infinity;
     for (let tries = 0; tries < 8; tries++) {
-      const key = pick(keys), target = R(key).r + ri(-120, 120), good = [];
-      for (let i = 0; i < 30; i++) {
+      const key = pick(keys), target = R(key).r + ri(-120, 120), good = [], goodB = [];
+      const dist = r => level < 0 ? Math.abs(r - target) : r >= lo && r < hi ? 0 : Math.min(Math.abs(r - lo), Math.abs(r - hi));
+      if (!GEN[key].bank) for (let i = 0; i < 30; i++) {
         const L = i % 3, q = GEN[key].g(L); if (!q) continue;
-        const r = qRating(key, q, L), id = qid({ ...q, key });
-        const d = level < 0 ? Math.abs(r - target) : r >= lo && r < hi ? 0 : Math.min(Math.abs(r - lo), Math.abs(r - hi));
+        const r = qRating(key, q, L), id = qid({ ...q, key }), d = dist(r);
         const seen = age.has(id), score = d + (seen ? 1e6 - age.get(id) * 1e3 : 0);
         if (score < bs) { bs = score; best = { q, key, L, r }; }
         if (!seen && d <= (level < 0 ? 150 : 0)) good.push({ q, key, L, r });
       }
+      if (!GEN[key].form) for (const it of BK[key] || []) {
+        const id = 'u|' + it.id, d = dist(it.r), seen = uSeen.has(it.id);
+        const score = d + (age.has(id) ? 1e6 - age.get(id) * 1e3 : seen ? 5e5 : 0);
+        if (score < bs) { bs = score; best = { it }; }
+        if (!seen && d <= (level < 0 ? 150 : 0)) goodB.push(it);
+      }
+      if (goodB.length && (!good.length || Math.random() < PB)) return showBank(pick(goodB));
       if (good.length) { const g = pick(good); return show(g.q, g.key, g.L, g.r); }
     }
-    if (best) show(best.q, best.key, best.L, best.r);
+    if (best) best.it ? showBank(best.it) : show(best.q, best.key, best.L, best.r);
   }
+  // questão do banco no formato do treino: as alternativas são embaralhadas (no arquivo, a certa é sempre a primeira)
+  function bankQ(it, keep) {
+    const q = { uid: it.id, src: it.src, tm: it.tm, d: it.d || [], fig: it.fig || '', ctx: it.ctx, q: '', h: `<ol class="dg">${(it.h || []).map(x => `<li>${x}</li>`).join('')}</ol>` };
+    if (Array.isArray(it.opts)) {
+      const o = keep ? it.opts.map((x, i) => [x, i]) : shuffle(it.opts.map((x, i) => [x, i]));
+      q.opts = o.map(x => x[0]); q.a = o.findIndex(x => x[1] === it.a);
+    } else { q.a = it.a; if (it.u) q.u = it.u; if (it.tol) q.tol = it.tol; }
+    return q;
+  }
+  function showBank(it) {
+    uSeen.add(it.id); try { localStorage.setItem('cm.useen', JSON.stringify([...uSeen].slice(-3000))); } catch (e) {}
+    show(bankQ(it), it.t, band(it.r), it.r);
+  }
+  // o banco chega depois da página: as questões da Unicamp entram no sorteio a partir da próxima
+  fetch('unicamp.json').then(r => r.ok ? r.json() : []).catch(() => []).then(a => {
+    BANK = (Array.isArray(a) ? a : []).filter(it => it && it.id && GEN[it.t] && Number.isFinite(it.r));
+    for (const it of BANK) { (BK[it.t] = BK[it.t] || []).push(it); BID.set(it.id, it); }
+    syncSettings();
+    if (view === 'marcadas') drawMarked();
+  });
 
   // a fonte de título só tem maiúsculas: Zn vira ZN e o Z parece 2. Teoria, química e tudo que tem
   // letra minúscula vai na fonte do texto, que diferencia maiúsculas de minúsculas
@@ -240,6 +292,9 @@
     remember(cur);
     $('topic').textContent = GEN[key].name; $('topic').title = GEN[key].name;
     $('qlvl').innerHTML = `<span class="bw">${LNAME[band(r)]} </span>${r}`;
+    $('src').textContent = q.src || ''; $('src').hidden = !q.src;
+    $('fig').innerHTML = q.fig || ''; $('fig').hidden = !q.fig;
+    $('qbox').classList.toggle('uq', !!q.uid);
     $('ctx').innerHTML = q.ctx || '';
     $('expr').innerHTML = q.q || '';
     $('expr').classList.toggle('f', lowFont(key, q.q));
@@ -273,7 +328,7 @@
     hist.push({ ok: correct, t: dt }); if (hist.length > 40) hist.shift();
     if (correct) { okN++; seq++; if (seq > best) { best = seq; save('best', best); } }
     else { badN++; seq = 0; }
-    const d = rate(cur.key, cur.r, correct, dt, helped);
+    const d = rate(cur.key, cur.r, correct, dt, helped, cur.tm);
     if (!skipped) studyQ(dt);
     logDay(cur.key, !skipped, correct); drawGoal(); drawEvo();
     const dTxt = `rating ${R(cur.key).r} <span class="dr">${d >= 0 ? '+' : '−'}${Math.abs(d)}</span>`;
@@ -287,12 +342,14 @@
     $('ok').textContent = $('padOk').textContent = '→';
     if (correct) {
       say(`✓ CERTA${helped ? ' COM DICA' : ''}`, secs(dt), cur.tol ? `exato:&nbsp;${f(cur.a)}` : '');
-      how.innerHTML = cur.h || '';
+      // na da Unicamp, os degraus ficam fechados: quem acertou abre se quiser conferir
+      how.innerHTML = cur.uid ? `<details class="dgs"><summary>ver os degraus</summary>${cur.h}</details>` : cur.h || '';
     } else {
       say(skipped ? 'PULADA' : '✗ ERRADA', isMC() ? 'a certa está em destaque' : `era <i>${answerTxt()}</i>`);
       if (!skipped && !isMC()) ans.value = ans.value + '  ✗';
       closeTips();
-      how.innerHTML = `${cur.h || ''} <a href="${TIPS_URL}#${tipKey(cur.key)}" target="_blank" rel="noopener" style="color:var(--mute)">· mais dicas ↗</a>`;
+      const more = GEN[cur.key].bank ? '' : `<a href="${TIPS_URL}#${tipKey(cur.key)}" target="_blank" rel="noopener" style="color:var(--mute)">· mais dicas ↗</a>`;
+      how.innerHTML = cur.uid ? `<p class="dgt">Resolução em degraus</p>${cur.h}${more ? `<p>${more}</p>` : ''}` : `${cur.h || ''} ${more}`;
       // quem erra decide se guarda a questão: o botão MARCAR chama a atenção
       if (!isMarked()) $('mark').classList.add('hint');
     }
@@ -312,12 +369,13 @@
   function openTips() {
     // na teoria, a lista do tópico entregaria a resposta: vai só a dica desta questão
     // nos exercícios, a dica que explica esta conta (tk) vem primeiro, em destaque
+    // na da Unicamp, só as dicas da própria questão: as fórmulas e ideias que bastam para resolvê-la
     const all = TIPMAP[tipKey(cur.key)] || TIPMAP.geral || [];
     const ts = GEN[cur.key].form ? [['Dica', cur.t || 'Elimine primeiro as alternativas que você tem certeza de que estão erradas.', '']]
-      : [...all.filter(x => x[0] === cur.tk), ...all.filter(x => x[0] !== cur.tk)];
+      : cur.uid ? cur.d : [...all.filter(x => x[0] === cur.tk), ...all.filter(x => x[0] !== cur.tk)];
     tips.innerHTML = `<span class="tt"><span>Dicas · ${GEN[cur.key].name}</span><span>${revealed ? '' : 'a questão continua valendo'}</span></span>`
       + ts.map(([t, desc, ex]) => `<p class="tip${t === cur.tk ? ' this' : ''}"><b>${t}</b> ${desc}${ex ? `<span class="ex">ex.: ${ex}</span>` : ''}</p>`).join('')
-      + `<span class="links">${revealed ? '' : '<button type="button" id="sol">ver a resolução</button>'}<a href="${TIPS_URL}#${tipKey(cur.key)}" target="_blank" rel="noopener">abrir a página de dicas ↗</a></span>`;
+      + `<span class="links">${revealed ? '' : '<button type="button" id="sol">ver a resolução</button>'}${GEN[cur.key].bank ? '' : `<a href="${TIPS_URL}#${tipKey(cur.key)}" target="_blank" rel="noopener">abrir a página de dicas ↗</a>`}</span>`;
     tips.hidden = false; $('help').setAttribute('aria-expanded', 'true');
     if (!revealed) helped = true;
     holdOn();
@@ -565,7 +623,7 @@
     let g = '';
     for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) g += `<line class="gl" x1="${ml}" x2="${W - mr}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${ml - 6}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`;
     // as faixas de dificuldade, para ler a curva
-    for (const [v, nm] of [[1000, 'médio'], [1600, 'difícil']]) if (v > lo && v < hi) g += `<line class="bl" x1="${ml}" x2="${W - mr}" y1="${Y(v)}" y2="${Y(v)}"/><text class="bt" x="${W - mr}" y="${Y(v) - 4}" text-anchor="end">${nm}</text>`;
+    for (const [v, nm] of [[1100, 'médio'], [1400, 'difícil']]) if (v > lo && v < hi) g += `<line class="bl" x1="${ml}" x2="${W - mr}" y1="${Y(v)}" y2="${Y(v)}"/><text class="bt" x="${W - mr}" y="${Y(v) - 4}" text-anchor="end">${nm}</text>`;
     g += `<text x="${ml}" y="${H - 6}">${fmtD(pts[0].d)}</text>` + (pts.length > 1 ? `<text x="${W - mr}" y="${H - 6}" text-anchor="end">${fmtD(pts[pts.length - 1].d)}</text>` : '');
     const path = pts.map((p, i) => `${i ? 'L' : 'M'}${X(p).toFixed(1)} ${Y(p.v).toFixed(1)}`).join('');
     const first = pts[0].v, lastV = pts[pts.length - 1].v, top = Math.max(...pts.map(p => p.v)), dv = lastV - first;
@@ -1600,6 +1658,8 @@
     if (!cur) return;
     const id = qid(cur);
     if (isMarked()) marked = marked.filter(m => m.id !== id);
+    // da Unicamp, guarda só a referência: o texto e a figura voltam do banco (assim a conta não pesa)
+    else if (cur.uid) marked.unshift({ id, uid: cur.uid, key: cur.key, L: cur.L, r: cur.r, src: cur.src || '', t: Date.now() });
     else marked.unshift({ id, key: cur.key, L: cur.L, r: cur.r, ctx: cur.ctx || '', q: cur.q || '', opts: cur.opts, a: cur.a, u: cur.u || '', tol: cur.tol || 0, h: cur.h || '', tip: cur.t || '', tk: cur.tk || '', lg: cur.lg || '', t: Date.now() });
     save('marked', marked); syncMark(); holdOn();
   }
@@ -1610,6 +1670,17 @@
     const list = $('mList');
     if (!marked.length) { list.innerHTML = `<p class="empty"><span class="fox">${FOX}</span>Nada marcado ainda. No treino, toque em MARCAR numa questão que você errou ou não sabe e ela aparece aqui.</p>`; return; }
     list.innerHTML = marked.map((m, i) => {
+      if (m.uid) {
+        const it = BID.get(m.uid), name = GEN[m.key] ? GEN[m.key].name : m.key;
+        const head = `<section class="box mq" data-i="${i}"><div class="hd"><span>${name} · ${LNAME[band(m.r)]} ${m.r}</span><span>${fmtDate(m.t)}</span></div><div class="bd"><p class="src">${esc(m.src || '')}</p>`;
+        const acts = (more) => `<div class="acts">${more}<button type="button" data-a="tirar">tirar da lista</button></div></div></section>`;
+        if (!it) return head + `<p class="ctx">${BANK ? 'Esta questão não está mais no banco.' : 'Carregando a questão…'}</p>` + acts('');
+        const q = bankQ(it, true), ansTxt = Array.isArray(q.opts) ? q.opts[q.a] : (q.tol ? '≈ ' : '') + f(q.a) + (q.u ? ' ' + q.u : '');
+        return head + (q.fig ? `<div class="fig">${q.fig}</div>` : '') + `<p class="ctx">${q.ctx}</p>`
+          + (Array.isArray(q.opts) ? `<ol>${q.opts.map((o, j) => `<li data-j="${j}"><span class="n">${j + 1}</span><span>${o}</span></li>`).join('')}</ol>` : '')
+          + `<div class="sol" hidden><p><b>${ansTxt}</b></p>${q.h}</div>`
+          + acts(`<button type="button" data-a="ver">ver a resposta</button><button type="button" data-a="refazer">refazer no treino</button>`);
+      }
       const name = GEN[m.key] ? GEN[m.key].name : m.key;
       const ansTxt = Array.isArray(m.opts) ? m.opts[m.a] : (m.tol ? '≈ ' : '') + f(m.a) + (m.u ? ' ' + m.u : '');
       const lv = Number.isFinite(m.r) ? `${LNAME[band(m.r)]} ${m.r}` : LNAME[m.L] || '';
@@ -1630,6 +1701,11 @@
       const li = box.querySelector(`li[data-j="${m.a}"]`); if (li) li.classList.toggle('right', open);
     } else if (b.dataset.a === 'tirar') {
       marked.splice(+box.dataset.i, 1); save('marked', marked); drawMarked(); syncMark();
+    } else if (b.dataset.a === 'refazer' && m.uid && BID.has(m.uid)) {
+      mode = 'exercicios'; save('mode', mode);
+      go(mode, false);
+      const it = BID.get(m.uid); show(bankQ(it), it.t, band(it.r), it.r);
+      scrollTo({ top: 0 });
     } else if (b.dataset.a === 'refazer' && GEN[m.key]) {
       mode = GEN[m.key].form ? 'teoria' : 'exercicios'; save('mode', mode);
       go(mode, false);
@@ -2367,6 +2443,7 @@
   }
   function adopt(st) {
     ratings = mig(st.ratings || {}, st.rv);
+    if (st.days) st = { ...st, days: migDays(fixDays(st.days), st.rv) };
     marked = fixMarked(st.marked);
     off = new Set((st.off || []).filter(k => GEN[k]));
     best = Math.max(best, +st.best || 0);
@@ -2430,7 +2507,7 @@
     if (!d || typeof d !== 'object' || d.v !== 1 || !d.ratings || typeof d.ratings !== 'object') {
       xMsg('Não reconheci esses dados. No outro Faro, toque em "copiar meus dados" de novo e cole o texto inteiro, do começo ao fim.'); return;
     }
-    adopt({ ...merge(snapshot(), { ...d, ratings: mig(d.ratings, d.rv), marked: fixMarked(d.marked) }), rv: RV });
+    adopt({ ...merge(snapshot(), { ...d, ratings: mig(d.ratings, d.rv), days: migDays(fixDays(d.days), d.rv), marked: fixMarked(d.marked) }), rv: RV });
     if (cloud) { clearTimeout(pushT); push(); }
     $('xBox').hidden = true;
     xMsg('Pronto: os dados foram juntados aos daqui, sem apagar nada.');
@@ -2468,7 +2545,7 @@
     // os dados deste navegador são de outra conta: começa limpo
     if (web && was && was !== id) { localWipe(); location.reload(); return; }
     const remote = snap.exists ? snap.data() : null, first = !was;
-    if (remote) adopt(first ? { ...merge(snapshot(), { ...remote, ratings: mig(remote.ratings || {}, remote.rv), marked: fixMarked(remote.marked) }), rv: RV } : remote);
+    if (remote) adopt(first ? { ...merge(snapshot(), { ...remote, ratings: mig(remote.ratings || {}, remote.rv), days: migDays(fixDays(remote.days), remote.rv), marked: fixMarked(remote.marked) }), rv: RV } : remote);
     cloud = ref;
     if (!remote || first) { await push(); if (!cloud) return; }
     save('synced', web ? id : true);

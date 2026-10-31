@@ -1,0 +1,1961 @@
+[
+{
+"id": "1991-1-06",
+"ano": 1991,
+"fase": 1,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 1991, 1ª fase, questão 6 (parte estatística)",
+"r": 1530,
+"tm": 90,
+"ctx": "Uma variedade de milho e outra de mandioca foram plantadas em solos igualmente férteis; cada semente de milho e cada pedaço de caule de mandioca produziu uma planta. A produção de cerca de 100 plantas de cada espécie formou curvas em forma de sino: milho com média de 120 g por planta e desvio padrão de cerca de 40 g; mandioca com média de 4,2 kg de raízes por planta e desvio padrão de cerca de 0,4 kg. Qual variedade tem produção mais homogênea?",
+"opts": [
+"mandioca: dispersão relativa de cerca de 10%, contra 33% do milho",
+"milho: o desvio de 40 g é menor que o de 0,4 kg da mandioca",
+"milho: a média é maior em número",
+"as duas são igualmente homogêneas"
+],
+"a": 0,
+"d": [
+[
+"Coeficiente de variação",
+"Para comparar a dispersão de grandezas com médias ou unidades diferentes, use o desvio relativo: CV = desvio padrão ÷ média.",
+""
+],
+[
+"Curva em sino",
+"O pico marca a média; a largura da curva mostra a dispersão."
+]
+],
+"h": [
+"Milho: 40/120 ≈ 33%. Mandioca: 0,4/4,2 ≈ 10%.",
+"A dispersão relativa da mandioca é bem menor.",
+"<b>Mandioca</b> é mais homogênea: os pedaços de caule são clones (reprodução vegetativa), enquanto as sementes de milho vêm de reprodução sexuada e variam geneticamente."
+]
+},
+{
+"id": "1991-1-07",
+"ano": 1991,
+"fase": 1,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1991, 1ª fase, questão 7",
+"r": 1100,
+"tm": 60,
+"ctx": "Qual o estado físico destas substâncias no Deserto da Arábia, a 50 °C e 1 atm? Temperaturas de fusão e de ebulição (°C): clorofórmio −63 e 61; éter etílico −116 e 34; etanol −117 e 78; fenol 41 e 182; pentano −130 e 36.",
+"opts": [
+"líquidos: clorofórmio, etanol e fenol; gasosos: éter e pentano",
+"todos líquidos",
+"sólido: fenol; líquidos: clorofórmio e etanol; gasosos: éter e pentano",
+"gasosos: clorofórmio, éter e pentano; líquidos: etanol e fenol"
+],
+"a": 0,
+"d": [
+[
+"Estado físico pela temperatura",
+"Abaixo da fusão: sólido. Entre a fusão e a ebulição: líquido. Acima da ebulição: gasoso.",
+""
+]
+],
+"h": [
+"Compare 50 °C com a fusão e a ebulição de cada um.",
+"Clorofórmio (−63 < 50 < 61), etanol (−117 < 50 < 78) e fenol (41 < 50 < 182): líquidos.",
+"Éter (ebulição 34 °C) e pentano (36 °C) já ferveram: <b>gasosos</b>."
+]
+},
+{
+"id": "1991-1-08",
+"ano": 1991,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1991, 1ª fase, questão 8",
+"r": 1280,
+"tm": 60,
+"ctx": "Num recipiente há 1,0 mol de H<sub>2</sub> e 1,0 mol de O<sub>2</sub>. Uma faísca elétrica provoca a reação, que forma água como produto único. Que quantidade (em mol) de cada substância resta no recipiente depois da reação?",
+"opts": [
+"1,0 mol de H₂O e 0,5 mol de O₂",
+"1,0 mol de H₂O e 0,5 mol de H₂",
+"2,0 mol de H₂O",
+"0,5 mol de H₂O, 0,5 mol de H₂ e 0,5 mol de O₂"
+],
+"a": 0,
+"d": [
+[
+"Equação balanceada",
+"2 H₂ + O₂ → 2 H₂O.",
+""
+],
+[
+"Reagente limitante",
+"Compare a proporção disponível com a da equação: o que acaba primeiro limita a reação, e o outro sobra."
+]
+],
+"h": [
+"A equação pede 2 mol de H₂ para 1 mol de O₂; com 1,0 mol de cada, o H₂ é o limitante.",
+"1,0 mol de H₂ consome 0,5 mol de O₂ e forma 1,0 mol de H₂O.",
+"Restam <b>1,0 mol de H₂O e 0,5 mol de O₂</b>."
+]
+},
+{
+"id": "1991-1-09",
+"ano": 1991,
+"fase": 1,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1991, 1ª fase, questão 9",
+"r": 850,
+"tm": 30,
+"ctx": "Duas cargas Q<sub>1</sub> e Q<sub>2</sub> se atraem quando colocadas próximas. A carga Q<sub>1</sub> é repelida por uma terceira carga, Q<sub>3</sub>, positiva. Qual o sinal de Q<sub>2</sub>?",
+"opts": [
+"negativo",
+"positivo",
+"nulo",
+"não dá para saber"
+],
+"a": 0,
+"d": [
+[
+"Atração e repulsão",
+"Cargas de mesmo sinal se repelem; de sinais opostos se atraem.",
+""
+]
+],
+"h": [
+"Q<sub>1</sub> é repelida por Q<sub>3</sub>, positiva: Q<sub>1</sub> é positiva.",
+"Q<sub>1</sub> e Q<sub>2</sub> se atraem: têm sinais opostos.",
+"Q<sub>2</sub> é <b>negativa</b>."
+]
+},
+{
+"id": "1991-1-10a",
+"ano": 1991,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1991, 1ª fase, questão 10(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "Uma torneira, a 1,0 m acima do solo, pinga lentamente, à razão de 3 gotas por minuto. Com que velocidade uma gota atinge o solo? (g = 10 m/s²)",
+"a": 4.47,
+"u": "m/s",
+"tol": 0.02,
+"d": [
+[
+"Queda livre",
+"v² = v₀² + 2·g·h; partindo do repouso, v = √(2gh).",
+""
+]
+],
+"h": [
+"A gota parte do repouso e cai 1,0 m.",
+"v = √(2 × 10 × 1,0) = √20.",
+"v ≈ <b>4,5 m/s</b>."
+]
+},
+{
+"id": "1991-1-10b",
+"ano": 1991,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1991, 1ª fase, questão 10(b)",
+"r": 1150,
+"tm": 45,
+"ctx": "Uma torneira, a 1,0 m acima do solo, pinga lentamente, à razão de 3 gotas por minuto. Que intervalo de tempo separa as batidas de duas gotas consecutivas no solo?",
+"a": 20,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Mesmo movimento, só atrasado",
+"Todas as gotas fazem a mesma queda, com a mesma duração: chegam ao chão com o mesmo espaçamento com que saíram da torneira.",
+""
+]
+],
+"h": [
+"Cada gota leva o mesmo tempo para cair (cerca de 0,45 s).",
+"Então as chegadas ficam separadas pelo mesmo intervalo das saídas.",
+"3 gotas por minuto → <b>20 s</b>."
+]
+},
+{
+"id": "1991-1-11",
+"ano": 1991,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1991, 1ª fase, questão 11",
+"r": 850,
+"tm": 30,
+"ctx": "É comum mesas de 4 pernas, mesmo apoiadas num piso plano, balançarem e precisarem de um calço numa das pernas. Por que isso não acontece com uma mesa de 3 pernas?",
+"opts": [
+"três pontos não colineares sempre determinam um plano; quatro pontos podem não estar no mesmo plano",
+"três pernas distribuem melhor o peso",
+"a mesa de 3 pernas é sempre mais leve",
+"com 3 pernas o centro de massa fica mais baixo"
+],
+"a": 0,
+"d": [
+[
+"Determinação do plano",
+"Por três pontos não alinhados passa um único plano; um quarto ponto pode ficar fora dele.",
+""
+]
+],
+"h": [
+"As pontas das pernas precisam estar todas no plano do piso.",
+"Três pontas não alinhadas sempre cabem num plano: as três tocam o chão.",
+"Com quatro, se uma perna for um pouco diferente, a quarta ponta fica fora do plano das outras três: <b>a mesa balança</b>."
+]
+},
+{
+"id": "1991-1-12",
+"ano": 1991,
+"fase": 1,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1991, 1ª fase, questão 12",
+"r": 1100,
+"tm": 45,
+"ctx": "Números de telefone não começam com 0 nem com 1. Quantos números de telefone diferentes podem ser formados com 7 algarismos?",
+"a": 8000000,
+"tol": 0,
+"d": [
+[
+"Princípio multiplicativo",
+"Multiplique o número de possibilidades de cada posição.",
+""
+]
+],
+"h": [
+"1º algarismo: 8 possibilidades (de 2 a 9).",
+"Os outros 6 algarismos: 10 possibilidades cada.",
+"8 × 10⁶ = <b>8 000 000</b>."
+]
+},
+{
+"id": "1991-2-mat-01",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 1",
+"r": 680,
+"tm": 20,
+"ctx": "Alguns jornais estimam o público de atos públicos considerando 4 pessoas por metro quadrado. Qual a estimativa para uma praça de 4000 m² lotada num comício?",
+"a": 16000,
+"u": "pessoas",
+"tol": 0,
+"d": [
+[
+"Densidade",
+"Total = densidade × área.",
+""
+]
+],
+"h": [
+"4 pessoas por m².",
+"4 × 4000.",
+"= <b>16 000 pessoas</b>."
+]
+},
+{
+"id": "1991-2-mat-02",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 2",
+"r": 1100,
+"tm": 90,
+"ctx": "A companhia de água cobra por mês: pelos primeiros 12 m³, Cr$ 15,00 por m³; pelos 8 m³ seguintes, Cr$ 50,00 por m³; pelos 10 m³ seguintes, Cr$ 90,00 por m³; e, pelo que passar de 30 m³, Cr$ 100,00 por m³. Quanto se paga por um consumo de 32 m³?",
+"a": 1680,
+"u": "Cr$",
+"tol": 0,
+"d": [
+[
+"Tarifa por faixas",
+"Divida o consumo nas faixas e cobre cada parte pelo preço da sua faixa.",
+""
+]
+],
+"h": [
+"Faixas: 12 m³, depois 8 m³ (até 20), depois 10 m³ (até 30) e 2 m³ acima de 30.",
+"12·15 + 8·50 + 10·90 + 2·100 = 180 + 400 + 900 + 200.",
+"= <b>Cr$ 1680,00</b>."
+]
+},
+{
+"id": "1991-2-mat-03",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 3",
+"r": 940,
+"tm": 45,
+"ctx": "Numa lanchonete, o refrigerante é vendido em copos de 300 mL por Cr$ 90,00 e de 500 mL por Cr$ 170,00. Em qual copo você toma mais refrigerante pelo mesmo preço?",
+"opts": [
+"no de 300 mL: cerca de 3,3 mL por cruzeiro, contra 2,9 no de 500 mL",
+"no de 500 mL: copo maior sempre sai mais barato",
+"é igual nos dois",
+"no de 500 mL: cerca de 3,4 mL por cruzeiro"
+],
+"a": 0,
+"d": [
+[
+"Preço unitário",
+"Compare quanto se leva por unidade de dinheiro (mL por cruzeiro), ou quanto custa cada mL.",
+""
+]
+],
+"h": [
+"300 mL/90 ≈ 3,33 mL por cruzeiro.",
+"500 mL/170 ≈ 2,94 mL por cruzeiro.",
+"O copo de <b>300 mL</b> rende mais refrigerante pelo mesmo dinheiro."
+]
+},
+{
+"id": "1991-2-mat-04",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 4",
+"r": 890,
+"tm": 45,
+"ctx": "Na planta de um edifício em construção, na escala 1:50, uma sala retangular mede 10 cm por 8 cm. Qual a área real da sala?",
+"a": 20,
+"u": "m²",
+"tol": 0.01,
+"d": [
+[
+"Escala",
+"1:50 significa que 1 cm no desenho vale 50 cm reais. Converta os lados antes de multiplicar (a área real é a do desenho × 50²).",
+""
+]
+],
+"h": [
+"10 cm → 500 cm = 5 m; 8 cm → 400 cm = 4 m.",
+"Área = 5 × 4.",
+"= <b>20 m²</b>."
+]
+},
+{
+"id": "1991-2-mat-05",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 5",
+"r": 1280,
+"tm": 90,
+"ctx": "No testamento, uma pessoa decidiu dividir sua fortuna entre a filha, que estava grávida, e os filhos que nascessem: cada criança receberia o dobro do que coubesse à mãe, se fosse menino, e o triplo, se fosse menina. Nasceram trigêmeos: dois meninos e uma menina. Como foi repartida a herança?",
+"opts": [
+"mãe 1/8; cada menino 1/4; menina 3/8",
+"mãe 1/6; cada menino 1/3; menina 1/2",
+"mãe 1/4; cada menino 1/4; menina 1/4",
+"mãe 1/5; cada menino 1/5; menina 2/5"
+],
+"a": 0,
+"d": [
+[
+"Divisão proporcional",
+"Dê a cada parte um peso (x, 2x, 3x...), some os pesos e divida o total na mesma proporção.",
+""
+]
+],
+"h": [
+"Mãe: x; cada menino: 2x; menina: 3x.",
+"Total: x + 2x + 2x + 3x = 8x.",
+"<b>Mãe 1/8, cada menino 1/4, menina 3/8</b>."
+]
+},
+{
+"id": "1991-2-mat-06",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 6",
+"r": 1020,
+"tm": 60,
+"ctx": "Numa escola, a nota da 1ª prova tem peso 1, a da 2ª tem peso 2 e a da 3ª, peso 3; a soma é dividida por 6. Com média maior ou igual a 6,5, o aluno é dispensado da recuperação. Um aluno tirou 6,3 na primeira prova e 4,5 na segunda. Quanto precisa tirar, no mínimo, na terceira?",
+"a": 7.9,
+"tol": 0.001,
+"d": [
+[
+"Média ponderada",
+"M = (p<sub>1</sub>n<sub>1</sub> + p<sub>2</sub>n<sub>2</sub> + p<sub>3</sub>n<sub>3</sub>)/(p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub>).",
+""
+]
+],
+"h": [
+"(6,3 + 2·4,5 + 3x)/6 ≥ 6,5.",
+"15,3 + 3x ≥ 39 → 3x ≥ 23,7.",
+"x ≥ <b>7,9</b>."
+]
+},
+{
+"id": "1991-2-mat-07",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 7",
+"r": 1320,
+"tm": 120,
+"ctx": "Um pequeno avião a jato gasta sete horas a menos do que um avião a hélice para ir de São Paulo a Boa Vista. O jato voa a 660 km/h em média e o avião a hélice, a 275 km/h. Qual é a distância entre São Paulo e Boa Vista?",
+"a": 3300,
+"u": "km",
+"tol": 0.01,
+"d": [
+[
+"Tempo de viagem",
+"t = d/v.",
+""
+],
+[
+"Equação com frações",
+"Em d/a − d/b = c, reduza ao mesmo denominador: d·(b − a)/(a·b) = c."
+]
+],
+"h": [
+"d/275 − d/660 = 7.",
+"MMC(275, 660) = 3300: d·(12 − 5)/3300 = 7 → 7d/3300 = 7.",
+"d = <b>3300 km</b>."
+]
+},
+{
+"id": "1991-2-mat-08",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 8",
+"r": 1530,
+"tm": 120,
+"ctx": "Um foguete foi lançado acidentalmente de um ponto da Terra e cairá de volta. Sua trajetória plana segue y = −x² + 300x. Com que inclinação (coeficiente angular) se deve lançar, do mesmo ponto, outro foguete em trajetória retilínea, para que ele intercepte o primeiro no ponto mais distante da Terra?",
+"opts": [
+"coeficiente angular 150",
+"coeficiente angular 300",
+"coeficiente angular 22 500",
+"coeficiente angular 1/150"
+],
+"a": 0,
+"d": [
+[
+"Vértice da parábola",
+"Para y = ax² + bx + c: x<sub>v</sub> = −b/(2a), e y<sub>v</sub> é o valor da função em x<sub>v</sub>.",
+""
+],
+[
+"Reta pela origem",
+"Passando por (0, 0) e (x<sub>1</sub>, y<sub>1</sub>), o coeficiente angular é y<sub>1</sub>/x<sub>1</sub>."
+]
+],
+"h": [
+"O ponto mais alto é o vértice: x<sub>v</sub> = −300/(−2) = 150.",
+"y<sub>v</sub> = −150² + 300·150 = 22 500.",
+"Reta da origem até (150, 22 500): coeficiente angular 22 500/150 = <b>150</b>."
+]
+},
+{
+"id": "1991-2-mat-10",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 10",
+"r": 1360,
+"tm": 120,
+"ctx": "Existem 4 números inteiros positivos e consecutivos tais que o produto de 2 deles seja igual ao produto dos outros dois?",
+"opts": [
+"Não: em todas as combinações um dos produtos é sempre maior",
+"Sim: 1, 2, 3 e 4",
+"Sim: 2, 3, 4 e 5",
+"Sim, para qualquer primeiro número par"
+],
+"a": 0,
+"d": [
+[
+"Testar todas as combinações",
+"Com n, n + 1, n + 2 e n + 3, só há três maneiras de formar dois pares.",
+""
+],
+[
+"Comparar expressões",
+"Expanda os dois produtos e subtraia: se a diferença nunca se anula para n > 0, eles nunca são iguais."
+]
+],
+"h": [
+"Pares possíveis: n(n + 1) e (n + 2)(n + 3); n(n + 2) e (n + 1)(n + 3); n(n + 3) e (n + 1)(n + 2).",
+"Diferenças (segundo menos primeiro): 4n + 6, 2n + 3 e 2. Nenhuma se anula.",
+"<b>Não existem</b> tais números."
+]
+},
+{
+"id": "1991-2-mat-12",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 12",
+"r": 1620,
+"tm": 150,
+"ctx": "Começando com um cilindro de raio 1 e altura 1, coloca-se sobre ele outro cilindro de mesma altura e raio igual a 2/3 do anterior, e assim indefinidamente. Embora a altura do sólido resultante seja infinita, seu volume pode ser calculado. Quanto vale?",
+"opts": [
+"9π/5",
+"3π",
+"5π/9",
+"9π/4"
+],
+"a": 0,
+"d": [
+[
+"Volume do cilindro",
+"V = π·r²·h.",
+""
+],
+[
+"Escala",
+"Raio multiplicado por 2/3 e altura igual: volume multiplicado por (2/3)² = 4/9."
+],
+[
+"PG infinita",
+"Se cada termo é o anterior vezes q, com |q| < 1: S = a<sub>1</sub>/(1 − q)."
+]
+],
+"h": [
+"Volumes: π, π·(4/9), π·(4/9)², ...: PG de razão 4/9.",
+"S = π/(1 − 4/9) = π/(5/9).",
+"V = <b>9π/5</b>."
+]
+},
+{
+"id": "1991-2-mat-13",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 13",
+"r": 1700,
+"tm": 150,
+"ctx": "Três canos cilíndricos de mesmo raio r, tangentes dois a dois como na figura, devem ser colocados dentro de outro cano de raio R, de modo a ficarem presos sem folga. Quanto vale R em função de r?",
+"fig": "<svg viewBox='0 0 200 170' class='fg' role='img' aria-label='três círculos iguais tangentes dois a dois, dentro de um círculo maior tangente aos três'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='100' cy='85' r='64.6'/><circle cx='100' cy='50.4' r='30'/><circle cx='70' cy='102.3' r='30'/><circle cx='130' cy='102.3' r='30'/><line x1='100' y1='50.4' x2='121.2' y2='29.2'/></g><g fill='currentColor' font-size='12'><circle cx='100' cy='50.4' r='2'/><text x='112' y='46'>r</text></g></svg>",
+"opts": [
+"R = r(3 + 2√3)/3",
+"R = 3r",
+"R = r(1 + √3)",
+"R = 2r"
+],
+"a": 0,
+"d": [
+[
+"Centros",
+"Os centros de três círculos iguais tangentes dois a dois formam um triângulo equilátero de lado 2r.",
+""
+],
+[
+"Centro do triângulo equilátero",
+"A distância do centro de um triângulo equilátero de lado ℓ a cada vértice é ℓ√3/3."
+],
+[
+"Tangência interna",
+"Raio do cano externo = distância do centro do conjunto ao centro de um cano menor + r."
+]
+],
+"h": [
+"Centros dos canos menores: triângulo equilátero de lado 2r.",
+"Distância do centro do triângulo a cada vértice: 2r·√3/3.",
+"R = 2r√3/3 + r = <b>r(3 + 2√3)/3</b> ≈ 2,15r."
+]
+},
+{
+"id": "1991-2-mat-14",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 14",
+"r": 1960,
+"tm": 180,
+"ctx": "Uma esfera de raio 1 está apoiada no plano xy, com o polo sul tocando a origem. A 'projeção estereográfica' de um ponto da esfera é o ponto em que a reta que liga o polo norte a esse ponto toca o plano xy. Qual é a projeção estereográfica dos pontos do hemisfério sul?",
+"opts": [
+"o disco x² + y² ≤ 4 (círculo de raio 2 e seu interior)",
+"o disco x² + y² ≤ 1",
+"a região fora do disco de raio 2",
+"a circunferência x² + y² = 4"
+],
+"a": 0,
+"d": [
+[
+"Coordenadas",
+"Polo sul em (0, 0, 0), centro em (0, 0, 1) e polo norte em (0, 0, 2).",
+""
+],
+[
+"Semelhança de triângulos",
+"Uma reta que sai do polo norte e passa por um ponto a altura z e distância ρ do eixo chega ao plano z = 0 a uma distância ρ' = 2ρ/(2 − z) do eixo."
+]
+],
+"h": [
+"Equador: z = 1 e ρ = 1. Projeção: ρ' = 2·1/(2 − 1) = 2.",
+"Descendo para o polo sul, a projeção se aproxima da origem; o polo sul se projeta nele mesmo.",
+"Hemisfério sul → <b>disco de raio 2</b> centrado na origem: x² + y² ≤ 4."
+]
+},
+{
+"id": "1991-2-mat-15",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 15",
+"r": 1660,
+"tm": 150,
+"ctx": "Um país troca de moeda cada vez que a inflação acumulada atinge 900%; a nova moeda vale 1000 vezes a antiga. Com inflação de 25% ao mês, em quantos meses o país trocará de moeda? (Use log 2 = 0,301.)",
+"opts": [
+"no 11º mês (n ≈ 10,3)",
+"no 9º mês",
+"no 4º mês",
+"no 36º mês"
+],
+"a": 0,
+"d": [
+[
+"Inflação acumulada",
+"Inflação de i% ao mês por n meses multiplica os preços por (1 + i/100)ⁿ. Inflação acumulada de 900% = preços × 10.",
+""
+],
+[
+"Equação exponencial",
+"qⁿ = k → n = log k / log q."
+],
+[
+"log de decimal",
+"1,25 = 10/8 = 10/2³, então log 1,25 = 1 − 3·log 2."
+]
+],
+"h": [
+"1,25ⁿ = 10 → n = 1/log 1,25.",
+"log 1,25 = 1 − 3·0,301 = 0,097.",
+"n = 1/0,097 ≈ 10,3: a troca ocorre <b>no 11º mês</b>."
+]
+},
+{
+"id": "1991-2-mat-16",
+"ano": 1991,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1991, 2ª fase, Matemática, questão 16",
+"r": 1620,
+"tm": 120,
+"ctx": "Dois quadrados congruentes têm lado 4 cm. Um vértice de um deles está no centro do outro, e esse quadrado pode girar em torno desse vértice. Como varia a área da interseção dos dois quadrados durante a rotação?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='quadrado fixo e outro quadrado igual com um vértice no centro do primeiro, girado; a interseção está hachurada'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='40' y='60' width='80' height='80'/><polygon points='80,100 107.4,24.8 182.6,52.2 155.2,127.4'/></g><g fill='currentColor' font-size='12'><polygon points='80,100 94.55,60 120,60 120,114.55' fill-opacity='0.35'/><circle cx='80' cy='100' r='2'/><text x='28' y='104'>4</text><text x='172' y='100'>4</text></g></svg>",
+"opts": [
+"não varia: é sempre 4 cm², 1/4 da área do quadrado",
+"varia entre 4 cm² e 8 cm²",
+"é máxima quando os lados ficam a 45°",
+"varia entre 0 e 4 cm²"
+],
+"a": 0,
+"d": [
+[
+"Simetria do quadrado",
+"Duas semirretas perpendiculares saindo do centro de um quadrado, girando juntas, sempre o dividem em 4 regiões congruentes (gire de 90° e cada região vira a seguinte).",
+""
+],
+[
+"Triângulos congruentes",
+"Compare a interseção com o quarto 'alinhado' do quadrado: o triângulo que sai por um lado é igual ao que entra pelo outro."
+]
+],
+"h": [
+"Os dois lados do quadrado que gira saem do centro O do outro formando um ângulo reto.",
+"As 4 regiões em que duas semirretas perpendiculares por O dividem o quadrado fixo são congruentes (rotação de 90° em torno de O).",
+"A interseção é sempre 1/4 de 16 cm²: <b>4 cm², constante</b>."
+]
+},
+{
+"id": "1991-2-fis-01",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1991, 2ª fase, Física, questão 1",
+"r": 940,
+"tm": 45,
+"ctx": "A resistência elétrica de um fio cilíndrico é diretamente proporcional ao seu comprimento e inversamente proporcional à área da sua seção reta. O que acontece com a resistência quando triplicamos o comprimento? E quando duplicamos o raio (com o comprimento original)?",
+"opts": [
+"triplica; fica 4 vezes menor",
+"triplica; fica 2 vezes menor",
+"fica 3 vezes menor; fica 4 vezes maior",
+"triplica; dobra"
+],
+"a": 0,
+"d": [
+[
+"Segunda lei de Ohm",
+"R = ρ·L/A.",
+""
+],
+[
+"Área do círculo",
+"A = π·r²: dobrar o raio multiplica a área por 4."
+]
+],
+"h": [
+"R ∝ L: comprimento × 3 → R × 3.",
+"Raio × 2 → área × 4.",
+"R ∝ 1/A → R fica <b>4 vezes menor</b>."
+]
+},
+{
+"id": "1991-2-fis-02a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1991, 2ª fase, Física, questão 2(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Um carro de 800 kg, a 108 km/h, freia bruscamente e para em 5,0 s. Qual o módulo da aceleração do carro?",
+"a": 6,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"Conversão",
+"km/h ÷ 3,6 = m/s.",
+""
+],
+[
+"Aceleração média",
+"a = Δv/Δt."
+]
+],
+"h": [
+"108 km/h = 30 m/s.",
+"a = (0 − 30)/5,0 = −6,0 m/s².",
+"Módulo: <b>6,0 m/s²</b>."
+]
+},
+{
+"id": "1991-2-fis-02b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1991, 2ª fase, Física, questão 2(b)",
+"r": 1060,
+"tm": 60,
+"ctx": "Um carro de 800 kg, a 108 km/h, freia bruscamente e para em 5,0 s. Qual o valor da força de atrito que atua sobre o carro?",
+"a": 4800,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Conversão",
+"km/h ÷ 3,6 = m/s.",
+""
+],
+[
+"2ª lei de Newton",
+"F = m·a, com a = Δv/Δt; na freada, a resultante é o atrito."
+]
+],
+"h": [
+"108 km/h = 30 m/s; a = 30/5,0 = 6,0 m/s².",
+"F = 800 × 6,0.",
+"F = <b>4800 N</b>."
+]
+},
+{
+"id": "1991-2-fis-03",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1991, 2ª fase, Física, questão 3(b)",
+"r": 1740,
+"tm": 180,
+"ctx": "Uma escada homogênea de 40 kg apoia-se numa parede, no ponto P, a 4 m do chão, e no chão, no ponto C, a 3 m da parede. Não há atrito em P. É possível a escada ficar parada? Se for, quais os valores da força normal e da força de atrito em C? (g = 10 m/s²)",
+"fig": "<svg viewBox='0 0 190 140' class='fg' role='img' aria-label='escada apoiada na parede em P, 4 m acima do chão, e no chão em C, a 3 m da parede'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='20' y1='110' x2='155' y2='110'/><line x1='150' y1='5' x2='150' y2='110'/><line x1='75' y1='110' x2='150' y2='10' stroke-width='3'/><g stroke-dasharray='3 3'><line x1='75' y1='118' x2='150' y2='118'/><line x1='162' y1='10' x2='162' y2='110'/></g></g><g fill='currentColor' font-size='12'><text x='138' y='12'>P</text><text x='60' y='106'>C</text><text x='102' y='134'>3 m</text><text x='166' y='64'>4 m</text></g></svg>",
+"opts": [
+"Sim: normal 400 N e atrito 150 N",
+"Não: sem atrito em P, ela sempre escorrega",
+"Sim: normal 400 N e atrito nulo",
+"Sim: normal 250 N e atrito 200 N"
+],
+"a": 0,
+"d": [
+[
+"Equilíbrio de corpo extenso",
+"Soma das forças = 0 e soma dos momentos (torques) = 0 em relação a qualquer ponto.",
+""
+],
+[
+"Momento de uma força",
+"M = F·d, com d a distância da linha de ação da força ao ponto escolhido."
+],
+[
+"Escolha do ponto",
+"Calcule os momentos em relação a C: a normal e o atrito do chão saem da conta."
+]
+],
+"h": [
+"Vertical: normal em C = peso = 400 N. Horizontal: atrito em C = normal da parede em P.",
+"Momentos em C: o peso atua no meio da escada (1,5 m na horizontal): 400 × 1,5 = N<sub>P</sub> × 4 → N<sub>P</sub> = 150 N.",
+"<b>Sim</b>, se o chão tiver atrito: <b>normal 400 N e atrito 150 N</b>."
+]
+},
+{
+"id": "1991-2-fis-04a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1991, 2ª fase, Física, questão 4(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Um mol de gás ideal sofre a transformação A → B → C do diagrama: de A (3,0 atm; 8,0 L) a B (3,0 atm; 10,0 L) à pressão constante, e de B a C a volume constante, até a isoterma que passa por A. Qual a temperatura do gás no estado A? (R = 0,082 atm·L/(mol·K))",
+"fig": "<svg viewBox='0 0 220 130' class='fg' role='img' aria-label='diagrama p por V: A em 8 L e 3 atm, B em 10 L e 3 atm, C em 10 L abaixo de B sobre a isoterma de A'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 210,110'/><polyline points='90,35 160,35 160,58' stroke-width='2'/><path d='M90,35 Q120,55 175,62' stroke-dasharray='4 3'/><g stroke-dasharray='2 3'><line x1='30' y1='35' x2='90' y2='35'/><line x1='90' y1='35' x2='90' y2='110'/><line x1='160' y1='58' x2='160' y2='110'/></g></g><g fill='currentColor' font-size='11'><polygon points='120,31 128,35 120,39'/><polygon points='156,46 160,54 164,46'/><text x='86' y='28'>A</text><text x='156' y='28'>B</text><text x='166' y='56'>C</text><text x='6' y='39'>3,0</text><text x='82' y='122'>8,0</text><text x='150' y='122'>10,0</text><text x='34' y='12'>p (atm)</text><text x='186' y='104'>V (L)</text><text x='100' y='76'>isoterma</text></g></svg>",
+"a": 293,
+"u": "K",
+"tol": 0.01,
+"d": [
+[
+"Equação de Clapeyron",
+"p·V = n·R·T.",
+""
+]
+],
+"h": [
+"T = p·V/(n·R).",
+"T = 3,0 × 8,0/(1 × 0,082) = 24/0,082.",
+"T<sub>A</sub> ≈ <b>293 K</b> (cerca de 20 °C)."
+]
+},
+{
+"id": "1991-2-fis-04b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1991, 2ª fase, Física, questão 4(b)",
+"r": 1400,
+"tm": 90,
+"ctx": "Um mol de gás ideal se expande à pressão constante de 3,0 atm, de 8,0 L para 10,0 L. Qual o trabalho realizado pelo gás, em joules? (R = 0,082 atm·L/(mol·K) = 8,3 J/(mol·K))",
+"a": 607,
+"u": "J",
+"tol": 0.02,
+"d": [
+[
+"Trabalho à pressão constante",
+"W = p·ΔV (é a área sob o segmento no gráfico p × V).",
+""
+],
+[
+"Converter atm·L em J",
+"Compare as duas formas de R: 0,082 atm·L ↔ 8,3 J, logo 1 atm·L ≈ 101 J."
+]
+],
+"h": [
+"W = 3,0 atm × 2,0 L = 6,0 atm·L.",
+"1 atm·L = 8,3/0,082 ≈ 101 J.",
+"W ≈ 6,0 × 101 ≈ <b>6,1·10² J</b>."
+]
+},
+{
+"id": "1991-2-fis-04c",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1991, 2ª fase, Física, questão 4(c)",
+"r": 1280,
+"tm": 60,
+"ctx": "Na transformação A → B → C de um mol de gás ideal, o estado A tem 3,0 atm e 8,0 L, e o estado C está sobre a mesma isoterma que passa por A. Qual a temperatura do gás em C? (R = 0,082 atm·L/(mol·K))",
+"a": 293,
+"u": "K",
+"tol": 0.01,
+"d": [
+[
+"Isoterma",
+"Todos os pontos de uma isoterma têm a mesma temperatura (p·V constante, com n fixo).",
+""
+]
+],
+"h": [
+"C e A estão na mesma isoterma.",
+"T<sub>C</sub> = T<sub>A</sub> = 3,0 × 8,0/0,082.",
+"T<sub>C</sub> ≈ <b>293 K</b> (e a pressão em C é 24/10 = 2,4 atm)."
+]
+},
+{
+"id": "1991-2-fis-05",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1991, 2ª fase, Física, questão 5",
+"r": 1440,
+"tm": 120,
+"ctx": "A velocidade das ondas numa praia pode depender da aceleração da gravidade g, da altura (profundidade) h da água e da densidade d da água. Por análise dimensional, ela não depende de um desses parâmetros. Qual é, e qual a expressão da velocidade? Na crista da onda, a velocidade é maior ou menor que na base?",
+"opts": [
+"não depende de d; v = √(g·h); maior na crista, onde a água é mais funda",
+"não depende de g; v = √(h/d); menor na crista",
+"não depende de h; v = √(g·d); igual em toda a onda",
+"não depende de d; v = g·h; menor na crista"
+],
+"a": 0,
+"d": [
+[
+"Análise dimensional",
+"Escreva v = gᵃ·hᵇ·dᶜ e iguale os expoentes de cada unidade (m, s, kg) dos dois lados.",
+""
+],
+[
+"Unidades",
+"[g] = m/s², [h] = m, [d] = kg/m³, [v] = m/s."
+]
+],
+"h": [
+"Só d tem kg: para v não ter kg, c = 0 → v não depende da densidade.",
+"m/s = (m/s²)ᵃ·mᵇ → para s: −1 = −2a → a = 1/2; para m: 1 = a + b → b = 1/2. v = √(g·h).",
+"Na crista, h é maior: a velocidade é <b>maior</b> (por isso a onda 'quebra' para a frente)."
+]
+},
+{
+"id": "1991-2-fis-06",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1991, 2ª fase, Física, questão 6",
+"r": 1360,
+"tm": 90,
+"ctx": "Duas cargas +Q estão fixas nos pontos (0, d) e (0, −d). Uma carga −q, que só pode se mover sobre o eixo x, é solta do repouso em x = a. Em que ponto do eixo x a velocidade de −q é máxima, e em que pontos é nula?",
+"opts": [
+"máxima em x = 0; nula em x = a e x = −a",
+"máxima em x = a; nula em x = 0",
+"máxima em x = a/2; nula em x = 0",
+"a velocidade cresce sem parar"
+],
+"a": 0,
+"d": [
+[
+"Simetria",
+"As componentes verticais das forças das duas cargas +Q se cancelam sobre o eixo x; a resultante aponta para a origem.",
+""
+],
+[
+"Energia",
+"Sem atrito, a energia mecânica se conserva: a velocidade é máxima onde a energia potencial é mínima e nula nos pontos de retorno."
+]
+],
+"h": [
+"A força sobre −q aponta sempre para a origem: ela acelera até x = 0 e freia depois.",
+"Em x = 0 a força é nula e a velocidade é máxima.",
+"Por simetria, para em x = −a e volta, oscilando: velocidade nula em <b>x = a e x = −a</b>."
+]
+},
+{
+"id": "1991-2-fis-07a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1991, 2ª fase, Física, questão 7(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Num aquário de 10 L, cheio de água, há um aquecedor de 60 W. Em 25 minutos, a temperatura da água aumentou 2 °C. Quanta energia a água absorveu, em joules? (c = 1 cal/(g·°C); 1 cal = 4,0 J; 1 L de água = 1 kg)",
+"a": 80000,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·Δθ.",
+""
+],
+[
+"Conversão",
+"1 cal = 4,0 J (valor dado)."
+]
+],
+"h": [
+"m = 10 kg = 10 000 g.",
+"Q = 10 000 × 1 × 2 = 20 000 cal.",
+"Q = 20 000 × 4,0 = <b>8,0·10⁴ J</b>."
+]
+},
+{
+"id": "1991-2-fis-07b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1991, 2ª fase, Física, questão 7(b)",
+"r": 1400,
+"tm": 90,
+"ctx": "Um aquecedor de 60 W ficou ligado 25 minutos num aquário, e a água absorveu 8,0·10<sup>4</sup> J. Que fração da energia fornecida pelo aquecedor se perdeu para o exterior?",
+"opts": [
+"1/9 (cerca de 11%)",
+"1/8",
+"1/10",
+"8/9"
+],
+"a": 0,
+"d": [
+[
+"Energia elétrica",
+"E = P·Δt, com Δt em segundos.",
+""
+],
+[
+"Fração perdida",
+"(energia fornecida − energia absorvida) ÷ energia fornecida."
+]
+],
+"h": [
+"Fornecida: 60 × 25 × 60 = 90 000 J.",
+"Perdida: 90 000 − 80 000 = 10 000 J.",
+"Fração: 10 000/90 000 = <b>1/9</b> ≈ 11%."
+]
+},
+{
+"id": "1991-2-fis-08",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1991, 2ª fase, Física, questão 8(a)",
+"r": 720,
+"tm": 20,
+"ctx": "Um atleta corre 100 m rasos em 10 segundos. Qual a sua velocidade média na corrida?",
+"a": 10,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Velocidade média",
+"v<sub>m</sub> = Δs/Δt.",
+""
+]
+],
+"h": [
+"Δs = 100 m e Δt = 10 s.",
+"v<sub>m</sub> = 100/10.",
+"v<sub>m</sub> = <b>10 m/s</b> (36 km/h). Como ele parte do repouso, a velocidade no fim é maior que isso, cerca de 12 m/s."
+]
+},
+{
+"id": "1991-2-fis-09a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1991, 2ª fase, Física, questão 9(a)",
+"r": 1530,
+"tm": 90,
+"ctx": "Uma molécula diatômica tem átomos com cargas +q e −q, a uma distância d, numa região com campo elétrico uniforme E apontando para a direita. Em qual orientação ela fica em equilíbrio estável?",
+"opts": [
+"alinhada com o campo, com +q à direita e −q à esquerda",
+"alinhada com o campo, com +q à esquerda e −q à direita",
+"perpendicular ao campo",
+"inclinada a 45° do campo"
+],
+"a": 0,
+"d": [
+[
+"Forças num dipolo",
+"Num campo uniforme, +q sofre força no sentido de E e −q no sentido oposto: a resultante é nula, mas pode haver torque.",
+""
+],
+[
+"Equilíbrio estável",
+"Girando um pouco a molécula, surge um torque que a traz de volta."
+]
+],
+"h": [
+"+q é puxada para a direita e −q para a esquerda.",
+"Com +q à direita, as forças esticam a molécula ao longo do campo; se ela gira um pouco, o torque a traz de volta: estável.",
+"Com +q à esquerda o equilíbrio é instável. Resposta: <b>alinhada, com +q à direita</b>."
+]
+},
+{
+"id": "1991-2-fis-09b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1991, 2ª fase, Física, questão 9(b)",
+"r": 1440,
+"tm": 60,
+"ctx": "Uma molécula diatômica, com cargas +q e −q a uma distância d, está perpendicular a um campo elétrico uniforme E. Qual o momento (torque) da força elétrica sobre ela?",
+"opts": [
+"q·E·d",
+"2q·E·d",
+"q·E·d/2",
+"zero"
+],
+"a": 0,
+"d": [
+[
+"Binário",
+"Duas forças iguais e opostas, com linhas de ação separadas por uma distância b, têm momento F·b.",
+""
+],
+[
+"Força elétrica",
+"F = q·E."
+]
+],
+"h": [
+"Cada carga sofre força q·E, em sentidos opostos, ambas perpendiculares à molécula.",
+"A distância entre as linhas de ação é d.",
+"Momento = <b>q·E·d</b>."
+]
+},
+{
+"id": "1991-2-fis-10a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1991, 2ª fase, Física, questão 10(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "Um carrinho de 80 kg se desloca na horizontal a 5,0 m/s. Um bloco de 20 kg cai verticalmente sobre o carrinho, de uma altura muito pequena, e fica grudado. Com que velocidade final se move o conjunto?",
+"a": 4,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Conservação da quantidade de movimento",
+"Na horizontal não há forças externas: Q<sub>antes</sub> = Q<sub>depois</sub>. O bloco que cai na vertical não traz quantidade de movimento horizontal.",
+""
+]
+],
+"h": [
+"Antes: 80 × 5,0 = 400 kg·m/s (o bloco não tem velocidade horizontal).",
+"Depois: (80 + 20)·v.",
+"v = 400/100 = <b>4,0 m/s</b>."
+]
+},
+{
+"id": "1991-2-fis-10b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1991, 2ª fase, Física, questão 10(b)",
+"r": 1400,
+"tm": 90,
+"ctx": "Um carrinho de 80 kg a 5,0 m/s recebe um bloco de 20 kg, que cai sobre ele de uma altura muito pequena e gruda; o conjunto passa a se mover a 4,0 m/s. Quanta energia mecânica foi transformada em energia térmica?",
+"a": 200,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Energia cinética",
+"E<sub>c</sub> = m·v²/2.",
+""
+],
+[
+"Choque inelástico",
+"Quando os corpos grudam, parte da energia cinética se perde (vira calor e deformação)."
+]
+],
+"h": [
+"Antes: 80 × 5,0²/2 = 1000 J.",
+"Depois: 100 × 4,0²/2 = 800 J.",
+"Transformada em calor: <b>200 J</b>."
+]
+},
+{
+"id": "1991-2-fis-11",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1991, 2ª fase, Física, questão 11",
+"r": 1660,
+"tm": 150,
+"ctx": "Um sistema de lentes forma, de um objeto de 4 cm de altura, uma imagem real e invertida de 1 cm, a 100 cm do objeto (ao longo do eixo). Qual a distância focal de uma lente delgada que produza o mesmo efeito?",
+"fig": "<svg viewBox='0 0 250 120' class='fg' role='img' aria-label='objeto de 4 cm acima do eixo; imagem invertida de 1 cm abaixo do eixo, 100 cm adiante'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='15' y1='70' x2='240' y2='70'/><line x1='40' y1='70' x2='40' y2='30' stroke-width='4'/><line x1='220' y1='70' x2='220' y2='80' stroke-width='4'/><g stroke-dasharray='3 3'><line x1='40' y1='90' x2='220' y2='90'/></g></g><g fill='currentColor' font-size='12'><text x='46' y='28'>objeto</text><text x='46' y='52'>4 cm</text><text x='190' y='112'>imagem</text><text x='226' y='82'>1 cm</text><text x='108' y='104'>100 cm</text></g></svg>",
+"a": 16,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Aumento linear",
+"A = i/o = −p'/p (imagem real e invertida: A negativo).",
+""
+],
+[
+"Equação de Gauss",
+"1/f = 1/p + 1/p'."
+],
+[
+"Distância objeto–imagem",
+"Para imagem real de lente, objeto e imagem ficam em lados opostos: p + p' = distância entre eles."
+]
+],
+"h": [
+"Imagem 4 vezes menor e invertida: p' = p/4. Com p + p' = 100 cm: p = 80 cm e p' = 20 cm.",
+"1/f = 1/80 + 1/20 = 5/80.",
+"f = <b>16 cm</b> (lente convergente, a 80 cm do objeto)."
+]
+},
+{
+"id": "1991-2-fis-12",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1991, 2ª fase, Física, questão 12",
+"r": 1320,
+"tm": 90,
+"ctx": "Um ebulidor elétrico pode funcionar com um ou com dois resistores idênticos, de resistência R, ligado sempre à mesma tomada. Com um resistor, certa quantidade de água ferve em t<sub>0</sub> minutos. Em quanto tempo ferve a mesma quantidade de água com os dois resistores em paralelo? E em série?",
+"opts": [
+"paralelo: t₀/2; série: 2t₀",
+"paralelo: 2t₀; série: t₀/2",
+"paralelo: t₀/4; série: 4t₀",
+"os dois em t₀"
+],
+"a": 0,
+"d": [
+[
+"Potência com tensão fixa",
+"P = U²/R: menor resistência, maior potência.",
+""
+],
+[
+"Energia",
+"A mesma água precisa da mesma energia: E = P·t, logo t ∝ 1/P."
+],
+[
+"Associações",
+"Dois resistores iguais em paralelo: R/2. Em série: 2R."
+]
+],
+"h": [
+"Em paralelo: R/2 → potência dobra → tempo <b>t₀/2</b>.",
+"Em série: 2R → potência cai à metade → tempo <b>2t₀</b>.",
+"A energia necessária é a mesma; só muda a rapidez."
+]
+},
+{
+"id": "1991-2-fis-13a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1991, 2ª fase, Física, questão 13(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Para enviar correspondência do Japão ao Brasil (pontos diametralmente opostos), usa-se um satélite em órbita rasante à Terra, com velocidade de módulo constante. Raio da Terra 6400 km, g = 10 m/s²; despreze a resistência do ar e a rotação da Terra. Qual o módulo da aceleração do satélite?",
+"a": 10,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"Órbita rasante",
+"A única força é o peso: a aceleração é g e é centrípeta (aponta para o centro da Terra).",
+""
+]
+],
+"h": [
+"Na órbita rasante, a força sobre o satélite é o seu peso.",
+"Aceleração = g, apontando para o centro da Terra.",
+"Módulo: <b>10 m/s²</b> (centrípeta: v²/R = g)."
+]
+},
+{
+"id": "1991-2-fis-13b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1991, 2ª fase, Física, questão 13(b)",
+"r": 1620,
+"tm": 150,
+"ctx": "Um satélite em órbita rasante (raio da Terra 6400 km, g = 10 m/s², π = 3,14) leva correspondência do Japão ao Brasil, diametralmente opostos. Quanto tempo leva a viagem, em segundos?",
+"a": 2512,
+"u": "s",
+"tol": 0.02,
+"d": [
+[
+"Órbita rasante",
+"g = v²/R → v = √(g·R).",
+""
+],
+[
+"Meia volta",
+"Pontos diametralmente opostos: o satélite percorre meia circunferência, π·R."
+]
+],
+"h": [
+"v = √(10 × 6,4·10⁶) = 8000 m/s.",
+"Meia volta: π·R = 3,14 × 6,4·10⁶ ≈ 2,01·10⁷ m.",
+"t = 2,01·10⁷/8000 ≈ <b>2512 s</b> (cerca de 42 min)."
+]
+},
+{
+"id": "1991-2-fis-14",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1991, 2ª fase, Física, questão 14",
+"r": 1620,
+"tm": 90,
+"ctx": "O índice de refração de uma lâmina de faces paralelas depende do comprimento de onda: n = A + B/λ², com A e B positivos. Um feixe com luz vermelha (λ = 6500·10<sup>−10</sup> m) e azul (λ = 4500·10<sup>−10</sup> m) incide obliquamente na lâmina. O que acontece com as duas cores?",
+"opts": [
+"o azul (n maior) se desvia mais dentro da lâmina; na saída, as duas cores saem paralelas ao feixe incidente, separadas lateralmente",
+"o vermelho se desvia mais e sai em outra direção",
+"as duas seguem juntas, pois a lâmina tem faces paralelas",
+"o azul é refletido e o vermelho atravessa"
+],
+"a": 0,
+"d": [
+[
+"Dispersão",
+"Se n depende de λ, cada cor refrata de um jeito. Pela lei de Snell (n<sub>1</sub>·sen θ<sub>1</sub> = n<sub>2</sub>·sen θ<sub>2</sub>), n maior → raio mais próximo da normal.",
+""
+],
+[
+"Lâmina de faces paralelas",
+"O raio que sai é paralelo ao que entrou, apenas deslocado lateralmente."
+]
+],
+"h": [
+"λ menor → n maior: o azul tem índice maior que o vermelho.",
+"Dentro da lâmina, o azul se aproxima mais da normal: as cores se separam.",
+"Na saída, cada uma volta ao ângulo de incidência: <b>saem paralelas entre si e ao feixe original</b>, separadas lateralmente."
+]
+},
+{
+"id": "1991-2-fis-15a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1991, 2ª fase, Física, questão 15(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "Um ponto P percorre uma circunferência em movimento circular uniforme com velocidade angular ω = 2π rad/s; sua projeção M sobre o eixo x executa um movimento harmônico simples. Qual a frequência do MHS de M?",
+"a": 1,
+"u": "Hz",
+"tol": 0.01,
+"d": [
+[
+"MCU e MHS",
+"A projeção de um MCU sobre um diâmetro é um MHS com a mesma frequência angular ω.",
+""
+],
+[
+"Frequência",
+"f = ω/(2π)."
+]
+],
+"h": [
+"O MHS de M tem a mesma ω de P: 2π rad/s.",
+"f = 2π/(2π).",
+"f = <b>1 Hz</b>."
+]
+},
+{
+"id": "1991-2-fis-15b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1991, 2ª fase, Física, questão 15(b)",
+"r": 1620,
+"tm": 120,
+"ctx": "Um ponto P faz movimento circular uniforme com ω = 2π rad/s numa circunferência de centro O; sua projeção M no eixo x faz um MHS entre A e A'. B e C são os pontos médios de OA e de OA'. Quanto tempo M leva para ir de B até C?",
+"opts": [
+"1/6 s",
+"1/4 s",
+"1/3 s",
+"1/12 s"
+],
+"a": 0,
+"d": [
+[
+"Projeção",
+"M fica em x = R·cos θ, sendo θ o ângulo de OP medido a partir de OA.",
+""
+],
+[
+"Ângulos notáveis",
+"cos 60° = 1/2; cos 120° = −1/2."
+],
+[
+"MCU",
+"Δt = Δθ/ω."
+]
+],
+"h": [
+"M em B (x = R/2): θ = 60°. M em C (x = −R/2): θ = 120°.",
+"P gira Δθ = 60° = π/3 rad.",
+"Δt = (π/3)/(2π) = <b>1/6 s</b>."
+]
+},
+{
+"id": "1991-2-fis-16a",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1991, 2ª fase, Física, questão 16(a)",
+"r": 1230,
+"tm": 90,
+"ctx": "Um solenoide ideal de 50 cm de comprimento e raio de 1,5 cm tem 2000 espiras e corrente de 3,0 A. O campo no interior é B = μ<sub>0</sub>·n·I, com n o número de espiras por unidade de comprimento e μ<sub>0</sub> = 4π·10<sup>−7</sup> N/A². Qual o valor de B, em tesla?",
+"a": 0.0151,
+"u": "T",
+"tol": 0.02,
+"d": [
+[
+"Espiras por metro",
+"n = N/L, com L em metros.",
+""
+]
+],
+"h": [
+"n = 2000/0,50 = 4000 espiras/m.",
+"B = 4π·10⁻⁷ × 4000 × 3,0 = 4,8π·10⁻³ T.",
+"B ≈ <b>1,5·10⁻² T</b>."
+]
+},
+{
+"id": "1991-2-fis-16b",
+"ano": 1991,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1991, 2ª fase, Física, questão 16(b)",
+"r": 1190,
+"tm": 45,
+"ctx": "Um elétron é lançado no interior de um solenoide, paralelamente ao seu eixo (e portanto paralelamente ao campo magnético). Qual a sua aceleração?",
+"opts": [
+"zero: a força magnética é nula quando v é paralela a B",
+"e·v·B/m, perpendicular ao eixo",
+"e·v·B/m, ao longo do eixo",
+"depende do sentido da corrente"
+],
+"a": 0,
+"d": [
+[
+"Força magnética",
+"F = q·v·B·sen θ, com θ o ângulo entre v e B.",
+""
+]
+],
+"h": [
+"v é paralela a B: θ = 0° e sen θ = 0.",
+"F = 0.",
+"Aceleração <b>nula</b>: o elétron segue em linha reta, com velocidade constante."
+]
+},
+{
+"id": "1991-2-qui-01a",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1991, 2ª fase, Química, questão 1(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Um balão meteorológico contém 100 mol de gás hélio. A 15 km de altitude, a pressão do gás é 100 mmHg e a temperatura, 77 °C. Qual o volume do balão nessas condições? (R = 62 L·mmHg/(K·mol))",
+"a": 21700,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Equação de Clapeyron",
+"p·V = n·R·T, com T em kelvin e R nas mesmas unidades de p e V.",
+""
+]
+],
+"h": [
+"T = 77 + 273 = 350 K.",
+"V = nRT/p = 100 × 62 × 350/100.",
+"V = <b>21 700 L</b>."
+]
+},
+{
+"id": "1991-2-qui-01b",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1991, 2ª fase, Química, questão 1(b)",
+"r": 1320,
+"tm": 60,
+"ctx": "Um balão com 100 mol de hélio (4 g/mol) ocupa 21 700 L a 100 mmHg e 77 °C. Qual a densidade do hélio no seu interior, em g/L?",
+"a": 0.0184,
+"u": "g/L",
+"tol": 0.02,
+"d": [
+[
+"Densidade",
+"d = m/V.",
+""
+],
+[
+"Massa",
+"m = n·M."
+]
+],
+"h": [
+"m = 100 × 4 = 400 g.",
+"d = 400/21 700.",
+"d ≈ <b>0,018 g/L</b> (1,84·10⁻² g/L)."
+]
+},
+{
+"id": "1991-2-qui-02",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1991, 2ª fase, Química, questão 2",
+"r": 1100,
+"tm": 60,
+"ctx": "Três frascos de vidro transparente, fechados, de formas e tamanhos iguais, contêm a mesma massa de líquidos diferentes: água (1,0 g/cm³), clorofórmio (1,4 g/cm³) e etanol (0,8 g/cm³). Os três são incolores e não enchem os frascos. Sem abrir os frascos, como identificá-los?",
+"opts": [
+"pelo nível do líquido: o mais alto é o etanol, o intermediário a água e o mais baixo o clorofórmio",
+"pelo nível: o mais alto é o clorofórmio, que é mais denso",
+"pesando os frascos",
+"pela cor dos líquidos"
+],
+"a": 0,
+"d": [
+[
+"Volume e densidade",
+"V = m/d: com a mesma massa, quem tem menor densidade ocupa mais volume.",
+""
+]
+],
+"h": [
+"Mesma massa: V = m/d.",
+"Etanol (0,8) ocupa o maior volume; clorofórmio (1,4), o menor.",
+"Frascos iguais: <b>nível mais alto = etanol, médio = água, mais baixo = clorofórmio</b>."
+]
+},
+{
+"id": "1991-2-qui-03",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1991, 2ª fase, Química, questão 3",
+"r": 1440,
+"tm": 90,
+"ctx": "Um indicador HInd (amarelo) ⇌ H<sup>+</sup> + Ind<sup>−</sup> (azul) fica amarelo abaixo de pH ≈ 6, verde entre cerca de 6,5 e 7,5 e azul acima de pH ≈ 8. Que cor ele apresenta em soluções aquosas de: (a) ácido acético; (b) amônia; (c) acetato de sódio; (d) cloreto de hidrogênio; (e) cloreto de sódio?",
+"opts": [
+"a amarelo; b azul; c azul; d amarelo; e verde",
+"a amarelo; b azul; c verde; d amarelo; e verde",
+"a azul; b amarelo; c amarelo; d azul; e verde",
+"a amarelo; b azul; c amarelo; d amarelo; e azul"
+],
+"a": 0,
+"d": [
+[
+"Hidrólise de sais",
+"Sal de ácido fraco e base forte (acetato de sódio) deixa a solução básica; sal de ácido forte e base forte (NaCl) dá solução neutra.",
+""
+],
+[
+"Ácidos e bases",
+"Ácido acético e HCl formam soluções ácidas; amônia, solução básica."
+]
+],
+"h": [
+"Ácido acético e HCl: pH < 7 → <b>amarelo</b>.",
+"Amônia e acetato de sódio (o acetato reage com a água formando OH⁻): pH > 8 → <b>azul</b>.",
+"Cloreto de sódio: neutro, pH ≈ 7 → <b>verde</b>."
+]
+},
+{
+"id": "1991-2-qui-04",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1991, 2ª fase, Química, questão 4",
+"r": 1190,
+"tm": 90,
+"ctx": "Uma solução saturada de nitrato de potássio, com 100 g de água, está a 70 °C. Resfriada a 40 °C, parte do sal precipita. Pelo gráfico, a solubilidade do KNO<sub>3</sub> é cerca de 140 g por 100 g de água a 70 °C e cerca de 64 g a 40 °C. Qual a massa de sal que precipitou?",
+"fig": "<svg viewBox='0 0 240 140' class='fg' role='img' aria-label='curva de solubilidade do nitrato de potássio, crescente de cerca de 32 g a 20 graus até cerca de 170 g a 80 graus'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='40,8 40,120 230,120'/><polyline points='40,100.8 70,92.4 100,81.6 130,68.4 160,54 190,36 220,18' stroke-width='2'/><g stroke-dasharray='3 3'><polyline points='40,81.6 100,81.6 100,120'/><polyline points='40,36 190,36 190,120'/></g><line x1='37' y1='96' x2='43' y2='96'/><line x1='37' y1='72' x2='43' y2='72'/><line x1='37' y1='48' x2='43' y2='48'/><line x1='37' y1='24' x2='43' y2='24'/></g><g fill='currentColor' font-size='11'><text x='18' y='100'>40</text><text x='18' y='76'>80</text><text x='12' y='52'>120</text><text x='12' y='28'>160</text><text x='34' y='133'>20</text><text x='94' y='133'>40</text><text x='154' y='133'>60</text><text x='184' y='133'>70</text><text x='214' y='133'>80</text><text x='46' y='12'>g KNO₃/100 g água</text><text x='196' y='112'>T (°C)</text></g></svg>",
+"a": 76,
+"u": "g",
+"tol": 0.03,
+"d": [
+[
+"Curva de solubilidade",
+"Cada ponto da curva é a massa máxima de soluto que se dissolve em 100 g de água naquela temperatura (solução saturada).",
+""
+],
+[
+"Precipitação no resfriamento",
+"Massa precipitada = massa dissolvida antes − limite de solubilidade na nova temperatura."
+]
+],
+"h": [
+"A 70 °C, a solução saturada tem 140 g de KNO₃ em 100 g de água.",
+"A 40 °C, só cabem 64 g.",
+"Precipitam 140 − 64 = <b>76 g</b>; ficam 64 g dissolvidos."
+]
+},
+{
+"id": "1991-2-qui-05",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1991, 2ª fase, Química, questão 5",
+"r": 1100,
+"tm": 45,
+"ctx": "Classifique o comportamento da água, segundo o conceito ácido-base de Brønsted, em: (a) H<sub>2</sub>O + HCl → H<sub>3</sub>O<sup>+</sup> + Cl<sup>−</sup>; (b) H<sub>2</sub>O + NH<sub>3</sub> → NH<sub>4</sub><sup>+</sup> + OH<sup>−</sup>.",
+"opts": [
+"(a) base; (b) ácido",
+"(a) ácido; (b) base",
+"base nas duas",
+"ácido nas duas"
+],
+"a": 0,
+"d": [
+[
+"Ácido e base de Brønsted",
+"Ácido doa H⁺ (próton); base recebe H⁺.",
+""
+]
+],
+"h": [
+"(a) A água vira H₃O⁺: recebeu H⁺ do HCl → base.",
+"(b) A água vira OH⁻: doou H⁺ ao NH₃ → ácido.",
+"<b>(a) base; (b) ácido</b>: a água é anfótera."
+]
+},
+{
+"id": "1991-2-qui-06a",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1991, 2ª fase, Química, questão 6(a)",
+"r": 1280,
+"tm": 90,
+"ctx": "Em alguns fogos de artifício, alumínio em pó é queimado: 2 Al(s) + 3/2 O<sub>2</sub>(g) → Al<sub>2</sub>O<sub>3</sub>(s), ΔH = −1653 kJ/mol. Qual o volume de O<sub>2</sub>, nas CNTP, necessário para reagir com 1,0 g do metal? (Volume molar = 22,4 L; Al = 27)",
+"a": 0.622,
+"u": "L",
+"tol": 0.02,
+"d": [
+[
+"Proporção estequiométrica",
+"Use os coeficientes: 2 mol de Al reagem com 3/2 mol de O₂.",
+""
+],
+[
+"Volume molar",
+"Nas CNTP, 1 mol de gás ocupa 22,4 L."
+]
+],
+"h": [
+"2 mol de Al = 54 g reagem com 1,5 mol de O₂ = 1,5 × 22,4 = 33,6 L.",
+"Para 1,0 g: 33,6/54.",
+"V ≈ <b>0,62 L</b>."
+]
+},
+{
+"id": "1991-2-qui-06b",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1991, 2ª fase, Química, questão 6(b)",
+"r": 1230,
+"tm": 60,
+"ctx": "2 Al(s) + 3/2 O<sub>2</sub>(g) → Al<sub>2</sub>O<sub>3</sub>(s), ΔH = −1653 kJ/mol (por mol da reação como escrita). Quanto calor, à pressão constante, se desprende na reação de 1,0 g de alumínio? (Al = 27)",
+"a": 30.6,
+"u": "kJ",
+"tol": 0.02,
+"d": [
+[
+"ΔH da equação",
+"O ΔH vale para as quantidades escritas na equação: aqui, 2 mol de Al.",
+""
+],
+[
+"Proporção",
+"O calor é proporcional à quantidade que reage."
+]
+],
+"h": [
+"1653 kJ para 2 mol de Al = 54 g.",
+"Para 1,0 g: 1653/54.",
+"≈ <b>30,6 kJ</b>."
+]
+},
+{
+"id": "1991-2-qui-07",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 1991, 2ª fase, Química, questão 7",
+"r": 1280,
+"tm": 60,
+"ctx": "Um metal X reage com cloro dando XCl; outro metal, Y, dá YCl<sub>2</sub>. As massas atômicas de X e Y são próximas. Em que grupos da tabela periódica estão X e Y, e que par de elementos poderia ser esse?",
+"opts": [
+"X no grupo 1 e Y no grupo 2; por exemplo, K (39,1) e Ca (40,1)",
+"X no grupo 2 e Y no grupo 1; por exemplo, Mg e Na",
+"X no grupo 17 e Y no grupo 16; por exemplo, Cl e S",
+"os dois no grupo 1; por exemplo, Na e K"
+],
+"a": 0,
+"d": [
+[
+"Carga do cátion e grupo",
+"Metais do grupo 1 formam cátions 1+ (XCl); os do grupo 2, cátions 2+ (YCl₂).",
+""
+],
+[
+"Massas próximas",
+"Vizinhos no mesmo período (grupos 1 e 2) têm massas atômicas próximas."
+]
+],
+"h": [
+"XCl: X⁺ → grupo 1 (metais alcalinos).",
+"YCl₂: Y²⁺ → grupo 2 (alcalino-terrosos).",
+"Com massas próximas: <b>K (39,1) e Ca (40,1)</b>, ou Na (23,0) e Mg (24,3)."
+]
+},
+{
+"id": "1991-2-qui-08",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1991, 2ª fase, Química, questão 8",
+"r": 1360,
+"tm": 90,
+"ctx": "Um frasco fechado contém NO<sub>2</sub> (castanho) e N<sub>2</sub>O<sub>4</sub> (incolor) em equilíbrio: 2 NO<sub>2</sub>(g) ⇌ N<sub>2</sub>O<sub>4</sub>(g), ΔH < 0. Levado a um segundo ambiente, a cor castanha diminuiu. Qual a expressão de Kp em pressões parciais, e o que se pode dizer da temperatura do segundo ambiente?",
+"opts": [
+"Kp = p(N₂O₄)/p(NO₂)²; o segundo ambiente é mais frio",
+"Kp = p(NO₂)²/p(N₂O₄); o segundo ambiente é mais quente",
+"Kp = p(N₂O₄)/p(NO₂)²; o segundo ambiente é mais quente",
+"Kp = 2·p(NO₂)/p(N₂O₄); a temperatura não muda"
+],
+"a": 0,
+"d": [
+[
+"Constante em pressões parciais",
+"Kp = produto das pressões dos produtos ÷ produto das pressões dos reagentes, cada uma elevada ao seu coeficiente.",
+""
+],
+[
+"Temperatura e equilíbrio",
+"Esfriar favorece o sentido exotérmico; esquentar favorece o endotérmico."
+]
+],
+"h": [
+"Kp = p(N₂O₄)/p(NO₂)².",
+"A cor castanha diminuiu: menos NO₂, o equilíbrio foi para a direita, o sentido exotérmico.",
+"Isso é favorecido por resfriamento: o segundo ambiente é <b>mais frio</b>."
+]
+},
+{
+"id": "1991-2-qui-09",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1991, 2ª fase, Química, questão 9",
+"r": 1190,
+"tm": 60,
+"ctx": "Um medicamento contém 90 mg de ácido acetilsalicílico (C<sub>9</sub>H<sub>8</sub>O<sub>4</sub>) por comprimido. Quantas moléculas dessa substância há em cada comprimido? (C = 12, O = 16, H = 1; N<sub>A</sub> = 6,0·10<sup>23</sup> mol<sup>−1</sup>)",
+"a": 3e+20,
+"u": "moléculas",
+"tol": 0.02,
+"d": [
+[
+"Massa molar",
+"Some as massas dos átomos da fórmula.",
+""
+],
+[
+"Número de moléculas",
+"N = (m/M)·N<sub>A</sub>."
+]
+],
+"h": [
+"M = 9·12 + 8·1 + 4·16 = 180 g/mol.",
+"n = 0,090 g/180 = 5,0·10⁻⁴ mol.",
+"N = 5,0·10⁻⁴ × 6,0·10²³ = <b>3,0·10²⁰ moléculas</b>."
+]
+},
+{
+"id": "1991-2-qui-10",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1991, 2ª fase, Química, questão 10",
+"r": 1100,
+"tm": 60,
+"ctx": "Um pó branco pode ser NaCl, Na<sub>2</sub>CO<sub>3</sub> ou CaCO<sub>3</sub>. Sabe-se que: carbonatos com ácido clorídrico produzem efervescência; os carbonatos são insolúveis, exceto os de metais alcalinos e o de amônio; os cloretos são solúveis, exceto os de chumbo, prata e mercúrio. Só com recipientes de vidro, água e ácido clorídrico, como identificar o sal?",
+"opts": [
+"em água: se não dissolve, é CaCO₃; se dissolve, junta-se HCl: efervescência indica Na₂CO₃, e nenhuma indica NaCl",
+"em água: se dissolve, é CaCO₃",
+"só com HCl: efervescência indica NaCl",
+"não é possível sem aquecer"
+],
+"a": 0,
+"d": [
+[
+"Solubilidade",
+"Sais de metais alcalinos (Na⁺) são solúveis; o CaCO₃ não.",
+""
+],
+[
+"Carbonato + ácido",
+"CO₃²⁻ + 2 H⁺ → CO₂↑ + H₂O: bolhas (efervescência)."
+]
+],
+"h": [
+"Ponha o pó em água: o CaCO₃ não dissolve; NaCl e Na₂CO₃ dissolvem.",
+"Se dissolveu, junte HCl: o carbonato faz efervescência (CO₂).",
+"Sem efervescência: <b>NaCl</b>; com efervescência: <b>Na₂CO₃</b>; insolúvel em água: <b>CaCO₃</b>."
+]
+},
+{
+"id": "1991-2-qui-11",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1991, 2ª fase, Química, questão 11",
+"r": 1100,
+"tm": 45,
+"ctx": "Na purificação eletrolítica do cobre, os íons cobre(II) são reduzidos no cátodo: Cu<sup>2+</sup>(aq) + 2e<sup>−</sup> → Cu(s). Qual a massa de cobre obtida por mol de elétrons que atravessa a cuba? (Cu = 64)",
+"a": 32,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Estequiometria da eletrólise",
+"Os coeficientes da semirreação relacionam mols de elétrons e mols de produto.",
+""
+]
+],
+"h": [
+"2 mol de e⁻ formam 1 mol de Cu (64 g).",
+"1 mol de e⁻ forma 0,5 mol de Cu.",
+"Massa: <b>32 g</b>."
+]
+},
+{
+"id": "1991-2-qui-12",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1991, 2ª fase, Química, questão 12(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "A glicerina (propanotriol, CH<sub>2</sub>OH–CHOH–CH<sub>2</sub>OH) é usada como umectante em panetones: retém a umidade para que a massa não resseque. Que tipo de interação ela faz com a água?",
+"opts": [
+"ligações de hidrogênio entre os –OH da glicerina e as moléculas de água",
+"ligações iônicas",
+"ligações covalentes, formando uma nova substância",
+"apenas forças de dispersão de London"
+],
+"a": 0,
+"d": [
+[
+"Ligação de hidrogênio",
+"Ocorre entre um H ligado a O, N ou F e um par de elétrons de outro O, N ou F.",
+""
+]
+],
+"h": [
+"A glicerina tem três grupos –OH.",
+"Cada –OH pode doar e receber ligações de hidrogênio com a água.",
+"<b>Ligações de hidrogênio</b>. Ao esquentar uma fatia ressecada, a água retida se movimenta e redistribui, e a fatia amolece."
+]
+},
+{
+"id": "1991-2-qui-13",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1991, 2ª fase, Química, questão 13",
+"r": 1100,
+"tm": 45,
+"ctx": "O fenol é um derivado do benzeno (C<sub>6</sub>H<sub>6</sub>) em que um dos hidrogênios foi substituído por um grupo OH. Quais as fórmulas do pentaclorofenol e do hexaclorobenzeno?",
+"opts": [
+"C₆Cl₅OH e C₆Cl₆",
+"C₆H₅Cl₅O e C₆H₆Cl₆",
+"C₅Cl₅OH e C₆Cl₆",
+"C₆Cl₅OH e C₆H₆Cl₆"
+],
+"a": 0,
+"d": [
+[
+"Substituição no benzeno",
+"O benzeno tem 6 H; cada substituinte ocupa o lugar de um H.",
+""
+],
+[
+"Prefixos",
+"penta = 5; hexa = 6."
+]
+],
+"h": [
+"Fenol: C₆H₅OH (5 H e um OH no anel).",
+"Pentaclorofenol: os 5 H restantes trocados por Cl → C₆Cl₅OH.",
+"Hexaclorobenzeno: os 6 H trocados por Cl → <b>C₆Cl₆</b>."
+]
+},
+{
+"id": "1991-2-qui-14",
+"ano": 1991,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1991, 2ª fase, Química, questão 14",
+"r": 1400,
+"tm": 90,
+"ctx": "Na reação I, que ocorre em solução, há desprendimento de O<sub>2</sub>; a reação II, nas mesmas condições, consome O<sub>2</sub>. O gráfico mostra o volume de O<sub>2</sub> de cada uma ao longo do tempo: nas duas primeiras horas, a curva da reação I vai de 5 a cerca de 1,6 unidades e a da reação II, de 0 a cerca de 1,6 unidades. Qual reação tem velocidade maior nesse intervalo?",
+"fig": "<svg viewBox='0 0 300 135' class='fg' role='img' aria-label='gráfico volume de O2 por tempo: curva da reação I cai de 5 para cerca de 1,6 em 2 h e se estabiliza perto de 0,8; curva da reação II sobe de 0 para cerca de 1,6 em 2 h e chega perto de 5 em 10 h'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='40,8 40,115 250,115'/><path d='M40,30 C55,62 70,82 80,88 S120,100 160,101 L240,100.5'/><path d='M40,115 L60,101.4 L80,87.8 Q100,74 120,64 Q140,52 160,45.3 Q190,36 240,31'/><line x1='37' y1='98' x2='43' y2='98'/><line x1='37' y1='81' x2='43' y2='81'/><line x1='37' y1='64' x2='43' y2='64'/><line x1='37' y1='47' x2='43' y2='47'/><line x1='37' y1='30' x2='43' y2='30'/><line x1='80' y1='112' x2='80' y2='118'/><line x1='120' y1='112' x2='120' y2='118'/><line x1='160' y1='112' x2='160' y2='118'/><line x1='200' y1='112' x2='200' y2='118'/><line x1='240' y1='112' x2='240' y2='118'/></g><g fill='currentColor' font-size='11'><text x='28' y='102'>1</text><text x='28' y='68'>3</text><text x='28' y='34'>5</text><text x='77' y='129'>2</text><text x='117' y='129'>4</text><text x='157' y='129'>6</text><text x='197' y='129'>8</text><text x='234' y='129'>10</text><text x='44' y='12'>volume de O₂</text><text x='246' y='104'>reação I</text><text x='246' y='34'>reação II</text><text x='252' y='128'>t (h)</text></g></svg>",
+"opts": [
+"a reação I: variação de cerca de 3,4 unidades em 2 h, contra 1,6 da II",
+"a reação II, porque sua curva sobe",
+"as duas são iguais, pois as curvas se cruzam em 2 h",
+"não dá para comparar, pois uma produz e a outra consome O₂"
+],
+"a": 0,
+"d": [
+[
+"Velocidade média",
+"v = |variação da quantidade| ÷ tempo. O sinal diz se algo é formado ou consumido; a rapidez é o módulo.",
+""
+]
+],
+"h": [
+"Reação I: |1,6 − 5| = 3,4 unidades em 2 h → 1,7 por hora.",
+"Reação II: 1,6 − 0 = 1,6 unidades em 2 h → 0,8 por hora.",
+"A <b>reação I</b> é mais rápida nas duas primeiras horas."
+]
+}
+]

@@ -1,0 +1,2355 @@
+[
+{
+"id": "2016-1-01",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2016, 1ª fase, questão 1",
+"r": 990,
+"tm": 45,
+"ctx": "Drones são veículos voadores não tripulados, controlados remotamente e guiados por GPS. Uma de suas potenciais aplicações é reduzir o tempo da prestação de primeiros socorros, levando pequenos equipamentos e instruções ao local do socorro, para que qualquer pessoa administre os primeiros cuidados até a chegada de uma ambulância. Considere um caso em que o drone ambulância se deslocou 9 km em 5 minutos. Nesse caso, o módulo de sua velocidade média é de aproximadamente",
+"opts": [
+"30 m/s.",
+"1,4 m/s.",
+"45 m/s.",
+"140 m/s."
+],
+"a": 0,
+"d": [
+[
+"Velocidade média",
+"v = Δs/Δt, com distância e tempo nas mesmas unidades do SI (metros e segundos).",
+"Ex.: 6 km em 4 min = 6000 m/240 s = 25 m/s."
+]
+],
+"h": [
+"Δs = 9 km = 9000 m; Δt = 5 min = 300 s.",
+"v = 9000/300.",
+"v = <b>30 m/s</b>."
+]
+},
+{
+"id": "2016-1-02",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2016, 1ª fase, questão 2",
+"r": 1280,
+"tm": 75,
+"ctx": "A demanda por trens de alta velocidade tem crescido em todo o mundo. Uma preocupação importante no projeto desses trens é o conforto dos passageiros durante a aceleração. Sendo assim, considere que, em uma viagem de trem de alta velocidade, a aceleração experimentada pelos passageiros foi limitada a a<sub>max</sub> = 0,09g, onde g = 10 m/s² é a aceleração da gravidade. Se o trem acelera a partir do repouso com aceleração constante igual a a<sub>max</sub>, a distância mínima percorrida pelo trem para atingir uma velocidade de 1080 km/h corresponde a",
+"opts": [
+"50 km.",
+"10 km.",
+"20 km.",
+"100 km."
+],
+"a": 0,
+"d": [
+[
+"Equação de Torricelli",
+"Com aceleração constante a, partindo do repouso: v² = 2·a·d.",
+"Ex.: a = 2 m/s² até 20 m/s ⟹ d = 400/4 = 100 m."
+],
+[
+"Unidades",
+"km/h ÷ 3,6 = m/s.",
+""
+]
+],
+"h": [
+"a = 0,09 × 10 = 0,9 m/s²; v = 1080/3,6 = 300 m/s.",
+"d = v²/(2a) = 90.000/1,8 = 50.000 m.",
+"d = <b>50 km</b>."
+]
+},
+{
+"id": "2016-1-03",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2016, 1ª fase, questão 3",
+"r": 1190,
+"tm": 60,
+"ctx": "Um isolamento térmico eficiente é um constante desafio a ser superado para que o homem possa viver em condições extremas de temperatura. Para isso, o entendimento completo dos mecanismos de troca de calor é imprescindível. Em cada uma das situações descritas a seguir, você deve reconhecer o processo de troca de calor envolvido.<br>I. As prateleiras de uma geladeira doméstica são grades vazadas, para facilitar fluxo de energia térmica até o congelador por [...].<br>II. O único processo de troca de calor que pode ocorrer no vácuo é por [...].<br>III. Em uma garrafa térmica, é mantido vácuo entre as paredes duplas de vidro para evitar que o calor saia ou entre por [...].<br>Na ordem, os processos de troca de calor utilizados para preencher as lacunas corretamente são:",
+"opts": [
+"convecção, radiação e condução.",
+"condução, convecção e radiação.",
+"condução, radiação e convecção.",
+"convecção, condução e radiação."
+],
+"a": 0,
+"d": [
+[
+"Processos de troca de calor",
+"Condução: o calor passa de partícula a partícula através de um meio material. Convecção: o próprio fluido (ar, água) se move e leva o calor; o fluido quente sobe e o frio desce. Radiação: ondas eletromagnéticas, que atravessam até o vácuo.",
+""
+]
+],
+"h": [
+"I: as grades vazadas deixam o ar circular (o ar frio desce do congelador e o quente sobe): convecção.",
+"II: no vácuo não há matéria, então só a radiação transmite calor.",
+"III: o vácuo entre as paredes impede a passagem de calor por condução (não há matéria para conduzir): <b>convecção, radiação e condução</b>."
+]
+},
+{
+"id": "2016-1-04",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2016, 1ª fase, questão 4",
+"r": 1360,
+"tm": 75,
+"ctx": "Músculos artificiais feitos de nanotubos de carbono embebidos em cera de parafina podem suportar até duzentas vezes mais peso que um músculo natural do mesmo tamanho. Considere uma fibra de músculo artificial de 1 mm de comprimento, suspensa verticalmente por uma de suas extremidades e com uma massa de 50 gramas pendurada, em repouso, em sua outra extremidade. O trabalho realizado pela fibra sobre a massa, ao se contrair 10%, erguendo a massa até uma nova posição de repouso, é (se necessário, utilize g = 10 m/s²)",
+"opts": [
+"5 × 10⁻⁵ J.",
+"5 × 10⁻³ J.",
+"5 × 10⁻⁴ J.",
+"5 × 10⁻⁶ J."
+],
+"a": 0,
+"d": [
+[
+"Trabalho para erguer um corpo",
+"Erguendo um corpo de uma posição de repouso a outra, o trabalho da força que o ergue é W = m·g·h, em que h é a altura subida.",
+"Ex.: erguer 2 kg por 0,5 m: W = 2 × 10 × 0,5 = 10 J."
+],
+[
+"Porcentagem de um comprimento",
+"Contrair 10% significa encurtar 0,1 do comprimento original.",
+""
+]
+],
+"h": [
+"A fibra de 1 mm encurta 10%: a massa sobe h = 0,1 mm = 1 × 10⁻⁴ m.",
+"m = 50 g = 0,05 kg ⟹ peso = 0,5 N.",
+"W = 0,5 × 1 × 10⁻⁴ = <b>5 × 10⁻⁵ J</b>."
+]
+},
+{
+"id": "2016-1-05",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2016, 1ª fase, questão 5",
+"r": 1100,
+"tm": 60,
+"ctx": "O Teatro de Luz Negra, típico da República Tcheca, é um tipo de representação cênica caracterizada pelo uso do cenário escuro com uma iluminação estratégica dos objetos exibidos. No entanto, o termo Luz Negra é fisicamente incoerente, pois a coloração negra é justamente a ausência de luz. A luz branca é a composição de luz com vários comprimentos de onda e a cor de um corpo é dada pelo comprimento de onda da luz que ele predominantemente reflete. Assim, um quadro que apresente as cores azul e branca quando iluminado pela luz solar, ao ser iluminado por uma luz monocromática de comprimento de onda correspondente à cor amarela, apresentará, respectivamente, uma coloração",
+"opts": [
+"negra e amarela.",
+"amarela e branca.",
+"azul e negra.",
+"totalmente negra."
+],
+"a": 0,
+"d": [
+[
+"Cor de um objeto",
+"Um objeto colorido reflete principalmente a luz da sua cor e absorve as demais. Um objeto branco reflete todas as cores que recebe. Se a luz incidente não contém a cor que o objeto reflete, ele parece negro.",
+"Ex.: sob luz vermelha, uma folha verde parece negra e um papel branco parece vermelho."
+]
+],
+"h": [
+"Com luz amarela monocromática, só há amarelo para ser refletido.",
+"A parte azul só reflete azul ⟹ não reflete nada: fica negra. A parte branca reflete tudo ⟹ reflete o amarelo: fica amarela.",
+"Resposta: <b>negra e amarela</b>."
+]
+},
+{
+"id": "2016-1-06",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2016, 1ª fase, questão 6",
+"r": 1320,
+"tm": 90,
+"ctx": "Tempestades solares são causadas por um fluxo intenso de partículas de altas energias ejetadas pelo Sol durante erupções solares. Esses jatos de partículas podem transportar bilhões de toneladas de gás eletrizado em altas velocidades, que podem trazer riscos de danos aos satélites em torno da Terra. Considere que, em uma erupção solar em particular, um conjunto de partículas de massa total m<sub>p</sub> = 5 kg, deslocando-se com velocidade de módulo v<sub>p</sub> = 2 × 10⁵ m/s, choca-se com um satélite de massa M<sub>s</sub> = 95 kg que se desloca com velocidade de módulo igual a V<sub>s</sub> = 4 × 10³ m/s na mesma direção e em sentido contrário ao das partículas. Se a massa de partículas adere ao satélite após a colisão, o módulo da velocidade final do conjunto será de",
+"opts": [
+"6.200 m/s.",
+"102.000 m/s.",
+"14.000 m/s.",
+"3.900 m/s."
+],
+"a": 0,
+"d": [
+[
+"Conservação da quantidade de movimento",
+"Numa colisão, a quantidade de movimento total (Q = m·v) antes é igual à de depois. Velocidades em sentidos opostos entram com sinais opostos.",
+""
+],
+[
+"Corpos que ficam unidos",
+"Depois do choque há uma só velocidade: (m₁ + m₂)·v = m₁v₁ + m₂v₂.",
+"Ex.: 1 kg a 10 m/s gruda em 4 kg parado ⟹ v = 10/5 = 2 m/s."
+]
+],
+"h": [
+"Com o sentido das partículas positivo: Q = 5 × 2 × 10⁵ − 95 × 4 × 10³ = 1,0 × 10⁶ − 3,8 × 10⁵ = 6,2 × 10⁵ kg·m/s.",
+"Massa do conjunto: 5 + 95 = 100 kg.",
+"v = 6,2 × 10⁵/100 = <b>6.200 m/s</b>."
+]
+},
+{
+"id": "2016-1-07",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2016, 1ª fase, questão 7",
+"r": 1490,
+"tm": 120,
+"ctx": "Muitos dispositivos de aquecimento usados em nosso cotidiano usam resistores elétricos como fonte de calor. Um exemplo é o chuveiro elétrico, em que é possível escolher entre diferentes opções de potência usadas no aquecimento da água, por exemplo, morno (M), quente (Q) e muito quente (MQ). Considere um chuveiro que usa a associação de três resistores, iguais entre si, para oferecer essas três opções de temperatura. A escolha é feita por uma chave que liga a rede elétrica entre o ponto indicado pela letra N e um outro ponto indicado por M, Q ou MQ, de acordo com a opção de temperatura desejada. O esquema que representa corretamente o circuito equivalente do chuveiro é o",
+"fig": "<svg viewBox='0 0 160 136' class='fg' role='img' aria-label='quatro circuitos numerados, cada um com três resistores iguais. Circuito 1: em série, na ordem N, resistor, MQ, resistor, Q, resistor, M. Circuito 2: em série, na ordem N, resistor, M, resistor, Q, resistor, MQ. Circuito 3: N, resistor, ponto MQ; de MQ saem dois resistores, um até Q e outro até M. Circuito 4: MQ, resistor, ponto N; de N saem dois resistores, um até Q e outro até M'><g fill='none' stroke='currentColor' stroke-width='0.8'><polyline points='20.0,16.0 24.0,16.0 27.0,19.0 33.0,13.0 39.0,19.0 45.0,13.0 51.0,19.0 57.0,13.0 60.0,16.0 64.0,16.0'/><polyline points='64.0,16.0 68.0,16.0 71.0,19.0 77.0,13.0 83.0,19.0 89.0,13.0 95.0,19.0 101.0,13.0 104.0,16.0 108.0,16.0'/><polyline points='108.0,16.0 112.0,16.0 115.0,19.0 121.0,13.0 127.0,19.0 133.0,13.0 139.0,19.0 145.0,13.0 148.0,16.0 152.0,16.0'/><polyline points='20.0,44.0 24.0,44.0 27.0,47.0 33.0,41.0 39.0,47.0 45.0,41.0 51.0,47.0 57.0,41.0 60.0,44.0 64.0,44.0'/><polyline points='64.0,44.0 68.0,44.0 71.0,47.0 77.0,41.0 83.0,47.0 89.0,41.0 95.0,47.0 101.0,41.0 104.0,44.0 108.0,44.0'/><polyline points='108.0,44.0 112.0,44.0 115.0,47.0 121.0,41.0 127.0,47.0 133.0,41.0 139.0,47.0 145.0,41.0 148.0,44.0 152.0,44.0'/><polyline points='16.0,98.0 20.0,98.0 21.8,101.0 25.5,95.0 29.2,101.0 32.8,95.0 36.5,101.0 40.2,95.0 42.0,98.0 46.0,98.0'/><polyline points='46.0,98.0 48.7,95.1 52.5,95.4 51.2,88.0 58.7,88.7 57.3,81.3 64.8,82.0 63.5,74.6 67.3,74.9 70.0,72.0'/><polyline points='46.0,98.0 48.7,100.9 48.1,104.7 55.6,103.9 54.2,111.4 61.8,110.6 60.4,118.1 67.9,117.3 67.3,121.1 70.0,124.0'/><polyline points='90.0,98.0 94.0,98.0 95.8,101.0 99.5,95.0 103.2,101.0 106.8,95.0 110.5,101.0 114.2,95.0 116.0,98.0 120.0,98.0'/><polyline points='120.0,98.0 122.7,95.1 126.5,95.4 125.2,88.0 132.7,88.7 131.3,81.3 138.8,82.0 137.5,74.6 141.3,74.9 144.0,72.0'/><polyline points='120.0,98.0 122.7,100.9 122.1,104.7 129.6,103.9 128.2,111.4 135.8,110.6 134.4,118.1 141.9,117.3 141.3,121.1 144.0,124.0'/></g><g fill='currentColor'><circle cx='20.0' cy='16.0' r='1.7'/><circle cx='64.0' cy='16.0' r='1.7'/><circle cx='108.0' cy='16.0' r='1.7'/><circle cx='152.0' cy='16.0' r='1.7'/><circle cx='20.0' cy='44.0' r='1.7'/><circle cx='64.0' cy='44.0' r='1.7'/><circle cx='108.0' cy='44.0' r='1.7'/><circle cx='152.0' cy='44.0' r='1.7'/><circle cx='16.0' cy='98.0' r='1.7'/><circle cx='46.0' cy='98.0' r='1.7'/><circle cx='70.0' cy='72.0' r='1.7'/><circle cx='70.0' cy='124.0' r='1.7'/><circle cx='90.0' cy='98.0' r='1.7'/><circle cx='120.0' cy='98.0' r='1.7'/><circle cx='144.0' cy='72.0' r='1.7'/><circle cx='144.0' cy='124.0' r='1.7'/><text x='20.0' y='11.5' text-anchor='middle' font-size='6'>N</text><text x='64.0' y='11.5' text-anchor='middle' font-size='6'>MQ</text><text x='108.0' y='11.5' text-anchor='middle' font-size='6'>Q</text><text x='152.0' y='11.5' text-anchor='middle' font-size='6'>M</text><text x='20.0' y='39.5' text-anchor='middle' font-size='6'>N</text><text x='64.0' y='39.5' text-anchor='middle' font-size='6'>M</text><text x='108.0' y='39.5' text-anchor='middle' font-size='6'>Q</text><text x='152.0' y='39.5' text-anchor='middle' font-size='6'>MQ</text><text x='16.0' y='93.5' text-anchor='middle' font-size='6'>N</text><text x='45.0' y='94.0' text-anchor='end' font-size='6'>MQ</text><text x='70.0' y='67.5' text-anchor='middle' font-size='6'>Q</text><text x='70.0' y='132.0' text-anchor='middle' font-size='6'>M</text><text x='90.0' y='93.5' text-anchor='middle' font-size='6'>MQ</text><text x='119.0' y='94.0' text-anchor='end' font-size='6'>N</text><text x='144.0' y='67.5' text-anchor='middle' font-size='6'>Q</text><text x='144.0' y='132.0' text-anchor='middle' font-size='6'>M</text><text x='2.0' y='18.5' text-anchor='start' font-size='7'><tspan font-weight='bold'>1</tspan></text><text x='2.0' y='46.5' text-anchor='start' font-size='7'><tspan font-weight='bold'>2</tspan></text><text x='2.0' y='75.0' text-anchor='start' font-size='7'><tspan font-weight='bold'>3</tspan></text><text x='82.0' y='75.0' text-anchor='start' font-size='7'><tspan font-weight='bold'>4</tspan></text></g></svg>",
+"opts": [
+"circuito 1.",
+"circuito 2.",
+"circuito 3.",
+"circuito 4."
+],
+"a": 0,
+"d": [
+[
+"Potência com tensão fixa",
+"A rede tem tensão U fixa, então P = U²/R: quanto menor a resistência entre os pontos ligados, maior a potência (água mais quente).",
+""
+],
+[
+"Resistores em série",
+"Entre dois pontos de uma ligação em série, a resistência equivalente é a soma dos resistores que estão entre eles.",
+""
+]
+],
+"h": [
+"As três opções precisam de três resistências diferentes: MQ com a menor, Q com a intermediária e M com a maior.",
+"No circuito 1 (N–R–MQ–R–Q–R–M): entre N e MQ há R; entre N e Q, 2R; entre N e M, 3R. É a ordem certa.",
+"No 2, MQ teria 3R (a menor potência); no 3, Q e M teriam 2R cada; no 4, as três opções teriam R. Resposta: <b>circuito 1</b>."
+]
+},
+{
+"id": "2016-1-08",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2016, 1ª fase, questão 8",
+"r": 1390,
+"tm": 90,
+"ctx": "Um osciloscópio é um instrumento muito útil no estudo da variação temporal dos sinais elétricos em circuitos. No caso de um circuito de corrente alternada, a diferença de potencial (U) e a corrente do circuito (i) variam em função do tempo. Considere um circuito com dois resistores R₁ e R₂ em série, alimentados por uma fonte de tensão alternada. A diferença de potencial nos terminais de cada resistor observada na tela do osciloscópio é representada pelo gráfico. Analisando o gráfico, pode-se afirmar que a amplitude e a frequência da onda que representa a diferença de potencial nos terminais do resistor de maior resistência são, respectivamente, iguais a",
+"fig": "<svg viewBox='0 0 160 124' class='fg' role='img' aria-label='tela de osciloscópio: tensão U, em volts, de −10 a 10, contra o tempo t, em milissegundos, de 0 a 4. Duas senoides em fase, que começam em zero em t = 0: a tracejada, R1, oscila entre −8 V e 8 V; a contínua, R2, entre −4 V e 4 V. Os máximos das duas ocorrem em cerca de 0,6 ms e 3,1 ms, e elas voltam a zero em 1,25 ms e 2,5 ms'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='24.0' y1='16.0' x2='24.0' y2='108.0'/><line x1='40.0' y1='16.0' x2='40.0' y2='108.0'/><line x1='56.0' y1='16.0' x2='56.0' y2='108.0'/><line x1='72.0' y1='16.0' x2='72.0' y2='108.0'/><line x1='88.0' y1='16.0' x2='88.0' y2='108.0'/><line x1='104.0' y1='16.0' x2='104.0' y2='108.0'/><line x1='120.0' y1='16.0' x2='120.0' y2='108.0'/><line x1='136.0' y1='16.0' x2='136.0' y2='108.0'/><line x1='152.0' y1='16.0' x2='152.0' y2='108.0'/><line x1='24' y1='108.0' x2='152' y2='108.0'/><line x1='24' y1='98.8' x2='152' y2='98.8'/><line x1='24' y1='89.6' x2='152' y2='89.6'/><line x1='24' y1='80.4' x2='152' y2='80.4'/><line x1='24' y1='71.2' x2='152' y2='71.2'/><line x1='24' y1='62.0' x2='152' y2='62.0'/><line x1='24' y1='52.8' x2='152' y2='52.8'/><line x1='24' y1='43.6' x2='152' y2='43.6'/><line x1='24' y1='34.4' x2='152' y2='34.4'/><line x1='24' y1='25.2' x2='152' y2='25.2'/><line x1='24' y1='16.0' x2='152' y2='16.0'/></g><rect x='24' y='16.0' width='128' height='92.0' stroke-width='0.7'/><g stroke-width='0.6'><line x1='24.0' y1='62.0' x2='152.0' y2='62.0'/></g><polyline points='24.0,62.0 24.3,61.1 24.6,60.2 25.0,59.2 25.3,58.3 25.6,57.4 25.9,56.5 26.2,55.6 26.6,54.7 26.9,53.7 27.2,52.8 27.5,52.0 27.8,51.1 28.2,50.2 28.5,49.3 28.8,48.5 29.1,47.6 29.4,46.8 29.8,45.9 30.1,45.1 30.4,44.3 30.7,43.5 31.0,42.7 31.4,41.9 31.7,41.1 32.0,40.4 32.3,39.6 32.6,38.9 33.0,38.2 33.3,37.5 33.6,36.8 33.9,36.1 34.2,35.5 34.6,34.9 34.9,34.2 35.2,33.6 35.5,33.1 35.8,32.5 36.2,32.0 36.5,31.4 36.8,30.9 37.1,30.4 37.4,30.0 37.8,29.5 38.1,29.1 38.4,28.7 38.7,28.3 39.0,28.0 39.4,27.6 39.7,27.3 40.0,27.0 40.3,26.7 40.6,26.5 41.0,26.2 41.3,26.0 41.6,25.9 41.9,25.7 42.2,25.6 42.6,25.4 42.9,25.3 43.2,25.3 43.5,25.2 43.8,25.2 44.2,25.2 44.5,25.2 44.8,25.3 45.1,25.3 45.4,25.4 45.8,25.6 46.1,25.7 46.4,25.9 46.7,26.0 47.0,26.2 47.4,26.5 47.7,26.7 48.0,27.0 48.3,27.3 48.6,27.6 49.0,28.0 49.3,28.3 49.6,28.7 49.9,29.1 50.2,29.5 50.6,30.0 50.9,30.4 51.2,30.9 51.5,31.4 51.8,32.0 52.2,32.5 52.5,33.1 52.8,33.6 53.1,34.2 53.4,34.9 53.8,35.5 54.1,36.1 54.4,36.8 54.7,37.5 55.0,38.2 55.4,38.9 55.7,39.6 56.0,40.4 56.3,41.1 56.6,41.9 57.0,42.7 57.3,43.5 57.6,44.3 57.9,45.1 58.2,45.9 58.6,46.8 58.9,47.6 59.2,48.5 59.5,49.3 59.8,50.2 60.2,51.1 60.5,52.0 60.8,52.8 61.1,53.7 61.4,54.7 61.8,55.6 62.1,56.5 62.4,57.4 62.7,58.3 63.0,59.2 63.4,60.2 63.7,61.1 64.0,62.0 64.3,62.9 64.6,63.8 65.0,64.8 65.3,65.7 65.6,66.6 65.9,67.5 66.2,68.4 66.6,69.3 66.9,70.3 67.2,71.2 67.5,72.0 67.8,72.9 68.2,73.8 68.5,74.7 68.8,75.5 69.1,76.4 69.4,77.2 69.8,78.1 70.1,78.9 70.4,79.7 70.7,80.5 71.0,81.3 71.4,82.1 71.7,82.9 72.0,83.6 72.3,84.4 72.6,85.1 73.0,85.8 73.3,86.5 73.6,87.2 73.9,87.9 74.2,88.5 74.6,89.1 74.9,89.8 75.2,90.4 75.5,90.9 75.8,91.5 76.2,92.0 76.5,92.6 76.8,93.1 77.1,93.6 77.4,94.0 77.8,94.5 78.1,94.9 78.4,95.3 78.7,95.7 79.0,96.0 79.4,96.4 79.7,96.7 80.0,97.0 80.3,97.3 80.6,97.5 81.0,97.8 81.3,98.0 81.6,98.1 81.9,98.3 82.2,98.4 82.6,98.6 82.9,98.7 83.2,98.7 83.5,98.8 83.8,98.8 84.2,98.8 84.5,98.8 84.8,98.7 85.1,98.7 85.4,98.6 85.8,98.4 86.1,98.3 86.4,98.1 86.7,98.0 87.0,97.8 87.4,97.5 87.7,97.3 88.0,97.0 88.3,96.7 88.6,96.4 89.0,96.0 89.3,95.7 89.6,95.3 89.9,94.9 90.2,94.5 90.6,94.0 90.9,93.6 91.2,93.1 91.5,92.6 91.8,92.0 92.2,91.5 92.5,90.9 92.8,90.4 93.1,89.8 93.4,89.1 93.8,88.5 94.1,87.9 94.4,87.2 94.7,86.5 95.0,85.8 95.4,85.1 95.7,84.4 96.0,83.6 96.3,82.9 96.6,82.1 97.0,81.3 97.3,80.5 97.6,79.7 97.9,78.9 98.2,78.1 98.6,77.2 98.9,76.4 99.2,75.5 99.5,74.7 99.8,73.8 100.2,72.9 100.5,72.0 100.8,71.2 101.1,70.3 101.4,69.3 101.8,68.4 102.1,67.5 102.4,66.6 102.7,65.7 103.0,64.8 103.4,63.8 103.7,62.9 104.0,62.0 104.3,61.1 104.6,60.2 105.0,59.2 105.3,58.3 105.6,57.4 105.9,56.5 106.2,55.6 106.6,54.7 106.9,53.7 107.2,52.8 107.5,52.0 107.8,51.1 108.2,50.2 108.5,49.3 108.8,48.5 109.1,47.6 109.4,46.8 109.8,45.9 110.1,45.1 110.4,44.3 110.7,43.5 111.0,42.7 111.4,41.9 111.7,41.1 112.0,40.4 112.3,39.6 112.6,38.9 113.0,38.2 113.3,37.5 113.6,36.8 113.9,36.1 114.2,35.5 114.6,34.9 114.9,34.2 115.2,33.6 115.5,33.1 115.8,32.5 116.2,32.0 116.5,31.4 116.8,30.9 117.1,30.4 117.4,30.0 117.8,29.5 118.1,29.1 118.4,28.7 118.7,28.3 119.0,28.0 119.4,27.6 119.7,27.3 120.0,27.0 120.3,26.7 120.6,26.5 121.0,26.2 121.3,26.0 121.6,25.9 121.9,25.7 122.2,25.6 122.6,25.4 122.9,25.3 123.2,25.3 123.5,25.2 123.8,25.2 124.2,25.2 124.5,25.2 124.8,25.3 125.1,25.3 125.4,25.4 125.8,25.6 126.1,25.7 126.4,25.9 126.7,26.0 127.0,26.2 127.4,26.5 127.7,26.7 128.0,27.0 128.3,27.3 128.6,27.6 129.0,28.0 129.3,28.3 129.6,28.7 129.9,29.1 130.2,29.5 130.6,30.0 130.9,30.4 131.2,30.9 131.5,31.4 131.8,32.0 132.2,32.5 132.5,33.1 132.8,33.6 133.1,34.2 133.4,34.9 133.8,35.5 134.1,36.1 134.4,36.8 134.7,37.5 135.0,38.2 135.4,38.9 135.7,39.6 136.0,40.4 136.3,41.1 136.6,41.9 137.0,42.7 137.3,43.5 137.6,44.3 137.9,45.1 138.2,45.9 138.6,46.8 138.9,47.6 139.2,48.5 139.5,49.3 139.8,50.2 140.2,51.1 140.5,52.0 140.8,52.8 141.1,53.7 141.4,54.7 141.8,55.6 142.1,56.5 142.4,57.4 142.7,58.3 143.0,59.2 143.4,60.2 143.7,61.1 144.0,62.0 144.3,62.9 144.6,63.8 145.0,64.8 145.3,65.7 145.6,66.6 145.9,67.5 146.2,68.4 146.6,69.3 146.9,70.3 147.2,71.2 147.5,72.0 147.8,72.9 148.2,73.8 148.5,74.7 148.8,75.5 149.1,76.4 149.4,77.2 149.8,78.1 150.1,78.9 150.4,79.7 150.7,80.5 151.0,81.3 151.4,82.1 151.7,82.9 152.0,83.6' stroke-width='1.1' stroke-dasharray='3 2'/><polyline points='24.0,62.0 24.3,61.5 24.6,61.1 25.0,60.6 25.3,60.2 25.6,59.7 25.9,59.2 26.2,58.8 26.6,58.3 26.9,57.9 27.2,57.4 27.5,57.0 27.8,56.5 28.2,56.1 28.5,55.7 28.8,55.2 29.1,54.8 29.4,54.4 29.8,54.0 30.1,53.5 30.4,53.1 30.7,52.7 31.0,52.3 31.4,51.9 31.7,51.6 32.0,51.2 32.3,50.8 32.6,50.5 33.0,50.1 33.3,49.7 33.6,49.4 33.9,49.1 34.2,48.7 34.6,48.4 34.9,48.1 35.2,47.8 35.5,47.5 35.8,47.3 36.2,47.0 36.5,46.7 36.8,46.5 37.1,46.2 37.4,46.0 37.8,45.8 38.1,45.6 38.4,45.4 38.7,45.2 39.0,45.0 39.4,44.8 39.7,44.6 40.0,44.5 40.3,44.4 40.6,44.2 41.0,44.1 41.3,44.0 41.6,43.9 41.9,43.8 42.2,43.8 42.6,43.7 42.9,43.7 43.2,43.6 43.5,43.6 43.8,43.6 44.2,43.6 44.5,43.6 44.8,43.6 45.1,43.7 45.4,43.7 45.8,43.8 46.1,43.8 46.4,43.9 46.7,44.0 47.0,44.1 47.4,44.2 47.7,44.4 48.0,44.5 48.3,44.6 48.6,44.8 49.0,45.0 49.3,45.2 49.6,45.4 49.9,45.6 50.2,45.8 50.6,46.0 50.9,46.2 51.2,46.5 51.5,46.7 51.8,47.0 52.2,47.3 52.5,47.5 52.8,47.8 53.1,48.1 53.4,48.4 53.8,48.7 54.1,49.1 54.4,49.4 54.7,49.7 55.0,50.1 55.4,50.5 55.7,50.8 56.0,51.2 56.3,51.6 56.6,51.9 57.0,52.3 57.3,52.7 57.6,53.1 57.9,53.5 58.2,54.0 58.6,54.4 58.9,54.8 59.2,55.2 59.5,55.7 59.8,56.1 60.2,56.5 60.5,57.0 60.8,57.4 61.1,57.9 61.4,58.3 61.8,58.8 62.1,59.2 62.4,59.7 62.7,60.2 63.0,60.6 63.4,61.1 63.7,61.5 64.0,62.0 64.3,62.5 64.6,62.9 65.0,63.4 65.3,63.8 65.6,64.3 65.9,64.8 66.2,65.2 66.6,65.7 66.9,66.1 67.2,66.6 67.5,67.0 67.8,67.5 68.2,67.9 68.5,68.3 68.8,68.8 69.1,69.2 69.4,69.6 69.8,70.0 70.1,70.5 70.4,70.9 70.7,71.3 71.0,71.7 71.4,72.1 71.7,72.4 72.0,72.8 72.3,73.2 72.6,73.5 73.0,73.9 73.3,74.3 73.6,74.6 73.9,74.9 74.2,75.3 74.6,75.6 74.9,75.9 75.2,76.2 75.5,76.5 75.8,76.7 76.2,77.0 76.5,77.3 76.8,77.5 77.1,77.8 77.4,78.0 77.8,78.2 78.1,78.4 78.4,78.6 78.7,78.8 79.0,79.0 79.4,79.2 79.7,79.4 80.0,79.5 80.3,79.6 80.6,79.8 81.0,79.9 81.3,80.0 81.6,80.1 81.9,80.2 82.2,80.2 82.6,80.3 82.9,80.3 83.2,80.4 83.5,80.4 83.8,80.4 84.2,80.4 84.5,80.4 84.8,80.4 85.1,80.3 85.4,80.3 85.8,80.2 86.1,80.2 86.4,80.1 86.7,80.0 87.0,79.9 87.4,79.8 87.7,79.6 88.0,79.5 88.3,79.4 88.6,79.2 89.0,79.0 89.3,78.8 89.6,78.6 89.9,78.4 90.2,78.2 90.6,78.0 90.9,77.8 91.2,77.5 91.5,77.3 91.8,77.0 92.2,76.7 92.5,76.5 92.8,76.2 93.1,75.9 93.4,75.6 93.8,75.3 94.1,74.9 94.4,74.6 94.7,74.3 95.0,73.9 95.4,73.5 95.7,73.2 96.0,72.8 96.3,72.4 96.6,72.1 97.0,71.7 97.3,71.3 97.6,70.9 97.9,70.5 98.2,70.0 98.6,69.6 98.9,69.2 99.2,68.8 99.5,68.3 99.8,67.9 100.2,67.5 100.5,67.0 100.8,66.6 101.1,66.1 101.4,65.7 101.8,65.2 102.1,64.8 102.4,64.3 102.7,63.8 103.0,63.4 103.4,62.9 103.7,62.5 104.0,62.0 104.3,61.5 104.6,61.1 105.0,60.6 105.3,60.2 105.6,59.7 105.9,59.2 106.2,58.8 106.6,58.3 106.9,57.9 107.2,57.4 107.5,57.0 107.8,56.5 108.2,56.1 108.5,55.7 108.8,55.2 109.1,54.8 109.4,54.4 109.8,54.0 110.1,53.5 110.4,53.1 110.7,52.7 111.0,52.3 111.4,51.9 111.7,51.6 112.0,51.2 112.3,50.8 112.6,50.5 113.0,50.1 113.3,49.7 113.6,49.4 113.9,49.1 114.2,48.7 114.6,48.4 114.9,48.1 115.2,47.8 115.5,47.5 115.8,47.3 116.2,47.0 116.5,46.7 116.8,46.5 117.1,46.2 117.4,46.0 117.8,45.8 118.1,45.6 118.4,45.4 118.7,45.2 119.0,45.0 119.4,44.8 119.7,44.6 120.0,44.5 120.3,44.4 120.6,44.2 121.0,44.1 121.3,44.0 121.6,43.9 121.9,43.8 122.2,43.8 122.6,43.7 122.9,43.7 123.2,43.6 123.5,43.6 123.8,43.6 124.2,43.6 124.5,43.6 124.8,43.6 125.1,43.7 125.4,43.7 125.8,43.8 126.1,43.8 126.4,43.9 126.7,44.0 127.0,44.1 127.4,44.2 127.7,44.4 128.0,44.5 128.3,44.6 128.6,44.8 129.0,45.0 129.3,45.2 129.6,45.4 129.9,45.6 130.2,45.8 130.6,46.0 130.9,46.2 131.2,46.5 131.5,46.7 131.8,47.0 132.2,47.3 132.5,47.5 132.8,47.8 133.1,48.1 133.4,48.4 133.8,48.7 134.1,49.1 134.4,49.4 134.7,49.7 135.0,50.1 135.4,50.5 135.7,50.8 136.0,51.2 136.3,51.6 136.6,51.9 137.0,52.3 137.3,52.7 137.6,53.1 137.9,53.5 138.2,54.0 138.6,54.4 138.9,54.8 139.2,55.2 139.5,55.7 139.8,56.1 140.2,56.5 140.5,57.0 140.8,57.4 141.1,57.9 141.4,58.3 141.8,58.8 142.1,59.2 142.4,59.7 142.7,60.2 143.0,60.6 143.4,61.1 143.7,61.5 144.0,62.0 144.3,62.5 144.6,62.9 145.0,63.4 145.3,63.8 145.6,64.3 145.9,64.8 146.2,65.2 146.6,65.7 146.9,66.1 147.2,66.6 147.5,67.0 147.8,67.5 148.2,67.9 148.5,68.3 148.8,68.8 149.1,69.2 149.4,69.6 149.8,70.0 150.1,70.5 150.4,70.9 150.7,71.3 151.0,71.7 151.4,72.1 151.7,72.4 152.0,72.8' stroke-width='1.4'/><line x1='50' y1='6' x2='62' y2='6' stroke-width='1.1' stroke-dasharray='3 2'/><line x1='96' y1='6' x2='108' y2='6' stroke-width='1.4'/></g><g fill='currentColor'><text x='24.0' y='115.0' text-anchor='middle' font-size='5.5'>0</text><text x='56.0' y='115.0' text-anchor='middle' font-size='5.5'>1</text><text x='88.0' y='115.0' text-anchor='middle' font-size='5.5'>2</text><text x='120.0' y='115.0' text-anchor='middle' font-size='5.5'>3</text><text x='152.0' y='115.0' text-anchor='middle' font-size='5.5'>4</text><text x='22.0' y='100.8' text-anchor='end' font-size='5.5'>−8</text><text x='22.0' y='82.4' text-anchor='end' font-size='5.5'>−4</text><text x='22.0' y='64.0' text-anchor='end' font-size='5.5'>0</text><text x='22.0' y='45.6' text-anchor='end' font-size='5.5'>4</text><text x='22.0' y='27.2' text-anchor='end' font-size='5.5'>8</text><text x='7.0' y='62.0' text-anchor='middle' font-size='6' transform='rotate(-90 7.0 62.0)'>U (V)</text><text x='88.0' y='122.0' text-anchor='middle' font-size='6'>t (ms)</text><text x='64.0' y='8.0' text-anchor='start' font-size='6'>R₁</text><text x='110.0' y='8.0' text-anchor='start' font-size='6'>R₂</text></g></svg>",
+"opts": [
+"8 V e 400 Hz.",
+"4 V e 2,5 Hz.",
+"8 V e 2,5 Hz.",
+"4 V e 400 Hz."
+],
+"a": 0,
+"d": [
+[
+"Leitura de uma senoide",
+"Amplitude: o valor máximo da tensão, medido a partir do zero. Período T: tempo de um ciclo completo (de um pico ao seguinte, por exemplo). Frequência: f = 1/T, com T em segundos.",
+"Ex.: T = 5 ms = 0,005 s ⟹ f = 200 Hz."
+],
+[
+"Resistores em série",
+"A corrente é a mesma nos dois; como U = R·i, o resistor de maior resistência tem a maior tensão.",
+""
+]
+],
+"h": [
+"Em série, a maior resistência tem a maior tensão: é a curva tracejada (R₁), de amplitude 8 V.",
+"Os picos se repetem a cada 2,5 ms (em cerca de 0,6 ms e 3,1 ms): T = 2,5 × 10⁻³ s.",
+"f = 1/(2,5 × 10⁻³) = 400 Hz. Resposta: <b>8 V e 400 Hz</b>."
+]
+},
+{
+"id": "2016-1-09",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2016, 1ª fase, questão 9",
+"r": 1320,
+"tm": 90,
+"ctx": "Anemômetros são instrumentos usados para medir a velocidade do vento. A sua construção mais conhecida é a proposta por Robinson em 1846, que consiste em um rotor com quatro conchas hemisféricas presas por hastes. Em um anemômetro de Robinson ideal, a velocidade do vento é dada pela velocidade linear das conchas. Um anemômetro em que a distância entre as conchas e o centro de rotação é r = 25 cm, em um dia cuja velocidade do vento é v = 18 km/h, teria uma frequência de rotação de (se necessário, considere π ≈ 3)",
+"opts": [
+"200 rpm.",
+"3 rpm.",
+"720 rpm.",
+"1200 rpm."
+],
+"a": 0,
+"d": [
+[
+"Movimento circular",
+"Em uma volta, um ponto a distância r do centro percorre 2πr. Velocidade linear: v = 2πr·f, com f em voltas por segundo (Hz).",
+"Ex.: r = 0,5 m e f = 2 Hz ⟹ v = 2 × 3 × 0,5 × 2 = 6 m/s."
+],
+[
+"Unidades",
+"km/h ÷ 3,6 = m/s; rpm = voltas por minuto = 60 × (voltas por segundo).",
+""
+]
+],
+"h": [
+"v = 18 km/h = 5 m/s; r = 0,25 m.",
+"f = v/(2πr) = 5/(2 × 3 × 0,25) = 5/1,5 ≈ 3,33 voltas por segundo.",
+"Em rpm: 3,33 × 60 = <b>200 rpm</b>."
+]
+},
+{
+"id": "2016-1-10",
+"ano": 2016,
+"fase": 1,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2016, 1ª fase, questão 10",
+"r": 1290,
+"tm": 75,
+"ctx": "Beisebol é um esporte que envolve o arremesso, com a mão, de uma bola de 140 g de massa na direção de outro jogador que irá rebatê-la com um taco sólido. Considere que, em um arremesso, o módulo da velocidade da bola chegou a 162 km/h, imediatamente após deixar a mão do arremessador. Sabendo que o tempo de contato entre a bola e a mão do jogador foi de 0,07 s, o módulo da força média aplicada na bola foi de",
+"opts": [
+"90,0 N.",
+"324,0 N.",
+"6,3 N.",
+"11,3 N."
+],
+"a": 0,
+"d": [
+[
+"Impulso e quantidade de movimento",
+"A força média durante um contato muda a quantidade de movimento do corpo: F·Δt = m·Δv.",
+"Ex.: 0,2 kg de 0 a 10 m/s em 0,1 s ⟹ F = 0,2 × 10/0,1 = 20 N."
+]
+],
+"h": [
+"v = 162 km/h ÷ 3,6 = 45 m/s; m = 0,14 kg; a bola parte do repouso na mão.",
+"m·Δv = 0,14 × 45 = 6,3 kg·m/s.",
+"F = 6,3/0,07 = <b>90 N</b>."
+]
+},
+{
+"id": "2016-1-22",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2016, 1ª fase, questão 22",
+"r": 1220,
+"tm": 60,
+"ctx": "Com a crescente crise mundial de dengue, as pesquisas pela busca tanto de vacinas quanto de repelentes de insetos têm se intensificado. Nesse contexto, os compostos I e II representados na figura têm propriedades muito distintas: enquanto um deles tem caráter ácido e atrai os insetos, o outro tem caráter básico e não os atrai. Baseado nessas informações, pode-se afirmar corretamente que o composto",
+"fig": "<svg viewBox='0 0 150 78' class='fg' role='img' aria-label='duas fórmulas estruturais. I: cadeia de três carbonos em traços; o carbono do meio tem um grupo OH, e o carbono da ponta direita tem uma ligação dupla com O e um grupo OH (ácido láctico). II: anel de seis átomos com dois nitrogênios em posições opostas; o nitrogênio de cima está ligado a um H e o de baixo a um grupo CH3 (metilpiperazina)'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='16.0' y1='30.0' x2='28.0' y2='37.0'/><line x1='28.0' y1='37.0' x2='40.0' y2='30.0'/><line x1='38.7' y1='30.0' x2='38.7' y2='20.6'/><line x1='41.3' y1='30.0' x2='41.3' y2='20.6'/><line x1='40.0' y1='30.0' x2='51.9' y2='35.9'/><line x1='28.0' y1='37.0' x2='28.0' y2='48.4'/><line x1='114.0' y1='27.8' x2='120.4' y2='31.5'/><line x1='120.4' y1='31.5' x2='120.4' y2='43.5'/><line x1='120.4' y1='43.5' x2='114.0' y2='47.2'/><line x1='106.0' y1='47.2' x2='99.6' y2='43.5'/><line x1='99.6' y1='43.5' x2='99.6' y2='31.5'/><line x1='99.6' y1='31.5' x2='106.0' y2='27.8'/><line x1='110.0' y1='20.9' x2='110.0' y2='17.6'/><line x1='110.0' y1='54.1' x2='110.0' y2='58.4'/></g><g fill='currentColor'><text x='40.0' y='18.5' text-anchor='middle' font-size='7'>O</text><text x='56.0' y='40.5' text-anchor='middle' font-size='7'>OH</text><text x='28.0' y='55.5' text-anchor='middle' font-size='7'>OH</text><text x='110.0' y='28.0' text-anchor='middle' font-size='7'>N</text><text x='110.0' y='52.0' text-anchor='middle' font-size='7'>N</text><text x='110.0' y='15.5' text-anchor='middle' font-size='7'>H</text><text x='110.0' y='65.5' text-anchor='middle' font-size='7'>CH₃</text></g><g fill='currentColor'><text x='34.0' y='74.0' text-anchor='middle' font-size='7'>I</text><text x='110.0' y='74.0' text-anchor='middle' font-size='7'>II</text></g></svg>",
+"opts": [
+"II não atrai os insetos e tem caráter básico.",
+"I não atrai os insetos e tem caráter básico.",
+"II atrai os insetos e tem caráter ácido.",
+"I não atrai os insetos e tem caráter ácido e básico."
+],
+"a": 0,
+"d": [
+[
+"Grupos ácidos e básicos",
+"Ácidos carboxílicos (—COOH: carbono com =O e —OH) liberam H⁺ em água: caráter ácido. Aminas (nitrogênio com um par de elétrons livre, como em —NH— ou —N(CH₃)—) recebem H⁺: caráter básico.",
+"Ex.: o ácido acético, CH₃COOH, é ácido; a metilamina, CH₃NH₂, é básica."
+]
+],
+"h": [
+"I tem um grupo carboxila (—COOH) e uma hidroxila: é o ácido láctico, de caráter ácido.",
+"II tem dois nitrogênios de amina no anel: caráter básico.",
+"Pelo enunciado, o ácido atrai os insetos e o básico não: <b>II não atrai os insetos e tem caráter básico</b>."
+]
+},
+{
+"id": "2016-1-23",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2016, 1ª fase, questão 23",
+"r": 1140,
+"tm": 60,
+"ctx": "Em seu livro <i>Como se faz Química</i>, o Professor Aécio Chagas afirma que “quem transforma a matéria, sem pensar sobre ela, não é, e jamais será um químico”. Considere alguns produtos que um cozinheiro reconhece nas linhas 1 a 4 de um quadro, e aqueles que um químico reconhece nas linhas 5 a 8.<br>Cozinheiro: (1) carne; (2) açúcar; (3) chá; (4) óleo.<br>Químico: (5) extração; (6) carboidrato; (7) hidrocarboneto aromático; (8) proteína.<br>Um químico, familiarizado com as atividades culinárias, relacionaria as linhas",
+"opts": [
+"3 e 5, porque a infusão facilita a extração de componentes importantes do chá.",
+"1 e 7, porque o aroma da carne se deve, principalmente, aos hidrocarbonetos aromáticos.",
+"4 e 6, porque os carboidratos são constituintes importantes do óleo comestível.",
+"2 e 8, porque a proteína é um tipo especial de açúcar."
+],
+"a": 0,
+"d": [
+[
+"Classes de compostos dos alimentos",
+"Carboidratos: açúcares e amido. Proteínas: carnes, ovos, leite. Lipídios: óleos e gorduras. “Aromático”, em química, é o composto com anel benzênico, e não “o que tem cheiro”.",
+""
+],
+[
+"Extração",
+"Separar componentes de um material usando um solvente que dissolve parte deles, como a água quente faz com folhas e grãos.",
+"Ex.: o café coado é uma extração."
+]
+],
+"h": [
+"A carne é rica em proteína (linha 8), não em hidrocarbonetos aromáticos; o açúcar é um carboidrato (linha 6); o óleo é um lipídio.",
+"A proteína não é um tipo de açúcar, e o óleo não é feito de carboidratos.",
+"Fazer chá é extrair, com água quente, componentes das folhas: <b>linhas 3 e 5</b>."
+]
+},
+{
+"id": "2016-1-24",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2016, 1ª fase, questão 24",
+"r": 1530,
+"tm": 90,
+"ctx": "O trecho seguinte foi extraído de uma revista de divulgação do conhecimento químico, e trata de alguns aspectos da lavagem a seco de tecidos: “Tratando-se do desempenho para lavar, o tetracloroetileno é um solvente efetivo para limpeza das roupas, pois evita o encolhimento dos tecidos, já que evapora facilmente, dada sua baixa pressão de vapor (0,017 atm, 20 °C), e dissolve manchas lipofílicas, como óleos, ceras e gorduras em geral...” A leitura desse trecho sugere que o tetracloroetileno é um líquido apolar e sua alta volatilidade se deve ao seu baixo valor de pressão de vapor. Levando em conta o conhecimento químico, pode-se",
+"opts": [
+"concordar parcialmente com a sugestão, pois há argumentos que justificam a polaridade, mas não há argumentos que justifiquem a volatilidade.",
+"concordar totalmente com a sugestão, pois os argumentos referentes à polaridade e à volatilidade apresentados no trecho justificam ambas.",
+"concordar parcialmente, pois não há argumentos que justifiquem a polaridade, mas há argumentos que justificam a volatilidade.",
+"discordar totalmente, pois não há argumentos que justifiquem a polaridade nem a volatilidade."
+],
+"a": 0,
+"d": [
+[
+"Polaridade e solubilidade",
+"Semelhante dissolve semelhante: substâncias apolares dissolvem óleos, ceras e gorduras (lipofílicas, apolares).",
+""
+],
+[
+"Pressão de vapor e volatilidade",
+"Quanto maior a pressão de vapor de um líquido a uma dada temperatura, mais facilmente ele evapora (mais volátil). Pressão de vapor baixa indica líquido pouco volátil.",
+"Ex.: a 20 °C, a água tem cerca de 0,023 atm; a acetona, bem mais volátil, cerca de 0,24 atm."
+]
+],
+"h": [
+"Dissolver manchas lipofílicas é argumento de que o solvente é apolar: a polaridade está justificada.",
+"Já “evapora facilmente, dada sua baixa pressão de vapor” é contraditório: pressão de vapor baixa significa pouca volatilidade.",
+"Logo, pode-se <b>concordar parcialmente: há argumento para a polaridade, mas não para a volatilidade</b>."
+]
+},
+{
+"id": "2016-1-25",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2016, 1ª fase, questão 25",
+"r": 1410,
+"tm": 75,
+"ctx": "Atualmente, parece que a Química vem seduzindo as pessoas e tem-se observado um número cada vez maior de pessoas portando tatuagens que remetem ao conhecimento químico. A figura mostra as imagens de duas tatuagens muito parecidas. As imagens representam duas fórmulas estruturais, que correspondem a dois",
+"fig": "<svg viewBox='0 0 164 60' class='fg' role='img' aria-label='duas fórmulas estruturais desenhadas em tatuagens. À esquerda: anel benzênico com dois grupos HO em carbonos vizinhos do lado esquerdo do anel e, no carbono de cima à direita, a cadeia CH2–CH2–NH2, que termina descendo. À direita: anel benzênico com um grupo HO à esquerda embaixo e um OH no carbono de baixo, vizinhos entre si, e a mesma cadeia CH2–CH2–NH2 no carbono de cima à direita, terminando para cima. As ligações duplas do anel estão desenhadas em posições alternadas diferentes nos dois desenhos'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='36.6' y1='25.9' x2='44.4' y2='30.4'/><line x1='35.4' y1='28.1' x2='43.1' y2='32.6'/><line x1='43.8' y1='31.5' x2='43.8' y2='40.5'/><line x1='44.4' y1='41.6' x2='36.6' y2='46.1'/><line x1='43.1' y1='39.4' x2='35.4' y2='43.9'/><line x1='36.0' y1='45.0' x2='28.2' y2='40.5'/><line x1='26.9' y1='40.5' x2='26.9' y2='31.5'/><line x1='29.5' y1='40.5' x2='29.5' y2='31.5'/><line x1='28.2' y1='31.5' x2='36.0' y2='27.0'/><line x1='116.0' y1='23.0' x2='123.8' y2='27.5'/><line x1='125.1' y1='27.5' x2='125.1' y2='36.5'/><line x1='122.5' y1='27.5' x2='122.5' y2='36.5'/><line x1='123.8' y1='36.5' x2='116.0' y2='41.0'/><line x1='115.3' y1='42.1' x2='107.6' y2='37.6'/><line x1='116.7' y1='39.9' x2='108.9' y2='35.4'/><line x1='108.2' y1='36.5' x2='108.2' y2='27.5'/><line x1='107.6' y1='26.4' x2='115.3' y2='21.9'/><line x1='108.9' y1='28.6' x2='116.7' y2='24.1'/><line x1='28.2' y1='31.5' x2='23.5' y2='28.8'/><line x1='28.2' y1='40.5' x2='23.5' y2='43.2'/><line x1='43.8' y1='31.5' x2='51.6' y2='27.0'/><line x1='51.6' y1='27.0' x2='59.4' y2='31.5'/><line x1='59.4' y1='31.5' x2='59.4' y2='36.9'/><line x1='116.0' y1='41.0' x2='116.0' y2='46.4'/><line x1='108.2' y1='36.5' x2='103.5' y2='39.2'/><line x1='123.8' y1='27.5' x2='131.6' y2='23.0'/><line x1='131.6' y1='23.0' x2='139.4' y2='27.5'/><line x1='139.4' y1='27.5' x2='144.1' y2='24.8'/></g><g fill='currentColor'><text x='19.5' y='29.0' text-anchor='end' font-size='7'>HO</text><text x='19.5' y='48.0' text-anchor='end' font-size='7'>HO</text><text x='59.4' y='44.0' text-anchor='middle' font-size='7'>NH₂</text><text x='116.0' y='53.5' text-anchor='middle' font-size='7'>OH</text><text x='99.5' y='44.0' text-anchor='end' font-size='7'>HO</text><text x='148.0' y='25.0' text-anchor='start' font-size='7'>NH₂</text></g></svg>",
+"opts": [
+"modos de representar o mesmo composto.",
+"compostos que são isômeros entre si.",
+"compostos que não são isômeros.",
+"compostos que diferem nas posições das ligações duplas."
+],
+"a": 0,
+"d": [
+[
+"Comparar fórmulas estruturais",
+"Para saber se duas fórmulas são o mesmo composto, numere o anel a partir do carbono que leva a cadeia e veja em que posições ficam os outros grupos. Girar ou espelhar o desenho não muda o composto.",
+""
+],
+[
+"Ressonância no anel benzênico",
+"As três ligações duplas do benzeno podem ser desenhadas em duas posições alternadas (estruturas de Kekulé): é o mesmo anel, e não outro composto.",
+""
+]
+],
+"h": [
+"Nos dois desenhos há um anel benzênico, dois grupos OH e a cadeia —CH₂—CH₂—NH₂.",
+"Numerando a partir do carbono da cadeia (1), os dois OH ficam nas posições 3 e 4 (vizinhos) nos dois desenhos: é a dopamina.",
+"A cadeia só foi desenhada em outra direção e as duplas, na outra estrutura de Kekulé: <b>dois modos de representar o mesmo composto</b>."
+]
+},
+{
+"id": "2016-1-26",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2016, 1ª fase, questão 26",
+"r": 1380,
+"tm": 90,
+"ctx": "A preocupação com a emissão de gases poluentes no meio ambiente está muito presente na indústria automobilística. Recentemente, uma das soluções encontradas para contornar esse problema nos veículos movidos a Diesel foi o desenvolvimento do Arla 32, uma solução de ureia em água, que atua nos sistemas de exaustão, de acordo com as equações químicas:<br>CO(NH₂)₂ + H₂O → 2 NH₃ + CO₂<br>4 NH₃ + 4 NO + O₂ → 4 N₂ + 6 H₂O<br>4 NH₃ + 2 NO₂ + O₂ → 3 N₂ + 6 H₂O<br>Com base nessas informações, pode-se afirmar corretamente que a ação do Arla 32 leva a uma redução",
+"opts": [
+"da emissão das espécies NOₓ, mas contribui para a poluição atmosférica.",
+"da emissão das espécies NOₓ, e não contribui para a poluição atmosférica.",
+"completa do NO e apenas da metade do NO₂ emitido, mas contribui para a poluição atmosférica.",
+"completa do NO, mas somente reduz a emissão de NO₂ depois que acabar o NO, e não contribui para a poluição atmosférica."
+],
+"a": 0,
+"d": [
+[
+"Ler uma sequência de reações",
+"Veja o que cada reação consome e o que produz: os produtos que saem pelo escapamento também precisam ser avaliados.",
+""
+],
+[
+"Gases e poluição",
+"N₂ e H₂O são inofensivos; os NOₓ (NO e NO₂) causam chuva ácida e smog; o CO₂ é o principal gás do efeito estufa.",
+""
+]
+],
+"h": [
+"A ureia gera NH₃, que transforma NO e NO₂ em N₂ e H₂O: a emissão de NOₓ diminui.",
+"Mas a primeira reação libera CO₂, gás do efeito estufa.",
+"Logo, <b>reduz os NOₓ, mas contribui para a poluição atmosférica</b>."
+]
+},
+{
+"id": "2016-1-27",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2016, 1ª fase, questão 27",
+"r": 1430,
+"tm": 75,
+"ctx": "Podemos obter energia no organismo pela oxidação de diferentes fontes. Entre essas fontes destacam-se a gordura e o açúcar. A gordura pode ser representada por uma fórmula mínima (CH₂)ₙ, enquanto um açúcar pode ser representado por (CH₂O)ₙ. Considerando essas duas fontes de energia, podemos afirmar corretamente que, na oxidação total de 1 grama de ambas as fontes em nosso organismo, os produtos formados são",
+"opts": [
+"os mesmos, mas as quantidades de energia são diferentes.",
+"diferentes, mas as quantidades de energia são iguais.",
+"os mesmos, assim como as quantidades de energia.",
+"diferentes, assim como as quantidades de energia."
+],
+"a": 0,
+"d": [
+[
+"Oxidação total",
+"Na oxidação total (combustão completa) de um composto de C, H e O, todo o C vira CO₂ e todo o H vira H₂O.",
+""
+],
+[
+"Energia e grau de oxidação",
+"Um composto que já contém oxigênio está parcialmente oxidado: libera menos energia por grama do que um composto só de C e H.",
+"Ex.: gordura ≈ 9 kcal/g; açúcar ≈ 4 kcal/g."
+]
+],
+"h": [
+"(CH₂)ₙ + O₂ → CO₂ + H₂O e (CH₂O)ₙ + O₂ → CO₂ + H₂O: os produtos são os mesmos.",
+"O açúcar já tem um O por carbono (está parcialmente oxidado), e 1 g dele contém menos C e H para oxidar.",
+"Logo, <b>produtos iguais e energias diferentes</b> (a gordura libera mais)."
+]
+},
+{
+"id": "2016-1-28",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2016, 1ª fase, questão 28",
+"r": 1090,
+"tm": 60,
+"ctx": "Alguns trabalhos científicos correlacionam as mudanças nas concentrações dos sais dissolvidos na água do mar com as mudanças climáticas. Entre os fatores que poderiam alterar a concentração de sais na água do mar podemos citar: evaporação e congelamento da água do mar, chuva e neve, além do derretimento das geleiras. De acordo com o conhecimento químico, podemos afirmar corretamente que a concentração de sais na água do mar",
+"opts": [
+"aumenta com a evaporação e o congelamento da água do mar e diminui com a chuva ou neve.",
+"aumenta com o derretimento das geleiras e diminui com o congelamento da água do mar.",
+"diminui com o congelamento e com a evaporação da água do mar.",
+"diminui com a evaporação da água do mar e aumenta com o derretimento das geleiras."
+],
+"a": 0,
+"d": [
+[
+"Concentração",
+"Concentração = quantidade de soluto/volume de solução. Se só a água sai e o sal fica, a concentração aumenta; se entra água pura, ela diminui.",
+""
+],
+[
+"O que sai e o que entra",
+"Na evaporação sai apenas água. O gelo que se forma ao congelar a água do mar é praticamente água pura. Chuva, neve e gelo das geleiras são água doce.",
+""
+]
+],
+"h": [
+"Evaporação e congelamento retiram água líquida do mar e deixam o sal: a concentração aumenta.",
+"Chuva, neve e derretimento de geleiras acrescentam água doce: a concentração diminui.",
+"Resposta: <b>aumenta com a evaporação e o congelamento e diminui com a chuva ou neve</b>."
+]
+},
+{
+"id": "2016-1-29",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 2016, 1ª fase, questão 29",
+"r": 1350,
+"tm": 90,
+"ctx": "A comparação entre as proporções isotópicas de amostras de um mesmo material, que têm a mesma idade, encontradas em diferentes regiões, pode ser utilizada para revelar se elas têm ou não a mesma origem. Se as proporções são iguais, então é possível que tenham a mesma origem, mas se forem diferentes, é certeza que não têm a mesma origem. Dados de algumas amostras de água, incluindo a de um cometa no qual uma sonda pousou recentemente (ponto de ebulição; ponto de fusão; porcentagem de deutério):<br>H₂O (Terra): 100 °C; 0 °C; 0,017%<br>HDO: 100,7 °C; 2,04 °C; 50%<br>D₂O: 101,4 °C; 3,82 °C; 100%<br>H₂O (cometa): não disponível; não disponível; 0,053%<br>Com base nesses dados, pode-se afirmar corretamente que a água de nosso planeta",
+"opts": [
+"não é proveniente dos cometas, apesar de a água da Terra e a do cometa terem propriedades físicas muito parecidas.",
+"é proveniente dos cometas e a água da Terra e a do cometa têm propriedades físicas muito parecidas.",
+"não é proveniente dos cometas, porque a água da Terra e a do cometa apresentam propriedades físicas muito diferentes.",
+"é proveniente dos cometas e a água da Terra e a do cometa têm as mesmas propriedades físicas."
+],
+"a": 0,
+"d": [
+[
+"Isótopos e propriedades físicas",
+"O deutério (D) é o isótopo ²H do hidrogênio. Trocar H por D muda muito pouco as propriedades físicas: mesmo trocando todos (D₂O), o ponto de ebulição sobe só 1,4 °C.",
+""
+],
+[
+"Critério do enunciado",
+"Proporções isotópicas diferentes ⟹ certeza de origens diferentes; iguais ⟹ mesma origem apenas possível.",
+""
+]
+],
+"h": [
+"Deutério: 0,017% na Terra e 0,053% no cometa, cerca de 3 vezes mais: proporções diferentes.",
+"Pelo critério do enunciado, as duas águas não têm a mesma origem.",
+"Com tão pouco deutério, as propriedades ficam quase iguais às da água comum: <b>não vem dos cometas, apesar de propriedades muito parecidas</b>."
+]
+},
+{
+"id": "2016-1-30",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2016, 1ª fase, questão 30",
+"r": 1270,
+"tm": 60,
+"ctx": "As empresas que fabricam produtos de limpeza têm se preocupado cada vez mais com a satisfação do consumidor e a preservação dos materiais que estão sujeitos ao processo de limpeza. No caso do vestuário, é muito comum encontrarmos a recomendação para fazer o teste da firmeza das cores para garantir que a roupa não será danificada no processo de lavagem. Esse teste consiste em molhar uma pequena parte da roupa e colocá-la sobre uma superfície plana; em seguida, coloca-se um pano branco de algodão sobre sua superfície e passa-se com um ferro bem quente. Se o pano branco ficar manchado, sugere-se que essa roupa deve ser lavada separadamente, pois durante esse teste ocorreu um processo de",
+"opts": [
+"dissolução do corante, e o ferro quente é utilizado para acelerar o processo.",
+"fusão do corante, e o ferro quente é utilizado para aumentar a pressão sobre o tecido.",
+"liquefação do corante, e o ferro quente é utilizado para acelerar o processo.",
+"condensação do corante, e o ferro quente é utilizado para ajudar a sua transferência para o pano branco."
+],
+"a": 0,
+"d": [
+[
+"Mudança de estado × dissolução",
+"Fusão: sólido → líquido pelo calor. Liquefação ou condensação: gás → líquido. Dissolução: um soluto se espalha em um solvente (aqui, a água que molha o tecido).",
+""
+],
+[
+"Temperatura e rapidez",
+"Aquecer acelera processos como a dissolução: as partículas se movem mais depressa.",
+""
+]
+],
+"h": [
+"A roupa é molhada: há água, que pode dissolver o corante mal fixado.",
+"O corante dissolvido migra com a água para o pano branco e o mancha; ele não está sendo fundido nem condensado.",
+"O calor do ferro acelera essa dissolução: <b>dissolução do corante, acelerada pelo ferro quente</b>."
+]
+},
+{
+"id": "2016-1-31",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2016, 1ª fase, questão 31",
+"r": 1330,
+"tm": 90,
+"ctx": "Os compostos (NH₄)H₂PO₄ e NaHCO₃ são usados em extintores como agentes de combate ao fogo. Quando lançados sobre uma chama, ocorrem as seguintes transformações:<br>(NH₄)H₂PO₄ → NH₃ + H₃PO₄<br>H₃PO₄ → polifosfato (viscoso)<br>NaHCO₃ → CO₂ + H₂O + Na₂CO₃ (particulado)<br>No combate a todos os tipos de incêndio, a nuvem formada de gás é importante, mas naqueles envolvendo materiais sólidos, o depósito do material oriundo da transformação do agente de combate sobre o combustível tem papel decisivo. Assim, o agente (NH₄)H₂PO₄ pode substituir o NaHCO₃ em qualquer situação, mas o contrário não é verdade. Isso permite concluir que no combate ao incêndio que envolve",
+"opts": [
+"líquidos inflamáveis, os dois agentes formam uma nuvem de gás, mas com sólidos em combustão, somente o material viscoso é capaz de inibir completamente o contato combustível/comburente.",
+"líquidos inflamáveis, os dois agentes formam uma nuvem de gás, mas com sólidos em combustão, somente o material particulado é capaz de inibir completamente o contato combustível/comburente.",
+"materiais sólidos em combustão, os dois agentes inibem completamente o contato combustível/comburente, mas com líquidos em combustão, somente o NaHCO₃ é capaz de inibir este contato.",
+"materiais sólidos em combustão, os dois agentes inibem completamente o contato combustível/comburente, mas com líquidos em combustão, somente o (NH₄)H₂PO₄ é capaz de inibir este contato."
+],
+"a": 0,
+"d": [
+[
+"Como um extintor apaga o fogo",
+"O fogo precisa de combustível, comburente (O₂) e calor. Um agente extintor pode abafar a chama, separando o combustível do O₂, com uma nuvem de gás ou com uma camada de material sobre o combustível.",
+""
+],
+[
+"Ler o enunciado",
+"Nos sólidos, o depósito sobre o combustível é decisivo: veja qual agente deixa um material capaz de cobrir e aderir ao combustível.",
+""
+]
+],
+"h": [
+"Os dois agentes produzem gases (NH₃; CO₂ e H₂O): ambos formam nuvem, o que basta para líquidos inflamáveis.",
+"Para sólidos, decide o depósito: o (NH₄)H₂PO₄ deixa polifosfato viscoso, que cobre o combustível; o NaHCO₃ deixa só particulado (Na₂CO₃).",
+"Por isso o fosfato substitui o bicarbonato, mas não o contrário: <b>com líquidos, os dois formam nuvem; com sólidos, só o material viscoso isola o combustível do comburente</b>."
+]
+},
+{
+"id": "2016-1-32",
+"ano": 2016,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2016, 1ª fase, questão 32",
+"r": 1130,
+"tm": 60,
+"ctx": "Uma tira tematiza a contribuição da atividade humana para a deterioração do meio ambiente. No primeiro quadro, dois ursos-polares, com água pelo pescoço, comentam: “Combustíveis fósseis, aquecimento global, mares subindo... o que vem agora?”. No segundo quadro, um terceiro urso, sobre um bloco de gelo que se desfaz borbulhando na água, responde: “Níveis de acidez”. Do diálogo apresentado, pode-se depreender que os ursos já sabiam",
+"opts": [
+"do aumento do nível dos mares e acabam de constatar o abaixamento do pH dos mares.",
+"do aumento do pH dos mares e acabam de constatar o abaixamento do nível dos mares.",
+"da diminuição do pH dos mares e acabam de constatar o aumento do nível dos mares.",
+"da diminuição do nível dos mares e acabam de constatar o aumento do pH dos mares."
+],
+"a": 0,
+"d": [
+[
+"CO₂ e acidez do mar",
+"O CO₂ do ar se dissolve na água do mar: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. Mais CO₂ ⟹ mais H⁺ ⟹ pH menor (acidificação dos oceanos).",
+""
+],
+[
+"Nível do mar",
+"O aquecimento global derrete o gelo continental e dilata a água: o nível do mar sobe.",
+""
+]
+],
+"h": [
+"No primeiro quadro, os ursos já citam “mares subindo”: já sabiam do aumento do nível do mar.",
+"No segundo, a novidade é “níveis de acidez”: mais acidez = pH menor.",
+"Resposta: <b>já sabiam do aumento do nível dos mares e acabam de constatar o abaixamento do pH</b>."
+]
+},
+{
+"id": "2016-1-41",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2016, 1ª fase, questão 41",
+"r": 840,
+"tm": 45,
+"ctx": "O gráfico exibe o lucro líquido (em milhares de reais) de três pequenas empresas A, B e C, nos anos de 2013 e 2014. Com relação ao lucro líquido, podemos afirmar que",
+"fig": "<svg viewBox='0 0 160 100' class='fg' role='img' aria-label='gráfico de linhas do lucro líquido, em milhares de reais, nos anos de 2013 e 2014. Empresa A: 500 em 2013 e 400 em 2014. Empresa B: 300 em 2013 e 400 em 2014. Empresa C: 100 em 2013 e 300 em 2014'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='30' y1='74.0' x2='148' y2='74.0'/><line x1='30' y1='62.0' x2='148' y2='62.0'/><line x1='30' y1='50.0' x2='148' y2='50.0'/><line x1='30' y1='38.0' x2='148' y2='38.0'/><line x1='30' y1='26.0' x2='148' y2='26.0'/><line x1='30' y1='14.0' x2='148' y2='14.0'/></g><g stroke-width='0.8'><line x1='30.0' y1='86.0' x2='150.0' y2='86.0'/><line x1='30.0' y1='86.0' x2='30.0' y2='12.0'/></g><line x1='54.0' y1='26.0' x2='124.0' y2='38.0'/><line x1='54.0' y1='50.0' x2='124.0' y2='38.0'/><line x1='54.0' y1='74.0' x2='124.0' y2='50.0'/></g><g fill='currentColor'><polygon points='153.0,86.0 150.3,87.3 150.3,84.7'/><polygon points='30.0,9.0 31.3,11.7 28.7,11.7'/><circle cx='54.0' cy='26.0' r='1.7'/><circle cx='124.0' cy='38.0' r='1.7'/><text x='54.0' y='22.5' text-anchor='middle' font-size='6'>A</text><circle cx='54.0' cy='50.0' r='1.7'/><circle cx='124.0' cy='38.0' r='1.7'/><text x='54.0' y='46.5' text-anchor='middle' font-size='6'>B</text><circle cx='54.0' cy='74.0' r='1.7'/><circle cx='124.0' cy='50.0' r='1.7'/><text x='54.0' y='70.5' text-anchor='middle' font-size='6'>C</text><text x='27.0' y='76.0' text-anchor='end' font-size='5.5'>100</text><text x='27.0' y='64.0' text-anchor='end' font-size='5.5'>200</text><text x='27.0' y='52.0' text-anchor='end' font-size='5.5'>300</text><text x='27.0' y='40.0' text-anchor='end' font-size='5.5'>400</text><text x='27.0' y='28.0' text-anchor='end' font-size='5.5'>500</text><text x='27.0' y='16.0' text-anchor='end' font-size='5.5'>600</text><text x='54.0' y='94.0' text-anchor='middle' font-size='6'>2013</text><text x='124.0' y='94.0' text-anchor='middle' font-size='6'>2014</text><text x='152.0' y='82.0' text-anchor='end' font-size='5.5'>Ano</text><text x='33.0' y='9.0' text-anchor='start' font-size='5.5'>Lucro líquido (milhares de reais)</text></g></svg>",
+"opts": [
+"C teve um crescimento maior do que B.",
+"A teve um crescimento maior do que C.",
+"B teve um crescimento igual a A.",
+"C teve um crescimento menor do que B."
+],
+"a": 0,
+"d": [
+[
+"Leitura de gráfico de linhas",
+"Cada empresa tem um ponto em 2013 e outro em 2014: a variação é a diferença entre eles (subiu, desceu ou ficou igual).",
+""
+],
+[
+"Crescimento absoluto e percentual",
+"Crescimento = valor final − valor inicial; em porcentagem, divida pelo valor inicial.",
+"Ex.: de 200 para 300 ⟹ +100, ou +50%."
+]
+],
+"h": [
+"A: 500 → 400 (caiu 100); B: 300 → 400 (subiu 100, cerca de 33%); C: 100 → 300 (subiu 200, ou 200%).",
+"A não cresceu, e A e B não tiveram a mesma variação.",
+"C cresceu mais que B: <b>C teve um crescimento maior do que B</b>."
+]
+},
+{
+"id": "2016-1-42",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2016, 1ª fase, questão 42",
+"r": 1360,
+"tm": 75,
+"ctx": "Uma moeda balanceada é lançada quatro vezes, obtendo-se cara exatamente três vezes. A probabilidade de que as caras tenham saído consecutivamente é igual a",
+"opts": [
+"1/2.",
+"1/4.",
+"3/8.",
+"3/4."
+],
+"a": 0,
+"d": [
+[
+"Probabilidade sabendo que algo ocorreu",
+"Se já se sabe que um evento aconteceu, o espaço amostral passa a ser só os casos desse evento: P = casos favoráveis/casos possíveis dentro dele.",
+"Ex.: dois lançamentos com pelo menos uma cara: {CC, CK, KC} ⟹ P(duas caras) = 1/3."
+]
+],
+"h": [
+"Sequências com exatamente 3 caras (C) e 1 coroa (K): KCCC, CKCC, CCKC e CCCK — 4 casos igualmente prováveis.",
+"Caras consecutivas: KCCC e CCCK — 2 casos.",
+"P = 2/4 = <b>1/2</b>."
+]
+},
+{
+"id": "2016-1-43",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2016, 1ª fase, questão 43",
+"r": 1080,
+"tm": 45,
+"ctx": "Em uma matriz, chamam-se elementos internos aqueles que não pertencem à primeira nem à última linha ou coluna. O número de elementos internos em uma matriz com 5 linhas e 6 colunas é igual a",
+"opts": [
+"12.",
+"15.",
+"16.",
+"20."
+],
+"a": 0,
+"d": [
+[
+"Contar sem as bordas",
+"Tirando a primeira e a última linha sobram (m − 2) linhas; tirando a primeira e a última coluna sobram (n − 2) colunas.",
+"Ex.: matriz 4 × 4 ⟹ 2 × 2 = 4 elementos internos."
+]
+],
+"h": [
+"Linhas internas: 5 − 2 = 3.",
+"Colunas internas: 6 − 2 = 4.",
+"Elementos internos: 3 × 4 = <b>12</b>."
+]
+},
+{
+"id": "2016-1-44",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2016, 1ª fase, questão 44 (alternativas numeradas como gráficos 1 a 4)",
+"r": 1510,
+"tm": 75,
+"ctx": "Considere o gráfico da função y = f(x) exibido no alto da figura. O gráfico da função inversa y = f⁻¹(x) é o",
+"fig": "<svg viewBox='0 0 160 172' class='fg' role='img' aria-label='no alto, o gráfico de y = f(x): curva crescente que passa pela origem, quase horizontal perto dela e cada vez mais íngreme nas pontas, subindo à direita e descendo à esquerda. Abaixo, quatro gráficos numerados. 1: hipérbole com um ramo no primeiro quadrante e outro no terceiro, próximos dos eixos. 2: curva decrescente que passa pela origem, muito íngreme perto dela e achatada nas pontas. 3: curva crescente que passa pela origem, muito íngreme perto dela e achatada nas pontas. 4: curva em forma de U com o ponto mais baixo na origem'><g fill='none' stroke='currentColor'><g stroke-width='0.6'><line x1='50.0' y1='26.0' x2='108.0' y2='26.0'/><line x1='78.0' y1='48.0' x2='78.0' y2='2.0'/></g><polyline points='53.7,45.1 54.1,44.3 54.6,43.4 55.1,42.6 55.6,41.8 56.1,41.1 56.6,40.4 57.1,39.7 57.5,39.0 58.0,38.3 58.5,37.7 59.0,37.1 59.5,36.5 60.0,36.0 60.5,35.5 61.0,35.0 61.4,34.5 61.9,34.0 62.4,33.5 62.9,33.1 63.4,32.7 63.9,32.3 64.4,31.9 64.9,31.6 65.3,31.2 65.8,30.9 66.3,30.6 66.8,30.3 67.3,30.0 67.8,29.7 68.3,29.5 68.7,29.2 69.2,29.0 69.7,28.8 70.2,28.6 70.7,28.3 71.2,28.1 71.7,28.0 72.2,27.8 72.6,27.6 73.1,27.4 73.6,27.3 74.1,27.1 74.6,27.0 75.1,26.8 75.6,26.7 76.1,26.5 76.5,26.4 77.0,26.3 77.5,26.1 78.0,26.0 78.5,25.9 79.0,25.7 79.5,25.6 79.9,25.5 80.4,25.3 80.9,25.2 81.4,25.0 81.9,24.9 82.4,24.7 82.9,24.6 83.4,24.4 83.8,24.2 84.3,24.0 84.8,23.9 85.3,23.7 85.8,23.4 86.3,23.2 86.8,23.0 87.3,22.8 87.7,22.5 88.2,22.3 88.7,22.0 89.2,21.7 89.7,21.4 90.2,21.1 90.7,20.8 91.1,20.4 91.6,20.1 92.1,19.7 92.6,19.3 93.1,18.9 93.6,18.5 94.1,18.0 94.6,17.5 95.0,17.0 95.5,16.5 96.0,16.0 96.5,15.5 97.0,14.9 97.5,14.3 98.0,13.7 98.5,13.0 98.9,12.3 99.4,11.6 99.9,10.9 100.4,10.2 100.9,9.4 101.4,8.6 101.9,7.7 102.3,6.9' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='110.0,26.0 107.7,27.1 107.7,24.9'/><polygon points='78.0,0.0 79.1,2.3 76.9,2.3'/><text x='109.0' y='23.5' text-anchor='end' font-size='5'>x</text><text x='80.0' y='2.0' text-anchor='start' font-size='5'>y</text></g><g fill='currentColor'><text x='114.0' y='14.0' text-anchor='start' font-size='6'>y = f(x)</text></g><line x1='6' y1='58' x2='154' y2='58' stroke='currentColor' stroke-width='0.4' stroke-dasharray='1.5 2'/><g fill='none' stroke='currentColor'><g stroke-width='0.6'><line x1='18.0' y1='88.0' x2='72.0' y2='88.0'/><line x1='44.0' y1='110.0' x2='44.0' y2='64.0'/></g><polyline points='46.0,66.7 46.3,68.9 46.5,70.6 46.7,72.1 46.9,73.3 47.2,74.3 47.4,75.2 47.6,76.0 47.8,76.7 48.1,77.4 48.3,77.9 48.5,78.4 48.7,78.9 49.0,79.3 49.2,79.7 49.4,80.0 49.7,80.3 49.9,80.6 50.1,80.9 50.3,81.2 50.6,81.4 50.8,81.6 51.0,81.8 51.2,82.0 51.5,82.2 51.7,82.4 51.9,82.5 52.1,82.7 52.4,82.8 52.6,83.0 52.8,83.1 53.0,83.2 53.3,83.3 53.5,83.4 53.7,83.6 53.9,83.7 54.2,83.7 54.4,83.8 54.6,83.9 54.9,84.0 55.1,84.1 55.3,84.2 55.5,84.2 55.8,84.3 56.0,84.4 56.2,84.5 56.4,84.5 56.7,84.6 56.9,84.6 57.1,84.7 57.3,84.8 57.6,84.8 57.8,84.9 58.0,84.9 58.2,85.0 58.5,85.0 58.7,85.1 58.9,85.1 59.1,85.1 59.4,85.2 59.6,85.2 59.8,85.3 60.1,85.3 60.3,85.3 60.5,85.4 60.7,85.4 61.0,85.4 61.2,85.5 61.4,85.5 61.6,85.5 61.9,85.6 62.1,85.6 62.3,85.6 62.5,85.7 62.8,85.7 63.0,85.7 63.2,85.7 63.4,85.8 63.7,85.8 63.9,85.8 64.1,85.9 64.3,85.9 64.6,85.9 64.8,85.9 65.0,85.9 65.3,86.0 65.5,86.0 65.7,86.0 65.9,86.0 66.2,86.0 66.4,86.1 66.6,86.1' stroke-width='1.1'/><polyline points='42.0,109.3 41.7,107.1 41.5,105.4 41.3,103.9 41.1,102.7 40.8,101.7 40.6,100.8 40.4,100.0 40.2,99.3 39.9,98.6 39.7,98.1 39.5,97.6 39.3,97.1 39.0,96.7 38.8,96.3 38.6,96.0 38.3,95.7 38.1,95.4 37.9,95.1 37.7,94.8 37.4,94.6 37.2,94.4 37.0,94.2 36.8,94.0 36.5,93.8 36.3,93.6 36.1,93.5 35.9,93.3 35.6,93.2 35.4,93.0 35.2,92.9 35.0,92.8 34.7,92.7 34.5,92.6 34.3,92.4 34.1,92.3 33.8,92.3 33.6,92.2 33.4,92.1 33.1,92.0 32.9,91.9 32.7,91.8 32.5,91.8 32.2,91.7 32.0,91.6 31.8,91.5 31.6,91.5 31.3,91.4 31.1,91.4 30.9,91.3 30.7,91.2 30.4,91.2 30.2,91.1 30.0,91.1 29.8,91.0 29.5,91.0 29.3,90.9 29.1,90.9 28.9,90.9 28.6,90.8 28.4,90.8 28.2,90.7 27.9,90.7 27.7,90.7 27.5,90.6 27.3,90.6 27.0,90.6 26.8,90.5 26.6,90.5 26.4,90.5 26.1,90.4 25.9,90.4 25.7,90.4 25.5,90.3 25.2,90.3 25.0,90.3 24.8,90.3 24.6,90.2 24.3,90.2 24.1,90.2 23.9,90.1 23.7,90.1 23.4,90.1 23.2,90.1 23.0,90.1 22.7,90.0 22.5,90.0 22.3,90.0 22.1,90.0 21.8,90.0 21.6,89.9 21.4,89.9' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='74.0,88.0 71.7,89.1 71.7,86.9'/><polygon points='44.0,62.0 45.1,64.3 42.9,64.3'/><text x='73.0' y='85.5' text-anchor='end' font-size='5'>x</text><text x='46.0' y='64.0' text-anchor='start' font-size='5'>y</text><text x='16.0' y='71.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>1</tspan></text></g><g fill='none' stroke='currentColor'><g stroke-width='0.6'><line x1='98.0' y1='88.0' x2='152.0' y2='88.0'/><line x1='124.0' y1='110.0' x2='124.0' y2='64.0'/></g><polyline points='101.4,68.9 101.8,69.0 102.3,69.2 102.7,69.4 103.2,69.6 103.7,69.7 104.1,69.9 104.6,70.1 105.0,70.3 105.5,70.5 105.9,70.7 106.4,70.9 106.8,71.1 107.3,71.3 107.7,71.5 108.2,71.7 108.6,71.9 109.1,72.1 109.5,72.4 110.0,72.6 110.4,72.9 110.9,73.1 111.3,73.3 111.8,73.6 112.2,73.9 112.7,74.2 113.1,74.4 113.6,74.7 114.1,75.0 114.5,75.3 115.0,75.7 115.4,76.0 115.9,76.3 116.3,76.7 116.8,77.1 117.2,77.5 117.7,77.9 118.1,78.3 118.6,78.8 119.0,79.3 119.5,79.8 119.9,80.4 120.4,81.0 120.8,81.6 121.3,82.4 121.7,83.1 122.2,84.0 122.6,84.9 123.1,85.9 123.5,86.9 124.0,88.0 124.5,89.1 124.9,90.1 125.4,91.1 125.8,92.0 126.3,92.9 126.7,93.6 127.2,94.4 127.6,95.0 128.1,95.6 128.5,96.2 129.0,96.7 129.4,97.2 129.9,97.7 130.3,98.1 130.8,98.5 131.2,98.9 131.7,99.3 132.1,99.7 132.6,100.0 133.0,100.3 133.5,100.7 133.9,101.0 134.4,101.3 134.9,101.6 135.3,101.8 135.8,102.1 136.2,102.4 136.7,102.7 137.1,102.9 137.6,103.1 138.0,103.4 138.5,103.6 138.9,103.9 139.4,104.1 139.8,104.3 140.3,104.5 140.7,104.7 141.2,104.9 141.6,105.1 142.1,105.3 142.5,105.5 143.0,105.7 143.4,105.9 143.9,106.1 144.3,106.3 144.8,106.4 145.3,106.6 145.7,106.8 146.2,107.0 146.6,107.1' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='154.0,88.0 151.7,89.1 151.7,86.9'/><polygon points='124.0,62.0 125.1,64.3 122.9,64.3'/><text x='153.0' y='85.5' text-anchor='end' font-size='5'>x</text><text x='126.0' y='64.0' text-anchor='start' font-size='5'>y</text><text x='96.0' y='71.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>2</tspan></text></g><g fill='none' stroke='currentColor'><g stroke-width='0.6'><line x1='18.0' y1='144.0' x2='72.0' y2='144.0'/><line x1='44.0' y1='166.0' x2='44.0' y2='120.0'/></g><polyline points='21.4,163.1 21.8,163.0 22.3,162.8 22.7,162.6 23.2,162.4 23.7,162.3 24.1,162.1 24.6,161.9 25.0,161.7 25.5,161.5 25.9,161.3 26.4,161.1 26.8,160.9 27.3,160.7 27.7,160.5 28.2,160.3 28.6,160.1 29.1,159.9 29.5,159.6 30.0,159.4 30.4,159.1 30.9,158.9 31.3,158.7 31.8,158.4 32.2,158.1 32.7,157.8 33.1,157.6 33.6,157.3 34.1,157.0 34.5,156.7 35.0,156.3 35.4,156.0 35.9,155.7 36.3,155.3 36.8,154.9 37.2,154.5 37.7,154.1 38.1,153.7 38.6,153.2 39.0,152.7 39.5,152.2 39.9,151.6 40.4,151.0 40.8,150.4 41.3,149.6 41.7,148.9 42.2,148.0 42.6,147.1 43.1,146.1 43.5,145.1 44.0,144.0 44.5,142.9 44.9,141.9 45.4,140.9 45.8,140.0 46.3,139.1 46.7,138.4 47.2,137.6 47.6,137.0 48.1,136.4 48.5,135.8 49.0,135.3 49.4,134.8 49.9,134.3 50.3,133.9 50.8,133.5 51.2,133.1 51.7,132.7 52.1,132.3 52.6,132.0 53.0,131.7 53.5,131.3 53.9,131.0 54.4,130.7 54.9,130.4 55.3,130.2 55.8,129.9 56.2,129.6 56.7,129.3 57.1,129.1 57.6,128.9 58.0,128.6 58.5,128.4 58.9,128.1 59.4,127.9 59.8,127.7 60.3,127.5 60.7,127.3 61.2,127.1 61.6,126.9 62.1,126.7 62.5,126.5 63.0,126.3 63.4,126.1 63.9,125.9 64.3,125.7 64.8,125.6 65.3,125.4 65.7,125.2 66.2,125.0 66.6,124.9' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='74.0,144.0 71.7,145.1 71.7,142.9'/><polygon points='44.0,118.0 45.1,120.3 42.9,120.3'/><text x='73.0' y='141.5' text-anchor='end' font-size='5'>x</text><text x='46.0' y='120.0' text-anchor='start' font-size='5'>y</text><text x='16.0' y='127.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>3</tspan></text></g><g fill='none' stroke='currentColor'><g stroke-width='0.6'><line x1='98.0' y1='144.0' x2='152.0' y2='144.0'/><line x1='124.0' y1='166.0' x2='124.0' y2='120.0'/></g><polyline points='101.4,124.9 101.8,125.7 102.3,126.6 102.7,127.4 103.2,128.2 103.7,128.9 104.1,129.6 104.6,130.3 105.0,131.0 105.5,131.7 105.9,132.3 106.4,132.9 106.8,133.5 107.3,134.0 107.7,134.5 108.2,135.0 108.6,135.5 109.1,136.0 109.5,136.5 110.0,136.9 110.4,137.3 110.9,137.7 111.3,138.1 111.8,138.4 112.2,138.8 112.7,139.1 113.1,139.4 113.6,139.7 114.1,140.0 114.5,140.3 115.0,140.5 115.4,140.8 115.9,141.0 116.3,141.2 116.8,141.4 117.2,141.7 117.7,141.9 118.1,142.0 118.6,142.2 119.0,142.4 119.5,142.6 119.9,142.7 120.4,142.9 120.8,143.0 121.3,143.2 121.7,143.3 122.2,143.5 122.6,143.6 123.1,143.7 123.5,143.9 124.0,144.0 124.5,143.9 124.9,143.7 125.4,143.6 125.8,143.5 126.3,143.3 126.7,143.2 127.2,143.0 127.6,142.9 128.1,142.7 128.5,142.6 129.0,142.4 129.4,142.2 129.9,142.0 130.3,141.9 130.8,141.7 131.2,141.4 131.7,141.2 132.1,141.0 132.6,140.8 133.0,140.5 133.5,140.3 133.9,140.0 134.4,139.7 134.9,139.4 135.3,139.1 135.8,138.8 136.2,138.4 136.7,138.1 137.1,137.7 137.6,137.3 138.0,136.9 138.5,136.5 138.9,136.0 139.4,135.5 139.8,135.0 140.3,134.5 140.7,134.0 141.2,133.5 141.6,132.9 142.1,132.3 142.5,131.7 143.0,131.0 143.4,130.3 143.9,129.6 144.3,128.9 144.8,128.2 145.3,127.4 145.7,126.6 146.2,125.7 146.6,124.9' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='154.0,144.0 151.7,145.1 151.7,142.9'/><polygon points='124.0,118.0 125.1,120.3 122.9,120.3'/><text x='153.0' y='141.5' text-anchor='end' font-size='5'>x</text><text x='126.0' y='120.0' text-anchor='start' font-size='5'>y</text><text x='96.0' y='127.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>4</tspan></text></g></svg>",
+"opts": [
+"gráfico 3.",
+"gráfico 1.",
+"gráfico 2.",
+"gráfico 4."
+],
+"a": 0,
+"d": [
+[
+"Gráfico da inversa",
+"O gráfico de f⁻¹ é o reflexo do gráfico de f na reta y = x: se (a, b) está no gráfico de f, (b, a) está no de f⁻¹. Se f é crescente, f⁻¹ também é.",
+"Ex.: f(x) = x³ tem inversa ∛x: onde x³ é achatada (perto de 0), ∛x é íngreme."
+],
+[
+"Função inversível",
+"Só tem inversa a função em que cada valor de y vem de um único x.",
+""
+]
+],
+"h": [
+"f é crescente, passa pela origem, é quase horizontal perto de 0 e muito íngreme nas pontas.",
+"Trocando x com y, f⁻¹ é crescente, passa pela origem, é íngreme perto de 0 e achatada nas pontas.",
+"O 1 é uma hipérbole, o 2 é decrescente e o 4 tem forma de U: <b>gráfico 3</b>."
+]
+},
+{
+"id": "2016-1-45",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2016, 1ª fase, questão 45",
+"r": 1330,
+"tm": 60,
+"ctx": "Considere a função afim f(x) = ax + b definida para todo número real x, onde a e b são números reais. Sabendo que f(4) = 2, podemos afirmar que f(f(3) + f(5)) é igual a",
+"opts": [
+"2.",
+"5.",
+"4.",
+"3."
+],
+"a": 0,
+"d": [
+[
+"Função afim",
+"f(x) = ax + b. Some f(3) + f(5) usando a lei da função e compare o resultado com f(4).",
+"Ex.: f(1) + f(3) = (a + b) + (3a + b) = 4a + 2b = 2f(2)."
+]
+],
+"h": [
+"f(3) + f(5) = (3a + b) + (5a + b) = 8a + 2b = 2(4a + b) = 2f(4) = 4.",
+"f(f(3) + f(5)) = f(4).",
+"f(4) = <b>2</b>."
+]
+},
+{
+"id": "2016-1-46",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2016, 1ª fase, questão 46",
+"r": 1310,
+"tm": 60,
+"ctx": "A solução da equação na variável real x, log<sub>x</sub>(x + 6) = 2, é um número",
+"opts": [
+"primo.",
+"par.",
+"negativo.",
+"irracional."
+],
+"a": 0,
+"d": [
+[
+"Definição de logaritmo",
+"log<sub>b</sub> N = k ⟺ b<sup>k</sup> = N, com base b > 0, b ≠ 1, e N > 0.",
+"Ex.: log<sub>x</sub> 9 = 2 ⟹ x² = 9 ⟹ x = 3 (x = −3 não serve como base)."
+]
+],
+"h": [
+"log<sub>x</sub>(x + 6) = 2 ⟹ x² = x + 6 ⟹ x² − x − 6 = 0.",
+"Raízes: x = 3 ou x = −2; a base não pode ser negativa ⟹ x = 3.",
+"3 é um número <b>primo</b>."
+]
+},
+{
+"id": "2016-1-47",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2016, 1ª fase, questão 47",
+"r": 1400,
+"tm": 75,
+"ctx": "Seja (a, b, c) uma progressão geométrica de números reais com a ≠ 0. Definindo s = a + b + c, o menor valor possível para s/a é igual a",
+"opts": [
+"3/4.",
+"1/2.",
+"2/3.",
+"4/5."
+],
+"a": 0,
+"d": [
+[
+"Termos da PG",
+"Com razão q: b = aq e c = aq².",
+""
+],
+[
+"Mínimo do 2º grau",
+"y = Aq² + Bq + C, com A > 0, tem valor mínimo no vértice, em q = −B/(2A).",
+"Ex.: q² − 4q + 7 tem mínimo em q = 2, igual a 3."
+]
+],
+"h": [
+"s/a = (a + aq + aq²)/a = 1 + q + q².",
+"Vértice: q = −1/2.",
+"Mínimo: 1 − 1/2 + 1/4 = <b>3/4</b>."
+]
+},
+{
+"id": "2016-1-48",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2016, 1ª fase, questão 48",
+"r": 1170,
+"tm": 60,
+"ctx": "Considere o sistema linear nas variáveis reais x, y, z e w:<br>x − y = 1<br>y + z = 2<br>w − z = 3<br>Logo, a soma x + y + z + w é igual a",
+"opts": [
+"8.",
+"−2.",
+"0.",
+"6."
+],
+"a": 0,
+"d": [
+[
+"Combinar equações",
+"Nem sempre é preciso achar cada incógnita: escreva a soma pedida usando expressões que já aparecem no sistema.",
+"Ex.: se x − y = 1 e y = 2, então x + y = 2y + 1 = 5."
+]
+],
+"h": [
+"x = 1 + y e w = 3 + z.",
+"x + y + z + w = (1 + y) + y + z + (3 + z) = 4 + 2(y + z).",
+"Como y + z = 2: soma = 4 + 4 = <b>8</b>."
+]
+},
+{
+"id": "2016-1-49",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2016, 1ª fase, questão 49",
+"r": 1420,
+"tm": 75,
+"ctx": "Considere a matriz quadrada de ordem 3 A = [cos x  0  −sen x; 0  1  0; sen x  0  cos x] (linhas separadas por ponto e vírgula), onde x é um número real. Podemos afirmar que",
+"opts": [
+"A é invertível para todos os valores de x.",
+"A não é invertível para nenhum valor de x.",
+"A é invertível para um único valor de x.",
+"A é invertível para exatamente dois valores de x."
+],
+"a": 0,
+"d": [
+[
+"Matriz invertível",
+"Uma matriz quadrada é invertível ⟺ seu determinante é diferente de zero.",
+""
+],
+[
+"Determinante 3 × 3",
+"Use a regra de Sarrus ou desenvolva pela linha (ou coluna) que tem mais zeros.",
+""
+],
+[
+"Relação fundamental",
+"sen² x + cos² x = 1 para todo x.",
+""
+]
+],
+"h": [
+"Pela 2ª linha (só o elemento central, 1, é não nulo): det A = 1 × det [cos x  −sen x; sen x  cos x].",
+"det A = cos² x + sen² x = 1.",
+"det A = 1 ≠ 0 para todo x: <b>A é invertível para todos os valores de x</b>."
+]
+},
+{
+"id": "2016-1-50",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2016, 1ª fase, questão 50",
+"r": 1560,
+"tm": 75,
+"ctx": "Considere o círculo de equação cartesiana x² + y² = ax + by, onde a e b são números reais não nulos. O número de pontos em que esse círculo intercepta os eixos coordenados é igual a",
+"opts": [
+"3.",
+"1.",
+"2.",
+"4."
+],
+"a": 0,
+"d": [
+[
+"Interseção com os eixos",
+"No eixo x, y = 0; no eixo y, x = 0. Substitua na equação e resolva.",
+""
+],
+[
+"Pontos repetidos",
+"Um mesmo ponto pode estar nos dois eixos (a origem): conte-o uma só vez.",
+""
+]
+],
+"h": [
+"y = 0: x² = ax ⟹ x = 0 ou x = a: pontos (0, 0) e (a, 0).",
+"x = 0: y² = by ⟹ y = 0 ou y = b: pontos (0, 0) e (0, b).",
+"A origem aparece nas duas listas: <b>3 pontos</b> distintos (a e b não nulos)."
+]
+},
+{
+"id": "2016-1-51",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2016, 1ª fase, questão 51",
+"r": 1540,
+"tm": 120,
+"ctx": "A figura exibe um quadrilátero ABCD, onde AB = AD e BC = CD = 2 cm. A área do quadrilátero ABCD é igual a",
+"fig": "<svg viewBox='0 0 160 90' class='fg' role='img' aria-label='quadrilátero ABCD em forma de pipa: A à esquerda, B em cima, C à direita e D embaixo. O ângulo em A é reto e o ângulo em C mede 45 graus'><g fill='none' stroke='currentColor' stroke-width='0.9'><polygon points='31.5,44.0 62.1,13.4 136.0,44.0 62.1,74.6'/><polyline points='35.0,40.5 38.5,44.0 35.0,47.5' stroke-width='0.5'/><path d='M124.9,48.6 A12,12 0 0 1 124.9,39.4' stroke-width='0.6'/></g><g fill='currentColor'><text x='28.5' y='46.5' text-anchor='end' font-size='7'>A</text><text x='62.1' y='10.4' text-anchor='middle' font-size='7'>B</text><text x='139.0' y='46.5' text-anchor='start' font-size='7'>C</text><text x='62.1' y='82.6' text-anchor='middle' font-size='7'>D</text><text x='121.0' y='46.0' text-anchor='end' font-size='6'>45°</text></g></svg>",
+"opts": [
+"2 cm².",
+"√2 cm².",
+"2√2 cm².",
+"3 cm²."
+],
+"a": 0,
+"d": [
+[
+"Área por dois lados e o ângulo entre eles",
+"A = (1/2)·a·b·sen θ, em que θ é o ângulo entre os lados a e b.",
+"Ex.: lados 4 e 3 com 30° entre eles ⟹ A = (1/2)·4·3·(1/2) = 3."
+],
+[
+"Lei dos cossenos",
+"No triângulo BCD: BD² = BC² + CD² − 2·BC·CD·cos Ĉ.",
+""
+],
+[
+"Triângulo retângulo isósceles",
+"Com catetos iguais a x, a hipotenusa mede x√2 e a área é x²/2.",
+""
+]
+],
+"h": [
+"Divida pela diagonal BD. Triângulo BCD: área = (1/2)·2·2·sen 45° = √2, e BD² = 4 + 4 − 8·cos 45° = 8 − 4√2.",
+"Triângulo ABD, retângulo isósceles em A: 2·AB² = BD² ⟹ AB² = 4 − 2√2; área = AB²/2 = 2 − √2.",
+"Área total = √2 + (2 − √2) = <b>2 cm²</b>."
+]
+},
+{
+"id": "2016-1-52",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2016, 1ª fase, questão 52",
+"r": 1300,
+"tm": 75,
+"ctx": "Um cilindro circular reto, cuja altura é igual ao diâmetro da base, está inscrito numa esfera. A razão entre os volumes da esfera e do cilindro é igual a",
+"opts": [
+"4√2/3.",
+"4/3.",
+"3√2/4.",
+"√2."
+],
+"a": 0,
+"d": [
+[
+"Cilindro inscrito na esfera",
+"Num corte pelo eixo, o retângulo do cilindro (diâmetro da base × altura) fica inscrito no círculo máximo da esfera: a diagonal do retângulo é o diâmetro da esfera.",
+""
+],
+[
+"Volumes",
+"Esfera: (4/3)πR³. Cilindro: πr²h.",
+""
+]
+],
+"h": [
+"Com h = 2r, o corte é um quadrado de lado 2r, de diagonal 2r√2 = 2R ⟹ R = r√2.",
+"V<sub>esfera</sub> = (4/3)π(r√2)³ = (8√2/3)πr³; V<sub>cilindro</sub> = πr²·2r = 2πr³.",
+"Razão = (8√2/3)/2 = <b>4√2/3</b>."
+]
+},
+{
+"id": "2016-1-53",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2016, 1ª fase, questão 53",
+"r": 1430,
+"tm": 90,
+"ctx": "Considere o polinômio cúbico p(x) = x³ + x² − ax − 3, onde a é um número real. Sabendo que r e −r são raízes reais de p(x), podemos afirmar que p(1) é igual a",
+"opts": [
+"−4.",
+"3.",
+"1.",
+"−2."
+],
+"a": 0,
+"d": [
+[
+"Raízes simétricas",
+"Se r e −r são raízes, então p(r) = 0 e p(−r) = 0. Somando as duas igualdades, sobram os termos de grau par; subtraindo, os de grau ímpar.",
+""
+]
+],
+"h": [
+"p(r) + p(−r) = 2r² − 6 = 0 ⟹ r² = 3.",
+"p(r) − p(−r) = 2r³ − 2ar = 0 ⟹ a = r² = 3.",
+"p(1) = 1 + 1 − 3 − 3 = <b>−4</b>."
+]
+},
+{
+"id": "2016-1-54",
+"ano": 2016,
+"fase": 1,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2016, 1ª fase, questão 54",
+"r": 1280,
+"tm": 75,
+"ctx": "Considere o número complexo z = (1 + ai)/(a − i), onde a é um número real e i é a unidade imaginária, isto é, i² = −1. O valor de z²⁰¹⁶ é igual a",
+"opts": [
+"1.",
+"a²⁰¹⁶.",
+"1 + 2016i.",
+"i."
+],
+"a": 0,
+"d": [
+[
+"Simplificar uma fração de complexos",
+"Verifique se o numerador é um múltiplo do denominador, ou multiplique em cima e embaixo pelo conjugado do denominador.",
+"Ex.: (2 + 4i)/(1 + 2i) = 2."
+],
+[
+"Potências de i",
+"i¹ = i, i² = −1, i³ = −i, i⁴ = 1, e o ciclo se repete de 4 em 4: iⁿ depende do resto da divisão de n por 4.",
+""
+]
+],
+"h": [
+"i(a − i) = ai − i² = 1 + ai: o numerador é i vezes o denominador ⟹ z = i.",
+"2016 = 4 × 504 ⟹ i²⁰¹⁶ = (i⁴)⁵⁰⁴.",
+"z²⁰¹⁶ = <b>1</b>."
+]
+},
+{
+"id": "2016-2-mat-07a",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 7(a) (adaptada: no original, mostrar que as médias são iguais)",
+"r": 1360,
+"tm": 90,
+"ctx": "O gráfico de barras exibe a distribuição da idade de um grupo de pessoas, separadas em homens e mulheres. Calcule a média de idade dos homens e a média de idade das mulheres desse grupo. As duas médias são iguais: qual é esse valor, em anos?",
+"fig": "<svg viewBox='0 0 160 100' class='fg' role='img' aria-label='gráfico de barras do número de pessoas por idade, de 21 a 25 anos. Homens, barras escuras: 4 com 21 anos, 5 com 22, 4 com 23, 1 com 24 e 2 com 25. Mulheres, barras claras: 5 com 21, 2 com 22, 3 com 23, 3 com 24 e 1 com 25'><g stroke='currentColor' stroke-width='0.6'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='30' y1='68.0' x2='152' y2='68.0'/><line x1='30' y1='56.0' x2='152' y2='56.0'/><line x1='30' y1='44.0' x2='152' y2='44.0'/><line x1='30' y1='32.0' x2='152' y2='32.0'/><line x1='30' y1='20.0' x2='152' y2='20.0'/></g><rect x='38' y='32.0' width='7.5' height='48' fill='currentColor' fill-opacity='0.85'/><rect x='46' y='20.0' width='7.5' height='60' fill='currentColor' fill-opacity='0.2'/><rect x='62' y='20.0' width='7.5' height='60' fill='currentColor' fill-opacity='0.85'/><rect x='70' y='56.0' width='7.5' height='24' fill='currentColor' fill-opacity='0.2'/><rect x='86' y='32.0' width='7.5' height='48' fill='currentColor' fill-opacity='0.85'/><rect x='94' y='44.0' width='7.5' height='36' fill='currentColor' fill-opacity='0.2'/><rect x='110' y='68.0' width='7.5' height='12' fill='currentColor' fill-opacity='0.85'/><rect x='118' y='44.0' width='7.5' height='36' fill='currentColor' fill-opacity='0.2'/><rect x='134' y='56.0' width='7.5' height='24' fill='currentColor' fill-opacity='0.85'/><rect x='142' y='68.0' width='7.5' height='12' fill='currentColor' fill-opacity='0.2'/><g stroke-width='0.8'><line x1='30.0' y1='80.0' x2='152.0' y2='80.0'/><line x1='30.0' y1='80.0' x2='30.0' y2='14.0'/></g><rect x='112' y='4' width='6' height='5' fill='currentColor' fill-opacity='0.85'/><rect x='112' y='12' width='6' height='5' fill='currentColor' fill-opacity='0.2'/></g><g fill='currentColor'><text x='27.0' y='82.0' text-anchor='end' font-size='5.5'>0</text><text x='27.0' y='70.0' text-anchor='end' font-size='5.5'>1</text><text x='27.0' y='58.0' text-anchor='end' font-size='5.5'>2</text><text x='27.0' y='46.0' text-anchor='end' font-size='5.5'>3</text><text x='27.0' y='34.0' text-anchor='end' font-size='5.5'>4</text><text x='27.0' y='22.0' text-anchor='end' font-size='5.5'>5</text><text x='46.0' y='87.0' text-anchor='middle' font-size='5.5'>21</text><text x='70.0' y='87.0' text-anchor='middle' font-size='5.5'>22</text><text x='94.0' y='87.0' text-anchor='middle' font-size='5.5'>23</text><text x='118.0' y='87.0' text-anchor='middle' font-size='5.5'>24</text><text x='142.0' y='87.0' text-anchor='middle' font-size='5.5'>25</text><text x='94.0' y='96.0' text-anchor='middle' font-size='6'>Idade</text><text x='12.0' y='47.0' text-anchor='middle' font-size='5.5' transform='rotate(-90 12.0 47.0)'>Número de pessoas</text><text x='121.0' y='8.5' text-anchor='start' font-size='5.5'>Homens</text><text x='121.0' y='16.5' text-anchor='start' font-size='5.5'>Mulheres</text></g></svg>",
+"a": 22.5,
+"u": "anos",
+"tol": 0.005,
+"d": [
+[
+"Média ponderada",
+"Média = Σ(idade × número de pessoas com essa idade)/(número total de pessoas).",
+"Ex.: 3 pessoas de 20 anos e 1 de 24 ⟹ (60 + 24)/4 = 21 anos."
+]
+],
+"h": [
+"Homens: 4 + 5 + 4 + 1 + 2 = 16; soma das idades = 84 + 110 + 92 + 24 + 50 = 360 ⟹ média 360/16 = 22,5.",
+"Mulheres: 5 + 2 + 3 + 3 + 1 = 14; soma = 105 + 44 + 69 + 72 + 25 = 315 ⟹ média 315/14 = 22,5.",
+"As médias são iguais: <b>22,5 anos</b>."
+]
+},
+{
+"id": "2016-2-mat-07b",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 7(b) (adaptada para múltipla escolha)",
+"r": 1580,
+"tm": 90,
+"ctx": "O gráfico de barras exibe a distribuição da idade de um grupo de pessoas, separadas em homens e mulheres. Escolhendo ao acaso um homem e uma mulher desse grupo, determine a probabilidade de que a soma de suas idades seja igual a 49 anos.",
+"fig": "<svg viewBox='0 0 160 100' class='fg' role='img' aria-label='gráfico de barras do número de pessoas por idade, de 21 a 25 anos. Homens, barras escuras: 4 com 21 anos, 5 com 22, 4 com 23, 1 com 24 e 2 com 25. Mulheres, barras claras: 5 com 21, 2 com 22, 3 com 23, 3 com 24 e 1 com 25'><g stroke='currentColor' stroke-width='0.6'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='30' y1='68.0' x2='152' y2='68.0'/><line x1='30' y1='56.0' x2='152' y2='56.0'/><line x1='30' y1='44.0' x2='152' y2='44.0'/><line x1='30' y1='32.0' x2='152' y2='32.0'/><line x1='30' y1='20.0' x2='152' y2='20.0'/></g><rect x='38' y='32.0' width='7.5' height='48' fill='currentColor' fill-opacity='0.85'/><rect x='46' y='20.0' width='7.5' height='60' fill='currentColor' fill-opacity='0.2'/><rect x='62' y='20.0' width='7.5' height='60' fill='currentColor' fill-opacity='0.85'/><rect x='70' y='56.0' width='7.5' height='24' fill='currentColor' fill-opacity='0.2'/><rect x='86' y='32.0' width='7.5' height='48' fill='currentColor' fill-opacity='0.85'/><rect x='94' y='44.0' width='7.5' height='36' fill='currentColor' fill-opacity='0.2'/><rect x='110' y='68.0' width='7.5' height='12' fill='currentColor' fill-opacity='0.85'/><rect x='118' y='44.0' width='7.5' height='36' fill='currentColor' fill-opacity='0.2'/><rect x='134' y='56.0' width='7.5' height='24' fill='currentColor' fill-opacity='0.85'/><rect x='142' y='68.0' width='7.5' height='12' fill='currentColor' fill-opacity='0.2'/><g stroke-width='0.8'><line x1='30.0' y1='80.0' x2='152.0' y2='80.0'/><line x1='30.0' y1='80.0' x2='30.0' y2='14.0'/></g><rect x='112' y='4' width='6' height='5' fill='currentColor' fill-opacity='0.85'/><rect x='112' y='12' width='6' height='5' fill='currentColor' fill-opacity='0.2'/></g><g fill='currentColor'><text x='27.0' y='82.0' text-anchor='end' font-size='5.5'>0</text><text x='27.0' y='70.0' text-anchor='end' font-size='5.5'>1</text><text x='27.0' y='58.0' text-anchor='end' font-size='5.5'>2</text><text x='27.0' y='46.0' text-anchor='end' font-size='5.5'>3</text><text x='27.0' y='34.0' text-anchor='end' font-size='5.5'>4</text><text x='27.0' y='22.0' text-anchor='end' font-size='5.5'>5</text><text x='46.0' y='87.0' text-anchor='middle' font-size='5.5'>21</text><text x='70.0' y='87.0' text-anchor='middle' font-size='5.5'>22</text><text x='94.0' y='87.0' text-anchor='middle' font-size='5.5'>23</text><text x='118.0' y='87.0' text-anchor='middle' font-size='5.5'>24</text><text x='142.0' y='87.0' text-anchor='middle' font-size='5.5'>25</text><text x='94.0' y='96.0' text-anchor='middle' font-size='6'>Idade</text><text x='12.0' y='47.0' text-anchor='middle' font-size='5.5' transform='rotate(-90 12.0 47.0)'>Número de pessoas</text><text x='121.0' y='8.5' text-anchor='start' font-size='5.5'>Homens</text><text x='121.0' y='16.5' text-anchor='start' font-size='5.5'>Mulheres</text></g></svg>",
+"opts": [
+"1/32",
+"1/16",
+"7/30",
+"1/28"
+],
+"a": 0,
+"d": [
+[
+"Princípio multiplicativo",
+"Escolher um homem e uma mulher: (nº de homens) × (nº de mulheres) pares possíveis, todos igualmente prováveis.",
+""
+],
+[
+"Casos favoráveis",
+"Liste os pares de idades que dão a soma pedida e multiplique as quantidades de pessoas com cada idade.",
+"Ex.: soma 50 com idades até 25 anos: só o par (25, 25)."
+]
+],
+"h": [
+"Pares possíveis: 16 × 14 = 224.",
+"Soma 49: homem de 24 e mulher de 25 (1 × 1 = 1 par) ou homem de 25 e mulher de 24 (2 × 3 = 6 pares) ⟹ 7 pares.",
+"P = 7/224 = <b>1/32</b>."
+]
+},
+{
+"id": "2016-2-mat-08a",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 8(a) (adaptada: no original, esboçar o gráfico)",
+"r": 1590,
+"tm": 90,
+"ctx": "Considere a função f(x) = |2x − 4| + x − 5, definida para todo número real x. Qual dos gráficos numerados representa y = f(x) para −4 ≤ x ≤ 4?",
+"fig": "<svg viewBox='0 0 160 146' class='fg' role='img' aria-label='quatro gráficos numerados em malhas quadriculadas de −4 a 4 nos dois eixos, todos formados por dois segmentos de reta. 1: de (−4, −1) desce até (−2, −3) e sobe até (4, 3). 2: de (−4, 3) desce até (2, −3) e sobe até (4, 3). 3: de (−4, 3) desce até (2, −3) e sobe até (4, −1). 4: de (−4, −3) sobe até (2, 3) e desce até (4, −3)'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='17.2' y1='6.0' x2='17.2' y2='64.0'/><line x1='23.7' y1='6.0' x2='23.7' y2='64.0'/><line x1='30.1' y1='6.0' x2='30.1' y2='64.0'/><line x1='36.6' y1='6.0' x2='36.6' y2='64.0'/><line x1='43.0' y1='6.0' x2='43.0' y2='64.0'/><line x1='49.4' y1='6.0' x2='49.4' y2='64.0'/><line x1='55.9' y1='6.0' x2='55.9' y2='64.0'/><line x1='62.3' y1='6.0' x2='62.3' y2='64.0'/><line x1='68.8' y1='6.0' x2='68.8' y2='64.0'/><line x1='14.0' y1='60.8' x2='72.0' y2='60.8'/><line x1='14.0' y1='54.3' x2='72.0' y2='54.3'/><line x1='14.0' y1='47.9' x2='72.0' y2='47.9'/><line x1='14.0' y1='41.4' x2='72.0' y2='41.4'/><line x1='14.0' y1='35.0' x2='72.0' y2='35.0'/><line x1='14.0' y1='28.6' x2='72.0' y2='28.6'/><line x1='14.0' y1='22.1' x2='72.0' y2='22.1'/><line x1='14.0' y1='15.7' x2='72.0' y2='15.7'/><line x1='14.0' y1='9.2' x2='72.0' y2='9.2'/></g><g stroke-width='0.6'><line x1='14.0' y1='35.0' x2='74.0' y2='35.0'/><line x1='43.0' y1='64.0' x2='43.0' y2='4.0'/></g><polyline points='17.2,41.4 30.1,54.3 68.8,15.7' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='76.0,35.0 73.7,36.1 73.7,33.9'/><polygon points='43.0,2.0 44.1,4.3 41.9,4.3'/><text x='75.0' y='32.5' text-anchor='end' font-size='5'>x</text><text x='45.0' y='4.0' text-anchor='start' font-size='5'>y</text><text x='17.2' y='40.0' text-anchor='middle' font-size='4.5'>−4</text><text x='30.1' y='40.0' text-anchor='middle' font-size='4.5'>−2</text><text x='55.9' y='40.0' text-anchor='middle' font-size='4.5'>2</text><text x='68.8' y='40.0' text-anchor='middle' font-size='4.5'>4</text><text x='41.8' y='62.4' text-anchor='end' font-size='4.5'>−4</text><text x='41.8' y='49.5' text-anchor='end' font-size='4.5'>−2</text><text x='41.8' y='23.7' text-anchor='end' font-size='4.5'>2</text><text x='41.8' y='10.8' text-anchor='end' font-size='4.5'>4</text><text x='12.0' y='11.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>1</tspan></text></g><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='97.2' y1='6.0' x2='97.2' y2='64.0'/><line x1='103.7' y1='6.0' x2='103.7' y2='64.0'/><line x1='110.1' y1='6.0' x2='110.1' y2='64.0'/><line x1='116.6' y1='6.0' x2='116.6' y2='64.0'/><line x1='123.0' y1='6.0' x2='123.0' y2='64.0'/><line x1='129.4' y1='6.0' x2='129.4' y2='64.0'/><line x1='135.9' y1='6.0' x2='135.9' y2='64.0'/><line x1='142.3' y1='6.0' x2='142.3' y2='64.0'/><line x1='148.8' y1='6.0' x2='148.8' y2='64.0'/><line x1='94.0' y1='60.8' x2='152.0' y2='60.8'/><line x1='94.0' y1='54.3' x2='152.0' y2='54.3'/><line x1='94.0' y1='47.9' x2='152.0' y2='47.9'/><line x1='94.0' y1='41.4' x2='152.0' y2='41.4'/><line x1='94.0' y1='35.0' x2='152.0' y2='35.0'/><line x1='94.0' y1='28.6' x2='152.0' y2='28.6'/><line x1='94.0' y1='22.1' x2='152.0' y2='22.1'/><line x1='94.0' y1='15.7' x2='152.0' y2='15.7'/><line x1='94.0' y1='9.2' x2='152.0' y2='9.2'/></g><g stroke-width='0.6'><line x1='94.0' y1='35.0' x2='154.0' y2='35.0'/><line x1='123.0' y1='64.0' x2='123.0' y2='4.0'/></g><polyline points='97.2,15.7 135.9,54.3 148.8,15.7' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='156.0,35.0 153.7,36.1 153.7,33.9'/><polygon points='123.0,2.0 124.1,4.3 121.9,4.3'/><text x='155.0' y='32.5' text-anchor='end' font-size='5'>x</text><text x='125.0' y='4.0' text-anchor='start' font-size='5'>y</text><text x='97.2' y='40.0' text-anchor='middle' font-size='4.5'>−4</text><text x='110.1' y='40.0' text-anchor='middle' font-size='4.5'>−2</text><text x='135.9' y='40.0' text-anchor='middle' font-size='4.5'>2</text><text x='148.8' y='40.0' text-anchor='middle' font-size='4.5'>4</text><text x='121.8' y='62.4' text-anchor='end' font-size='4.5'>−4</text><text x='121.8' y='49.5' text-anchor='end' font-size='4.5'>−2</text><text x='121.8' y='23.7' text-anchor='end' font-size='4.5'>2</text><text x='121.8' y='10.8' text-anchor='end' font-size='4.5'>4</text><text x='92.0' y='11.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>2</tspan></text></g><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='17.2' y1='82.0' x2='17.2' y2='140.0'/><line x1='23.7' y1='82.0' x2='23.7' y2='140.0'/><line x1='30.1' y1='82.0' x2='30.1' y2='140.0'/><line x1='36.6' y1='82.0' x2='36.6' y2='140.0'/><line x1='43.0' y1='82.0' x2='43.0' y2='140.0'/><line x1='49.4' y1='82.0' x2='49.4' y2='140.0'/><line x1='55.9' y1='82.0' x2='55.9' y2='140.0'/><line x1='62.3' y1='82.0' x2='62.3' y2='140.0'/><line x1='68.8' y1='82.0' x2='68.8' y2='140.0'/><line x1='14.0' y1='136.8' x2='72.0' y2='136.8'/><line x1='14.0' y1='130.3' x2='72.0' y2='130.3'/><line x1='14.0' y1='123.9' x2='72.0' y2='123.9'/><line x1='14.0' y1='117.4' x2='72.0' y2='117.4'/><line x1='14.0' y1='111.0' x2='72.0' y2='111.0'/><line x1='14.0' y1='104.6' x2='72.0' y2='104.6'/><line x1='14.0' y1='98.1' x2='72.0' y2='98.1'/><line x1='14.0' y1='91.7' x2='72.0' y2='91.7'/><line x1='14.0' y1='85.2' x2='72.0' y2='85.2'/></g><g stroke-width='0.6'><line x1='14.0' y1='111.0' x2='74.0' y2='111.0'/><line x1='43.0' y1='140.0' x2='43.0' y2='80.0'/></g><polyline points='17.2,91.7 55.9,130.3 68.8,117.4' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='76.0,111.0 73.7,112.1 73.7,109.9'/><polygon points='43.0,78.0 44.1,80.3 41.9,80.3'/><text x='75.0' y='108.5' text-anchor='end' font-size='5'>x</text><text x='45.0' y='80.0' text-anchor='start' font-size='5'>y</text><text x='17.2' y='116.0' text-anchor='middle' font-size='4.5'>−4</text><text x='30.1' y='116.0' text-anchor='middle' font-size='4.5'>−2</text><text x='55.9' y='116.0' text-anchor='middle' font-size='4.5'>2</text><text x='68.8' y='116.0' text-anchor='middle' font-size='4.5'>4</text><text x='41.8' y='138.4' text-anchor='end' font-size='4.5'>−4</text><text x='41.8' y='125.5' text-anchor='end' font-size='4.5'>−2</text><text x='41.8' y='99.7' text-anchor='end' font-size='4.5'>2</text><text x='41.8' y='86.8' text-anchor='end' font-size='4.5'>4</text><text x='12.0' y='87.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>3</tspan></text></g><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='97.2' y1='82.0' x2='97.2' y2='140.0'/><line x1='103.7' y1='82.0' x2='103.7' y2='140.0'/><line x1='110.1' y1='82.0' x2='110.1' y2='140.0'/><line x1='116.6' y1='82.0' x2='116.6' y2='140.0'/><line x1='123.0' y1='82.0' x2='123.0' y2='140.0'/><line x1='129.4' y1='82.0' x2='129.4' y2='140.0'/><line x1='135.9' y1='82.0' x2='135.9' y2='140.0'/><line x1='142.3' y1='82.0' x2='142.3' y2='140.0'/><line x1='148.8' y1='82.0' x2='148.8' y2='140.0'/><line x1='94.0' y1='136.8' x2='152.0' y2='136.8'/><line x1='94.0' y1='130.3' x2='152.0' y2='130.3'/><line x1='94.0' y1='123.9' x2='152.0' y2='123.9'/><line x1='94.0' y1='117.4' x2='152.0' y2='117.4'/><line x1='94.0' y1='111.0' x2='152.0' y2='111.0'/><line x1='94.0' y1='104.6' x2='152.0' y2='104.6'/><line x1='94.0' y1='98.1' x2='152.0' y2='98.1'/><line x1='94.0' y1='91.7' x2='152.0' y2='91.7'/><line x1='94.0' y1='85.2' x2='152.0' y2='85.2'/></g><g stroke-width='0.6'><line x1='94.0' y1='111.0' x2='154.0' y2='111.0'/><line x1='123.0' y1='140.0' x2='123.0' y2='80.0'/></g><polyline points='97.2,130.3 135.9,91.7 148.8,130.3' stroke-width='1.1'/></g><g fill='currentColor'><polygon points='156.0,111.0 153.7,112.1 153.7,109.9'/><polygon points='123.0,78.0 124.1,80.3 121.9,80.3'/><text x='155.0' y='108.5' text-anchor='end' font-size='5'>x</text><text x='125.0' y='80.0' text-anchor='start' font-size='5'>y</text><text x='97.2' y='116.0' text-anchor='middle' font-size='4.5'>−4</text><text x='110.1' y='116.0' text-anchor='middle' font-size='4.5'>−2</text><text x='135.9' y='116.0' text-anchor='middle' font-size='4.5'>2</text><text x='148.8' y='116.0' text-anchor='middle' font-size='4.5'>4</text><text x='121.8' y='138.4' text-anchor='end' font-size='4.5'>−4</text><text x='121.8' y='125.5' text-anchor='end' font-size='4.5'>−2</text><text x='121.8' y='99.7' text-anchor='end' font-size='4.5'>2</text><text x='121.8' y='86.8' text-anchor='end' font-size='4.5'>4</text><text x='92.0' y='87.0' text-anchor='end' font-size='7'><tspan font-weight='bold'>4</tspan></text></g></svg>",
+"opts": [
+"gráfico 2",
+"gráfico 1",
+"gráfico 3",
+"gráfico 4"
+],
+"a": 0,
+"d": [
+[
+"Função modular por partes",
+"|u| = u se u ≥ 0 e |u| = −u se u < 0. Ache onde a expressão dentro do módulo se anula e escreva f sem módulo de cada lado desse ponto.",
+"Ex.: |x − 1| + x vale 2x − 1 para x ≥ 1 e vale 1 para x < 1."
+],
+[
+"Gráfico por pontos",
+"Cada parte é um segmento de reta: calcule f no ponto de quebra e nas pontas do intervalo e ligue os pontos.",
+""
+]
+],
+"h": [
+"2x − 4 = 0 em x = 2. Para x < 2: f = −(2x − 4) + x − 5 = −x − 1. Para x ≥ 2: f = 2x − 4 + x − 5 = 3x − 9.",
+"f(−4) = 3, f(2) = −3 e f(4) = 3.",
+"Poligonal em V com vértice (2, −3), passando por (−4, 3) e (4, 3): <b>gráfico 2</b>."
+]
+},
+{
+"id": "2016-2-mat-08b",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 8(b) (adaptada para múltipla escolha)",
+"r": 1650,
+"tm": 90,
+"ctx": "Considere a função f(x) = |2x − 4| + x − 5, definida para todo número real x. Determine os valores dos números reais a e b para os quais a equação log<sub>a</sub>(x + b) = f(x) admite como soluções x₁ = −1 e x₂ = 6.",
+"opts": [
+"a = ∛2 e b = 2",
+"a = 2 e b = 2",
+"a = ∛2 e b = 1",
+"a = 8⁹ e b = 2"
+],
+"a": 0,
+"d": [
+[
+"Definição de logaritmo",
+"log<sub>a</sub> N = k ⟺ a<sup>k</sup> = N. Em particular, log<sub>a</sub> N = 0 ⟺ N = 1.",
+"Ex.: log<sub>a</sub> 27 = 3 ⟹ a³ = 27 ⟹ a = 3."
+],
+[
+"Usar as soluções",
+"Se x₁ é solução, a igualdade vale com x = x₁: calcule f(x₁) e obtenha uma equação em a e b. Faça o mesmo com x₂.",
+""
+]
+],
+"h": [
+"x = −1: f(−1) = |−6| − 1 − 5 = 0 ⟹ log<sub>a</sub>(b − 1) = 0 ⟹ b − 1 = 1 ⟹ b = 2.",
+"x = 6: f(6) = 8 + 6 − 5 = 9 ⟹ log<sub>a</sub>(6 + 2) = 9 ⟹ a⁹ = 8 = 2³.",
+"a = 2<sup>1/3</sup>: <b>a = ∛2 e b = 2</b>."
+]
+},
+{
+"id": "2016-2-mat-09a",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 9(a)",
+"r": 1500,
+"tm": 60,
+"ctx": "Considere o triângulo exibido na figura, com lados de comprimentos a, b e c e ângulos α, β e γ. Suponha que a sequência (α, β, γ) é uma progressão aritmética (PA). Determine a medida do ângulo β, em graus.",
+"fig": "<svg viewBox='0 0 160 88' class='fg' role='img' aria-label='triângulo com vértices embaixo à esquerda, no alto e embaixo à direita. O ângulo α está no vértice de baixo à esquerda, β no vértice do alto e γ no vértice de baixo à direita. O lado c liga o vértice de α ao de β; o lado a liga o vértice de β ao de γ; o lado b é a base, oposta a β'><g fill='none' stroke='currentColor' stroke-width='0.9'><polygon points='22.0,74.0 64.0,16.0 140.0,74.0'/><path d='M27.9,65.9 A10,10 0 0 1 32.0,74.0' stroke-width='0.6'/><path d='M70.4,20.9 A8,8 0 0 1 59.3,22.5' stroke-width='0.6'/><path d='M130.0,74.0 A10,10 0 0 1 132.1,67.9' stroke-width='0.6'/></g><g fill='currentColor'><text x='35.4' y='67.2' text-anchor='middle' font-size='6.5'>α</text><text x='65.9' y='29.9' text-anchor='middle' font-size='6.5'>β</text><text x='123.8' y='68.7' text-anchor='middle' font-size='6.5'>γ</text><text x='37.0' y='43.0' text-anchor='end' font-size='7'>c</text><text x='106.0' y='42.0' text-anchor='start' font-size='7'>a</text><text x='81.0' y='83.0' text-anchor='middle' font-size='7'>b</text></g></svg>",
+"a": 60,
+"u": "°",
+"tol": 0.005,
+"d": [
+[
+"PA de três termos",
+"Em (x, y, z) PA, o termo do meio é a média dos outros dois: x + z = 2y.",
+""
+],
+[
+"Soma dos ângulos internos",
+"α + β + γ = 180°.",
+""
+]
+],
+"h": [
+"(α, β, γ) PA ⟹ α + γ = 2β.",
+"α + β + γ = 3β = 180°.",
+"β = <b>60°</b>."
+]
+},
+{
+"id": "2016-2-mat-09b",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 9(b) (adaptada para múltipla escolha)",
+"r": 1790,
+"tm": 120,
+"ctx": "Considere o triângulo exibido na figura, com lados de comprimentos a, b e c e ângulos α, β e γ. Suponha que a sequência (a, b, c) é uma progressão geométrica (PG) de razão q = √2. Determine o valor de tan β.",
+"fig": "<svg viewBox='0 0 160 88' class='fg' role='img' aria-label='triângulo com vértices embaixo à esquerda, no alto e embaixo à direita. O ângulo α está no vértice de baixo à esquerda, β no vértice do alto e γ no vértice de baixo à direita. O lado c liga o vértice de α ao de β; o lado a liga o vértice de β ao de γ; o lado b é a base, oposta a β'><g fill='none' stroke='currentColor' stroke-width='0.9'><polygon points='22.0,74.0 64.0,16.0 140.0,74.0'/><path d='M27.9,65.9 A10,10 0 0 1 32.0,74.0' stroke-width='0.6'/><path d='M70.4,20.9 A8,8 0 0 1 59.3,22.5' stroke-width='0.6'/><path d='M130.0,74.0 A10,10 0 0 1 132.1,67.9' stroke-width='0.6'/></g><g fill='currentColor'><text x='35.4' y='67.2' text-anchor='middle' font-size='6.5'>α</text><text x='65.9' y='29.9' text-anchor='middle' font-size='6.5'>β</text><text x='123.8' y='68.7' text-anchor='middle' font-size='6.5'>γ</text><text x='37.0' y='43.0' text-anchor='end' font-size='7'>c</text><text x='106.0' y='42.0' text-anchor='start' font-size='7'>a</text><text x='81.0' y='83.0' text-anchor='middle' font-size='7'>b</text></g></svg>",
+"opts": [
+"√7/3",
+"3/4",
+"√7/4",
+"√7"
+],
+"a": 0,
+"d": [
+[
+"Termos da PG",
+"Com razão q: b = aq e c = aq².",
+""
+],
+[
+"Lei dos cossenos",
+"O lado oposto a β é b: b² = a² + c² − 2ac·cos β.",
+""
+],
+[
+"Do cosseno à tangente",
+"sen² β + cos² β = 1 e tan β = sen β/cos β.",
+"Ex.: cos β = 4/5 (β agudo) ⟹ sen β = 3/5 e tan β = 3/4."
+]
+],
+"h": [
+"b = a√2 e c = 2a.",
+"2a² = a² + 4a² − 4a²·cos β ⟹ 4 cos β = 3 ⟹ cos β = 3/4.",
+"sen β = √(1 − 9/16) = √7/4 ⟹ tan β = <b>√7/3</b>."
+]
+},
+{
+"id": "2016-2-mat-10a",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 10(a) (adaptada: no original, verificar a igualdade)",
+"r": 1500,
+"tm": 90,
+"ctx": "A figura exibe o gráfico da função f(x) = 1/x, definida para todo número real x > 0. Os pontos P e Q têm abscissas x = 1 e x = a, respectivamente, onde a é um número real e a > 1. Considere o quadrilátero T com vértices em (0, 0), P, Q e (a, 0). Para a = 2, calcule a área de T (ela é igual ao quadrado da distância de P a Q).",
+"fig": "<svg viewBox='0 0 160 104' class='fg' role='img' aria-label='gráfico de y = 1/x para x positivo, com o ponto P na curva em x = 1 e o ponto Q na curva em x = a, à direita de P. Segmentos tracejados ligam a origem a P e P a Q, e linhas pontilhadas verticais descem de P até x = 1 e de Q até x = a'><g fill='none' stroke='currentColor'><g stroke-width='0.8'><line x1='14.0' y1='95.0' x2='155.0' y2='95.0'/><line x1='20.0' y1='99.5' x2='20.0' y2='8.0'/></g><polyline points='30.8,11.7 31.1,13.9 31.4,16.1 31.7,18.1 32.0,20.0 32.3,21.8 32.6,23.6 32.9,25.2 33.2,26.8 33.5,28.3 33.8,29.8 34.1,31.2 34.4,32.5 34.7,33.8 35.0,35.0 35.3,36.2 35.6,37.3 35.9,38.4 36.2,39.4 36.5,40.5 36.8,41.4 37.1,42.4 37.4,43.3 37.7,44.2 38.0,45.0 38.3,45.8 38.6,46.6 38.9,47.4 39.2,48.1 39.5,48.8 39.8,49.5 40.1,50.2 40.4,50.9 40.7,51.5 41.0,52.1 41.3,52.7 41.6,53.3 41.9,53.9 42.2,54.5 42.5,55.0 42.8,55.5 43.1,56.0 43.4,56.5 43.7,57.0 44.0,57.5 44.3,58.0 44.6,58.4 44.9,58.9 45.2,59.3 45.5,59.7 45.8,60.1 46.1,60.5 46.4,60.9 46.7,61.3 47.0,61.7 47.3,62.0 47.6,62.4 47.9,62.7 48.2,63.1 48.5,63.4 48.8,63.8 49.1,64.1 49.4,64.4 49.7,64.7 50.0,65.0 50.3,65.3 50.6,65.6 50.9,65.9 51.2,66.2 51.5,66.4 51.8,66.7 52.1,67.0 52.4,67.2 52.7,67.5 53.0,67.7 53.3,68.0 53.6,68.2 53.9,68.5 54.2,68.7 54.5,68.9 54.8,69.1 55.1,69.4 55.4,69.6 55.7,69.8 56.0,70.0 56.3,70.2 56.6,70.4 56.9,70.6 57.2,70.8 57.5,71.0 57.8,71.2 58.1,71.4 58.4,71.6 58.7,71.7 59.0,71.9 59.3,72.1 59.6,72.3 59.9,72.4 60.2,72.6 60.5,72.8 60.8,72.9 61.1,73.1 61.4,73.3 61.7,73.4 62.0,73.6 62.3,73.7 62.6,73.9 62.9,74.0 63.2,74.2 63.5,74.3 63.8,74.5 64.1,74.6 64.4,74.7 64.7,74.9 65.0,75.0 65.3,75.1 65.6,75.3 65.9,75.4 66.2,75.5 66.5,75.6 66.8,75.8 67.1,75.9 67.4,76.0 67.7,76.1 68.0,76.2 68.3,76.4 68.6,76.5 68.9,76.6 69.2,76.7 69.5,76.8 69.8,76.9 70.1,77.0 70.4,77.1 70.7,77.2 71.0,77.4 71.3,77.5 71.6,77.6 71.9,77.7 72.2,77.8 72.5,77.9 72.8,78.0 73.1,78.1 73.4,78.1 73.7,78.2 74.0,78.3 74.3,78.4 74.6,78.5 74.9,78.6 75.2,78.7 75.5,78.8 75.8,78.9 76.1,79.0 76.4,79.0 76.7,79.1 77.0,79.2 77.3,79.3 77.6,79.4 77.9,79.5 78.2,79.5 78.5,79.6 78.8,79.7 79.1,79.8 79.4,79.8 79.7,79.9 80.0,80.0 80.3,80.1 80.6,80.1 80.9,80.2 81.2,80.3 81.5,80.4 81.8,80.4 82.1,80.5 82.4,80.6 82.7,80.6 83.0,80.7 83.3,80.8 83.6,80.8 83.9,80.9 84.2,81.0 84.5,81.0 84.8,81.1 85.1,81.2 85.4,81.2 85.7,81.3 86.0,81.4 86.3,81.4 86.6,81.5 86.9,81.5 87.2,81.6 87.5,81.7 87.8,81.7 88.1,81.8 88.4,81.8 88.7,81.9 89.0,82.0 89.3,82.0 89.6,82.1 89.9,82.1 90.2,82.2 90.5,82.2 90.8,82.3 91.1,82.3 91.4,82.4 91.7,82.4 92.0,82.5 92.3,82.6 92.6,82.6 92.9,82.7 93.2,82.7 93.5,82.8 93.8,82.8 94.1,82.9 94.4,82.9 94.7,83.0 95.0,83.0 95.3,83.0 95.6,83.1 95.9,83.1 96.2,83.2 96.5,83.2 96.8,83.3 97.1,83.3 97.4,83.4 97.7,83.4 98.0,83.5 98.3,83.5 98.6,83.5 98.9,83.6 99.2,83.6 99.5,83.7 99.8,83.7 100.1,83.8 100.4,83.8 100.7,83.8 101.0,83.9 101.3,83.9 101.6,84.0 101.9,84.0 102.2,84.1 102.5,84.1 102.8,84.1 103.1,84.2 103.4,84.2 103.7,84.2 104.0,84.3 104.3,84.3 104.6,84.4 104.9,84.4 105.2,84.4 105.5,84.5 105.8,84.5 106.1,84.5 106.4,84.6 106.7,84.6 107.0,84.7 107.3,84.7 107.6,84.7 107.9,84.8 108.2,84.8 108.5,84.8 108.8,84.9 109.1,84.9 109.4,84.9 109.7,85.0 110.0,85.0 110.3,85.0 110.6,85.1 110.9,85.1 111.2,85.1 111.5,85.2 111.8,85.2 112.1,85.2 112.4,85.3 112.7,85.3 113.0,85.3 113.3,85.4 113.6,85.4 113.9,85.4 114.2,85.4 114.5,85.5 114.8,85.5 115.1,85.5 115.4,85.6 115.7,85.6 116.0,85.6 116.3,85.7 116.6,85.7 116.9,85.7 117.2,85.7 117.5,85.8 117.8,85.8 118.1,85.8 118.4,85.9 118.7,85.9 119.0,85.9 119.3,85.9 119.6,86.0 119.9,86.0 120.2,86.0 120.5,86.0 120.8,86.1 121.1,86.1 121.4,86.1 121.7,86.2 122.0,86.2 122.3,86.2 122.6,86.2 122.9,86.3 123.2,86.3 123.5,86.3 123.8,86.3 124.1,86.4 124.4,86.4 124.7,86.4 125.0,86.4 125.3,86.5 125.6,86.5 125.9,86.5 126.2,86.5 126.5,86.5 126.8,86.6 127.1,86.6 127.4,86.6 127.7,86.6 128.0,86.7 128.3,86.7 128.6,86.7 128.9,86.7 129.2,86.8 129.5,86.8 129.8,86.8 130.1,86.8 130.4,86.8 130.7,86.9 131.0,86.9 131.3,86.9 131.6,86.9 131.9,87.0 132.2,87.0 132.5,87.0 132.8,87.0 133.1,87.0 133.4,87.1 133.7,87.1 134.0,87.1 134.3,87.1 134.6,87.1 134.9,87.2 135.2,87.2 135.5,87.2 135.8,87.2 136.1,87.2 136.4,87.3 136.7,87.3 137.0,87.3 137.3,87.3 137.6,87.3 137.9,87.4 138.2,87.4 138.5,87.4 138.8,87.4 139.1,87.4 139.4,87.5 139.7,87.5 140.0,87.5 140.3,87.5 140.6,87.5 140.9,87.6 141.2,87.6 141.5,87.6 141.8,87.6 142.1,87.6 142.4,87.6 142.7,87.7 143.0,87.7 143.3,87.7 143.6,87.7 143.9,87.7 144.2,87.8 144.5,87.8 144.8,87.8 145.1,87.8 145.4,87.8 145.7,87.8 146.0,87.9 146.3,87.9 146.6,87.9 146.9,87.9 147.2,87.9 147.5,87.9 147.8,88.0 148.1,88.0 148.4,88.0 148.7,88.0 149.0,88.0 149.3,88.0 149.6,88.1 149.9,88.1 150.2,88.1 150.5,88.1 150.8,88.1 151.1,88.1 151.4,88.2 151.7,88.2 152.0,88.2 152.3,88.2 152.6,88.2 152.9,88.2 153.2,88.2 153.5,88.3 153.8,88.3 154.1,88.3 154.4,88.3 154.7,88.3 155.0,88.3' stroke-width='1.2'/><g stroke-width='0.7' stroke-dasharray='2 1.5'><line x1='20.0' y1='95.0' x2='50.0' y2='65.0'/><line x1='50.0' y1='65.0' x2='98.0' y2='83.5'/></g><g stroke-width='0.5' stroke-dasharray='1 1.5'><line x1='50.0' y1='65.0' x2='50.0' y2='95.0'/><line x1='98.0' y1='83.5' x2='98.0' y2='95.0'/></g></g><g fill='currentColor'><polygon points='159.5,95.0 156.8,96.3 156.8,93.7'/><polygon points='20.0,3.5 21.3,6.2 18.7,6.2'/><circle cx='50.0' cy='65.0' r='1.4'/><circle cx='98.0' cy='83.5' r='1.4'/><text x='52.0' y='62.0' text-anchor='start' font-size='6.5'>P</text><text x='99.0' y='79.5' text-anchor='start' font-size='6.5'>Q</text><text x='50.0' y='102.0' text-anchor='middle' font-size='6'>1</text><text x='98.0' y='102.0' text-anchor='middle' font-size='6'>a</text><text x='18.0' y='102.0' text-anchor='end' font-size='6'>0</text><text x='158.0' y='92.0' text-anchor='end' font-size='6'>x</text><text x='23.0' y='6.5' text-anchor='start' font-size='6'>y</text><text x='125.0' y='78.5' text-anchor='middle' font-size='6'>y = 1/x</text></g></svg>",
+"a": 1.25,
+"tol": 0.005,
+"d": [
+[
+"Área por decomposição",
+"Divida o quadrilátero com segmentos verticais em figuras conhecidas, como um triângulo e um trapézio.",
+"Trapézio de bases B e b e altura h: área = (B + b)·h/2."
+],
+[
+"Distância entre pontos",
+"d² = (x₂ − x₁)² + (y₂ − y₁)².",
+""
+]
+],
+"h": [
+"P = (1, 1) e Q = (2, 1/2). Triângulo de vértices (0, 0), (1, 0) e P: área 1/2.",
+"Trapézio sob PQ, de x = 1 a x = 2, com bases 1 e 1/2: área (1 + 1/2)·1/2 = 3/4.",
+"Área de T = 1/2 + 3/4 = <b>5/4</b>; e de fato PQ² = 1² + (1/2)² = 5/4."
+]
+},
+{
+"id": "2016-2-mat-10b",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 10(b)",
+"r": 1980,
+"tm": 120,
+"ctx": "A figura exibe o gráfico da função f(x) = 1/x, definida para todo número real x > 0. Os pontos P e Q têm abscissas x = 1 e x = a, respectivamente, onde a é um número real e a > 1. Seja r a reta que passa pela origem e é ortogonal à reta que passa por P e Q. Determine o valor de a para o qual o ponto de intersecção da reta r com o gráfico da função f tem ordenada y = a/2.",
+"fig": "<svg viewBox='0 0 160 104' class='fg' role='img' aria-label='gráfico de y = 1/x para x positivo, com o ponto P na curva em x = 1 e o ponto Q na curva em x = a, à direita de P. Segmentos tracejados ligam a origem a P e P a Q, e linhas pontilhadas verticais descem de P até x = 1 e de Q até x = a'><g fill='none' stroke='currentColor'><g stroke-width='0.8'><line x1='14.0' y1='95.0' x2='155.0' y2='95.0'/><line x1='20.0' y1='99.5' x2='20.0' y2='8.0'/></g><polyline points='30.8,11.7 31.1,13.9 31.4,16.1 31.7,18.1 32.0,20.0 32.3,21.8 32.6,23.6 32.9,25.2 33.2,26.8 33.5,28.3 33.8,29.8 34.1,31.2 34.4,32.5 34.7,33.8 35.0,35.0 35.3,36.2 35.6,37.3 35.9,38.4 36.2,39.4 36.5,40.5 36.8,41.4 37.1,42.4 37.4,43.3 37.7,44.2 38.0,45.0 38.3,45.8 38.6,46.6 38.9,47.4 39.2,48.1 39.5,48.8 39.8,49.5 40.1,50.2 40.4,50.9 40.7,51.5 41.0,52.1 41.3,52.7 41.6,53.3 41.9,53.9 42.2,54.5 42.5,55.0 42.8,55.5 43.1,56.0 43.4,56.5 43.7,57.0 44.0,57.5 44.3,58.0 44.6,58.4 44.9,58.9 45.2,59.3 45.5,59.7 45.8,60.1 46.1,60.5 46.4,60.9 46.7,61.3 47.0,61.7 47.3,62.0 47.6,62.4 47.9,62.7 48.2,63.1 48.5,63.4 48.8,63.8 49.1,64.1 49.4,64.4 49.7,64.7 50.0,65.0 50.3,65.3 50.6,65.6 50.9,65.9 51.2,66.2 51.5,66.4 51.8,66.7 52.1,67.0 52.4,67.2 52.7,67.5 53.0,67.7 53.3,68.0 53.6,68.2 53.9,68.5 54.2,68.7 54.5,68.9 54.8,69.1 55.1,69.4 55.4,69.6 55.7,69.8 56.0,70.0 56.3,70.2 56.6,70.4 56.9,70.6 57.2,70.8 57.5,71.0 57.8,71.2 58.1,71.4 58.4,71.6 58.7,71.7 59.0,71.9 59.3,72.1 59.6,72.3 59.9,72.4 60.2,72.6 60.5,72.8 60.8,72.9 61.1,73.1 61.4,73.3 61.7,73.4 62.0,73.6 62.3,73.7 62.6,73.9 62.9,74.0 63.2,74.2 63.5,74.3 63.8,74.5 64.1,74.6 64.4,74.7 64.7,74.9 65.0,75.0 65.3,75.1 65.6,75.3 65.9,75.4 66.2,75.5 66.5,75.6 66.8,75.8 67.1,75.9 67.4,76.0 67.7,76.1 68.0,76.2 68.3,76.4 68.6,76.5 68.9,76.6 69.2,76.7 69.5,76.8 69.8,76.9 70.1,77.0 70.4,77.1 70.7,77.2 71.0,77.4 71.3,77.5 71.6,77.6 71.9,77.7 72.2,77.8 72.5,77.9 72.8,78.0 73.1,78.1 73.4,78.1 73.7,78.2 74.0,78.3 74.3,78.4 74.6,78.5 74.9,78.6 75.2,78.7 75.5,78.8 75.8,78.9 76.1,79.0 76.4,79.0 76.7,79.1 77.0,79.2 77.3,79.3 77.6,79.4 77.9,79.5 78.2,79.5 78.5,79.6 78.8,79.7 79.1,79.8 79.4,79.8 79.7,79.9 80.0,80.0 80.3,80.1 80.6,80.1 80.9,80.2 81.2,80.3 81.5,80.4 81.8,80.4 82.1,80.5 82.4,80.6 82.7,80.6 83.0,80.7 83.3,80.8 83.6,80.8 83.9,80.9 84.2,81.0 84.5,81.0 84.8,81.1 85.1,81.2 85.4,81.2 85.7,81.3 86.0,81.4 86.3,81.4 86.6,81.5 86.9,81.5 87.2,81.6 87.5,81.7 87.8,81.7 88.1,81.8 88.4,81.8 88.7,81.9 89.0,82.0 89.3,82.0 89.6,82.1 89.9,82.1 90.2,82.2 90.5,82.2 90.8,82.3 91.1,82.3 91.4,82.4 91.7,82.4 92.0,82.5 92.3,82.6 92.6,82.6 92.9,82.7 93.2,82.7 93.5,82.8 93.8,82.8 94.1,82.9 94.4,82.9 94.7,83.0 95.0,83.0 95.3,83.0 95.6,83.1 95.9,83.1 96.2,83.2 96.5,83.2 96.8,83.3 97.1,83.3 97.4,83.4 97.7,83.4 98.0,83.5 98.3,83.5 98.6,83.5 98.9,83.6 99.2,83.6 99.5,83.7 99.8,83.7 100.1,83.8 100.4,83.8 100.7,83.8 101.0,83.9 101.3,83.9 101.6,84.0 101.9,84.0 102.2,84.1 102.5,84.1 102.8,84.1 103.1,84.2 103.4,84.2 103.7,84.2 104.0,84.3 104.3,84.3 104.6,84.4 104.9,84.4 105.2,84.4 105.5,84.5 105.8,84.5 106.1,84.5 106.4,84.6 106.7,84.6 107.0,84.7 107.3,84.7 107.6,84.7 107.9,84.8 108.2,84.8 108.5,84.8 108.8,84.9 109.1,84.9 109.4,84.9 109.7,85.0 110.0,85.0 110.3,85.0 110.6,85.1 110.9,85.1 111.2,85.1 111.5,85.2 111.8,85.2 112.1,85.2 112.4,85.3 112.7,85.3 113.0,85.3 113.3,85.4 113.6,85.4 113.9,85.4 114.2,85.4 114.5,85.5 114.8,85.5 115.1,85.5 115.4,85.6 115.7,85.6 116.0,85.6 116.3,85.7 116.6,85.7 116.9,85.7 117.2,85.7 117.5,85.8 117.8,85.8 118.1,85.8 118.4,85.9 118.7,85.9 119.0,85.9 119.3,85.9 119.6,86.0 119.9,86.0 120.2,86.0 120.5,86.0 120.8,86.1 121.1,86.1 121.4,86.1 121.7,86.2 122.0,86.2 122.3,86.2 122.6,86.2 122.9,86.3 123.2,86.3 123.5,86.3 123.8,86.3 124.1,86.4 124.4,86.4 124.7,86.4 125.0,86.4 125.3,86.5 125.6,86.5 125.9,86.5 126.2,86.5 126.5,86.5 126.8,86.6 127.1,86.6 127.4,86.6 127.7,86.6 128.0,86.7 128.3,86.7 128.6,86.7 128.9,86.7 129.2,86.8 129.5,86.8 129.8,86.8 130.1,86.8 130.4,86.8 130.7,86.9 131.0,86.9 131.3,86.9 131.6,86.9 131.9,87.0 132.2,87.0 132.5,87.0 132.8,87.0 133.1,87.0 133.4,87.1 133.7,87.1 134.0,87.1 134.3,87.1 134.6,87.1 134.9,87.2 135.2,87.2 135.5,87.2 135.8,87.2 136.1,87.2 136.4,87.3 136.7,87.3 137.0,87.3 137.3,87.3 137.6,87.3 137.9,87.4 138.2,87.4 138.5,87.4 138.8,87.4 139.1,87.4 139.4,87.5 139.7,87.5 140.0,87.5 140.3,87.5 140.6,87.5 140.9,87.6 141.2,87.6 141.5,87.6 141.8,87.6 142.1,87.6 142.4,87.6 142.7,87.7 143.0,87.7 143.3,87.7 143.6,87.7 143.9,87.7 144.2,87.8 144.5,87.8 144.8,87.8 145.1,87.8 145.4,87.8 145.7,87.8 146.0,87.9 146.3,87.9 146.6,87.9 146.9,87.9 147.2,87.9 147.5,87.9 147.8,88.0 148.1,88.0 148.4,88.0 148.7,88.0 149.0,88.0 149.3,88.0 149.6,88.1 149.9,88.1 150.2,88.1 150.5,88.1 150.8,88.1 151.1,88.1 151.4,88.2 151.7,88.2 152.0,88.2 152.3,88.2 152.6,88.2 152.9,88.2 153.2,88.2 153.5,88.3 153.8,88.3 154.1,88.3 154.4,88.3 154.7,88.3 155.0,88.3' stroke-width='1.2'/><g stroke-width='0.7' stroke-dasharray='2 1.5'><line x1='20.0' y1='95.0' x2='50.0' y2='65.0'/><line x1='50.0' y1='65.0' x2='98.0' y2='83.5'/></g><g stroke-width='0.5' stroke-dasharray='1 1.5'><line x1='50.0' y1='65.0' x2='50.0' y2='95.0'/><line x1='98.0' y1='83.5' x2='98.0' y2='95.0'/></g></g><g fill='currentColor'><polygon points='159.5,95.0 156.8,96.3 156.8,93.7'/><polygon points='20.0,3.5 21.3,6.2 18.7,6.2'/><circle cx='50.0' cy='65.0' r='1.4'/><circle cx='98.0' cy='83.5' r='1.4'/><text x='52.0' y='62.0' text-anchor='start' font-size='6.5'>P</text><text x='99.0' y='79.5' text-anchor='start' font-size='6.5'>Q</text><text x='50.0' y='102.0' text-anchor='middle' font-size='6'>1</text><text x='98.0' y='102.0' text-anchor='middle' font-size='6'>a</text><text x='18.0' y='102.0' text-anchor='end' font-size='6'>0</text><text x='158.0' y='92.0' text-anchor='end' font-size='6'>x</text><text x='23.0' y='6.5' text-anchor='start' font-size='6'>y</text><text x='125.0' y='78.5' text-anchor='middle' font-size='6'>y = 1/x</text></g></svg>",
+"a": 4,
+"tol": 0.005,
+"d": [
+[
+"Retas perpendiculares",
+"Retas de inclinações m₁ e m₂ (não nulas) são perpendiculares ⟺ m₁·m₂ = −1. Uma reta pela origem tem equação y = mx.",
+"Ex.: reta de inclinação 2 ⟹ perpendicular pela origem: y = −x/2."
+],
+[
+"Interseção com y = 1/x",
+"Iguale mx = 1/x e resolva para x > 0.",
+""
+]
+],
+"h": [
+"Inclinação de PQ: (1/a − 1)/(a − 1) = −1/a ⟹ r: y = ax.",
+"ax = 1/x ⟹ x = 1/√a e y = a·(1/√a) = √a.",
+"√a = a/2 ⟹ √a = 2 ⟹ a = <b>4</b>."
+]
+},
+{
+"id": "2016-2-mat-11a",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 11(a) (adaptada para múltipla escolha)",
+"r": 1660,
+"tm": 90,
+"ctx": "Considere os três sólidos exibidos na figura: um cubo S₁ de aresta a e dois paralelepípedos retângulos, S₂ (arestas a, a e b) e S₃ (arestas b, b e a), em que a > b > 0. Determine a razão r = a/b para a qual o volume de S₁ é igual à soma dos volumes de S₂ e S₃.",
+"fig": "<svg viewBox='0 0 160 74' class='fg' role='img' aria-label='três sólidos lado a lado. S1: cubo de aresta a. S2: paralelepípedo com largura a, altura a e profundidade b. S3: paralelepípedo com largura b, altura a e profundidade b. A aresta b é menor que a'><g fill='none' stroke='currentColor' stroke-width='0.8'><polygon points='10.0,54.0 40.0,54.0 40.0,24.0 10.0,24.0'/><polygon points='10.0,24.0 40.0,24.0 50.6,13.4 20.6,13.4' fill='currentColor' fill-opacity='0.12'/><polygon points='40.0,54.0 50.6,43.4 50.6,13.4 40.0,24.0' fill='currentColor' fill-opacity='0.25'/><polygon points='64.0,54.0 94.0,54.0 94.0,24.0 64.0,24.0'/><polygon points='64.0,24.0 94.0,24.0 100.4,17.6 70.4,17.6' fill='currentColor' fill-opacity='0.12'/><polygon points='94.0,54.0 100.4,47.6 100.4,17.6 94.0,24.0' fill='currentColor' fill-opacity='0.25'/><polygon points='118.0,54.0 136.0,54.0 136.0,24.0 118.0,24.0'/><polygon points='118.0,24.0 136.0,24.0 142.4,17.6 124.4,17.6' fill='currentColor' fill-opacity='0.12'/><polygon points='136.0,54.0 142.4,47.6 142.4,17.6 136.0,24.0' fill='currentColor' fill-opacity='0.25'/></g><g fill='currentColor'><text x='25.0' y='60.0' text-anchor='middle' font-size='6.5'>a</text><text x='8.0' y='41.0' text-anchor='end' font-size='6.5'>a</text><text x='47.3' y='53.7' text-anchor='start' font-size='6.5'>a</text><text x='25.0' y='70.0' text-anchor='middle' font-size='6.5'>S₁</text><text x='79.0' y='60.0' text-anchor='middle' font-size='6.5'>a</text><text x='62.0' y='41.0' text-anchor='end' font-size='6.5'>a</text><text x='99.2' y='55.8' text-anchor='start' font-size='6.5'>b</text><text x='79.0' y='70.0' text-anchor='middle' font-size='6.5'>S₂</text><text x='127.0' y='60.0' text-anchor='middle' font-size='6.5'>b</text><text x='116.0' y='41.0' text-anchor='end' font-size='6.5'>a</text><text x='141.2' y='55.8' text-anchor='start' font-size='6.5'>b</text><text x='127.0' y='70.0' text-anchor='middle' font-size='6.5'>S₃</text></g></svg>",
+"opts": [
+"(1 + √5)/2",
+"√2",
+"2",
+"(1 + √3)/2"
+],
+"a": 0,
+"d": [
+[
+"Volume do paralelepípedo",
+"V = produto das três arestas.",
+""
+],
+[
+"Equação homogênea",
+"Se todos os termos têm o mesmo grau em a e b, divida tudo por uma potência de b e escreva a equação em r = a/b.",
+"Ex.: a² = 2b² ⟹ r² = 2 ⟹ r = √2."
+]
+],
+"h": [
+"a³ = a²b + ab² ⟹ (dividindo por a) a² = ab + b².",
+"Dividindo por b²: r² = r + 1 ⟹ r² − r − 1 = 0.",
+"Como r > 0: r = <b>(1 + √5)/2</b> (a razão áurea)."
+]
+},
+{
+"id": "2016-2-mat-11b",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 11(b)",
+"r": 1690,
+"tm": 120,
+"ctx": "Considere os três sólidos exibidos na figura: um cubo S₁ de aresta a e dois paralelepípedos retângulos, S₂ (arestas a, a e b) e S₃ (arestas b, b e a), em que a > b > 0. Sabendo que a soma dos comprimentos de todas as arestas dos três sólidos é igual a 60 cm, determine a soma das áreas de superfície dos três sólidos.",
+"fig": "<svg viewBox='0 0 160 74' class='fg' role='img' aria-label='três sólidos lado a lado. S1: cubo de aresta a. S2: paralelepípedo com largura a, altura a e profundidade b. S3: paralelepípedo com largura b, altura a e profundidade b. A aresta b é menor que a'><g fill='none' stroke='currentColor' stroke-width='0.8'><polygon points='10.0,54.0 40.0,54.0 40.0,24.0 10.0,24.0'/><polygon points='10.0,24.0 40.0,24.0 50.6,13.4 20.6,13.4' fill='currentColor' fill-opacity='0.12'/><polygon points='40.0,54.0 50.6,43.4 50.6,13.4 40.0,24.0' fill='currentColor' fill-opacity='0.25'/><polygon points='64.0,54.0 94.0,54.0 94.0,24.0 64.0,24.0'/><polygon points='64.0,24.0 94.0,24.0 100.4,17.6 70.4,17.6' fill='currentColor' fill-opacity='0.12'/><polygon points='94.0,54.0 100.4,47.6 100.4,17.6 94.0,24.0' fill='currentColor' fill-opacity='0.25'/><polygon points='118.0,54.0 136.0,54.0 136.0,24.0 118.0,24.0'/><polygon points='118.0,24.0 136.0,24.0 142.4,17.6 124.4,17.6' fill='currentColor' fill-opacity='0.12'/><polygon points='136.0,54.0 142.4,47.6 142.4,17.6 136.0,24.0' fill='currentColor' fill-opacity='0.25'/></g><g fill='currentColor'><text x='25.0' y='60.0' text-anchor='middle' font-size='6.5'>a</text><text x='8.0' y='41.0' text-anchor='end' font-size='6.5'>a</text><text x='47.3' y='53.7' text-anchor='start' font-size='6.5'>a</text><text x='25.0' y='70.0' text-anchor='middle' font-size='6.5'>S₁</text><text x='79.0' y='60.0' text-anchor='middle' font-size='6.5'>a</text><text x='62.0' y='41.0' text-anchor='end' font-size='6.5'>a</text><text x='99.2' y='55.8' text-anchor='start' font-size='6.5'>b</text><text x='79.0' y='70.0' text-anchor='middle' font-size='6.5'>S₂</text><text x='127.0' y='60.0' text-anchor='middle' font-size='6.5'>b</text><text x='116.0' y='41.0' text-anchor='end' font-size='6.5'>a</text><text x='141.2' y='55.8' text-anchor='start' font-size='6.5'>b</text><text x='127.0' y='70.0' text-anchor='middle' font-size='6.5'>S₃</text></g></svg>",
+"a": 50,
+"u": "cm²",
+"tol": 0.005,
+"d": [
+[
+"Arestas de um paralelepípedo",
+"São 12 arestas: 4 de cada uma das três medidas.",
+"Ex.: caixa 2 × 3 × 5 ⟹ soma das arestas = 4(2 + 3 + 5) = 40."
+],
+[
+"Área total",
+"Paralelepípedo x × y × z: A = 2(xy + xz + yz).",
+""
+],
+[
+"Produto notável",
+"(u + v)² = u² + 2uv + v²: procure esse padrão na soma das áreas.",
+""
+]
+],
+"h": [
+"Arestas: 12a + 4(2a + b) + 4(a + 2b) = 24a + 12b = 60 ⟹ 2a + b = 5.",
+"Áreas: 6a² + (2a² + 4ab) + (2b² + 4ab) = 8a² + 8ab + 2b² = 2(2a + b)².",
+"Soma das áreas = 2 × 5² = <b>50 cm²</b>."
+]
+},
+{
+"id": "2016-2-mat-12a",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 12(a) (adaptada para múltipla escolha)",
+"r": 1720,
+"tm": 120,
+"ctx": "Considere o polinômio cúbico p(x) = x³ − 3x + a, onde a é um número real. No caso em que p(1) = 0, determine os valores de x para os quais a matriz A = [x 1 0; 0 x 1; a 3 x] (linhas separadas por ponto e vírgula) não é invertível.",
+"opts": [
+"x = 1 ou x = −2",
+"x = −1 ou x = 2",
+"x = 1 apenas",
+"x = 2 ou x = −2"
+],
+"a": 0,
+"d": [
+[
+"Matriz não invertível",
+"A não é invertível ⟺ det A = 0.",
+""
+],
+[
+"Determinante 3 × 3 (Sarrus)",
+"Some os produtos das três diagonais “descendo” e subtraia os produtos das três diagonais “subindo”.",
+""
+],
+[
+"Fatorar conhecendo uma raiz",
+"Se p(1) = 0, então (x − 1) divide p(x): use Briot-Ruffini para obter o outro fator.",
+""
+]
+],
+"h": [
+"p(1) = 1 − 3 + a = 0 ⟹ a = 2.",
+"det A = x³ + a − 3x = p(x) = x³ − 3x + 2.",
+"x³ − 3x + 2 = (x − 1)²(x + 2) = 0 ⟹ <b>x = 1 ou x = −2</b>."
+]
+},
+{
+"id": "2016-2-mat-12b",
+"ano": 2016,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2016, 2ª fase, Matemática, questão 12(b) (adaptada para múltipla escolha)",
+"r": 1940,
+"tm": 150,
+"ctx": "Considere o polinômio cúbico p(x) = x³ − 3x + a, onde a é um número real. Seja b um número real não nulo e i a unidade imaginária, isto é, i² = −1. Se o número complexo z = 2 + bi é uma raiz de p(x), determine o valor de |z|.",
+"opts": [
+"√13",
+"√5",
+"2√5",
+"13"
+],
+"a": 0,
+"d": [
+[
+"Raízes complexas de polinômio real",
+"Se um polinômio de coeficientes reais tem a raiz 2 + bi, também tem a conjugada 2 − bi.",
+""
+],
+[
+"Relações de Girard (grau 3)",
+"Para x³ + px² + qx + r: soma das raízes = −p e produto das raízes = −r.",
+""
+],
+[
+"Módulo",
+"|2 + bi| = √(4 + b²), e (2 + bi)(2 − bi) = 4 + b² = |z|².",
+""
+]
+],
+"h": [
+"Raízes: 2 + bi, 2 − bi e uma raiz real s. Como não há termo em x², a soma é 4 + s = 0 ⟹ s = −4.",
+"p(−4) = 0 ⟹ −64 + 12 + a = 0 ⟹ a = 52. Produto: (4 + b²)·(−4) = −52 ⟹ 4 + b² = 13.",
+"|z| = √(4 + b²) = <b>√13</b>."
+]
+},
+{
+"id": "2016-2-fis-07a",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2016, 2ª fase, Física, questão 7(a)",
+"r": 1510,
+"tm": 75,
+"ctx": "Recentemente, a sonda New Horizons tornou-se a primeira espaçonave a sobrevoar Plutão, proporcionando imagens espetaculares desse astro distante. A sonda saiu da Terra em janeiro de 2006 e chegou a Plutão em julho de 2015. Considere que a sonda percorreu uma distância de 4,5 bilhões de quilômetros nesse percurso e que 1 ano é aproximadamente 3 × 10⁷ s. Calcule a velocidade escalar média da sonda nesse percurso, em m/s.",
+"a": 15800,
+"u": "m/s",
+"tol": 0.02,
+"d": [
+[
+"Velocidade média",
+"v = Δs/Δt, em unidades do SI (metros e segundos).",
+""
+],
+[
+"Notação científica",
+"1 bilhão = 10⁹ e 1 km = 10³ m. Para dividir potências de 10, subtraia os expoentes.",
+"Ex.: 6 × 10⁹/(2 × 10³) = 3 × 10⁶."
+]
+],
+"h": [
+"Δs = 4,5 × 10⁹ km = 4,5 × 10¹² m.",
+"De janeiro de 2006 a julho de 2015 passam 9,5 anos: Δt ≈ 9,5 × 3 × 10⁷ = 2,85 × 10⁸ s.",
+"v = 4,5 × 10¹²/2,85 × 10⁸ ≈ <b>1,6 × 10⁴ m/s</b> (cerca de 15.800 m/s)."
+]
+},
+{
+"id": "2016-2-fis-07b",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2016, 2ª fase, Física, questão 7(b)",
+"r": 1610,
+"tm": 75,
+"ctx": "Recentemente, a sonda New Horizons tornou-se a primeira espaçonave a sobrevoar Plutão, proporcionando imagens espetaculares desse astro distante. A sonda New Horizons foi lançada da Terra pelo veículo espacial Atlas V 511, a partir do Cabo Canaveral. O veículo, com massa total m = 6 × 10⁵ kg, foi o objeto mais rápido a ser lançado da Terra para o espaço até o momento. O trabalho realizado pela força resultante para levá-lo do repouso à sua velocidade máxima foi de τ = 768 × 10¹¹ J. Considerando que a massa total do veículo não variou durante o lançamento, calcule sua velocidade máxima.",
+"a": 16000,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Teorema da energia cinética",
+"O trabalho da força resultante é igual à variação da energia cinética: τ = mv²/2 − mv₀²/2.",
+"Ex.: τ = 400 J sobre 2 kg a partir do repouso ⟹ v² = 400 ⟹ v = 20 m/s."
+]
+],
+"h": [
+"Partindo do repouso: τ = mv²/2 ⟹ v² = 2τ/m.",
+"v² = 2 × 768 × 10¹¹/(6 × 10⁵) = 256 × 10⁶.",
+"v = 16 × 10³ = <b>1,6 × 10⁴ m/s</b>."
+]
+},
+{
+"id": "2016-2-fis-08a",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 2016, 2ª fase, Física, questão 8(a)",
+"r": 1630,
+"tm": 90,
+"ctx": "Plutão é considerado um planeta anão, com massa M<sub>P</sub> = 1 × 10²² kg, bem menor que a massa da Terra. O módulo da força gravitacional entre duas massas m₁ e m₂ é dado por F = G·m₁·m₂/r², em que r é a distância entre as massas e G é a constante gravitacional. Em situações que envolvem distâncias astronômicas, a unidade de comprimento comumente utilizada é a Unidade Astronômica (UA). Considere que, durante a sua aproximação a Plutão, a sonda se encontra em uma posição que está d<sub>P</sub> = 0,15 UA distante do centro de Plutão e d<sub>T</sub> = 30 UA distante do centro da Terra. Calcule a razão F<sub>T</sub>/F<sub>P</sub> entre o módulo da força gravitacional com que a Terra atrai a sonda e o módulo da força gravitacional com que Plutão atrai a sonda. Use a massa da Terra M<sub>T</sub> = 6 × 10²⁴ kg.",
+"a": 0.015,
+"tol": 0.02,
+"d": [
+[
+"Razão de forças gravitacionais",
+"Na razão F₁/F₂ = (M₁/M₂)·(d₂/d₁)², a constante G e a massa da sonda se cancelam, e as distâncias podem ficar em UA.",
+"Ex.: massa 4 vezes maior a uma distância 2 vezes maior ⟹ mesma força."
+]
+],
+"h": [
+"F<sub>T</sub>/F<sub>P</sub> = (M<sub>T</sub>/M<sub>P</sub>)·(d<sub>P</sub>/d<sub>T</sub>)².",
+"M<sub>T</sub>/M<sub>P</sub> = 6 × 10²⁴/10²² = 600; d<sub>P</sub>/d<sub>T</sub> = 0,15/30 = 5 × 10⁻³, que ao quadrado dá 2,5 × 10⁻⁵.",
+"Razão = 600 × 2,5 × 10⁻⁵ = <b>1,5 × 10⁻²</b>."
+]
+},
+{
+"id": "2016-2-fis-08b",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 2016, 2ª fase, Física, questão 8(b)",
+"r": 1730,
+"tm": 120,
+"ctx": "Plutão é considerado um planeta anão, com massa M<sub>P</sub> = 1 × 10²² kg, bem menor que a massa da Terra. O módulo da força gravitacional entre duas massas m₁ e m₂ é dado por F = G·m₁·m₂/r², em que r é a distância entre as massas e G é a constante gravitacional. Em situações que envolvem distâncias astronômicas, a unidade de comprimento comumente utilizada é a Unidade Astronômica (UA). Suponha que a sonda New Horizons estabeleça uma órbita circular, com velocidade escalar constante, em torno de Plutão, com um raio de r<sub>P</sub> = 1 × 10⁻⁴ UA. Obtenha o módulo da velocidade orbital nesse caso. Use G = 6 × 10⁻¹¹ N·m²/kg² e 1 UA = 1,5 × 10⁸ km.",
+"a": 200,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Órbita circular",
+"A força gravitacional é a resultante centrípeta: G·M·m/r² = m·v²/r ⟹ v = √(G·M/r).",
+""
+],
+[
+"Unidades",
+"Converta r para metros: 1 UA = 1,5 × 10⁸ km = 1,5 × 10¹¹ m.",
+""
+]
+],
+"h": [
+"r = 10⁻⁴ × 1,5 × 10¹¹ m = 1,5 × 10⁷ m.",
+"v² = G·M/r = 6 × 10⁻¹¹ × 10²²/(1,5 × 10⁷) = 6 × 10¹¹/(1,5 × 10⁷) = 4 × 10⁴.",
+"v = <b>200 m/s</b>."
+]
+},
+{
+"id": "2016-2-fis-09a",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2016, 2ª fase, Física, questão 9(a)",
+"r": 1390,
+"tm": 60,
+"ctx": "Os reguladores de pressão são acessórios de segurança fundamentais para reduzir a pressão de gases no interior dos cilindros até que se atinja sua pressão de utilização. Cada tipo de gás possui um regulador específico. Tipicamente, gases podem ser armazenados em cilindros a uma pressão interna de P₀ = 2,0 × 10⁷ Pa e ser utilizados com uma pressão de saída do regulador de P₁ = 1,6 × 10⁷ Pa. Considere um gás ideal mantido em recipiente fechado a uma temperatura inicial de T₀ = 300 K. Calcule a temperatura final T₁ do gás se ele for submetido isovolumetricamente à variação de pressão dada acima.",
+"a": 240,
+"u": "K",
+"tol": 0.005,
+"d": [
+[
+"Transformação isovolumétrica",
+"Com volume e quantidade de gás constantes, P/T é constante: P₀/T₀ = P₁/T₁ (temperaturas em kelvin).",
+"Ex.: se a pressão cai à metade, a temperatura absoluta cai à metade."
+]
+],
+"h": [
+"P₁/P₀ = 1,6/2,0 = 0,8.",
+"T₁ = T₀ × P₁/P₀.",
+"T₁ = 300 × 0,8 = <b>240 K</b>."
+]
+},
+{
+"id": "2016-2-fis-09b",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2016, 2ª fase, Física, questão 9(b)",
+"r": 1660,
+"tm": 120,
+"ctx": "Os reguladores de pressão são acessórios de segurança fundamentais para reduzir a pressão de gases no interior dos cilindros até que se atinja sua pressão de utilização. Cada tipo de gás possui um regulador específico. Quando os gases saem dos reguladores para o circuito de utilização, é comum que o fluxo do gás (volume de gás que atravessa a tubulação por unidade de tempo) seja monitorado por um instrumento chamado fluxômetro. Considere um tanque cilíndrico com área da base A = 2,0 m², inicialmente vazio, que será preenchido com gás nitrogênio. Durante o preenchimento, o fluxo de gás que entra no tanque é medido pela posição da esfera preta do fluxômetro, mostrado na figura (escala em litros por minuto). A medida do fluxo de nitrogênio e sua densidade, d = 1,0 kg/m³, permaneceram constantes durante todo o preenchimento, que durou Δt = 12 h. Depois, a válvula do tanque é fechada, com o gás em repouso no seu interior. Calcule a pressão exercida pelo gás na base do tanque. Use g = 10 m/s².",
+"fig": "<svg viewBox='0 0 120 98' class='fg' role='img' aria-label='fluxômetro: tubo vertical transparente com escala em litros por minuto marcada em 10, 20, 30 e 40, de baixo para cima. A esfera preta está na metade entre as marcas 20 e 30. O gás nitrogênio entra pela base do tubo, indicado por uma seta para cima'><g fill='none' stroke='currentColor' stroke-width='0.8'><rect x='52' y='8' width='16' height='70' rx='3' fill='currentColor' fill-opacity='0.06'/><rect x='48' y='78' width='24' height='6'/><line x1='52.0' y1='58.0' x2='59.0' y2='58.0'/><line x1='52.0' y1='44.0' x2='59.0' y2='44.0'/><line x1='52.0' y1='30.0' x2='59.0' y2='30.0'/><line x1='52.0' y1='16.0' x2='59.0' y2='16.0'/><line x1='52.0' y1='65.0' x2='56.0' y2='65.0'/><line x1='52.0' y1='51.0' x2='56.0' y2='51.0'/><line x1='52.0' y1='37.0' x2='56.0' y2='37.0'/><line x1='52.0' y1='23.0' x2='56.0' y2='23.0'/><line x1='52.0' y1='9.0' x2='56.0' y2='9.0'/><line x1='60.0' y1='95.0' x2='60.0' y2='88.0'/></g><g fill='currentColor'><circle cx='62' cy='37.0' r='3.5'/><text x='48.0' y='60.0' text-anchor='end' font-size='6'>10</text><text x='48.0' y='46.0' text-anchor='end' font-size='6'>20</text><text x='48.0' y='32.0' text-anchor='end' font-size='6'>30</text><text x='48.0' y='18.0' text-anchor='end' font-size='6'>40</text><polygon points='60.0,85.0 61.5,88.2 58.5,88.2'/><text x='64.0' y='95.0' text-anchor='start' font-size='6'>N₂</text><text x='60.0' y='5.0' text-anchor='middle' font-size='5.5'>L/min</text></g></svg>",
+"a": 90,
+"u": "Pa",
+"tol": 0.01,
+"d": [
+[
+"Fluxo (vazão)",
+"Volume = fluxo × tempo, com o tempo na mesma unidade do fluxo (aqui, minutos). 1 m³ = 1000 L.",
+"Ex.: 10 L/min durante 2 h = 10 × 120 = 1200 L = 1,2 m³."
+],
+[
+"Densidade",
+"m = d·V.",
+""
+],
+[
+"Pressão do peso sobre a base",
+"P = F/A = m·g/A.",
+""
+]
+],
+"h": [
+"O fluxômetro marca 25 L/min (esfera entre 20 e 30). Em 12 h = 720 min: V = 25 × 720 = 18.000 L = 18 m³.",
+"m = 1,0 × 18 = 18 kg ⟹ peso = 180 N.",
+"P = 180/2,0 = <b>90 Pa</b>."
+]
+},
+{
+"id": "2016-2-fis-10a",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2016, 2ª fase, Física, questão 10(a) (adaptada: no original, o candidato estimava a área do azulejo)",
+"r": 1590,
+"tm": 90,
+"ctx": "O Parque Güell em Barcelona é um dos mais impressionantes parques públicos do mundo e representa uma das obras mais marcantes do arquiteto Antoni Gaudí. Em sua obra, Gaudí utilizou um número imenso de azulejos coloridos. Considere que, no Parque Güell, existe um número N = 2 × 10⁶ de azulejos cujas faces estão perfeitamente perpendiculares à direção da radiação solar quando o sol está a pino na cidade de Barcelona. Nessa situação, a intensidade da radiação solar no local é I = 1200 W/m². Considerando que cada azulejo é um quadrado de 10 cm de lado (tamanho típico dos azulejos de casas), calcule a energia solar que incide sobre esses azulejos durante um tempo t = 60 s.",
+"a": 1440000000.0,
+"u": "J",
+"tol": 0.02,
+"d": [
+[
+"Intensidade de radiação",
+"Intensidade é potência por área: I = P/A. A energia recebida em um tempo t é E = I·A·t.",
+"Ex.: 1000 W/m² em 2 m² durante 10 s ⟹ E = 20.000 J."
+],
+[
+"Área total",
+"N azulejos de área a: A = N·a. Lembre que 10 cm = 0,1 m.",
+""
+]
+],
+"h": [
+"Área de um azulejo: 0,1 × 0,1 = 10⁻² m²; área total: 2 × 10⁶ × 10⁻² = 2 × 10⁴ m².",
+"Potência incidente: 1200 × 2 × 10⁴ = 2,4 × 10⁷ W.",
+"E = 2,4 × 10⁷ × 60 = <b>1,44 × 10⁹ J</b>."
+]
+},
+{
+"id": "2016-2-fis-10b",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2016, 2ª fase, Física, questão 10(b)",
+"r": 1440,
+"tm": 60,
+"ctx": "O Parque Güell em Barcelona é um dos mais impressionantes parques públicos do mundo e representa uma das obras mais marcantes do arquiteto Antoni Gaudí. Em sua obra, Gaudí utilizou um número imenso de azulejos coloridos. Uma das esculturas mais emblemáticas do parque tem a forma de um réptil multicolorido conhecido como El Drac, que se converteu em um dos símbolos da cidade de Barcelona. Considere que a escultura absorva, em um dia ensolarado, uma quantidade de calor Q = 3500 kJ. Considerando que a massa da escultura é m = 500 kg e seu calor específico é c = 700 J/(kg·K), calcule a variação de temperatura sofrida pela escultura, desprezando as perdas de calor para o ambiente.",
+"a": 10,
+"u": "K",
+"tol": 0.005,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·ΔT ⟹ ΔT = Q/(m·c), com Q em joules.",
+"Ex.: 42.000 J em 1 kg de água (c = 4200 J/kg·K) ⟹ ΔT = 10 K."
+]
+],
+"h": [
+"Q = 3500 kJ = 3,5 × 10⁶ J.",
+"m·c = 500 × 700 = 3,5 × 10⁵ J/K.",
+"ΔT = 3,5 × 10⁶/3,5 × 10⁵ = <b>10 K</b>."
+]
+},
+{
+"id": "2016-2-fis-11a",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2016, 2ª fase, Física, questão 11(a)",
+"r": 1590,
+"tm": 90,
+"ctx": "Um estudo publicado em 2014 na revista científica Physical Review Letters descreve como a antiga civilização egípcia reduzia o atrito entre a areia e os trenós que levavam pedras de até algumas toneladas para o local de construção das pirâmides. O artigo demonstrou que a areia na frente do trenó era molhada com a quantidade certa de água para que ficasse mais rígida, diminuindo a força necessária para puxar o trenó. Use g = 10 m/s². No experimento do estudo, um bloco de massa m = 2 kg foi colocado sobre uma superfície de areia úmida e puxado por uma mola de massa desprezível e constante elástica k = 840 N/m, com velocidade constante, como indica a figura. Se a mola em repouso tinha comprimento l<sub>repouso</sub> = 0,10 m, qual é o coeficiente de atrito dinâmico entre o bloco e a areia?",
+"fig": "<svg viewBox='0 0 160 56' class='fg' role='img' aria-label='um bloco sobre a areia é puxado para a direita por uma mola horizontal, cuja outra ponta recebe a força F. Uma cota acima da mola indica o comprimento da mola durante o puxão: 0,11 m'><g fill='none' stroke='currentColor' stroke-width='0.8'><rect x='14' y='22' width='40' height='18'/><line x1='6.0' y1='40.0' x2='154.0' y2='40.0'/><line x1='54.0' y1='31.0' x2='66.0' y2='31.0'/><polyline points='66.0,31.0 65.8,31.0 65.6,31.0 65.4,30.9 65.1,30.8 64.9,30.7 64.8,30.6 64.6,30.5 64.4,30.3 64.3,30.1 64.1,29.9 64.0,29.7 63.9,29.5 63.8,29.3 63.8,29.0 63.7,28.8 63.7,28.5 63.7,28.2 63.8,28.0 63.8,27.7 63.9,27.4 64.0,27.1 64.1,26.8 64.3,26.6 64.5,26.3 64.7,26.0 64.9,25.8 65.2,25.5 65.4,25.3 65.7,25.1 66.0,24.9 66.3,24.7 66.7,24.5 67.0,24.3 67.4,24.2 67.8,24.1 68.2,24.0 68.6,23.9 69.0,23.8 69.4,23.8 69.8,23.8 70.2,23.8 70.6,23.8 71.0,23.9 71.4,24.0 71.8,24.1 72.2,24.2 72.6,24.3 72.9,24.5 73.3,24.7 73.6,24.9 73.9,25.1 74.2,25.3 74.4,25.5 74.7,25.8 74.9,26.0 75.1,26.3 75.3,26.6 75.5,26.8 75.6,27.1 75.7,27.4 75.8,27.7 75.8,28.0 75.9,28.2 75.9,28.5 75.9,28.8 75.8,29.0 75.8,29.3 75.7,29.5 75.6,29.7 75.5,29.9 75.3,30.1 75.2,30.3 75.0,30.5 74.8,30.6 74.7,30.7 74.5,30.8 74.3,30.9 74.0,31.0 73.8,31.0 73.6,31.0 73.4,31.0 73.2,31.0 73.0,30.9 72.7,30.8 72.5,30.7 72.4,30.6 72.2,30.5 72.0,30.3 71.9,30.1 71.7,29.9 71.6,29.7 71.5,29.5 71.4,29.3 71.4,29.0 71.3,28.8 71.3,28.5 71.3,28.2 71.4,28.0 71.4,27.7 71.5,27.4 71.6,27.1 71.7,26.8 71.9,26.6 72.1,26.3 72.3,26.0 72.5,25.8 72.8,25.5 73.0,25.3 73.3,25.1 73.6,24.9 74.0,24.7 74.3,24.5 74.6,24.3 75.0,24.2 75.4,24.1 75.8,24.0 76.2,23.9 76.6,23.8 77.0,23.8 77.4,23.8 77.8,23.8 78.2,23.8 78.6,23.9 79.0,24.0 79.4,24.1 79.8,24.2 80.2,24.3 80.5,24.5 80.9,24.7 81.2,24.9 81.5,25.1 81.8,25.3 82.0,25.5 82.3,25.8 82.5,26.0 82.7,26.3 82.9,26.6 83.1,26.8 83.2,27.1 83.3,27.4 83.4,27.7 83.4,28.0 83.5,28.2 83.5,28.5 83.5,28.8 83.4,29.0 83.4,29.3 83.3,29.5 83.2,29.7 83.1,29.9 82.9,30.1 82.8,30.3 82.6,30.5 82.5,30.6 82.3,30.7 82.1,30.8 81.9,30.9 81.6,31.0 81.4,31.0 81.2,31.0 81.0,31.0 80.8,31.0 80.6,30.9 80.3,30.8 80.1,30.7 80.0,30.6 79.8,30.5 79.6,30.3 79.5,30.1 79.3,29.9 79.2,29.7 79.1,29.5 79.0,29.3 79.0,29.0 78.9,28.8 78.9,28.5 78.9,28.2 79.0,28.0 79.0,27.7 79.1,27.4 79.2,27.1 79.3,26.8 79.5,26.6 79.7,26.3 79.9,26.0 80.1,25.8 80.4,25.5 80.6,25.3 80.9,25.1 81.2,24.9 81.6,24.7 81.9,24.5 82.3,24.3 82.6,24.2 83.0,24.1 83.4,24.0 83.8,23.9 84.2,23.8 84.6,23.8 85.0,23.8 85.4,23.8 85.8,23.8 86.2,23.9 86.6,24.0 87.0,24.1 87.4,24.2 87.8,24.3 88.1,24.5 88.5,24.7 88.8,24.9 89.1,25.1 89.4,25.3 89.7,25.5 89.9,25.8 90.1,26.0 90.3,26.3 90.5,26.6 90.7,26.8 90.8,27.1 90.9,27.4 91.0,27.7 91.0,28.0 91.1,28.2 91.1,28.5 91.1,28.8 91.0,29.0 91.0,29.3 90.9,29.5 90.8,29.7 90.7,29.9 90.6,30.1 90.4,30.3 90.2,30.5 90.1,30.6 89.9,30.7 89.7,30.8 89.5,30.9 89.2,31.0 89.0,31.0 88.8,31.0 88.6,31.0 88.4,31.0 88.2,30.9 88.0,30.8 87.8,30.7 87.6,30.6 87.4,30.5 87.2,30.3 87.1,30.1 86.9,29.9 86.8,29.7 86.7,29.5 86.6,29.3 86.6,29.0 86.5,28.8 86.5,28.5 86.5,28.2 86.6,28.0 86.6,27.7 86.7,27.4 86.8,27.1 86.9,26.8 87.1,26.6 87.3,26.3 87.5,26.0 87.7,25.8 88.0,25.5 88.2,25.3 88.5,25.1 88.8,24.9 89.2,24.7 89.5,24.5 89.9,24.3 90.2,24.2 90.6,24.1 91.0,24.0 91.4,23.9 91.8,23.8 92.2,23.8 92.6,23.8 93.0,23.8 93.4,23.8 93.8,23.9 94.2,24.0 94.6,24.1 95.0,24.2 95.4,24.3 95.7,24.5 96.1,24.7 96.4,24.9 96.7,25.1 97.0,25.3 97.3,25.5 97.5,25.8 97.7,26.0 97.9,26.3 98.1,26.6 98.3,26.8 98.4,27.1 98.5,27.4 98.6,27.7 98.7,28.0 98.7,28.2 98.7,28.5 98.7,28.8 98.6,29.0 98.6,29.3 98.5,29.5 98.4,29.7 98.3,29.9 98.2,30.1 98.0,30.3 97.8,30.5 97.7,30.6 97.5,30.7 97.3,30.8 97.1,30.9 96.8,31.0 96.6,31.0 96.4,31.0 96.2,31.0 96.0,31.0 95.8,30.9 95.6,30.8 95.4,30.7 95.2,30.6 95.0,30.5 94.8,30.3 94.7,30.1 94.5,29.9 94.4,29.7 94.3,29.5 94.2,29.3 94.2,29.0 94.1,28.8 94.1,28.5 94.1,28.2 94.2,28.0 94.2,27.7 94.3,27.4 94.4,27.1 94.6,26.8 94.7,26.6 94.9,26.3 95.1,26.0 95.3,25.8 95.6,25.5 95.8,25.3 96.1,25.1 96.4,24.9 96.8,24.7 97.1,24.5 97.5,24.3 97.8,24.2 98.2,24.1 98.6,24.0 99.0,23.9 99.4,23.8 99.8,23.8 100.2,23.8 100.6,23.8 101.0,23.8 101.4,23.9 101.8,24.0 102.2,24.1 102.6,24.2 103.0,24.3 103.3,24.5 103.7,24.7 104.0,24.9 104.3,25.1 104.6,25.3 104.9,25.5 105.1,25.8 105.3,26.0 105.5,26.3 105.7,26.6 105.9,26.8 106.0,27.1 106.1,27.4 106.2,27.7 106.3,28.0 106.3,28.2 106.3,28.5 106.3,28.8 106.2,29.0 106.2,29.3 106.1,29.5 106.0,29.7 105.9,29.9 105.8,30.1 105.6,30.3 105.4,30.5 105.3,30.6 105.1,30.7 104.9,30.8 104.7,30.9 104.4,31.0 104.2,31.0 104.0,31.0'/><line x1='104.0' y1='31.0' x2='134.0' y2='31.0'/><line x1='68.0' y1='15.0' x2='102.0' y2='15.0'/></g><g fill='currentColor'><polygon points='140.0,31.0 135.5,33.1 135.5,28.9'/><polygon points='66.0,15.0 68.7,13.7 68.7,16.3'/><polygon points='104.0,15.0 101.3,16.3 101.3,13.7'/><text x='34.0' y='33.5' text-anchor='middle' font-size='6.5'>bloco</text><text x='100.0' y='50.0' text-anchor='middle' font-size='6.5'>areia</text><text x='85.0' y='10.0' text-anchor='middle' font-size='6'>l = 0,11 m</text><text x='142.0' y='26.0' text-anchor='start' font-size='7'>F</text></g></svg>",
+"a": 0.42,
+"tol": 0.01,
+"d": [
+[
+"Velocidade constante",
+"Resultante nula: a força da mola equilibra o atrito.",
+""
+],
+[
+"Lei de Hooke e atrito dinâmico",
+"F<sub>mola</sub> = k·x, em que x é a deformação (comprimento atual − comprimento em repouso). F<sub>at</sub> = μ·N, e num plano horizontal N = m·g.",
+"Ex.: k = 100 N/m esticada 0,05 m ⟹ F = 5 N."
+]
+],
+"h": [
+"Deformação: 0,11 − 0,10 = 0,01 m ⟹ F<sub>mola</sub> = 840 × 0,01 = 8,4 N.",
+"N = m·g = 2 × 10 = 20 N.",
+"μ = 8,4/20 = <b>0,42</b>."
+]
+},
+{
+"id": "2016-2-fis-11b",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2016, 2ª fase, Física, questão 11(b)",
+"r": 1770,
+"tm": 150,
+"ctx": "Um estudo publicado em 2014 na revista científica Physical Review Letters descreve como a antiga civilização egípcia reduzia o atrito entre a areia e os trenós que levavam pedras de até algumas toneladas para o local de construção das pirâmides. O artigo demonstrou que a areia na frente do trenó era molhada com a quantidade certa de água para que ficasse mais rígida, diminuindo a força necessária para puxar o trenó. Use g = 10 m/s². O menor valor do coeficiente de atrito entre a areia e o trenó é obtido com a quantidade de água que torna a areia rígida ao cisalhamento. Essa rigidez é caracterizada pelo módulo de cisalhamento G = F·l/(A·Δx), em que F é o módulo da força aplicada tangencialmente a uma superfície de área A de um material de espessura l, que a desloca lateralmente de uma distância Δx. Num experimento, uma camada de areia com face superior de área A = 80 cm² recebeu uma força tangencial F = 10 N. O gráfico mostra G e o coeficiente de atrito dinâmico entre a areia e o bloco, ambos em função da porcentagem de água na areia (atenção às duas escalas: a da esquerda vale para a curva tracejada, do atrito; a da direita, para a curva contínua, de G). Qual é o valor da razão l/Δx da medida que resultou no menor coeficiente de atrito dinâmico?",
+"fig": "<svg viewBox='0 0 170 120' class='fg' role='img' aria-label='gráfico com dois eixos verticais em função da porcentagem de água na areia, de 0 a 8. Curva tracejada, coeficiente de atrito dinâmico, escala da esquerda de 0,35 a 0,65: começa em 0,57 com 0% de água, cai até o mínimo de cerca de 0,42 com 5% de água e sobe até cerca de 0,61 com 8%. Curva contínua, módulo de cisalhamento G, escala da direita de 0 a 6 vezes 10 elevado a 5 Pa: começa em cerca de 1, sobe até o máximo de cerca de 5,8 perto de 4% de água, passa por 5,0 com 5% e cai até cerca de 1,2 com 8%'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40.5' y1='15.999999999999986' x2='40.5' y2='96.0'/><line x1='55.0' y1='15.999999999999986' x2='55.0' y2='96.0'/><line x1='69.5' y1='15.999999999999986' x2='69.5' y2='96.0'/><line x1='84.0' y1='15.999999999999986' x2='84.0' y2='96.0'/><line x1='98.5' y1='15.999999999999986' x2='98.5' y2='96.0'/><line x1='113.0' y1='15.999999999999986' x2='113.0' y2='96.0'/><line x1='127.5' y1='15.999999999999986' x2='127.5' y2='96.0'/><line x1='26.0' y1='82.7' x2='142.0' y2='82.7'/><line x1='26.0' y1='69.3' x2='142.0' y2='69.3'/><line x1='26.0' y1='56.0' x2='142.0' y2='56.0'/><line x1='26.0' y1='42.7' x2='142.0' y2='42.7'/><line x1='26.0' y1='29.3' x2='142.0' y2='29.3'/></g><rect x='26.0' y='16.0' width='116.0' height='80.0' stroke-width='0.7'/><path d='M26.0,37.3 C28.4,38.0 35.7,39.2 40.5,41.3 C45.3,43.4 50.2,47.3 55.0,49.9 C59.8,52.4 65.9,55.2 69.5,56.5 C73.1,57.9 74.3,57.0 76.8,58.1 C79.2,59.3 81.6,61.0 84.0,63.5 C86.4,65.9 88.8,70.6 91.2,72.8 C93.7,75.0 96.1,76.9 98.5,76.5 C100.9,76.1 103.3,73.8 105.8,70.4 C108.2,67.0 110.6,60.6 113.0,56.0 C115.4,51.4 117.8,46.5 120.2,42.9 C122.7,39.4 125.1,37.0 127.5,34.7 C129.9,32.3 132.3,30.2 134.8,28.8 C137.2,27.4 140.8,26.8 142.0,26.4' stroke-width='1.1' stroke-dasharray='3 2'/><path d='M26.0,83.3 C27.2,82.5 30.8,80.7 33.2,78.4 C35.7,76.1 38.1,73.0 40.5,69.7 C42.9,66.4 45.3,62.5 47.8,58.7 C50.2,54.9 52.6,50.8 55.0,46.9 C57.4,43.1 59.8,39.1 62.2,35.6 C64.7,32.1 67.1,28.5 69.5,26.0 C71.9,23.5 74.6,21.5 76.8,20.4 C78.9,19.3 80.1,19.0 82.5,19.2 C85.0,19.4 88.6,20.2 91.2,21.9 C93.9,23.6 96.1,26.3 98.5,29.3 C100.9,32.4 103.3,35.9 105.8,40.0 C108.2,44.1 110.6,49.1 113.0,53.7 C115.4,58.4 117.8,64.0 120.2,68.0 C122.7,72.0 125.1,75.4 127.5,77.5 C129.9,79.5 132.3,79.9 134.8,80.4 C137.2,80.9 140.8,80.5 142.0,80.5' stroke-width='1.3'/><line x1='44.9' y1='44.0' x2='31.1' y2='44.0'/><line x1='120.2' y1='62.7' x2='136.2' y2='62.7'/><line x1='28.9' y1='88' x2='37.6' y2='88' stroke-width='1.1' stroke-dasharray='3 2'/><line x1='28.9' y1='93' x2='37.6' y2='93' stroke-width='1.3'/></g><g fill='currentColor'><polygon points='28.9,44.0 32.1,42.5 32.1,45.5'/><polygon points='139.1,62.7 135.9,64.1 135.9,61.2'/><text x='24.5' y='98.0' text-anchor='end' font-size='5'>0,35</text><text x='24.5' y='84.7' text-anchor='end' font-size='5'>0,40</text><text x='24.5' y='71.3' text-anchor='end' font-size='5'>0,45</text><text x='24.5' y='58.0' text-anchor='end' font-size='5'>0,50</text><text x='24.5' y='44.7' text-anchor='end' font-size='5'>0,55</text><text x='24.5' y='31.3' text-anchor='end' font-size='5'>0,60</text><text x='24.5' y='18.0' text-anchor='end' font-size='5'>0,65</text><text x='143.5' y='98.0' text-anchor='start' font-size='5'>0</text><text x='143.5' y='84.7' text-anchor='start' font-size='5'>1</text><text x='143.5' y='71.3' text-anchor='start' font-size='5'>2</text><text x='143.5' y='58.0' text-anchor='start' font-size='5'>3</text><text x='143.5' y='44.7' text-anchor='start' font-size='5'>4</text><text x='143.5' y='31.3' text-anchor='start' font-size='5'>5</text><text x='143.5' y='18.0' text-anchor='start' font-size='5'>6</text><text x='26.0' y='102.0' text-anchor='middle' font-size='5'>0</text><text x='40.5' y='102.0' text-anchor='middle' font-size='5'>1</text><text x='55.0' y='102.0' text-anchor='middle' font-size='5'>2</text><text x='69.5' y='102.0' text-anchor='middle' font-size='5'>3</text><text x='84.0' y='102.0' text-anchor='middle' font-size='5'>4</text><text x='98.5' y='102.0' text-anchor='middle' font-size='5'>5</text><text x='113.0' y='102.0' text-anchor='middle' font-size='5'>6</text><text x='127.5' y='102.0' text-anchor='middle' font-size='5'>7</text><text x='142.0' y='102.0' text-anchor='middle' font-size='5'>8</text><text x='84.0' y='109.0' text-anchor='middle' font-size='5.5'>porcentagem de água na areia</text><text x='5.0' y='56.0' text-anchor='middle' font-size='5.5' transform='rotate(-90 5.0 56.0)'>coeficiente de atrito</text><text x='165.0' y='56.0' text-anchor='middle' font-size='5.5' transform='rotate(-90 165.0 56.0)'>G (× 10⁵ Pa)</text><text x='39.0' y='89.5' text-anchor='start' font-size='5'>atrito</text><text x='39.0' y='94.5' text-anchor='start' font-size='5'>G</text></g></svg>",
+"a": 400,
+"tol": 0.03,
+"d": [
+[
+"Gráfico com dois eixos verticais",
+"Primeiro ache, na curva tracejada (escala da esquerda), a porcentagem de água em que o atrito é mínimo; depois, nessa mesma abscissa, leia G na curva contínua (escala da direita).",
+""
+],
+[
+"Isolar a razão",
+"G = F·l/(A·Δx) ⟹ l/Δx = G·A/F, com A em m² (1 cm² = 10⁻⁴ m²).",
+""
+]
+],
+"h": [
+"O atrito é mínimo (cerca de 0,42) com 5% de água; nessa abscissa, a curva contínua marca G = 5 × 10⁵ Pa.",
+"A = 80 cm² = 8 × 10⁻³ m².",
+"l/Δx = G·A/F = 5 × 10⁵ × 8 × 10⁻³/10 = <b>400</b>."
+]
+},
+{
+"id": "2016-2-fis-12a",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_mod",
+"src": "Unicamp 2016, 2ª fase, Física, questão 12(a) (adaptada para múltipla escolha)",
+"r": 1620,
+"tm": 45,
+"ctx": "Sabe-se atualmente que os prótons e nêutrons não são partículas elementares, mas sim partículas formadas por três quarks. Uma das propriedades importantes do quark é o sabor, que pode assumir seis tipos diferentes: top, bottom, charm, strange, up e down. Apenas os quarks up e down estão presentes nos prótons e nos nêutrons. Os quarks possuem carga elétrica fracionária: o quark up tem carga +2e/3 e o quark down tem carga −e/3, onde e é o módulo da carga elementar do elétron. Quais são os três quarks que formam os prótons e os nêutrons?",
+"opts": [
+"próton: up, up, down; nêutron: up, down, down",
+"próton: up, down, down; nêutron: up, up, down",
+"próton: up, up, up; nêutron: down, down, down",
+"próton: up, up, down; nêutron: down, down, down"
+],
+"a": 0,
+"d": [
+[
+"Carga de uma partícula composta",
+"A carga de uma partícula formada por quarks é a soma das cargas dos quarks. O próton tem carga +e; o nêutron, carga 0.",
+""
+]
+],
+"h": [
+"Com up = +2/3 e down = −1/3 (em unidades de e), procure combinações de três quarks.",
+"up + up + down = 2/3 + 2/3 − 1/3 = +1 (próton); up + down + down = 2/3 − 1/3 − 1/3 = 0 (nêutron).",
+"<b>Próton: up, up, down; nêutron: up, down, down</b>."
+]
+},
+{
+"id": "2016-2-fis-12b",
+"ano": 2016,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2016, 2ª fase, Física, questão 12(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "Sabe-se atualmente que os prótons e nêutrons não são partículas elementares, mas sim partículas formadas por três quarks. Uma das propriedades importantes do quark é o sabor, que pode assumir seis tipos diferentes: top, bottom, charm, strange, up e down. Apenas os quarks up e down estão presentes nos prótons e nos nêutrons. Os quarks possuem carga elétrica fracionária: o quark up tem carga +2e/3 e o quark down tem carga −e/3, onde e é o módulo da carga elementar do elétron. Calcule o módulo da força de atração eletrostática entre um quark up e um quark down separados por uma distância d = 0,2 × 10⁻¹⁵ m. Use K = 9 × 10⁹ N·m²/C² e e = 1,6 × 10⁻¹⁹ C.",
+"a": 1280,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Lei de Coulomb",
+"F = K·|q₁|·|q₂|/d².",
+"Ex.: duas cargas de 1 μC a 1 m de distância ⟹ F = 9 × 10⁹ × 10⁻¹² = 9 × 10⁻³ N."
+]
+],
+"h": [
+"|q₁·q₂| = (2/3)·(1/3)·e² = (2/9) × (1,6 × 10⁻¹⁹)² = (2/9) × 2,56 × 10⁻³⁸ C².",
+"d² = (2 × 10⁻¹⁶)² = 4 × 10⁻³² m².",
+"F = 9 × 10⁹ × (2/9) × 2,56 × 10⁻³⁸/(4 × 10⁻³²) = 2 × 10⁹ × 6,4 × 10⁻⁷ = <b>1280 N</b>."
+]
+},
+{
+"id": "2016-2-qui-01a",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2016, 2ª fase, Química, questão 1(a) (adaptada para múltipla escolha)",
+"r": 1400,
+"tm": 45,
+"ctx": "Uma figura apresenta três ilustrações cômicas que remetem a interferências antropogênicas no meio ambiente, que podem levar a consequências trágicas. A: uma vaca solta gases (“pum!”) e diz “Sinto muito! Mas não posso atender às suas reivindicações!” a um urso-polar e a um pinguim, que estão sobre pedaços de gelo derretendo. B: um dinossauro aponta uma lata de spray (aerossol) para o céu e abre um buraco numa nuvem, pela qual o sol passa a queimar sua cabeça. C: dois homens observam, consternados, um carro que se desmancha sob gotas de chuva. Os problemas ambientais enfatizados em A, B e C são, respectivamente:",
+"opts": [
+"A: aquecimento global; B: destruição da camada de ozônio; C: chuva ácida.",
+"A: destruição da camada de ozônio; B: aquecimento global; C: chuva ácida.",
+"A: aquecimento global; B: chuva ácida; C: destruição da camada de ozônio.",
+"A: chuva ácida; B: destruição da camada de ozônio; C: aquecimento global."
+],
+"a": 0,
+"d": [
+[
+"Três problemas ambientais",
+"Aquecimento global: gases estufa como CO₂ e CH₄ (o metano vem, por exemplo, da digestão do gado) retêm calor e derretem o gelo polar. Camada de ozônio: os CFCs de aerossóis destroem o O₃ da estratosfera, que filtra a radiação ultravioleta do Sol. Chuva ácida: óxidos de enxofre e de nitrogênio formam ácidos que corroem metais, mármore e pinturas.",
+""
+]
+],
+"h": [
+"A: a vaca emite metano, gás estufa, e o gelo dos animais polares derrete: aquecimento global.",
+"B: o spray (CFC) abre um buraco na “camada” protetora e o sol queima o dinossauro: destruição da camada de ozônio.",
+"C: o carro se desmancha sob a chuva: chuva ácida. Resposta: <b>A, aquecimento global; B, camada de ozônio; C, chuva ácida</b>."
+]
+},
+{
+"id": "2016-2-qui-01b",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2016, 2ª fase, Química, questão 1(b) (adaptada para múltipla escolha)",
+"r": 1490,
+"tm": 60,
+"ctx": "Uma figura apresenta três ilustrações cômicas que remetem a interferências antropogênicas no meio ambiente, que podem levar a consequências trágicas. A: uma vaca solta gases (“pum!”) e diz “Sinto muito! Mas não posso atender às suas reivindicações!” a um urso-polar e a um pinguim, que estão sobre pedaços de gelo derretendo. B: um dinossauro aponta uma lata de spray (aerossol) para o céu e abre um buraco numa nuvem, pela qual o sol passa a queimar sua cabeça. C: dois homens observam, consternados, um carro que se desmancha sob gotas de chuva. Dos problemas ambientais apontados na figura, qual está, atualmente, mais em evidência, e qual seria uma possível solução para minimizá-lo?",
+"opts": [
+"O aquecimento global; reduzir a queima de combustíveis fósseis, trocando-os por fontes renováveis de energia.",
+"A destruição da camada de ozônio, que hoje cresce mais do que nunca; substituir os CFCs por outros gases.",
+"A chuva ácida, hoje o problema que mais cresce no planeta; acrescentar calcário aos lagos.",
+"O aquecimento global; substituir os CFCs dos aerossóis por propano e butano."
+],
+"a": 0,
+"d": [
+[
+"O que está em evidência",
+"O buraco na camada de ozônio vem diminuindo desde a proibição dos CFCs (Protocolo de Montreal, 1987), e a chuva ácida diminuiu com combustíveis com menos enxofre e com catalisadores. As emissões de gases estufa continuam altas, e o aquecimento global domina as conferências do clima.",
+""
+],
+[
+"Solução deve atacar a causa",
+"Para cada problema, pense em qual gás o provoca e em como reduzir a emissão desse gás.",
+""
+]
+],
+"h": [
+"Hoje, o problema mais em evidência é o aquecimento global.",
+"Sua principal causa é o CO₂ da queima de combustíveis fósseis (além do desmatamento); trocar CFCs não o resolve.",
+"Solução: <b>reduzir a queima de combustíveis fósseis, usando fontes renováveis</b> (etanol, energia solar, eólica) ou reflorestando."
+]
+},
+{
+"id": "2016-2-qui-02a",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2016, 2ª fase, Química, questão 2(a) (adaptada para múltipla escolha)",
+"r": 1250,
+"tm": 60,
+"ctx": "De modo simplificado, pode-se dizer que o parâmetro VO₂ máximo representa a capacidade orgânica máxima de um indivíduo absorver, transportar e utilizar o oxigênio do ar atmosférico para a produção de energia via aeróbia. Esse parâmetro pode ser informado por massa corporal (mL de O₂ por kg por minuto). O gráfico mostra valores médios de VO₂ máximo para várias faixas etárias, para homens (H) e mulheres (M), ativos (A) e sedentários (S). As faixas etárias são: 1 (15 a 24 anos), 2 (25 a 34 anos), 3 (35 a 44 anos), 4 (45 a 54 anos), 5 (55 a 64 anos) e 6 (65 a 74 anos). Na maioria das competições esportivas, homens e mulheres são separados por se considerar que eles não competiriam em igualdade. De acordo com o gráfico, existiria alguma condição em que homens e mulheres teriam a mesma capacidade orgânica máxima de absorver, transportar e utilizar o oxigênio, por massa corporal?",
+"fig": "<svg viewBox='0 0 160 118' class='fg' role='img' aria-label='gráfico do VO2 máximo, em mL de O2 por kg por minuto, contra a faixa etária, de 1 a 6. Homens ativos, HA, quadrados: 50,7; 47,4; 45,4; 40,4; 35,3; 29,8. Homens sedentários, HS, triângulos para cima: 47,6; 42,1; 39,2; 35,7; 30,3; 23,3. Mulheres ativas, MA, círculos: 38,8; 38,1; 34,9; 31,0; 28,6; 25,1. Mulheres sedentárias, MS, triângulos para baixo: 35,4; 33,8; 29,9; 27,1; 23,7; 21,2. As curvas HS e MA se cruzam entre as faixas 5 e 6'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40.0' y1='16.799999999999997' x2='40.0' y2='100.0'/><line x1='60.0' y1='16.799999999999997' x2='60.0' y2='100.0'/><line x1='80.0' y1='16.799999999999997' x2='80.0' y2='100.0'/><line x1='100.0' y1='16.799999999999997' x2='100.0' y2='100.0'/><line x1='120.0' y1='16.799999999999997' x2='120.0' y2='100.0'/><line x1='140.0' y1='16.799999999999997' x2='140.0' y2='100.0'/><line x1='30' y1='87.0' x2='150' y2='87.0'/><line x1='30' y1='74.0' x2='150' y2='74.0'/><line x1='30' y1='61.0' x2='150' y2='61.0'/><line x1='30' y1='48.0' x2='150' y2='48.0'/><line x1='30' y1='35.0' x2='150' y2='35.0'/><line x1='30' y1='22.0' x2='150' y2='22.0'/></g><g stroke-width='0.8'><line x1='30.0' y1='100.0' x2='150.0' y2='100.0'/><line x1='30.0' y1='100.0' x2='30.0' y2='16.8'/></g><polyline points='40.0,20.2 60.0,28.8 80.0,34.0 100.0,47.0 120.0,60.2 140.0,74.5' stroke-width='0.9'/><polyline points='40.0,28.2 60.0,42.5 80.0,50.1 100.0,59.2 120.0,73.2 140.0,91.4' stroke-width='0.9'/><polyline points='40.0,51.1 60.0,52.9 80.0,61.3 100.0,71.4 120.0,77.6 140.0,86.7' stroke-width='0.9'/><polyline points='40.0,60.0 60.0,64.1 80.0,74.3 100.0,81.5 120.0,90.4 140.0,96.9' stroke-width='0.9'/></g><g fill='currentColor'><rect x='38.4' y='18.6' width='3.2' height='3.2'/><rect x='58.4' y='27.2' width='3.2' height='3.2'/><rect x='78.4' y='32.4' width='3.2' height='3.2'/><rect x='98.4' y='45.4' width='3.2' height='3.2'/><rect x='118.4' y='58.6' width='3.2' height='3.2'/><rect x='138.4' y='72.9' width='3.2' height='3.2'/><polygon points='40.0,26.2 38.0,29.8 42.0,29.8'/><polygon points='60.0,40.5 58.0,44.1 62.0,44.1'/><polygon points='80.0,48.1 78.0,51.7 82.0,51.7'/><polygon points='100.0,57.2 98.0,60.8 102.0,60.8'/><polygon points='120.0,71.2 118.0,74.8 122.0,74.8'/><polygon points='140.0,89.4 138.0,93.0 142.0,93.0'/><circle cx='40.0' cy='51.1' r='1.8'/><circle cx='60.0' cy='52.9' r='1.8'/><circle cx='80.0' cy='61.3' r='1.8'/><circle cx='100.0' cy='71.4' r='1.8'/><circle cx='120.0' cy='77.6' r='1.8'/><circle cx='140.0' cy='86.7' r='1.8'/><polygon points='40.0,62.0 38.0,58.4 42.0,58.4'/><polygon points='60.0,66.1 58.0,62.5 62.0,62.5'/><polygon points='80.0,76.3 78.0,72.7 82.0,72.7'/><polygon points='100.0,83.5 98.0,79.9 102.0,79.9'/><polygon points='120.0,92.4 118.0,88.8 122.0,88.8'/><polygon points='140.0,98.9 138.0,95.3 142.0,95.3'/><text x='144.0' y='76.5' text-anchor='start' font-size='5'>HA</text><text x='144.0' y='93.4' text-anchor='start' font-size='5'>HS</text><text x='144.0' y='88.7' text-anchor='start' font-size='5'>MA</text><text x='144.0' y='98.9' text-anchor='start' font-size='5'>MS</text><text x='27.0' y='102.0' text-anchor='end' font-size='5.5'>20</text><text x='27.0' y='89.0' text-anchor='end' font-size='5.5'>25</text><text x='27.0' y='76.0' text-anchor='end' font-size='5.5'>30</text><text x='27.0' y='63.0' text-anchor='end' font-size='5.5'>35</text><text x='27.0' y='50.0' text-anchor='end' font-size='5.5'>40</text><text x='27.0' y='37.0' text-anchor='end' font-size='5.5'>45</text><text x='27.0' y='24.0' text-anchor='end' font-size='5.5'>50</text><text x='40.0' y='107.0' text-anchor='middle' font-size='5.5'>1</text><text x='60.0' y='107.0' text-anchor='middle' font-size='5.5'>2</text><text x='80.0' y='107.0' text-anchor='middle' font-size='5.5'>3</text><text x='100.0' y='107.0' text-anchor='middle' font-size='5.5'>4</text><text x='120.0' y='107.0' text-anchor='middle' font-size='5.5'>5</text><text x='140.0' y='107.0' text-anchor='middle' font-size='5.5'>6</text><text x='90.0' y='115.0' text-anchor='middle' font-size='6'>Faixa etária</text><text x='9.0' y='58.4' text-anchor='middle' font-size='5.5' transform='rotate(-90 9.0 58.4)'>VO₂ (mL O₂/kg·min)</text></g></svg>",
+"opts": [
+"Sim: entre as faixas 5 e 6, as curvas HS e MA se cruzam, e homens sedentários e mulheres ativas têm o mesmo VO₂ máximo.",
+"Não: em todas as faixas etárias, qualquer homem tem VO₂ máximo maior que qualquer mulher.",
+"Sim, mas apenas na faixa 1, em que homens ativos e mulheres ativas têm o mesmo VO₂ máximo.",
+"Não: as curvas dos homens e das mulheres são paralelas e nunca se cruzam."
+],
+"a": 0,
+"d": [
+[
+"Leitura de gráfico com várias curvas",
+"Valores iguais aparecem onde duas curvas se cruzam (mesma faixa etária) ou em pontos de mesma altura em faixas diferentes.",
+""
+]
+],
+"h": [
+"Compare as curvas dos homens (HA, HS) com as das mulheres (MA, MS).",
+"A curva HS cai mais depressa e, entre as faixas 5 e 6, cruza a curva MA.",
+"<b>Sim</b>: nesse ponto, homens sedentários e mulheres ativas têm o mesmo VO₂ máximo por massa corporal."
+]
+},
+{
+"id": "2016-2-qui-02b",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2016, 2ª fase, Química, questão 2(b)",
+"r": 1570,
+"tm": 120,
+"ctx": "De modo simplificado, pode-se dizer que o parâmetro VO₂ máximo representa a capacidade orgânica máxima de um indivíduo absorver, transportar e utilizar o oxigênio do ar atmosférico para a produção de energia via aeróbia. Esse parâmetro pode ser informado por massa corporal (mL de O₂ por kg por minuto). O gráfico mostra valores médios de VO₂ máximo para várias faixas etárias, para homens (H) e mulheres (M), ativos (A) e sedentários (S). As faixas etárias são: 1 (15 a 24 anos), 2 (25 a 34 anos), 3 (35 a 44 anos), 4 (45 a 54 anos), 5 (55 a 64 anos) e 6 (65 a 74 anos). Considere uma mulher ativa, que pesa 58 kg e se encontra na faixa etária 4. De acordo com o gráfico, se essa mulher se exercitar em seu VO₂ máximo, ao final de uma hora quantos gramas de gás oxigênio ela terá utilizado? Considere o volume molar do oxigênio igual a 25 L/mol e a massa molar do O₂ igual a 32 g/mol.",
+"fig": "<svg viewBox='0 0 160 118' class='fg' role='img' aria-label='gráfico do VO2 máximo, em mL de O2 por kg por minuto, contra a faixa etária, de 1 a 6. Homens ativos, HA, quadrados: 50,7; 47,4; 45,4; 40,4; 35,3; 29,8. Homens sedentários, HS, triângulos para cima: 47,6; 42,1; 39,2; 35,7; 30,3; 23,3. Mulheres ativas, MA, círculos: 38,8; 38,1; 34,9; 31,0; 28,6; 25,1. Mulheres sedentárias, MS, triângulos para baixo: 35,4; 33,8; 29,9; 27,1; 23,7; 21,2. As curvas HS e MA se cruzam entre as faixas 5 e 6'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40.0' y1='16.799999999999997' x2='40.0' y2='100.0'/><line x1='60.0' y1='16.799999999999997' x2='60.0' y2='100.0'/><line x1='80.0' y1='16.799999999999997' x2='80.0' y2='100.0'/><line x1='100.0' y1='16.799999999999997' x2='100.0' y2='100.0'/><line x1='120.0' y1='16.799999999999997' x2='120.0' y2='100.0'/><line x1='140.0' y1='16.799999999999997' x2='140.0' y2='100.0'/><line x1='30' y1='87.0' x2='150' y2='87.0'/><line x1='30' y1='74.0' x2='150' y2='74.0'/><line x1='30' y1='61.0' x2='150' y2='61.0'/><line x1='30' y1='48.0' x2='150' y2='48.0'/><line x1='30' y1='35.0' x2='150' y2='35.0'/><line x1='30' y1='22.0' x2='150' y2='22.0'/></g><g stroke-width='0.8'><line x1='30.0' y1='100.0' x2='150.0' y2='100.0'/><line x1='30.0' y1='100.0' x2='30.0' y2='16.8'/></g><polyline points='40.0,20.2 60.0,28.8 80.0,34.0 100.0,47.0 120.0,60.2 140.0,74.5' stroke-width='0.9'/><polyline points='40.0,28.2 60.0,42.5 80.0,50.1 100.0,59.2 120.0,73.2 140.0,91.4' stroke-width='0.9'/><polyline points='40.0,51.1 60.0,52.9 80.0,61.3 100.0,71.4 120.0,77.6 140.0,86.7' stroke-width='0.9'/><polyline points='40.0,60.0 60.0,64.1 80.0,74.3 100.0,81.5 120.0,90.4 140.0,96.9' stroke-width='0.9'/></g><g fill='currentColor'><rect x='38.4' y='18.6' width='3.2' height='3.2'/><rect x='58.4' y='27.2' width='3.2' height='3.2'/><rect x='78.4' y='32.4' width='3.2' height='3.2'/><rect x='98.4' y='45.4' width='3.2' height='3.2'/><rect x='118.4' y='58.6' width='3.2' height='3.2'/><rect x='138.4' y='72.9' width='3.2' height='3.2'/><polygon points='40.0,26.2 38.0,29.8 42.0,29.8'/><polygon points='60.0,40.5 58.0,44.1 62.0,44.1'/><polygon points='80.0,48.1 78.0,51.7 82.0,51.7'/><polygon points='100.0,57.2 98.0,60.8 102.0,60.8'/><polygon points='120.0,71.2 118.0,74.8 122.0,74.8'/><polygon points='140.0,89.4 138.0,93.0 142.0,93.0'/><circle cx='40.0' cy='51.1' r='1.8'/><circle cx='60.0' cy='52.9' r='1.8'/><circle cx='80.0' cy='61.3' r='1.8'/><circle cx='100.0' cy='71.4' r='1.8'/><circle cx='120.0' cy='77.6' r='1.8'/><circle cx='140.0' cy='86.7' r='1.8'/><polygon points='40.0,62.0 38.0,58.4 42.0,58.4'/><polygon points='60.0,66.1 58.0,62.5 62.0,62.5'/><polygon points='80.0,76.3 78.0,72.7 82.0,72.7'/><polygon points='100.0,83.5 98.0,79.9 102.0,79.9'/><polygon points='120.0,92.4 118.0,88.8 122.0,88.8'/><polygon points='140.0,98.9 138.0,95.3 142.0,95.3'/><text x='144.0' y='76.5' text-anchor='start' font-size='5'>HA</text><text x='144.0' y='93.4' text-anchor='start' font-size='5'>HS</text><text x='144.0' y='88.7' text-anchor='start' font-size='5'>MA</text><text x='144.0' y='98.9' text-anchor='start' font-size='5'>MS</text><text x='27.0' y='102.0' text-anchor='end' font-size='5.5'>20</text><text x='27.0' y='89.0' text-anchor='end' font-size='5.5'>25</text><text x='27.0' y='76.0' text-anchor='end' font-size='5.5'>30</text><text x='27.0' y='63.0' text-anchor='end' font-size='5.5'>35</text><text x='27.0' y='50.0' text-anchor='end' font-size='5.5'>40</text><text x='27.0' y='37.0' text-anchor='end' font-size='5.5'>45</text><text x='27.0' y='24.0' text-anchor='end' font-size='5.5'>50</text><text x='40.0' y='107.0' text-anchor='middle' font-size='5.5'>1</text><text x='60.0' y='107.0' text-anchor='middle' font-size='5.5'>2</text><text x='80.0' y='107.0' text-anchor='middle' font-size='5.5'>3</text><text x='100.0' y='107.0' text-anchor='middle' font-size='5.5'>4</text><text x='120.0' y='107.0' text-anchor='middle' font-size='5.5'>5</text><text x='140.0' y='107.0' text-anchor='middle' font-size='5.5'>6</text><text x='90.0' y='115.0' text-anchor='middle' font-size='6'>Faixa etária</text><text x='9.0' y='58.4' text-anchor='middle' font-size='5.5' transform='rotate(-90 9.0 58.4)'>VO₂ (mL O₂/kg·min)</text></g></svg>",
+"a": 138,
+"u": "g",
+"tol": 0.04,
+"d": [
+[
+"Taxa por massa corporal",
+"mL/(kg·min) × massa (kg) × tempo (min) = volume total, em mL.",
+"Ex.: 10 mL/(kg·min) × 50 kg × 2 min = 1000 mL."
+],
+[
+"Volume molar",
+"n = V/V<sub>m</sub>; massa = n·M.",
+""
+]
+],
+"h": [
+"No gráfico, a curva MA na faixa 4 marca cerca de 31 mL/(kg·min).",
+"V = 31 × 58 × 60 ≈ 107.900 mL ≈ 107,9 L ⟹ n = 107,9/25 ≈ 4,32 mol.",
+"m = 4,32 × 32 ≈ <b>138 g</b> de O₂."
+]
+},
+{
+"id": "2016-2-qui-03a",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2016, 2ª fase, Química, questão 3(a) (adaptada para múltipla escolha)",
+"r": 1640,
+"tm": 60,
+"ctx": "Já faz parte do folclore brasileiro alguém pedir um “prato quente” na Bahia e se dar mal. Se você come algo muito picante, sensação provocada pela presença de capsaicina no alimento (uma molécula com um anel benzênico com grupos OH e OCH₃, uma ligação amida e uma longa cadeia de hidrocarboneto), logo toma algum líquido para diminuir essa sensação. No entanto, nem sempre isso adianta, pois logo em seguida você passa a sentir o mesmo ardor. Existem dois tipos de pimenta em conserva: um em que se usa vinagre e sal, e outro em que se utiliza óleo comestível. Comparando-se os dois tipos, observa-se que o óleo comestível se torna muito mais picante que o vinagre. Em vista disso, o que seria mais eficiente para eliminar o ardor na boca provocado pela ingestão de pimenta?",
+"opts": [
+"O óleo, pois a capsaicina se dissolve muito mais no óleo (que fica picante) do que no vinagre.",
+"O vinagre, pois a capsaicina reage com o ácido acético e é neutralizada.",
+"O vinagre, pois, sendo aquoso, dissolve melhor a capsaicina do que o óleo.",
+"Os dois têm a mesma eficiência, pois ambos são líquidos."
+],
+"a": 0,
+"d": [
+[
+"Solubilidade observada",
+"Se um líquido fica picante na conserva, é porque a capsaicina passou para ele, dissolvendo-se. O líquido que dissolve melhor a substância também a remove melhor da boca.",
+""
+],
+[
+"Semelhante dissolve semelhante",
+"Moléculas com longas cadeias de hidrocarboneto, pouco polares, dissolvem-se bem em óleos e gorduras e pouco em água.",
+""
+]
+],
+"h": [
+"O óleo da conserva fica muito mais picante que o vinagre: a capsaicina se dissolve mais no óleo.",
+"Isso combina com a estrutura: a longa cadeia carbônica torna a capsaicina pouco polar.",
+"Para retirar a capsaicina da boca: <b>óleo</b>."
+]
+},
+{
+"id": "2016-2-qui-03b",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2016, 2ª fase, Química, questão 3(b) (adaptada para múltipla escolha)",
+"r": 1880,
+"tm": 90,
+"ctx": "Já faz parte do folclore brasileiro alguém pedir um “prato quente” na Bahia e se dar mal. Se você come algo muito picante, sensação provocada pela presença de capsaicina no alimento (uma molécula com um anel benzênico com grupos OH e OCH₃, uma ligação amida e uma longa cadeia de hidrocarboneto), logo toma algum líquido para diminuir essa sensação. No entanto, nem sempre isso adianta, pois logo em seguida você passa a sentir o mesmo ardor. Durante uma refeição, a ingestão de determinados líquidos nem sempre é palatável; assim, se o “prato quente” também estiver muito salgado, a ingestão de leite faz desaparecer imediatamente as duas sensações. Lembre-se que o leite é uma suspensão constituída de água, sais minerais, proteínas, gorduras e açúcares. Qual explicação, baseada nas interações químicas entre os componentes do leite e os condimentos, justifica isso?",
+"opts": [
+"A água do leite dissolve os íons do sal (interação íon-dipolo), e a gordura do leite dissolve a capsaicina (interações de van der Waals entre as cadeias apolares).",
+"A gordura do leite dissolve o sal, e a água do leite dissolve a capsaicina, ambos por ligações de hidrogênio.",
+"Os açúcares do leite reagem com o sal e com a capsaicina, formando compostos insolúveis.",
+"As proteínas do leite neutralizam o sal, que é ácido, e a capsaicina, que é básica."
+],
+"a": 0,
+"d": [
+[
+"Interações intermoleculares",
+"Íons (como Na⁺ e Cl⁻) interagem com moléculas polares, como a água: interação íon-dipolo. Cadeias apolares interagem entre si por forças de van der Waals (dipolo induzido).",
+""
+],
+[
+"Semelhante dissolve semelhante",
+"Solventes polares dissolvem compostos iônicos e polares; solventes apolares dissolvem compostos apolares.",
+""
+]
+],
+"h": [
+"O sal (NaCl) é iônico: dissolve-se na água do leite por interações íon-dipolo.",
+"A capsaicina, pouco polar, dissolve-se na gordura do leite por interações de van der Waals.",
+"<b>A água dissolve o sal e a gordura dissolve a capsaicina</b>: as duas sensações somem."
+]
+},
+{
+"id": "2016-2-qui-04a",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2016, 2ª fase, Química, questão 4(a) (adaptada para múltipla escolha; no original, as fórmulas estruturais são dadas)",
+"r": 1460,
+"tm": 90,
+"ctx": "A natureza fornece não apenas os insumos como também os subsídios necessários para transformá-los. Um exemplo disso é o couro de alguns peixes, utilizado na fabricação de calçados e bolsas, que pode ser tingido com corantes naturais, como o extraído do crajiru, uma planta que contém um pigmento que muda de cor de acordo com o pH: em pH baixo, ele tem coloração vermelha intensa, que passa a violeta à medida que o pH aumenta. O pigmento participa dos equilíbrios I ⇌ II ⇌ III. As três espécies têm o mesmo esqueleto (dois anéis fundidos, um deles com um átomo de oxigênio no anel, ligados a um terceiro anel) e diferem assim: I é neutra, com um grupo C=O no anel da esquerda; II é um cátion (o oxigênio do anel central tem carga +), com grupos OH no anel da esquerda e no da direita; III é neutra, com um grupo C=O no anel da direita. No esquema I ⇌ II ⇌ III, acima de cada seta dupla deve-se indicar a espécie (H⁺ ou OH⁻) que desloca o equilíbrio para a direita e, abaixo, a que o desloca para a esquerda. A forma correta é:",
+"opts": [
+"I ⇌ II: H⁺ acima e OH⁻ abaixo; II ⇌ III: OH⁻ acima e H⁺ abaixo.",
+"I ⇌ II: OH⁻ acima e H⁺ abaixo; II ⇌ III: H⁺ acima e OH⁻ abaixo.",
+"I ⇌ II: H⁺ acima e OH⁻ abaixo; II ⇌ III: H⁺ acima e OH⁻ abaixo.",
+"I ⇌ II: OH⁻ acima e H⁺ abaixo; II ⇌ III: OH⁻ acima e H⁺ abaixo."
+],
+"a": 0,
+"d": [
+[
+"Ganho e perda de H⁺",
+"Uma espécie neutra com C=O que recebe H⁺ passa a ter C–OH e fica com carga +. Uma espécie com carga + que perde o H⁺ de um OH fica neutra (forma-se C=O). Retirar H⁺ equivale a adicionar OH⁻, pois H⁺ + OH⁻ → H₂O.",
+""
+],
+[
+"Deslocamento de equilíbrio",
+"Adicionar uma espécie desloca o equilíbrio no sentido em que ela é consumida (princípio de Le Chatelier).",
+""
+]
+],
+"h": [
+"I → II: o C=O do anel da esquerda vira OH e surge a carga +, ou seja, I ganha H⁺. Então H⁺ desloca para a direita, e OH⁻ (que retira H⁺) para a esquerda.",
+"II → III: o OH do anel da direita vira C=O e a carga + some, ou seja, II perde H⁺. Então OH⁻ desloca para a direita, e H⁺ para a esquerda.",
+"Resposta: <b>I ⇌ II: H⁺ acima e OH⁻ abaixo; II ⇌ III: OH⁻ acima e H⁺ abaixo</b>."
+]
+},
+{
+"id": "2016-2-qui-04b",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2016, 2ª fase, Química, questão 4(b) (adaptada para múltipla escolha)",
+"r": 1770,
+"tm": 75,
+"ctx": "A natureza fornece não apenas os insumos como também os subsídios necessários para transformá-los. Um exemplo disso é o couro de alguns peixes, utilizado na fabricação de calçados e bolsas, que pode ser tingido com corantes naturais, como o extraído do crajiru, uma planta que contém um pigmento que muda de cor de acordo com o pH: em pH baixo, ele tem coloração vermelha intensa, que passa a violeta à medida que o pH aumenta. O pigmento participa dos equilíbrios I ⇌ II ⇌ III. As três espécies têm o mesmo esqueleto (dois anéis fundidos, um deles com um átomo de oxigênio no anel, ligados a um terceiro anel) e diferem assim: I é neutra, com um grupo C=O no anel da esquerda; II é um cátion (o oxigênio do anel central tem carga +), com grupos OH no anel da esquerda e no da direita; III é neutra, com um grupo C=O no anel da direita. Dentre as espécies I, II e III, quais estão presentes no pigmento com coloração violeta?",
+"opts": [
+"I e III, pois predominam quando a concentração de OH⁻ aumenta (pH maior).",
+"Apenas II, pois predomina quando a concentração de OH⁻ aumenta (pH maior).",
+"I e III, pois predominam quando a concentração de H⁺ aumenta (pH menor).",
+"Apenas II, pois predomina quando a concentração de H⁺ aumenta (pH menor)."
+],
+"a": 0,
+"d": [
+[
+"pH e concentrações",
+"pH maior significa menos H⁺ e mais OH⁻ (meio mais básico).",
+""
+],
+[
+"Le Chatelier",
+"Retirar H⁺ (ou adicionar OH⁻) favorece as espécies que se formam pela perda de H⁺.",
+""
+]
+],
+"h": [
+"O violeta aparece à medida que o pH aumenta: há mais OH⁻ e menos H⁺.",
+"Retirando H⁺, os equilíbrios se deslocam de II para I e de II para III (as formas que perderam H⁺).",
+"No violeta predominam <b>I e III</b>; II, o cátion, é a forma vermelha, de pH baixo."
+]
+},
+{
+"id": "2016-2-qui-05a",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2016, 2ª fase, Química, questão 5(a)",
+"r": 1710,
+"tm": 120,
+"ctx": "A 2,5-dimetoxi-4-bromoanfetamina, DOB, é um potente alucinógeno comercializado dentro de cápsulas, em doses de 1,5 mg. Essa quantidade é tão pequena que a droga é conhecida como “cápsula do vento” ou “cápsula da morte”. A literatura não traz informações sobre valores de dose letal, mas a ingestão de duas cápsulas da droga tem grandes chances de levar o usuário a uma overdose. Se o volume interno da cápsula em que se comercializa a droga é de 1,0 cm³, quanto vale a relação m<sub>DOB</sub>/m<sub>ar</sub> no interior da cápsula? Considere desprezível o volume ocupado pelo DOB sólido, a pressão interna de 100.000 Pa e a temperatura de 25 °C. Dados: massa molar do ar = 29 g/mol; R = 8,3 Pa·m³/(K·mol); T/K = 273 + t/°C.",
+"a": 1.28,
+"tol": 0.03,
+"d": [
+[
+"Equação dos gases ideais",
+"PV = nRT, com P em Pa, V em m³ e T em K. 1 cm³ = 10⁻⁶ m³.",
+"Ex.: 10⁵ Pa, 10⁻³ m³ e 300 K ⟹ n = 100/2490 ≈ 0,04 mol."
+],
+[
+"Massa",
+"m = n·M; compare as duas massas na mesma unidade (mg).",
+""
+]
+],
+"h": [
+"n<sub>ar</sub> = PV/RT = 10⁵ × 10⁻⁶/(8,3 × 298) ≈ 4,04 × 10⁻⁵ mol.",
+"m<sub>ar</sub> = 4,04 × 10⁻⁵ × 29 ≈ 1,17 × 10⁻³ g = 1,17 mg.",
+"m<sub>DOB</sub>/m<sub>ar</sub> = 1,5/1,17 ≈ <b>1,28</b>: há mais droga do que ar na cápsula."
+]
+},
+{
+"id": "2016-2-qui-05b",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2016, 2ª fase, Química, questão 5(b) (adaptada para múltipla escolha; no original, construir as curvas de decaimento)",
+"r": 1640,
+"tm": 75,
+"ctx": "A 2,5-dimetoxi-4-bromoanfetamina, DOB, é um potente alucinógeno comercializado dentro de cápsulas, em doses de 1,5 mg. Essa quantidade é tão pequena que a droga é conhecida como “cápsula do vento” ou “cápsula da morte”. A literatura não traz informações sobre valores de dose letal, mas a ingestão de duas cápsulas da droga tem grandes chances de levar o usuário a uma overdose. Imagine que um indivíduo ingere uma cápsula contendo 1,5 mg de DOB, ao mesmo tempo em que outro indivíduo ingere um comprimido contendo 10 mg de ecstasy. Baseando-se apenas no fato de que a meia-vida do DOB no organismo é de 12 horas e a do ecstasy é de 1,5 hora, qual dos dois indivíduos teria maior massa do princípio ativo da droga após 12 horas?",
+"opts": [
+"O que ingeriu DOB: restam 0,75 mg de DOB, contra cerca de 0,04 mg de ecstasy.",
+"O que ingeriu ecstasy: restam cerca de 5 mg de ecstasy, contra 0,75 mg de DOB.",
+"O que ingeriu ecstasy: restam cerca de 1,25 mg de ecstasy, contra 0,75 mg de DOB.",
+"Os dois teriam a mesma massa, pois os dois decaimentos são exponenciais."
+],
+"a": 0,
+"d": [
+[
+"Meia-vida",
+"A cada meia-vida, a quantidade cai pela metade: após n meias-vidas, resta m₀/2ⁿ.",
+"Ex.: 8 mg com meia-vida de 2 h, depois de 6 h (3 meias-vidas) ⟹ 8/2³ = 1 mg."
+]
+],
+"h": [
+"DOB: 12 h = 1 meia-vida ⟹ restam 1,5/2 = 0,75 mg.",
+"Ecstasy: 12 h/1,5 h = 8 meias-vidas ⟹ restam 10/2⁸ = 10/256 ≈ 0,04 mg.",
+"Resta mais droga <b>no indivíduo que ingeriu DOB</b> (0,75 mg contra cerca de 0,04 mg)."
+]
+},
+{
+"id": "2016-2-qui-06a",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2016, 2ª fase, Química, questão 6(a) (adaptada para múltipla escolha)",
+"r": 1680,
+"tm": 90,
+"ctx": "Na indústria química moderna, a economia percentual de átomos tem uma forte componente ambiental, sendo um aspecto muito mais importante que o rendimento percentual, que tem uma componente mais econômica. A hidrazina (N₂H₄), um poderoso combustível para foguetes, pode ser obtida por diferentes reações de síntese, duas das quais são:<br>(1) 2 NH₃ + H₂O₂ → N₂H₄ + 2 H₂O<br>(2) 2 NH₃ + OCl⁻ → N₂H₄ + H₂O + Cl⁻<br>Economia percentual de átomos = (massa do produto desejado)/(massa de todos os reagentes) × 100, levando em conta apenas a estequiometria da reação. Rendimento percentual = (massa obtida do produto desejado)/(massa teórica esperada do produto desejado) × 100. Massas molares (g/mol): H = 1; N = 14; O = 16; Cl = 35,5. Com base na maior economia percentual de átomos, qual das duas sínteses deveria ser escolhida por uma indústria?",
+"opts": [
+"A síntese 1: economia de cerca de 47%, contra cerca de 37% da síntese 2.",
+"A síntese 2: economia de cerca de 47%, contra cerca de 37% da síntese 1.",
+"A síntese 1: economia de 100%, pois todos os átomos de N vão para a hidrazina.",
+"Tanto faz: as duas têm a mesma economia de átomos, pois formam 1 mol de N₂H₄."
+],
+"a": 0,
+"d": [
+[
+"Massa dos reagentes pela equação",
+"Some as massas molares de todos os reagentes, multiplicadas pelos coeficientes, e compare com a massa do produto desejado formado.",
+"Ex.: A + B → C + D com A = 20 g, B = 30 g e C = 40 g ⟹ economia = 40/50 = 80%."
+]
+],
+"h": [
+"Produto: N₂H₄ = 32 g. Reagentes de (1): 2 × 17 + 34 = 68 g ⟹ 32/68 ≈ 47,1%.",
+"Reagentes de (2): 2 × 17 + (16 + 35,5) = 85,5 g ⟹ 32/85,5 ≈ 37,4%.",
+"Maior economia de átomos: <b>síntese 1</b>."
+]
+},
+{
+"id": "2016-2-qui-06b",
+"ano": 2016,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2016, 2ª fase, Química, questão 6(b) (adaptada para múltipla escolha)",
+"r": 1760,
+"tm": 90,
+"ctx": "Na indústria química moderna, a economia percentual de átomos tem uma forte componente ambiental, sendo um aspecto muito mais importante que o rendimento percentual, que tem uma componente mais econômica. A hidrazina (N₂H₄), um poderoso combustível para foguetes, pode ser obtida por diferentes reações de síntese, duas das quais são:<br>(1) 2 NH₃ + H₂O₂ → N₂H₄ + 2 H₂O<br>(2) 2 NH₃ + OCl⁻ → N₂H₄ + H₂O + Cl⁻<br>Economia percentual de átomos = (massa do produto desejado)/(massa de todos os reagentes) × 100, levando em conta apenas a estequiometria da reação. Rendimento percentual = (massa obtida do produto desejado)/(massa teórica esperada do produto desejado) × 100. Massas molares (g/mol): H = 1; N = 14; O = 16; Cl = 35,5. Considere que, numa síntese de hidrazina, partindo-se de 2 mols de amônia e excesso do outro reagente, tenham sido obtidos 14 g de hidrazina. Sabendo que o rendimento percentual da reação, nesse caso, foi maior que a economia percentual de átomos, qual processo de síntese foi utilizado?",
+"opts": [
+"O processo 2: o rendimento (cerca de 44%) supera a economia de átomos de 2 (cerca de 37%), mas não a de 1 (cerca de 47%).",
+"O processo 1: o rendimento (cerca de 44%) supera a economia de átomos de 1 (cerca de 47%).",
+"O processo 1: o rendimento é de 100%, maior que qualquer economia de átomos.",
+"O processo 2: o rendimento (cerca de 88%) supera as duas economias de átomos."
+],
+"a": 0,
+"d": [
+[
+"Rendimento",
+"Pela equação, 2 mol de NH₃ dão 1 mol (32 g) de N₂H₄: essa é a massa teórica. Rendimento = massa obtida/massa teórica.",
+""
+],
+[
+"Comparar",
+"Compare o rendimento com a economia de átomos de cada síntese.",
+""
+]
+],
+"h": [
+"Massa teórica: 32 g; obtidos 14 g ⟹ rendimento = 14/32 ≈ 43,8%.",
+"Economias de átomos: 47,1% na síntese 1 e 37,4% na síntese 2.",
+"43,8% só é maior que 37,4%: <b>processo 2</b>."
+]
+}
+]

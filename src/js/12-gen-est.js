@@ -50,7 +50,6 @@
         return { ctx: 'Estime (vale ±10%):', q, a: sig(x), tol: .1, h: `≈ ${hq} = ${f(rd(est))} (exato: ${f(sig(x))})`, tk: 'Notação científica' }; }
       return null; },
   ]);
-  QB.estm = V(200, 650, 750, 800, 900);
 
   // ---------- física: ordem de grandeza ----------
   const COUNT = [
@@ -131,4 +130,3 @@
         return { ctx: `Uma torneira pinga ${gs === 1 ? '1 gota por segundo' : `1 gota a cada ${gs} s`} (gota de 0,05 mL). Quantos litros em 30 dias? (vale ±10%)`, a: sig(x, 3), u: 'L', tol: .1, h: `1 dia ≈ 9 × 10⁴ s → ${f(9e4 / gs)} gotas × 0,05 mL ≈ ${f(rd(9e4 / gs * 0.05 / 1000))} L por dia; × 30 ≈ ${f(rd(est))} (exato: ${f(sig(x, 3))})`, tk: 'Estimativa com dados' }; }
       return null; },
   ]);
-  QB.f_est = Object.assign(V(200, 650, 700, 650, 800), { s1: 250, s2: 250 });

@@ -8,10 +8,11 @@ O site é estático (um `index.html` grande, sem framework) e as contas ficam no
 
 - `src/` o código-fonte. `build.sh` junta tudo.
   - `head.html`, `base-head.html`, `app.css`, `body.html` o HTML e o CSS
-  - `js/` o JavaScript, em ordem (geradores de questões, fórmulas, dicas, interface em `30-ui.js`)
+  - `js/` o JavaScript, em ordem (geradores de questões, fórmulas, rating das questões em `10-qrating.js`, dicas, interface em `30-ui.js`)
   - `web.js` e `web-body.html` só no site: contas, sincronização e ranking pelo Supabase
   - `dicas.html` a página de dicas por tópico
-- `public/` o que a Vercel publica (gerado por `build.sh`, mais `vendor/supabase.js`, supabase-js 2.117.3)
+- `banco/` as questões da Unicamp (um arquivo por ano) e as estimativas de rating das questões geradas; ver `banco/README.md`
+- `public/` o que a Vercel publica (gerado por `build.sh`, inclusive `unicamp.json`, mais `vendor/supabase.js`, supabase-js 2.117.3)
 - `dist/` a versão do claude.ai (Artifact), gerada por `build.sh` e fora do git
 - `supabase/schema.sql` as tabelas e regras do banco
 - `tests/` testes com Playwright e um Supabase de mentira

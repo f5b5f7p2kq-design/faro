@@ -1,0 +1,1871 @@
+[
+{
+"id": "1988-1-07",
+"ano": 1988,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1988, 1ª fase, questão 7",
+"r": 1280,
+"tm": 75,
+"ctx": "Um balão de 240 dm³ será enchido com hidrogênio gerado pela reação de zinco com ácido clorídrico: Zn + 2 HCl → ZnCl<sub>2</sub> + H<sub>2</sub>. Se o volume molar do H<sub>2</sub> nas condições da experiência é 24,0 dm³, quantos gramas de H<sub>2</sub> são necessários? (H = 1,0)",
+"a": 20,
+"u": "g",
+"d": [
+[
+"Volume molar",
+"Nas mesmas condições, todo gás ocupa o mesmo volume por mol: n = V/V<sub>m</sub>.",
+""
+],
+[
+"Massa molar",
+"m = n·M; para o H<sub>2</sub>, M = 2 g/mol.",
+""
+]
+],
+"h": [
+"n = 240/24,0 = 10 mol de H<sub>2</sub>.",
+"m = 10 × 2,0.",
+"<b>20 g</b> de H<sub>2</sub>."
+]
+},
+{
+"id": "1988-1-08",
+"ano": 1988,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1988, 1ª fase, questão 8",
+"r": 1060,
+"tm": 45,
+"ctx": "Num acampamento, um estudante deixou cair na areia todo o sal de cozinha. Que operações permitem recuperar praticamente todo o sal?",
+"opts": [
+"dissolver em água, filtrar (a areia fica no filtro) e evaporar a água",
+"peneirar a mistura seca",
+"aquecer até a areia evaporar",
+"decantar a mistura seca"
+],
+"a": 0,
+"d": [
+[
+"Separação de misturas",
+"Use uma propriedade que só um componente tem: aqui, o sal se dissolve em água e a areia não.",
+""
+],
+[
+"Recuperar o soluto",
+"Evaporação do solvente devolve o sólido dissolvido.",
+""
+]
+],
+"h": [
+"Adicionar água: o sal se dissolve, a areia não.",
+"Filtrar: a areia fica no papel e a solução passa.",
+"Evaporar a água da solução: sobra o <b>sal</b>."
+]
+},
+{
+"id": "1988-1-09",
+"ano": 1988,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1988, 1ª fase, questão 9",
+"r": 1440,
+"tm": 75,
+"ctx": "Um relógio de pêndulo, com período T = 2π√(ℓ/g), é calibrado no frio do inverno gaúcho. Ele atrasa ou adianta quando levado para o verão nordestino? E se for levado do Nordeste para a superfície da Lua, na mesma temperatura?",
+"opts": [
+"atrasa nos dois casos",
+"adianta nos dois casos",
+"atrasa no Nordeste e adianta na Lua",
+"adianta no Nordeste e atrasa na Lua"
+],
+"a": 0,
+"d": [
+[
+"Período do pêndulo",
+"T = 2π√(ℓ/g): cresce com o comprimento e diminui com a gravidade.",
+""
+],
+[
+"Dilatação",
+"No calor, a haste do pêndulo fica mais comprida.",
+""
+],
+[
+"Relógio de pêndulo",
+"Cada oscilação conta um tique. Período maior = menos tiques por hora = relógio atrasa.",
+""
+]
+],
+"h": [
+"No calor, ℓ aumenta → T aumenta → cada tique demora mais: o relógio atrasa.",
+"Na Lua, g é cerca de 1/6 da da Terra → T aumenta bastante: atrasa.",
+"<b>Atrasa nos dois casos</b>."
+]
+},
+{
+"id": "1988-1-10",
+"ano": 1988,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988, 1ª fase, questão 10",
+"r": 1100,
+"tm": 45,
+"ctx": "Um amperímetro precisa ser atravessado pela corrente que mede e não pode alterar essa corrente. Como ele deve ser ligado e como deve ser sua resistência interna?",
+"opts": [
+"em série, com resistência interna muito pequena",
+"em paralelo, com resistência interna muito grande",
+"em série, com resistência interna muito grande",
+"em paralelo, com resistência interna muito pequena"
+],
+"a": 0,
+"d": [
+[
+"Instrumentos ideais",
+"Amperímetro: em série, resistência quase zero. Voltímetro: em paralelo, resistência quase infinita.",
+""
+]
+],
+"h": [
+"Para ser atravessado pela mesma corrente, ele entra em série no circuito.",
+"Em série, sua resistência soma às outras; para não mudar a corrente, ela precisa ser desprezível.",
+"<b>Em série, com resistência interna muito pequena</b>."
+]
+},
+{
+"id": "1988-1-11",
+"ano": 1988,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1988, 1ª fase, questão 11",
+"r": 1100,
+"tm": 45,
+"ctx": "Um comerciante aumentou seus preços em 50% e, em seguida, deu um desconto geral de 50%. Qual foi a variação dos preços em relação aos originais, em %?",
+"a": -25,
+"u": "%",
+"d": [
+[
+"Fator multiplicativo",
+"Aumento de p%: multiplique por (1 + p/100). Desconto de p%: por (1 − p/100). Variações seguidas multiplicam os fatores.",
+"+10% e depois −10%: 1,1 × 0,9 = 0,99"
+]
+],
+"h": [
+"Aumento de 50%: × 1,5. Desconto de 50%: × 0,5.",
+"1,5 × 0,5 = 0,75.",
+"O preço final é 75% do original: variação de <b>−25%</b>."
+]
+},
+{
+"id": "1988-1-12",
+"ano": 1988,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1988, 1ª fase, questão 12",
+"r": 1360,
+"tm": 60,
+"ctx": "Se o volume de uma bola de basquete for multiplicado por um fator α, por quanto deve ser multiplicado o raio da cesta para continuar servindo (sem considerar a folga)?",
+"opts": [
+"∛α",
+"α",
+"√α",
+"α³"
+],
+"a": 0,
+"d": [
+[
+"Semelhança",
+"Em figuras semelhantes, comprimentos multiplicam por k, áreas por k² e volumes por k³.",
+""
+]
+],
+"h": [
+"O volume da esfera é 4πr³/3: volume ∝ r³.",
+"Volume × α → raio × ∛α.",
+"A cesta acompanha o raio da bola: multiplique por <b>∛α</b>."
+]
+},
+{
+"id": "1988-2-mat-01",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 1",
+"r": 1490,
+"tm": 120,
+"ctx": "Numa estrada em obras, os carros andavam a 80 km/h, mantendo 50 m de distância do veículo da frente. Um engenheiro mandou reduzir a velocidade para 50 km/h e a distância para 25 m, dizendo que o tráfego escoaria mais depressa. Quantos veículos por hora passam em cada situação?",
+"opts": [
+"1.600 antes e 2.000 depois: o engenheiro tinha razão",
+"1.600 antes e 1.250 depois: o engenheiro errou",
+"2.000 antes e 1.600 depois: o engenheiro errou",
+"1.600 nas duas situações"
+],
+"a": 0,
+"d": [
+[
+"Fluxo de uma fila",
+"Veículos por hora = distância percorrida em 1 hora ÷ espaço ocupado por veículo.",
+""
+],
+[
+"Unidades",
+"Passe km para m antes de dividir: 1 km = 1.000 m.",
+""
+]
+],
+"h": [
+"Antes: em 1 hora a fila anda 80.000 m, e há um carro a cada 50 m: 80.000/50 = 1.600 veículos/h.",
+"Depois: 50.000/25 = 2.000 veículos/h.",
+"<b>1.600 → 2.000: o engenheiro tinha razão</b>."
+]
+},
+{
+"id": "1988-2-mat-02",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 2",
+"r": 1400,
+"tm": 90,
+"ctx": "6.240 litros de água têm salinidade de 12%. Com a evaporação, a salinidade subiu para 18%. Quantos litros de água evaporaram?",
+"a": 2080,
+"u": "L",
+"d": [
+[
+"O que não muda",
+"Na evaporação só sai água: a quantidade de sal fica constante.",
+""
+],
+[
+"Porcentagem inversa",
+"Se x é p% do total, o total é x ÷ (p/100).",
+""
+]
+],
+"h": [
+"Sal: 12% de 6.240 = 748,8.",
+"Depois, esse sal é 18% do total: 748,8/0,18 = 4.160 L.",
+"Evaporaram 6.240 − 4.160 = <b>2.080 L</b>."
+]
+},
+{
+"id": "1988-2-mat-03",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 3",
+"r": 1320,
+"tm": 90,
+"ctx": "Pela lei de Poiseuille, a velocidade do sangue a r cm do eixo de um vaso é V(r) = C(R² − r²) cm/s. Com C = 1,8 × 10<sup>4</sup> e R = 10<sup>−2</sup> cm, qual a velocidade no ponto médio entre a parede do vaso e o eixo central, em cm/s?",
+"a": 1.35,
+"u": "cm/s",
+"d": [
+[
+"Calcular uma função",
+"Substitua r pelo valor pedido. No eixo r = 0, na parede r = R, no meio r = R/2.",
+""
+],
+[
+"Potências de 10",
+"(10<sup>−2</sup>)² = 10<sup>−4</sup>.",
+""
+]
+],
+"h": [
+"No eixo: V(0) = 1,8 × 10<sup>4</sup> × 10<sup>−4</sup> = 1,8 cm/s.",
+"No ponto médio, r = R/2: V = C(R² − R²/4) = C·(3/4)R².",
+"V = 1,8 × 3/4 = <b>1,35 cm/s</b>."
+]
+},
+{
+"id": "1988-2-mat-04",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 4",
+"r": 1320,
+"tm": 90,
+"ctx": "Eratóstenes sabia que Alexandria e Siena (no mesmo meridiano) distam 800 km. Quando em Siena os raios do Sol caíam na vertical, em Alexandria faziam 7,2° com a vertical. Qual o comprimento da circunferência terrestre, em km?",
+"a": 40000,
+"u": "km",
+"fig": "<svg viewBox='0 0 200 140' class='fg' role='img' aria-label='Terra com raios do Sol paralelos chegando em A inclinados 7,2 graus e em S na vertical; ângulo central de 7,2 graus'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='70' cy='85' r='50'/><line x1='70' y1='85' x2='105' y2='49'/><line x1='70' y1='85' x2='117' y2='68'/><line x1='105' y1='49' x2='128' y2='25' stroke-dasharray='3 3'/><line x1='170' y1='20' x2='108' y2='47'/><line x1='185' y1='50' x2='119' y2='67'/></g><g fill='currentColor' font-size='13'><text x='96' y='44'>A</text><text x='120' y='80'>S</text><text x='130' y='22'>7,2°</text><text x='150' y='96'>raios do Sol</text></g></svg>",
+"d": [
+[
+"Ângulos alternos",
+"Raios do Sol são paralelos: o ângulo que fazem com a vertical em A é igual ao ângulo central entre A e S.",
+""
+],
+[
+"Arco proporcional ao ângulo",
+"comprimento do arco / circunferência = ângulo / 360°.",
+""
+]
+],
+"h": [
+"O ângulo central entre Alexandria e Siena é 7,2°, e o arco correspondente mede 800 km.",
+"360° ÷ 7,2° = 50 arcos desses na volta completa.",
+"50 × 800 = <b>40.000 km</b>."
+]
+},
+{
+"id": "1988-2-mat-05",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 5",
+"r": 1400,
+"tm": 90,
+"ctx": "Numa Kombi viajam 9 pessoas, das quais 4 dirigem. De quantas maneiras diferentes elas podem se sentar (3 no banco da frente, 3 no do meio e 3 no de trás) com uma das 4 que dirigem no lugar da direção?",
+"a": 161280,
+"u": "maneiras",
+"d": [
+[
+"Princípio multiplicativo",
+"Preencha primeiro o lugar com restrição e depois os outros: multiplique as possibilidades.",
+""
+],
+[
+"Permutação",
+"n pessoas em n lugares: n!.",
+"8! = 40.320"
+]
+],
+"h": [
+"Lugar da direção: 4 escolhas.",
+"As 8 pessoas restantes ocupam os 8 lugares restantes em qualquer ordem: 8! = 40.320.",
+"4 × 40.320 = <b>161.280</b>."
+]
+},
+{
+"id": "1988-2-mat-06",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 6",
+"r": 1440,
+"tm": 90,
+"ctx": "Um chaveiro tem 5 chaves parecidas e só uma abre a porta. Testando as chaves uma a uma, sem repetir, qual a probabilidade de acertar somente na última tentativa?",
+"a": 0.2,
+"d": [
+[
+"Probabilidade sem reposição",
+"Multiplique as probabilidades de cada etapa, lembrando que as chaves testadas saem do sorteio.",
+""
+],
+[
+"Simetria",
+"A chave certa tem a mesma chance de estar em qualquer posição da ordem de teste.",
+""
+]
+],
+"h": [
+"Errar a 1ª: 4/5; errar a 2ª: 3/4; errar a 3ª: 2/3; errar a 4ª: 1/2; a 5ª é certa.",
+"4/5 × 3/4 × 2/3 × 1/2 = 1/5.",
+"<b>0,2</b>: a mesma chance de acertar na primeira. A crença de que a chave certa sempre é a última não tem base."
+]
+},
+{
+"id": "1988-2-mat-07",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 7",
+"r": 1830,
+"tm": 180,
+"ctx": "Numa esfera de raio 1 está inscrito um cubo; nesse cubo está inscrita uma esfera, nela outro cubo, e assim por diante. Os raios das esferas formam uma PG. Qual a soma de todos os raios?",
+"opts": [
+"(3 + √3)/2",
+"√3",
+"3/2",
+"3 + √3"
+],
+"a": 0,
+"d": [
+[
+"Cubo inscrito na esfera",
+"A diagonal do cubo é o diâmetro da esfera: ℓ√3 = 2R.",
+""
+],
+[
+"Esfera inscrita no cubo",
+"O diâmetro da esfera é a aresta do cubo: 2r = ℓ.",
+""
+],
+[
+"Soma da PG infinita",
+"S = a<sub>1</sub>/(1 − q), com |q| &lt; 1.",
+""
+]
+],
+"h": [
+"Esfera de raio R → cubo de aresta 2R/√3 → esfera de raio R/√3. A razão é q = 1/√3.",
+"S = 1/(1 − 1/√3) = √3/(√3 − 1).",
+"Racionalizando: √3(√3 + 1)/2 = <b>(3 + √3)/2</b> ≈ 2,37."
+]
+},
+{
+"id": "1988-2-mat-08",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 8",
+"r": 1280,
+"tm": 75,
+"ctx": "Júpiter, Saturno e Urano levam aproximadamente 12, 30 e 84 anos para dar uma volta em torno do Sol. Depois de quantos anos eles voltam a ocupar, ao mesmo tempo, as posições em que estavam no momento de uma observação?",
+"a": 420,
+"u": "anos",
+"d": [
+[
+"Eventos que se repetem",
+"Fenômenos periódicos voltam a coincidir depois do MMC dos períodos.",
+""
+],
+[
+"MMC pela fatoração",
+"Pegue cada primo com o maior expoente que aparece.",
+"MMC(4, 6) = 2² × 3 = 12"
+]
+],
+"h": [
+"12 = 2²·3, 30 = 2·3·5, 84 = 2²·3·7.",
+"MMC = 2²·3·5·7.",
+"<b>420 anos</b>."
+]
+},
+{
+"id": "1988-2-mat-09",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 9",
+"r": 1740,
+"tm": 150,
+"ctx": "Um país tem 100 milhões de habitantes e taxa de crescimento de 2,4% ao ano. Em quantos anos chegaria a 5 bilhões de habitantes? (log 2 = 0,301)",
+"a": 170,
+"u": "anos",
+"tol": 0.01,
+"d": [
+[
+"Crescimento exponencial",
+"P = P<sub>0</sub>·(1 + i)<sup>n</sup>.",
+""
+],
+[
+"Isolar o expoente",
+"Aplique log dos dois lados: n·log(1 + i) = log(P/P<sub>0</sub>).",
+""
+],
+[
+"Truque do 1,024",
+"1,024 = 1024/1000 = 2<sup>10</sup>/10³.",
+""
+]
+],
+"h": [
+"(1,024)<sup>n</sup> = 5 × 10<sup>9</sup>/10<sup>8</sup> = 50.",
+"log 1,024 = 10 log 2 − 3 = 0,01; log 50 = 2 − log 2 = 1,699.",
+"n = 1,699/0,01 ≈ <b>170 anos</b>."
+]
+},
+{
+"id": "1988-2-mat-10",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 10",
+"r": 2080,
+"tm": 240,
+"ctx": "Um observador O, na mediatriz de um segmento AB e a uma distância d dele, vê o segmento sob um ângulo α. Ele se afasta pela mediatriz até O', de onde vê o segmento sob o ângulo α/2. Quanto vale OO'?",
+"opts": [
+"d/cos(α/2)",
+"d·tg(α/2)",
+"2d",
+"d/sen(α/2)"
+],
+"a": 0,
+"d": [
+[
+"Ângulo externo",
+"No triângulo, o ângulo externo é a soma dos internos não adjacentes.",
+""
+],
+[
+"Triângulo isósceles",
+"Dois ângulos iguais ⇒ lados opostos iguais.",
+""
+],
+[
+"Triângulo retângulo",
+"cos θ = cateto adjacente / hipotenusa.",
+""
+]
+],
+"h": [
+"Seja M o meio de AB. Em O, o ângulo AOM vale α/2; em O', o ângulo AO'M vale α/4.",
+"No triângulo AOO', o ângulo externo em O é α/2 = α/4 + ângulo OAO', então OAO' = α/4: o triângulo é isósceles e OO' = OA.",
+"No triângulo retângulo AOM: OA = d/cos(α/2). Logo <b>OO' = d/cos(α/2)</b>."
+]
+},
+{
+"id": "1988-2-mat-11",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 11",
+"r": 1440,
+"tm": 90,
+"ctx": "Seja A a matriz de linhas (a, a) e (x, x), com a ≠ 0. Para que valor de x vale A² = 0 (matriz nula)?",
+"opts": [
+"x = −a",
+"x = a",
+"x = 0",
+"x = a²"
+],
+"a": 0,
+"d": [
+[
+"Produto de matrizes",
+"Elemento (i, j) = linha i da primeira · coluna j da segunda (soma dos produtos).",
+""
+]
+],
+"h": [
+"A² tem linhas (a² + ax, a² + ax) e (xa + x², xa + x²).",
+"Precisa: a(a + x) = 0 e x(a + x) = 0.",
+"Como a ≠ 0: <b>x = −a</b>."
+]
+},
+{
+"id": "1988-2-mat-12",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 12",
+"r": 1740,
+"tm": 150,
+"ctx": "Um retângulo de comprimento L e largura ℓ tem a propriedade: tirando dele um quadrado de lado ℓ, sobra um retângulo semelhante ao primeiro. Se L = 10, quanto vale ℓ, aproximadamente? (√5 ≈ 2,236)",
+"a": 6.18,
+"tol": 0.01,
+"d": [
+[
+"Semelhança de retângulos",
+"Retângulos semelhantes têm a mesma razão lado menor / lado maior.",
+""
+],
+[
+"Equação do 2º grau",
+"Chame σ = ℓ/L e chegue numa equação em σ.",
+""
+]
+],
+"h": [
+"O retângulo que sobra tem lados ℓ e L − ℓ (L − ℓ é o menor). Semelhança: (L − ℓ)/ℓ = ℓ/L.",
+"Com σ = ℓ/L: 1/σ − 1 = σ → σ² + σ − 1 = 0 → σ = (√5 − 1)/2 ≈ 0,618, a razão áurea.",
+"ℓ = 10 × 0,618 ≈ <b>6,18</b>."
+]
+},
+{
+"id": "1988-2-mat-13",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 13",
+"r": 1910,
+"tm": 180,
+"ctx": "Qual é o lugar geométrico dos pontos z = x + iy do plano complexo tais que Re(1/z) = 1/4 ?",
+"opts": [
+"circunferência de centro (2, 0) e raio 2, sem a origem",
+"reta x = 4",
+"circunferência de centro (0, 2) e raio 2",
+"circunferência de centro (4, 0) e raio 4"
+],
+"a": 0,
+"d": [
+[
+"Inverso de um complexo",
+"1/z = z̄/|z|² = (x − iy)/(x² + y²).",
+""
+],
+[
+"Completar quadrados",
+"x² − 4x = (x − 2)² − 4.",
+""
+]
+],
+"h": [
+"Re(1/z) = x/(x² + y²) = 1/4.",
+"4x = x² + y² → (x − 2)² + y² = 4.",
+"<b>Circunferência de centro (2, 0) e raio 2</b>, sem o ponto z = 0 (onde 1/z não existe)."
+]
+},
+{
+"id": "1988-2-mat-14",
+"ano": 1988,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1988, 2ª fase, Matemática, questão 14",
+"r": 2120,
+"tm": 240,
+"ctx": "Para que valores reais de a a equação √(x − 1) = a − x tem solução, e qual é ela?",
+"opts": [
+"a ≥ 1, com x = (2a + 1 − √(4a − 3))/2",
+"a ≥ 3/4, com x = (2a + 1 ± √(4a − 3))/2",
+"qualquer a, com x = a − 1",
+"a ≥ 1, com x = (2a + 1 + √(4a − 3))/2"
+],
+"a": 0,
+"d": [
+[
+"Equação com raiz",
+"Ao elevar ao quadrado aparecem soluções falsas: a raiz quadrada é sempre ≥ 0, então o outro lado também precisa ser.",
+""
+],
+[
+"Mudança de variável",
+"Chamar u = √(x − 1) ≥ 0 transforma a equação num 2º grau em u.",
+""
+],
+[
+"Gráficos",
+"As soluções são os cruzamentos de y = √(x − 1) com a reta y = a − x, que desce.",
+""
+]
+],
+"h": [
+"Com u = √(x − 1) ≥ 0, x = 1 + u²: u = a − 1 − u² → u² + u − (a − 1) = 0.",
+"u = (−1 + √(4a − 3))/2 (a raiz com sinal − é negativa). Para u ≥ 0: √(4a − 3) ≥ 1 → a ≥ 1.",
+"x = 1 + u² = <b>(2a + 1 − √(4a − 3))/2, para a ≥ 1</b>. A reta y = a − x só corta a curva uma vez, por isso o sinal + não serve."
+]
+},
+{
+"id": "1988-2-fis-01",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1988, 2ª fase, Física, questão 1",
+"r": 1190,
+"tm": 75,
+"ctx": "Uma caixa d'água de 150 L coleta chuva a 10 litros por hora. A base da caixa tem área 0,5 m². Com que velocidade sobe o nível da água, em cm/h?",
+"a": 2,
+"u": "cm/h",
+"d": [
+[
+"Vazão",
+"Z = A·v: volume por tempo = área da secção × velocidade.",
+""
+],
+[
+"Litros em m³",
+"1 L = 10<sup>−3</sup> m³.",
+""
+]
+],
+"h": [
+"Z = 10 L/h = 0,01 m³/h.",
+"v = Z/A = 0,01/0,5 = 0,02 m/h.",
+"<b>2 cm/h</b> (e a caixa enche em 150/10 = 15 h)."
+]
+},
+{
+"id": "1988-2-fis-02",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1988, 2ª fase, Física, questão 2",
+"r": 1280,
+"tm": 90,
+"ctx": "O gráfico mostra a velocidade de um atleta numa corrida de São Silvestre. Qual a distância que ele percorreu desde que começou a correr até parar, em km?",
+"a": 9.6,
+"u": "km",
+"fig": "<svg viewBox='0 0 220 120' class='fg' role='img' aria-label='v por t: sobe de 0 a 24 km/h em 0,3 h e desce até 0 em 0,8 h'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,100 215,100'/><polyline points='30,100 90,25 190,100'/></g><g fill='none' stroke='currentColor' stroke-dasharray='3 3'><line x1='30' y1='25' x2='90' y2='25'/><line x1='90' y1='25' x2='90' y2='100'/></g><g fill='currentColor' font-size='13'><text x='2' y='29'>24,0</text><text x='80' y='114'>0,3</text><text x='180' y='114'>0,8</text><text x='34' y='12'>v (km/h)</text><text x='196' y='114'>t (h)</text><text x='52' y='60'>I</text><text x='140' y='55'>II</text></g></svg>",
+"d": [
+[
+"Área sob o gráfico v × t",
+"A área entre o gráfico e o eixo do tempo é o deslocamento.",
+""
+],
+[
+"Área do triângulo",
+"base × altura ÷ 2.",
+""
+]
+],
+"h": [
+"O gráfico forma um triângulo de base 0,8 h e altura 24 km/h.",
+"Área = 0,8 × 24 / 2.",
+"<b>9,6 km</b> (acelerações: 80 km/h² no trecho I e −48 km/h² no II)."
+]
+},
+{
+"id": "1988-2-fis-03",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1988, 2ª fase, Física, questão 3",
+"r": 1530,
+"tm": 75,
+"ctx": "Dois pulsos de mesma forma, um para cima e outro para baixo, viajam em sentidos opostos numa corda, a 30 cm/s cada. Em t = 0, estão a 60 cm um do outro. Como fica a corda em t = 1 s?",
+"opts": [
+"reta: os pulsos se sobrepõem e se anulam naquele instante",
+"com um pulso para cima de altura dobrada",
+"com um pulso para baixo de altura dobrada",
+"os pulsos refletiram um no outro e voltaram"
+],
+"a": 0,
+"d": [
+[
+"Princípio da superposição",
+"Onde dois pulsos se encontram, os deslocamentos se somam (com sinal).",
+""
+],
+[
+"Independência",
+"Depois de se cruzarem, os pulsos seguem com a forma e a velocidade que tinham.",
+""
+]
+],
+"h": [
+"Em 1 s, cada pulso anda 30 cm: os dois chegam juntos ao meio do caminho.",
+"Um deslocamento para cima somado a um igual para baixo dá zero em cada ponto.",
+"Em t = 1 s a corda está <b>reta</b>; em t = 2 s os pulsos já se cruzaram e estão de novo a 60 cm, com as posições trocadas."
+]
+},
+{
+"id": "1988-2-fis-04a",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988, 2ª fase, Física, questão 4(a)",
+"r": 1490,
+"tm": 90,
+"ctx": "Três dispositivos F<sub>1</sub>, F<sub>2</sub> e F<sub>3</sub>, todos de resistência R = 2,0 Ω, estão em paralelo entre P e Q. Eles suportam correntes máximas de 0,5 A, 1,0 A e 1,5 A. Qual a maior corrente I que pode entrar por P sem que nenhum se queime?",
+"a": 1.5,
+"u": "A",
+"d": [
+[
+"Resistores iguais em paralelo",
+"Mesma tensão e mesma resistência: a corrente se divide igualmente.",
+""
+],
+[
+"Elo mais fraco",
+"O limite é dado pelo dispositivo que aguenta menos.",
+""
+]
+],
+"h": [
+"Cada dispositivo leva I/3.",
+"O mais frágil aguenta 0,5 A: I/3 ≤ 0,5.",
+"I<sub>máx</sub> = <b>1,5 A</b>."
+]
+},
+{
+"id": "1988-2-fis-04b",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988, 2ª fase, Física, questão 4(b)",
+"r": 1960,
+"tm": 150,
+"ctx": "Três dispositivos de 2,0 Ω em paralelo entre P e Q suportam no máximo 0,5 A, 1,0 A e 1,5 A. Entrando uma corrente I = 2,0 A em P, qual será a diferença de potencial entre P e Q, depois que o circuito se estabilizar?",
+"a": 2,
+"u": "V",
+"d": [
+[
+"Resistores iguais em paralelo",
+"A corrente se divide igualmente entre os ramos.",
+""
+],
+[
+"Dispositivo queimado",
+"Um ramo que queima abre o circuito ali: a corrente se redistribui pelos outros.",
+""
+],
+[
+"Lei de Ohm",
+"U = R·i.",
+""
+]
+],
+"h": [
+"Com os três: cada um levaria 2,0/3 ≈ 0,67 A, acima do limite de F<sub>1</sub> (0,5 A): F<sub>1</sub> queima.",
+"Sobram F<sub>2</sub> e F<sub>3</sub>: 1,0 A em cada. F<sub>2</sub> suporta 1,0 A e F<sub>3</sub>, 1,5 A, então nenhum outro queima.",
+"U<sub>PQ</sub> = 2,0 Ω × 1,0 A = <b>2,0 V</b>."
+]
+},
+{
+"id": "1988-2-fis-05",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1988, 2ª fase, Física, questão 5",
+"r": 1360,
+"tm": 90,
+"ctx": "Um vagão de 3000 kg parte do repouso sob uma força resultante horizontal de 6000 N. As rodas têm raio 0,4 m e rolam sem deslizar. Qual a velocidade angular das rodas em t = 10 s, em rad/s?",
+"a": 50,
+"u": "rad/s",
+"d": [
+[
+"Segunda lei de Newton",
+"a = F/m.",
+""
+],
+[
+"MUV",
+"v = v<sub>0</sub> + a·t.",
+""
+],
+[
+"Rolar sem deslizar",
+"A velocidade do eixo é v = ω·R.",
+""
+]
+],
+"h": [
+"a = 6000/3000 = 2 m/s².",
+"Em 10 s: v = 2 × 10 = 20 m/s.",
+"ω = v/R = 20/0,4 = <b>50 rad/s</b>."
+]
+},
+{
+"id": "1988-2-fis-06",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1988, 2ª fase, Física, questão 6",
+"r": 1620,
+"tm": 120,
+"ctx": "Um bastão homogêneo de densidade 2,7 g/cm³ e volume 500 cm³, totalmente imerso em água, está preso por uma extremidade a um ponto O por um fio. Em equilíbrio (ele fica na vertical), qual a tração no fio? (água: 1 g/cm³; g = 10 m/s²)",
+"a": 8.5,
+"u": "N",
+"d": [
+[
+"Empuxo",
+"E = ρ<sub>líquido</sub>·V<sub>imerso</sub>·g.",
+""
+],
+[
+"Equilíbrio",
+"T + E = P. Peso e empuxo atuam no centro do bastão; só ficam alinhados com o fio se ele estiver na vertical.",
+""
+]
+],
+"h": [
+"Peso: 2,7 × 500 = 1.350 g → 13,5 N. Empuxo: 1 × 500 = 500 g de água deslocada → 5,0 N.",
+"T = P − E = 13,5 − 5,0.",
+"T = <b>8,5 N</b>. (Inclinado ele não fica: peso e empuxo no centro fariam torque em relação a O.)"
+]
+},
+{
+"id": "1988-2-fis-07",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1988, 2ª fase, Física, questão 7",
+"r": 1490,
+"tm": 120,
+"ctx": "Misturam-se 200 g de água a 20 °C com 800 g de gelo a 0 °C, só com troca de calor entre eles. Qual a massa final de líquido, em gramas? (c<sub>água</sub> = 1 cal/g°C; L<sub>fusão</sub> = 80 cal/g)",
+"a": 250,
+"u": "g",
+"d": [
+[
+"Calor sensível e latente",
+"Q = m·c·ΔT para mudar a temperatura; Q = m·L para mudar de estado.",
+""
+],
+[
+"Teste de quanto gelo derrete",
+"Calcule o calor máximo que a água dá esfriando até 0 °C e veja se basta para derreter todo o gelo.",
+""
+]
+],
+"h": [
+"A água esfriando até 0 °C libera 200 × 1 × 20 = 4.000 cal.",
+"Isso derrete 4.000/80 = 50 g de gelo (bem menos que 800 g): a mistura fica a 0 °C.",
+"Líquido: 200 + 50 = <b>250 g</b>."
+]
+},
+{
+"id": "1988-2-fis-08a",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1988, 2ª fase, Física, questão 8(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Qual a pressão no fundo de um lago de 5,0 m de profundidade, em N/m²? (p<sub>atm</sub> = 10<sup>5</sup> N/m²; água: 10³ kg/m³; g = 10 m/s²)",
+"a": 150000,
+"u": "N/m²",
+"d": [
+[
+"Lei de Stevin",
+"p = p<sub>atm</sub> + ρ·g·h.",
+""
+]
+],
+"h": [
+"Coluna de água: 10³ × 10 × 5 = 0,5 × 10<sup>5</sup> N/m².",
+"Somando a atmosférica: 1,0 × 10<sup>5</sup> + 0,5 × 10<sup>5</sup>.",
+"<b>1,5 × 10<sup>5</sup> N/m²</b>."
+]
+},
+{
+"id": "1988-2-fis-08b",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1988, 2ª fase, Física, questão 8(b)",
+"r": 1660,
+"tm": 120,
+"ctx": "Uma bolha de ar de 1,0 mm³ se forma no fundo de um lago de 5,0 m (a 17 °C) e sobe até a superfície (a 27 °C). Qual o volume da bolha na superfície, em mm³? (p<sub>atm</sub> = 10<sup>5</sup> N/m²; água: 10³ kg/m³; g = 10 m/s²)",
+"a": 1.55,
+"u": "mm³",
+"tol": 0.02,
+"d": [
+[
+"Lei geral dos gases",
+"p<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = p<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>, com T em kelvin.",
+""
+],
+[
+"Pressão na profundidade",
+"p = p<sub>atm</sub> + ρgh.",
+""
+]
+],
+"h": [
+"Fundo: p<sub>1</sub> = 1,5 × 10<sup>5</sup> N/m², T<sub>1</sub> = 290 K. Superfície: p<sub>2</sub> = 1,0 × 10<sup>5</sup>, T<sub>2</sub> = 300 K.",
+"V<sub>2</sub> = V<sub>1</sub> × (p<sub>1</sub>/p<sub>2</sub>) × (T<sub>2</sub>/T<sub>1</sub>) = 1,0 × 1,5 × 300/290.",
+"V<sub>2</sub> ≈ <b>1,55 mm³</b>."
+]
+},
+{
+"id": "1988-2-fis-09",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1988, 2ª fase, Física, questão 9",
+"r": 1870,
+"tm": 150,
+"ctx": "Uma esferinha A, presa a um pino O por um fio vertical, encosta num plano horizontal liso. Outra esferinha B, de mesma massa, vem a 1,0 m/s e bate de frente em A, em repouso. Todas as colisões são perfeitamente elásticas. Quantas colisões há, e como terminam as esferas?",
+"opts": [
+"2 colisões; A parada e B voltando a 1,0 m/s",
+"1 colisão; B parada e A girando para sempre",
+"2 colisões; as duas paradas",
+"infinitas colisões"
+],
+"a": 0,
+"d": [
+[
+"Colisão elástica de massas iguais",
+"Num choque frontal elástico entre massas iguais, as velocidades se trocam.",
+""
+],
+[
+"Pêndulo",
+"Sem atrito, o pêndulo volta ao ponto mais baixo com a mesma velocidade, em sentido contrário.",
+""
+]
+],
+"h": [
+"1ª colisão: B para e A sai a 1,0 m/s. Presa ao fio, A sobe num arco e volta ao ponto mais baixo a 1,0 m/s, no sentido oposto.",
+"2ª colisão: as velocidades se trocam de novo; A para e B sai a 1,0 m/s, voltando.",
+"<b>2 colisões</b>: A termina parada e B volta a 1,0 m/s."
+]
+},
+{
+"id": "1988-2-fis-10a",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988, 2ª fase, Física, questão 10(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "Um chuveiro opera a 220 V e consome 2200 W. Qual é a sua resistência elétrica?",
+"a": 22,
+"u": "Ω",
+"d": [
+[
+"Potência elétrica",
+"P = U²/R.",
+""
+]
+],
+"h": [
+"R = U²/P.",
+"R = 220²/2200 = 48.400/2.200.",
+"R = <b>22 Ω</b>."
+]
+},
+{
+"id": "1988-2-fis-10b",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1988, 2ª fase, Física, questão 10(b)",
+"r": 1530,
+"tm": 120,
+"ctx": "Um chuveiro de 2200 W aquece a água de 27 °C para 37 °C. Qual a vazão de água, em litros por segundo? (c = 4,2 J/g°C; 1 L de água = 1000 g)",
+"a": 0.052,
+"u": "L/s",
+"tol": 0.03,
+"d": [
+[
+"Potência térmica",
+"P = Q/Δt, e Q = m·c·ΔT: P = (m/Δt)·c·ΔT.",
+""
+]
+],
+"h": [
+"Por segundo, o chuveiro dá 2.200 J = (massa por segundo) × 4,2 × 10.",
+"Massa por segundo: 2200/42 ≈ 52,4 g/s.",
+"≈ <b>0,052 L/s</b> (cerca de 3 L por minuto)."
+]
+},
+{
+"id": "1988-2-fis-11a",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1988, 2ª fase, Física, questão 11(a)",
+"r": 1700,
+"tm": 150,
+"ctx": "Um peixe num lago calmo vê o Sol a 53° acima da horizontal. Sendo 4/3 o índice de refração da água, qual a altura angular verdadeira do Sol acima do horizonte? (sen 53° = 0,8; sen 37° = 0,6)",
+"a": 37,
+"u": "°",
+"d": [
+[
+"Lei de Snell",
+"n<sub>1</sub>·sen θ<sub>1</sub> = n<sub>2</sub>·sen θ<sub>2</sub>, com os ângulos medidos a partir da normal (a vertical).",
+""
+],
+[
+"Ângulo com a horizontal",
+"Ângulo com a normal = 90° − ângulo com a horizontal.",
+""
+]
+],
+"h": [
+"Na água, o raio faz 90° − 53° = 37° com a normal.",
+"No ar: sen θ = (4/3) × sen 37° = (4/3) × 0,6 = 0,8 → θ = 53° com a normal.",
+"O Sol está a 90° − 53° = <b>37°</b> acima do horizonte."
+]
+},
+{
+"id": "1988-2-fis-11b",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1988, 2ª fase, Física, questão 11(b)",
+"r": 1660,
+"tm": 90,
+"ctx": "Num lugar onde o Sol nasce às 6 h e se põe às 18 h, percorrendo o céu com velocidade angular constante, ele está a 37° acima do horizonte, de manhã. Que horas são, aproximadamente?",
+"opts": [
+"8 h 30 min",
+"8 h 00 min",
+"9 h 30 min",
+"7 h 30 min"
+],
+"a": 0,
+"d": [
+[
+"Movimento uniforme angular",
+"O Sol percorre 180° em 12 h: 15° por hora.",
+""
+]
+],
+"h": [
+"Velocidade: 180°/12 h = 15°/h.",
+"37° levam 37/15 ≈ 2,47 h ≈ 2 h 28 min depois do nascer.",
+"São cerca de <b>8 h 30 min</b>."
+]
+},
+{
+"id": "1988-2-fis-12",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1988, 2ª fase, Física, questão 12",
+"r": 1490,
+"tm": 90,
+"ctx": "Um carro de 800 kg a 72 km/h, num trecho horizontal, desliga o motor e desce um vale até um novo trecho horizontal, 105 m mais baixo. Sem resistência do ar nem atritos, com que velocidade chega lá, em km/h? (g = 10 m/s²)",
+"a": 180,
+"u": "km/h",
+"d": [
+[
+"Conservação da energia",
+"m·v<sub>0</sub>²/2 + m·g·h = m·v²/2 (a massa cancela).",
+""
+],
+[
+"km/h e m/s",
+"Divida por 3,6 para passar de km/h a m/s.",
+""
+]
+],
+"h": [
+"v<sub>0</sub> = 72 km/h = 20 m/s.",
+"v² = 20² + 2 × 10 × 105 = 400 + 2.100 = 2.500 → v = 50 m/s.",
+"50 × 3,6 = <b>180 km/h</b>: um valor irreal, sinal de que desprezar o ar e os atritos não vale aqui."
+]
+},
+{
+"id": "1988-2-fis-13",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1988, 2ª fase, Física, questão 13",
+"r": 1780,
+"tm": 150,
+"ctx": "A pressão atmosférica ao nível do mar é 10<sup>5</sup> N/m², e ela se deve ao peso do ar. Considerando a Terra uma esfera de raio 6400 km, estime a massa da atmosfera (em 10<sup>18</sup> kg). (g = 10 m/s², π = 3,14)",
+"a": 5.1,
+"u": "× 10<sup>18</sup> kg",
+"tol": 0.05,
+"d": [
+[
+"Pressão",
+"p = F/A: a força é o peso de toda a coluna de ar sobre a área.",
+""
+],
+[
+"Área da esfera",
+"A = 4πR².",
+""
+]
+],
+"h": [
+"Peso total do ar = p × área da Terra = 10<sup>5</sup> × 4π(6,4 × 10<sup>6</sup>)².",
+"4 × 3,14 × 4,1 × 10<sup>13</sup> ≈ 5,1 × 10<sup>14</sup> m² → peso ≈ 5,1 × 10<sup>19</sup> N.",
+"m = peso/g ≈ <b>5,1 × 10<sup>18</sup> kg</b>."
+]
+},
+{
+"id": "1988-2-fis-14",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1988, 2ª fase, Física, questão 14(a)",
+"r": 1570,
+"tm": 90,
+"ctx": "Três partículas entram com a mesma velocidade, para a direita, num campo magnético uniforme que entra no plano do papel. A partícula 1 faz uma curva para cima; as partículas 2 e 3, para baixo. Quais os sinais das cargas?",
+"opts": [
+"1 positiva; 2 e 3 negativas",
+"1 negativa; 2 e 3 positivas",
+"todas positivas",
+"1 neutra; 2 e 3 negativas"
+],
+"a": 0,
+"d": [
+[
+"Força magnética",
+"F = q·v × B. Pela regra da mão direita (ou do tapa), para carga positiva.",
+""
+],
+[
+"Carga negativa",
+"A força tem sentido oposto ao da positiva.",
+""
+]
+],
+"h": [
+"v para a direita, B entrando no papel: para carga positiva, v × B aponta para cima.",
+"A partícula 1 curva para cima: positiva.",
+"2 e 3 curvam para baixo: <b>negativas</b>."
+]
+},
+{
+"id": "1988-2-fis-15",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1988, 2ª fase, Física, questão 15",
+"r": 1530,
+"tm": 90,
+"ctx": "Uma caixa preta tem dois terminais A e B. Medindo a tensão V<sub>A</sub> − V<sub>B</sub> para várias correntes puxadas, obteve-se a reta do gráfico. Que circuito equivale à caixa?",
+"fig": "<svg viewBox='0 0 220 120' class='fg' role='img' aria-label='gráfico de V por i: reta de 12 V em i = 0 até 0 V em i = 6 A'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,100 215,100'/><line x1='30' y1='20' x2='170' y2='100'/></g><g fill='none' stroke='currentColor' stroke-dasharray='3 3'><line x1='30' y1='60' x2='100' y2='60'/><line x1='100' y1='60' x2='100' y2='100'/></g><g fill='currentColor' font-size='13'><text x='12' y='24'>12</text><text x='16' y='64'>6</text><text x='96' y='114'>3</text><text x='166' y='114'>6</text><text x='34' y='12'>V<tspan font-size='10' dy='3'>A</tspan><tspan dy='-3'> − V</tspan><tspan font-size='10' dy='3'>B</tspan><tspan dy='-3'> (V)</tspan></text><text x='192' y='114'>i (A)</text></g></svg>",
+"opts": [
+"uma bateria de 12 V com resistência interna de 2 Ω",
+"um resistor de 2 Ω",
+"uma bateria de 6 V com resistência interna de 1 Ω",
+"uma bateria de 12 V ideal"
+],
+"a": 0,
+"d": [
+[
+"Gerador real",
+"U = ε − r·i: uma reta que desce. Em i = 0, U = ε; a inclinação é r.",
+""
+]
+],
+"h": [
+"Em i = 0: U = 12 V = ε.",
+"Inclinação: 12 V caem em 6 A → r = 2 Ω.",
+"<b>Bateria de 12 V com resistência interna de 2 Ω</b> (U = 12 − 2i)."
+]
+},
+{
+"id": "1988-2-fis-16",
+"ano": 1988,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1988, 2ª fase, Física, questão 16",
+"r": 1700,
+"tm": 90,
+"ctx": "Blocos de gelo igualmente espaçados deslizam num plano liso e passam por um ponto A à razão de f<sub>1</sub> blocos por segundo. Freados numa rampa, chegam a um segundo plano liso com velocidade v<sub>2</sub>. Quantos blocos por segundo passam num ponto C do segundo plano, e qual o espaçamento entre eles?",
+"opts": [
+"f<sub>1</sub> blocos por segundo, espaçados de v<sub>2</sub>/f<sub>1</sub>",
+"menos que f<sub>1</sub>, espaçados como antes",
+"f<sub>1</sub>, espaçados como antes",
+"mais que f<sub>1</sub>, espaçados de v<sub>2</sub>·f<sub>1</sub>"
+],
+"a": 0,
+"d": [
+[
+"Regime permanente",
+"Blocos não se acumulam nem somem: o número que passa por segundo é o mesmo em todo ponto.",
+""
+],
+[
+"Espaçamento",
+"Como numa onda: λ = v/f.",
+""
+]
+],
+"h": [
+"Todos os blocos que passam em A passam em C: a frequência é a mesma, f<sub>1</sub>.",
+"Entre dois blocos passa 1/f<sub>1</sub> segundo; nesse tempo, o de trás anda v<sub>2</sub>/f<sub>1</sub>.",
+"<b>f<sub>1</sub> blocos por segundo, espaçados de v<sub>2</sub>/f<sub>1</sub></b> (mais juntos que antes)."
+]
+},
+{
+"id": "1988-2-qui-17",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1988, 2ª fase, Química, questão 17",
+"r": 1100,
+"tm": 60,
+"ctx": "Numa república, alguém deixou cair óleo de cozinha no pote de sal. O sal não se dissolve no óleo, mas se dissolve em água. Como recuperar o sal e o óleo?",
+"opts": [
+"juntar água, separar o óleo da solução num funil de separação e evaporar a água para recuperar o sal",
+"filtrar a mistura de óleo e sal",
+"aquecer até o óleo evaporar",
+"juntar água e filtrar"
+],
+"a": 0,
+"d": [
+[
+"Líquidos imiscíveis",
+"Óleo e água não se misturam: separam-se por decantação (funil de separação).",
+""
+],
+[
+"Recuperar o soluto",
+"Evaporando o solvente, o sólido dissolvido fica.",
+""
+]
+],
+"h": [
+"Com água, o sal se dissolve e o óleo forma uma camada por cima.",
+"No funil de separação, escoa-se a solução de baixo e o óleo fica.",
+"Evaporando a água, recupera-se o <b>sal</b>."
+]
+},
+{
+"id": "1988-2-qui-18",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1988, 2ª fase, Química, questão 18",
+"r": 1060,
+"tm": 45,
+"ctx": "Há duas amostras de 560 g: uma de ferro e outra de lítio. Em qual há mais átomos, e quantas vezes mais? (Fe = 56; Li = 7)",
+"opts": [
+"no lítio, 8 vezes mais",
+"no ferro, 8 vezes mais",
+"as duas têm o mesmo número",
+"no lítio, 2 vezes mais"
+],
+"a": 0,
+"d": [
+[
+"Mol",
+"n = m/M: com a mesma massa, tem mais átomos quem tem a menor massa molar.",
+""
+]
+],
+"h": [
+"Fe: 560/56 = 10 mol.",
+"Li: 560/7 = 80 mol.",
+"<b>No lítio, 8 vezes mais átomos</b>."
+]
+},
+{
+"id": "1988-2-qui-19a",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1988, 2ª fase, Química, questão 19(a)",
+"r": 1360,
+"tm": 90,
+"ctx": "Um cilindro de 50 dm³ tem gás oxigênio (O<sub>2</sub>) a 200 atm e 27 °C. Qual a massa de oxigênio, em kg? (R = 0,082 atm·dm³/mol·K; O = 16)",
+"a": 13,
+"u": "kg",
+"tol": 0.02,
+"d": [
+[
+"Equação de Clapeyron",
+"pV = nRT, com T em kelvin.",
+""
+],
+[
+"Massa",
+"m = n·M; M(O<sub>2</sub>) = 32 g/mol.",
+""
+]
+],
+"h": [
+"n = pV/RT = 200 × 50/(0,082 × 300) = 10.000/24,6 ≈ 406 mol.",
+"m = 406 × 32 ≈ 13.000 g.",
+"<b>≈ 13 kg</b>."
+]
+},
+{
+"id": "1988-2-qui-19b",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1988, 2ª fase, Química, questão 19(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Um cilindro de 50 dm³ contém oxigênio a 200 atm. Que volume esse gás ocuparia, na mesma temperatura, a 1,0 atm, em dm³?",
+"a": 10000,
+"u": "dm³",
+"d": [
+[
+"Lei de Boyle",
+"Temperatura constante: p<sub>1</sub>V<sub>1</sub> = p<sub>2</sub>V<sub>2</sub>.",
+""
+]
+],
+"h": [
+"p<sub>1</sub>V<sub>1</sub> = 200 × 50.",
+"V<sub>2</sub> = 10.000/1,0.",
+"<b>10.000 dm³</b>."
+]
+},
+{
+"id": "1988-2-qui-20",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1988, 2ª fase, Química, questão 20(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "O gráfico mostra o aquecimento de duas substâncias sólidas, A e B. Quais as temperaturas de fusão de A e de B?",
+"fig": "<svg viewBox='0 0 220 130' class='fg' role='img' aria-label='curvas de aquecimento: A tem patamar em 70 °C, B tem patamar em 50 °C'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 215,110'/><polyline points='30,110 85,33 125,33 150,8'/><polyline points='30,110 105,55 145,55 175,15'/></g><g fill='none' stroke='currentColor' stroke-dasharray='2 3'><line x1='30' y1='33' x2='85' y2='33'/><line x1='30' y1='55' x2='105' y2='55'/></g><g fill='currentColor' font-size='12'><text x='10' y='37'>70</text><text x='10' y='59'>50</text><text x='146' y='20'>A</text><text x='178' y='26'>B</text><text x='34' y='12'>T (°C)</text><text x='180' y='124'>t (min)</text></g></svg>",
+"opts": [
+"A: 70 °C; B: 50 °C",
+"A: 50 °C; B: 70 °C",
+"A: 80 °C; B: 60 °C",
+"as duas a 60 °C"
+],
+"a": 0,
+"d": [
+[
+"Patamar",
+"Durante a mudança de estado de uma substância pura, a temperatura fica constante: o trecho horizontal do gráfico.",
+""
+]
+],
+"h": [
+"O patamar de A está em 70 °C.",
+"O patamar de B está em 50 °C.",
+"Fusão: <b>A a 70 °C e B a 50 °C</b>."
+]
+},
+{
+"id": "1988-2-qui-21a",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_rad",
+"src": "Unicamp 1988, 2ª fase, Química, questão 21(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "O gráfico mostra a porcentagem de césio-137 que resta em função do tempo. Qual é a meia-vida desse isótopo?",
+"a": 30,
+"u": "anos",
+"fig": "<svg viewBox='0 0 220 130' class='fg' role='img' aria-label='decaimento: 100% em t = 0, 50% em 30 anos, 25% em 60 anos, 12,5% em 90 anos'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 215,110'/><path d='M30 14 C60 45 75 58 79 62 C100 80 120 88 128 86 C150 95 165 100 200 104'/></g><g fill='none' stroke='currentColor' stroke-dasharray='2 3'><line x1='30' y1='62' x2='79' y2='62'/><line x1='79' y1='62' x2='79' y2='110'/><line x1='30' y1='86' x2='128' y2='86'/><line x1='128' y1='86' x2='128' y2='110'/></g><g fill='currentColor' font-size='12'><text x='6' y='18'>100</text><text x='12' y='66'>50</text><text x='12' y='90'>25</text><text x='72' y='124'>30</text><text x='121' y='124'>60</text><text x='168' y='124'>90</text><text x='34' y='12'>% de Cs-137</text><text x='186' y='124'>anos</text></g></svg>",
+"d": [
+[
+"Meia-vida",
+"Tempo para a quantidade do isótopo cair à metade. No gráfico, procure onde a curva passa por 50%.",
+""
+]
+],
+"h": [
+"A curva começa em 100%.",
+"Ela passa por 50% em t = 30 anos (e por 25% em 60 anos).",
+"Meia-vida: <b>30 anos</b>."
+]
+},
+{
+"id": "1988-2-qui-21b",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_rad",
+"src": "Unicamp 1988, 2ª fase, Química, questão 21(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "O césio-137 tem meia-vida de 30 anos. Depois de 90 anos, que porcentagem da radioatividade inicial resta?",
+"a": 12.5,
+"u": "%",
+"d": [
+[
+"Decaimento",
+"Depois de n meias-vidas, sobra (1/2)<sup>n</sup> da quantidade inicial.",
+""
+]
+],
+"h": [
+"90 anos = 3 meias-vidas.",
+"(1/2)³ = 1/8.",
+"Restam <b>12,5%</b> (com 80 anos, cerca de 16%, como se lê no gráfico)."
+]
+},
+{
+"id": "1988-2-qui-22",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1988, 2ª fase, Química, questão 22",
+"r": 1280,
+"tm": 75,
+"ctx": "Quais compostos iônicos podem ser formados entre sódio, magnésio, enxofre e cloro?",
+"opts": [
+"NaCl, Na<sub>2</sub>S, MgCl<sub>2</sub> e MgS",
+"NaCl, NaS, MgCl e MgS",
+"NaMg, SCl<sub>2</sub>, NaCl e MgS",
+"Na<sub>2</sub>Cl, NaS<sub>2</sub>, MgCl<sub>2</sub> e Mg<sub>2</sub>S"
+],
+"a": 0,
+"d": [
+[
+"Cargas dos íons",
+"Família 1A: +1; 2A: +2; 6A: −2; 7A: −1.",
+""
+],
+[
+"Fórmula iônica",
+"As cargas totais se anulam: cruze as cargas.",
+"Al<sup>3+</sup> e O<sup>2−</sup> → Al<sub>2</sub>O<sub>3</sub>"
+]
+],
+"h": [
+"Cátions: Na<sup>+</sup> e Mg<sup>2+</sup>. Ânions: S<sup>2−</sup> e Cl<sup>−</sup>.",
+"Combinando com cargas que se anulam: NaCl, Na<sub>2</sub>S, MgCl<sub>2</sub>, MgS.",
+"<b>NaCl, Na<sub>2</sub>S, MgCl<sub>2</sub> e MgS</b>."
+]
+},
+{
+"id": "1988-2-qui-23",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 1988, 2ª fase, Química, questão 23",
+"r": 1060,
+"tm": 45,
+"ctx": "Verdadeiro ou falso: se o álcool queimasse completamente nos motores, os escapamentos deixariam de lançar substâncias químicas na atmosfera.",
+"opts": [
+"Falso: a combustão completa produz CO<sub>2</sub> e H<sub>2</sub>O, que são lançados",
+"Verdadeiro: a combustão completa não gera produtos",
+"Verdadeiro: só a combustão incompleta polui",
+"Falso: a combustão completa produz CO"
+],
+"a": 0,
+"d": [
+[
+"Combustão completa",
+"Combustível orgânico + O<sub>2</sub> → CO<sub>2</sub> + H<sub>2</sub>O. A incompleta forma também CO e fuligem.",
+""
+]
+],
+"h": [
+"C<sub>2</sub>H<sub>5</sub>OH + 3 O<sub>2</sub> → 2 CO<sub>2</sub> + 3 H<sub>2</sub>O.",
+"Os produtos são substâncias químicas e saem pelo escapamento.",
+"<b>Falso</b>."
+]
+},
+{
+"id": "1988-2-qui-24",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1988, 2ª fase, Química, questão 24",
+"r": 1230,
+"tm": 60,
+"ctx": "Na água, as pontes de hidrogênio ligam o H de uma molécula ao O de outra. Como são as pontes de hidrogênio entre moléculas de amônia, NH<sub>3</sub>?",
+"opts": [
+"entre o H de uma molécula e o par de elétrons isolado do N de outra",
+"entre dois átomos de H de moléculas vizinhas",
+"entre dois átomos de N de moléculas vizinhas",
+"a amônia não forma pontes de hidrogênio"
+],
+"a": 0,
+"d": [
+[
+"Ponte de hidrogênio",
+"Acontece entre um H ligado a F, O ou N e um par de elétrons isolado de F, O ou N de outra molécula.",
+""
+]
+],
+"h": [
+"No NH<sub>3</sub>, o H está ligado a N, que é muito eletronegativo: o H fica parcialmente positivo.",
+"Cada N tem um par de elétrons isolado.",
+"A ponte é <b>N–H ··· N</b>: o H de uma molécula atraído pelo par isolado do N da outra."
+]
+},
+{
+"id": "1988-2-qui-25a",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1988, 2ª fase, Química, questão 25(a)",
+"r": 1320,
+"tm": 75,
+"ctx": "Na obtenção do ferro, Fe<sub>2</sub>O<sub>3</sub> + 3 C → 2 Fe + 3 CO. Quantos quilogramas de hematita (Fe<sub>2</sub>O<sub>3</sub>) são necessários para produzir 1120 kg de ferro? (Fe = 56; O = 16)",
+"a": 1600,
+"u": "kg",
+"d": [
+[
+"Proporção em massa",
+"Use a proporção em mol da equação e converta com as massas molares; a proporção vale em g ou em kg.",
+""
+]
+],
+"h": [
+"1 mol de Fe<sub>2</sub>O<sub>3</sub> (160 g) dá 2 mol de Fe (112 g).",
+"160 kg → 112 kg; x → 1120 kg.",
+"x = <b>1.600 kg</b>."
+]
+},
+{
+"id": "1988-2-qui-25b",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1988, 2ª fase, Química, questão 25(b)",
+"r": 1280,
+"tm": 60,
+"ctx": "Na reação Fe<sub>2</sub>O<sub>3</sub> + 3 C → 2 Fe + 3 CO, quantos dm³ de CO se formam por mol de ferro produzido, nas condições ambientes (volume molar 24,0 dm³)?",
+"a": 36,
+"u": "dm³",
+"d": [
+[
+"Proporção em mol",
+"Os coeficientes da equação dão a proporção em mol.",
+""
+],
+[
+"Volume molar",
+"V = n × V<sub>m</sub>.",
+""
+]
+],
+"h": [
+"2 mol de Fe para 3 mol de CO: 1,5 mol de CO por mol de Fe.",
+"1,5 × 24,0.",
+"<b>36 dm³</b>."
+]
+},
+{
+"id": "1988-2-qui-26a",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1988, 2ª fase, Química, questão 26(a)",
+"r": 1360,
+"tm": 75,
+"ctx": "Combustão: C(grafita) + O<sub>2</sub> → CO<sub>2</sub>, ΔH = −393,5 kJ/mol; C(diamante) + O<sub>2</sub> → CO<sub>2</sub>, ΔH = −395,4 kJ/mol. Qual o ΔH para converter 1,0 mol de grafita em diamante, em kJ?",
+"a": 1.9,
+"u": "kJ",
+"d": [
+[
+"Lei de Hess",
+"Some as equações (invertendo quando preciso) para chegar na reação pedida; inverter troca o sinal de ΔH.",
+""
+]
+],
+"h": [
+"Mantenha a da grafita: C(gr) + O<sub>2</sub> → CO<sub>2</sub>, −393,5.",
+"Inverta a do diamante: CO<sub>2</sub> → C(d) + O<sub>2</sub>, +395,4.",
+"Somando: C(gr) → C(d), ΔH = <b>+1,9 kJ</b>."
+]
+},
+{
+"id": "1988-2-qui-26b",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1988, 2ª fase, Química, questão 26(b)",
+"r": 1060,
+"tm": 45,
+"ctx": "A combustão da grafita tem ΔH = −393,5 kJ por mol de carbono. Qual o ΔH na queima de 120 g de grafita, em kJ? (C = 12)",
+"a": -3935,
+"u": "kJ",
+"d": [
+[
+"Entalpia proporcional à quantidade",
+"ΔH dobra quando a quantidade em mol dobra.",
+""
+]
+],
+"h": [
+"120 g ÷ 12 g/mol = 10 mol.",
+"10 × (−393,5).",
+"ΔH = <b>−3.935 kJ</b>."
+]
+},
+{
+"id": "1988-2-qui-27",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1988, 2ª fase, Química, questão 27",
+"r": 1320,
+"tm": 60,
+"ctx": "No equilíbrio SO<sub>2</sub>(g) + ½ O<sub>2</sub>(g) ⇌ SO<sub>3</sub>(g), a temperatura constante, o sistema é comprimido. O que acontece com o número total de moléculas?",
+"opts": [
+"diminui: o equilíbrio se desloca para o SO<sub>3</sub>, lado com menos mols de gás",
+"aumenta: o equilíbrio vai para os reagentes",
+"não muda: a pressão não afeta equilíbrios",
+"diminui, porque as moléculas se quebram"
+],
+"a": 0,
+"d": [
+[
+"Le Chatelier e pressão",
+"Aumentar a pressão desloca o equilíbrio para o lado com menos mols de gás.",
+""
+],
+[
+"Equilíbrio dinâmico",
+"No equilíbrio, as velocidades direta e inversa são iguais: v<sub>1</sub>/v<sub>2</sub> = 1.",
+""
+]
+],
+"h": [
+"Reagentes: 1 + ½ = 1,5 mol de gás. Produto: 1 mol.",
+"A compressão favorece o lado com menos mols: forma-se mais SO<sub>3</sub>.",
+"O número total de moléculas <b>diminui</b>."
+]
+},
+{
+"id": "1988-2-qui-28",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1988, 2ª fase, Química, questão 28",
+"r": 1490,
+"tm": 90,
+"ctx": "Uma solução tem Ba<sup>2+</sup>, Pb<sup>2+</sup> e Na<sup>+</sup>. Bário e chumbo formam sulfatos insolúveis; só o chumbo forma iodeto insolúvel. Como separar os três cátions?",
+"opts": [
+"juntar I<sup>−</sup> e filtrar o PbI<sub>2</sub>; depois juntar SO<sub>4</sub><sup>2−</sup> e filtrar o BaSO<sub>4</sub>; o Na<sup>+</sup> fica na solução",
+"juntar SO<sub>4</sub><sup>2−</sup> primeiro e filtrar; depois juntar I<sup>−</sup>",
+"juntar I<sup>−</sup> e SO<sub>4</sub><sup>2−</sup> juntos e filtrar",
+"evaporar a água e separar os cristais"
+],
+"a": 0,
+"d": [
+[
+"Precipitação seletiva",
+"Adicione primeiro o reagente que precipita só um dos íons; um reagente que precipita dois não separa.",
+""
+]
+],
+"h": [
+"Se o sulfato viesse primeiro, Ba e Pb precipitariam juntos.",
+"Com I<sup>−</sup>: Pb<sup>2+</sup> + 2 I<sup>−</sup> → PbI<sub>2</sub>↓. Filtra-se.",
+"Depois, SO<sub>4</sub><sup>2−</sup>: Ba<sup>2+</sup> + SO<sub>4</sub><sup>2−</sup> → BaSO<sub>4</sub>↓. Filtra-se. <b>Na<sup>+</sup> fica em solução</b>."
+]
+},
+{
+"id": "1988-2-qui-29",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1988, 2ª fase, Química, questão 29",
+"r": 1320,
+"tm": 75,
+"ctx": "O propan-1-ol, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH, oxidado com cuidado dá aldeído propiônico e, com oxidação mais vigorosa, ácido propiônico. Qual o produto da reação do ácido propiônico com etanol?",
+"opts": [
+"CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>3</sub> (propanoato de etila) + H<sub>2</sub>O",
+"CH<sub>3</sub>CH<sub>2</sub>CHO + CH<sub>3</sub>CHO",
+"CH<sub>3</sub>CH<sub>2</sub>OCH<sub>2</sub>CH<sub>3</sub> + CO<sub>2</sub>",
+"CH<sub>3</sub>CH<sub>2</sub>COONa + H<sub>2</sub>O"
+],
+"a": 0,
+"d": [
+[
+"Esterificação",
+"Ácido carboxílico + álcool ⇌ éster + água. O nome: (ácido)ato de (álcool)ila.",
+"ácido acético + metanol → acetato de metila"
+]
+],
+"h": [
+"Ácido propiônico: CH<sub>3</sub>CH<sub>2</sub>COOH. Etanol: CH<sub>3</sub>CH<sub>2</sub>OH.",
+"O OH do ácido e o H do álcool saem como água.",
+"Forma-se <b>propanoato de etila</b>, CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>2</sub>CH<sub>3</sub>."
+]
+},
+{
+"id": "1988-2-qui-30",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1988, 2ª fase, Química, questão 30",
+"r": 1280,
+"tm": 60,
+"ctx": "Na pilha de cobre e zinco, Zn + Cu<sup>2+</sup> → Cu + Zn<sup>2+</sup>, pois o cobre é mais nobre. Qual é a reação da pilha prata/cobre, sabendo que a prata é mais nobre que o cobre?",
+"opts": [
+"Cu + 2 Ag<sup>+</sup> → Cu<sup>2+</sup> + 2 Ag",
+"Ag + Cu<sup>2+</sup> → Ag<sup>+</sup> + Cu",
+"2 Ag + Cu<sup>2+</sup> → 2 Ag<sup>+</sup> + Cu",
+"Cu + Ag<sup>+</sup> → Cu<sup>+</sup> + Ag<sup>2+</sup>"
+],
+"a": 0,
+"d": [
+[
+"Metal mais nobre",
+"O mais nobre tem maior tendência a se reduzir: seu íon recebe elétrons. O menos nobre se oxida.",
+""
+],
+[
+"Balanço de carga",
+"Os elétrons perdidos igualam os ganhos: Cu perde 2, cada Ag<sup>+</sup> ganha 1.",
+""
+]
+],
+"h": [
+"Prata mais nobre: Ag<sup>+</sup> se reduz a Ag. O cobre se oxida a Cu<sup>2+</sup>.",
+"Cu → Cu<sup>2+</sup> + 2e<sup>−</sup>; 2 Ag<sup>+</sup> + 2e<sup>−</sup> → 2 Ag.",
+"<b>Cu + 2 Ag<sup>+</sup> → Cu<sup>2+</sup> + 2 Ag</b> (na de zinco, o oxidante é Cu<sup>2+</sup> e o redutor, Zn)."
+]
+},
+{
+"id": "1988-2-qui-31",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1988, 2ª fase, Química, questão 31",
+"r": 1400,
+"tm": 75,
+"ctx": "Substituindo um H do benzeno por CH<sub>3</sub>, OH, Cl ou COOH, obtêm-se tolueno, fenol, clorobenzeno e ácido benzoico. Quais deles têm propriedades ácidas?",
+"opts": [
+"fenol e ácido benzoico",
+"só o ácido benzoico",
+"tolueno e clorobenzeno",
+"todos"
+],
+"a": 0,
+"d": [
+[
+"Ácidos orgânicos",
+"Ácidos carboxílicos (–COOH) são ácidos; fenóis (OH direto no anel) são ácidos fracos; álcoois praticamente não.",
+""
+]
+],
+"h": [
+"Ácido benzoico: tem –COOH, é ácido.",
+"Fenol: o OH ligado ao anel libera H<sup>+</sup> (ácido fraco).",
+"Tolueno e clorobenzeno não têm H ácido. Resposta: <b>fenol e ácido benzoico</b>."
+]
+},
+{
+"id": "1988-2-qui-32",
+"ano": 1988,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1988, 2ª fase, Química, questão 32",
+"r": 1230,
+"tm": 75,
+"ctx": "Um antiácido tem 2,52 g de bicarbonato de sódio por dose: NaHCO<sub>3</sub> + HCl → NaCl + H<sub>2</sub>O + CO<sub>2</sub>. Quantos mols de ácido uma dose neutraliza? (Na = 23; H = 1; C = 12; O = 16)",
+"a": 0.03,
+"u": "mol",
+"d": [
+[
+"Mol",
+"n = m/M.",
+""
+],
+[
+"Proporção",
+"Leia na equação quantos mols de ácido reagem com 1 mol de bicarbonato.",
+""
+]
+],
+"h": [
+"M(NaHCO<sub>3</sub>) = 23 + 1 + 12 + 48 = 84 g/mol.",
+"n = 2,52/84 = 0,03 mol.",
+"Proporção 1 : 1 → <b>0,03 mol</b> de HCl."
+]
+}
+]

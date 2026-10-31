@@ -1,0 +1,2708 @@
+[
+{
+"id": "2005-1-01a",
+"ano": 2005,
+"fase": 1,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2005, 1ª fase, questão 1(a)",
+"r": 1400,
+"tm": 45,
+"ctx": "A Anatel determina que as emissoras de rádio FM usem as frequências de 87,9 a 107,9 MHz, com diferença de 0,2 MHz entre emissoras vizinhas. A cada emissora é associado um canal, um número natural que começa em 200: a emissora de 87,9 MHz tem o canal 200; a seguinte, de 88,1 MHz, o canal 201; e assim por diante. Quantas emissoras FM podem funcionar numa mesma região, respeitando o intervalo de frequências permitido?",
+"a": 101,
+"u": "emissoras",
+"tol": 0,
+"d": [
+[
+"Pontos de divisão",
+"Dividir um intervalo fechado em n partes iguais exige n + 1 pontos (as duas pontas contam).",
+"Ex.: de 0 a 10 de 2 em 2: 0, 2, 4, 6, 8, 10, seis pontos para 5 partes."
+]
+],
+"h": [
+"Amplitude: 107,9 − 87,9 = 20 MHz.",
+"20/0,2 = 100 intervalos entre emissoras vizinhas.",
+"100 + 1 = <b>101 emissoras</b> (canais 200 a 300)."
+]
+},
+{
+"id": "2005-1-01b",
+"ano": 2005,
+"fase": 1,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2005, 1ª fase, questão 1(b)",
+"r": 1320,
+"tm": 40,
+"ctx": "A Anatel determina que as emissoras de rádio FM usem as frequências de 87,9 a 107,9 MHz, com diferença de 0,2 MHz entre emissoras vizinhas. A cada emissora é associado um canal, um número natural que começa em 200: a emissora de 87,9 MHz tem o canal 200; a seguinte, de 88,1 MHz, o canal 201; e assim por diante. Os canais 200 e 285 são reservados às rádios comunitárias. Qual a frequência do canal 285, supondo que todas as frequências possíveis sejam usadas, em MHz?",
+"a": 104.9,
+"u": "MHz",
+"tol": 0,
+"d": [
+[
+"Progressão aritmética",
+"a<sub>n</sub> = a₁ + (n − 1)·r: cada canal a mais soma 0,2 MHz.",
+""
+]
+],
+"h": [
+"Do canal 200 ao 285 são 85 passos.",
+"85 × 0,2 = 17 MHz.",
+"87,9 + 17 = <b>104,9 MHz</b>."
+]
+},
+{
+"id": "2005-1-02a",
+"ano": 2005,
+"fase": 1,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2005, 1ª fase, questão 2(a) (adaptada para múltipla escolha)",
+"r": 1360,
+"tm": 60,
+"ctx": "As transmissões de uma emissora de rádio são feitas por 4 antenas, nos pontos A(0, 0), B(100, 0), C(60, 40) e D(0, 40), em quilômetros. Despreze a altura das antenas; o alcance máximo de cada antena é de 20 km. O ponto médio M do segmento BC recebe as transmissões?",
+"opts": [
+"Não: as antenas mais próximas, B e C, ficam a 20√2 ≈ 28 km de M",
+"Sim: M fica a 20 km de B e de C",
+"Sim: M fica a menos de 20 km de C",
+"Não: M fica a 40 km de B e de C"
+],
+"a": 0,
+"d": [
+[
+"Ponto médio",
+"M = ((x<sub>B</sub> + x<sub>C</sub>)/2, (y<sub>B</sub> + y<sub>C</sub>)/2).",
+""
+],
+[
+"Distância entre pontos",
+"d = √((Δx)² + (Δy)²). M recebe o sinal se estiver a até 20 km de alguma antena."
+]
+],
+"h": [
+"M = (80, 20).",
+"Distância a B ou a C: √(20² + 20²) = 20√2 ≈ 28,3 km; A e D estão ainda mais longe (≈ 80 km).",
+"<b>Não recebe</b>: 28,3 km é mais que o alcance de 20 km."
+]
+},
+{
+"id": "2005-1-02b",
+"ano": 2005,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2005, 1ª fase, questão 2(b)",
+"r": 1570,
+"tm": 75,
+"ctx": "As transmissões de uma emissora de rádio são feitas por 4 antenas, nos pontos A(0, 0), B(100, 0), C(60, 40) e D(0, 40), em quilômetros. Despreze a altura das antenas; o alcance máximo de cada antena é de 20 km. Qual a área da região limitada pelo quadrilátero ABCD que não é alcançada pelas transmissões, em km²? Use π ≈ 3,14.",
+"a": 1943.4,
+"u": "km²",
+"tol": 0.005,
+"d": [
+[
+"Trapézio",
+"ABCD tem AB ∥ DC: área = (base maior + base menor)·altura/2.",
+""
+],
+[
+"Setores circulares",
+"Cada antena cobre, dentro do quadrilátero, um setor de raio 20 km cujo ângulo é o ângulo interno do vértice. A soma dos ângulos internos de um quadrilátero é 360°."
+]
+],
+"h": [
+"Trapézio: bases 100 e 60, altura 40: área = 160 × 40/2 = 3.200 km².",
+"Os quatro setores (de raio 20 km) somam 360°: juntos formam um círculo inteiro, de área 400π ≈ 1.256,6 km².",
+"Não alcançada: 3.200 − 400π ≈ <b>1.943 km²</b>."
+]
+},
+{
+"id": "2005-1-03a",
+"ano": 2005,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2005, 1ª fase, questão 3(a)",
+"r": 1360,
+"tm": 45,
+"ctx": "O sistema GPS tem satélites em órbita que transmitem sinais eletromagnéticos para receptores na superfície da Terra, com velocidade de 300.000 km/s. Para o sistema funcionar bem, a absorção do sinal pela atmosfera deve ser pequena. O gráfico mostra, de forma esquemática, a porcentagem da radiação eletromagnética absorvida pela atmosfera em função do comprimento de onda. A frequência do sinal GPS é 1.500 MHz. Qual o comprimento de onda correspondente, e qual a porcentagem do sinal absorvida pela atmosfera?",
+"fig": "<svg viewBox='0 0 220 128' class='fg' role='img' aria-label='gráfico esquemático da fração de radiação absorvida pela atmosfera, de 0 a 100 por cento, em função do comprimento de onda, de 10 elevado a menos 8 a 10 elevado a 3 metros, em escala logarítmica: absorção total abaixo de 10 elevado a menos 7 metros; janela sem absorção na luz visível, entre 4 e 7 vezes 10 elevado a menos 7 metros; várias bandas de absorção no infravermelho, até cerca de 10 elevado a menos 3 metros; absorção nula de cerca de 1 centímetro até cerca de 10 metros; e absorção total acima de cerca de 100 metros'><g fill='none' stroke='currentColor'><polygon points='34.0,100.0 34.0,20.0 46.8,20.0 52.4,52.0 56.4,95.2 58.0,100.0 63.6,100.0 65.2,76.0 66.8,24.0 68.4,76.0 70.0,90.4 71.6,28.0 73.2,84.0 74.8,52.0 77.2,20.0 80.4,20.0 82.0,64.0 84.4,84.0 86.8,24.0 89.2,76.0 91.6,23.2 94.0,56.0 96.4,20.0 104.4,20.0 109.2,52.0 114.0,77.6 118.8,93.6 123.6,100.0 178.0,100.0 182.8,92.0 187.6,52.0 192.4,24.0 197.2,20.0 210.0,20.0 210.0,100.0' fill='currentColor' fill-opacity='0.3' stroke-width='0.9'/><line x1='34' y1='100' x2='210' y2='100' stroke-width='1'/><line x1='34' y1='100' x2='34' y2='18' stroke-width='1'/></g><g fill='currentColor' font-size='7'><line x1='34' y1='100' x2='34' y2='102.5' stroke='currentColor'/><line x1='50' y1='100' x2='50' y2='102.5' stroke='currentColor'/><line x1='66' y1='100' x2='66' y2='102.5' stroke='currentColor'/><line x1='82' y1='100' x2='82' y2='102.5' stroke='currentColor'/><line x1='98' y1='100' x2='98' y2='102.5' stroke='currentColor'/><line x1='114' y1='100' x2='114' y2='102.5' stroke='currentColor'/><line x1='130' y1='100' x2='130' y2='102.5' stroke='currentColor'/><line x1='146' y1='100' x2='146' y2='102.5' stroke='currentColor'/><line x1='162' y1='100' x2='162' y2='102.5' stroke='currentColor'/><line x1='178' y1='100' x2='178' y2='102.5' stroke='currentColor'/><line x1='194' y1='100' x2='194' y2='102.5' stroke='currentColor'/><line x1='210' y1='100' x2='210' y2='102.5' stroke='currentColor'/><text x='34' y='110' text-anchor='middle'>10⁻⁸</text><text x='66' y='110' text-anchor='middle'>10⁻⁶</text><text x='98' y='110' text-anchor='middle'>10⁻⁴</text><text x='130' y='110' text-anchor='middle'>10⁻²</text><text x='162' y='110' text-anchor='middle'>10⁰</text><text x='194' y='110' text-anchor='middle'>10²</text><text x='30' y='102.5' text-anchor='end'>0</text><text x='30' y='62.5' text-anchor='end'>50</text><text x='30' y='22.5' text-anchor='end'>100</text><text x='122' y='123' text-anchor='middle' font-size='8'>comprimento de onda (m)</text><text x='9' y='60' text-anchor='middle' font-size='8' transform='rotate(-90 9 60)'>absorvida (%)</text></g></svg>",
+"opts": [
+"0,2 m; absorção praticamente nula",
+"0,2 m; absorção de quase 100%",
+"2·10⁻⁷ m; absorção praticamente nula",
+"5 m; absorção de cerca de 50%"
+],
+"a": 0,
+"d": [
+[
+"Equação fundamental",
+"c = λ·f ⟹ λ = c/f, com c em m/s e f em Hz (1 MHz = 10⁶ Hz).",
+""
+],
+[
+"Escala logarítmica",
+"Cada marca do eixo é uma potência de 10; 0,2 m fica entre 10⁻¹ e 10⁰."
+]
+],
+"h": [
+"f = 1,5·10⁹ Hz; c = 3·10⁸ m/s.",
+"λ = 3·10⁸/1,5·10⁹ = 0,2 m.",
+"Em 0,2 m o gráfico está na faixa sem absorção: <b>0,2 m e absorção praticamente nula</b>."
+]
+},
+{
+"id": "2005-1-03b",
+"ano": 2005,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2005, 1ª fase, questão 3(b)",
+"r": 1400,
+"tm": 40,
+"ctx": "O sistema GPS tem satélites em órbita que transmitem sinais eletromagnéticos para receptores na superfície da Terra, com velocidade de 300.000 km/s. Para o sistema funcionar bem, a absorção do sinal pela atmosfera deve ser pequena. O gráfico mostra, de forma esquemática, a porcentagem da radiação eletromagnética absorvida pela atmosfera em função do comprimento de onda. O receptor determina sua posição medindo o tempo que o sinal leva do satélite até ele. Qual a variação Δt na medida do tempo que corresponde a uma variação Δx = 100 m na distância satélite-receptor (trajetória retilínea)? Responda em unidades de 10⁻⁷ s.",
+"fig": "<svg viewBox='0 0 220 128' class='fg' role='img' aria-label='gráfico esquemático da fração de radiação absorvida pela atmosfera, de 0 a 100 por cento, em função do comprimento de onda, de 10 elevado a menos 8 a 10 elevado a 3 metros, em escala logarítmica: absorção total abaixo de 10 elevado a menos 7 metros; janela sem absorção na luz visível, entre 4 e 7 vezes 10 elevado a menos 7 metros; várias bandas de absorção no infravermelho, até cerca de 10 elevado a menos 3 metros; absorção nula de cerca de 1 centímetro até cerca de 10 metros; e absorção total acima de cerca de 100 metros'><g fill='none' stroke='currentColor'><polygon points='34.0,100.0 34.0,20.0 46.8,20.0 52.4,52.0 56.4,95.2 58.0,100.0 63.6,100.0 65.2,76.0 66.8,24.0 68.4,76.0 70.0,90.4 71.6,28.0 73.2,84.0 74.8,52.0 77.2,20.0 80.4,20.0 82.0,64.0 84.4,84.0 86.8,24.0 89.2,76.0 91.6,23.2 94.0,56.0 96.4,20.0 104.4,20.0 109.2,52.0 114.0,77.6 118.8,93.6 123.6,100.0 178.0,100.0 182.8,92.0 187.6,52.0 192.4,24.0 197.2,20.0 210.0,20.0 210.0,100.0' fill='currentColor' fill-opacity='0.3' stroke-width='0.9'/><line x1='34' y1='100' x2='210' y2='100' stroke-width='1'/><line x1='34' y1='100' x2='34' y2='18' stroke-width='1'/></g><g fill='currentColor' font-size='7'><line x1='34' y1='100' x2='34' y2='102.5' stroke='currentColor'/><line x1='50' y1='100' x2='50' y2='102.5' stroke='currentColor'/><line x1='66' y1='100' x2='66' y2='102.5' stroke='currentColor'/><line x1='82' y1='100' x2='82' y2='102.5' stroke='currentColor'/><line x1='98' y1='100' x2='98' y2='102.5' stroke='currentColor'/><line x1='114' y1='100' x2='114' y2='102.5' stroke='currentColor'/><line x1='130' y1='100' x2='130' y2='102.5' stroke='currentColor'/><line x1='146' y1='100' x2='146' y2='102.5' stroke='currentColor'/><line x1='162' y1='100' x2='162' y2='102.5' stroke='currentColor'/><line x1='178' y1='100' x2='178' y2='102.5' stroke='currentColor'/><line x1='194' y1='100' x2='194' y2='102.5' stroke='currentColor'/><line x1='210' y1='100' x2='210' y2='102.5' stroke='currentColor'/><text x='34' y='110' text-anchor='middle'>10⁻⁸</text><text x='66' y='110' text-anchor='middle'>10⁻⁶</text><text x='98' y='110' text-anchor='middle'>10⁻⁴</text><text x='130' y='110' text-anchor='middle'>10⁻²</text><text x='162' y='110' text-anchor='middle'>10⁰</text><text x='194' y='110' text-anchor='middle'>10²</text><text x='30' y='102.5' text-anchor='end'>0</text><text x='30' y='62.5' text-anchor='end'>50</text><text x='30' y='22.5' text-anchor='end'>100</text><text x='122' y='123' text-anchor='middle' font-size='8'>comprimento de onda (m)</text><text x='9' y='60' text-anchor='middle' font-size='8' transform='rotate(-90 9 60)'>absorvida (%)</text></g></svg>",
+"a": 3.33,
+"u": "10⁻⁷ s",
+"tol": 0.02,
+"d": [
+[
+"Movimento uniforme",
+"Δx = v·Δt ⟹ Δt = Δx/v, com v em m/s.",
+""
+]
+],
+"h": [
+"v = 300.000 km/s = 3·10⁸ m/s.",
+"Δt = 100/3·10⁸.",
+"Δt ≈ 3,3·10⁻⁷ s: <b>3,3</b>."
+]
+},
+{
+"id": "2005-1-04a",
+"ano": 2005,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2005, 1ª fase, questão 4(a)",
+"r": 1320,
+"tm": 30,
+"ctx": "Uma antena de telefonia celular fica no topo de uma torre de 15 m de altura. A frequência de transmissão é 900 MHz, e a intensidade da radiação emitida varia com a distância à antena conforme o gráfico (eixo vertical em escala logarítmica). Qual a intensidade da radiação num celular posicionado na base da torre, em W/m²?",
+"fig": "<svg viewBox='0 0 216 140' class='fg' role='img' aria-label='gráfico da intensidade da radiação, em watts por metro quadrado, em escala logarítmica de 10 elevado a menos 2 a 10 elevado a 2, em função da distância da antena, de 0 a 20 metros: a curva cai de 100 em 0,5 metro para 10 em cerca de 1,6 metro, 1 em 5 metros, 0,25 em 10 metros, 0,1 em 15 metros e 0,06 em 20 metros'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='78.5' y1='18' x2='78.5' y2='110'/><line x1='121.0' y1='18' x2='121.0' y2='110'/><line x1='163.5' y1='18' x2='163.5' y2='110'/><line x1='206.0' y1='18' x2='206.0' y2='110'/><line x1='36' y1='87.0' x2='206' y2='87.0'/><line x1='36' y1='64.0' x2='206' y2='64.0'/><line x1='36' y1='41.0' x2='206' y2='41.0'/><line x1='36' y1='18.0' x2='206' y2='18.0'/></g><line x1='36' y1='110' x2='206' y2='110' stroke-width='1'/><line x1='36' y1='110' x2='36' y2='16' stroke-width='1'/><path d='M40.2,18.0 C40.5,19.1 41.2,22.4 42.0,24.7 C42.7,27.0 43.5,29.5 44.5,31.8 C45.5,34.2 46.5,36.3 47.9,38.6 C49.3,40.9 50.7,43.2 53.0,45.7 C55.3,48.2 58.7,51.5 61.5,53.8 C64.3,56.1 67.2,57.8 70.0,59.5 C72.8,61.2 74.2,62.1 78.5,64.0 C82.8,65.9 88.4,68.4 95.5,70.7 C102.6,73.0 112.5,75.8 121.0,77.8 C129.5,79.9 138.0,81.5 146.5,83.1 C155.0,84.7 162.1,85.8 172.0,87.2 C181.9,88.7 200.3,91.0 206.0,91.7' stroke-width='1.3'/></g><g fill='currentColor' font-size='7'><text x='36.0' y='119' text-anchor='middle'>0</text><text x='78.5' y='119' text-anchor='middle'>5</text><text x='121.0' y='119' text-anchor='middle'>10</text><text x='163.5' y='119' text-anchor='middle'>15</text><text x='206.0' y='119' text-anchor='middle'>20</text><text x='32' y='112.5' text-anchor='end'>10⁻²</text><text x='32' y='89.5' text-anchor='end'>10⁻¹</text><text x='32' y='66.5' text-anchor='end'>10⁰</text><text x='32' y='43.5' text-anchor='end'>10¹</text><text x='32' y='20.5' text-anchor='end'>10²</text><text x='121' y='132' text-anchor='middle' font-size='8'>distância da antena (m)</text><text x='9' y='64' text-anchor='middle' font-size='8' transform='rotate(-90 9 64)'>intensidade (W/m²)</text></g></svg>",
+"a": 0.1,
+"u": "W/m²",
+"tol": 0.1,
+"d": [
+[
+"Distância certa",
+"A antena está no topo da torre: a distância até um aparelho na base é a altura da torre.",
+""
+],
+[
+"Escala logarítmica",
+"Cada linha horizontal vale 10 vezes a de baixo: 10⁻¹ = 0,1."
+]
+],
+"h": [
+"Distância antena–aparelho: 15 m.",
+"No gráfico, em 15 m a curva passa na linha 10⁻¹.",
+"I ≈ <b>0,1 W/m²</b>."
+]
+},
+{
+"id": "2005-1-04b",
+"ano": 2005,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2005, 1ª fase, questão 4(b)",
+"r": 1570,
+"tm": 60,
+"ctx": "Uma antena de telefonia celular fica no topo de uma torre de 15 m de altura. A frequência de transmissão é 900 MHz, e a intensidade da radiação emitida varia com a distância à antena conforme o gráfico (eixo vertical em escala logarítmica). O limite de segurança para essa faixa de frequências é de cerca de 1 mW/cm². Qual a distância mínima que uma pessoa pode ficar da antena sem ultrapassar esse limite, em metros?",
+"fig": "<svg viewBox='0 0 216 140' class='fg' role='img' aria-label='gráfico da intensidade da radiação, em watts por metro quadrado, em escala logarítmica de 10 elevado a menos 2 a 10 elevado a 2, em função da distância da antena, de 0 a 20 metros: a curva cai de 100 em 0,5 metro para 10 em cerca de 1,6 metro, 1 em 5 metros, 0,25 em 10 metros, 0,1 em 15 metros e 0,06 em 20 metros'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='78.5' y1='18' x2='78.5' y2='110'/><line x1='121.0' y1='18' x2='121.0' y2='110'/><line x1='163.5' y1='18' x2='163.5' y2='110'/><line x1='206.0' y1='18' x2='206.0' y2='110'/><line x1='36' y1='87.0' x2='206' y2='87.0'/><line x1='36' y1='64.0' x2='206' y2='64.0'/><line x1='36' y1='41.0' x2='206' y2='41.0'/><line x1='36' y1='18.0' x2='206' y2='18.0'/></g><line x1='36' y1='110' x2='206' y2='110' stroke-width='1'/><line x1='36' y1='110' x2='36' y2='16' stroke-width='1'/><path d='M40.2,18.0 C40.5,19.1 41.2,22.4 42.0,24.7 C42.7,27.0 43.5,29.5 44.5,31.8 C45.5,34.2 46.5,36.3 47.9,38.6 C49.3,40.9 50.7,43.2 53.0,45.7 C55.3,48.2 58.7,51.5 61.5,53.8 C64.3,56.1 67.2,57.8 70.0,59.5 C72.8,61.2 74.2,62.1 78.5,64.0 C82.8,65.9 88.4,68.4 95.5,70.7 C102.6,73.0 112.5,75.8 121.0,77.8 C129.5,79.9 138.0,81.5 146.5,83.1 C155.0,84.7 162.1,85.8 172.0,87.2 C181.9,88.7 200.3,91.0 206.0,91.7' stroke-width='1.3'/></g><g fill='currentColor' font-size='7'><text x='36.0' y='119' text-anchor='middle'>0</text><text x='78.5' y='119' text-anchor='middle'>5</text><text x='121.0' y='119' text-anchor='middle'>10</text><text x='163.5' y='119' text-anchor='middle'>15</text><text x='206.0' y='119' text-anchor='middle'>20</text><text x='32' y='112.5' text-anchor='end'>10⁻²</text><text x='32' y='89.5' text-anchor='end'>10⁻¹</text><text x='32' y='66.5' text-anchor='end'>10⁰</text><text x='32' y='43.5' text-anchor='end'>10¹</text><text x='32' y='20.5' text-anchor='end'>10²</text><text x='121' y='132' text-anchor='middle' font-size='8'>distância da antena (m)</text><text x='9' y='64' text-anchor='middle' font-size='8' transform='rotate(-90 9 64)'>intensidade (W/m²)</text></g></svg>",
+"a": 1.6,
+"u": "m",
+"tol": 0.12,
+"d": [
+[
+"Converter unidades",
+"1 mW = 10⁻³ W e 1 cm² = 10⁻⁴ m²: 1 mW/cm² = 10⁻³/10⁻⁴ W/m².",
+""
+],
+[
+"Ler o gráfico ao contrário",
+"Ache a intensidade no eixo vertical e desça até o eixo da distância."
+]
+],
+"h": [
+"1 mW/cm² = 10 W/m² = 10¹ W/m².",
+"No gráfico, a curva passa por 10¹ W/m² perto de 1,6 m.",
+"Distância mínima ≈ <b>1,6 m</b>."
+]
+},
+{
+"id": "2005-1-11a",
+"ano": 2005,
+"fase": 1,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 2005, 1ª fase, questão 11(a)",
+"r": 1100,
+"tm": 20,
+"ctx": "Nos primeiros rádios, a peça central era um cristal de galena, um mineral de sulfeto de chumbo, de cor preta. O sulfeto de chumbo também aparece em quadros de pintores que usaram carbonato básico de chumbo como pigmento branco: com o tempo, o gás sulfídrico do ar o transforma em sulfeto de chumbo, escurecendo a obra. A pintura pode ser restaurada com peróxido de hidrogênio (H₂O₂), que transforma o sulfeto de chumbo em sulfato de chumbo, branco. Quais são os símbolos do chumbo e do enxofre? Lembre que vêm dos nomes latinos plumbum e sulfur.",
+"opts": [
+"Pb e S",
+"Ch e En",
+"P e Su",
+"Pl e Sf"
+],
+"a": 0,
+"d": [
+[
+"Símbolos químicos",
+"O símbolo é a inicial maiúscula do nome (muitas vezes latino), às vezes seguida de uma letra minúscula.",
+"Ex.: Na, de natrium (sódio); K, de kalium (potássio)."
+]
+],
+"h": [
+"Plumbum → Pb.",
+"Sulfur → S.",
+"<b>Pb e S</b>."
+]
+},
+{
+"id": "2005-1-11b",
+"ano": 2005,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2005, 1ª fase, questão 11(b)",
+"r": 1570,
+"tm": 45,
+"ctx": "Nos primeiros rádios, a peça central era um cristal de galena, um mineral de sulfeto de chumbo, de cor preta. O sulfeto de chumbo também aparece em quadros de pintores que usaram carbonato básico de chumbo como pigmento branco: com o tempo, o gás sulfídrico do ar o transforma em sulfeto de chumbo, escurecendo a obra. A pintura pode ser restaurada com peróxido de hidrogênio (H₂O₂), que transforma o sulfeto de chumbo em sulfato de chumbo, branco. Qual a equação da transformação do sulfeto de chumbo em sulfato de chumbo pelo peróxido de hidrogênio?",
+"opts": [
+"PbS + 4 H₂O₂ → PbSO₄ + 4 H₂O",
+"PbS + H₂O₂ → PbSO₄ + H₂",
+"PbS + 2 H₂O₂ → PbSO₄ + 2 H₂",
+"PbSO₄ + 4 H₂O → PbS + 4 H₂O₂"
+],
+"a": 0,
+"d": [
+[
+"Fórmulas pelos nomes",
+"Sulfeto: S²⁻. Sulfato: SO₄²⁻. Chumbo aqui: Pb²⁺. Peróxido de hidrogênio: H₂O₂.",
+""
+],
+[
+"Balanceamento",
+"O H₂O₂ fornece o oxigênio; seus hidrogênios saem como água."
+]
+],
+"h": [
+"PbS precisa ganhar 4 átomos de O para virar PbSO₄.",
+"Cada H₂O₂ cede 1 O e vira H₂O: são 4 H₂O₂ e 4 H₂O.",
+"<b>PbS + 4 H₂O₂ → PbSO₄ + 4 H₂O</b>."
+]
+},
+{
+"id": "2005-1-11c",
+"ano": 2005,
+"fase": 1,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2005, 1ª fase, questão 11(c)",
+"r": 1660,
+"tm": 45,
+"ctx": "Nos primeiros rádios, a peça central era um cristal de galena, um mineral de sulfeto de chumbo, de cor preta. O sulfeto de chumbo também aparece em quadros de pintores que usaram carbonato básico de chumbo como pigmento branco: com o tempo, o gás sulfídrico do ar o transforma em sulfeto de chumbo, escurecendo a obra. A pintura pode ser restaurada com peróxido de hidrogênio (H₂O₂), que transforma o sulfeto de chumbo em sulfato de chumbo, branco. Alguma das transformações citadas é de óxido-redução?",
+"opts": [
+"Sim: na restauração, o enxofre passa de −2 (sulfeto) para +6 (sulfato), e o oxigênio do H₂O₂ passa de −1 para −2",
+"Não: nenhum elemento muda de número de oxidação",
+"Sim: o chumbo passa de +2 para +4",
+"Não: só há troca de ânions entre os compostos"
+],
+"a": 0,
+"d": [
+[
+"Número de oxidação",
+"Em PbS e PbSO₄, Pb tem +2. Num íon, a soma dos nox é a carga: em SO₄²⁻, x + 4·(−2) = −2. No peróxido (H₂O₂), o oxigênio tem nox −1.",
+""
+],
+[
+"Oxirredução",
+"Ocorre quando algum elemento muda de nox: quem sobe se oxida, quem desce se reduz."
+]
+],
+"h": [
+"S: −2 em PbS e +6 em PbSO₄: oxidação.",
+"O: −1 em H₂O₂ e −2 em PbSO₄ e H₂O: redução.",
+"<b>Sim</b>: a restauração com H₂O₂ é de óxido-redução."
+]
+},
+{
+"id": "2005-1-12a",
+"ano": 2005,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2005, 1ª fase, questão 12(a)",
+"r": 1230,
+"tm": 30,
+"ctx": "Feromônios são substâncias usadas na comunicação entre indivíduos da mesma espécie. Exemplos: CH₃(CH₂)₃CH₂OH (sinal de alerta) e CH₃CH₂CO(CH₂)₅CH₃ (preparar para a luta). A mariposa Bombyx disparate segrega um feromônio sexual com a função epóxi, cujo fragmento principal pode ser representado como –CHOCH–. Que funções químicas estão presentes em CH₃(CH₂)₃CH₂OH e em CH₃CH₂CO(CH₂)₅CH₃, respectivamente?",
+"opts": [
+"Álcool e cetona",
+"Ácido carboxílico e éster",
+"Álcool e aldeído",
+"Éter e cetona"
+],
+"a": 0,
+"d": [
+[
+"Grupos funcionais",
+"–OH ligado a carbono saturado: álcool. C=O entre dois carbonos (–CO– no meio da cadeia): cetona. –CHO no fim da cadeia: aldeído.",
+""
+]
+],
+"h": [
+"CH₃(CH₂)₃CH₂OH: –OH num carbono saturado.",
+"CH₃CH₂CO(CH₂)₅CH₃: carbonila entre dois carbonos.",
+"<b>Álcool e cetona</b>."
+]
+},
+{
+"id": "2005-1-12b",
+"ano": 2005,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2005, 1ª fase, questão 12(b)",
+"r": 1400,
+"tm": 30,
+"ctx": "Feromônios são substâncias usadas na comunicação entre indivíduos da mesma espécie. Exemplos: CH₃(CH₂)₃CH₂OH (sinal de alerta) e CH₃CH₂CO(CH₂)₅CH₃ (preparar para a luta). A mariposa Bombyx disparate segrega um feromônio sexual com a função epóxi, cujo fragmento principal pode ser representado como –CHOCH–. Qual o nome químico da substância do sinal de alerta, CH₃(CH₂)₃CH₂OH?",
+"opts": [
+"1-pentanol (pentan-1-ol)",
+"1-butanol",
+"2-pentanol",
+"pentanal"
+],
+"a": 0,
+"d": [
+[
+"Nomenclatura de álcoois",
+"Prefixo pelo número de carbonos (5 = pent), \"an\" para cadeia saturada, sufixo \"ol\", e o número do carbono do –OH.",
+""
+]
+],
+"h": [
+"Carbonos: 1 (CH₃) + 3 (CH₂) + 1 (CH₂OH) = 5.",
+"O –OH está na ponta da cadeia, no carbono 1.",
+"<b>1-pentanol</b> (pentan-1-ol)."
+]
+},
+{
+"id": "2005-1-12c",
+"ano": 2005,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2005, 1ª fase, questão 12(c) (adaptada para múltipla escolha)",
+"r": 1570,
+"tm": 45,
+"ctx": "Feromônios são substâncias usadas na comunicação entre indivíduos da mesma espécie. Exemplos: CH₃(CH₂)₃CH₂OH (sinal de alerta) e CH₃CH₂CO(CH₂)₅CH₃ (preparar para a luta). A mariposa Bombyx disparate segrega um feromônio sexual com a função epóxi, cujo fragmento principal pode ser representado como –CHOCH–. Qual a estrutura do fragmento –CHOCH– que corresponde à função epóxi?",
+"opts": [
+"Um anel de três átomos: dois carbonos ligados entre si e ambos ligados ao mesmo oxigênio, cada carbono com um H e uma ligação livre",
+"Uma cadeia –CH=C(OH)–, com uma dupla entre os carbonos e um OH",
+"Um grupo –CH₂–O–CH₂–, com o oxigênio entre os carbonos e sem ligação C–C",
+"Uma carbonila –CH₂–CHO na ponta da cadeia"
+],
+"a": 0,
+"d": [
+[
+"Valências",
+"Carbono faz 4 ligações, oxigênio 2, hidrogênio 1.",
+""
+],
+[
+"Epóxi",
+"Um éter cíclico de três átomos: o O liga-se a dois carbonos que também estão ligados entre si."
+]
+],
+"h": [
+"Cada C já tem 1 H e 1 ligação livre (os traços nas pontas do fragmento): sobram 2 ligações em cada C.",
+"Ligando os dois C entre si e ambos ao O, todas as valências se completam, formando um anel.",
+"<b>Anel C–C–O de três átomos</b>, cada C com um H: o epóxi."
+]
+},
+{
+"id": "2005-2-mat-01a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 1(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Valores calóricos: uma fatia de pão integral, 55 kcal; um litro de leite, 550 kcal; 200 g de manteiga, 1.400 kcal; 1 kg de queijo, 3.200 kcal; uma banana, 80 kcal. Qual o valor calórico de uma refeição com duas fatias de pão integral, um copo de 200 mL de leite, 10 g de manteiga, 4 fatias de queijo de 10 g cada e duas bananas, em kcal?",
+"a": 578,
+"u": "kcal",
+"tol": 0,
+"d": [
+[
+"Proporcionalidade",
+"Se 1 L tem 550 kcal, 200 mL (0,2 L) têm 0,2 × 550. Faça o mesmo com manteiga e queijo.",
+""
+]
+],
+"h": [
+"Pão: 2 × 55 = 110; leite: 0,2 × 550 = 110; manteiga: 1.400 × 10/200 = 70.",
+"Queijo: 40 g = 0,04 kg → 0,04 × 3.200 = 128; bananas: 2 × 80 = 160.",
+"Total: 110 + 110 + 70 + 128 + 160 = <b>578 kcal</b>."
+]
+},
+{
+"id": "2005-2-mat-01b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 1(b)",
+"r": 1230,
+"tm": 30,
+"ctx": "Valores calóricos: uma fatia de pão integral, 55 kcal; um litro de leite, 550 kcal; 200 g de manteiga, 1.400 kcal; 1 kg de queijo, 3.200 kcal; uma banana, 80 kcal. Um copo de leite integral contém 248 mg de cálcio, o que representa 31% do valor diário recomendado. Qual é esse valor recomendado, em mg?",
+"a": 800,
+"u": "mg",
+"tol": 0,
+"d": [
+[
+"Porcentagem",
+"Se 31% do total valem 248, o total vale 248/0,31.",
+""
+]
+],
+"h": [
+"0,31 × V = 248.",
+"V = 248/0,31.",
+"V = <b>800 mg</b>."
+]
+},
+{
+"id": "2005-2-mat-02a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 2(a)",
+"r": 1280,
+"tm": 40,
+"ctx": "A quantia de R$ 1.280,00 deve ser dividida entre 3 pessoas. Quanto recebe cada uma, se a divisão for em partes diretamente proporcionais a 8, 5 e 7?",
+"opts": [
+"R$ 512,00, R$ 320,00 e R$ 448,00",
+"R$ 480,00, R$ 300,00 e R$ 500,00",
+"R$ 426,67 para cada uma",
+"R$ 640,00, R$ 400,00 e R$ 560,00"
+],
+"a": 0,
+"d": [
+[
+"Divisão proporcional",
+"Some os números (8 + 5 + 7), divida a quantia por essa soma e multiplique o valor de cada \"parte\" pelo número de cada pessoa.",
+""
+]
+],
+"h": [
+"8 + 5 + 7 = 20 partes; cada parte vale 1.280/20 = R$ 64,00.",
+"64 × 8 = 512; 64 × 5 = 320; 64 × 7 = 448.",
+"<b>R$ 512,00, R$ 320,00 e R$ 448,00</b>."
+]
+},
+{
+"id": "2005-2-mat-02b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 2(b)",
+"r": 1570,
+"tm": 60,
+"ctx": "A quantia de R$ 1.280,00 deve ser dividida entre 3 pessoas. Quanto recebe cada uma, se a divisão for em partes inversamente proporcionais a 5, 2 e 10?",
+"opts": [
+"R$ 320,00, R$ 800,00 e R$ 160,00",
+"R$ 376,47, R$ 150,59 e R$ 752,94",
+"R$ 256,00, R$ 640,00 e R$ 128,00",
+"R$ 160,00, R$ 800,00 e R$ 320,00"
+],
+"a": 0,
+"d": [
+[
+"Inversamente proporcional",
+"Dividir em partes inversamente proporcionais a a, b, c é dividir em partes diretamente proporcionais a 1/a, 1/b, 1/c.",
+"Dica: multiplique 1/a, 1/b, 1/c por um denominador comum para trabalhar com inteiros."
+]
+],
+"h": [
+"1/5, 1/2, 1/10 = 2/10, 5/10, 1/10: partes proporcionais a 2, 5 e 1 (soma 8).",
+"Cada parte: 1.280/8 = R$ 160,00.",
+"2 × 160, 5 × 160, 1 × 160: <b>R$ 320,00, R$ 800,00 e R$ 160,00</b>."
+]
+},
+{
+"id": "2005-2-mat-03a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 3(a)",
+"r": 1400,
+"tm": 45,
+"ctx": "O preço de uma corrida de táxi é um valor inicial fixo Q₀ mais um valor proporcional à distância D percorrida. Numa corrida de 3,6 km, cobraram-se R$ 8,25; noutra, de 2,8 km, R$ 7,25. Qual o valor inicial Q₀, em reais?",
+"a": 3.75,
+"u": "R$",
+"tol": 0,
+"d": [
+[
+"Função afim",
+"Q = Q₀ + k·D. Dois pontos dão duas equações; subtraindo uma da outra, Q₀ some e acha-se k.",
+""
+]
+],
+"h": [
+"8,25 − 7,25 = k·(3,6 − 2,8) ⟹ 1 = 0,8k ⟹ k = R$ 1,25 por km.",
+"Q₀ = 8,25 − 1,25 × 3,6 = 8,25 − 4,50.",
+"Q₀ = <b>R$ 3,75</b>."
+]
+},
+{
+"id": "2005-2-mat-03b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 3(b)",
+"r": 1570,
+"tm": 60,
+"ctx": "O preço de uma corrida de táxi é um valor inicial fixo Q₀ mais um valor proporcional à distância D percorrida. Numa corrida de 3,6 km, cobraram-se R$ 8,25; noutra, de 2,8 km, R$ 7,25. Num dia, um taxista arrecadou R$ 75,00 em 10 corridas. Quantos quilômetros o carro percorreu naquele dia?",
+"a": 30,
+"u": "km",
+"tol": 0,
+"d": [
+[
+"Função afim",
+"Q = Q₀ + k·D; ache Q₀ e k pelas duas corridas dadas.",
+""
+],
+[
+"Várias corridas",
+"Em 10 corridas, o valor inicial é cobrado 10 vezes; a parte variável depende da distância total."
+]
+],
+"h": [
+"k = 1/0,8 = R$ 1,25 por km e Q₀ = R$ 3,75.",
+"75 = 10 × 3,75 + 1,25·D ⟹ 1,25·D = 37,50.",
+"D = <b>30 km</b>."
+]
+},
+{
+"id": "2005-2-mat-04a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 4(a)",
+"r": 1360,
+"tm": 40,
+"ctx": "ABCD é um quadrado de lado 10 cm. Uma circunferência passa pelos vértices C e D (do lado CD) e é tangente, no ponto M, ao lado oposto AB. Qual a área do triângulo CDM, em cm²?",
+"a": 50,
+"u": "cm²",
+"tol": 0,
+"d": [
+[
+"Área do triângulo",
+"A = base × altura/2. A altura relativa a CD é a distância de M à reta CD.",
+""
+]
+],
+"h": [
+"Base CD = 10 cm.",
+"M está no lado AB, paralelo a CD e a 10 cm dele: altura 10 cm.",
+"A = 10 × 10/2 = <b>50 cm²</b>."
+]
+},
+{
+"id": "2005-2-mat-04b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 4(b)",
+"r": 1700,
+"tm": 75,
+"ctx": "ABCD é um quadrado de lado 10 cm. Uma circunferência passa pelos vértices C e D (do lado CD) e é tangente, no ponto M, ao lado oposto AB. Qual o raio da circunferência, em cm?",
+"a": 6.25,
+"u": "cm",
+"tol": 0,
+"d": [
+[
+"Tangência",
+"O raio que vai ao ponto de tangência é perpendicular à tangente: o centro está na perpendicular a AB por M, que (por simetria) é a mediatriz de CD.",
+""
+],
+[
+"Pitágoras",
+"Ligue o centro O a D: OD = R, e forme um triângulo retângulo com metade de CD."
+]
+],
+"h": [
+"O centro O fica na reta por M perpendicular a AB, a R de M; sua distância a CD é 10 − R.",
+"No triângulo com catetos 5 (metade de CD) e 10 − R e hipotenusa R: R² = 25 + (10 − R)² ⟹ 20R = 125.",
+"R = <b>6,25 cm</b>."
+]
+},
+{
+"id": "2005-2-mat-05a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 5(a)",
+"r": 1780,
+"tm": 90,
+"ctx": "Dois navios partem ao mesmo tempo de um mesmo porto, em direções perpendiculares e com velocidades constantes. Trinta minutos após a partida, a distância entre eles era de 15 km; 15 minutos depois, um dos navios estava 4,5 km mais longe do porto que o outro. Quais as velocidades dos dois navios, em km/h?",
+"opts": [
+"24 km/h e 18 km/h",
+"12 km/h e 9 km/h",
+"30 km/h e 24 km/h",
+"20 km/h e 15 km/h"
+],
+"a": 0,
+"d": [
+[
+"Pitágoras",
+"Rotas perpendiculares: a distância entre os navios é a hipotenusa de um triângulo retângulo cujos catetos são as distâncias ao porto (v·t).",
+""
+],
+[
+"Sistema",
+"Monte uma equação para t = 1/2 h e outra para t = 3/4 h, e resolva o sistema (aparece uma equação do 2º grau)."
+]
+],
+"h": [
+"t = 1/2 h: (v₁/2)² + (v₂/2)² = 15² ⟹ v₁² + v₂² = 900.",
+"t = 3/4 h: (3/4)(v₁ − v₂) = 4,5 ⟹ v₁ = v₂ + 6; substituindo: v₂² + 6v₂ − 432 = 0 ⟹ v₂ = 18.",
+"<b>24 km/h e 18 km/h</b>."
+]
+},
+{
+"id": "2005-2-mat-05b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 5(b)",
+"r": 1400,
+"tm": 30,
+"ctx": "Dois navios partem ao mesmo tempo de um mesmo porto, em direções perpendiculares e com velocidades constantes. Trinta minutos após a partida, a distância entre eles era de 15 km; 15 minutos depois, um dos navios estava 4,5 km mais longe do porto que o outro. As velocidades dos navios são 24 km/h e 18 km/h. A que distância do porto está cada navio 270 minutos após a partida?",
+"opts": [
+"108 km e 81 km",
+"135 km para os dois",
+"96 km e 72 km",
+"6.480 km e 4.860 km"
+],
+"a": 0,
+"d": [
+[
+"Movimento uniforme",
+"d = v·t, com t em horas (270 min ÷ 60).",
+""
+]
+],
+"h": [
+"270 min = 4,5 h.",
+"24 × 4,5 = 108 e 18 × 4,5 = 81.",
+"<b>108 km e 81 km</b>."
+]
+},
+{
+"id": "2005-2-mat-06a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 6(a)",
+"r": 1780,
+"tm": 60,
+"ctx": "Os pontos A, B, C e N estão num mesmo plano, como mostra a figura: AB = 1 km, BC = 2 km, o ângulo ABC mede 150°, o ângulo ANB mede 30° e o ângulo BNC é reto. Qual o raio da circunferência que passa por A, B e N, em km?",
+"fig": "<svg viewBox='0 0 210 142' class='fg' role='img' aria-label='quatro pontos A, B, C e N: AB mede 1 quilômetro, BC mede 2 quilômetros e o ângulo ABC mede 150 graus; N fica abaixo de B; o ângulo ANB mede 30 graus e o ângulo BNC é reto; estão traçados os segmentos AB, BC, CN, NA e BN'><g fill='none' stroke='currentColor' stroke-width='1.2'><line x1='37.0' y1='24.5' x2='95.0' y2='40.0'/><line x1='95.0' y1='40.0' x2='179.9' y2='124.9'/><line x1='179.9' y1='124.9' x2='95.0' y2='124.9'/><line x1='95.0' y1='124.9' x2='37.0' y2='24.5'/><line x1='95.0' y1='40.0' x2='95.0' y2='124.9'/></g><g fill='none' stroke='currentColor' stroke-width='0.8'><path d='M102.1,47.1 A10,10 0 0 1 85.3,37.4'/><path d='M87.5,111.9 A15,15 0 0 1 95.0,109.9'/><polyline points='95,117.9 102,117.9 102,124.9'/></g><g fill='currentColor' font-size='8'><circle cx='37.0' cy='24.5' r='1.8'/><circle cx='95.0' cy='40.0' r='1.8'/><circle cx='179.9' cy='124.9' r='1.8'/><circle cx='95.0' cy='124.9' r='1.8'/><text x='32.0' y='27.5' text-anchor='end'>A</text><text x='95' y='34' text-anchor='middle'>B</text><text x='184.9' y='127.9'>C</text><text x='95' y='135.9' text-anchor='middle'>N</text><text x='66.0' y='27.2' text-anchor='middle' font-size='7'>1 km</text><text x='143.4' y='80.4' font-size='7'>2 km</text><text x='91' y='62' text-anchor='end' font-size='7'>150°</text><text x='93.5' y='97.9' text-anchor='end' font-size='6.5'>30°</text></g></svg>",
+"a": 1,
+"u": "km",
+"tol": 0,
+"d": [
+[
+"Lei dos senos",
+"Num triângulo inscrito numa circunferência de raio R: lado/sen(ângulo oposto) = 2R.",
+""
+],
+[
+"Ou: ângulo central",
+"O ângulo central vale o dobro do inscrito que enxerga o mesmo arco."
+]
+],
+"h": [
+"No triângulo ABN, o lado AB = 1 km é oposto ao ângulo N = 30°.",
+"2R = AB/sen 30° = 1/(1/2) = 2.",
+"R = <b>1 km</b>."
+]
+},
+{
+"id": "2005-2-mat-06b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 6(b)",
+"r": 2040,
+"tm": 120,
+"ctx": "Os pontos A, B, C e N estão num mesmo plano, como mostra a figura: AB = 1 km, BC = 2 km, o ângulo ABC mede 150°, o ângulo ANB mede 30° e o ângulo BNC é reto. Qual o comprimento do segmento NB, em km?",
+"fig": "<svg viewBox='0 0 210 142' class='fg' role='img' aria-label='quatro pontos A, B, C e N: AB mede 1 quilômetro, BC mede 2 quilômetros e o ângulo ABC mede 150 graus; N fica abaixo de B; o ângulo ANB mede 30 graus e o ângulo BNC é reto; estão traçados os segmentos AB, BC, CN, NA e BN'><g fill='none' stroke='currentColor' stroke-width='1.2'><line x1='37.0' y1='24.5' x2='95.0' y2='40.0'/><line x1='95.0' y1='40.0' x2='179.9' y2='124.9'/><line x1='179.9' y1='124.9' x2='95.0' y2='124.9'/><line x1='95.0' y1='124.9' x2='37.0' y2='24.5'/><line x1='95.0' y1='40.0' x2='95.0' y2='124.9'/></g><g fill='none' stroke='currentColor' stroke-width='0.8'><path d='M102.1,47.1 A10,10 0 0 1 85.3,37.4'/><path d='M87.5,111.9 A15,15 0 0 1 95.0,109.9'/><polyline points='95,117.9 102,117.9 102,124.9'/></g><g fill='currentColor' font-size='8'><circle cx='37.0' cy='24.5' r='1.8'/><circle cx='95.0' cy='40.0' r='1.8'/><circle cx='179.9' cy='124.9' r='1.8'/><circle cx='95.0' cy='124.9' r='1.8'/><text x='32.0' y='27.5' text-anchor='end'>A</text><text x='95' y='34' text-anchor='middle'>B</text><text x='184.9' y='127.9'>C</text><text x='95' y='135.9' text-anchor='middle'>N</text><text x='66.0' y='27.2' text-anchor='middle' font-size='7'>1 km</text><text x='143.4' y='80.4' font-size='7'>2 km</text><text x='91' y='62' text-anchor='end' font-size='7'>150°</text><text x='93.5' y='97.9' text-anchor='end' font-size='6.5'>30°</text></g></svg>",
+"a": 1.414,
+"u": "km",
+"tol": 0.01,
+"d": [
+[
+"Dividir o ângulo",
+"Chame α = ABN e β = NBC; α + β = 150°.",
+""
+],
+[
+"Duas relações",
+"No triângulo retângulo BNC: cos β = NB/BC. No triângulo ABN, lei dos senos: AB/sen 30° = NB/sen(Â), com Â = 180° − 30° − α."
+],
+[
+"Fechar",
+"Mostre que Â = β; daí sai uma equação só em β."
+]
+],
+"h": [
+"No triângulo ABN: Â = 180° − 30° − α = 150° − α = β. Lei dos senos: NB = sen β/sen 30° = 2 sen β.",
+"No triângulo BNC: NB = 2 cos β. Então sen β = cos β ⟹ β = 45°.",
+"NB = 2 cos 45° = <b>√2 ≈ 1,41 km</b>."
+]
+},
+{
+"id": "2005-2-mat-07a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "juros",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 7(a)",
+"r": 1440,
+"tm": 45,
+"ctx": "Um capital de R$ 12.000,00 é aplicado à taxa de 8% ao ano, com juros capitalizados anualmente, sem novas aplicações nem retiradas. Qual o capital acumulado após 2 anos, em reais?",
+"a": 13996.8,
+"u": "R$",
+"tol": 0,
+"d": [
+[
+"Juros compostos",
+"A cada ano, o capital é multiplicado por (1 + taxa): C = C₀·(1,08)ⁿ.",
+""
+]
+],
+"h": [
+"1º ano: 12.000 × 1,08 = 12.960.",
+"2º ano: 12.960 × 1,08.",
+"<b>R$ 13.996,80</b>."
+]
+},
+{
+"id": "2005-2-mat-07b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 7(b)",
+"r": 1740,
+"tm": 75,
+"ctx": "Um capital de R$ 12.000,00 é aplicado à taxa de 8% ao ano, com juros capitalizados anualmente, sem novas aplicações nem retiradas. Qual o número inteiro mínimo de anos para que o capital acumulado seja maior que o dobro do inicial? Use log 2 = 0,301 e log 3 = 0,477.",
+"a": 10,
+"u": "anos",
+"tol": 0,
+"d": [
+[
+"Inequação exponencial",
+"(1,08)ⁿ > 2 ⟹ n·log 1,08 > log 2.",
+""
+],
+[
+"Fatorar",
+"1,08 = 108/100 = 2²·3³/10²; então log 1,08 = 2 log 2 + 3 log 3 − 2."
+]
+],
+"h": [
+"log 1,08 = 0,602 + 1,431 − 2 = 0,033.",
+"n > 0,301/0,033 ≈ 9,12.",
+"Mínimo inteiro: <b>10 anos</b>."
+]
+},
+{
+"id": "2005-2-mat-08a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 8(a)",
+"r": 1530,
+"tm": 45,
+"ctx": "A função y = ax² + bx + c, com a ≠ 0, é chamada função quadrática. Qual a função quadrática cujo gráfico passa por A(0, 2), B(−1, 1) e C(1, 1)?",
+"opts": [
+"y = −x² + 2",
+"y = x² + 2",
+"y = −x² + x + 2",
+"y = −2x² + 2"
+],
+"a": 0,
+"d": [
+[
+"Substituir os pontos",
+"Cada ponto (x, y) do gráfico dá uma equação em a, b e c.",
+""
+]
+],
+"h": [
+"A(0, 2): c = 2.",
+"B e C: a − b + 2 = 1 e a + b + 2 = 1 ⟹ b = 0 e a = −1.",
+"<b>y = −x² + 2</b>."
+]
+},
+{
+"id": "2005-2-mat-08b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 8(b) (adaptada para múltipla escolha; no original, pedia-se a demonstração)",
+"r": 2000,
+"tm": 90,
+"ctx": "A função y = ax² + bx + c, com a ≠ 0, é chamada função quadrática. Dados A(x₀, y₀), B(x₁, y₁) e C(x₂, y₂), com x₀ < x₁ < x₂ e os três pontos não alinhados, por que existe uma única função quadrática cujo gráfico passa por A, B e C?",
+"opts": [
+"O sistema em a, b e c tem determinante de Vandermonde (x₁ − x₀)(x₂ − x₀)(x₂ − x₁) ≠ 0, logo solução única; e a = 0 só ocorreria se os três pontos estivessem numa mesma reta",
+"Três pontos quaisquer sempre determinam uma parábola, estejam ou não alinhados",
+"O sistema em a, b e c tem infinitas soluções, mas só uma delas tem a > 0",
+"A parábola é simétrica em relação ao eixo y, o que fixa b = 0 e deixa só a e c para achar"
+],
+"a": 0,
+"d": [
+[
+"Sistema linear",
+"Substituindo os três pontos em y = ax² + bx + c obtém-se um sistema 3 × 3 nas incógnitas a, b, c. Ele tem solução única se o determinante dos coeficientes é diferente de zero.",
+""
+],
+[
+"Vandermonde",
+"O determinante com linhas (xᵢ², xᵢ, 1) vale ±(x₁ − x₀)(x₂ − x₀)(x₂ − x₁)."
+],
+[
+"Caso a = 0",
+"Se a fosse 0, os três pontos estariam no gráfico de y = bx + c, uma reta."
+]
+],
+"h": [
+"As abscissas são distintas: o determinante de Vandermonde é não nulo e o sistema tem uma única solução (a, b, c).",
+"Se essa solução tivesse a = 0, os pontos estariam na reta y = bx + c, contra a hipótese.",
+"Logo a ≠ 0: existe <b>uma única função quadrática</b> pelos três pontos."
+]
+},
+{
+"id": "2005-2-mat-09a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 9(a)",
+"r": 1870,
+"tm": 75,
+"ctx": "Com as letras x, y, z e w formam-se monômios de grau k, isto é, expressões xᵖy<sup>q</sup>zʳwˢ, com p, q, r e s inteiros não negativos e p + q + r + s = k. Quando um ou mais expoentes são zero, diz-se que o monômio é formado pelas demais letras; por exemplo, y³z⁴ é um monômio de grau 7 formado pelas letras y e z. Quantos monômios de grau 4 podem ser formados com, no máximo, 4 letras?",
+"a": 35,
+"tol": 0,
+"d": [
+[
+"Soluções inteiras",
+"O número de soluções inteiras não negativas de p + q + r + s = k é C(k + 3, 3) (bolinhas e barras: k bolinhas e 3 barras).",
+"Ex.: p + q = 2 tem C(3, 1) = 3 soluções: (0,2), (1,1), (2,0)."
+]
+],
+"h": [
+"Cada monômio corresponde a uma solução de p + q + r + s = 4.",
+"Número de soluções: C(4 + 3, 3) = C(7, 3).",
+"C(7, 3) = <b>35</b>."
+]
+},
+{
+"id": "2005-2-mat-09b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 9(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "Com as letras x, y, z e w formam-se monômios de grau k, isto é, expressões xᵖy<sup>q</sup>zʳwˢ, com p, q, r e s inteiros não negativos e p + q + r + s = k. Quando um ou mais expoentes são zero, diz-se que o monômio é formado pelas demais letras; por exemplo, y³z⁴ é um monômio de grau 7 formado pelas letras y e z. Escolhendo ao acaso um dos monômios de grau 4 (são 35), qual a probabilidade de ele ser formado por exatamente duas das quatro letras?",
+"opts": [
+"18/35",
+"6/35",
+"12/35",
+"4/35"
+],
+"a": 0,
+"d": [
+[
+"Escolher as letras",
+"Primeiro escolha quais 2 letras aparecem: C(4, 2) maneiras.",
+""
+],
+[
+"Expoentes positivos",
+"As duas letras escolhidas precisam ter expoente ≥ 1 e somar 4."
+]
+],
+"h": [
+"Pares de letras: C(4, 2) = 6.",
+"Expoentes positivos com soma 4: (1, 3), (2, 2), (3, 1): 3 opções ⟹ 6 × 3 = 18 monômios.",
+"P = <b>18/35</b>."
+]
+},
+{
+"id": "2005-2-mat-10a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 10(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Um número complexo z = x + iy ≠ 0 pode ser escrito na forma trigonométrica z = |z|(cos θ + i sen θ), com |z| = √(x² + y²), cos θ = x/|z| e sen θ = y/|z|. Para potências inteiras vale a fórmula de De Moivre: [|z|(cos θ + i sen θ)]<sup>k</sup> = |z|<sup>k</sup>(cos kθ + i sen kθ). Quanto vale (√3 + i)¹²?",
+"a": 4096,
+"tol": 0,
+"d": [
+[
+"Forma trigonométrica",
+"Ache |z| e o ângulo θ pelo cosseno e pelo seno.",
+""
+],
+[
+"De Moivre",
+"Eleve o módulo à potência e multiplique o ângulo por ela."
+]
+],
+"h": [
+"|z| = √(3 + 1) = 2; cos θ = √3/2 e sen θ = 1/2 ⟹ θ = π/6.",
+"z¹² = 2¹²(cos 2π + i sen 2π) = 4.096 × (1 + 0i).",
+"(√3 + i)¹² = <b>4.096</b>."
+]
+},
+{
+"id": "2005-2-mat-10b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 10(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "Um número complexo z = x + iy ≠ 0 pode ser escrito na forma trigonométrica z = |z|(cos θ + i sen θ), com |z| = √(x² + y²), cos θ = x/|z| e sen θ = y/|z|. Para potências inteiras vale a fórmula de De Moivre: [|z|(cos θ + i sen θ)]<sup>k</sup> = |z|<sup>k</sup>(cos kθ + i sen kθ). Sendo z = √2/2 + i·√2/2, quanto vale 1 + z + z² + z³ + … + z¹⁵?",
+"a": 0,
+"tol": 0,
+"d": [
+[
+"Soma de PG",
+"1 + z + … + z<sup>n−1</sup> = (zⁿ − 1)/(z − 1), para z ≠ 1.",
+""
+],
+[
+"De Moivre",
+"z tem módulo 1 e ângulo π/4: zⁿ = cos(nπ/4) + i sen(nπ/4)."
+]
+],
+"h": [
+"São 16 termos: S = (z¹⁶ − 1)/(z − 1).",
+"z¹⁶ = cos 4π + i sen 4π = 1.",
+"S = 0/(z − 1) = <b>0</b>."
+]
+},
+{
+"id": "2005-2-mat-11a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 11(a)",
+"r": 1530,
+"tm": 45,
+"ctx": "A figura mostra um prisma reto cujas bases são hexágonos regulares de lado 5 cm; a altura do prisma é 10 cm. Qual o volume do prisma, em cm³?",
+"fig": "<svg viewBox='0 0 180 146' class='fg' role='img' aria-label='prisma reto de bases hexagonais regulares, de lado 5 centímetros e altura 10 centímetros; na base de baixo estão marcados os vértices A e C, separados por um vértice entre eles; acima de A, na base de cima, está o vértice A linha'><g fill='none' stroke='currentColor' stroke-width='1.1'><polygon points='113.2,61.9 90.2,69.2 62.0,65.3 56.8,54.1 79.8,46.8 108.0,50.7' fill='currentColor' fill-opacity='0.18'/><line x1='113.2' y1='121.9' x2='90.2' y2='129.2'/><line x1='90.2' y1='129.2' x2='62.0' y2='125.3'/><line x1='62.0' y1='125.3' x2='56.8' y2='114.1'/><line x1='113.2' y1='61.9' x2='113.2' y2='121.9'/><line x1='90.2' y1='69.2' x2='90.2' y2='129.2'/><line x1='62.0' y1='65.3' x2='62.0' y2='125.3'/><line x1='56.8' y1='54.1' x2='56.8' y2='114.1'/><g stroke-dasharray='3 2' stroke-width='0.8'><line x1='56.8' y1='114.1' x2='79.8' y2='106.8'/><line x1='79.8' y1='106.8' x2='108.0' y2='110.7'/><line x1='108.0' y1='110.7' x2='113.2' y2='121.9'/><line x1='79.8' y1='46.8' x2='79.8' y2='106.8'/><line x1='108.0' y1='50.7' x2='108.0' y2='110.7'/></g></g><g fill='currentColor' font-size='8'><text x='58.0' y='134.3' text-anchor='end'>A</text><text x='117.2' y='129.9'>C</text><text x='65.0' y='75.3'>A′</text><text x='104.7' y='136.6' text-anchor='middle' font-size='7'>5 cm</text><text x='40' y='92' text-anchor='middle' font-size='7' transform='rotate(-90 40 92)'>10 cm</text></g></svg>",
+"a": 649.5,
+"u": "cm³",
+"tol": 0.005,
+"d": [
+[
+"Hexágono regular",
+"Área = 6 triângulos equiláteros de lado a: 6·a²√3/4.",
+""
+],
+[
+"Volume do prisma",
+"V = área da base × altura."
+]
+],
+"h": [
+"Base: 6 × 25√3/4 = 75√3/2 cm².",
+"V = 75√3/2 × 10 = 375√3.",
+"V = <b>375√3 ≈ 649,5 cm³</b>."
+]
+},
+{
+"id": "2005-2-mat-11b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 11(b)",
+"r": 1780,
+"tm": 75,
+"ctx": "A figura mostra um prisma reto cujas bases são hexágonos regulares de lado 5 cm; a altura do prisma é 10 cm. Qual a área da secção do prisma pelo plano que passa por A, C e A′, em cm²?",
+"fig": "<svg viewBox='0 0 180 146' class='fg' role='img' aria-label='prisma reto de bases hexagonais regulares, de lado 5 centímetros e altura 10 centímetros; na base de baixo estão marcados os vértices A e C, separados por um vértice entre eles; acima de A, na base de cima, está o vértice A linha'><g fill='none' stroke='currentColor' stroke-width='1.1'><polygon points='113.2,61.9 90.2,69.2 62.0,65.3 56.8,54.1 79.8,46.8 108.0,50.7' fill='currentColor' fill-opacity='0.18'/><line x1='113.2' y1='121.9' x2='90.2' y2='129.2'/><line x1='90.2' y1='129.2' x2='62.0' y2='125.3'/><line x1='62.0' y1='125.3' x2='56.8' y2='114.1'/><line x1='113.2' y1='61.9' x2='113.2' y2='121.9'/><line x1='90.2' y1='69.2' x2='90.2' y2='129.2'/><line x1='62.0' y1='65.3' x2='62.0' y2='125.3'/><line x1='56.8' y1='54.1' x2='56.8' y2='114.1'/><g stroke-dasharray='3 2' stroke-width='0.8'><line x1='56.8' y1='114.1' x2='79.8' y2='106.8'/><line x1='79.8' y1='106.8' x2='108.0' y2='110.7'/><line x1='108.0' y1='110.7' x2='113.2' y2='121.9'/><line x1='79.8' y1='46.8' x2='79.8' y2='106.8'/><line x1='108.0' y1='50.7' x2='108.0' y2='110.7'/></g></g><g fill='currentColor' font-size='8'><text x='58.0' y='134.3' text-anchor='end'>A</text><text x='117.2' y='129.9'>C</text><text x='65.0' y='75.3'>A′</text><text x='104.7' y='136.6' text-anchor='middle' font-size='7'>5 cm</text><text x='40' y='92' text-anchor='middle' font-size='7' transform='rotate(-90 40 92)'>10 cm</text></g></svg>",
+"a": 86.6,
+"u": "cm²",
+"tol": 0.005,
+"d": [
+[
+"Forma da secção",
+"As bases são paralelas: o plano corta as duas bases em retas paralelas. Como passa por A e A′ (uma aresta lateral), também contém a aresta lateral por C: a secção é o retângulo ACC′A′.",
+""
+],
+[
+"Diagonal menor do hexágono",
+"AC liga vértices separados por um: no triângulo ABC, os lados medem 5 e o ângulo em B é 120°. Use a lei dos cossenos."
+]
+],
+"h": [
+"AC² = 5² + 5² − 2·5·5·cos 120° = 50 + 25 = 75 ⟹ AC = 5√3 cm.",
+"A secção é o retângulo ACC′A′, de lados 5√3 e 10.",
+"Área = <b>50√3 ≈ 86,6 cm²</b>."
+]
+},
+{
+"id": "2005-2-mat-12a",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 12(a)",
+"r": 1960,
+"tm": 90,
+"ctx": "Para resolver equações do tipo x⁴ + ax³ + bx² + ax + 1 = 0, como x = 0 não é raiz, divide-se a equação por x² e faz-se a mudança de variável u = x + 1/x, resolvendo a equação obtida em u. Observe que, se x é real e x > 0, então u ≥ 2. Quais as 4 raízes da equação x⁴ − 3x³ + 4x² − 3x + 1 = 0?",
+"opts": [
+"x = 1 (raiz dupla) e x = (1 ± i√3)/2",
+"x = 1, x = 2 e x = (1 ± i√3)/2",
+"x = 1 (raiz dupla) e x = (−1 ± i√3)/2",
+"x = −1 (raiz dupla) e x = (1 ± i√3)/2"
+],
+"a": 0,
+"d": [
+[
+"A substituição",
+"Dividindo por x²: x² + 1/x² − 3(x + 1/x) + 4 = 0. Use x² + 1/x² = u² − 2.",
+""
+],
+[
+"Voltar a x",
+"Para cada u, resolva x + 1/x = u, isto é, x² − ux + 1 = 0."
+]
+],
+"h": [
+"u² − 2 − 3u + 4 = 0 ⟹ u² − 3u + 2 = 0 ⟹ u = 1 ou u = 2.",
+"u = 2: x² − 2x + 1 = 0 ⟹ x = 1 (dupla). u = 1: x² − x + 1 = 0 ⟹ x = (1 ± i√3)/2.",
+"Raízes: <b>1 (dupla) e (1 ± i√3)/2</b>."
+]
+},
+{
+"id": "2005-2-mat-12b",
+"ano": 2005,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2005, 2ª fase, Matemática, questão 12(b)",
+"r": 2250,
+"tm": 120,
+"ctx": "Para resolver equações do tipo x⁴ + ax³ + bx² + ax + 1 = 0, como x = 0 não é raiz, divide-se a equação por x² e faz-se a mudança de variável u = x + 1/x, resolvendo a equação obtida em u. Observe que, se x é real e x > 0, então u ≥ 2. Para quais valores reais de b a equação x⁴ − 3x³ + bx² − 3x + 1 = 0 tem pelo menos uma raiz real positiva?",
+"opts": [
+"b ≤ 4",
+"b ≤ 17/4",
+"b ≥ 4",
+"b ≤ 2"
+],
+"a": 0,
+"d": [
+[
+"A substituição",
+"Com u = x + 1/x e x² + 1/x² = u² − 2, a equação vira u² − 3u + (b − 2) = 0.",
+""
+],
+[
+"Condição para x real positivo",
+"x > 0 real dá u ≥ 2 (e todo u ≥ 2 vem de algum x > 0). Então a equação em u precisa ter uma raiz real u ≥ 2."
+]
+],
+"h": [
+"u² − 3u + b − 2 = 0 tem raízes reais se Δ = 17 − 4b ≥ 0, e a maior é u = (3 + √(17 − 4b))/2.",
+"Exigir u ≥ 2: √(17 − 4b) ≥ 1 ⟹ 17 − 4b ≥ 1.",
+"<b>b ≤ 4</b>."
+]
+},
+{
+"id": "2005-2-fis-01a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2005, 2ª fase, Física, questão 1(a)",
+"r": 1280,
+"tm": 30,
+"ctx": "O salto duplo twist carpado de Daiane dos Santos foi analisado com sensores e filmagens, que reproduziram a trajetória vertical do centro de gravidade da atleta e o tempo do salto, mostrados no gráfico. Use g = 10 m/s². Qual a altura máxima atingida pelo centro de gravidade de Daiane, em metros?",
+"fig": "<svg viewBox='0 0 222 142' class='fg' role='img' aria-label='gráfico do deslocamento vertical do centro de gravidade, em metros, de 0 a 2, em função do tempo, de 0 a 1,1 segundo: uma parábola que sai de 0, sobe até cerca de 1,55 metro em 0,55 segundo e volta a 0 em 1,1 segundo'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='51.5' y1='20' x2='51.5' y2='112'/><line x1='67.0' y1='20' x2='67.0' y2='112'/><line x1='82.5' y1='20' x2='82.5' y2='112'/><line x1='98.0' y1='20' x2='98.0' y2='112'/><line x1='113.5' y1='20' x2='113.5' y2='112'/><line x1='129.0' y1='20' x2='129.0' y2='112'/><line x1='144.5' y1='20' x2='144.5' y2='112'/><line x1='160.0' y1='20' x2='160.0' y2='112'/><line x1='175.5' y1='20' x2='175.5' y2='112'/><line x1='191.0' y1='20' x2='191.0' y2='112'/><line x1='206.5' y1='20' x2='206.5' y2='112'/><line x1='36' y1='102.8' x2='206.5' y2='102.8'/><line x1='36' y1='93.6' x2='206.5' y2='93.6'/><line x1='36' y1='84.4' x2='206.5' y2='84.4'/><line x1='36' y1='75.2' x2='206.5' y2='75.2'/><line x1='36' y1='66.0' x2='206.5' y2='66.0'/><line x1='36' y1='56.8' x2='206.5' y2='56.8'/><line x1='36' y1='47.6' x2='206.5' y2='47.6'/><line x1='36' y1='38.4' x2='206.5' y2='38.4'/><line x1='36' y1='29.2' x2='206.5' y2='29.2'/><line x1='36' y1='20.0' x2='206.5' y2='20.0'/></g><line x1='36' y1='112' x2='210.5' y2='112' stroke-width='1'/><line x1='36' y1='112' x2='36' y2='14' stroke-width='1'/><path d='M36.0,112.0 C37.3,109.9 41.2,103.6 43.8,99.6 C46.3,95.7 48.9,92.0 51.5,88.4 C54.1,84.9 56.7,81.6 59.2,78.4 C61.8,75.3 64.4,72.3 67.0,69.6 C69.6,66.8 72.2,64.3 74.8,61.9 C77.3,59.6 79.9,57.4 82.5,55.4 C85.1,53.5 87.7,51.7 90.2,50.1 C92.8,48.6 95.4,47.2 98.0,46.0 C100.6,44.8 103.2,43.8 105.8,43.1 C108.3,42.3 110.9,41.7 113.5,41.3 C116.1,40.9 118.7,40.7 121.2,40.7 C123.8,40.7 126.4,40.9 129.0,41.3 C131.6,41.7 134.2,42.3 136.8,43.1 C139.3,43.8 141.9,44.8 144.5,46.0 C147.1,47.2 149.7,48.6 152.2,50.1 C154.8,51.7 157.4,53.5 160.0,55.4 C162.6,57.4 165.2,59.6 167.8,61.9 C170.3,64.3 172.9,66.8 175.5,69.6 C178.1,72.3 180.7,75.3 183.2,78.4 C185.8,81.6 188.4,84.9 191.0,88.4 C193.6,92.0 196.2,95.7 198.8,99.6 C201.3,103.6 205.2,109.9 206.5,112.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='6.5'><text x='36.0' y='120' text-anchor='middle'>0</text><text x='51.5' y='120' text-anchor='middle'>0,1</text><text x='67.0' y='120' text-anchor='middle'>0,2</text><text x='82.5' y='120' text-anchor='middle'>0,3</text><text x='98.0' y='120' text-anchor='middle'>0,4</text><text x='113.5' y='120' text-anchor='middle'>0,5</text><text x='129.0' y='120' text-anchor='middle'>0,6</text><text x='144.5' y='120' text-anchor='middle'>0,7</text><text x='160.0' y='120' text-anchor='middle'>0,8</text><text x='175.5' y='120' text-anchor='middle'>0,9</text><text x='191.0' y='120' text-anchor='middle'>1</text><text x='206.5' y='120' text-anchor='middle'>1,1</text><text x='32' y='114.3' text-anchor='end'>0</text><text x='32' y='95.9' text-anchor='end'>0,4</text><text x='32' y='77.5' text-anchor='end'>0,8</text><text x='32' y='59.1' text-anchor='end'>1,2</text><text x='32' y='40.7' text-anchor='end'>1,6</text><text x='32' y='22.3' text-anchor='end'>2</text><text x='124' y='134' text-anchor='middle' font-size='8'>tempo (s)</text><text x='9' y='66' text-anchor='middle' font-size='8' transform='rotate(-90 9 66)'>deslocamento vertical (m)</text></g></svg>",
+"a": 1.55,
+"u": "m",
+"tol": 0.04,
+"d": [
+[
+"Ler o gráfico",
+"A altura máxima é o ponto mais alto da curva; leia o valor no eixo vertical.",
+""
+]
+],
+"h": [
+"O topo da parábola fica no meio do salto, em t ≈ 0,55 s.",
+"Ali o deslocamento vertical vale cerca de 1,55 m.",
+"Altura máxima ≈ <b>1,55 m</b>."
+]
+},
+{
+"id": "2005-2-fis-01b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2005, 2ª fase, Física, questão 1(b)",
+"r": 1400,
+"tm": 30,
+"ctx": "O salto duplo twist carpado de Daiane dos Santos foi analisado com sensores e filmagens, que reproduziram a trajetória vertical do centro de gravidade da atleta e o tempo do salto, mostrados no gráfico. Use g = 10 m/s². Qual a velocidade média horizontal do salto, sabendo que a distância percorrida na horizontal é de 1,3 m, em m/s?",
+"fig": "<svg viewBox='0 0 222 142' class='fg' role='img' aria-label='gráfico do deslocamento vertical do centro de gravidade, em metros, de 0 a 2, em função do tempo, de 0 a 1,1 segundo: uma parábola que sai de 0, sobe até cerca de 1,55 metro em 0,55 segundo e volta a 0 em 1,1 segundo'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='51.5' y1='20' x2='51.5' y2='112'/><line x1='67.0' y1='20' x2='67.0' y2='112'/><line x1='82.5' y1='20' x2='82.5' y2='112'/><line x1='98.0' y1='20' x2='98.0' y2='112'/><line x1='113.5' y1='20' x2='113.5' y2='112'/><line x1='129.0' y1='20' x2='129.0' y2='112'/><line x1='144.5' y1='20' x2='144.5' y2='112'/><line x1='160.0' y1='20' x2='160.0' y2='112'/><line x1='175.5' y1='20' x2='175.5' y2='112'/><line x1='191.0' y1='20' x2='191.0' y2='112'/><line x1='206.5' y1='20' x2='206.5' y2='112'/><line x1='36' y1='102.8' x2='206.5' y2='102.8'/><line x1='36' y1='93.6' x2='206.5' y2='93.6'/><line x1='36' y1='84.4' x2='206.5' y2='84.4'/><line x1='36' y1='75.2' x2='206.5' y2='75.2'/><line x1='36' y1='66.0' x2='206.5' y2='66.0'/><line x1='36' y1='56.8' x2='206.5' y2='56.8'/><line x1='36' y1='47.6' x2='206.5' y2='47.6'/><line x1='36' y1='38.4' x2='206.5' y2='38.4'/><line x1='36' y1='29.2' x2='206.5' y2='29.2'/><line x1='36' y1='20.0' x2='206.5' y2='20.0'/></g><line x1='36' y1='112' x2='210.5' y2='112' stroke-width='1'/><line x1='36' y1='112' x2='36' y2='14' stroke-width='1'/><path d='M36.0,112.0 C37.3,109.9 41.2,103.6 43.8,99.6 C46.3,95.7 48.9,92.0 51.5,88.4 C54.1,84.9 56.7,81.6 59.2,78.4 C61.8,75.3 64.4,72.3 67.0,69.6 C69.6,66.8 72.2,64.3 74.8,61.9 C77.3,59.6 79.9,57.4 82.5,55.4 C85.1,53.5 87.7,51.7 90.2,50.1 C92.8,48.6 95.4,47.2 98.0,46.0 C100.6,44.8 103.2,43.8 105.8,43.1 C108.3,42.3 110.9,41.7 113.5,41.3 C116.1,40.9 118.7,40.7 121.2,40.7 C123.8,40.7 126.4,40.9 129.0,41.3 C131.6,41.7 134.2,42.3 136.8,43.1 C139.3,43.8 141.9,44.8 144.5,46.0 C147.1,47.2 149.7,48.6 152.2,50.1 C154.8,51.7 157.4,53.5 160.0,55.4 C162.6,57.4 165.2,59.6 167.8,61.9 C170.3,64.3 172.9,66.8 175.5,69.6 C178.1,72.3 180.7,75.3 183.2,78.4 C185.8,81.6 188.4,84.9 191.0,88.4 C193.6,92.0 196.2,95.7 198.8,99.6 C201.3,103.6 205.2,109.9 206.5,112.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='6.5'><text x='36.0' y='120' text-anchor='middle'>0</text><text x='51.5' y='120' text-anchor='middle'>0,1</text><text x='67.0' y='120' text-anchor='middle'>0,2</text><text x='82.5' y='120' text-anchor='middle'>0,3</text><text x='98.0' y='120' text-anchor='middle'>0,4</text><text x='113.5' y='120' text-anchor='middle'>0,5</text><text x='129.0' y='120' text-anchor='middle'>0,6</text><text x='144.5' y='120' text-anchor='middle'>0,7</text><text x='160.0' y='120' text-anchor='middle'>0,8</text><text x='175.5' y='120' text-anchor='middle'>0,9</text><text x='191.0' y='120' text-anchor='middle'>1</text><text x='206.5' y='120' text-anchor='middle'>1,1</text><text x='32' y='114.3' text-anchor='end'>0</text><text x='32' y='95.9' text-anchor='end'>0,4</text><text x='32' y='77.5' text-anchor='end'>0,8</text><text x='32' y='59.1' text-anchor='end'>1,2</text><text x='32' y='40.7' text-anchor='end'>1,6</text><text x='32' y='22.3' text-anchor='end'>2</text><text x='124' y='134' text-anchor='middle' font-size='8'>tempo (s)</text><text x='9' y='66' text-anchor='middle' font-size='8' transform='rotate(-90 9 66)'>deslocamento vertical (m)</text></g></svg>",
+"a": 1.2,
+"u": "m/s",
+"tol": 0.03,
+"d": [
+[
+"Ler o gráfico",
+"O salto dura do instante em que a curva sai de zero até quando volta a zero.",
+""
+],
+[
+"Velocidade média",
+"v = Δx/Δt."
+]
+],
+"h": [
+"Pelo gráfico, o salto dura 1,1 s.",
+"v = 1,3/1,1.",
+"v ≈ <b>1,2 m/s</b>."
+]
+},
+{
+"id": "2005-2-fis-01c",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2005, 2ª fase, Física, questão 1(c)",
+"r": 1570,
+"tm": 45,
+"ctx": "O salto duplo twist carpado de Daiane dos Santos foi analisado com sensores e filmagens, que reproduziram a trajetória vertical do centro de gravidade da atleta e o tempo do salto, mostrados no gráfico. Use g = 10 m/s². Qual a velocidade vertical de saída do solo, em m/s?",
+"fig": "<svg viewBox='0 0 222 142' class='fg' role='img' aria-label='gráfico do deslocamento vertical do centro de gravidade, em metros, de 0 a 2, em função do tempo, de 0 a 1,1 segundo: uma parábola que sai de 0, sobe até cerca de 1,55 metro em 0,55 segundo e volta a 0 em 1,1 segundo'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='51.5' y1='20' x2='51.5' y2='112'/><line x1='67.0' y1='20' x2='67.0' y2='112'/><line x1='82.5' y1='20' x2='82.5' y2='112'/><line x1='98.0' y1='20' x2='98.0' y2='112'/><line x1='113.5' y1='20' x2='113.5' y2='112'/><line x1='129.0' y1='20' x2='129.0' y2='112'/><line x1='144.5' y1='20' x2='144.5' y2='112'/><line x1='160.0' y1='20' x2='160.0' y2='112'/><line x1='175.5' y1='20' x2='175.5' y2='112'/><line x1='191.0' y1='20' x2='191.0' y2='112'/><line x1='206.5' y1='20' x2='206.5' y2='112'/><line x1='36' y1='102.8' x2='206.5' y2='102.8'/><line x1='36' y1='93.6' x2='206.5' y2='93.6'/><line x1='36' y1='84.4' x2='206.5' y2='84.4'/><line x1='36' y1='75.2' x2='206.5' y2='75.2'/><line x1='36' y1='66.0' x2='206.5' y2='66.0'/><line x1='36' y1='56.8' x2='206.5' y2='56.8'/><line x1='36' y1='47.6' x2='206.5' y2='47.6'/><line x1='36' y1='38.4' x2='206.5' y2='38.4'/><line x1='36' y1='29.2' x2='206.5' y2='29.2'/><line x1='36' y1='20.0' x2='206.5' y2='20.0'/></g><line x1='36' y1='112' x2='210.5' y2='112' stroke-width='1'/><line x1='36' y1='112' x2='36' y2='14' stroke-width='1'/><path d='M36.0,112.0 C37.3,109.9 41.2,103.6 43.8,99.6 C46.3,95.7 48.9,92.0 51.5,88.4 C54.1,84.9 56.7,81.6 59.2,78.4 C61.8,75.3 64.4,72.3 67.0,69.6 C69.6,66.8 72.2,64.3 74.8,61.9 C77.3,59.6 79.9,57.4 82.5,55.4 C85.1,53.5 87.7,51.7 90.2,50.1 C92.8,48.6 95.4,47.2 98.0,46.0 C100.6,44.8 103.2,43.8 105.8,43.1 C108.3,42.3 110.9,41.7 113.5,41.3 C116.1,40.9 118.7,40.7 121.2,40.7 C123.8,40.7 126.4,40.9 129.0,41.3 C131.6,41.7 134.2,42.3 136.8,43.1 C139.3,43.8 141.9,44.8 144.5,46.0 C147.1,47.2 149.7,48.6 152.2,50.1 C154.8,51.7 157.4,53.5 160.0,55.4 C162.6,57.4 165.2,59.6 167.8,61.9 C170.3,64.3 172.9,66.8 175.5,69.6 C178.1,72.3 180.7,75.3 183.2,78.4 C185.8,81.6 188.4,84.9 191.0,88.4 C193.6,92.0 196.2,95.7 198.8,99.6 C201.3,103.6 205.2,109.9 206.5,112.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='6.5'><text x='36.0' y='120' text-anchor='middle'>0</text><text x='51.5' y='120' text-anchor='middle'>0,1</text><text x='67.0' y='120' text-anchor='middle'>0,2</text><text x='82.5' y='120' text-anchor='middle'>0,3</text><text x='98.0' y='120' text-anchor='middle'>0,4</text><text x='113.5' y='120' text-anchor='middle'>0,5</text><text x='129.0' y='120' text-anchor='middle'>0,6</text><text x='144.5' y='120' text-anchor='middle'>0,7</text><text x='160.0' y='120' text-anchor='middle'>0,8</text><text x='175.5' y='120' text-anchor='middle'>0,9</text><text x='191.0' y='120' text-anchor='middle'>1</text><text x='206.5' y='120' text-anchor='middle'>1,1</text><text x='32' y='114.3' text-anchor='end'>0</text><text x='32' y='95.9' text-anchor='end'>0,4</text><text x='32' y='77.5' text-anchor='end'>0,8</text><text x='32' y='59.1' text-anchor='end'>1,2</text><text x='32' y='40.7' text-anchor='end'>1,6</text><text x='32' y='22.3' text-anchor='end'>2</text><text x='124' y='134' text-anchor='middle' font-size='8'>tempo (s)</text><text x='9' y='66' text-anchor='middle' font-size='8' transform='rotate(-90 9 66)'>deslocamento vertical (m)</text></g></svg>",
+"a": 5.5,
+"u": "m/s",
+"tol": 0.03,
+"d": [
+[
+"Simetria do voo",
+"Sem resistência do ar, o tempo de subida é metade do tempo total no ar.",
+""
+],
+[
+"Subida",
+"No topo a velocidade vertical é zero: 0 = v₀ − g·t<sub>s</sub>."
+]
+],
+"h": [
+"Tempo total 1,1 s ⟹ subida t<sub>s</sub> = 0,55 s.",
+"v₀ = g·t<sub>s</sub> = 10 × 0,55.",
+"v₀ = <b>5,5 m/s</b>."
+]
+},
+{
+"id": "2005-2-fis-02a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2005, 2ª fase, Física, questão 2(a)",
+"r": 1660,
+"tm": 75,
+"ctx": "No episódio II do filme Guerra nas Estrelas, um personagem cai em queda livre sobre uma nave que se deslocava horizontalmente a 100 m/s com os motores desligados. Ele chega à nave com velocidade de 6 m/s na vertical. A massa da nave é 650 kg, a do personagem resgatado 80 kg e a do piloto 70 kg. Quais as componentes horizontal e vertical da velocidade da nave imediatamente após o resgate?",
+"opts": [
+"Horizontal 90 m/s; vertical 0,6 m/s",
+"Horizontal 100 m/s; vertical 6 m/s",
+"Horizontal 89 m/s; vertical 0,7 m/s",
+"Horizontal 90 m/s; vertical 0"
+],
+"a": 0,
+"d": [
+[
+"Conservação da quantidade de movimento",
+"Na colisão, Q se conserva em cada direção separadamente: horizontal e vertical.",
+""
+],
+[
+"Massas",
+"Antes: nave + piloto (720 kg) a 100 m/s na horizontal, e personagem (80 kg) a 6 m/s na vertical. Depois, os 800 kg juntos."
+]
+],
+"h": [
+"Horizontal: 720 × 100 = 800·V<sub>h</sub> ⟹ V<sub>h</sub> = 90 m/s.",
+"Vertical: 80 × 6 = 800·V<sub>v</sub> ⟹ V<sub>v</sub> = 0,6 m/s.",
+"<b>90 m/s na horizontal e 0,6 m/s na vertical</b>."
+]
+},
+{
+"id": "2005-2-fis-02b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2005, 2ª fase, Física, questão 2(b)",
+"r": 1830,
+"tm": 75,
+"ctx": "No episódio II do filme Guerra nas Estrelas, um personagem cai em queda livre sobre uma nave que se deslocava horizontalmente a 100 m/s com os motores desligados. Ele chega à nave com velocidade de 6 m/s na vertical. A massa da nave é 650 kg, a do personagem resgatado 80 kg e a do piloto 70 kg. Qual a variação da energia cinética total nesse resgate, em joules? (Logo após o resgate, o conjunto se move a 90 m/s na horizontal e 0,6 m/s na vertical.)",
+"a": -360000.0,
+"u": "J",
+"tol": 0.02,
+"d": [
+[
+"Energia cinética",
+"E<sub>c</sub> = m·v²/2, com v² = v<sub>x</sub>² + v<sub>y</sub>².",
+""
+],
+[
+"Variação",
+"ΔE = E<sub>final</sub> − E<sub>inicial</sub>; numa colisão inelástica ela é negativa."
+]
+],
+"h": [
+"Antes: 720 × 100²/2 + 80 × 6²/2 = 3.600.000 + 1.440 ≈ 3,60·10⁶ J.",
+"Depois: 800 × (90² + 0,6²)/2 ≈ 3,24·10⁶ J.",
+"ΔE ≈ <b>−3,6·10⁵ J</b> (perda de 360 kJ)."
+]
+},
+{
+"id": "2005-2-fis-03a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2005, 2ª fase, Física, questão 3(a)",
+"r": 1620,
+"tm": 45,
+"ctx": "O alicate é uma alavanca: amplifica a força aplicada nos cabos (F<sub>a</sub>, a uma distância d<sub>a</sub> = 10 cm do eixo de rotação) para cortar um material na região de corte (F<sub>c</sub>). Um arame de aço tem resistência ao corte de 1,3·10⁹ N/m²: essa é a pressão mínima que uma lâmina deve exercer para cortá-lo. Se a área de contato entre o arame e a lâmina for 0,1 mm², qual a força F<sub>c</sub> necessária para iniciar o corte, em newtons?",
+"a": 130,
+"u": "N",
+"tol": 0,
+"d": [
+[
+"Pressão",
+"p = F/A ⟹ F = p·A.",
+""
+],
+[
+"Área",
+"1 mm² = (10⁻³ m)² = 10⁻⁶ m²."
+]
+],
+"h": [
+"A = 0,1 mm² = 1,0·10⁻⁷ m².",
+"F<sub>c</sub> = 1,3·10⁹ × 1,0·10⁻⁷.",
+"F<sub>c</sub> = <b>130 N</b>."
+]
+},
+{
+"id": "2005-2-fis-03b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 2005, 2ª fase, Física, questão 3(b)",
+"r": 1490,
+"tm": 45,
+"ctx": "O alicate é uma alavanca: amplifica a força aplicada nos cabos (F<sub>a</sub>, a uma distância d<sub>a</sub> = 10 cm do eixo de rotação) para cortar um material na região de corte (F<sub>c</sub>). Para cortar o arame é preciso F<sub>c</sub> = 130 N. Se ele estiver na região de corte a d<sub>c</sub> = 2 cm do eixo, que força F<sub>a</sub> deve ser aplicada nos cabos, em newtons?",
+"a": 26,
+"u": "N",
+"tol": 0,
+"d": [
+[
+"Equilíbrio de momentos",
+"Na alavanca, os momentos (torques) em relação ao eixo se igualam: F<sub>a</sub>·d<sub>a</sub> = F<sub>c</sub>·d<sub>c</sub>.",
+""
+]
+],
+"h": [
+"F<sub>a</sub> × 10 = 130 × 2.",
+"F<sub>a</sub> = 260/10.",
+"F<sub>a</sub> = <b>26 N</b>."
+]
+},
+{
+"id": "2005-2-fis-04a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2005, 2ª fase, Física, questão 4(a)",
+"r": 1530,
+"tm": 45,
+"ctx": "Num arco e flecha, a energia potencial elástica do arco vira energia cinética da flecha no lançamento. A força da corda sobre a flecha é proporcional ao deslocamento x da corda. Quando a corda é solta, o deslocamento é x = 0,6 m e a força é 300 N. Qual a energia potencial elástica nesse instante, em joules?",
+"a": 90,
+"u": "J",
+"tol": 0,
+"d": [
+[
+"Lei de Hooke",
+"F = k·x ⟹ k = F/x.",
+""
+],
+[
+"Energia elástica",
+"E = k·x²/2 (é a área sob o gráfico F × x)."
+]
+],
+"h": [
+"k = 300/0,6 = 500 N/m.",
+"E = 500 × 0,6²/2.",
+"E = <b>90 J</b>."
+]
+},
+{
+"id": "2005-2-fis-04b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2005, 2ª fase, Física, questão 4(b)",
+"r": 1490,
+"tm": 45,
+"ctx": "Num arco e flecha, a energia potencial elástica do arco vira energia cinética da flecha no lançamento. A força da corda sobre a flecha é proporcional ao deslocamento x da corda. A energia elástica armazenada é 90 J. Qual a velocidade da flecha, de 50 g, ao abandonar a corda? Despreze a resistência do ar e a massa da corda. Responda em m/s.",
+"a": 60,
+"u": "m/s",
+"tol": 0,
+"d": [
+[
+"Conservação da energia",
+"Toda a energia elástica vira cinética: m·v²/2 = E.",
+""
+]
+],
+"h": [
+"m = 0,05 kg.",
+"v² = 2 × 90/0,05 = 3.600.",
+"v = <b>60 m/s</b>."
+]
+},
+{
+"id": "2005-2-fis-05a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2005, 2ª fase, Física, questão 5(a)",
+"r": 1570,
+"tm": 45,
+"ctx": "Em 1885, Michaux lançou o biciclo, cuja roda dianteira era acionada diretamente pelos pedais (uma volta do pedal = uma volta da roda). Depois, com a corrente e as rodas dentadas, chegou-se à bicicleta padrão aro 60: os pedais giram uma coroa de 25 cm de diâmetro, ligada pela corrente a uma catraca de 10 cm de diâmetro presa à roda traseira, de 60 cm de diâmetro. O ciclista pedala 40 voltas por minuto nas duas bicicletas. Use π = 3. Qual a velocidade do biciclo de Michaux, com roda de 1,20 m de diâmetro, em m/s?",
+"a": 2.4,
+"u": "m/s",
+"tol": 0,
+"d": [
+[
+"Uma volta",
+"Em uma volta, a roda avança o seu perímetro: 2πR.",
+""
+],
+[
+"Velocidade",
+"v = distância percorrida ÷ tempo."
+]
+],
+"h": [
+"Em 1 minuto: 40 voltas × 2 × 3 × 0,60 m = 144 m.",
+"v = 144 m/60 s.",
+"v = <b>2,4 m/s</b>."
+]
+},
+{
+"id": "2005-2-fis-05b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2005, 2ª fase, Física, questão 5(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "Em 1885, Michaux lançou o biciclo, cuja roda dianteira era acionada diretamente pelos pedais (uma volta do pedal = uma volta da roda). Depois, com a corrente e as rodas dentadas, chegou-se à bicicleta padrão aro 60: os pedais giram uma coroa de 25 cm de diâmetro, ligada pela corrente a uma catraca de 10 cm de diâmetro presa à roda traseira, de 60 cm de diâmetro. O ciclista pedala 40 voltas por minuto nas duas bicicletas. Use π = 3. Qual a velocidade da bicicleta padrão aro 60, em m/s?",
+"a": 3.0,
+"u": "m/s",
+"tol": 0,
+"d": [
+[
+"Transmissão por corrente",
+"A corrente tem a mesma velocidade nas bordas da coroa e da catraca: ω<sub>coroa</sub>·R<sub>coroa</sub> = ω<sub>catraca</sub>·R<sub>catraca</sub>. A catraca menor gira mais.",
+""
+],
+[
+"Roda e catraca",
+"A catraca e a roda traseira giram juntas (mesma frequência)."
+]
+],
+"h": [
+"Cada volta do pedal dá 25/10 = 2,5 voltas da catraca e da roda: 40 × 2,5 = 100 voltas por minuto.",
+"Em 1 minuto: 100 × 2 × 3 × 0,30 = 180 m.",
+"v = 180/60 = <b>3,0 m/s</b>."
+]
+},
+{
+"id": "2005-2-fis-06a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2005, 2ª fase, Física, questão 6(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Numa antena de rádio, cargas elétricas oscilam sob a ação de ondas eletromagnéticas. Imagine que as oscilações tivessem origem mecânica: cargas fixas numa massa presa a uma mola. Essa \"antena-mola\" teria amplitude de 1 mm e massa de 1 g, num rádio portátil, para um sinal AM de 1.000 kHz. A frequência de oscilação é f = (1/2π)·√(k/m). Use π = 3. Qual seria a constante da mola? Responda em unidades de 10¹⁰ N/m.",
+"a": 3.6,
+"u": "10¹⁰ N/m",
+"tol": 0.02,
+"d": [
+[
+"Isolar k",
+"f = (1/2π)√(k/m) ⟹ k = m·(2πf)².",
+""
+],
+[
+"Unidades",
+"m em kg (1 g = 10⁻³ kg) e f em Hz (1 kHz = 10³ Hz)."
+]
+],
+"h": [
+"m = 10⁻³ kg; f = 10⁶ Hz.",
+"k = 10⁻³ × (2 × 3 × 10⁶)² = 10⁻³ × 3,6·10¹³.",
+"k = 3,6·10¹⁰ N/m: <b>3,6</b>."
+]
+},
+{
+"id": "2005-2-fis-06b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2005, 2ª fase, Física, questão 6(b)",
+"r": 1620,
+"tm": 30,
+"ctx": "Numa antena de rádio, cargas elétricas oscilam sob a ação de ondas eletromagnéticas. Imagine que as oscilações tivessem origem mecânica: cargas fixas numa massa presa a uma mola. Essa \"antena-mola\" teria amplitude de 1 mm e massa de 1 g, num rádio portátil, para um sinal AM de 1.000 kHz. A frequência de oscilação é f = (1/2π)·√(k/m). Use π = 3. A constante da mola seria k = 3,6·10¹⁰ N/m. Qual seria a força mecânica necessária para deslocar a mola de 1 mm? Responda em unidades de 10⁷ N.",
+"a": 3.6,
+"u": "10⁷ N",
+"tol": 0.02,
+"d": [
+[
+"Lei de Hooke",
+"F = k·x, com x em metros.",
+""
+]
+],
+"h": [
+"x = 1 mm = 10⁻³ m.",
+"F = 3,6·10¹⁰ × 10⁻³.",
+"F = 3,6·10⁷ N: <b>3,6</b> (o peso de uns 3.600 caminhões!)."
+]
+},
+{
+"id": "2005-2-fis-07a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2005, 2ª fase, Física, questão 7(a)",
+"r": 1530,
+"tm": 45,
+"ctx": "Durante uma tempestade de 20 minutos, caíram 10 mm de chuva sobre uma região de 100 km². A densidade da água é 1,0 g/cm³. Qual a massa de água que caiu? Responda em unidades de 10⁹ kg.",
+"a": 1,
+"u": "10⁹ kg",
+"tol": 0,
+"d": [
+[
+"Volume de chuva",
+"\"10 mm de chuva\" é uma lâmina de água de 10 mm de altura sobre toda a área: V = A·h.",
+""
+],
+[
+"Unidades",
+"1 km² = 10⁶ m²; 1 g/cm³ = 1.000 kg/m³."
+]
+],
+"h": [
+"A = 10⁸ m²; h = 10⁻² m ⟹ V = 10⁶ m³.",
+"m = 1.000 × 10⁶.",
+"m = 10⁹ kg: <b>1</b>."
+]
+},
+{
+"id": "2005-2-fis-07b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 2005, 2ª fase, Física, questão 7(b)",
+"r": 1830,
+"tm": 75,
+"ctx": "Durante uma tempestade de 20 minutos, caíram 10 mm de chuva sobre uma região de 100 km². A densidade da água é 1,0 g/cm³. Estime o volume de uma gota supondo-a uma esfera de raio 2 mm (use π = 3). Qual o número médio de gotas que caem em 1 m² a cada segundo?",
+"a": 260,
+"u": "gotas/(m²·s)",
+"tol": 0.06,
+"d": [
+[
+"Volume da esfera",
+"V = (4/3)πR³, com R em metros.",
+""
+],
+[
+"Fluxo",
+"Número de gotas = massa total ÷ massa de uma gota. Gotas por m² por segundo = total ÷ (área × tempo)."
+]
+],
+"h": [
+"Gota: V = 4 × (2·10⁻³)³ = 3,2·10⁻⁸ m³ ⟹ m = 3,2·10⁻⁵ kg.",
+"Total: 10⁹ kg ÷ 3,2·10⁻⁵ kg ≈ 3·10¹³ gotas.",
+"Por m² e por s: 3·10¹³ ÷ (10⁸ m² × 1.200 s) ≈ <b>250 gotas</b>."
+]
+},
+{
+"id": "2005-2-fis-08a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2005, 2ª fase, Física, questão 8(a)",
+"r": 1530,
+"tm": 45,
+"ctx": "Uma sala tem 6 m de largura, 10 m de comprimento e 4 m de altura, e deseja-se refrigerar o ar dentro dela. Considere o calor específico molar do ar 30 J/(mol·K) e R = 8 J/(mol·K). Considerando o ar como gás ideal à pressão ambiente (10⁵ N/m²), quantos mols de gás há na sala a 27 °C?",
+"a": 10000,
+"u": "mol",
+"tol": 0,
+"d": [
+[
+"Gás ideal",
+"PV = nRT ⟹ n = PV/(RT), com T em kelvin.",
+""
+]
+],
+"h": [
+"V = 6 × 10 × 4 = 240 m³; T = 300 K.",
+"n = 10⁵ × 240/(8 × 300).",
+"n = <b>10⁴ mol</b>."
+]
+},
+{
+"id": "2005-2-fis-08b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2005, 2ª fase, Física, questão 8(b)",
+"r": 1660,
+"tm": 45,
+"ctx": "Uma sala tem 6 m de largura, 10 m de comprimento e 4 m de altura, e deseja-se refrigerar o ar dentro dela. Considere o calor específico molar do ar 30 J/(mol·K) e R = 8 J/(mol·K). Há 10⁴ mol de ar na sala. Que quantidade de calor o refrigerador deve retirar desse ar para resfriá-lo de 27 °C a 17 °C? Responda em unidades de 10⁶ J.",
+"a": 3,
+"u": "10⁶ J",
+"tol": 0,
+"d": [
+[
+"Calor sensível com calor molar",
+"Q = n·c·ΔT, com c em J/(mol·K) e n em mols.",
+""
+],
+[
+"Variação de temperatura",
+"Uma variação de 1 °C é igual a uma de 1 K."
+]
+],
+"h": [
+"ΔT = 10 K.",
+"Q = 10⁴ × 30 × 10.",
+"Q = 3·10⁶ J: <b>3</b>."
+]
+},
+{
+"id": "2005-2-fis-09a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2005, 2ª fase, Física, questão 9(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Um telescópio de Galileu (cerca de 1610) tinha duas lentes convergentes: a objetiva (lente 1), de distância focal 133 cm, e a ocular (lente 2), de 9,5 cm. Para objetos celestes, a imagem I₁ formada pela objetiva fica praticamente no seu plano focal. A Lua tem 1.750 km de raio e fica a cerca de 384.000 km da Terra. Qual o raio da imagem da Lua formada pela objetiva, em centímetros?",
+"a": 0.61,
+"u": "cm",
+"tol": 0.03,
+"d": [
+[
+"Aumento linear",
+"i/o = −p′/p: tamanho da imagem/tamanho do objeto = distância da imagem/distância do objeto (o sinal indica imagem invertida).",
+""
+],
+[
+"Plano focal",
+"Para um objeto muito distante, p′ ≈ f."
+]
+],
+"h": [
+"p′ ≈ 133 cm; o = 1,75·10³ km; p = 3,84·10⁵ km.",
+"i = 133 × 1,75·10³/3,84·10⁵ ≈ 0,61 cm.",
+"Raio da imagem ≈ <b>0,61 cm</b> (invertida)."
+]
+},
+{
+"id": "2005-2-fis-09b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2005, 2ª fase, Física, questão 9(b)",
+"r": 1910,
+"tm": 90,
+"ctx": "Um telescópio de Galileu (cerca de 1610) tinha duas lentes convergentes: a objetiva (lente 1), de distância focal 133 cm, e a ocular (lente 2), de 9,5 cm. Para objetos celestes, a imagem I₁ formada pela objetiva fica praticamente no seu plano focal. A imagem I₁ serve de objeto para a ocular, que forma uma imagem virtual a 20 cm dela. A que distância da objetiva a ocular deve ficar, em centímetros?",
+"a": 139.4,
+"u": "cm",
+"tol": 0.005,
+"d": [
+[
+"Equação das lentes",
+"1/f = 1/p + 1/p′, com p′ < 0 para imagem virtual.",
+""
+],
+[
+"Distância entre lentes",
+"A imagem da objetiva está a 133 cm dela; a ocular fica p₂ além desse ponto."
+]
+],
+"h": [
+"1/9,5 = 1/p₂ + 1/(−20) ⟹ p₂ = (−20 × 9,5)/(−20 − 9,5) = 190/29,5 ≈ 6,4 cm.",
+"Distância = f₁ + p₂ = 133 + 6,4.",
+"≈ <b>139,4 cm</b>."
+]
+},
+{
+"id": "2005-2-fis-10a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mod",
+"src": "Unicamp 2005, 2ª fase, Física, questão 10(a)",
+"r": 1490,
+"tm": 45,
+"ctx": "No efeito fotoelétrico, descrito por Einstein há 100 anos (2005 foi o Ano Internacional da Física), um metal emite elétrons quando recebe luz. Os fótons são absorvidos um a um, cada um com energia E = h·f, com h = 4·10⁻¹⁵ eV·s. Um elétron só sai se a energia do fóton supera uma energia mínima, a função trabalho W: césio 2,1 eV; potássio 2,3 eV; sódio 2,8 eV. Use c = 3·10⁸ m/s. Qual a energia do fóton de luz de comprimento de onda 5·10⁻⁷ m, em eV?",
+"a": 2.4,
+"u": "eV",
+"tol": 0,
+"d": [
+[
+"Frequência",
+"c = λ·f ⟹ f = c/λ.",
+""
+],
+[
+"Energia do fóton",
+"E = h·f; com h em eV·s, E sai em eV."
+]
+],
+"h": [
+"f = 3·10⁸/5·10⁻⁷ = 6·10¹⁴ Hz.",
+"E = 4·10⁻¹⁵ × 6·10¹⁴.",
+"E = <b>2,4 eV</b>."
+]
+},
+{
+"id": "2005-2-fis-10b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mod",
+"src": "Unicamp 2005, 2ª fase, Física, questão 10(b)",
+"r": 1440,
+"tm": 30,
+"ctx": "No efeito fotoelétrico, descrito por Einstein há 100 anos (2005 foi o Ano Internacional da Física), um metal emite elétrons quando recebe luz. Os fótons são absorvidos um a um, cada um com energia E = h·f, com h = 4·10⁻¹⁵ eV·s. Um elétron só sai se a energia do fóton supera uma energia mínima, a função trabalho W: césio 2,1 eV; potássio 2,3 eV; sódio 2,8 eV. Use c = 3·10⁸ m/s. A luz de 5·10⁻⁷ m tem fótons de 2,4 eV. De quais metais da tabela ela arranca elétrons?",
+"opts": [
+"Césio e potássio",
+"Só o sódio",
+"Os três metais",
+"Nenhum deles"
+],
+"a": 0,
+"d": [
+[
+"Condição de emissão",
+"Há emissão quando a energia do fóton é maior que a função trabalho do metal. A intensidade da luz não muda isso.",
+""
+]
+],
+"h": [
+"Compare 2,4 eV com W: césio 2,1 e potássio 2,3 são menores.",
+"Sódio: 2,8 eV, maior que 2,4.",
+"<b>Césio e potássio</b>."
+]
+},
+{
+"id": "2005-2-fis-10c",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mod",
+"src": "Unicamp 2005, 2ª fase, Física, questão 10(c)",
+"r": 1660,
+"tm": 45,
+"ctx": "No efeito fotoelétrico, descrito por Einstein há 100 anos (2005 foi o Ano Internacional da Física), um metal emite elétrons quando recebe luz. Os fótons são absorvidos um a um, cada um com energia E = h·f, com h = 4·10⁻¹⁵ eV·s. Um elétron só sai se a energia do fóton supera uma energia mínima, a função trabalho W: césio 2,1 eV; potássio 2,3 eV; sódio 2,8 eV. Use c = 3·10⁸ m/s. Qual a energia cinética dos elétrons mais fracamente ligados emitidos pelo potássio, com luz de 3·10⁻⁷ m? A diferença entre a energia do fóton e a função trabalho vira toda energia cinética. Responda em eV.",
+"a": 1.7,
+"u": "eV",
+"tol": 0,
+"d": [
+[
+"Equação de Einstein",
+"E<sub>c</sub> = h·f − W, com f = c/λ.",
+""
+]
+],
+"h": [
+"f = 3·10⁸/3·10⁻⁷ = 10¹⁵ Hz ⟹ E = 4·10⁻¹⁵ × 10¹⁵ = 4,0 eV.",
+"E<sub>c</sub> = 4,0 − 2,3.",
+"E<sub>c</sub> = <b>1,7 eV</b>."
+]
+},
+{
+"id": "2005-2-fis-11a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 2005, 2ª fase, Física, questão 11(a)",
+"r": 1830,
+"tm": 60,
+"ctx": "Os detectores de metais usados em verificações de segurança se baseiam na lei de indução de Faraday: um fluxo magnético variável numa espira induz uma força eletromotriz e, portanto, uma corrente. Um metal próximo altera o campo e muda a corrente. Considere que o campo B atravessa perpendicularmente uma espira circular de raio 2 cm e varia no tempo segundo o gráfico. Use π = 3. Qual o módulo da força eletromotriz induzida na espira? Responda em unidades de 10⁻⁵ V.",
+"fig": "<svg viewBox='0 0 220 140' class='fg' role='img' aria-label='gráfico do campo magnético B, em unidades de 10 elevado a menos 4 tesla, em função do tempo t, em unidades de 10 elevado a menos 2 segundos: uma reta que sai de B igual a 0 em t igual a 0 e chega a B igual a 5 em t igual a 5'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='73.0' y1='20' x2='73.0' y2='110'/><line x1='106.0' y1='20' x2='106.0' y2='110'/><line x1='139.0' y1='20' x2='139.0' y2='110'/><line x1='172.0' y1='20' x2='172.0' y2='110'/><line x1='205.0' y1='20' x2='205.0' y2='110'/><line x1='40' y1='92.0' x2='205' y2='92.0'/><line x1='40' y1='74.0' x2='205' y2='74.0'/><line x1='40' y1='56.0' x2='205' y2='56.0'/><line x1='40' y1='38.0' x2='205' y2='38.0'/><line x1='40' y1='20.0' x2='205' y2='20.0'/></g><line x1='40' y1='110' x2='209' y2='110' stroke-width='1'/><line x1='40' y1='110' x2='40' y2='12' stroke-width='1'/><line x1='40' y1='110' x2='205' y2='20' stroke-width='1.5'/></g><g fill='currentColor' font-size='7'><text x='40' y='119' text-anchor='middle'>0</text><text x='73' y='119' text-anchor='middle'>1</text><text x='106' y='119' text-anchor='middle'>2</text><text x='139' y='119' text-anchor='middle'>3</text><text x='172' y='119' text-anchor='middle'>4</text><text x='205' y='119' text-anchor='middle'>5</text><text x='36' y='112.5' text-anchor='end'>0</text><text x='36' y='94.5' text-anchor='end'>1</text><text x='36' y='76.5' text-anchor='end'>2</text><text x='36' y='58.5' text-anchor='end'>3</text><text x='36' y='40.5' text-anchor='end'>4</text><text x='36' y='22.5' text-anchor='end'>5</text><text x='122' y='132' text-anchor='middle' font-size='8'>t (10⁻² s)</text><text x='12' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 12 62)'>B (10⁻⁴ T)</text></g></svg>",
+"a": 1.2,
+"u": "10⁻⁵ V",
+"tol": 0.02,
+"d": [
+[
+"Lei de Faraday",
+"ε = −ΔΦ/Δt, com Φ = B·A (campo perpendicular à espira).",
+""
+],
+[
+"Ler o gráfico",
+"ΔB/Δt é a inclinação da reta."
+]
+],
+"h": [
+"A = π r² = 3 × (2·10⁻²)² = 1,2·10⁻³ m².",
+"ΔB/Δt = 5·10⁻⁴/5·10⁻² = 10⁻² T/s.",
+"|ε| = 1,2·10⁻³ × 10⁻² = 1,2·10⁻⁵ V: <b>1,2</b>."
+]
+},
+{
+"id": "2005-2-fis-11b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 2005, 2ª fase, Física, questão 11(b)",
+"r": 1960,
+"tm": 75,
+"ctx": "Os detectores de metais usados em verificações de segurança se baseiam na lei de indução de Faraday: um fluxo magnético variável numa espira induz uma força eletromotriz e, portanto, uma corrente. Um metal próximo altera o campo e muda a corrente. Considere que o campo B atravessa perpendicularmente uma espira circular de raio 2 cm e varia no tempo segundo o gráfico. Use π = 3. A força eletromotriz induzida é 1,2·10⁻⁵ V. A espira é feita de fio de cobre de 1 mm de raio, com resistividade 2·10⁻⁸ Ω·m; a resistência de um fio é R = ρ·L/A (L: comprimento; A: área da seção reta). Qual a corrente na espira, em mA?",
+"fig": "<svg viewBox='0 0 220 140' class='fg' role='img' aria-label='gráfico do campo magnético B, em unidades de 10 elevado a menos 4 tesla, em função do tempo t, em unidades de 10 elevado a menos 2 segundos: uma reta que sai de B igual a 0 em t igual a 0 e chega a B igual a 5 em t igual a 5'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='73.0' y1='20' x2='73.0' y2='110'/><line x1='106.0' y1='20' x2='106.0' y2='110'/><line x1='139.0' y1='20' x2='139.0' y2='110'/><line x1='172.0' y1='20' x2='172.0' y2='110'/><line x1='205.0' y1='20' x2='205.0' y2='110'/><line x1='40' y1='92.0' x2='205' y2='92.0'/><line x1='40' y1='74.0' x2='205' y2='74.0'/><line x1='40' y1='56.0' x2='205' y2='56.0'/><line x1='40' y1='38.0' x2='205' y2='38.0'/><line x1='40' y1='20.0' x2='205' y2='20.0'/></g><line x1='40' y1='110' x2='209' y2='110' stroke-width='1'/><line x1='40' y1='110' x2='40' y2='12' stroke-width='1'/><line x1='40' y1='110' x2='205' y2='20' stroke-width='1.5'/></g><g fill='currentColor' font-size='7'><text x='40' y='119' text-anchor='middle'>0</text><text x='73' y='119' text-anchor='middle'>1</text><text x='106' y='119' text-anchor='middle'>2</text><text x='139' y='119' text-anchor='middle'>3</text><text x='172' y='119' text-anchor='middle'>4</text><text x='205' y='119' text-anchor='middle'>5</text><text x='36' y='112.5' text-anchor='end'>0</text><text x='36' y='94.5' text-anchor='end'>1</text><text x='36' y='76.5' text-anchor='end'>2</text><text x='36' y='58.5' text-anchor='end'>3</text><text x='36' y='40.5' text-anchor='end'>4</text><text x='36' y='22.5' text-anchor='end'>5</text><text x='122' y='132' text-anchor='middle' font-size='8'>t (10⁻² s)</text><text x='12' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 12 62)'>B (10⁻⁴ T)</text></g></svg>",
+"a": 15,
+"u": "mA",
+"tol": 0.02,
+"d": [
+[
+"Resistência do fio",
+"L é o perímetro da espira, 2π·r<sub>espira</sub>; A é a seção do fio, π·r<sub>fio</sub>².",
+""
+],
+[
+"Lei de Ohm",
+"i = ε/R."
+]
+],
+"h": [
+"L = 2 × 3 × 0,02 = 0,12 m; A = 3 × (10⁻³)² = 3·10⁻⁶ m².",
+"R = 2·10⁻⁸ × 0,12/3·10⁻⁶ = 8·10⁻⁴ Ω.",
+"i = 1,2·10⁻⁵/8·10⁻⁴ = 1,5·10⁻² A = <b>15 mA</b>."
+]
+},
+{
+"id": "2005-2-fis-12a",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2005, 2ª fase, Física, questão 12(a)",
+"r": 1870,
+"tm": 60,
+"ctx": "Um método alternativo para conservar alimentos usa campos elétricos pulsados, que criam uma diferença de potencial através das células. A membrana de um microrganismo é destruída se uma diferença de potencial ΔV<sub>m</sub> = 1 V se estabelece nela. Como mostra a figura, o potencial cai ΔV<sub>m</sub> em cada membrana atravessada (na entrada e na saída da célula). Se a célula tem 1 µm de diâmetro, qual a intensidade do campo elétrico necessário para destruir a membrana? Responda em unidades de 10⁶ V/m.",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='uma célula esférica entre duas placas, com campo elétrico E apontando para a direita; abaixo, o gráfico do potencial V ao longo da direção x: o potencial cai um degrau delta V m ao atravessar a membrana do lado esquerdo da célula, fica constante no interior e cai outro degrau delta V m ao atravessar a membrana do lado direito'><g fill='none' stroke='currentColor'><line x1='22' y1='8' x2='22' y2='80' stroke-width='2'/><line x1='178' y1='8' x2='178' y2='80' stroke-width='2'/><line x1='85' y1='12' x2='112' y2='12' stroke-width='1'/><circle cx='100' cy='48' r='28' stroke-width='1.4'/><circle cx='100' cy='48' r='24' stroke-width='0.8'/><line x1='72' y1='82' x2='72' y2='140' stroke-width='0.5' stroke-dasharray='2 2'/><line x1='128' y1='82' x2='128' y2='140' stroke-width='0.5' stroke-dasharray='2 2'/><line x1='30' y1='140' x2='190' y2='140' stroke-width='1'/><line x1='30' y1='140' x2='30' y2='86' stroke-width='1'/><polyline points='30,96 70,96 74,114 126,114 130,132 188,132' stroke-width='1.4'/></g><g fill='currentColor' font-size='8'><polygon points='116.0,12.0 111.5,14.1 111.5,9.9'/><text x='96' y='9' text-anchor='middle' font-style='italic'>E</text><text x='81.8' y='61.0' text-anchor='middle' font-size='7'>+</text><text x='79.0' y='50.5' text-anchor='middle' font-size='7'>+</text><text x='81.8' y='40.0' text-anchor='middle' font-size='7'>+</text><text x='118.2' y='40.0' text-anchor='middle' font-size='7'>−</text><text x='121.0' y='50.5' text-anchor='middle' font-size='7'>−</text><text x='118.2' y='61.0' text-anchor='middle' font-size='7'>−</text><text x='69.6' y='58.7' text-anchor='middle' font-size='7'>−</text><text x='69.6' y='42.3' text-anchor='middle' font-size='7'>−</text><text x='130.4' y='42.3' text-anchor='middle' font-size='7'>+</text><text x='130.4' y='58.7' text-anchor='middle' font-size='7'>+</text><text x='40' y='108' font-size='7'>ΔV<tspan font-size='5.5' dy='1.5'>m</tspan></text><text x='134' y='126' font-size='7'>ΔV<tspan font-size='5.5' dy='1.5'>m</tspan></text><text x='26' y='92' text-anchor='end' font-size='7'>V</text><text x='192' y='148' text-anchor='end' font-size='7'>x</text><text x='150' y='60' font-size='7'>membrana</text></g></svg>",
+"a": 2,
+"u": "10⁶ V/m",
+"tol": 0,
+"d": [
+[
+"Campo uniforme",
+"ΔV = E·d, com d a distância percorrida ao longo do campo.",
+""
+],
+[
+"Ler a figura",
+"Ao atravessar a célula, o potencial cai duas vezes ΔV<sub>m</sub>: uma em cada membrana."
+]
+],
+"h": [
+"Queda total através da célula: 2 × 1 V = 2 V.",
+"d = 1 µm = 10⁻⁶ m.",
+"E = 2/10⁻⁶ = 2·10⁶ V/m: <b>2</b>."
+]
+},
+{
+"id": "2005-2-fis-12b",
+"ano": 2005,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2005, 2ª fase, Física, questão 12(b)",
+"r": 1700,
+"tm": 45,
+"ctx": "Um método alternativo para conservar alimentos usa campos elétricos pulsados, que criam uma diferença de potencial através das células. A membrana de um microrganismo é destruída se uma diferença de potencial ΔV<sub>m</sub> = 1 V se estabelece nela. Como mostra a figura, o potencial cai ΔV<sub>m</sub> em cada membrana atravessada (na entrada e na saída da célula). Qual o ganho de energia, em eV, de um elétron que atravessa a célula sob a tensão aplicada?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='uma célula esférica entre duas placas, com campo elétrico E apontando para a direita; abaixo, o gráfico do potencial V ao longo da direção x: o potencial cai um degrau delta V m ao atravessar a membrana do lado esquerdo da célula, fica constante no interior e cai outro degrau delta V m ao atravessar a membrana do lado direito'><g fill='none' stroke='currentColor'><line x1='22' y1='8' x2='22' y2='80' stroke-width='2'/><line x1='178' y1='8' x2='178' y2='80' stroke-width='2'/><line x1='85' y1='12' x2='112' y2='12' stroke-width='1'/><circle cx='100' cy='48' r='28' stroke-width='1.4'/><circle cx='100' cy='48' r='24' stroke-width='0.8'/><line x1='72' y1='82' x2='72' y2='140' stroke-width='0.5' stroke-dasharray='2 2'/><line x1='128' y1='82' x2='128' y2='140' stroke-width='0.5' stroke-dasharray='2 2'/><line x1='30' y1='140' x2='190' y2='140' stroke-width='1'/><line x1='30' y1='140' x2='30' y2='86' stroke-width='1'/><polyline points='30,96 70,96 74,114 126,114 130,132 188,132' stroke-width='1.4'/></g><g fill='currentColor' font-size='8'><polygon points='116.0,12.0 111.5,14.1 111.5,9.9'/><text x='96' y='9' text-anchor='middle' font-style='italic'>E</text><text x='81.8' y='61.0' text-anchor='middle' font-size='7'>+</text><text x='79.0' y='50.5' text-anchor='middle' font-size='7'>+</text><text x='81.8' y='40.0' text-anchor='middle' font-size='7'>+</text><text x='118.2' y='40.0' text-anchor='middle' font-size='7'>−</text><text x='121.0' y='50.5' text-anchor='middle' font-size='7'>−</text><text x='118.2' y='61.0' text-anchor='middle' font-size='7'>−</text><text x='69.6' y='58.7' text-anchor='middle' font-size='7'>−</text><text x='69.6' y='42.3' text-anchor='middle' font-size='7'>−</text><text x='130.4' y='42.3' text-anchor='middle' font-size='7'>+</text><text x='130.4' y='58.7' text-anchor='middle' font-size='7'>+</text><text x='40' y='108' font-size='7'>ΔV<tspan font-size='5.5' dy='1.5'>m</tspan></text><text x='134' y='126' font-size='7'>ΔV<tspan font-size='5.5' dy='1.5'>m</tspan></text><text x='26' y='92' text-anchor='end' font-size='7'>V</text><text x='192' y='148' text-anchor='end' font-size='7'>x</text><text x='150' y='60' font-size='7'>membrana</text></g></svg>",
+"a": 2,
+"u": "eV",
+"tol": 0,
+"d": [
+[
+"Elétron-volt",
+"Uma carga elementar que atravessa uma diferença de potencial de 1 V ganha 1 eV de energia: ΔE = e·ΔV.",
+""
+]
+],
+"h": [
+"A diferença de potencial através da célula é 2 × ΔV<sub>m</sub> = 2 V.",
+"ΔE = e × 2 V.",
+"ΔE = <b>2 eV</b>."
+]
+},
+{
+"id": "2005-2-qui-01a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2005, 2ª fase, Química, questão 1(a)",
+"r": 1490,
+"tm": 20,
+"ctx": "Os índios brasileiros pintam o corpo. Para o corante vermelho, trituram sementes de urucum e fervem o pó com água. A cor preta vem do jenipapo: o suco da fruta é quase incolor, mas, esfregado no corpo e em contato com o ar, escurece até ficar preto. Como se chama o processo de obtenção do corante do urucum com água?",
+"opts": [
+"Extração (infusão)",
+"Destilação",
+"Filtração",
+"Decantação"
+],
+"a": 0,
+"d": [
+[
+"Separação de misturas",
+"Extração: um solvente retira de um material sólido as substâncias solúveis nele. Destilação separa por diferença de temperatura de ebulição; filtração e decantação separam sólidos de líquidos.",
+""
+]
+],
+"h": [
+"A água quente dissolve o corante presente no pó das sementes.",
+"O corante passa do sólido para o solvente.",
+"<b>Extração</b> (com água quente, uma infusão)."
+]
+},
+{
+"id": "2005-2-qui-01b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2005, 2ª fase, Química, questão 1(b)",
+"r": 1620,
+"tm": 30,
+"ctx": "Os índios brasileiros pintam o corpo. Para o corante vermelho, trituram sementes de urucum e fervem o pó com água. A cor preta vem do jenipapo: o suco da fruta é quase incolor, mas, esfregado no corpo e em contato com o ar, escurece até ficar preto. Que dois motivos justificam usar água quente, e não fria, na extração do corante vermelho?",
+"opts": [
+"A solubilidade do corante aumenta com a temperatura, e a extração fica mais rápida",
+"A água quente é menos densa e a extração é mais lenta",
+"O calor decompõe o corante e o deixa vermelho",
+"A água quente evapora e deixa o corante concentrado na semente"
+],
+"a": 0,
+"d": [
+[
+"Solubilidade e temperatura",
+"Para a maioria dos sólidos, a solubilidade aumenta com a temperatura.",
+""
+],
+[
+"Rapidez",
+"Em temperatura maior, as partículas se movem mais depressa: dissolução e difusão são mais rápidas."
+]
+],
+"h": [
+"Mais quente ⟹ mais corante se dissolve na mesma água.",
+"Mais quente ⟹ a dissolução é mais rápida.",
+"<b>Maior solubilidade e extração mais rápida</b>."
+]
+},
+{
+"id": "2005-2-qui-01c",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2005, 2ª fase, Química, questão 1(c)",
+"r": 1570,
+"tm": 30,
+"ctx": "Os índios brasileiros pintam o corpo. Para o corante vermelho, trituram sementes de urucum e fervem o pó com água. A cor preta vem do jenipapo: o suco da fruta é quase incolor, mas, esfregado no corpo e em contato com o ar, escurece até ficar preto. Algum dos processos de pintura citados envolve uma transformação química?",
+"opts": [
+"Sim: o suco do jenipapo escurece em contato com o ar, sinal de que se formou uma substância nova",
+"Não: em ambos só há mistura de corantes com a pele",
+"Sim: a extração do urucum com água fervente",
+"Não: escurecer é só uma mudança de estado físico"
+],
+"a": 0,
+"d": [
+[
+"Evidências de reação química",
+"Mudança de cor, liberação de gás, formação de sólido ou variação de temperatura indicam formação de novas substâncias.",
+""
+]
+],
+"h": [
+"A extração com água só dissolve o corante: processo físico.",
+"O suco incolor do jenipapo fica preto em contato com o ar: formou-se outra substância.",
+"<b>Sim</b>: o escurecimento do jenipapo."
+]
+},
+{
+"id": "2005-2-qui-02a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2005, 2ª fase, Química, questão 2(a)",
+"r": 1830,
+"tm": 45,
+"ctx": "Algumas tribos indígenas norte-americanas se comunicavam à distância com códigos de fumaça produzida pela queima de madeira. A fumaça é visível porque espalha a luz que incide sobre ela. Considerando a fumaça como o conjunto das substâncias emitidas na queima da madeira, quantos estados da matéria estão presentes nela?",
+"opts": [
+"Três: sólido (fuligem), líquido (gotículas de água) e gasoso (CO₂, CO, vapor)",
+"Só um: o gasoso",
+"Dois: sólido e gasoso",
+"Dois: líquido e gasoso"
+],
+"a": 0,
+"d": [
+[
+"Produtos da queima",
+"A combustão da madeira gera gases (CO₂, CO, vapor d'água), partículas sólidas (fuligem, cinzas leves) e, ao esfriar, gotículas de água condensada.",
+""
+],
+[
+"Por que se vê",
+"Gases não espalham luz o suficiente para serem vistos: partículas e gotículas, sim."
+]
+],
+"h": [
+"Gases: CO₂, CO e vapor d'água.",
+"Sólidos: fuligem; líquidos: gotículas de água condensada.",
+"<b>Três estados</b>."
+]
+},
+{
+"id": "2005-2-qui-02b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2005, 2ª fase, Química, questão 2(b)",
+"r": 1780,
+"tm": 45,
+"ctx": "Algumas tribos indígenas norte-americanas se comunicavam à distância com códigos de fumaça produzida pela queima de madeira. A fumaça é visível porque espalha a luz que incide sobre ela. Alguém afirma: \"para determinar a massa de fumaça formada na queima de uma quantidade de madeira, basta subtrair a massa de cinzas da massa inicial de madeira\". Você concorda?",
+"opts": [
+"Não: a combustão incorpora oxigênio do ar, então a fumaça tem massa maior que madeira menos cinzas",
+"Sim: pela conservação da massa, o que não virou cinza virou fumaça",
+"Não: parte da massa é destruída na queima",
+"Sim: o oxigênio do ar não entra nas contas porque é um gás"
+],
+"a": 0,
+"d": [
+[
+"Conservação da massa",
+"Massa dos reagentes = massa dos produtos. Na combustão, os reagentes são o combustível e o oxigênio do ar.",
+""
+]
+],
+"h": [
+"Reagentes: madeira + O₂ do ar. Produtos: cinzas + fumaça.",
+"Massa da fumaça = madeira + O₂ consumido − cinzas.",
+"<b>Não</b>: a fumaça pesa mais que madeira − cinzas."
+]
+},
+{
+"id": "2005-2-qui-03a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2005, 2ª fase, Química, questão 3(a)",
+"r": 1360,
+"tm": 20,
+"ctx": "Os dirigíveis \"Zeppelin\", cheios de hidrogênio, estão entre as maiores naves aéreas já construídas. O mais famoso, o Hindenburg, tinha cerca de 250 m de comprimento e volume de 200·10⁶ litros, o que correspondia a 8,1·10⁶ mol de gás. Em 6 de maio de 1937, ao chegar a Nova York, ele pegou fogo. Qual a equação da reação principal da queima?",
+"opts": [
+"2 H₂ + O₂ → 2 H₂O",
+"H₂ + O₂ → H₂O₂",
+"H₂ + O₂ → H₂O",
+"2 H + O → H₂O"
+],
+"a": 0,
+"d": [
+[
+"Combustão do hidrogênio",
+"O H₂ reage com o O₂ do ar formando água. Balanceie: mesmo número de átomos de cada lado.",
+""
+]
+],
+"h": [
+"Reagentes: H₂ e O₂; produto: H₂O.",
+"O₂ tem 2 O ⟹ 2 H₂O, que pedem 2 H₂.",
+"<b>2 H₂ + O₂ → 2 H₂O</b>."
+]
+},
+{
+"id": "2005-2-qui-03b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2005, 2ª fase, Química, questão 3(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "Os dirigíveis \"Zeppelin\", cheios de hidrogênio, estão entre as maiores naves aéreas já construídas. O mais famoso, o Hindenburg, tinha cerca de 250 m de comprimento e volume de 200·10⁶ litros, o que correspondia a 8,1·10⁶ mol de gás. Em 6 de maio de 1937, ao chegar a Nova York, ele pegou fogo. Se o hidrogênio para encher o Hindenburg fosse obtido da reação de ferro com ácido (formando Fe²⁺), quantos quilogramas de ferro seriam necessários? (Fe = 56 g/mol) Responda em unidades de 10⁵ kg.",
+"a": 4.54,
+"u": "10⁵ kg",
+"tol": 0.02,
+"d": [
+[
+"Equação",
+"Metal + ácido → sal + H₂. Com Fe²⁺: Fe + 2 H⁺ → Fe²⁺ + H₂.",
+""
+],
+[
+"Proporção",
+"1 mol de Fe para 1 mol de H₂; massa = mols × massa molar."
+]
+],
+"h": [
+"Fe + 2 H⁺ → Fe²⁺ + H₂: 8,1·10⁶ mol de Fe.",
+"m = 8,1·10⁶ × 56 = 4,5·10⁸ g.",
+"= 4,5·10⁵ kg: <b>≈ 4,5</b> (450 toneladas)."
+]
+},
+{
+"id": "2005-2-qui-04a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2005, 2ª fase, Química, questão 4(a)",
+"r": 1780,
+"tm": 60,
+"ctx": "Até recentemente, para aumentar a octanagem da gasolina, adicionava-se a ela um composto de chumbo, o tetraetilchumbo, Pb(C₂H₅)₄, abandonado depois que se perceberam os males do chumbo liberado na atmosfera. O gráfico compara a concentração média de chumbo no sangue de uma população e a quantidade total de chumbo adicionada à gasolina, de 1976 a 1980. Supondo que o tetraetilchumbo entrasse no sangue sem se alterar, qual era sua concentração média no sangue em meados de 1979? (Pb = 207 g/mol) Responda em unidades de 10⁻⁷ mol/L.",
+"fig": "<svg viewBox='0 0 252 146' class='fg' role='img' aria-label='gráfico com dois eixos verticais, de 1976 a 1980; a curva tracejada, da gasolina, usa o eixo da esquerda, chumbo total na gasolina em quilotoneladas, de 40 a 110: cai de cerca de 108 em 1976 para 99 em 1977, 86 a 99 em 1978, 73 em meados de 1979 e 54 no começo de 1980; a curva contínua, do sangue, usa o eixo da direita, microgramas de chumbo por litro de sangue, de 90 a 160: cai de cerca de 155 em 1976 para 140 a 146 em 1977 e 1978, cerca de 120 em meados de 1979 e 97 no começo de 1980; as duas curvas quase se sobrepõem no desenho'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='78.0' y1='16' x2='78.0' y2='112'/><line x1='116.0' y1='16' x2='116.0' y2='112'/><line x1='154.0' y1='16' x2='154.0' y2='112'/><line x1='192.0' y1='16' x2='192.0' y2='112'/><line x1='40' y1='98.3' x2='211' y2='98.3'/><line x1='40' y1='84.6' x2='211' y2='84.6'/><line x1='40' y1='70.9' x2='211' y2='70.9'/><line x1='40' y1='57.2' x2='211' y2='57.2'/><line x1='40' y1='43.5' x2='211' y2='43.5'/><line x1='40' y1='29.8' x2='211' y2='29.8'/><line x1='40' y1='16.1' x2='211' y2='16.1'/></g><line x1='40' y1='112' x2='211' y2='112'/><line x1='40' y1='112' x2='40' y2='12'/><line x1='211' y1='112' x2='211' y2='12'/><polyline points='47.2,26.4 65.5,17.5 78.0,30.2 90.9,49.0 103.1,35.3 128.2,44.3 146.8,39.9 179.5,80.5 204.5,102.7' stroke-width='1.3'/><polyline points='49.9,19.3 72.7,26.9 89.8,31.6 103.1,30.8 128.2,48.7 147.5,31.0 176.8,66.2 205.7,93.2' stroke-width='1.2' stroke-dasharray='4 2'/></g><g fill='currentColor' font-size='7'><text x='59.0' y='121' text-anchor='middle'>1976</text><text x='97.0' y='121' text-anchor='middle'>1977</text><text x='135.0' y='121' text-anchor='middle'>1978</text><text x='173.0' y='121' text-anchor='middle'>1979</text><text x='211.0' y='121' text-anchor='middle'>1980</text><text x='36' y='114.5' text-anchor='end'>40</text><text x='36' y='100.8' text-anchor='end'>50</text><text x='36' y='87.1' text-anchor='end'>60</text><text x='36' y='73.4' text-anchor='end'>70</text><text x='36' y='59.7' text-anchor='end'>80</text><text x='36' y='46.0' text-anchor='end'>90</text><text x='36' y='32.3' text-anchor='end'>100</text><text x='36' y='18.6' text-anchor='end'>110</text><text x='215' y='114.5'>90</text><text x='215' y='100.8'>100</text><text x='215' y='87.1'>110</text><text x='215' y='73.4'>120</text><text x='215' y='59.7'>130</text><text x='215' y='46.0'>140</text><text x='215' y='32.3'>150</text><text x='215' y='18.6'>160</text><line x1='140' y1='18.8' x2='152' y2='18.8' stroke='currentColor' stroke-width='1.3'/><line x1='140' y1='26.4' x2='152' y2='26.4' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 2'/><text x='155' y='20.8' font-size='6'>sangue (dir.)</text><text x='155' y='28.4' font-size='6'>gasolina (esq.)</text><text x='125' y='134' text-anchor='middle' font-size='8'>ano</text><text x='9' y='62' text-anchor='middle' font-size='7.5' transform='rotate(-90 9 62)'>Pb na gasolina (kton)</text><text x='244' y='62' text-anchor='middle' font-size='7.5' transform='rotate(90 244 62)'>Pb no sangue (µg/L)</text></g></svg>",
+"a": 5.8,
+"u": "10⁻⁷ mol/L",
+"tol": 0.05,
+"d": [
+[
+"Escolher o eixo certo",
+"A curva do sangue se lê no eixo da direita (µg de Pb por litro).",
+""
+],
+[
+"De massa para mol",
+"n = m/M; cada molécula de Pb(C₂H₅)₄ tem um átomo de Pb."
+]
+],
+"h": [
+"Do gráfico (eixo da direita): ≈ 120 µg/L = 1,2·10⁻⁴ g/L de Pb em meados de 1979.",
+"1,2·10⁻⁴/207 ≈ 5,8·10⁻⁷ mol/L de Pb = mol/L de Pb(C₂H₅)₄.",
+"<b>≈ 5,8</b>·10⁻⁷ mol/L."
+]
+},
+{
+"id": "2005-2-qui-04b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2005, 2ª fase, Química, questão 4(b)",
+"r": 1740,
+"tm": 45,
+"ctx": "Até recentemente, para aumentar a octanagem da gasolina, adicionava-se a ela um composto de chumbo, o tetraetilchumbo, Pb(C₂H₅)₄, abandonado depois que se perceberam os males do chumbo liberado na atmosfera. O gráfico compara a concentração média de chumbo no sangue de uma população e a quantidade total de chumbo adicionada à gasolina, de 1976 a 1980. Alguém afirma: \"como a curva da gasolina quase se sobrepõe à do sangue, todo o chumbo emitido pela queima da gasolina foi absorvido pelas pessoas\". Com base apenas no gráfico, você concorda?",
+"fig": "<svg viewBox='0 0 252 146' class='fg' role='img' aria-label='gráfico com dois eixos verticais, de 1976 a 1980; a curva tracejada, da gasolina, usa o eixo da esquerda, chumbo total na gasolina em quilotoneladas, de 40 a 110: cai de cerca de 108 em 1976 para 99 em 1977, 86 a 99 em 1978, 73 em meados de 1979 e 54 no começo de 1980; a curva contínua, do sangue, usa o eixo da direita, microgramas de chumbo por litro de sangue, de 90 a 160: cai de cerca de 155 em 1976 para 140 a 146 em 1977 e 1978, cerca de 120 em meados de 1979 e 97 no começo de 1980; as duas curvas quase se sobrepõem no desenho'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='78.0' y1='16' x2='78.0' y2='112'/><line x1='116.0' y1='16' x2='116.0' y2='112'/><line x1='154.0' y1='16' x2='154.0' y2='112'/><line x1='192.0' y1='16' x2='192.0' y2='112'/><line x1='40' y1='98.3' x2='211' y2='98.3'/><line x1='40' y1='84.6' x2='211' y2='84.6'/><line x1='40' y1='70.9' x2='211' y2='70.9'/><line x1='40' y1='57.2' x2='211' y2='57.2'/><line x1='40' y1='43.5' x2='211' y2='43.5'/><line x1='40' y1='29.8' x2='211' y2='29.8'/><line x1='40' y1='16.1' x2='211' y2='16.1'/></g><line x1='40' y1='112' x2='211' y2='112'/><line x1='40' y1='112' x2='40' y2='12'/><line x1='211' y1='112' x2='211' y2='12'/><polyline points='47.2,26.4 65.5,17.5 78.0,30.2 90.9,49.0 103.1,35.3 128.2,44.3 146.8,39.9 179.5,80.5 204.5,102.7' stroke-width='1.3'/><polyline points='49.9,19.3 72.7,26.9 89.8,31.6 103.1,30.8 128.2,48.7 147.5,31.0 176.8,66.2 205.7,93.2' stroke-width='1.2' stroke-dasharray='4 2'/></g><g fill='currentColor' font-size='7'><text x='59.0' y='121' text-anchor='middle'>1976</text><text x='97.0' y='121' text-anchor='middle'>1977</text><text x='135.0' y='121' text-anchor='middle'>1978</text><text x='173.0' y='121' text-anchor='middle'>1979</text><text x='211.0' y='121' text-anchor='middle'>1980</text><text x='36' y='114.5' text-anchor='end'>40</text><text x='36' y='100.8' text-anchor='end'>50</text><text x='36' y='87.1' text-anchor='end'>60</text><text x='36' y='73.4' text-anchor='end'>70</text><text x='36' y='59.7' text-anchor='end'>80</text><text x='36' y='46.0' text-anchor='end'>90</text><text x='36' y='32.3' text-anchor='end'>100</text><text x='36' y='18.6' text-anchor='end'>110</text><text x='215' y='114.5'>90</text><text x='215' y='100.8'>100</text><text x='215' y='87.1'>110</text><text x='215' y='73.4'>120</text><text x='215' y='59.7'>130</text><text x='215' y='46.0'>140</text><text x='215' y='32.3'>150</text><text x='215' y='18.6'>160</text><line x1='140' y1='18.8' x2='152' y2='18.8' stroke='currentColor' stroke-width='1.3'/><line x1='140' y1='26.4' x2='152' y2='26.4' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 2'/><text x='155' y='20.8' font-size='6'>sangue (dir.)</text><text x='155' y='28.4' font-size='6'>gasolina (esq.)</text><text x='125' y='134' text-anchor='middle' font-size='8'>ano</text><text x='9' y='62' text-anchor='middle' font-size='7.5' transform='rotate(-90 9 62)'>Pb na gasolina (kton)</text><text x='244' y='62' text-anchor='middle' font-size='7.5' transform='rotate(90 244 62)'>Pb no sangue (µg/L)</text></g></svg>",
+"opts": [
+"Não: as curvas usam escalas diferentes (gasolina à esquerda, em kton; sangue à direita, em µg/L), então a sobreposição no desenho não compara quantidades",
+"Sim: as curvas coincidem, logo as quantidades são iguais",
+"Sim: o chumbo no sangue cai junto com o da gasolina",
+"Não: o chumbo do sangue é sempre maior que o da gasolina"
+],
+"a": 0,
+"d": [
+[
+"Gráfico com dois eixos",
+"Quando cada curva tem sua escala, a posição no desenho depende da escala escolhida. A semelhança de forma mostra correlação, não igualdade de quantidades.",
+""
+]
+],
+"h": [
+"A curva da gasolina se lê à esquerda (milhares de toneladas); a do sangue, à direita (microgramas por litro).",
+"Grandezas e unidades diferentes: não dá para dizer que uma quantidade é igual à outra.",
+"<b>Não</b>: as escalas são diferentes."
+]
+},
+{
+"id": "2005-2-qui-05a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2005, 2ª fase, Química, questão 5(a)",
+"r": 2000,
+"tm": 90,
+"ctx": "Algumas naves espaciais têm três tanques: dois de hidrogênio líquido e um de oxigênio líquido. A energia para elevar a nave vem da reação entre eles, que forma água. Nas condições de voo, as densidades são: hidrogênio 0,071 g/cm³; oxigênio 1,14 g/cm³. Se o volume total de hidrogênio nos dois tanques é 1,46·10⁶ litros, qual deve ser a capacidade mínima do tanque de oxigênio para manter a proporção estequiométrica? Responda em unidades de 10⁵ L. (H = 1; O = 16 g/mol)",
+"a": 7.3,
+"u": "10⁵ L",
+"tol": 0.02,
+"d": [
+[
+"A proporção vale em massa (ou mol), não em volume",
+"H₂ + ½ O₂ → H₂O: 2 g de H₂ para 16 g de O₂, ou seja, 1 g de H₂ para 8 g de O₂.",
+""
+],
+[
+"Densidade",
+"m = d·V; V = m/d. 1 g/cm³ = 1.000 g/L."
+]
+],
+"h": [
+"m(H₂) = 71 g/L × 1,46·10⁶ L ≈ 1,04·10⁸ g.",
+"m(O₂) = 8 × 1,04·10⁸ ≈ 8,3·10⁸ g.",
+"V(O₂) = 8,3·10⁸/1.140 ≈ 7,3·10⁵ L: <b>7,3</b>."
+]
+},
+{
+"id": "2005-2-qui-05b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2005, 2ª fase, Química, questão 5(b)",
+"r": 1870,
+"tm": 60,
+"ctx": "Algumas naves espaciais têm três tanques: dois de hidrogênio líquido e um de oxigênio líquido. A energia para elevar a nave vem da reação entre eles, que forma água. Nas condições de voo, as densidades são: hidrogênio 0,071 g/cm³; oxigênio 1,14 g/cm³. O Hindenburg tinha 8,1·10⁶ mol de H₂, e a nave tem cerca de 1,04·10⁸ g de H₂. Em qual caso a reação libera mais energia?",
+"opts": [
+"No voo da nave: ela queima cerca de 5,2·10⁷ mol de H₂, mais que os 8,1·10⁶ mol do Hindenburg",
+"No Hindenburg: o gás estava no estado gasoso, que libera mais energia",
+"Nos dois casos igual, porque a reação é a mesma",
+"No Hindenburg: tinha volume muito maior"
+],
+"a": 0,
+"d": [
+[
+"Energia e quantidade",
+"Para a mesma reação, a energia liberada é proporcional à quantidade (em mols) do reagente que reage.",
+""
+]
+],
+"h": [
+"Nave: 1,04·10⁸ g ÷ 2 g/mol ≈ 5,2·10⁷ mol de H₂.",
+"Hindenburg: 8,1·10⁶ mol, cerca de 6 vezes menos.",
+"Libera mais energia <b>o voo da nave</b>."
+]
+},
+{
+"id": "2005-2-qui-06a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2005, 2ª fase, Química, questão 6(a) (adaptada para múltipla escolha)",
+"r": 1870,
+"tm": 45,
+"ctx": "A comunicação entre neurônios envolve muitas substâncias. Uma delas é a 2-feniletilamina, C₆H₅–CH₂CH₂NH₂, à qual se atribui o \"ficar enamorado\"; algumas pessoas acreditam que ingeri-la estimularia o \"processo do amor\", o que não se verifica. Se alguém ingerir 2-feniletilamina, qual equação representa o equilíbrio ácido-base dessa substância no estômago (meio ácido)?",
+"fig": "<svg viewBox='0 0 150 56' class='fg' role='img' aria-label='fórmula da 2-feniletilamina: um anel benzênico ligado a uma cadeia CH2CH2NH2'><g fill='none' stroke='currentColor' stroke-width='1'><polygon points='40.0,22.0 50.4,28.0 50.4,40.0 40.0,46.0 29.6,40.0 29.6,28.0'/><circle cx='40' cy='34' r='7.0' stroke-width='0.8'/><line x1='50.4' y1='28.0' x2='59.4' y2='23.0'/></g><g fill='currentColor' font-size='9'><text x='60.4' y='24.0'>CH₂CH₂NH₂</text></g></svg>",
+"opts": [
+"C₆H₅–CH₂CH₂NH₂ + H⁺ ⇌ C₆H₅–CH₂CH₂NH₃⁺",
+"C₆H₅–CH₂CH₂NH₂ ⇌ C₆H₅–CH₂CH₂NH⁻ + H⁺",
+"C₆H₅–CH₂CH₂NH₂ + OH⁻ ⇌ C₆H₅–CH₂CH₂NH⁻ + H₂O",
+"C₆H₅–CH₂CH₂NH₂ + H⁺ ⇌ C₆H₅⁺ + CH₃CH₂NH₂"
+],
+"a": 0,
+"d": [
+[
+"Aminas são bases",
+"O nitrogênio da amina tem um par de elétrons livre e recebe H⁺: R–NH₂ + H⁺ ⇌ R–NH₃⁺ (como NH₃ + H⁺ ⇌ NH₄⁺).",
+""
+],
+[
+"Estômago",
+"O suco gástrico é muito ácido (HCl): há muito H⁺ disponível."
+]
+],
+"h": [
+"A 2-feniletilamina é uma amina primária: base.",
+"No meio ácido, o grupo –NH₂ recebe um H⁺.",
+"<b>C₆H₅–CH₂CH₂NH₂ + H⁺ ⇌ C₆H₅–CH₂CH₂NH₃⁺</b>."
+]
+},
+{
+"id": "2005-2-qui-06b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2005, 2ª fase, Química, questão 6(b)",
+"r": 1870,
+"tm": 45,
+"ctx": "A comunicação entre neurônios envolve muitas substâncias. Uma delas é a 2-feniletilamina, C₆H₅–CH₂CH₂NH₂, à qual se atribui o \"ficar enamorado\"; algumas pessoas acreditam que ingeri-la estimularia o \"processo do amor\", o que não se verifica. Em que meio aquoso a 2-feniletilamina é mais solúvel: básico, neutro ou ácido?",
+"fig": "<svg viewBox='0 0 150 56' class='fg' role='img' aria-label='fórmula da 2-feniletilamina: um anel benzênico ligado a uma cadeia CH2CH2NH2'><g fill='none' stroke='currentColor' stroke-width='1'><polygon points='40.0,22.0 50.4,28.0 50.4,40.0 40.0,46.0 29.6,40.0 29.6,28.0'/><circle cx='40' cy='34' r='7.0' stroke-width='0.8'/><line x1='50.4' y1='28.0' x2='59.4' y2='23.0'/></g><g fill='currentColor' font-size='9'><text x='60.4' y='24.0'>CH₂CH₂NH₂</text></g></svg>",
+"opts": [
+"Ácido: a forma protonada (–NH₃⁺) tem carga e interage fortemente com a água",
+"Básico: a amina é uma base e se dissolve melhor em outra base",
+"Neutro: em pH 7 não há reação com a água",
+"Básico: o OH⁻ forma ligações de hidrogênio com o anel benzênico"
+],
+"a": 0,
+"d": [
+[
+"Solubilidade e carga",
+"Íons interagem fortemente com a água (íon–dipolo); a molécula neutra, com um grande anel apolar, interage pouco.",
+""
+],
+[
+"Protonação",
+"Em meio ácido a amina vira o cátion R–NH₃⁺."
+]
+],
+"h": [
+"Em meio ácido, quase toda a amina está na forma R–NH₃⁺.",
+"O cátion interage com os dipolos da água muito melhor que a molécula neutra.",
+"Mais solúvel em <b>meio ácido</b>."
+]
+},
+{
+"id": "2005-2-qui-07a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2005, 2ª fase, Química, questão 7(a)",
+"r": 1780,
+"tm": 60,
+"ctx": "Na dupla hélice do DNA, segundo as regras de Chargaff, há ligações químicas entre pares das bases mostradas na figura, e os pares são sempre os mesmos. A estrutura pode ser comparada a uma escada espiralada em que <b>o tamanho dos degraus é sempre o mesmo e a largura da escada é perfeitamente constante</b>; cada degrau é um par de bases, e cada base se liga ao corrimão pelo nitrogênio marcado com asterisco. Considerando apenas as informações em negrito, quais seriam as combinações possíveis entre as bases 1, 2, 3 e 4?",
+"fig": "<svg viewBox='0 0 310 92' class='fg' role='img' aria-label='fórmulas estruturais de quatro bases; a base 1 tem dois anéis fundidos, um de seis e um de cinco átomos, com grupo NH2; a base 2 também tem dois anéis fundidos, com um oxigênio em dupla ligação, um N-H e um grupo NH2; a base 3 tem um anel de seis átomos com dois oxigênios em dupla ligação, um N-H e um grupo CH3; a base 4 tem um anel de seis átomos com um oxigênio em dupla ligação e um grupo NH2; em cada base, o nitrogênio marcado com asterisco é o que se liga ao corrimão da escada'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='25.4' y1='30.9' x2='18.9' y2='34.6'/><line x1='26.6' y1='33.1' x2='20.2' y2='36.8'/><line x1='15.6' y1='42.6' x2='15.6' y2='50.0'/><line x1='15.0' y1='51.1' x2='21.4' y2='54.8'/><line x1='16.3' y1='48.9' x2='22.7' y2='52.6'/><line x1='30.0' y1='53.7' x2='36.4' y2='50.0'/><line x1='37.7' y1='50.0' x2='37.7' y2='38.0'/><line x1='35.1' y1='50.0' x2='35.1' y2='38.0'/><line x1='36.4' y1='38.0' x2='26.0' y2='32.0'/><line x1='26.0' y1='32.0' x2='26.0' y2='25.6'/><line x1='36.4' y1='38.0' x2='43.4' y2='35.7'/><line x1='49.5' y1='38.8' x2='53.8' y2='44.8'/><line x1='51.6' y1='37.2' x2='55.9' y2='43.2'/><line x1='54.9' y1='44.0' x2='50.5' y2='50.0'/><line x1='43.4' y1='52.3' x2='36.4' y2='50.0'/><line x1='54.9' y1='44.0' x2='61.3' y2='44.0'/><line x1='47.8' y1='58.3' x2='47.8' y2='60.1'/></g><g fill='currentColor' font-size='7'><text x='15.6' y='40.5' text-anchor='middle'>N</text><text x='26.0' y='58.5' text-anchor='middle'>N</text><text x='47.8' y='36.8' text-anchor='middle'>N</text><text x='47.8' y='56.2' text-anchor='middle'>N*</text><text x='26.0' y='23.5' text-anchor='middle'>NH₂</text><text x='65.9' y='46.5' text-anchor='middle'>H</text><text x='47.8' y='67.2' text-anchor='middle'>H</text></g><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='118.0' y1='32.0' x2='111.6' y2='35.7'/><line x1='107.6' y1='42.6' x2='107.6' y2='50.0'/><line x1='107.0' y1='51.1' x2='113.4' y2='54.8'/><line x1='108.3' y1='48.9' x2='114.7' y2='52.6'/><line x1='122.0' y1='53.7' x2='128.4' y2='50.0'/><line x1='129.7' y1='50.0' x2='129.7' y2='38.0'/><line x1='127.1' y1='50.0' x2='127.1' y2='38.0'/><line x1='128.4' y1='38.0' x2='118.0' y2='32.0'/><line x1='119.3' y1='32.0' x2='119.3' y2='25.6'/><line x1='116.7' y1='32.0' x2='116.7' y2='25.6'/><line x1='103.6' y1='35.7' x2='102.9' y2='35.3'/><line x1='107.6' y1='50.0' x2='101.2' y2='53.7'/><line x1='128.4' y1='38.0' x2='135.4' y2='35.7'/><line x1='141.5' y1='38.8' x2='145.8' y2='44.8'/><line x1='143.6' y1='37.2' x2='147.9' y2='43.2'/><line x1='146.9' y1='44.0' x2='142.5' y2='50.0'/><line x1='135.4' y1='52.3' x2='128.4' y2='50.0'/><line x1='146.9' y1='44.0' x2='153.3' y2='44.0'/><line x1='139.8' y1='58.3' x2='139.8' y2='60.1'/></g><g fill='currentColor' font-size='7'><text x='107.6' y='40.5' text-anchor='middle'>N</text><text x='118.0' y='58.5' text-anchor='middle'>N</text><text x='139.8' y='36.8' text-anchor='middle'>N</text><text x='139.8' y='56.2' text-anchor='middle'>N*</text><text x='118.0' y='23.5' text-anchor='middle'>O</text><text x='98.9' y='35.5' text-anchor='middle'>H</text><text x='97.2' y='58.5' text-anchor='middle'>H₂N</text><text x='157.9' y='46.5' text-anchor='middle'>H</text><text x='139.8' y='67.2' text-anchor='middle'>H</text></g><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='210.0' y1='32.0' x2='203.6' y2='35.7'/><line x1='199.6' y1='42.6' x2='199.6' y2='50.0'/><line x1='199.6' y1='50.0' x2='206.0' y2='53.7'/><line x1='214.0' y1='53.7' x2='220.4' y2='50.0'/><line x1='221.7' y1='50.0' x2='221.7' y2='38.0'/><line x1='219.1' y1='50.0' x2='219.1' y2='38.0'/><line x1='220.4' y1='38.0' x2='210.0' y2='32.0'/><line x1='211.3' y1='32.0' x2='211.3' y2='25.6'/><line x1='208.7' y1='32.0' x2='208.7' y2='25.6'/><line x1='195.6' y1='35.7' x2='194.9' y2='35.3'/><line x1='199.0' y1='48.9' x2='193.4' y2='52.1'/><line x1='200.3' y1='51.1' x2='194.7' y2='54.3'/><line x1='210.0' y1='60.6' x2='210.0' y2='62.4'/><line x1='220.4' y1='50.0' x2='225.1' y2='52.7'/><line x1='220.4' y1='38.0' x2='227.7' y2='33.8'/></g><g fill='currentColor' font-size='7'><text x='199.6' y='40.5' text-anchor='middle'>N</text><text x='210.0' y='58.5' text-anchor='middle'>N*</text><text x='210.0' y='23.5' text-anchor='middle'>O</text><text x='190.9' y='35.5' text-anchor='middle'>H</text><text x='190.1' y='58.0' text-anchor='middle'>O</text><text x='210.0' y='69.5' text-anchor='middle'>H</text><text x='229.1' y='57.5' text-anchor='middle'>H</text><text x='231.7' y='34.0' text-anchor='middle'>CH₃</text></g><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='281.4' y1='30.9' x2='274.9' y2='34.6'/><line x1='282.6' y1='33.1' x2='276.2' y2='36.8'/><line x1='271.6' y1='42.6' x2='271.6' y2='50.0'/><line x1='271.6' y1='50.0' x2='278.0' y2='53.7'/><line x1='286.0' y1='53.7' x2='292.4' y2='50.0'/><line x1='293.7' y1='50.0' x2='293.7' y2='38.0'/><line x1='291.1' y1='50.0' x2='291.1' y2='38.0'/><line x1='292.4' y1='38.0' x2='282.0' y2='32.0'/><line x1='282.0' y1='32.0' x2='282.0' y2='25.6'/><line x1='271.0' y1='48.9' x2='265.4' y2='52.1'/><line x1='272.3' y1='51.1' x2='266.7' y2='54.3'/><line x1='282.0' y1='60.6' x2='282.0' y2='62.4'/><line x1='292.4' y1='50.0' x2='297.1' y2='52.7'/><line x1='292.4' y1='38.0' x2='297.1' y2='35.3'/></g><g fill='currentColor' font-size='7'><text x='271.6' y='40.5' text-anchor='middle'>N</text><text x='282.0' y='58.5' text-anchor='middle'>N*</text><text x='282.0' y='23.5' text-anchor='middle'>NH₂</text><text x='262.1' y='58.0' text-anchor='middle'>O</text><text x='282.0' y='69.5' text-anchor='middle'>H</text><text x='301.1' y='57.5' text-anchor='middle'>H</text><text x='301.1' y='35.5' text-anchor='middle'>H</text></g><g fill='currentColor' font-size='8' font-weight='bold'><text x='30' y='88' text-anchor='middle'>1</text><text x='122' y='88' text-anchor='middle'>2</text><text x='210' y='88' text-anchor='middle'>3</text><text x='282' y='88' text-anchor='middle'>4</text></g></svg>",
+"opts": [
+"1 com 3, 1 com 4, 2 com 3 e 2 com 4",
+"Só 1 com 2 e 3 com 4",
+"1 com 1, 2 com 2, 3 com 3 e 4 com 4",
+"Qualquer par entre as quatro bases"
+],
+"a": 0,
+"d": [
+[
+"Largura constante",
+"Se todo degrau tem o mesmo comprimento, cada par deve ter o mesmo \"tamanho\" total. Compare o tamanho das bases: quantos anéis cada uma tem?",
+""
+]
+],
+"h": [
+"As bases 1 e 2 têm dois anéis (são maiores); 3 e 4 têm um anel só.",
+"Para a largura ser sempre a mesma, cada par junta uma base de dois anéis com uma de um anel.",
+"<b>1–3, 1–4, 2–3 e 2–4</b>."
+]
+},
+{
+"id": "2005-2-qui-07b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2005, 2ª fase, Química, questão 7(b)",
+"r": 1870,
+"tm": 60,
+"ctx": "Na dupla hélice do DNA, segundo as regras de Chargaff, há ligações químicas entre pares das bases mostradas na figura, e os pares são sempre os mesmos. A estrutura pode ser comparada a uma escada espiralada em que <b>o tamanho dos degraus é sempre o mesmo e a largura da escada é perfeitamente constante</b>; cada degrau é um par de bases, e cada base se liga ao corrimão pelo nitrogênio marcado com asterisco. Na natureza só ocorrem duas das combinações em que uma base de dois anéis se liga a uma de um anel (1 com 3 e 2 com 4). O que explica isso, em termos de interações intermoleculares?",
+"fig": "<svg viewBox='0 0 310 92' class='fg' role='img' aria-label='fórmulas estruturais de quatro bases; a base 1 tem dois anéis fundidos, um de seis e um de cinco átomos, com grupo NH2; a base 2 também tem dois anéis fundidos, com um oxigênio em dupla ligação, um N-H e um grupo NH2; a base 3 tem um anel de seis átomos com dois oxigênios em dupla ligação, um N-H e um grupo CH3; a base 4 tem um anel de seis átomos com um oxigênio em dupla ligação e um grupo NH2; em cada base, o nitrogênio marcado com asterisco é o que se liga ao corrimão da escada'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='25.4' y1='30.9' x2='18.9' y2='34.6'/><line x1='26.6' y1='33.1' x2='20.2' y2='36.8'/><line x1='15.6' y1='42.6' x2='15.6' y2='50.0'/><line x1='15.0' y1='51.1' x2='21.4' y2='54.8'/><line x1='16.3' y1='48.9' x2='22.7' y2='52.6'/><line x1='30.0' y1='53.7' x2='36.4' y2='50.0'/><line x1='37.7' y1='50.0' x2='37.7' y2='38.0'/><line x1='35.1' y1='50.0' x2='35.1' y2='38.0'/><line x1='36.4' y1='38.0' x2='26.0' y2='32.0'/><line x1='26.0' y1='32.0' x2='26.0' y2='25.6'/><line x1='36.4' y1='38.0' x2='43.4' y2='35.7'/><line x1='49.5' y1='38.8' x2='53.8' y2='44.8'/><line x1='51.6' y1='37.2' x2='55.9' y2='43.2'/><line x1='54.9' y1='44.0' x2='50.5' y2='50.0'/><line x1='43.4' y1='52.3' x2='36.4' y2='50.0'/><line x1='54.9' y1='44.0' x2='61.3' y2='44.0'/><line x1='47.8' y1='58.3' x2='47.8' y2='60.1'/></g><g fill='currentColor' font-size='7'><text x='15.6' y='40.5' text-anchor='middle'>N</text><text x='26.0' y='58.5' text-anchor='middle'>N</text><text x='47.8' y='36.8' text-anchor='middle'>N</text><text x='47.8' y='56.2' text-anchor='middle'>N*</text><text x='26.0' y='23.5' text-anchor='middle'>NH₂</text><text x='65.9' y='46.5' text-anchor='middle'>H</text><text x='47.8' y='67.2' text-anchor='middle'>H</text></g><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='118.0' y1='32.0' x2='111.6' y2='35.7'/><line x1='107.6' y1='42.6' x2='107.6' y2='50.0'/><line x1='107.0' y1='51.1' x2='113.4' y2='54.8'/><line x1='108.3' y1='48.9' x2='114.7' y2='52.6'/><line x1='122.0' y1='53.7' x2='128.4' y2='50.0'/><line x1='129.7' y1='50.0' x2='129.7' y2='38.0'/><line x1='127.1' y1='50.0' x2='127.1' y2='38.0'/><line x1='128.4' y1='38.0' x2='118.0' y2='32.0'/><line x1='119.3' y1='32.0' x2='119.3' y2='25.6'/><line x1='116.7' y1='32.0' x2='116.7' y2='25.6'/><line x1='103.6' y1='35.7' x2='102.9' y2='35.3'/><line x1='107.6' y1='50.0' x2='101.2' y2='53.7'/><line x1='128.4' y1='38.0' x2='135.4' y2='35.7'/><line x1='141.5' y1='38.8' x2='145.8' y2='44.8'/><line x1='143.6' y1='37.2' x2='147.9' y2='43.2'/><line x1='146.9' y1='44.0' x2='142.5' y2='50.0'/><line x1='135.4' y1='52.3' x2='128.4' y2='50.0'/><line x1='146.9' y1='44.0' x2='153.3' y2='44.0'/><line x1='139.8' y1='58.3' x2='139.8' y2='60.1'/></g><g fill='currentColor' font-size='7'><text x='107.6' y='40.5' text-anchor='middle'>N</text><text x='118.0' y='58.5' text-anchor='middle'>N</text><text x='139.8' y='36.8' text-anchor='middle'>N</text><text x='139.8' y='56.2' text-anchor='middle'>N*</text><text x='118.0' y='23.5' text-anchor='middle'>O</text><text x='98.9' y='35.5' text-anchor='middle'>H</text><text x='97.2' y='58.5' text-anchor='middle'>H₂N</text><text x='157.9' y='46.5' text-anchor='middle'>H</text><text x='139.8' y='67.2' text-anchor='middle'>H</text></g><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='210.0' y1='32.0' x2='203.6' y2='35.7'/><line x1='199.6' y1='42.6' x2='199.6' y2='50.0'/><line x1='199.6' y1='50.0' x2='206.0' y2='53.7'/><line x1='214.0' y1='53.7' x2='220.4' y2='50.0'/><line x1='221.7' y1='50.0' x2='221.7' y2='38.0'/><line x1='219.1' y1='50.0' x2='219.1' y2='38.0'/><line x1='220.4' y1='38.0' x2='210.0' y2='32.0'/><line x1='211.3' y1='32.0' x2='211.3' y2='25.6'/><line x1='208.7' y1='32.0' x2='208.7' y2='25.6'/><line x1='195.6' y1='35.7' x2='194.9' y2='35.3'/><line x1='199.0' y1='48.9' x2='193.4' y2='52.1'/><line x1='200.3' y1='51.1' x2='194.7' y2='54.3'/><line x1='210.0' y1='60.6' x2='210.0' y2='62.4'/><line x1='220.4' y1='50.0' x2='225.1' y2='52.7'/><line x1='220.4' y1='38.0' x2='227.7' y2='33.8'/></g><g fill='currentColor' font-size='7'><text x='199.6' y='40.5' text-anchor='middle'>N</text><text x='210.0' y='58.5' text-anchor='middle'>N*</text><text x='210.0' y='23.5' text-anchor='middle'>O</text><text x='190.9' y='35.5' text-anchor='middle'>H</text><text x='190.1' y='58.0' text-anchor='middle'>O</text><text x='210.0' y='69.5' text-anchor='middle'>H</text><text x='229.1' y='57.5' text-anchor='middle'>H</text><text x='231.7' y='34.0' text-anchor='middle'>CH₃</text></g><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='281.4' y1='30.9' x2='274.9' y2='34.6'/><line x1='282.6' y1='33.1' x2='276.2' y2='36.8'/><line x1='271.6' y1='42.6' x2='271.6' y2='50.0'/><line x1='271.6' y1='50.0' x2='278.0' y2='53.7'/><line x1='286.0' y1='53.7' x2='292.4' y2='50.0'/><line x1='293.7' y1='50.0' x2='293.7' y2='38.0'/><line x1='291.1' y1='50.0' x2='291.1' y2='38.0'/><line x1='292.4' y1='38.0' x2='282.0' y2='32.0'/><line x1='282.0' y1='32.0' x2='282.0' y2='25.6'/><line x1='271.0' y1='48.9' x2='265.4' y2='52.1'/><line x1='272.3' y1='51.1' x2='266.7' y2='54.3'/><line x1='282.0' y1='60.6' x2='282.0' y2='62.4'/><line x1='292.4' y1='50.0' x2='297.1' y2='52.7'/><line x1='292.4' y1='38.0' x2='297.1' y2='35.3'/></g><g fill='currentColor' font-size='7'><text x='271.6' y='40.5' text-anchor='middle'>N</text><text x='282.0' y='58.5' text-anchor='middle'>N*</text><text x='282.0' y='23.5' text-anchor='middle'>NH₂</text><text x='262.1' y='58.0' text-anchor='middle'>O</text><text x='282.0' y='69.5' text-anchor='middle'>H</text><text x='301.1' y='57.5' text-anchor='middle'>H</text><text x='301.1' y='35.5' text-anchor='middle'>H</text></g><g fill='currentColor' font-size='8' font-weight='bold'><text x='30' y='88' text-anchor='middle'>1</text><text x='122' y='88' text-anchor='middle'>2</text><text x='210' y='88' text-anchor='middle'>3</text><text x='282' y='88' text-anchor='middle'>4</text></g></svg>",
+"opts": [
+"O número de ligações de hidrogênio possíveis entre as bases: o par 1–3 forma duas e o par 2–4 forma três, enquanto os outros pares se encaixam mal",
+"Ligações iônicas entre as bases, que só se formam entre cargas opostas",
+"Ligações covalentes entre os nitrogênios marcados com asterisco",
+"Forças de dispersão de London, que são maiores entre bases de mesmo tamanho"
+],
+"a": 0,
+"d": [
+[
+"Ligação de hidrogênio",
+"Forma-se entre um H ligado a N ou O (doador) e um N ou O com par de elétrons livre (aceptor) da outra molécula. O pareamento é favorecido quando doadores e aceptores ficam frente a frente.",
+""
+]
+],
+"h": [
+"Em 1–3 (adenina–timina), doadores e aceptores se alinham em duas ligações de hidrogênio.",
+"Em 2–4 (guanina–citosina), em três. Nos outros pares, eles não se encaixam.",
+"<b>Pelo número de ligações de hidrogênio</b> entre as bases."
+]
+},
+{
+"id": "2005-2-qui-08a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2005, 2ª fase, Química, questão 8(a)",
+"r": 1910,
+"tm": 60,
+"ctx": "O óxido nítrico (NO) é um gás que, produzido por uma célula, regula o funcionamento de outras, um princípio sinalizador em sistemas biológicos (Nobel de Medicina de 1998). Como fármaco, sua produção começa pela reação entre SO₂, ácido nítrico e água, que forma NO e ácido sulfúrico. O NO é vendido em cilindros de 16 L, diluído em N₂, com concentração máxima de 0,08% em massa; um cilindro fornece cerca de 2.400 L de gás a 25 °C e 1 atm. Qual a equação balanceada da reação de produção do NO?",
+"opts": [
+"3 SO₂ + 2 HNO₃ + 2 H₂O → 2 NO + 3 H₂SO₄",
+"SO₂ + HNO₃ + H₂O → NO + H₂SO₄",
+"SO₂ + 2 HNO₃ → 2 NO + H₂SO₄ + O₂",
+"3 SO₂ + 2 HNO₃ → 2 NO + 3 H₂SO₄"
+],
+"a": 0,
+"d": [
+[
+"Oxirredução",
+"S vai de +4 (SO₂) a +6 (H₂SO₄): perde 2 e⁻. N vai de +5 (HNO₃) a +2 (NO): ganha 3 e⁻. Iguale os elétrons trocados.",
+""
+],
+[
+"Acertar H e O",
+"Depois de S e N, use a água para fechar H e O."
+]
+],
+"h": [
+"Elétrons: 3 SO₂ (3 × 2 = 6 e⁻) e 2 HNO₃ (2 × 3 = 6 e⁻) ⟹ 3 H₂SO₄ e 2 NO.",
+"H: 3 H₂SO₄ têm 6 H; 2 HNO₃ dão 2; faltam 4 ⟹ 2 H₂O. O confere: 6 + 6 + 2 = 14 = 2 + 12.",
+"<b>3 SO₂ + 2 HNO₃ + 2 H₂O → 2 NO + 3 H₂SO₄</b>."
+]
+},
+{
+"id": "2005-2-qui-08b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2005, 2ª fase, Química, questão 8(b)",
+"r": 1910,
+"tm": 75,
+"ctx": "O óxido nítrico (NO) é um gás que, produzido por uma célula, regula o funcionamento de outras, um princípio sinalizador em sistemas biológicos (Nobel de Medicina de 1998). Como fármaco, sua produção começa pela reação entre SO₂, ácido nítrico e água, que forma NO e ácido sulfúrico. O NO é vendido em cilindros de 16 L, diluído em N₂, com concentração máxima de 0,08% em massa; um cilindro fornece cerca de 2.400 L de gás a 25 °C e 1 atm. Qual a massa aproximada de NO num cilindro, em gramas? (R = 0,082 atm·L/(K·mol); N = 14; O = 16)",
+"a": 2.2,
+"u": "g",
+"tol": 0.05,
+"d": [
+[
+"Gás ideal",
+"PV = nRT dá o total de mols da mistura (com T em kelvin).",
+""
+],
+[
+"Mistura muito diluída",
+"Quase tudo é N₂ (28 g/mol), e o NO (30 g/mol) tem massa molar parecida: a massa total ≈ n × 28. Depois aplique a porcentagem em massa."
+]
+],
+"h": [
+"n = 1 × 2.400/(0,082 × 298) ≈ 98 mol de gás.",
+"Massa total ≈ 98 × 28 ≈ 2.750 g.",
+"NO: 0,08% × 2.750 ≈ <b>2,2 g</b>."
+]
+},
+{
+"id": "2005-2-qui-09a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2005, 2ª fase, Química, questão 9(a) (adaptada para múltipla escolha; no original, pedia-se o desenho)",
+"r": 1700,
+"tm": 45,
+"ctx": "As plantas sintetizam substâncias voláteis para atrair insetos e animais na polinização e na frutificação. Um exemplo é o 3-penten-2-ol, CH₃–CH(OH)–CH=CH–CH₃, encontrado em manga, morango, pêssego e até no queijo parmesão. O 3-penten-2-ol tem isomeria cis-trans. Como é a forma trans?",
+"opts": [
+"Na dupla C3=C4, os grupos –CH₃ e –CH(OH)CH₃ ficam em lados opostos (cada carbono da dupla com um H)",
+"Na dupla C3=C4, os grupos –CH₃ e –CH(OH)CH₃ ficam do mesmo lado",
+"O –OH e o –CH₃ ficam em lados opostos da ligação simples C2–C3",
+"A dupla passa para C1=C2, com o –OH no lado oposto ao –CH₃"
+],
+"a": 0,
+"d": [
+[
+"Isomeria geométrica",
+"Numa dupla C=C, a rotação é impedida. Se cada carbono da dupla tem dois ligantes diferentes, há duas formas: cis (os grupos maiores do mesmo lado) e trans (em lados opostos).",
+""
+]
+],
+"h": [
+"A dupla está entre C3 e C4; C3 tem H e –CH(OH)CH₃, C4 tem H e –CH₃.",
+"Trans: os dois grupos de carbono em lados opostos da dupla.",
+"<b>–CH₃ e –CH(OH)CH₃ em lados opostos</b> da dupla."
+]
+},
+{
+"id": "2005-2-qui-09b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2005, 2ª fase, Química, questão 9(b)",
+"r": 1740,
+"tm": 45,
+"ctx": "As plantas sintetizam substâncias voláteis para atrair insetos e animais na polinização e na frutificação. Um exemplo é o 3-penten-2-ol, CH₃–CH(OH)–CH=CH–CH₃, encontrado em manga, morango, pêssego e até no queijo parmesão. Que outro tipo de isomeria o 3-penten-2-ol apresenta, e por quê?",
+"opts": [
+"Isomeria óptica: o C2 é assimétrico, ligado a H, OH, CH₃ e –CH=CH–CH₃",
+"Isomeria de função: o C2 está numa dupla ligação",
+"Tautomeria: a molécula é um enol",
+"Isomeria óptica: o C3 é assimétrico"
+],
+"a": 0,
+"d": [
+[
+"Carbono quiral",
+"Um carbono ligado a quatro grupos diferentes é assimétrico e gera dois isômeros ópticos (imagens especulares).",
+""
+]
+],
+"h": [
+"C2 tem: H, OH, CH₃ e –CH=CH–CH₃: quatro grupos diferentes.",
+"C3 e C4 estão na dupla (só três ligantes): não são quirais.",
+"<b>Isomeria óptica</b>, pelo carbono assimétrico C2."
+]
+},
+{
+"id": "2005-2-qui-10a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2005, 2ª fase, Química, questão 10(a)",
+"r": 1830,
+"tm": 60,
+"ctx": "Uma pilha tem dois eletrodos; o anodo é um metal que se oxida: M → Mⁿ⁺ + n e⁻. A capacidade eletroquímica de um eletrodo é a carga teórica produzida por grama de material consumido. Potenciais padrão de redução: Ag⁺/Ag +0,80 V; Ni²⁺/Ni −0,23 V; Cd²⁺/Cd −0,40 V; Cr³⁺/Cr −0,73 V; Zn²⁺/Zn −0,76 V. Massas molares (g/mol): Ag 108; Ni 59; Cd 112; Cr 52; Zn 65. Para todas as pilhas, o catodo é o mesmo e a carga total é fixa; a prioridade é o peso da pilha. Qual metal deve ser escolhido como anodo?",
+"opts": [
+"Crômio: dá mais carga por grama (3 elétrons por 52 g)",
+"Zinco: tem o potencial de redução mais negativo",
+"Prata: tem o maior potencial de redução",
+"Níquel: tem a menor massa molar com íon 2+"
+],
+"a": 0,
+"d": [
+[
+"Carga por grama",
+"Cada mol de metal fornece n mols de elétrons. Elétrons por grama = n/M: quanto maior, mais leve o anodo para a mesma carga.",
+""
+]
+],
+"h": [
+"n/M: Ag 1/108 ≈ 0,009; Ni 2/59 ≈ 0,034; Cd 2/112 ≈ 0,018; Zn 2/65 ≈ 0,031; Cr 3/52 ≈ 0,058.",
+"O maior valor é o do crômio.",
+"<b>Crômio</b>."
+]
+},
+{
+"id": "2005-2-qui-10b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2005, 2ª fase, Química, questão 10(b)",
+"r": 1660,
+"tm": 30,
+"ctx": "Uma pilha tem dois eletrodos; o anodo é um metal que se oxida: M → Mⁿ⁺ + n e⁻. A capacidade eletroquímica de um eletrodo é a carga teórica produzida por grama de material consumido. Potenciais padrão de redução: Ag⁺/Ag +0,80 V; Ni²⁺/Ni −0,23 V; Cd²⁺/Cd −0,40 V; Cr³⁺/Cr −0,73 V; Zn²⁺/Zn −0,76 V. Massas molares (g/mol): Ag 108; Ni 59; Cd 112; Cr 52; Zn 65. Com o mesmo catodo, qual metal deve ser o anodo para que a força eletromotriz da pilha seja a maior possível?",
+"opts": [
+"Zinco: tem o potencial de redução mais negativo",
+"Prata: tem o potencial de redução mais positivo",
+"Crômio: tem o íon de maior carga",
+"Níquel: tem o potencial mais próximo de zero"
+],
+"a": 0,
+"d": [
+[
+"Força eletromotriz",
+"ΔE = E<sub>red</sub>(catodo) − E<sub>red</sub>(anodo). Com o catodo fixo, ΔE é maior quanto mais negativo o E<sub>red</sub> do anodo.",
+""
+]
+],
+"h": [
+"O catodo é fixo: só o anodo muda.",
+"O menor (mais negativo) potencial de redução é o do zinco, −0,76 V: é o que se oxida mais facilmente.",
+"<b>Zinco</b>."
+]
+},
+{
+"id": "2005-2-qui-11a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2005, 2ª fase, Química, questão 11(a)",
+"r": 1960,
+"tm": 90,
+"ctx": "A fibra óptica de quartzo exige sílica de alta pureza, preparada por uma sequência de reações (não balanceadas): I) SiO₂(s) + C(s) → Si(s) + CO₂(g); II) Si(s) + Cl₂(g) → SiCl₄(g); III) SiCl₄(g) + O₂(g) → SiO₂(s) + Cl₂(g). Na obtenção de um tarugo de 300 g de sílica pura, qual a variação de entalpia envolvida, em kJ? Entalpias padrão de formação (kJ/mol): SiO₂(s) = −910; CO₂(g) = −394; SiCl₄(g) = −657. (Si = 28; O = 16)",
+"a": -1970,
+"u": "kJ",
+"tol": 0.01,
+"d": [
+[
+"Somar as etapas (Hess)",
+"Balanceie e some as três equações: o que aparece dos dois lados se cancela.",
+""
+],
+[
+"ΔH da reação global",
+"ΔH = Σ ΔH<sub>f</sub>(produtos) − Σ ΔH<sub>f</sub>(reagentes); substâncias simples têm ΔH<sub>f</sub> = 0."
+]
+],
+"h": [
+"Somando I, II (Si + 2 Cl₂ → SiCl₄) e III (SiCl₄ + O₂ → SiO₂ + 2 Cl₂), sobra C + O₂ → CO₂: ΔH = −394 kJ por mol de SiO₂ purificado.",
+"300 g de SiO₂ = 300/60 = 5 mol.",
+"ΔH = 5 × (−394) = <b>−1.970 kJ</b> (liberados)."
+]
+},
+{
+"id": "2005-2-qui-11b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2005, 2ª fase, Química, questão 11(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "A fibra óptica de quartzo exige sílica de alta pureza, preparada por uma sequência de reações (não balanceadas): I) SiO₂(s) + C(s) → Si(s) + CO₂(g); II) Si(s) + Cl₂(g) → SiCl₄(g); III) SiCl₄(g) + O₂(g) → SiO₂(s) + Cl₂(g). Um tarugo de 300 g de sílica (densidade 2,2 g/cm³) é esticado numa fibra de 0,06 mm de diâmetro. Qual o comprimento da fibra? Use π = 3 e responda em unidades de 10⁴ m.",
+"a": 5,
+"u": "10⁴ m",
+"tol": 0.06,
+"d": [
+[
+"Volume",
+"V = m/d.",
+""
+],
+[
+"Cilindro",
+"V = π·r²·L ⟹ L = V/(π r²). Use as mesmas unidades (cm)."
+]
+],
+"h": [
+"V = 300/2,2 ≈ 136 cm³.",
+"r = 0,03 mm = 0,003 cm: π r² = 3 × 9·10⁻⁶ = 2,7·10⁻⁵ cm².",
+"L ≈ 136/2,7·10⁻⁵ ≈ 5·10⁶ cm = 5·10⁴ m: <b>≈ 5</b> (50 km)."
+]
+},
+{
+"id": "2005-2-qui-12a",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2005, 2ª fase, Química, questão 12(a)",
+"r": 1780,
+"tm": 60,
+"ctx": "Os PCBs (bifenilas policloradas) já foram usados em transformadores, tintas e outros produtos. Muito estáveis e prejudiciais, estão entre os poluentes mais indesejáveis. O gráfico mostra sua degradação em tecidos humanos. Uma pessoa de 70 kg ingere 100 kg por ano de um alimento com 0,3 ppm (mg/kg) de PCBs; o nível letal para o ser humano é 1.300 ppm. Considerando a alimentação como única fonte, esse nível pode ser alcançado ao longo da vida?",
+"fig": "<svg viewBox='0 0 222 140' class='fg' role='img' aria-label='gráfico da concentração de PCBs no tecido humano, em miligramas por quilograma, de 0 a 8, em função do tempo, de 0 a 35 anos: a curva cai de 8 no início para 4 em 10 anos, 2 em 20 anos e 1 em 30 anos'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 2'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='61.0' y1='20.0' x2='61.0' y2='112'/><line x1='86.0' y1='20.0' x2='86.0' y2='112'/><line x1='111.0' y1='20.0' x2='111.0' y2='112'/><line x1='136.0' y1='20.0' x2='136.0' y2='112'/><line x1='161.0' y1='20.0' x2='161.0' y2='112'/><line x1='186.0' y1='20.0' x2='186.0' y2='112'/><line x1='211.0' y1='20.0' x2='211.0' y2='112'/><line x1='36' y1='100.5' x2='211' y2='100.5'/><line x1='36' y1='89.0' x2='211' y2='89.0'/><line x1='36' y1='77.5' x2='211' y2='77.5'/><line x1='36' y1='66.0' x2='211' y2='66.0'/><line x1='36' y1='54.5' x2='211' y2='54.5'/><line x1='36' y1='43.0' x2='211' y2='43.0'/><line x1='36' y1='31.5' x2='211' y2='31.5'/><line x1='36' y1='20.0' x2='211' y2='20.0'/></g></g><line x1='36' y1='112' x2='214' y2='112' stroke-width='1'/><line x1='36' y1='112' x2='36' y2='14' stroke-width='1'/><path d='M36.0,20.0 C37.7,22.0 42.7,28.2 46.0,31.9 C49.3,35.6 52.7,39.0 56.0,42.3 C59.3,45.5 62.7,48.5 66.0,51.3 C69.3,54.1 72.7,56.7 76.0,59.2 C79.3,61.6 82.7,63.9 86.0,66.0 C89.3,68.1 92.7,70.1 96.0,72.0 C99.3,73.8 102.7,75.5 106.0,77.1 C109.3,78.8 112.7,80.2 116.0,81.7 C119.3,83.1 122.7,84.4 126.0,85.6 C129.3,86.8 132.7,87.9 136.0,89.0 C139.3,90.1 142.7,91.0 146.0,92.0 C149.3,92.9 152.7,93.8 156.0,94.6 C159.3,95.4 162.7,96.1 166.0,96.8 C169.3,97.5 172.7,98.2 176.0,98.8 C179.3,99.4 182.7,100.0 186.0,100.5 C189.3,101.0 194.3,101.7 196.0,102.0' stroke-width='1.6'/></g><g fill='currentColor' font-size='7'><text x='36' y='121' text-anchor='middle'>0</text><text x='61' y='121' text-anchor='middle'>5</text><text x='86' y='121' text-anchor='middle'>10</text><text x='111' y='121' text-anchor='middle'>15</text><text x='136' y='121' text-anchor='middle'>20</text><text x='161' y='121' text-anchor='middle'>25</text><text x='186' y='121' text-anchor='middle'>30</text><text x='211' y='121' text-anchor='middle'>35</text><text x='32' y='114.5' text-anchor='end'>0</text><text x='32' y='103.0' text-anchor='end'>1</text><text x='32' y='91.5' text-anchor='end'>2</text><text x='32' y='80.0' text-anchor='end'>3</text><text x='32' y='68.5' text-anchor='end'>4</text><text x='32' y='57.0' text-anchor='end'>5</text><text x='32' y='45.5' text-anchor='end'>6</text><text x='32' y='34.0' text-anchor='end'>7</text><text x='32' y='22.5' text-anchor='end'>8</text><text x='124' y='133' text-anchor='middle' font-size='8'>tempo (anos)</text><text x='9' y='62' text-anchor='middle' font-size='7.5' transform='rotate(-90 9 62)'>PCBs (mg/kg)</text></g></svg>",
+"opts": [
+"Não: mesmo sem eliminação, levaria cerca de 3.000 anos para acumular os 91.000 mg necessários",
+"Sim: em cerca de 30 anos",
+"Sim: em cerca de 300 anos, dentro da vida de uma pessoa",
+"Não: o PCB é eliminado em 10 anos"
+],
+"a": 0,
+"d": [
+[
+"ppm em massa",
+"1 ppm = 1 mg por kg. Quantidade = concentração × massa.",
+""
+],
+[
+"Comparar",
+"Calcule a massa de PCB que torna o corpo letal e o quanto entra por ano."
+]
+],
+"h": [
+"Ingestão: 0,3 mg/kg × 100 kg = 30 mg por ano.",
+"Letal: 1.300 mg/kg × 70 kg = 91.000 mg.",
+"91.000/30 ≈ 3.000 anos: <b>não</b> (e a eliminação tornaria o tempo ainda maior)."
+]
+},
+{
+"id": "2005-2-qui-12b",
+"ano": 2005,
+"fase": 2,
+"s": "qui",
+"t": "q_rad",
+"src": "Unicamp 2005, 2ª fase, Química, questão 12(b)",
+"r": 1910,
+"tm": 60,
+"ctx": "Os PCBs (bifenilas policloradas) já foram usados em transformadores, tintas e outros produtos. Muito estáveis e prejudiciais, estão entre os poluentes mais indesejáveis. O gráfico mostra sua degradação em tecidos humanos. Uma moça de 25 anos descobriu que estava contaminada com 14 ppm de PCBs. Se parar de ingeri-los imediatamente, ela poderia engravidar ao longo da vida sem risco para o feto? O limite seguro é de cerca de 0,2 ppm.",
+"fig": "<svg viewBox='0 0 222 140' class='fg' role='img' aria-label='gráfico da concentração de PCBs no tecido humano, em miligramas por quilograma, de 0 a 8, em função do tempo, de 0 a 35 anos: a curva cai de 8 no início para 4 em 10 anos, 2 em 20 anos e 1 em 30 anos'><g fill='none' stroke='currentColor'><g stroke-dasharray='2 2'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='61.0' y1='20.0' x2='61.0' y2='112'/><line x1='86.0' y1='20.0' x2='86.0' y2='112'/><line x1='111.0' y1='20.0' x2='111.0' y2='112'/><line x1='136.0' y1='20.0' x2='136.0' y2='112'/><line x1='161.0' y1='20.0' x2='161.0' y2='112'/><line x1='186.0' y1='20.0' x2='186.0' y2='112'/><line x1='211.0' y1='20.0' x2='211.0' y2='112'/><line x1='36' y1='100.5' x2='211' y2='100.5'/><line x1='36' y1='89.0' x2='211' y2='89.0'/><line x1='36' y1='77.5' x2='211' y2='77.5'/><line x1='36' y1='66.0' x2='211' y2='66.0'/><line x1='36' y1='54.5' x2='211' y2='54.5'/><line x1='36' y1='43.0' x2='211' y2='43.0'/><line x1='36' y1='31.5' x2='211' y2='31.5'/><line x1='36' y1='20.0' x2='211' y2='20.0'/></g></g><line x1='36' y1='112' x2='214' y2='112' stroke-width='1'/><line x1='36' y1='112' x2='36' y2='14' stroke-width='1'/><path d='M36.0,20.0 C37.7,22.0 42.7,28.2 46.0,31.9 C49.3,35.6 52.7,39.0 56.0,42.3 C59.3,45.5 62.7,48.5 66.0,51.3 C69.3,54.1 72.7,56.7 76.0,59.2 C79.3,61.6 82.7,63.9 86.0,66.0 C89.3,68.1 92.7,70.1 96.0,72.0 C99.3,73.8 102.7,75.5 106.0,77.1 C109.3,78.8 112.7,80.2 116.0,81.7 C119.3,83.1 122.7,84.4 126.0,85.6 C129.3,86.8 132.7,87.9 136.0,89.0 C139.3,90.1 142.7,91.0 146.0,92.0 C149.3,92.9 152.7,93.8 156.0,94.6 C159.3,95.4 162.7,96.1 166.0,96.8 C169.3,97.5 172.7,98.2 176.0,98.8 C179.3,99.4 182.7,100.0 186.0,100.5 C189.3,101.0 194.3,101.7 196.0,102.0' stroke-width='1.6'/></g><g fill='currentColor' font-size='7'><text x='36' y='121' text-anchor='middle'>0</text><text x='61' y='121' text-anchor='middle'>5</text><text x='86' y='121' text-anchor='middle'>10</text><text x='111' y='121' text-anchor='middle'>15</text><text x='136' y='121' text-anchor='middle'>20</text><text x='161' y='121' text-anchor='middle'>25</text><text x='186' y='121' text-anchor='middle'>30</text><text x='211' y='121' text-anchor='middle'>35</text><text x='32' y='114.5' text-anchor='end'>0</text><text x='32' y='103.0' text-anchor='end'>1</text><text x='32' y='91.5' text-anchor='end'>2</text><text x='32' y='80.0' text-anchor='end'>3</text><text x='32' y='68.5' text-anchor='end'>4</text><text x='32' y='57.0' text-anchor='end'>5</text><text x='32' y='45.5' text-anchor='end'>6</text><text x='32' y='34.0' text-anchor='end'>7</text><text x='32' y='22.5' text-anchor='end'>8</text><text x='124' y='133' text-anchor='middle' font-size='8'>tempo (anos)</text><text x='9' y='62' text-anchor='middle' font-size='7.5' transform='rotate(-90 9 62)'>PCBs (mg/kg)</text></g></svg>",
+"opts": [
+"Não: com meia-vida de 10 anos, levaria mais de 60 anos para cair abaixo de 0,2 ppm (ela teria mais de 85 anos)",
+"Sim: em cerca de 10 anos, aos 35 anos",
+"Sim: em cerca de 30 anos, aos 55 anos",
+"Não: o PCB nunca é eliminado do corpo"
+],
+"a": 0,
+"d": [
+[
+"Meia-vida pelo gráfico",
+"Veja quanto tempo a concentração leva para cair à metade (por exemplo, de 8 para 4).",
+""
+],
+[
+"Meias-vidas sucessivas",
+"Divida por 2 a cada meia-vida até ficar abaixo do limite."
+]
+],
+"h": [
+"Pelo gráfico, a meia-vida é 10 anos (8 → 4 → 2 → 1).",
+"14 → 7 → 3,5 → 1,75 → 0,88 → 0,44 → 0,22 → 0,11 ppm: são 7 meias-vidas, mais de 60 anos.",
+"<b>Não</b>: só depois dos 85 anos."
+]
+}
+]

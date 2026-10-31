@@ -1,0 +1,2569 @@
+[
+{
+"id": "2013-1-25",
+"ano": 2013,
+"fase": 1,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 2013, 1ª fase, questão 25",
+"r": 810,
+"tm": 45,
+"ctx": "Na década de 1970, a imprensa veiculava uma propaganda sobre um fertilizante que dizia: “contém N, P, K, mais enxofre.” Pode-se afirmar que o fertilizante em questão continha em sua formulação, respectivamente, os elementos químicos",
+"opts": [
+"nitrogênio, fósforo, potássio e enxofre, cujo símbolo é S.",
+"níquel, potássio, criptônio e enxofre, cujo símbolo é Ex.",
+"nitrogênio, fósforo, potássio e enxofre, cujo símbolo é Ex.",
+"níquel, potássio, cálcio e enxofre, cujo símbolo é S."
+],
+"a": 0,
+"d": [
+[
+"Símbolos químicos",
+"O símbolo vem, em geral, do nome em latim do elemento: a primeira letra maiúscula, às vezes seguida de uma minúscula. Alguns muito usados: N nitrogênio, P fósforo, K potássio (kalium), S enxofre (sulfur), Ni níquel, Ca cálcio, Kr criptônio.",
+"Ex.: Na é sódio (natrium) e Fe é ferro (ferrum)."
+]
+],
+"h": [
+"N = nitrogênio; P = fósforo; K = potássio (do latim kalium).",
+"Enxofre vem do latim sulfur: símbolo S (não existe “Ex”).",
+"Resposta: <b>nitrogênio, fósforo, potássio e enxofre (S)</b>."
+]
+},
+{
+"id": "2013-1-26",
+"ano": 2013,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2013, 1ª fase, questão 26",
+"r": 1290,
+"tm": 60,
+"ctx": "O controle da umidade do solo, através da irrigação, pode contribuir substancialmente para a melhoria de rendimento da produção de algodão no Nordeste do Brasil, permitindo a sua produção, principalmente nas áreas semiáridas da região. No entanto, o uso da irrigação implica necessariamente a acumulação gradativa de sais na superfície do solo, o que pode trazer reflexos negativos sobre a produção agrícola. Desse texto, pode-se inferir que os sais dissolvidos na água da irrigação se acumulam na superfície do solo em função",
+"opts": [
+"da evaporação da água de irrigação e da escassez de chuva no Nordeste.",
+"da rápida filtração da água de irrigação, pois no Nordeste o solo é muito arenoso e as chuvas são escassas.",
+"da sublimação da água de irrigação, após a água se transformar nos gases H₂ e O₂, devido à alta temperatura na superfície.",
+"da sublimação da água de irrigação, associada à escassez de chuva no Nordeste."
+],
+"a": 0,
+"d": [
+[
+"Evaporação de uma solução",
+"Quando a água de uma solução evapora, só a água sai como vapor: o sal dissolvido fica para trás e se concentra.",
+"Ex.: nas salinas, a água do mar evapora e o sal se deposita."
+],
+[
+"Sublimação",
+"Sublimação é a passagem direta do sólido para o gás; não se aplica à água líquida. E mudar de estado não decompõe a água em H₂ e O₂.",
+""
+]
+],
+"h": [
+"A água de irrigação evapora pelo calor do semiárido; os sais não evaporam e ficam na superfície.",
+"Com pouca chuva, nada dissolve e leva esses sais para baixo: eles se acumulam ano após ano.",
+"Resposta: <b>evaporação da água de irrigação e escassez de chuva</b>."
+]
+},
+{
+"id": "2013-1-27",
+"ano": 2013,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2013, 1ª fase, questão 27",
+"r": 1060,
+"tm": 75,
+"ctx": "Como um químico descreve a cerveja? “Um líquido amarelo, homogêneo enquanto a garrafa está fechada, e uma mistura heterogênea quando a garrafa é aberta. Constitui-se de mais de 8.000 substâncias, entre elas o dióxido de carbono, o etanol e a água. Apresenta um pH entre 4,0 e 4,5, e possui um teor de etanol em torno de 4,5 % (v/v).” Sob a perspectiva do químico, a cerveja",
+"opts": [
+"apresenta duas fases logo após a garrafa ser aberta, tem um caráter ácido e contém cerca de 45 mL de álcool etílico por litro de produto.",
+"apresenta uma única fase enquanto a garrafa está fechada, tem um caráter ligeiramente básico e contém cerca de 45 gramas de álcool etílico por litro do produto.",
+"apresenta uma única fase logo após a garrafa ser aberta, tem um caráter ligeiramente ácido e contém cerca de 45 gramas de álcool etílico por litro de produto.",
+"apresenta duas fases quando a garrafa está fechada, tem um caráter ligeiramente básico e contém 45 mL de álcool etílico por 100 mL de produto."
+],
+"a": 0,
+"d": [
+[
+"Fases de uma mistura",
+"Mistura homogênea tem uma só fase; heterogênea tem mais de uma (por exemplo, líquido e bolhas de gás que se separam).",
+""
+],
+[
+"Escala de pH",
+"A 25 °C: pH < 7 é ácido, pH = 7 neutro, pH > 7 básico.",
+""
+],
+[
+"Porcentagem em volume (v/v)",
+"x % (v/v) quer dizer x mL de soluto em 100 mL de solução, ou seja, 10x mL por litro.",
+"Ex.: 12 % (v/v) ⟹ 120 mL por litro."
+]
+],
+"h": [
+"Aberta a garrafa, o CO₂ forma bolhas (gás + líquido): duas fases, mistura heterogênea.",
+"pH entre 4,0 e 4,5 é menor que 7: caráter ácido.",
+"4,5 % (v/v) = 4,5 mL em 100 mL = <b>45 mL de etanol por litro</b>; resposta: duas fases ao abrir, ácida, 45 mL/L."
+]
+},
+{
+"id": "2013-1-28",
+"ano": 2013,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2013, 1ª fase, questão 28",
+"r": 1090,
+"tm": 50,
+"ctx": "Em junho de 2012 ocorreu na cidade do Rio de Janeiro a Conferência Rio+20. Os principais focos de discussão dessa conferência diziam respeito à sustentabilidade do planeta e à poluição da água e do ar. Em relação a esse último aspecto, sabemos que alguns gases são importantes para a vida no planeta. A preocupação com esses gases é justificada, pois, de um modo geral, pode-se afirmar que",
+"opts": [
+"o O₃ está relacionado à radiação ultravioleta, o CH₄ e o CO₂, ao efeito estufa e os NOₓ, à chuva ácida.",
+"o CH₄ e o CO₂ estão relacionados à radiação ultravioleta, o O₃, à chuva ácida e os NOₓ, ao efeito estufa.",
+"o CH₄ está relacionado à radiação ultravioleta, o O₃ e o CO₂, ao efeito estufa e os NOₓ, à chuva ácida.",
+"os NOₓ estão relacionados ao efeito estufa, o CH₄ e o CO₂, à radiação ultravioleta e o O₃, à chuva ácida."
+],
+"a": 0,
+"d": [
+[
+"Três problemas atmosféricos",
+"Camada de ozônio (O₃): filtra a radiação ultravioleta do Sol. Efeito estufa: gases que retêm calor, como CO₂, CH₄ e vapor de água. Chuva ácida: óxidos ácidos, como os de enxofre (SOₓ) e de nitrogênio (NOₓ), que formam ácidos com a água.",
+""
+]
+],
+"h": [
+"O₃ (na estratosfera) absorve a radiação UV.",
+"CH₄ e CO₂ são gases do efeito estufa.",
+"NOₓ formam HNO₃ com a água: chuva ácida. Resposta: <b>O₃ ↔ UV; CH₄ e CO₂ ↔ estufa; NOₓ ↔ chuva ácida</b>."
+]
+},
+{
+"id": "2013-1-29",
+"ano": 2013,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2013, 1ª fase, questão 29",
+"r": 1200,
+"tm": 75,
+"ctx": "Entre os vários íons presentes em 200 mililitros de água de coco há aproximadamente 320 mg de potássio, 40 mg de cálcio e 40 mg de sódio. Assim, ao beber água de coco, uma pessoa ingere quantidades diferentes desses íons, que, em termos de massa, obedecem à sequência: potássio > sódio = cálcio. No entanto, se as quantidades ingeridas fossem expressas em mol, a sequência seria: (massas molares em g/mol: cálcio = 40, potássio = 39 e sódio = 23)",
+"opts": [
+"potássio > sódio > cálcio.",
+"potássio > cálcio = sódio.",
+"cálcio = sódio > potássio.",
+"cálcio > potássio > sódio."
+],
+"a": 0,
+"d": [
+[
+"Quantidade de matéria",
+"n = m/M (massa dividida pela massa molar). Com massas iguais, tem mais mols a espécie de menor massa molar.",
+"Ex.: 10 g de H₂ (M = 2) são 5 mol, e 10 g de O₂ (M = 32) são só 0,31 mol."
+]
+],
+"h": [
+"K: 320 mg ÷ 39 ≈ 8,2 mmol.",
+"Na: 40 ÷ 23 ≈ 1,7 mmol; Ca: 40 ÷ 40 = 1,0 mmol (mesma massa, mas o sódio é mais leve).",
+"Sequência: <b>potássio > sódio > cálcio</b>."
+]
+},
+{
+"id": "2013-1-30",
+"ano": 2013,
+"fase": 1,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2013, 1ª fase, questão 30",
+"r": 1250,
+"tm": 60,
+"ctx": "Uma prática de limpeza comum na cozinha consiste na remoção da gordura de panelas e utensílios como garfos, facas, etc. Na ação desengordurante, geralmente se usa um detergente ou um sabão. Esse tipo de limpeza resulta da ação química desses produtos, dado que suas moléculas possuem",
+"opts": [
+"uma parte apolar, que se liga à gordura, cujas moléculas são apolares; e uma parte com carga, que se liga à água, cuja molécula é polar.",
+"uma parte com carga, que se liga à gordura, cujas moléculas são polares; e uma parte apolar, que se liga à água, cuja molécula é apolar.",
+"uma parte apolar, que se liga à gordura, cujas moléculas são polares; e uma parte com carga, que se liga à água, cuja molécula é apolar.",
+"uma parte com carga, que se liga à gordura, cujas moléculas são apolares; e uma parte apolar, que se liga à água, cuja molécula é polar."
+],
+"a": 0,
+"d": [
+[
+"Semelhante dissolve semelhante",
+"Substâncias polares (ou com carga) interagem bem com polares; apolares, com apolares.",
+""
+],
+[
+"Polaridade de água e gordura",
+"A água é polar (molécula angular, O muito eletronegativo). Gorduras são formadas por longas cadeias de C e H: apolares.",
+""
+]
+],
+"h": [
+"Sabões e detergentes têm uma longa cauda de hidrocarboneto (apolar) e uma cabeça iônica (com carga).",
+"A cauda apolar se liga à gordura apolar; a cabeça com carga interage com a água polar.",
+"Resposta: <b>parte apolar ↔ gordura apolar; parte com carga ↔ água polar</b>."
+]
+},
+{
+"id": "2013-1-31",
+"ano": 2013,
+"fase": 1,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2013, 1ª fase, questão 31",
+"r": 1220,
+"tm": 60,
+"ctx": "O carro elétrico é uma alternativa aos veículos com motor a combustão interna. Qual é a autonomia de um carro elétrico que se desloca a 60 km/h, se a corrente elétrica empregada nesta velocidade é igual a 50 A e a carga máxima armazenada em suas baterias é q = 75 Ah?",
+"opts": [
+"90,0 km.",
+"40,0 km.",
+"62,5 km.",
+"160,0 km."
+],
+"a": 0,
+"d": [
+[
+"Carga e corrente",
+"Corrente é carga por tempo: i = q/Δt ⟹ Δt = q/i. Com q em A·h e i em A, o tempo sai em horas.",
+"Ex.: 20 Ah a 4 A duram 5 h."
+],
+[
+"Distância",
+"Em velocidade constante, d = v·Δt.",
+""
+]
+],
+"h": [
+"Tempo até a bateria esgotar: Δt = 75 Ah ÷ 50 A = 1,5 h.",
+"d = 60 km/h × 1,5 h.",
+"Autonomia: <b>90 km</b>."
+]
+},
+{
+"id": "2013-1-32",
+"ano": 2013,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2013, 1ª fase, questão 32",
+"r": 1290,
+"tm": 75,
+"ctx": "Para fins de registros de recordes mundiais, nas provas de 100 metros rasos não são consideradas as marcas em competições em que houver vento favorável (mesmo sentido do corredor) com velocidade superior a 2 m/s. Sabe-se que, com vento favorável de 2 m/s, o tempo necessário para a conclusão da prova é reduzido em 0,1 s. Se um velocista realiza a prova em 10 s sem vento, qual seria sua velocidade se o vento fosse favorável com velocidade de 2 m/s?",
+"opts": [
+"10,1 m/s.",
+"8,0 m/s.",
+"9,9 m/s.",
+"12,0 m/s."
+],
+"a": 0,
+"d": [
+[
+"Velocidade média",
+"v = Δs/Δt: a mesma distância percorrida em menos tempo significa velocidade maior.",
+"Ex.: 200 m em 25 s ⟹ 8 m/s; em 20 s ⟹ 10 m/s."
+],
+[
+"Leia o efeito do vento",
+"O enunciado não manda somar a velocidade do vento: ele informa o efeito do vento no tempo da prova.",
+""
+]
+],
+"h": [
+"Com o vento, o tempo cai de 10 s para 10 − 0,1 = 9,9 s.",
+"v = 100 m ÷ 9,9 s ≈ 10,1 m/s.",
+"Resposta: <b>10,1 m/s</b> (não 12 m/s: o vento não soma 2 m/s ao corredor)."
+]
+},
+{
+"id": "2013-1-33",
+"ano": 2013,
+"fase": 1,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2013, 1ª fase, questão 33",
+"r": 1310,
+"tm": 75,
+"ctx": "<i>Pressão parcial</i> é a pressão que um gás pertencente a uma mistura teria se o mesmo gás ocupasse sozinho todo o volume disponível. Na temperatura ambiente, quando a umidade relativa do ar é de 100%, a pressão parcial de vapor de água vale 3,0 × 10³ Pa. Nesta situação, qual seria a porcentagem de moléculas de água no ar? (A pressão atmosférica vale 1,0 × 10⁵ Pa. Considere que o ar se comporta como um gás ideal.)",
+"opts": [
+"3%.",
+"100%.",
+"97%.",
+"33%."
+],
+"a": 0,
+"d": [
+[
+"Pressão parcial e fração em mols",
+"Num gás ideal, mesmo volume e temperatura: p = nRT/V, então a pressão é proporcional ao número de moléculas. A pressão parcial de um gás dividida pela pressão total é a fração das moléculas da mistura que são desse gás.",
+"Ex.: p(O₂) = 21 kPa num ar a 100 kPa ⟹ 21% das moléculas são O₂."
+]
+],
+"h": [
+"Fração das moléculas de água = p(água)/p(total).",
+"= 3,0 × 10³ ÷ 1,0 × 10⁵ = 0,03.",
+"Resposta: <b>3%</b> (umidade de 100% não quer dizer ar feito só de água)."
+]
+},
+{
+"id": "2013-1-34",
+"ano": 2013,
+"fase": 1,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2013, 1ª fase, questão 34",
+"r": 1300,
+"tm": 75,
+"ctx": "Um objeto é disposto em frente a uma lente convergente, conforme a figura abaixo (quadriculado de 1 cm). Os focos principais da lente são indicados com a letra F. Pode-se afirmar que a imagem formada pela lente",
+"fig": "<svg viewBox='0 0 136 116' class='fg' role='img' aria-label='quadriculado de 1 cm por 1 cm com o eixo principal na horizontal; uma lente convergente vertical, representada por uma seta dupla de cerca de 8 cm, com os focos F a 2 cm de cada lado; o objeto é uma seta para cima de 2 cm de altura, colocada sobre o eixo a 3 cm à esquerda da lente'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='8.0' y1='14' x2='8.0' y2='104'/><line x1='18.0' y1='14' x2='18.0' y2='104'/><line x1='28.0' y1='14' x2='28.0' y2='104'/><line x1='38.0' y1='14' x2='38.0' y2='104'/><line x1='48.0' y1='14' x2='48.0' y2='104'/><line x1='58.0' y1='14' x2='58.0' y2='104'/><line x1='68.0' y1='14' x2='68.0' y2='104'/><line x1='78.0' y1='14' x2='78.0' y2='104'/><line x1='88.0' y1='14' x2='88.0' y2='104'/><line x1='98.0' y1='14' x2='98.0' y2='104'/><line x1='108.0' y1='14' x2='108.0' y2='104'/><line x1='118.0' y1='14' x2='118.0' y2='104'/><line x1='128.0' y1='14' x2='128.0' y2='104'/><line x1='8' y1='14.0' x2='128' y2='14.0'/><line x1='8' y1='24.0' x2='128' y2='24.0'/><line x1='8' y1='34.0' x2='128' y2='34.0'/><line x1='8' y1='44.0' x2='128' y2='44.0'/><line x1='8' y1='54.0' x2='128' y2='54.0'/><line x1='8' y1='64.0' x2='128' y2='64.0'/><line x1='8' y1='74.0' x2='128' y2='74.0'/><line x1='8' y1='84.0' x2='128' y2='84.0'/><line x1='8' y1='94.0' x2='128' y2='94.0'/><line x1='8' y1='104.0' x2='128' y2='104.0'/></g><g stroke-width='0.8'><line x1='8.0' y1='54.0' x2='128.0' y2='54.0'/></g><g stroke-width='1.6'><line x1='68.0' y1='18.0' x2='68.0' y2='92.0'/><line x1='38.0' y1='54.0' x2='38.0' y2='37.0'/></g></g><g fill='currentColor'><polygon points='68.0,16.0 69.9,20.1 66.1,20.1'/><polygon points='68.0,94.0 66.1,89.9 69.9,89.9'/><polygon points='38.0,34.0 39.9,38.1 36.1,38.1'/><circle cx='48' cy='54' r='1.3'/><circle cx='88' cy='54' r='1.3'/><text x='48.0' y='62.0' text-anchor='middle' font-size='6.5'>F</text><text x='88.0' y='62.0' text-anchor='middle' font-size='6.5'>F</text><text x='71.0' y='11.0' text-anchor='start' font-size='6.5'>lente</text><text x='35.0' y='30.0' text-anchor='end' font-size='6.5'>objeto</text><text x='128.0' y='112.0' text-anchor='end' font-size='5.5'>cada quadrado: 1 cm</text></g></svg>",
+"opts": [
+"é real, invertida e mede 4 cm.",
+"é virtual, direta e fica a 6 cm da lente.",
+"é real, direta e mede 2 cm.",
+"é real, invertida e fica a 3 cm da lente."
+],
+"a": 0,
+"d": [
+[
+"Equação das lentes",
+"1/f = 1/p + 1/p′, com p a distância do objeto à lente e p′ a da imagem; p′ > 0 indica imagem real (do outro lado da lente).",
+"Ex.: f = 10 cm e p = 15 cm ⟹ 1/p′ = 1/10 − 1/15 = 1/30 ⟹ p′ = 30 cm."
+],
+[
+"Aumento",
+"A = i/o = −p′/p. A negativo: imagem invertida; |A| > 1: imagem maior que o objeto.",
+""
+],
+[
+"Leitura do quadriculado",
+"Conte os quadrados: a distância focal, a distância do objeto à lente e a altura do objeto.",
+""
+]
+],
+"h": [
+"Do quadriculado: f = 2 cm, p = 3 cm e altura do objeto o = 2 cm.",
+"1/p′ = 1/2 − 1/3 = 1/6 ⟹ p′ = 6 cm (real); A = −6/3 = −2.",
+"i = −2 × 2 cm: imagem <b>real, invertida e de 4 cm</b>."
+]
+},
+{
+"id": "2013-1-35",
+"ano": 2013,
+"fase": 1,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2013, 1ª fase, questão 35",
+"r": 1400,
+"tm": 50,
+"ctx": "Muitos carros possuem um sistema de segurança para os passageiros chamado <i>airbag</i>. Este sistema consiste em uma bolsa de plástico que é rapidamente inflada quando o carro sofre uma desaceleração brusca, interpondo-se entre o passageiro e o painel do veículo. Em uma colisão, a função do <i>airbag</i> é",
+"opts": [
+"aumentar o intervalo de tempo de colisão entre o passageiro e o carro, reduzindo assim a força recebida pelo passageiro.",
+"aumentar a variação de momento linear do passageiro durante a colisão, reduzindo assim a força recebida pelo passageiro.",
+"diminuir o intervalo de tempo de colisão entre o passageiro e o carro, reduzindo assim a força recebida pelo passageiro.",
+"diminuir o impulso recebido pelo passageiro devido ao choque, reduzindo assim a força recebida pelo passageiro."
+],
+"a": 0,
+"d": [
+[
+"Teorema do impulso",
+"F·Δt = ΔQ (impulso = variação da quantidade de movimento). Para a mesma ΔQ, quanto maior o tempo de contato, menor a força média.",
+"Ex.: pular e flexionar os joelhos ao cair aumenta Δt e reduz a força nas pernas."
+]
+],
+"h": [
+"O passageiro vai da velocidade do carro até parar: ΔQ é a mesma com ou sem airbag (o impulso também).",
+"A bolsa se deforma e alonga a frenagem do corpo: Δt aumenta.",
+"F = ΔQ/Δt diminui: o airbag <b>aumenta o tempo de colisão e reduz a força</b>."
+]
+},
+{
+"id": "2013-1-36",
+"ano": 2013,
+"fase": 1,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2013, 1ª fase, questão 36",
+"r": 1240,
+"tm": 75,
+"ctx": "Um aerogerador, que converte energia eólica em elétrica, tem uma hélice como a representada na figura. A massa do sistema que gira é M = 50 toneladas, e a distância do eixo ao ponto P, chamada de raio de giração, é R = 10 m. A energia cinética do gerador com a hélice em movimento é dada por E = ½·M·V<sub>P</sub>², sendo V<sub>P</sub> o módulo da velocidade do ponto P. Se o período de rotação da hélice é igual a 2 s, qual é a energia cinética do gerador? Considere π = 3.",
+"fig": "<svg viewBox='0 0 124 108' class='fg' role='img' aria-label='aerogerador: torre vertical com uma hélice de três pás no topo; na ponta de uma das pás está o ponto P, a uma distância R do eixo, e a velocidade V P em P é perpendicular à pá'><g fill='none' stroke='currentColor'><g stroke-width='1.6'><line x1='62.0' y1='49.0' x2='62.0' y2='104.0'/></g><polygon points='60.1,48.3 31.4,20.3 63.9,43.7' fill='currentColor' fill-opacity='0.2' stroke-width='0.8'/><polygon points='61.0,43.2 99.6,32.3 63.0,48.8' fill='currentColor' fill-opacity='0.2' stroke-width='0.8'/><polygon points='65.0,46.5 55.1,85.4 59.0,45.5' fill='currentColor' fill-opacity='0.2' stroke-width='0.8'/><circle cx='62' cy='46' r='4' fill='currentColor' fill-opacity='0.7'/><g stroke-width='1'><line x1='31.4' y1='20.3' x2='41.4' y2='3.0'/></g></g><g fill='currentColor'><circle cx='31.4' cy='20.3' r='1.6'/><polygon points='41.4,3.0 41.0,7.0 38.1,5.3'/><text x='28.4' y='17.3' text-anchor='end' font-size='7'>P</text><text x='43.4' y='5.0' text-anchor='start' font-size='7'>V<tspan font-size='5' dy='1.5'>P</tspan></text><text x='49.7' y='42.1' text-anchor='middle' font-size='7'>R</text></g></svg>",
+"opts": [
+"2,250 × 10⁷ J.",
+"6,250 × 10⁵ J.",
+"5,625 × 10⁷ J.",
+"9,000 × 10⁷ J."
+],
+"a": 0,
+"d": [
+[
+"Velocidade num movimento circular uniforme",
+"Numa volta, o ponto percorre 2πR no tempo de um período T: v = 2πR/T.",
+"Ex.: R = 5 m e T = 3 s, com π = 3 ⟹ v = 30/3 = 10 m/s."
+],
+[
+"Unidades",
+"Use M em kg (1 t = 1000 kg) e v em m/s para obter joules.",
+""
+]
+],
+"h": [
+"V<sub>P</sub> = 2πR/T = 2 × 3 × 10/2 = 30 m/s.",
+"E = ½ × 5,0 × 10⁴ kg × (30 m/s)² = 2,5 × 10⁴ × 900.",
+"E = <b>2,25 × 10⁷ J</b>."
+]
+},
+{
+"id": "2013-1-37",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 2013, 1ª fase, questão 37",
+"r": 850,
+"tm": 60,
+"ctx": "A figura mostra a precipitação pluviométrica em milímetros por dia (mm/dia) durante o último verão em Campinas. Se a precipitação ultrapassar 30 mm/dia, há um determinado risco de alagamentos na região. De acordo com o gráfico, quantos dias Campinas teve este risco de alagamento?",
+"fig": "<svg viewBox='0 0 210 112' class='fg' role='img' aria-label='gráfico de barras da precipitação em milímetros por dia em Campinas, de 22 de dezembro a meados de março. O eixo vertical tem marcas em 3,7; 11,2; 18,7; 26,2; 33,7; 41,1; 48,6; 56,1; 63,6 e 71,1. As barras mais altas são: 74 mm em 10 de janeiro, 57,9 mm em 15 de janeiro, 33,4 mm em 17 de janeiro e 36,3 mm em 10 de fevereiro; logo abaixo de 30 mm aparecem 25,6 em 31 de dezembro, 24,5 em 1º de janeiro, 25 em 11 de janeiro, 21 em 25 de fevereiro e 20,2 em 21 de fevereiro; os demais dias têm menos de 20 mm'><g fill='none' stroke='currentColor'><line x1='31.0' y1='92.0' x2='204.20000000000002' y2='92.0' stroke-width='1'/><line x1='31.0' y1='92.0' x2='31.0' y2='10.099999999999994' stroke-width='1'/><line x1='29.0' y1='88.1' x2='31.0' y2='88.1'/><line x1='29.0' y1='80.2' x2='31.0' y2='80.2'/><line x1='29.0' y1='72.4' x2='31.0' y2='72.4'/><line x1='29.0' y1='64.5' x2='31.0' y2='64.5'/><line x1='29.0' y1='56.6' x2='31.0' y2='56.6'/><line x1='29.0' y1='48.8' x2='31.0' y2='48.8'/><line x1='29.0' y1='41.0' x2='31.0' y2='41.0'/><line x1='29.0' y1='33.1' x2='31.0' y2='33.1'/><line x1='29.0' y1='25.2' x2='31.0' y2='25.2'/><line x1='29.0' y1='17.3' x2='31.0' y2='17.3'/><line x1='34.0' y1='92.0' x2='34.0' y2='94.0'/><line x1='56.2' y1='92.0' x2='56.2' y2='94.0'/><line x1='78.4' y1='92.0' x2='78.4' y2='94.0'/><line x1='100.6' y1='92.0' x2='100.6' y2='94.0'/><line x1='122.8' y1='92.0' x2='122.8' y2='94.0'/><line x1='145.0' y1='92.0' x2='145.0' y2='94.0'/><line x1='167.2' y1='92.0' x2='167.2' y2='94.0'/><line x1='189.4' y1='92.0' x2='189.4' y2='94.0'/></g><g fill='currentColor'><rect x='50.1' y='65.1' width='1.2' height='26.9'/><rect x='46.4' y='85.9' width='1.2' height='6.1'/><rect x='51.9' y='66.3' width='1.2' height='25.7'/><rect x='53.8' y='79.4' width='1.2' height='12.6'/><rect x='63.0' y='79.9' width='1.2' height='12.1'/><rect x='64.9' y='82.0' width='1.2' height='10.0'/><rect x='68.6' y='14.3' width='1.2' height='77.7'/><rect x='70.4' y='65.8' width='1.2' height='26.2'/><rect x='72.2' y='86.5' width='1.2' height='5.5'/><rect x='76.0' y='83.4' width='1.2' height='8.6'/><rect x='77.8' y='31.2' width='1.2' height='60.8'/><rect x='79.7' y='85.3' width='1.2' height='6.7'/><rect x='81.5' y='56.9' width='1.2' height='35.1'/><rect x='83.4' y='87.7' width='1.2' height='4.3'/><rect x='85.2' y='78.3' width='1.2' height='13.7'/><rect x='88.9' y='85.7' width='1.2' height='6.3'/><rect x='92.6' y='80.3' width='1.2' height='11.7'/><rect x='94.5' y='89.2' width='1.2' height='2.8'/><rect x='96.3' y='85.1' width='1.2' height='6.9'/><rect x='100.0' y='81.2' width='1.2' height='10.8'/><rect x='125.9' y='53.9' width='1.2' height='38.1'/><rect x='127.8' y='71.2' width='1.2' height='20.8'/><rect x='129.6' y='84.4' width='1.2' height='7.6'/><rect x='133.3' y='85.1' width='1.2' height='6.9'/><rect x='146.3' y='70.8' width='1.2' height='21.2'/><rect x='148.1' y='85.1' width='1.2' height='6.9'/><rect x='150.0' y='74.5' width='1.2' height='17.5'/><rect x='153.7' y='70.0' width='1.2' height='22.1'/><rect x='155.5' y='85.7' width='1.2' height='6.3'/><rect x='164.8' y='81.6' width='1.2' height='10.4'/><rect x='183.2' y='77.1' width='1.2' height='14.9'/><text x='27.0' y='90.1' text-anchor='end' font-size='5.5'>3,7</text><text x='27.0' y='82.2' text-anchor='end' font-size='5.5'>11,2</text><text x='27.0' y='74.4' text-anchor='end' font-size='5.5'>18,7</text><text x='27.0' y='66.5' text-anchor='end' font-size='5.5'>26,2</text><text x='27.0' y='58.6' text-anchor='end' font-size='5.5'>33,7</text><text x='27.0' y='50.8' text-anchor='end' font-size='5.5'>41,1</text><text x='27.0' y='43.0' text-anchor='end' font-size='5.5'>48,6</text><text x='27.0' y='35.1' text-anchor='end' font-size='5.5'>56,1</text><text x='27.0' y='27.2' text-anchor='end' font-size='5.5'>63,6</text><text x='27.0' y='19.3' text-anchor='end' font-size='5.5'>71,1</text><text x='34.0' y='101.0' text-anchor='middle' font-size='5.5'>22/12</text><text x='56.2' y='101.0' text-anchor='middle' font-size='5.5'>03/01</text><text x='78.4' y='101.0' text-anchor='middle' font-size='5.5'>15/01</text><text x='100.6' y='101.0' text-anchor='middle' font-size='5.5'>27/01</text><text x='122.8' y='101.0' text-anchor='middle' font-size='5.5'>08/02</text><text x='145.0' y='101.0' text-anchor='middle' font-size='5.5'>20/02</text><text x='167.2' y='101.0' text-anchor='middle' font-size='5.5'>03/03</text><text x='189.4' y='101.0' text-anchor='middle' font-size='5.5'>15/03</text><text x='119.1' y='110.0' text-anchor='middle' font-size='6.5'>dia</text><text x='7.0' y='52.1' text-anchor='middle' font-size='6.5' transform='rotate(-90 7.0 52.1)'>precipitação (mm/dia)</text></g></svg>",
+"opts": [
+"4 dias.",
+"2 dias.",
+"6 dias.",
+"10 dias."
+],
+"a": 0,
+"d": [
+[
+"Ler um gráfico com marcas fora do padrão",
+"Localize no eixo vertical o valor de referência (30 mm/dia fica entre as marcas 26,2 e 33,7) e trace mentalmente uma linha horizontal nele. Conte só as barras que passam dessa linha.",
+"Ex.: com marcas em 18 e 24, o valor 20 fica um terço acima da marca 18."
+]
+],
+"h": [
+"30 mm/dia fica um pouco abaixo da marca 33,7.",
+"Passam dessa linha: 10/01 (≈ 74), 15/01 (≈ 58), 17/01 (≈ 33) e 10/02 (≈ 36); as barras de 31/12, 01/01 e 11/01 ficam em torno de 25.",
+"Resposta: <b>4 dias</b>."
+]
+},
+{
+"id": "2013-1-38",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2013, 1ª fase, questão 38",
+"r": 980,
+"tm": 45,
+"ctx": "Para repor o teor de sódio no corpo humano, o indivíduo deve ingerir aproximadamente 500 mg de sódio por dia. Considere que determinado refrigerante de 350 mL contém 35 mg de sódio. Ingerindo-se 1.500 mL desse refrigerante em um dia, qual é a porcentagem de sódio consumida em relação às necessidades diárias?",
+"opts": [
+"30%.",
+"45%.",
+"60%.",
+"15%."
+],
+"a": 0,
+"d": [
+[
+"Proporção e porcentagem",
+"Ache a quantidade por unidade (mg por mL), multiplique pelo total consumido e, por fim, divida pela necessidade e multiplique por 100.",
+"Ex.: 20 mg em 200 mL ⟹ 0,1 mg/mL; 600 mL ⟹ 60 mg; 60 de 400 = 15%."
+]
+],
+"h": [
+"Concentração: 35 mg/350 mL = 0,1 mg/mL.",
+"Em 1500 mL: 150 mg de sódio.",
+"150/500 = 0,30 = <b>30%</b>."
+]
+},
+{
+"id": "2013-1-39",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2013, 1ª fase, questão 39",
+"r": 1030,
+"tm": 45,
+"ctx": "Um automóvel foi anunciado com um financiamento “taxa zero” por R$ 24.000,00 (vinte e quatro mil reais), que poderiam ser pagos em doze parcelas iguais e sem entrada. Para efetivar a compra parcelada, no entanto, o consumidor precisaria pagar R$ 720,00 (setecentos e vinte reais) para cobrir despesas do cadastro. Dessa forma, em relação ao valor anunciado, o comprador pagará um acréscimo",
+"opts": [
+"entre 2,5% e 3,5%.",
+"inferior a 2,5%.",
+"entre 3,5% e 4,5%.",
+"superior a 4,5%."
+],
+"a": 0,
+"d": [
+[
+"Acréscimo percentual",
+"Acréscimo % = (valor a mais ÷ valor de referência) × 100.",
+"Ex.: pagar R$ 50 a mais sobre R$ 2.000 é 50/2000 = 2,5%."
+]
+],
+"h": [
+"Valor a mais: R$ 720; referência: R$ 24.000.",
+"720/24 000 = 0,03.",
+"Acréscimo de 3%: <b>entre 2,5% e 3,5%</b>."
+]
+},
+{
+"id": "2013-1-40",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2013, 1ª fase, questão 40",
+"r": 1170,
+"tm": 60,
+"ctx": "Ao decolar, um avião deixa o solo com um ângulo constante de 15°. A 3,8 km da cabeceira da pista existe um morro íngreme. A figura ilustra a decolagem, fora de escala. Podemos concluir que o avião ultrapassa o morro a uma altura, a partir da sua base, de",
+"fig": "<svg viewBox='0 0 200 66' class='fg' role='img' aria-label='decolagem fora de escala: à esquerda, o prédio do aeroporto e a pista; da cabeceira da pista parte a trajetória retilínea do avião, tracejada, inclinada de 15 graus em relação ao chão; à direita há um morro íngreme cuja base está a 3,8 km da cabeceira, medidos na horizontal'><g fill='none' stroke='currentColor'><rect x='6' y='34' width='18' height='8' fill='currentColor' fill-opacity='0.12' stroke-width='0.7'/><g stroke-width='0.9'><line x1='4.0' y1='42.0' x2='196.0' y2='42.0'/></g><g stroke-width='0.8' stroke-dasharray='2.5 1.5'><line x1='40.0' y1='42.0' x2='160.7' y2='9.6'/></g><path d='M61.3,36.3 A22,22 0 0 1 62.0,42.0' stroke-width='0.6'/><path d='M150,42 C158,30 164,14 170,8 C174,12 178,24 184,42' stroke-width='1.1'/><g stroke-width='0.5'><line x1='40.0' y1='50.0' x2='166.0' y2='50.0'/><line x1='40.0' y1='46.0' x2='40.0' y2='54.0'/><line x1='166.0' y1='46.0' x2='166.0' y2='54.0'/></g></g><g fill='currentColor'><polygon points='40.0,50.0 43.2,48.5 43.2,51.5'/><polygon points='166.0,50.0 162.8,51.5 162.8,48.5'/><text x='103.0' y='60.0' text-anchor='middle' font-size='7'>3,8 km</text><text x='66.0' y='39.0' text-anchor='start' font-size='6.5'>15°</text><text x='6.0' y='30.0' text-anchor='start' font-size='6.5'>Aeroporto</text></g></svg>",
+"opts": [
+"3,8 tan(15°) km.",
+"3,8 sen(15°) km.",
+"3,8 cos(15°) km.",
+"3,8 sec(15°) km."
+],
+"a": 0,
+"d": [
+[
+"Razões trigonométricas no triângulo retângulo",
+"sen θ = oposto/hipotenusa; cos θ = adjacente/hipotenusa; tan θ = oposto/adjacente.",
+"Ex.: uma rampa de 30° que avança 10 m na horizontal sobe 10·tan 30° metros."
+]
+],
+"h": [
+"Triângulo retângulo: cateto adjacente ao ângulo de 15° é a distância horizontal, 3,8 km.",
+"A altura do avião sobre a base do morro é o cateto oposto: h = 3,8 · tan 15°.",
+"Resposta: <b>3,8 tan(15°) km</b>."
+]
+},
+{
+"id": "2013-1-41",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2013, 1ª fase, questão 41",
+"r": 1390,
+"tm": 90,
+"ctx": "Uma barra cilíndrica é aquecida a uma temperatura de 740 °C. Em seguida, é exposta a uma corrente de ar a 40 °C. Sabe-se que a temperatura no centro do cilindro varia de acordo com a função T(t) = (T₀ − T<sub>AR</sub>) × 10<sup>−t/12</sup> + T<sub>AR</sub>, sendo t o tempo em minutos, T₀ a temperatura inicial e T<sub>AR</sub> a temperatura do ar. Com essa função, concluímos que o tempo requerido para que a temperatura no centro atinja 140 °C é dado pela seguinte expressão, com o log na base 10:",
+"opts": [
+"12 log(7) minutos.",
+"12[log(7) − 1] minutos.",
+"12[1 − log(7)] minutos.",
+"[1 − log(7)]/12 minutos."
+],
+"a": 0,
+"d": [
+[
+"Isolar a exponencial",
+"Substitua os dados, passe o termo constante para o outro lado e divida, até ficar 10<sup>(expoente)</sup> = número.",
+""
+],
+[
+"Logaritmo para descer o expoente",
+"10<sup>x</sup> = k ⟺ x = log k. Use também log(1/k) = −log k.",
+"Ex.: 10<sup>−t/5</sup> = 1/3 ⟹ −t/5 = −log 3 ⟹ t = 5 log 3."
+]
+],
+"h": [
+"140 = (740 − 40)·10<sup>−t/12</sup> + 40 ⟹ 700·10<sup>−t/12</sup> = 100 ⟹ 10<sup>−t/12</sup> = 1/7.",
+"−t/12 = log(1/7) = −log 7.",
+"t = <b>12 log(7) minutos</b> (≈ 10 min)."
+]
+},
+{
+"id": "2013-1-42",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2013, 1ª fase, questão 42",
+"r": 1400,
+"tm": 120,
+"ctx": "Na figura, ABC e BDE são triângulos isósceles semelhantes de bases 2a e a, respectivamente, e o ângulo CÂB = 30°. Portanto, o comprimento do segmento CE é:",
+"fig": "<svg viewBox='0 0 170 74' class='fg' role='img' aria-label='os pontos A, B e D estão alinhados numa reta horizontal; ABC é um triângulo isósceles de base AB = 2a com vértice C acima; BDE é um triângulo isósceles de base BD = a com vértice E acima; o ângulo CAB mede 30 graus; o segmento CE liga os dois vértices de cima'><g fill='none' stroke='currentColor'><polygon points='10.0,62.0 110.0,62.0 60.0,33.1' fill='currentColor' fill-opacity='0.12' stroke-width='0.9'/><polygon points='110.0,62.0 160.0,62.0 135.0,47.6' fill='currentColor' fill-opacity='0.12' stroke-width='0.9'/><g stroke-width='0.9'><line x1='60.0' y1='33.1' x2='135.0' y2='47.6'/></g><path d='M22.1,55.0 A14,14 0 0 1 24.0,62.0' stroke-width='0.6'/><path d='M100.0,62.0 A10,10 0 0 1 101.3,57.0' stroke-width='0.6'/><path d='M116.9,58.0 A8,8 0 0 1 118.0,62.0' stroke-width='0.6'/><path d='M152.0,62.0 A8,8 0 0 1 153.1,58.0' stroke-width='0.6'/></g><g fill='currentColor'><text x='8.0' y='65.0' text-anchor='end' font-size='7'>A</text><text x='110.0' y='70.0' text-anchor='middle' font-size='7'>B</text><text x='162.0' y='65.0' text-anchor='start' font-size='7'>D</text><text x='60.0' y='30.1' text-anchor='middle' font-size='7'>C</text><text x='136.0' y='44.6' text-anchor='middle' font-size='7'>E</text><text x='60.0' y='70.0' text-anchor='middle' font-size='7'>2a</text><text x='135.0' y='70.0' text-anchor='middle' font-size='7'>a</text><text x='28.0' y='59.0' text-anchor='start' font-size='5.5'>30°</text></g></svg>",
+"opts": [
+"a√(7/3).",
+"a√(5/3).",
+"a√(8/3).",
+"a√2."
+],
+"a": 0,
+"d": [
+[
+"Altura de um triângulo isósceles",
+"Num isósceles, a altura relativa à base cai no ponto médio dela. Com ângulo da base θ, a altura é (metade da base)·tan θ.",
+"Ex.: base 6 e ângulos da base de 45° ⟹ altura 3."
+],
+[
+"Distância entre dois pontos",
+"Ponha a base sobre um eixo e use coordenadas: d² = (Δx)² + (Δy)².",
+""
+]
+],
+"h": [
+"Com A = (0, 0): C = (a, a·tan 30°) = (a, a/√3); como B = (2a, 0) e BD = a, E = (2,5a, a/(2√3)).",
+"Δx = 1,5a e Δy = a/√3 − a/(2√3) = a/(2√3) ⟹ CE² = 2,25a² + a²/12 = 28a²/12 = 7a²/3.",
+"CE = <b>a√(7/3)</b>."
+]
+},
+{
+"id": "2013-1-43",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 2013, 1ª fase, questão 43",
+"r": 1670,
+"tm": 75,
+"ctx": "Para acomodar a crescente quantidade de veículos, estuda-se mudar as placas, atualmente com três letras e quatro algarismos numéricos (por exemplo, ABC 1234), para quatro letras e três algarismos numéricos (por exemplo, ABCD 123). Considere o alfabeto com 26 letras e os algarismos de 0 a 9. O aumento obtido com essa modificação em relação ao número máximo de placas em vigor seria",
+"opts": [
+"inferior ao dobro.",
+"superior ao dobro e inferior ao triplo.",
+"superior ao triplo e inferior ao quádruplo.",
+"mais que o quádruplo."
+],
+"a": 0,
+"d": [
+[
+"Princípio multiplicativo",
+"O número de placas é o produto das possibilidades de cada posição: 26 para cada letra e 10 para cada algarismo.",
+"Ex.: 2 letras e 1 algarismo ⟹ 26 × 26 × 10 = 6760 placas."
+],
+[
+"Aumento × novo total",
+"O aumento é (novo − atual), não o novo total. Compare (novo − atual) com o atual.",
+""
+]
+],
+"h": [
+"Atual: 26³ × 10⁴. Novo: 26⁴ × 10³.",
+"Novo/atual = 26/10 = 2,6 ⟹ aumento = novo − atual = 1,6 × atual.",
+"1,6 vez o número atual: <b>inferior ao dobro</b> (o novo total é 2,6 vezes o atual, mas a pergunta é sobre o aumento)."
+]
+},
+{
+"id": "2013-1-44",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2013, 1ª fase, questão 44",
+"r": 1390,
+"tm": 120,
+"ctx": "A embalagem de certo produto alimentício, em formato de cilindro circular, será alterada para acomodar um novo rótulo com informações nutricionais mais completas. Mantendo o mesmo volume da embalagem, a sua <i>área lateral</i> precisa ser aumentada. Porém, por restrições de custo do material utilizado, este aumento da área lateral não deve ultrapassar 25%. Sejam r e h o raio e a altura da embalagem original, e R e H o raio e a altura da embalagem alterada. Nessas condições podemos afirmar que:",
+"opts": [
+"R/r ≥ 4/5 e H/h ≤ 25/16.",
+"R/r ≥ 3/4 e H/h ≤ 16/9.",
+"R/r ≥ 9/16 e H/h ≤ 4/3.",
+"R/r ≥ 16/25 e H/h ≤ 5/4."
+],
+"a": 0,
+"d": [
+[
+"Volume e área lateral do cilindro",
+"V = πr²h; área lateral = 2πrh.",
+""
+],
+[
+"Duas condições, duas razões",
+"Escreva a igualdade dos volumes para tirar H/h em função de R/r e substitua na desigualdade das áreas laterais.",
+"Ex.: se πR²H = πr²h, então H/h = (r/R)²."
+]
+],
+"h": [
+"Volumes iguais: R²H = r²h ⟹ H/h = (r/R)².",
+"Área: 2πRH ≤ 1,25 × 2πrh ⟹ (R/r)(H/h) ≤ 5/4 ⟹ (R/r)(r/R)² = r/R ≤ 5/4 ⟹ R/r ≥ 4/5.",
+"Daí H/h = (r/R)² ≤ (5/4)² = 25/16: <b>R/r ≥ 4/5 e H/h ≤ 25/16</b>."
+]
+},
+{
+"id": "2013-1-45",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2013, 1ª fase, questão 45",
+"r": 1370,
+"tm": 120,
+"ctx": "Em um aparelho experimental, um feixe <i>laser</i> emitido no ponto P reflete internamente três vezes e chega ao ponto Q, percorrendo o trajeto PFGHQ. Na figura, considere que o comprimento do segmento PB é de 6 cm, o do lado AB é de 3 cm, o polígono ABPQ é um retângulo e os ângulos de incidência e reflexão são congruentes, como se indica em cada ponto da reflexão interna. Qual é a distância total percorrida pelo feixe luminoso no trajeto PFGHQ?",
+"fig": "<svg viewBox='0 0 144 82' class='fg' role='img' aria-label='retângulo com B no canto superior esquerdo, P no canto superior direito, Q no canto inferior direito e A no canto inferior esquerdo; o feixe sai de P, desce até F no lado de baixo, sobe até G no lado esquerdo, sobe até H no lado de cima e desce até Q; em F, G e H os ângulos de incidência e de reflexão estão marcados como iguais'><g fill='none' stroke='currentColor'><rect x='12' y='10' width='120' height='60' fill='currentColor' fill-opacity='0.06' stroke-width='0.9'/><g stroke-width='1.1'><polyline points='132.0,10.0 52.0,70.0 12.0,40.0 52.0,10.0 132.0,70.0'/></g><path d='M46.0,70.0 A6,6 0 0 1 47.2,66.4' stroke-width='0.5'/><path d='M56.8,66.4 A6,6 0 0 1 58.0,70.0' stroke-width='0.5'/><path d='M12.0,34.0 A6,6 0 0 1 16.8,36.4' stroke-width='0.5'/><path d='M16.8,43.6 A6,6 0 0 1 12.0,46.0' stroke-width='0.5'/><path d='M58.0,10.0 A6,6 0 0 1 56.8,13.6' stroke-width='0.5'/><path d='M47.2,13.6 A6,6 0 0 1 46.0,10.0' stroke-width='0.5'/></g><g fill='currentColor'><polygon points='92.0,40.0 93.7,36.9 95.4,39.3'/><polygon points='32.0,55.0 35.4,55.7 33.7,58.1'/><polygon points='32.0,25.0 30.3,28.1 28.6,25.7'/><polygon points='92.0,40.0 88.6,39.3 90.3,36.9'/><text x='10.0' y='8.0' text-anchor='end' font-size='7'>B</text><text x='134.0' y='8.0' text-anchor='start' font-size='7'>P</text><text x='134.0' y='78.0' text-anchor='start' font-size='7'>Q</text><text x='10.0' y='78.0' text-anchor='end' font-size='7'>A</text><text x='52.0' y='78.0' text-anchor='middle' font-size='7'>F</text><text x='9.0' y='42.0' text-anchor='end' font-size='7'>G</text><text x='52.0' y='7.0' text-anchor='middle' font-size='7'>H</text></g></svg>",
+"opts": [
+"15 cm.",
+"12 cm.",
+"16 cm.",
+"18 cm."
+],
+"a": 0,
+"d": [
+[
+"Rebater as reflexões",
+"Com ângulos de incidência e reflexão iguais, cada trecho depois de uma reflexão pode ser espelhado na parede: o trajeto vira um único segmento reto, de mesmo comprimento.",
+"Ex.: uma bola que vai da tabela de cima para a de baixo e volta percorre o mesmo que uma reta que atravessa duas “cópias” da mesa."
+],
+[
+"Somar deslocamentos",
+"No trajeto rebatido, some todo o deslocamento horizontal e todo o vertical e aplique Pitágoras.",
+""
+]
+],
+"h": [
+"Vertical: P (em cima) desce 3 até F, sobe 3 de F a H passando por G, desce 3 até Q: total 9 cm.",
+"Horizontal: de P (x = 6) até o lado AB (x = 0) e de volta até Q (x = 6): total 12 cm.",
+"Comprimento = √(9² + 12²) = √225 = <b>15 cm</b>."
+]
+},
+{
+"id": "2013-1-46",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2013, 1ª fase, questão 46",
+"r": 1430,
+"tm": 120,
+"ctx": "Sejam r, s e t as raízes do polinômio p(x) = x³ + ax² + bx + (b/a)³, em que a e b são constantes reais não nulas. Se s² = rt, então a soma de r + t é igual a",
+"opts": [
+"b/a − a.",
+"b/a + a.",
+"−b/a − a.",
+"a − b/a."
+],
+"a": 0,
+"d": [
+[
+"Relações de Girard (grau 3)",
+"Para x³ + ax² + bx + c com raízes r, s, t: r + s + t = −a; rs + rt + st = b; rst = −c.",
+"Ex.: x³ − 6x² + 11x − 6 tem raízes 1, 2, 3: soma 6, produto 6."
+],
+[
+"Usar a condição dada",
+"Troque rt por s² no produto das raízes para descobrir s.",
+""
+]
+],
+"h": [
+"rst = −(b/a)³ e rt = s² ⟹ s³ = −(b/a)³ ⟹ s = −b/a.",
+"r + s + t = −a ⟹ r + t = −a − s = −a + b/a.",
+"r + t = <b>b/a − a</b>."
+]
+},
+{
+"id": "2013-1-47",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2013, 1ª fase, questão 47",
+"r": 1420,
+"tm": 90,
+"ctx": "O segmento AB é o diâmetro de um semicírculo e a base de um triângulo isósceles ABC, conforme a figura. Denotando as áreas das regiões semicircular e triangular, respectivamente, por S(φ) e T(φ), podemos afirmar que a razão S(φ)/T(φ), quando φ = π/2 radianos, é",
+"fig": "<svg viewBox='0 0 140 124' class='fg' role='img' aria-label='semicírculo de diâmetro AB desenhado acima do segmento AB; abaixo de AB, o triângulo isósceles ABC, sombreado, com vértice C embaixo e ângulo phi no vértice C'><g fill='none' stroke='currentColor'><path d='M30,40 A40,40 0 0 1 110,40' stroke-width='0.9'/><polygon points='30,40 110,40 70,110' fill='currentColor' fill-opacity='0.14' stroke-width='0.9'/><path d='M64.0,99.6 A12,12 0 0 1 76.0,99.6' stroke-width='0.6'/></g><g fill='currentColor'><circle cx='30' cy='40' r='1.5'/><circle cx='110' cy='40' r='1.5'/><circle cx='70' cy='110' r='1.5'/><text x='27.0' y='40.0' text-anchor='end' font-size='7'>A</text><text x='113.0' y='40.0' text-anchor='start' font-size='7'>B</text><text x='70.0' y='120.0' text-anchor='middle' font-size='7'>C</text><text x='70.0' y='94.0' text-anchor='middle' font-size='7'>φ</text></g></svg>",
+"opts": [
+"π/2.",
+"2π.",
+"π.",
+"π/4."
+],
+"a": 0,
+"d": [
+[
+"Altura do isósceles a partir do ângulo do vértice",
+"A altura relativa à base divide o ângulo do vértice ao meio: tan(φ/2) = (metade da base)/altura.",
+"Ex.: φ = 60° e base 2 ⟹ altura = 1/tan 30° = √3."
+],
+[
+"Áreas",
+"Semicírculo de raio r: πr²/2. Triângulo: base × altura/2.",
+""
+]
+],
+"h": [
+"Seja r o raio: AB = 2r. Com φ = 90°, φ/2 = 45° ⟹ altura = r/tan 45° = r.",
+"T = 2r × r/2 = r²; S = πr²/2.",
+"S/T = <b>π/2</b>."
+]
+},
+{
+"id": "2013-1-48",
+"ano": 2013,
+"fase": 1,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2013, 1ª fase, questão 48",
+"r": 1430,
+"tm": 60,
+"ctx": "Chamamos de unidade imaginária e denotamos por i o número complexo tal que i² = −1. Então i⁰ + i¹ + i² + i³ + ⋯ + i²⁰¹³ vale",
+"opts": [
+"1 + i.",
+"0.",
+"1.",
+"i."
+],
+"a": 0,
+"d": [
+[
+"Potências de i",
+"As potências de i se repetem de 4 em 4: i⁰ = 1, i¹ = i, i² = −1, i³ = −i; e i⁰ + i¹ + i² + i³ = 0. Para iⁿ, use o resto de n por 4.",
+"Ex.: i¹⁰ = i² = −1, pois 10 deixa resto 2 na divisão por 4."
+]
+],
+"h": [
+"De i⁰ a i²⁰¹³ são 2014 parcelas; 2012 delas formam 503 blocos de 4, cada um com soma 0.",
+"Sobram i²⁰¹² + i²⁰¹³ = i⁰ + i¹ (restos 0 e 1).",
+"Soma = <b>1 + i</b>."
+]
+},
+{
+"id": "2013-2-mat-13a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 13(a)",
+"r": 1320,
+"tm": 50,
+"ctx": "Em 14 de outubro de 2012, Felix Baumgartner quebrou o recorde de velocidade em queda livre. O salto foi monitorado oficialmente e os valores obtidos estão expressos de modo aproximado na tabela e no gráfico.<br>Tempo (s): 0, 1, 2, 3, 4<br>Velocidade (km/h): 0, 35, 70, 105, 140<br>Supondo que a velocidade continuasse variando de acordo com os dados da tabela, encontre o valor da velocidade, em km/h, no 30º segundo.",
+"a": 1050,
+"u": "km/h",
+"tol": 0.005,
+"d": [
+[
+"Progressão aritmética",
+"Se a cada segundo a velocidade aumenta a mesma quantidade r, então v(t) = v₀ + r·t (termo geral da PA).",
+"Ex.: 0, 12, 24, 36… ⟹ no 10º segundo, 12 × 10 = 120."
+]
+],
+"h": [
+"A tabela cresce 35 km/h por segundo, a partir de 0: PA de razão 35.",
+"v(30) = 0 + 35 × 30.",
+"v = <b>1050 km/h</b>."
+]
+},
+{
+"id": "2013-2-mat-13b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 13(b) (adaptada para múltipla escolha)",
+"r": 1460,
+"tm": 60,
+"ctx": "Em 14 de outubro de 2012, Felix Baumgartner quebrou o recorde de velocidade em queda livre. O salto foi monitorado oficialmente e os valores obtidos estão expressos de modo aproximado na tabela e no gráfico. Com base no gráfico, determine o valor aproximado da velocidade máxima atingida e o tempo, em segundos, em que Felix superou a velocidade do som. Considere a velocidade do som igual a 1.100 km/h.",
+"fig": "<svg viewBox='0 0 180 118' class='fg' role='img' aria-label='gráfico da velocidade V, em km/h, em função do tempo t, em segundos, de 0 a 540 s: a velocidade sobe rapidamente de 0, passa por 1100 km/h por volta de 40 s e atinge o máximo de cerca de 1330 km/h perto de 55 s; depois cai devagar até cerca de 815 km/h em 260 s, quando despenca para perto de 100 km/h em 350 s e tende a quase zero até 540 s'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40.2' y1='100.0' x2='40.2' y2='7.200000000000003'/><line x1='56.4' y1='100.0' x2='56.4' y2='7.200000000000003'/><line x1='72.6' y1='100.0' x2='72.6' y2='7.200000000000003'/><line x1='88.8' y1='100.0' x2='88.8' y2='7.200000000000003'/><line x1='105.0' y1='100.0' x2='105.0' y2='7.200000000000003'/><line x1='121.2' y1='100.0' x2='121.2' y2='7.200000000000003'/><line x1='137.4' y1='100.0' x2='137.4' y2='7.200000000000003'/><line x1='153.6' y1='100.0' x2='153.6' y2='7.200000000000003'/><line x1='169.8' y1='100.0' x2='169.8' y2='7.200000000000003'/><line x1='24.0' y1='87.2' x2='169.8' y2='87.2'/><line x1='24.0' y1='74.4' x2='169.8' y2='74.4'/><line x1='24.0' y1='61.6' x2='169.8' y2='61.6'/><line x1='24.0' y1='48.8' x2='169.8' y2='48.8'/><line x1='24.0' y1='36.0' x2='169.8' y2='36.0'/><line x1='24.0' y1='23.2' x2='169.8' y2='23.2'/><line x1='24.0' y1='10.4' x2='169.8' y2='10.4'/></g><line x1='24.0' y1='100.0' x2='175.20000000000002' y2='100.0' stroke-width='1'/><line x1='24.0' y1='100.0' x2='24.0' y2='5.280000000000001' stroke-width='1'/><g stroke-width='1.3'><path d='M24.0,100.0 C24.4,96.3 25.8,84.9 26.7,77.6 C27.6,70.3 28.5,62.7 29.4,56.5 C30.3,50.3 31.2,45.2 32.1,40.5 C33.0,35.8 33.9,31.9 34.8,28.3 C35.7,24.7 36.8,21.0 37.5,18.7 C38.2,16.5 38.9,15.5 39.1,14.9'/><path d='M39.1,14.9 C41.1,16.3 46.8,20.7 51.0,23.5 C55.2,26.3 60.0,29.2 64.5,31.8 C69.0,34.5 73.0,36.5 78.0,39.2 C83.0,41.9 91.5,46.4 94.2,47.8'/><path d='M94.2,47.8 C94.6,49.9 95.5,56.4 96.4,60.3 C97.3,64.2 98.4,68.0 99.6,71.2 C100.8,74.4 102.1,76.9 103.7,79.5 C105.2,82.2 107.0,85.0 109.1,87.2 C111.1,89.4 113.3,91.1 115.8,92.6 C118.3,94.1 120.3,95.2 123.9,96.2 C127.5,97.1 132.4,97.9 137.4,98.4 C142.4,98.9 148.2,99.1 153.6,99.4 C159.0,99.6 167.1,99.6 169.8,99.7'/></g></g><g fill='currentColor'><text x='24.0' y='107.0' text-anchor='middle' font-size='5.5'>0</text><text x='40.2' y='107.0' text-anchor='middle' font-size='5.5'>60</text><text x='56.4' y='107.0' text-anchor='middle' font-size='5.5'>120</text><text x='72.6' y='107.0' text-anchor='middle' font-size='5.5'>180</text><text x='88.8' y='107.0' text-anchor='middle' font-size='5.5'>240</text><text x='105.0' y='107.0' text-anchor='middle' font-size='5.5'>300</text><text x='121.2' y='107.0' text-anchor='middle' font-size='5.5'>360</text><text x='137.4' y='107.0' text-anchor='middle' font-size='5.5'>420</text><text x='153.6' y='107.0' text-anchor='middle' font-size='5.5'>480</text><text x='169.8' y='107.0' text-anchor='middle' font-size='5.5'>540</text><text x='22.0' y='102.0' text-anchor='end' font-size='5.5'>0</text><text x='22.0' y='89.2' text-anchor='end' font-size='5.5'>200</text><text x='22.0' y='76.4' text-anchor='end' font-size='5.5'>400</text><text x='22.0' y='63.6' text-anchor='end' font-size='5.5'>600</text><text x='22.0' y='50.8' text-anchor='end' font-size='5.5'>800</text><text x='22.0' y='38.0' text-anchor='end' font-size='5.5'>1000</text><text x='22.0' y='25.2' text-anchor='end' font-size='5.5'>1200</text><text x='22.0' y='12.4' text-anchor='end' font-size='5.5'>1400</text><text x='175.2' y='97.0' text-anchor='end' font-size='6'>t (s)</text><text x='27.0' y='5.0' text-anchor='start' font-size='6'>V (km/h)</text></g></svg>",
+"opts": [
+"Máxima de pouco mais de 1300 km/h; superou a velocidade do som por volta de 40 a 45 s.",
+"Máxima de 1100 km/h; superou a velocidade do som por volta de 45 s.",
+"Máxima de pouco mais de 1300 km/h; superou a velocidade do som por volta de 260 s.",
+"Máxima de 1400 km/h; superou a velocidade do som por volta de 60 s."
+],
+"a": 0,
+"d": [
+[
+"Ler máximo e cruzamento num gráfico",
+"O máximo é o ponto mais alto da curva (leia sua altura no eixo vertical). O instante em que a curva passa de um valor é onde ela cruza a reta horizontal desse valor (leia no eixo horizontal).",
+""
+]
+],
+"h": [
+"O pico da curva fica um pouco acima da linha de 1200 e abaixo de 1400: pouco mais de 1300 km/h.",
+"A reta V = 1100 km/h (metade entre 1000 e 1200) é cruzada na subida, antes de 60 s: por volta de 40 a 45 s.",
+"Resposta: <b>cerca de 1300 km/h; velocidade do som superada por volta de 40–45 s</b>."
+]
+},
+{
+"id": "2013-2-mat-14a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 14(a)",
+"r": 1530,
+"tm": 60,
+"ctx": "Os lados do triângulo ABC da figura têm as seguintes medidas: AB = 20, BC = 15 e AC = 10. Sobre o lado BC marca-se um ponto D tal que BD = 3 e traça-se o segmento DE paralelo ao lado AC (com E sobre AB). Ache a razão H/h entre a altura H do triângulo ABC relativa ao lado AC e a altura h do triângulo EBD relativa ao lado ED.",
+"fig": "<svg viewBox='0 0 112 112' class='fg' role='img' aria-label='triângulo ABC obtusângulo em C, com AC = 10 na horizontal embaixo, CB = 15 e AB = 20; B fica acima e à direita de C; a altura H relativa ao lado AC cai fora do triângulo, no ponto G do prolongamento de AC, com ângulo reto em G; perto de B, o ponto D sobre BC e o ponto E sobre AB formam o segmento DE paralelo a AC'><g fill='none' stroke='currentColor'><polygon points='10.0,100.0 70.0,100.0 92.5,12.9' fill='currentColor' fill-opacity='0.12' stroke-width='1'/><g stroke-width='0.6'><line x1='4.0' y1='100.0' x2='106.0' y2='100.0'/></g><g stroke-width='0.7' stroke-dasharray='2 1.5'><line x1='92.5' y1='12.9' x2='92.5' y2='100.0'/></g><g stroke-width='0.9'><line x1='88.0' y1='30.3' x2='76.0' y2='30.3'/></g><polyline points='87.5,100.0 87.5,95.0 92.5,95.0' stroke-width='0.5'/></g><g fill='currentColor'><circle cx='10.0' cy='100.0' r='1.3'/><circle cx='70.0' cy='100.0' r='1.3'/><circle cx='92.5' cy='100.0' r='1.3'/><circle cx='92.5' cy='12.9' r='1.3'/><circle cx='88.0' cy='30.3' r='1.3'/><circle cx='76.0' cy='30.3' r='1.3'/><text x='10.0' y='108.0' text-anchor='middle' font-size='7'>A</text><text x='70.0' y='108.0' text-anchor='middle' font-size='7'>C</text><text x='93.5' y='108.0' text-anchor='middle' font-size='7'>G</text><text x='92.5' y='9.9' text-anchor='middle' font-size='7'>B</text><text x='86.0' y='38.3' text-anchor='end' font-size='6.5'>D</text><text x='73.0' y='29.3' text-anchor='end' font-size='6.5'>E</text><text x='40.0' y='96.0' text-anchor='middle' font-size='6.5'>10</text><text x='44.0' y='56.0' text-anchor='end' font-size='6.5'>20</text><text x='76.0' y='66.0' text-anchor='end' font-size='6.5'>15</text><text x='95.5' y='56.0' text-anchor='start' font-size='7'>H</text></g></svg>",
+"a": 5,
+"tol": 0.005,
+"d": [
+[
+"Paralela a um lado gera triângulos semelhantes",
+"Uma reta paralela a um lado de um triângulo corta um triângulo menor semelhante ao original. Em triângulos semelhantes, todas as medidas lineares correspondentes (lados, alturas) estão na mesma razão.",
+"Ex.: se os lados correspondentes medem 12 e 4, as alturas correspondentes estão na razão 3."
+]
+],
+"h": [
+"DE ∥ AC ⟹ EBD ~ ABC, com BD correspondendo a BC.",
+"Razão de semelhança: BC/BD = 15/3 = 5.",
+"H/h = <b>5</b>."
+]
+},
+{
+"id": "2013-2-mat-14b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 14(b) (adaptada para múltipla escolha)",
+"r": 1930,
+"tm": 120,
+"ctx": "Os lados do triângulo ABC da figura têm as seguintes medidas: AB = 20, BC = 15 e AC = 10. Calcule o valor explícito da altura do triângulo ABC em relação ao lado AC.",
+"fig": "<svg viewBox='0 0 112 112' class='fg' role='img' aria-label='triângulo ABC obtusângulo em C, com AC = 10 na horizontal embaixo, CB = 15 e AB = 20; B fica acima e à direita de C; a altura H relativa ao lado AC cai fora do triângulo, no ponto G do prolongamento de AC, com ângulo reto em G; perto de B, o ponto D sobre BC e o ponto E sobre AB formam o segmento DE paralelo a AC'><g fill='none' stroke='currentColor'><polygon points='10.0,100.0 70.0,100.0 92.5,12.9' fill='currentColor' fill-opacity='0.12' stroke-width='1'/><g stroke-width='0.6'><line x1='4.0' y1='100.0' x2='106.0' y2='100.0'/></g><g stroke-width='0.7' stroke-dasharray='2 1.5'><line x1='92.5' y1='12.9' x2='92.5' y2='100.0'/></g><g stroke-width='0.9'><line x1='88.0' y1='30.3' x2='76.0' y2='30.3'/></g><polyline points='87.5,100.0 87.5,95.0 92.5,95.0' stroke-width='0.5'/></g><g fill='currentColor'><circle cx='10.0' cy='100.0' r='1.3'/><circle cx='70.0' cy='100.0' r='1.3'/><circle cx='92.5' cy='100.0' r='1.3'/><circle cx='92.5' cy='12.9' r='1.3'/><circle cx='88.0' cy='30.3' r='1.3'/><circle cx='76.0' cy='30.3' r='1.3'/><text x='10.0' y='108.0' text-anchor='middle' font-size='7'>A</text><text x='70.0' y='108.0' text-anchor='middle' font-size='7'>C</text><text x='93.5' y='108.0' text-anchor='middle' font-size='7'>G</text><text x='92.5' y='9.9' text-anchor='middle' font-size='7'>B</text><text x='86.0' y='38.3' text-anchor='end' font-size='6.5'>D</text><text x='73.0' y='29.3' text-anchor='end' font-size='6.5'>E</text><text x='40.0' y='96.0' text-anchor='middle' font-size='6.5'>10</text><text x='44.0' y='56.0' text-anchor='end' font-size='6.5'>20</text><text x='76.0' y='66.0' text-anchor='end' font-size='6.5'>15</text><text x='95.5' y='56.0' text-anchor='start' font-size='7'>H</text></g></svg>",
+"opts": [
+"(15/4)√15 ≈ 14,5",
+"(15/2)√3 ≈ 13,0",
+"5√15/2 ≈ 9,7",
+"√175 ≈ 13,2"
+],
+"a": 0,
+"d": [
+[
+"Altura que cai fora do triângulo",
+"Se o pé G da altura cai no prolongamento de AC, escreva Pitágoras nos dois triângulos retângulos com o mesmo cateto H: ABG (cateto AC + x) e CBG (cateto x).",
+"Ex.: (a + x)² + H² = c² e x² + H² = b²; subtraindo, some H² e sobra uma equação de 1º grau em x."
+],
+[
+"Alternativa: Heron",
+"Área = √(p(p − a)(p − b)(p − c)), com p o semiperímetro; depois H = 2·Área/AC.",
+""
+]
+],
+"h": [
+"(10 + x)² + H² = 20² e x² + H² = 15² ⟹ subtraindo: 100 + 20x = 400 − 225 ⟹ x = 75/20 = 15/4.",
+"H² = 15² − (15/4)² = 15²(1 − 1/16) = 15² × 15/16.",
+"H = <b>(15/4)√15 ≈ 14,52</b>."
+]
+},
+{
+"id": "2013-2-mat-15a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 15(a) (adaptada para múltipla escolha)",
+"r": 1680,
+"tm": 90,
+"ctx": "A superfície de um reservatório de água para abastecimento público tem 320.000 m² de área, formato retangular e um dos seus lados mede o dobro do outro. De acordo com o Código Florestal, é necessário manter ao redor do reservatório uma faixa de terra livre, denominada Área de Proteção Permanente (APP), como ilustra a figura. Essa faixa deve ter largura constante e igual a 100 m, medidos a partir da borda do reservatório. Calcule a área da faixa de terra denominada APP nesse caso.",
+"fig": "<svg viewBox='0 0 124 92' class='fg' role='img' aria-label='reservatório retangular hachurado, com um lado o dobro do outro, cercado por uma faixa de largura constante de 100 m; a faixa é formada por quatro retângulos encostados nos lados do reservatório e por quatro quartos de círculo de raio 100 m nos cantos'><defs><clipPath id='cl15m'><rect x='22' y='22' width='80' height='40'/></clipPath></defs><g fill='none' stroke='currentColor'><path d='M22,12 H102 A10,10 0 0 1 112,22 V62 A10,10 0 0 1 102,72 H22 A10,10 0 0 1 12,62 V22 A10,10 0 0 1 22,12 Z M22,22 V62 H102 V22 Z' fill='currentColor' fill-opacity='0.12' fill-rule='evenodd' stroke-width='0.9'/><g clip-path='url(#cl15m)' stroke-width='0.6'><line x1='-18.0' y1='62.0' x2='22.0' y2='22.0'/><line x1='-13.0' y1='62.0' x2='27.0' y2='22.0'/><line x1='-8.0' y1='62.0' x2='32.0' y2='22.0'/><line x1='-3.0' y1='62.0' x2='37.0' y2='22.0'/><line x1='2.0' y1='62.0' x2='42.0' y2='22.0'/><line x1='7.0' y1='62.0' x2='47.0' y2='22.0'/><line x1='12.0' y1='62.0' x2='52.0' y2='22.0'/><line x1='17.0' y1='62.0' x2='57.0' y2='22.0'/><line x1='22.0' y1='62.0' x2='62.0' y2='22.0'/><line x1='27.0' y1='62.0' x2='67.0' y2='22.0'/><line x1='32.0' y1='62.0' x2='72.0' y2='22.0'/><line x1='37.0' y1='62.0' x2='77.0' y2='22.0'/><line x1='42.0' y1='62.0' x2='82.0' y2='22.0'/><line x1='47.0' y1='62.0' x2='87.0' y2='22.0'/><line x1='52.0' y1='62.0' x2='92.0' y2='22.0'/><line x1='57.0' y1='62.0' x2='97.0' y2='22.0'/><line x1='62.0' y1='62.0' x2='102.0' y2='22.0'/><line x1='67.0' y1='62.0' x2='107.0' y2='22.0'/><line x1='72.0' y1='62.0' x2='112.0' y2='22.0'/><line x1='77.0' y1='62.0' x2='117.0' y2='22.0'/><line x1='82.0' y1='62.0' x2='122.0' y2='22.0'/><line x1='87.0' y1='62.0' x2='127.0' y2='22.0'/><line x1='92.0' y1='62.0' x2='132.0' y2='22.0'/><line x1='97.0' y1='62.0' x2='137.0' y2='22.0'/><line x1='102.0' y1='62.0' x2='142.0' y2='22.0'/></g><g stroke-width='0.5' stroke-dasharray='1.5 1.5'><line x1='22.0' y1='12.0' x2='22.0' y2='22.0'/><line x1='102.0' y1='12.0' x2='102.0' y2='22.0'/><line x1='22.0' y1='62.0' x2='22.0' y2='72.0'/><line x1='102.0' y1='62.0' x2='102.0' y2='72.0'/><line x1='12.0' y1='22.0' x2='22.0' y2='22.0'/><line x1='12.0' y1='62.0' x2='22.0' y2='62.0'/><line x1='102.0' y1='22.0' x2='112.0' y2='22.0'/><line x1='102.0' y1='62.0' x2='112.0' y2='62.0'/></g><g stroke-width='0.5'><line x1='102.0' y1='79.0' x2='112.0' y2='79.0'/><line x1='102.0' y1='76.0' x2='102.0' y2='82.0'/><line x1='112.0' y1='76.0' x2='112.0' y2='82.0'/></g></g><g fill='currentColor'><text x='107.0' y='88.0' text-anchor='middle' font-size='5.5'>100 m</text><text x='17.0' y='8.0' text-anchor='start' font-size='6'>APP</text></g></svg>",
+"opts": [
+"(24 + π) × 10⁴ m²",
+"(24 + 4π) × 10⁴ m²",
+"28 × 10⁴ m²",
+"(12 + π) × 10⁴ m²"
+],
+"a": 0,
+"d": [
+[
+"Dimensões a partir da área",
+"Se um lado é x e o outro 2x, a área é 2x²; iguale à área dada e ache x.",
+"Ex.: 2x² = 50 ⟹ x = 5 e os lados medem 5 e 10."
+],
+[
+"Faixa de largura constante ao redor de um retângulo",
+"Divida a faixa em quatro retângulos (cada lado × largura) e quatro cantos, que são quartos de círculo de raio igual à largura e juntos formam um círculo inteiro.",
+""
+]
+],
+"h": [
+"2x² = 320 000 ⟹ x = 400 m; lados de 400 m e 800 m.",
+"Retângulos: 2 × 400 × 100 + 2 × 800 × 100 = 240 000 = 24 × 10⁴ m².",
+"Cantos: π × 100² = π × 10⁴ m². APP = <b>(24 + π) × 10⁴ m²</b> ≈ 271 400 m²."
+]
+},
+{
+"id": "2013-2-mat-15b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 15(b)",
+"r": 1540,
+"tm": 75,
+"ctx": "A superfície de um reservatório de água para abastecimento público tem 320.000 m² de área, formato retangular e um dos seus lados mede o dobro do outro. De acordo com o Código Florestal, é necessário manter ao redor do reservatório uma faixa de terra livre, denominada Área de Proteção Permanente (APP), como ilustra a figura. Essa faixa deve ter largura constante e igual a 100 m, medidos a partir da borda do reservatório. Suponha que a água do reservatório diminui de acordo com a expressão V(t) = V₀·2<sup>−t</sup>, em que V₀ é o volume inicial e t é o tempo decorrido em meses. Qual é o tempo, em meses, necessário para que o volume se reduza a 10% do volume inicial? Utilize, se necessário, log₁₀ 2 ≈ 0,30.",
+"a": 3.33,
+"u": "meses",
+"tol": 0.02,
+"d": [
+[
+"Equação exponencial",
+"Divida por V₀, isole a potência e aplique log dos dois lados: log(aˣ) = x·log a.",
+"Ex.: 3ˣ = 20 ⟹ x = log 20/log 3."
+],
+[
+"Potência negativa",
+"2<sup>−t</sup> = 1/2<sup>t</sup>; então 2<sup>−t</sup> = 1/10 equivale a 2<sup>t</sup> = 10.",
+""
+]
+],
+"h": [
+"V₀·2<sup>−t</sup> = 0,1·V₀ ⟹ 2<sup>t</sup> = 10.",
+"t·log 2 = log 10 = 1 ⟹ t = 1/0,30.",
+"t ≈ <b>3,33 meses</b> (cerca de 3 meses e 10 dias)."
+]
+},
+{
+"id": "2013-2-mat-16a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 16(a) (adaptada para múltipla escolha)",
+"r": 1480,
+"tm": 75,
+"ctx": "A numeração dos calçados obedece a padrões distintos, conforme o país. No Brasil, essa numeração varia de um em um, e vai de 33 a 45, para adultos. Nos Estados Unidos a numeração varia de meio em meio, e vai de 3,5 a 14 para homens e de 5 a 15,5 para mulheres. Considere a tabela: numeração brasileira t = 35 corresponde a um comprimento do calçado x = 23,8 cm, e t = 42 corresponde a x = 27,3 cm. Suponha que as grandezas estão relacionadas por funções afins t(x) = ax + b para a numeração brasileira e x(t) = ct + d para o comprimento do calçado. A expressão que permite obter a numeração dos calçados brasileiros em termos do comprimento é",
+"opts": [
+"t(x) = 2x − 12,6",
+"t(x) = 0,5x + 6,3",
+"t(x) = 2x + 6,3",
+"t(x) = 0,5x − 12,6"
+],
+"a": 0,
+"d": [
+[
+"Função afim por dois pontos",
+"Para t(x) = ax + b: a = Δt/Δx (variação da saída sobre a da entrada); depois, b = t − a·x com qualquer ponto.",
+"Ex.: (10, 5) e (14, 13) ⟹ a = 8/4 = 2 e b = 5 − 20 = −15."
+],
+[
+"Quem é entrada",
+"Em t(x), a entrada é o comprimento x (cm) e a saída é o número t.",
+""
+]
+],
+"h": [
+"a = (42 − 35)/(27,3 − 23,8) = 7/3,5 = 2 (números por cm).",
+"b = 35 − 2 × 23,8 = 35 − 47,6 = −12,6.",
+"<b>t(x) = 2x − 12,6</b> (e, invertendo, x(t) = t/2 + 6,3)."
+]
+},
+{
+"id": "2013-2-mat-16b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 16(b)",
+"r": 1740,
+"tm": 90,
+"ctx": "A numeração dos calçados obedece a padrões distintos, conforme o país. No Brasil, essa numeração varia de um em um, e vai de 33 a 45, para adultos. Nos Estados Unidos a numeração varia de meio em meio, e vai de 3,5 a 14 para homens e de 5 a 15,5 para mulheres. A numeração dos calçados femininos nos Estados Unidos pode ser estabelecida de maneira aproximada pela função real f definida por f(x) = 5(x − 20)/3, em que x é o comprimento do calçado em cm. Sabendo que a numeração dos calçados n<sub>k</sub> forma uma progressão aritmética de razão 0,5 e primeiro termo n₁ = 5, em que n<sub>k</sub> = f(c<sub>k</sub>), com k natural, calcule o comprimento c₅, em cm.",
+"a": 24.2,
+"u": "cm",
+"tol": 0.005,
+"d": [
+[
+"Termo geral da PA",
+"n<sub>k</sub> = n₁ + (k − 1)·r.",
+"Ex.: n₁ = 2 e r = 0,5 ⟹ n₄ = 2 + 1,5 = 3,5."
+],
+[
+"Inverter a função",
+"Conhecida a numeração n = f(c), resolva 5(c − 20)/3 = n para achar o comprimento c.",
+""
+]
+],
+"h": [
+"n₅ = 5 + 4 × 0,5 = 7.",
+"5(c₅ − 20)/3 = 7 ⟹ c₅ − 20 = 21/5 = 4,2.",
+"c₅ = <b>24,2 cm</b>."
+]
+},
+{
+"id": "2013-2-mat-17a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 17(a) (adaptada para múltipla escolha)",
+"r": 1360,
+"tm": 60,
+"ctx": "Na formulação de fertilizantes, os teores percentuais dos macronutrientes N, P e K, associados respectivamente a nitrogênio, fósforo e potássio, são representados por x, y e z. Os teores de certo fertilizante satisfazem o seguinte sistema de equações lineares:<br>3x + y − z = 0,20<br>2y + z = 0,55<br>z = 0,25<br>Os valores de x e y são, nesse caso,",
+"opts": [
+"x = 10% e y = 15%.",
+"x = 15% e y = 10%.",
+"x = 5% e y = 40%.",
+"x = 10% e y = 40%."
+],
+"a": 0,
+"d": [
+[
+"Sistema escalonado",
+"Quando cada equação tem uma incógnita a menos que a anterior, resolva de baixo para cima: ache a última incógnita e substitua nas de cima.",
+"Ex.: z = 1; y + z = 3 ⟹ y = 2; x + y = 5 ⟹ x = 3."
+]
+],
+"h": [
+"z = 0,25.",
+"2y + 0,25 = 0,55 ⟹ y = 0,15.",
+"3x + 0,15 − 0,25 = 0,20 ⟹ 3x = 0,30 ⟹ x = 0,10: <b>x = 10% e y = 15%</b>."
+]
+},
+{
+"id": "2013-2-mat-17b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 17(b) (adaptada para múltipla escolha)",
+"r": 1760,
+"tm": 90,
+"ctx": "Na formulação de fertilizantes, os teores percentuais dos macronutrientes N, P e K, associados respectivamente a nitrogênio, fósforo e potássio, são representados por x, y e z. Suponha que para outro fertilizante valem as relações 24% ≤ x + y + z ≤ 54%, x ≥ 10%, y ≥ 20% e z = 10%. No plano cartesiano (x, y), a região dos teores admissíveis para tal fertilizante é",
+"opts": [
+"o triângulo de vértices (10%, 20%), (24%, 20%) e (10%, 34%).",
+"o triângulo de vértices (10%, 20%), (44%, 20%) e (10%, 54%).",
+"o trapézio entre as retas x + y = 14% e x + y = 44%, com x ≥ 10% e y ≥ 20%.",
+"o triângulo de vértices (0, 0), (44%, 0) e (0, 44%)."
+],
+"a": 0,
+"d": [
+[
+"Substituir o valor fixo",
+"Com z fixo, a desigualdade da soma vira uma faixa entre duas retas paralelas do tipo x + y = constante.",
+""
+],
+[
+"Região de desigualdades",
+"x ≥ k fica à direita da reta vertical x = k; y ≥ k, acima da horizontal y = k; x + y ≤ c, abaixo da reta x + y = c. Veja se alguma condição já é garantida pelas outras.",
+"Ex.: se x ≥ 5 e y ≥ 5, então x + y ≥ 10 automaticamente."
+]
+],
+"h": [
+"Com z = 10%: 14% ≤ x + y ≤ 44%. Mas x ≥ 10 e y ≥ 20 já dão x + y ≥ 30, então só vale x + y ≤ 44.",
+"Vértices: x = 10 e y = 20 ⟹ (10, 20); y = 20 e x + y = 44 ⟹ (24, 20); x = 10 e x + y = 44 ⟹ (10, 34).",
+"Região: <b>triângulo de vértices (10%, 20%), (24%, 20%) e (10%, 34%)</b>."
+]
+},
+{
+"id": "2013-2-mat-18a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 18(a) (adaptada para múltipla escolha)",
+"r": 1650,
+"tm": 75,
+"ctx": "O diagrama indica a distribuição dos alunos matriculados em três cursos de uma escola (cada figura representa um curso). O valor da mensalidade de cada curso é de R$ 600,00, mas a escola oferece descontos aos alunos que fazem mais de um curso. Os descontos, aplicados sobre o valor total da mensalidade, são de 20% para quem faz dois cursos e de 30% para os matriculados em três cursos. Por estratégia de <i>marketing</i>, suponha que a escola decida divulgar os percentuais de desconto calculados sobre a mensalidade dos cursos adicionais e não sobre o total da mensalidade. Qual o percentual de desconto que incide sobre a mensalidade do segundo curso para aqueles que fazem dois cursos e o percentual de desconto sobre o terceiro curso para aqueles que fazem três cursos?",
+"fig": "<svg viewBox='0 0 120 98' class='fg' role='img' aria-label='diagrama com três cursos: um triângulo, um círculo e um quadrado que se sobrepõem. Só no triângulo: 9 alunos. Só no círculo: 6. Só no quadrado: 8. Triângulo e círculo, fora do quadrado: 7. Triângulo e quadrado, fora do círculo: 4. Círculo e quadrado, fora do triângulo: 2. Nos três: 3'><g fill='none' stroke='currentColor' stroke-width='0.9'><polygon points='45,8 12,66 78,66'/><circle cx='82' cy='38' r='30'/><rect x='50' y='50' width='42' height='42'/></g><g fill='currentColor'><text x='34.0' y='50.0' text-anchor='middle' font-size='7.5'>9</text><text x='57.0' y='44.0' text-anchor='middle' font-size='7.5'>7</text><text x='66.0' y='62.0' text-anchor='middle' font-size='7.5'>3</text><text x='54.5' y='64.0' text-anchor='middle' font-size='7.5'>4</text><text x='83.0' y='63.0' text-anchor='middle' font-size='7.5'>2</text><text x='71.0' y='84.0' text-anchor='middle' font-size='7.5'>8</text><text x='98.0' y='30.0' text-anchor='middle' font-size='7.5'>6</text></g></svg>",
+"opts": [
+"40% sobre o segundo curso e 90% sobre o terceiro.",
+"20% sobre o segundo curso e 30% sobre o terceiro.",
+"40% sobre o segundo curso e 60% sobre o terceiro.",
+"20% sobre o segundo curso e 50% sobre o terceiro."
+],
+"a": 0,
+"d": [
+[
+"Desconto em reais primeiro",
+"Calcule o desconto em reais sobre o total e depois veja que porcentagem esse valor representa da nova base (a mensalidade de um curso só).",
+"Ex.: 10% de desconto em R$ 1.000 são R$ 100, que equivalem a 25% de uma parcela de R$ 400."
+],
+[
+"Desconto concentrado no terceiro curso",
+"Para três cursos, o enunciado quer o percentual sobre o 3º curso: pense que o 2º curso mantém o desconto já calculado e o resto do desconto recai sobre o 3º.",
+""
+]
+],
+"h": [
+"Dois cursos: 20% de R$ 1.200 = R$ 240 ⟹ 240/600 = 40% do segundo curso.",
+"Três cursos: 30% de R$ 1.800 = R$ 540.",
+"Concentrado no terceiro curso: 540/600 = 90%. Resposta: <b>40% e 90%</b>."
+]
+},
+{
+"id": "2013-2-mat-18b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 18(b) (adaptada para múltipla escolha)",
+"r": 1450,
+"tm": 75,
+"ctx": "O diagrama indica a distribuição dos alunos matriculados em três cursos de uma escola (cada figura representa um curso). O valor da mensalidade de cada curso é de R$ 600,00, mas a escola oferece descontos aos alunos que fazem mais de um curso. Os descontos, aplicados sobre o valor total da mensalidade, são de 20% para quem faz dois cursos e de 30% para os matriculados em três cursos. Com base nas informações do diagrama, qual a probabilidade de um aluno, escolhido ao acaso, estar matriculado em apenas um curso?",
+"fig": "<svg viewBox='0 0 120 98' class='fg' role='img' aria-label='diagrama com três cursos: um triângulo, um círculo e um quadrado que se sobrepõem. Só no triângulo: 9 alunos. Só no círculo: 6. Só no quadrado: 8. Triângulo e círculo, fora do quadrado: 7. Triângulo e quadrado, fora do círculo: 4. Círculo e quadrado, fora do triângulo: 2. Nos três: 3'><g fill='none' stroke='currentColor' stroke-width='0.9'><polygon points='45,8 12,66 78,66'/><circle cx='82' cy='38' r='30'/><rect x='50' y='50' width='42' height='42'/></g><g fill='currentColor'><text x='34.0' y='50.0' text-anchor='middle' font-size='7.5'>9</text><text x='57.0' y='44.0' text-anchor='middle' font-size='7.5'>7</text><text x='66.0' y='62.0' text-anchor='middle' font-size='7.5'>3</text><text x='54.5' y='64.0' text-anchor='middle' font-size='7.5'>4</text><text x='83.0' y='63.0' text-anchor='middle' font-size='7.5'>2</text><text x='71.0' y='84.0' text-anchor='middle' font-size='7.5'>8</text><text x='98.0' y='30.0' text-anchor='middle' font-size='7.5'>6</text></g></svg>",
+"opts": [
+"23/39",
+"16/39",
+"23/16",
+"9/39"
+],
+"a": 0,
+"d": [
+[
+"Diagrama de Venn por regiões",
+"Cada número vale para uma região: os de fora das sobreposições são de quem faz um curso só; os das sobreposições, de quem faz dois ou três.",
+""
+],
+[
+"Probabilidade clássica",
+"P = casos favoráveis/casos possíveis; o total é a soma de todas as regiões.",
+""
+]
+],
+"h": [
+"Pelo menos dois cursos: 7 + 4 + 2 + 3 = 16 alunos.",
+"Apenas um curso: 9 + 6 + 8 = 23; total = 23 + 16 = 39.",
+"P = <b>23/39</b> ≈ 59%."
+]
+},
+{
+"id": "2013-2-mat-19a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 19(a) (adaptada para múltipla escolha)",
+"r": 1800,
+"tm": 75,
+"ctx": "Considere a família de retas no plano cartesiano descrita pela equação (2 − p)x + (2p + 1)y + 8p + 4 = 0, nas variáveis x e y, em que p é um parâmetro real. Determine o valor do parâmetro p para que a reta correspondente intercepte perpendicularmente o eixo y, e o ponto de interseção nesse caso.",
+"opts": [
+"p = 2; ponto (0, −4).",
+"p = −1/2; ponto (−4, 0).",
+"p = 2; ponto (0, 4).",
+"p = −1/2; ponto (0, −4)."
+],
+"a": 0,
+"d": [
+[
+"Reta perpendicular ao eixo y",
+"Uma reta perpendicular ao eixo y é horizontal: y = constante. Em ax + by + c = 0, isso exige a = 0 (coeficiente de x nulo) e b ≠ 0.",
+"Ex.: 0·x + 3y − 6 = 0 é a reta y = 2, que corta o eixo y em (0, 2)."
+]
+],
+"h": [
+"Coeficiente de x nulo: 2 − p = 0 ⟹ p = 2.",
+"Com p = 2: 5y + 16 + 4 = 0 ⟹ y = −4.",
+"Resposta: <b>p = 2 e ponto (0, −4)</b>."
+]
+},
+{
+"id": "2013-2-mat-19b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 19(b) (adaptada para múltipla escolha)",
+"r": 1760,
+"tm": 75,
+"ctx": "Considere a família de retas no plano cartesiano descrita pela equação (2 − p)x + (2p + 1)y + 8p + 4 = 0, nas variáveis x e y, em que p é um parâmetro real. Considere a reta x + 3y + 12 = 0 dessa família para p = 1. Denote por A o seu ponto de interseção com o eixo x e por O a origem do plano cartesiano. A equação da circunferência em que o segmento OA é um diâmetro é",
+"opts": [
+"(x + 6)² + y² = 36",
+"(x − 6)² + y² = 36",
+"(x + 12)² + y² = 144",
+"(x + 6)² + y² = 6"
+],
+"a": 0,
+"d": [
+[
+"Interseção com o eixo x",
+"Faça y = 0 na equação da reta.",
+""
+],
+[
+"Circunferência pelo diâmetro",
+"O centro é o ponto médio do diâmetro e o raio é metade dele: (x − x<sub>c</sub>)² + (y − y<sub>c</sub>)² = r².",
+"Ex.: diâmetro de (0, 0) a (0, 8) ⟹ centro (0, 4), raio 4: x² + (y − 4)² = 16."
+]
+],
+"h": [
+"y = 0 ⟹ x + 12 = 0 ⟹ A = (−12, 0).",
+"Centro = ponto médio de OA = (−6, 0); raio = 12/2 = 6.",
+"<b>(x + 6)² + y² = 36</b>, ou x² + 12x + y² = 0."
+]
+},
+{
+"id": "2013-2-mat-20a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 20(a) (adaptada para múltipla escolha)",
+"r": 1810,
+"tm": 90,
+"ctx": "Numa piscina em formato de paralelepípedo, as medidas das arestas estão em progressão geométrica de razão q > 1. Determine o quociente entre o perímetro da face de maior área e o perímetro da face de menor área.",
+"opts": [
+"q",
+"q²",
+"q³",
+"1 + q"
+],
+"a": 0,
+"d": [
+[
+"Arestas em PG",
+"Chame as arestas de a, aq e aq². A face de menor área tem as duas menores arestas; a de maior área, as duas maiores.",
+""
+],
+[
+"Fatorar para simplificar",
+"Coloque em evidência o fator comum no numerador e no denominador antes de dividir.",
+"Ex.: (6 + 9)/(2 + 3) = 3(2 + 3)/(2 + 3) = 3."
+]
+],
+"h": [
+"Menor face: a × aq, perímetro 2(a + aq). Maior face: aq × aq², perímetro 2(aq + aq²).",
+"Quociente = 2aq(1 + q)/[2a(1 + q)].",
+"Quociente = <b>q</b>."
+]
+},
+{
+"id": "2013-2-mat-20b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 20(b)",
+"r": 1710,
+"tm": 90,
+"ctx": "Numa piscina em formato de paralelepípedo, as medidas das arestas estão em progressão geométrica de razão q > 1. Calcule o volume dessa piscina, em m³, considerando q = 2 e a área total do paralelepípedo igual a 252 m².",
+"a": 216,
+"u": "m³",
+"tol": 0.005,
+"d": [
+[
+"Área total do paralelepípedo",
+"A = 2(ab + ac + bc), com a, b, c as três arestas; o volume é V = abc.",
+"Ex.: arestas 1, 2, 4 ⟹ A = 2(2 + 4 + 8) = 28 e V = 8."
+]
+],
+"h": [
+"Arestas a, 2a, 4a: área = 2(2a² + 4a² + 8a²) = 28a² = 252 ⟹ a² = 9 ⟹ a = 3 m.",
+"Arestas: 3 m, 6 m e 12 m.",
+"V = 3 × 6 × 12 = <b>216 m³</b>."
+]
+},
+{
+"id": "2013-2-mat-21a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 21(a)",
+"r": 1530,
+"tm": 50,
+"ctx": "Considere o polinômio p(x) = x² − 11x + k + 2, em que x é variável real e k um parâmetro fixo, também real. Para qual valor do parâmetro k o resto do quociente de p(x) por x − 1 é igual a 3?",
+"a": 11,
+"tol": 0.005,
+"d": [
+[
+"Teorema do resto",
+"O resto da divisão de p(x) por (x − a) é p(a).",
+"Ex.: x² + 2x + 5 dividido por x − 2 deixa resto 4 + 4 + 5 = 13."
+]
+],
+"h": [
+"Resto = p(1) = 1 − 11 + k + 2 = k − 8.",
+"k − 8 = 3.",
+"k = <b>11</b>."
+]
+},
+{
+"id": "2013-2-mat-21b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 21(b) (adaptada para múltipla escolha)",
+"r": 1930,
+"tm": 90,
+"ctx": "Considere o polinômio p(x) = x² − 11x + k + 2, em que x é variável real e k um parâmetro fixo, também real. Supondo, agora, k = 4, e sabendo que a e b são raízes de p(x), calcule o valor de sen(π/a + π/b).",
+"opts": [
+"−1/2",
+"1/2",
+"−√3/2",
+"√3/2"
+],
+"a": 0,
+"d": [
+[
+"Soma e produto das raízes",
+"Em x² + Bx + C, as raízes somam −B e o produto é C. Junte frações: π/a + π/b = π(a + b)/(ab).",
+"Ex.: x² − 5x + 6 ⟹ soma 5, produto 6."
+],
+[
+"Seno de um arco grande",
+"Tire voltas inteiras (2π) ou reescreva o arco como 2π − α: sen(2π − α) = −sen α.",
+"Ex.: sen(7π/4) = sen(2π − π/4) = −√2/2."
+]
+],
+"h": [
+"Com k = 4: p(x) = x² − 11x + 6 ⟹ a + b = 11 e ab = 6.",
+"π/a + π/b = π(a + b)/(ab) = 11π/6 = 2π − π/6.",
+"sen(11π/6) = −sen(π/6) = <b>−1/2</b>."
+]
+},
+{
+"id": "2013-2-mat-22a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 22(a) (adaptada para múltipla escolha)",
+"r": 1720,
+"tm": 90,
+"ctx": "Considere a matriz A<sub>α</sub> = [1  α; −1/α  −1] (1ª linha: 1 e α; 2ª linha: −1/α e −1), que depende do parâmetro real α > 0. Calcule a matriz (A<sub>α</sub> + A<sub>2α</sub>)².",
+"opts": [
+"[−1/2  0; 0  −1/2]",
+"[1/2  0; 0  1/2]",
+"[4  9α²; 9/(4α²)  4]",
+"[−1/2  6α; −3/α  −1/2]"
+],
+"a": 0,
+"d": [
+[
+"Soma e produto de matrizes",
+"Some termo a termo. No produto, o elemento (i, j) é a linha i da primeira vezes a coluna j da segunda (multiplica e soma).",
+"Ex.: [1 2; 3 4]·[1 0; 0 1] = [1 2; 3 4]."
+],
+[
+"Trocar α por 2α",
+"A<sub>2α</sub> é a mesma matriz com 2α no lugar de α: [1  2α; −1/(2α)  −1].",
+""
+]
+],
+"h": [
+"A<sub>α</sub> + A<sub>2α</sub> = [2  3α; −3/(2α)  −2].",
+"Quadrado: (1,1) = 4 + 3α·(−3/(2α)) = 4 − 9/2; (1,2) = 6α − 6α = 0; (2,1) = −3/α + 3/α = 0; (2,2) = −9/2 + 4.",
+"(A<sub>α</sub> + A<sub>2α</sub>)² = <b>[−1/2  0; 0  −1/2]</b>."
+]
+},
+{
+"id": "2013-2-mat-22b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 22(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "Considere a matriz A<sub>α</sub> = [1  α; −1/α  −1] (1ª linha: 1 e α; 2ª linha: −1/α e −1), que depende do parâmetro real α > 0. Um ponto do plano com coordenadas (x, y) é transformado pela matriz A<sub>α</sub> no ponto (x′, y′) = (x + αy, −x/α − y). Calcule o valor de α sabendo que o sistema A<sub>α</sub>·(x, y) = (−6, 2) admite solução.",
+"a": 3,
+"tol": 0.005,
+"d": [
+[
+"Sistema com determinante zero",
+"Se o determinante da matriz é zero, as duas equações têm o lado esquerdo proporcional: o sistema só tem solução se os lados direitos estiverem na mesma proporção.",
+"Ex.: x + y = 2 e 2x + 2y = k só tem solução se k = 4."
+],
+[
+"Determinante 2 × 2",
+"det [a b; c d] = ad − bc.",
+""
+]
+],
+"h": [
+"det A<sub>α</sub> = 1·(−1) − α·(−1/α) = −1 + 1 = 0: as equações são dependentes ou incompatíveis.",
+"x + αy = −6 e −x/α − y = 2; multiplicando a 2ª por −α: x + αy = −2α.",
+"Para haver solução: −2α = −6 ⟹ α = <b>3</b>."
+]
+},
+{
+"id": "2013-2-mat-23a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 23(a)",
+"r": 2120,
+"tm": 120,
+"ctx": "Um recipiente cúbico de aresta a e sem tampa, apoiado em um plano horizontal, contém água até a altura 3a/4. Inclina-se lentamente o cubo, girando-o em um ângulo θ em torno de uma das arestas da base, como está representado na figura. Supondo que o giro é interrompido exatamente antes de a água começar a derramar, determine a tangente do ângulo θ.",
+"fig": "<svg viewBox='0 0 140 108' class='fg' role='img' aria-label='corte vertical do cubo inclinado: um quadrado girado de um ângulo theta em torno do vértice de baixo, apoiado no plano horizontal; a face aberta, que era o topo, está do lado de cima à direita, e a água, mais escura, ocupa a parte de baixo até a linha horizontal que passa pela borda mais baixa da abertura; o ângulo theta está marcado entre o plano horizontal e a antiga base do cubo'><g fill='none' stroke='currentColor'><g stroke-width='0.8'><line x1='20.0' y1='96.0' x2='128.0' y2='96.0'/></g><polygon points='74.0,96.0 99.9,44.1 48.1,18.2 22.1,70.1' fill='currentColor' fill-opacity='0.06' stroke='none'/><polygon points='74.0,96.0 99.9,44.1 35.1,44.1 22.1,70.1' fill='currentColor' fill-opacity='0.45' stroke='none'/><polyline points='99.9,44.1 74.0,96.0 22.1,70.1 48.1,18.2' stroke-width='1.2'/><g stroke-width='0.5' stroke-dasharray='1.5 1.5'><line x1='48.1' y1='18.2' x2='99.9' y2='44.1'/></g><path d='M60.0,96.0 A14,14 0 0 1 61.5,89.7' stroke-width='0.6'/></g><g fill='currentColor'><text x='54.0' y='94.0' text-anchor='middle' font-size='7'>θ</text><text x='80.0' y='28.2' text-anchor='start' font-size='6'>aberto</text></g></svg>",
+"a": 0.5,
+"tol": 0.005,
+"d": [
+[
+"Volume conservado",
+"A água não muda de volume ao inclinar o cubo. Como o cubo gira em torno de uma aresta, basta comparar áreas na seção perpendicular a essa aresta (o quadrado de lado a): volume = área da seção × a.",
+""
+],
+[
+"Parte sem água",
+"Pense na região de ar: em pé, é um retângulo a × a/4; inclinado no limite, é um triângulo retângulo com um cateto a (a borda aberta) e outro z, e tan θ = z/a.",
+"Ex.: área de triângulo retângulo = (cateto × cateto)/2."
+]
+],
+"h": [
+"Ar no cubo em pé: a × a/4 = a²/4 (na seção).",
+"No limite, o ar é um triângulo de catetos a e z: a·z/2 = a²/4 ⟹ z = a/2.",
+"tan θ = z/a = <b>1/2</b>."
+]
+},
+{
+"id": "2013-2-mat-23b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 23(b) (adaptada para múltipla escolha)",
+"r": 1880,
+"tm": 90,
+"ctx": "Um recipiente cúbico de aresta a e sem tampa, apoiado em um plano horizontal, contém água até a altura 3a/4. Inclina-se lentamente o cubo, girando-o em um ângulo θ em torno de uma das arestas da base, como está representado na figura. Considerando, agora, a inclinação tal que tan θ = 1/4, com 0 < θ < π/2, calcule o valor numérico da expressão cos(2θ) − sen(2θ).",
+"opts": [
+"7/17",
+"15/17",
+"8/17",
+"−1/17"
+],
+"a": 0,
+"d": [
+[
+"Do valor da tangente ao seno e ao cosseno",
+"tan θ = oposto/adjacente: monte um triângulo retângulo com esses catetos, ache a hipotenusa por Pitágoras e leia sen θ e cos θ.",
+"Ex.: tan θ = 3/4 ⟹ hipotenusa 5, sen θ = 3/5, cos θ = 4/5."
+],
+[
+"Arco duplo",
+"cos 2θ = cos²θ − sen²θ; sen 2θ = 2·sen θ·cos θ.",
+""
+]
+],
+"h": [
+"Catetos 1 e 4 ⟹ hipotenusa √17: sen θ = 1/√17 e cos θ = 4/√17.",
+"cos 2θ = 16/17 − 1/17 = 15/17; sen 2θ = 2 × 4/17 = 8/17.",
+"cos 2θ − sen 2θ = <b>7/17</b>."
+]
+},
+{
+"id": "2013-2-mat-24a",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 24(a) (adaptada para múltipla escolha)",
+"r": 1900,
+"tm": 90,
+"ctx": "Um satélite orbita a 6.400 km da superfície da Terra. A figura representa uma seção plana que inclui o satélite, o centro da Terra e o arco de circunferência AB. Nos pontos desse arco o sinal do satélite pode ser captado. Considere que o raio da Terra também mede 6.400 km. Qual o comprimento do arco AB indicado na figura?",
+"fig": "<svg viewBox='0 0 140 150' class='fg' role='img' aria-label='seção plana da Terra, um círculo de centro O e raio 6400 km; o satélite está acima, a 6400 km da superfície; as retas do satélite tangenciam a Terra nos pontos A e B, com ângulos retos em A e B; o arco AB, de cima, está destacado; C é um ponto desse arco, theta é o ângulo entre o segmento do centro ao satélite e o raio OC, e d é a distância de C ao satélite'><g fill='none' stroke='currentColor'><circle cx='70' cy='104' r='40' fill='currentColor' fill-opacity='0.1' stroke-width='0.8'/><path d='M35.4,84.0 A40,40 0 0 1 104.6,84.0' stroke-width='2.2'/><g stroke-width='0.8'><line x1='70.0' y1='24.0' x2='35.4' y2='84.0'/><line x1='70.0' y1='24.0' x2='104.6' y2='84.0'/></g><g stroke-width='0.5' stroke-dasharray='1.5 1.5'><line x1='70.0' y1='24.0' x2='70.0' y2='104.0'/><line x1='70.0' y1='104.0' x2='35.4' y2='84.0'/><line x1='70.0' y1='104.0' x2='104.6' y2='84.0'/><line x1='70.0' y1='104.0' x2='96.5' y2='74.0'/><line x1='70.0' y1='24.0' x2='96.5' y2='74.0'/></g><path d='M70.0,95.0 A9,9 0 0 1 76.0,97.2' stroke-width='0.6'/></g><g fill='currentColor'><circle cx='35.4' cy='84.0' r='1.4'/><circle cx='104.6' cy='84.0' r='1.4'/><circle cx='96.5' cy='74.0' r='1.4'/><circle cx='70.0' cy='104.0' r='1.4'/><circle cx='70.0' cy='64.0' r='1.4'/><rect x='64' y='21.5' width='12' height='5' rx='1'/><text x='79.0' y='21.0' text-anchor='start' font-size='6.5'>satélite</text><text x='32.4' y='85.0' text-anchor='end' font-size='7'>A</text><text x='107.6' y='85.0' text-anchor='start' font-size='7'>B</text><text x='99.5' y='72.0' text-anchor='start' font-size='7'>C</text><text x='71.0' y='112.0' text-anchor='middle' font-size='7'>O</text><text x='73.0' y='93.0' text-anchor='start' font-size='6.5'>θ</text><text x='66.0' y='46.0' text-anchor='end' font-size='5.5'>6400 km</text><text x='80.0' y='50.0' text-anchor='start' font-size='7'>d</text><text x='56.0' y='106.0' text-anchor='end' font-size='5.5'>6400 km</text><text x='70.0' y='140.0' text-anchor='middle' font-size='6.5'>Terra</text></g></svg>",
+"opts": [
+"(2π/3) × 6400 km ≈ 13 400 km",
+"(π/3) × 6400 km ≈ 6 700 km",
+"(4π/3) × 6400 km ≈ 26 800 km",
+"π × 6400 km ≈ 20 100 km"
+],
+"a": 0,
+"d": [
+[
+"Tangente é perpendicular ao raio",
+"No ponto de tangência, o raio OA é perpendicular à reta que vem do satélite: o triângulo OAS é retângulo em A.",
+""
+],
+[
+"Comprimento de arco",
+"Arco = ângulo central (em radianos) × raio.",
+"Ex.: ângulo de π/2 num círculo de raio 10 ⟹ arco 5π."
+]
+],
+"h": [
+"No triângulo OAS: OA = 6400 km (raio) e OS = 6400 + 6400 = 12 800 km ⟹ cos(AÔS) = 1/2 ⟹ AÔS = 60°.",
+"AÔB = 2 × 60° = 120° = 2π/3 rad.",
+"Arco AB = (2π/3) × 6400 ≈ <b>13 400 km</b>."
+]
+},
+{
+"id": "2013-2-mat-24b",
+"ano": 2013,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2013, 2ª fase, Matemática, questão 24(b) (adaptada para múltipla escolha)",
+"r": 1860,
+"tm": 90,
+"ctx": "Um satélite orbita a 6.400 km da superfície da Terra. A figura representa uma seção plana que inclui o satélite, o centro da Terra e o arco de circunferência AB. Nos pontos desse arco o sinal do satélite pode ser captado. Considere que o raio da Terra também mede 6.400 km. Suponha que o ponto C da figura seja tal que cos(θ) = 3/4. Determine a distância d entre o ponto C e o satélite.",
+"fig": "<svg viewBox='0 0 140 150' class='fg' role='img' aria-label='seção plana da Terra, um círculo de centro O e raio 6400 km; o satélite está acima, a 6400 km da superfície; as retas do satélite tangenciam a Terra nos pontos A e B, com ângulos retos em A e B; o arco AB, de cima, está destacado; C é um ponto desse arco, theta é o ângulo entre o segmento do centro ao satélite e o raio OC, e d é a distância de C ao satélite'><g fill='none' stroke='currentColor'><circle cx='70' cy='104' r='40' fill='currentColor' fill-opacity='0.1' stroke-width='0.8'/><path d='M35.4,84.0 A40,40 0 0 1 104.6,84.0' stroke-width='2.2'/><g stroke-width='0.8'><line x1='70.0' y1='24.0' x2='35.4' y2='84.0'/><line x1='70.0' y1='24.0' x2='104.6' y2='84.0'/></g><g stroke-width='0.5' stroke-dasharray='1.5 1.5'><line x1='70.0' y1='24.0' x2='70.0' y2='104.0'/><line x1='70.0' y1='104.0' x2='35.4' y2='84.0'/><line x1='70.0' y1='104.0' x2='104.6' y2='84.0'/><line x1='70.0' y1='104.0' x2='96.5' y2='74.0'/><line x1='70.0' y1='24.0' x2='96.5' y2='74.0'/></g><path d='M70.0,95.0 A9,9 0 0 1 76.0,97.2' stroke-width='0.6'/></g><g fill='currentColor'><circle cx='35.4' cy='84.0' r='1.4'/><circle cx='104.6' cy='84.0' r='1.4'/><circle cx='96.5' cy='74.0' r='1.4'/><circle cx='70.0' cy='104.0' r='1.4'/><circle cx='70.0' cy='64.0' r='1.4'/><rect x='64' y='21.5' width='12' height='5' rx='1'/><text x='79.0' y='21.0' text-anchor='start' font-size='6.5'>satélite</text><text x='32.4' y='85.0' text-anchor='end' font-size='7'>A</text><text x='107.6' y='85.0' text-anchor='start' font-size='7'>B</text><text x='99.5' y='72.0' text-anchor='start' font-size='7'>C</text><text x='71.0' y='112.0' text-anchor='middle' font-size='7'>O</text><text x='73.0' y='93.0' text-anchor='start' font-size='6.5'>θ</text><text x='66.0' y='46.0' text-anchor='end' font-size='5.5'>6400 km</text><text x='80.0' y='50.0' text-anchor='start' font-size='7'>d</text><text x='56.0' y='106.0' text-anchor='end' font-size='5.5'>6400 km</text><text x='70.0' y='140.0' text-anchor='middle' font-size='6.5'>Terra</text></g></svg>",
+"opts": [
+"6400√2 km ≈ 9 000 km",
+"6400√3 km ≈ 11 100 km",
+"6400 km",
+"3200√5 km ≈ 7 200 km"
+],
+"a": 0,
+"d": [
+[
+"Lei dos cossenos",
+"Num triângulo com dois lados conhecidos e o ângulo entre eles: d² = p² + q² − 2pq·cos θ.",
+"Ex.: lados 3 e 5 com cos θ = 0,2 ⟹ d² = 9 + 25 − 6 = 28."
+]
+],
+"h": [
+"Triângulo OCS: OC = 6400 km, OS = 12 800 km e o ângulo entre eles é θ.",
+"d² = 6400² + (2 × 6400)² − 2 × 6400 × 12 800 × 3/4 = 6400² × (1 + 4 − 3) = 2 × 6400².",
+"d = <b>6400√2 km ≈ 9 000 km</b>."
+]
+},
+{
+"id": "2013-2-qui-01a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2013, 2ª fase, Química, questão 1(a) (adaptada para múltipla escolha)",
+"r": 1480,
+"tm": 40,
+"ctx": "Na discussão atual sobre a sustentabilidade do planeta, o termo “3R” tem sido usado para se referir a práticas (Reutilizar, Reciclar e Reduzir) que podem ser adotadas para diminuir o consumo de materiais e energia na produção de objetos. Tendo em vista a sustentabilidade do planeta, qual a ordem dos verbos, colocando em primeiro lugar a ação que levaria a uma diminuição mais significativa do consumo energético e material e, em último, a ação que levaria a uma diminuição menos significativa?",
+"opts": [
+"Reduzir, reutilizar, reciclar.",
+"Reciclar, reutilizar, reduzir.",
+"Reutilizar, reduzir, reciclar.",
+"Reciclar, reduzir, reutilizar."
+],
+"a": 0,
+"d": [
+[
+"Hierarquia dos 3R",
+"Quanto menos material precisa ser produzido ou reprocessado, maior a economia. Pergunte, para cada ação: ainda é preciso fabricar ou transformar alguma coisa?",
+"Ex.: lavar e reusar um pote não exige refundir o material; reciclar o pote exige nova fusão e energia."
+]
+],
+"h": [
+"Reduzir: o objeto nem chega a ser produzido; economia máxima.",
+"Reutilizar: o objeto já existe e é usado de novo, com pouco gasto (limpeza, transporte).",
+"Reciclar: exige coleta, separação e reprocessamento, com gasto de energia. Ordem: <b>reduzir, reutilizar, reciclar</b>."
+]
+},
+{
+"id": "2013-2-qui-01b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2013, 2ª fase, Química, questão 1(b) (adaptada para múltipla escolha)",
+"r": 1620,
+"tm": 45,
+"ctx": "Na discussão atual sobre a sustentabilidade do planeta, o termo “3R” tem sido usado para se referir a práticas (Reutilizar, Reciclar e Reduzir) que podem ser adotadas para diminuir o consumo de materiais e energia na produção de objetos. Em um condomínio residencial há quatro grandes recipientes para receber, separadamente, metais, vidros, papéis e plásticos. Seria importante que houvesse outro recipiente, que até poderia ser menor, para receber outro tipo de material, que, do ponto de vista ambiental, é mais prejudicial que os outros mencionados. Que material seria esse e por quê?",
+"opts": [
+"Pilhas e baterias, pois contêm metais pesados e outras substâncias com alto potencial poluidor do solo e da água.",
+"Restos de alimentos, pois apodrecem e produzem gás oxigênio, que é tóxico.",
+"Embalagens longa vida, pois são feitas de papel, que não se decompõe no ambiente.",
+"Garrafas de vidro coloridas, pois o corante do vidro é radioativo."
+],
+"a": 0,
+"d": [
+[
+"Resíduos perigosos",
+"Além do volume, importa a toxicidade: materiais com metais pesados (como mercúrio, cádmio e chumbo) contaminam solo e água subterrânea mesmo em pequena quantidade e se acumulam nos seres vivos.",
+""
+]
+],
+"h": [
+"Metais, vidros, papéis e plásticos já têm coleta própria e são pouco tóxicos.",
+"Pilhas e baterias contêm metais pesados e eletrólitos corrosivos; num lixão, vazam para o solo e a água.",
+"Resposta: <b>pilhas e baterias (metais pesados)</b>."
+]
+},
+{
+"id": "2013-2-qui-02a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2013, 2ª fase, Química, questão 2(a) (adaptada para múltipla escolha)",
+"r": 1700,
+"tm": 60,
+"ctx": "O carro flex pode funcionar com etanol ou gasolina, ou com misturas desses combustíveis. A gasolina comercial brasileira é formada por uma mistura de hidrocarbonetos e apresenta, aproximadamente, 25% de etanol anidro em sua composição, enquanto o etanol combustível apresenta uma pequena quantidade de água, sendo comercializado como etanol hidratado. Do ponto de vista das interações intermoleculares, por que (1) a gasolina comercial, mistura de hidrocarbonetos e etanol, e (2) o etanol combustível, mistura de etanol e água, apresentam-se ambos como sistemas monofásicos?",
+"opts": [
+"(1) Os hidrocarbonetos, apolares, interagem com a parte apolar (a cadeia CH₃CH₂–) do etanol; (2) o grupo OH do etanol faz ligações de hidrogênio com a água.",
+"(1) O etanol faz ligações de hidrogênio com os hidrocarbonetos; (2) a parte apolar do etanol interage com a água.",
+"(1) Hidrocarbonetos e etanol reagem formando um único composto; (2) etanol e água também reagem entre si.",
+"(1) e (2) Os sistemas só são monofásicos porque os líquidos têm a mesma densidade."
+],
+"a": 0,
+"d": [
+[
+"Molécula com duas partes",
+"O etanol, CH₃CH₂OH, tem uma parte apolar (CH₃CH₂–) e uma parte polar (–OH). Cada parte interage com o que se parece com ela.",
+""
+],
+[
+"Ligação de hidrogênio",
+"Ocorre entre um H ligado a O, N ou F e um par de elétrons de outro O, N ou F. Hidrocarbonetos (só C e H) não fazem ligação de hidrogênio.",
+""
+]
+],
+"h": [
+"Hidrocarbonetos são apolares e interagem (forças de dispersão) com a cadeia apolar do etanol: uma só fase.",
+"Na mistura com água, o OH do etanol faz ligações de hidrogênio com as moléculas de água: uma só fase.",
+"Resposta: <b>(1) parte apolar do etanol ↔ hidrocarbonetos; (2) OH do etanol ↔ água, por ligações de hidrogênio</b>."
+]
+},
+{
+"id": "2013-2-qui-02b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2013, 2ª fase, Química, questão 2(b) (adaptada para múltipla escolha)",
+"r": 1760,
+"tm": 60,
+"ctx": "O carro flex pode funcionar com etanol ou gasolina, ou com misturas desses combustíveis. A gasolina comercial brasileira é formada por uma mistura de hidrocarbonetos e apresenta, aproximadamente, 25% de etanol anidro em sua composição, enquanto o etanol combustível apresenta uma pequena quantidade de água, sendo comercializado como etanol hidratado. Em um tanque subterrâneo de gasolina comercial houve uma infiltração de água. Amostras do líquido contido no tanque, coletadas em diversos pontos, foram juntadas em um recipiente. Levando em conta as possíveis interações intermoleculares entre os componentes, o que se observa no recipiente?",
+"opts": [
+"Duas fases: em cima, os hidrocarbonetos; embaixo, a água com a maior parte do etanol, que migra para ela.",
+"Uma só fase, pois o etanol mantém tudo misturado em qualquer proporção de água.",
+"Duas fases: em cima, a água; embaixo, os hidrocarbonetos com todo o etanol.",
+"Três fases: hidrocarbonetos, etanol e água, cada um separado."
+],
+"a": 0,
+"d": [
+[
+"Competição de interações",
+"O etanol interage com os hidrocarbonetos (forças fracas) e com a água (ligações de hidrogênio, mais fortes). Havendo água bastante, ele tende a ficar com ela.",
+""
+],
+[
+"Densidades",
+"Hidrocarbonetos da gasolina têm densidade em torno de 0,7 g/cm³; a água, 1,0 g/cm³. A fase menos densa fica por cima.",
+""
+]
+],
+"h": [
+"Hidrocarbonetos (apolares) e água (polar) não se misturam: duas fases.",
+"O etanol, por ligações de hidrogênio, passa em sua maior parte para a fase aquosa.",
+"Resposta: <b>fase de cima de hidrocarbonetos; fase de baixo de água + etanol</b>."
+]
+},
+{
+"id": "2013-2-qui-03a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2013, 2ª fase, Química, questão 3(a) (adaptada para múltipla escolha)",
+"r": 1550,
+"tm": 50,
+"ctx": "O glutamato monossódico (hidrogenoglutamato de sódio), utilizado para reforçar o aroma e o sabor de produtos alimentícios (umami), é um sal derivado do ácido glutâmico, um dos vinte aminoácidos essenciais. O nome sistemático desse aminoácido é ácido 2-aminopentanodioico. Ele pode ser descrito como “uma molécula formada por uma cadeia de cinco átomos de carbono com duas extremidades de grupos carboxílicos e um grupo amino ligado ao carbono adjacente a um dos grupos carboxílicos”. A fórmula estrutural (condensada) do ácido glutâmico é",
+"opts": [
+"HOOC–CH(NH₂)–CH₂–CH₂–COOH",
+"HOOC–CH₂–CH(NH₂)–CH₂–COOH",
+"H₂N–CH₂–CH₂–CH₂–CH₂–COOH",
+"HOOC–CH(NH₂)–CH₂–CH₂–CH₂–COOH"
+],
+"a": 0,
+"d": [
+[
+"Ler o nome sistemático",
+"“pentano” = cadeia de 5 carbonos; “dioico” = ácido carboxílico (–COOH) nas duas pontas; “2-amino” = grupo –NH₂ no carbono 2, contando a partir de um carbono de COOH (que é o carbono 1).",
+"Ex.: ácido 2-aminopropanoico (alanina) = CH₃–CH(NH₂)–COOH."
+]
+],
+"h": [
+"5 carbonos, os das pontas como COOH: HOOC–C–C–C–COOH.",
+"O NH₂ vai no C2, vizinho de uma das carboxilas.",
+"Fórmula: <b>HOOC–CH(NH₂)–CH₂–CH₂–COOH</b>."
+]
+},
+{
+"id": "2013-2-qui-03b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2013, 2ª fase, Química, questão 3(b) (adaptada para múltipla escolha)",
+"r": 1650,
+"tm": 60,
+"ctx": "O glutamato monossódico (hidrogenoglutamato de sódio), utilizado para reforçar o aroma e o sabor de produtos alimentícios (umami), é um sal derivado do ácido glutâmico, um dos vinte aminoácidos essenciais. O nome sistemático desse aminoácido é ácido 2-aminopentanodioico. Ele pode ser descrito como “uma molécula formada por uma cadeia de cinco átomos de carbono com duas extremidades de grupos carboxílicos e um grupo amino ligado ao carbono adjacente a um dos grupos carboxílicos”. Fazendo reagir o ácido glutâmico com uma base, é possível preparar o hidrogenoglutamato de sódio. A equação química dessa reação é",
+"opts": [
+"HOOC–CH(NH₂)–CH₂–CH₂–COOH + NaOH → HOOC–CH(NH₂)–CH₂–CH₂–COO⁻Na⁺ + H₂O",
+"HOOC–CH(NH₂)–CH₂–CH₂–COOH + 2 NaOH → Na⁺⁻OOC–CH(NH₂)–CH₂–CH₂–COO⁻Na⁺ + 2 H₂O",
+"HOOC–CH(NH₂)–CH₂–CH₂–COOH + NaCl → HOOC–CH(NH₃⁺Cl⁻)–CH₂–CH₂–COONa",
+"HOOC–CH(NH₂)–CH₂–CH₂–COOH + Na → HOOC–CH(NHNa)–CH₂–CH₂–COOH + ½ H₂"
+],
+"a": 0,
+"d": [
+[
+"Neutralização",
+"Ácido + base → sal + água: o OH⁻ da base retira o H⁺ de um grupo –COOH, que vira –COO⁻ (com o cátion da base ao lado).",
+"Ex.: CH₃COOH + NaOH → CH₃COO⁻Na⁺ + H₂O."
+],
+[
+"O prefixo “hidrogeno”",
+"“Hidrogenoglutamato” indica que ainda resta um H ácido: só uma das duas carboxilas foi neutralizada (proporção 1 : 1).",
+""
+]
+],
+"h": [
+"A base é o NaOH; o sal desejado tem só uma carboxila neutralizada.",
+"Proporção 1 mol de ácido : 1 mol de NaOH, formando 1 H₂O.",
+"Equação: <b>ácido glutâmico + NaOH → hidrogenoglutamato de sódio + H₂O</b>."
+]
+},
+{
+"id": "2013-2-qui-04a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2013, 2ª fase, Química, questão 4(a) (adaptada para múltipla escolha)",
+"r": 1400,
+"tm": 40,
+"ctx": "Na década de 1960, desenvolveu-se um foguete individual denominado “Bell Rocket Belt”, que fez grande sucesso na abertura das Olimpíadas de 1984. Simplificadamente, esse foguete funciona à base da decomposição de peróxido de hidrogênio, que, ao passar por um compartimento com catalisador, se decompõe muito rapidamente de acordo com a equação:<br>H₂O₂(l) → H₂O(g) + ½ O₂(g); ΔH = −54 kJ/mol<br>No funcionamento do dispositivo há liberação ou absorção de energia? Por quê?",
+"opts": [
+"Liberação: a entalpia da reação é negativa, ou seja, a reação é exotérmica.",
+"Absorção: a entalpia da reação é negativa, ou seja, a reação é endotérmica.",
+"Absorção: o catalisador precisa receber energia para a reação ocorrer.",
+"Nem liberação nem absorção: o catalisador apenas acelera a reação."
+],
+"a": 0,
+"d": [
+[
+"Sinal de ΔH",
+"ΔH < 0: os produtos têm menos entalpia que os reagentes, e a diferença sai como calor (exotérmica). ΔH > 0: a reação absorve calor (endotérmica).",
+""
+],
+[
+"Catalisador",
+"O catalisador só acelera a reação (diminui a energia de ativação); ele não muda o ΔH.",
+""
+]
+],
+"h": [
+"ΔH = −54 kJ/mol é negativo.",
+"Cada mol de H₂O₂ decomposto libera 54 kJ (que aquecem e expandem os gases que impulsionam o foguete).",
+"Resposta: <b>há liberação de energia; reação exotérmica</b>."
+]
+},
+{
+"id": "2013-2-qui-04b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2013, 2ª fase, Química, questão 4(b)",
+"r": 1640,
+"tm": 75,
+"ctx": "Na década de 1960, desenvolveu-se um foguete individual denominado “Bell Rocket Belt”, que fez grande sucesso na abertura das Olimpíadas de 1984. Simplificadamente, esse foguete funciona à base da decomposição de peróxido de hidrogênio, que, ao passar por um compartimento com catalisador, se decompõe muito rapidamente de acordo com a equação:<br>H₂O₂(l) → H₂O(g) + ½ O₂(g); ΔH = −54 kJ/mol<br>Considerando a decomposição total de 68 quilogramas de peróxido de hidrogênio, quantos metros cúbicos de gases são produzidos? Nas condições de uso do dispositivo, o volume molar gasoso é de 0,075 m³/mol. (Massas molares: H = 1 g/mol, O = 16 g/mol.)",
+"a": 225,
+"u": "m³",
+"tol": 0.01,
+"d": [
+[
+"Mols a partir da massa",
+"n = m/M; cuide das unidades (kg → g).",
+"Ex.: 36 kg de água (M = 18 g/mol) = 2000 mol."
+],
+[
+"Contar todos os gases",
+"Pela equação, cada mol de reagente produz a soma dos coeficientes dos produtos gasosos. Volume = mols de gás × volume molar.",
+""
+]
+],
+"h": [
+"M(H₂O₂) = 34 g/mol ⟹ n = 68 000 g ÷ 34 = 2000 mol.",
+"Gases: 1 H₂O + ½ O₂ = 1,5 mol de gás por mol de H₂O₂ ⟹ 3000 mol.",
+"V = 3000 × 0,075 = <b>225 m³</b>."
+]
+},
+{
+"id": "2013-2-qui-05a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2013, 2ª fase, Química, questão 5(a)",
+"r": 1850,
+"tm": 90,
+"ctx": "Na reciclagem de embalagens de alumínio, usam-se apenas 5% da energia despendida na sua fabricação a partir do minério de bauxita. No entanto, não se deve esquecer a enorme quantidade de energia envolvida nessa fabricação (3,6 × 10⁶ joules por latinha), além do fato de que a bauxita contém (em média) 55% de óxido de alumínio (alumina, Al₂O₃) e 45% de resíduos sólidos. Considerando que em 2010 o Brasil produziu 32 × 10⁶ toneladas de alumínio metálico a partir da bauxita, calcule quantas toneladas de resíduos sólidos foram geradas nesse período por essa atividade. (Massas molares: Al = 27 g/mol, O = 16 g/mol.)",
+"a": 49500000.0,
+"u": "t",
+"tol": 0.03,
+"d": [
+[
+"Massa de óxido a partir do metal",
+"Al₂O₃ → 2 Al: 102 g de óxido dão 54 g de alumínio. Use essa proporção em massa (toneladas no lugar de gramas).",
+"Ex.: 54 t de Al exigem 102 t de Al₂O₃."
+],
+[
+"Composição do minério",
+"Se a alumina é 55% da bauxita e os resíduos são 45%, então resíduos = alumina × 45/55.",
+""
+]
+],
+"h": [
+"Alumina necessária: 32 × 10⁶ × 102/54 ≈ 60,4 × 10⁶ t.",
+"Essa alumina é 55% da bauxita; os resíduos são 45%: 60,4 × 10⁶ × 45/55.",
+"Resíduos ≈ <b>4,9 × 10⁷ t</b> (cerca de 49,5 milhões de toneladas)."
+]
+},
+{
+"id": "2013-2-qui-05b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2013, 2ª fase, Química, questão 5(b)",
+"r": 1550,
+"tm": 50,
+"ctx": "Na reciclagem de embalagens de alumínio, usam-se apenas 5% da energia despendida na sua fabricação a partir do minério de bauxita. No entanto, não se deve esquecer a enorme quantidade de energia envolvida nessa fabricação (3,6 × 10⁶ joules por latinha), além do fato de que a bauxita contém (em média) 55% de óxido de alumínio (alumina, Al₂O₃) e 45% de resíduos sólidos. Calcule o número de banhos que poderiam ser tomados com a energia necessária para produzir apenas uma latinha de alumínio, estimando em 10 minutos o tempo de duração do banho, em um chuveiro cuja potência é de 3.000 W (1 W = 1 J/s).",
+"a": 2,
+"u": "banhos",
+"tol": 0.005,
+"d": [
+[
+"Energia a partir da potência",
+"E = P·Δt, com P em W (J/s) e Δt em segundos.",
+"Ex.: 1000 W ligados por 5 min = 1000 × 300 = 3 × 10⁵ J."
+]
+],
+"h": [
+"Um banho: 3000 W × 600 s = 1,8 × 10⁶ J.",
+"Energia de uma latinha: 3,6 × 10⁶ J.",
+"3,6 × 10⁶ ÷ 1,8 × 10⁶ = <b>2 banhos</b>."
+]
+},
+{
+"id": "2013-2-qui-06a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2013, 2ª fase, Química, questão 6(a) (adaptada para múltipla escolha)",
+"r": 1640,
+"tm": 60,
+"ctx": "Um efluente industrial contaminado por Cr⁶⁺ recebe um tratamento químico que consiste na sua acidificação e na adição de ferro metálico. O ferro metálico e o ácido reagem entre si, dando origem ao íon Fe²⁺. Este, por sua vez, reage com o Cr⁶⁺, levando à formação dos íons Fe³⁺ e Cr³⁺. Depois desse passo do tratamento, o pH do efluente é aumentado por adição de uma base, o que leva à formação dos correspondentes hidróxidos pouco solúveis dos íons metálicos presentes. Os hidróxidos sólidos formados podem, assim, ser removidos da água. Em relação ao tratamento completo, qual alternativa traz um exemplo de reação sem transferência de elétrons e um exemplo de reação com transferência de elétrons, nessa ordem?",
+"opts": [
+"Formação do hidróxido de ferro(III), Fe³⁺ + 3 OH⁻ → Fe(OH)₃; reação entre Fe²⁺ e Cr⁶⁺, formando Fe³⁺ e Cr³⁺.",
+"Reação do ferro metálico com o ácido; formação do hidróxido de crômio(III).",
+"Reação entre Fe²⁺ e Cr⁶⁺; reação do ferro metálico com o ácido.",
+"Formação do hidróxido de crômio(III); formação do hidróxido de ferro(III)."
+],
+"a": 0,
+"d": [
+[
+"Oxirredução",
+"Há transferência de elétrons quando algum elemento muda de número de oxidação (carga) entre reagentes e produtos.",
+"Ex.: Zn + Cu²⁺ → Zn²⁺ + Cu é oxirredução; Ag⁺ + Cl⁻ → AgCl não é."
+]
+],
+"h": [
+"Fe → Fe²⁺ (com o ácido) e Fe²⁺ + Cr⁶⁺ → Fe³⁺ + Cr³⁺: as cargas mudam, há transferência de elétrons.",
+"Fe³⁺ + 3 OH⁻ → Fe(OH)₃ e Cr³⁺ + 3 OH⁻ → Cr(OH)₃: as cargas dos metais não mudam (precipitação).",
+"Resposta: <b>sem: formação de Fe(OH)₃; com: Fe²⁺ + Cr⁶⁺ → Fe³⁺ + Cr³⁺</b>."
+]
+},
+{
+"id": "2013-2-qui-06b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2013, 2ª fase, Química, questão 6(b) (adaptada para múltipla escolha)",
+"r": 1500,
+"tm": 45,
+"ctx": "Um efluente industrial contaminado por Cr⁶⁺ recebe um tratamento químico que consiste na sua acidificação e na adição de ferro metálico. O ferro metálico e o ácido reagem entre si, dando origem ao íon Fe²⁺. Este, por sua vez, reage com o Cr⁶⁺, levando à formação dos íons Fe³⁺ e Cr³⁺. Depois desse passo do tratamento, o pH do efluente é aumentado por adição de uma base, o que leva à formação dos correspondentes hidróxidos pouco solúveis dos íons metálicos presentes. Os hidróxidos sólidos formados podem, assim, ser removidos da água. O resíduo sólido obtido ao final do processo pode ser separado da água por decantação ou por filtração. Qual descrição dessas duas técnicas está correta?",
+"opts": [
+"Decantação: deixa-se a mistura em repouso até o sólido se depositar no fundo e retira-se o líquido de cima; filtração: passa-se a mistura por um filtro (papel em funil), que retém o sólido.",
+"Decantação: aquece-se a mistura até o líquido evaporar; filtração: separa-se o sólido com um ímã.",
+"Decantação: passa-se a mistura por um filtro de papel; filtração: deixa-se em repouso até o sólido depositar.",
+"Decantação e filtração só separam líquidos miscíveis entre si."
+],
+"a": 0,
+"d": [
+[
+"Separar sólido de líquido",
+"Decantação usa a gravidade: o sólido, mais denso, vai ao fundo e o líquido é retirado por cima (vertendo ou com sifão). Filtração usa um meio poroso que deixa passar o líquido e retém as partículas sólidas.",
+""
+]
+],
+"h": [
+"Os hidróxidos são sólidos pouco solúveis e mais densos que a água.",
+"Em repouso, depositam-se (decantação); num funil com papel de filtro, ficam retidos (filtração).",
+"Resposta: <b>decantação = repouso e retirada do líquido de cima; filtração = filtro que retém o sólido</b>."
+]
+},
+{
+"id": "2013-2-qui-07a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2013, 2ª fase, Química, questão 7(a) (adaptada para múltipla escolha)",
+"r": 1780,
+"tm": 75,
+"ctx": "“Pegada de carbono” é a massa de gases do efeito estufa emitida por uma determinada atividade. Como esse cálculo é bem complexo, utiliza-se no lugar dele o fator de emissão de CO₂, definido como a massa emitida de CO₂ por atividade. Uma pessoa, por exemplo, tem um fator de emissão de cerca de 800 gramas de CO₂ por dia, catabolizando açúcar (CH₂O)ₙ e gordura (CH₂)ₙ. Tomando por base os dois “combustíveis humanos” citados (açúcar e gordura), qual deles teria maior fator de emissão de CO₂, considerando-se uma mesma massa consumida? (Massas molares: C = 12, H = 1, O = 16 g/mol.)",
+"opts": [
+"A gordura: 30 g de (CH₂)ₙ geram cerca de 94 g de CO₂, contra 44 g de CO₂ para 30 g de açúcar.",
+"O açúcar: por ter oxigênio, gera mais CO₂ por grama do que a gordura.",
+"Os dois geram a mesma massa de CO₂, pois ambos têm um carbono por unidade.",
+"A gordura: 30 g de (CH₂)ₙ geram 44 g de CO₂, contra 30 g de CO₂ para 30 g de açúcar."
+],
+"a": 0,
+"d": [
+[
+"Massa de CO₂ por grama de combustível",
+"Cada átomo de C vira um CO₂ (44 g/mol). Compare quantos mols de C há em uma mesma massa de cada substância: n(C) = massa ÷ (massa da unidade que contém 1 C).",
+"Ex.: CH₄ (16 g por C) gera 44 g de CO₂ a cada 16 g queimados."
+]
+],
+"h": [
+"Açúcar: unidade CH₂O = 30 g com 1 C ⟹ 30 g geram 44 g de CO₂.",
+"Gordura: unidade CH₂ = 14 g com 1 C ⟹ 30 g têm 30/14 ≈ 2,14 mol de C ⟹ ≈ 94 g de CO₂.",
+"Resposta: <b>a gordura emite mais CO₂ por massa</b> (≈ 94 g contra 44 g por 30 g)."
+]
+},
+{
+"id": "2013-2-qui-07b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2013, 2ª fase, Química, questão 7(b)",
+"r": 1740,
+"tm": 60,
+"ctx": "“Pegada de carbono” é a massa de gases do efeito estufa emitida por uma determinada atividade. Como esse cálculo é bem complexo, utiliza-se no lugar dele o fator de emissão de CO₂, definido como a massa emitida de CO₂ por atividade. Uma pessoa, por exemplo, tem um fator de emissão de cerca de 800 gramas de CO₂ por dia, catabolizando açúcar (CH₂O)ₙ e gordura (CH₂)ₙ. Uma pessoa utiliza diariamente, em média, 150 gramas de gás butano (C₄H₁₀) cozinhando alimentos. Qual é, aproximadamente, a massa de CO₂, em gramas, emitida por dia nesse cozimento (para comparar com os 800 g da catabolização diária)? (Massas molares: C = 12, H = 1, O = 16 g/mol.)",
+"a": 455,
+"u": "g",
+"tol": 0.02,
+"d": [
+[
+"Combustão completa",
+"C₄H₁₀ + 13/2 O₂ → 4 CO₂ + 5 H₂O: cada mol de butano gera 4 mol de CO₂.",
+""
+],
+[
+"Proporção em massa",
+"Converta a proporção em mols para massas: 1 mol de butano = 58 g; 4 mol de CO₂ = 176 g.",
+"Ex.: 29 g de butano ⟹ metade de 176 g = 88 g de CO₂."
+]
+],
+"h": [
+"58 g de C₄H₁₀ → 4 × 44 = 176 g de CO₂.",
+"150 g → 150 × 176/58 ≈ 455 g de CO₂.",
+"<b>≈ 455 g</b>: menor que os 800 g da catabolização diária."
+]
+},
+{
+"id": "2013-2-qui-08a",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2013, 2ª fase, Química, questão 8(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "A maturação e o amaciamento da carne bovina podem ser conseguidos pela adição de uma solução de cloreto de cálcio di-hidratado (CaCl₂·2H₂O) na concentração de 0,18 mol por litro. Obtém-se um melhor resultado injetando-se 50 mililitros dessa solução em 1 quilograma de carne. Que massa de cloreto de cálcio di-hidratado, em gramas, seria necessária para se obter o melhor resultado da maturação de 1 kg de carne bovina? (Massas molares: Ca = 40, Cl = 35,5, H = 1, O = 16 g/mol.)",
+"a": 1.323,
+"u": "g",
+"tol": 0.02,
+"d": [
+[
+"Concentração em mol/L",
+"n = C × V, com V em litros; depois m = n × M.",
+"Ex.: 200 mL de solução 0,5 mol/L contêm 0,1 mol."
+],
+[
+"Massa molar do hidrato",
+"A água de hidratação faz parte da fórmula: some 2 × 18 g/mol à massa do CaCl₂.",
+""
+]
+],
+"h": [
+"n = 0,18 mol/L × 0,050 L = 0,009 mol.",
+"M(CaCl₂·2H₂O) = 40 + 71 + 36 = 147 g/mol.",
+"m = 0,009 × 147 = <b>1,323 g</b>."
+]
+},
+{
+"id": "2013-2-qui-08b",
+"ano": 2013,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2013, 2ª fase, Química, questão 8(b) (adaptada para múltipla escolha)",
+"r": 1880,
+"tm": 60,
+"ctx": "A maturação e o amaciamento da carne bovina podem ser conseguidos pela adição de uma solução de cloreto de cálcio di-hidratado (CaCl₂·2H₂O) na concentração de 0,18 mol por litro. Obtém-se um melhor resultado injetando-se 50 mililitros dessa solução em 1 quilograma de carne. Sabendo-se que o íon cálcio é quem ativa o sistema enzimático responsável pelo amaciamento da carne, caso o cloreto de cálcio di-hidratado fosse substituído por cloreto de cálcio anidro, na mesma concentração (mol/L), o resultado obtido no processo seria o mesmo? Considere apenas o aspecto estequiométrico.",
+"opts": [
+"Sim: nas duas soluções há 1 mol de Ca²⁺ por mol de sal, e a concentração em mol/L é a mesma, então a quantidade de Ca²⁺ injetada é igual.",
+"Não: o sal anidro tem massa molar menor, então haveria menos Ca²⁺ na solução.",
+"Não: o sal anidro tem mais cálcio por grama, então haveria mais Ca²⁺ na solução.",
+"Sim, mas só porque a água de hidratação não se dissolve."
+],
+"a": 0,
+"d": [
+[
+"Concentração em mol/L × em g/L",
+"Mesma concentração em mol/L significa o mesmo número de mols de soluto por litro, qualquer que seja a massa molar. A massa a pesar muda; a quantidade de partículas, não.",
+""
+],
+[
+"Dissociação",
+"CaCl₂ → Ca²⁺ + 2 Cl⁻: 1 mol de sal fornece 1 mol de Ca²⁺, seja ele hidratado ou não.",
+""
+]
+],
+"h": [
+"Hidratado ou anidro, cada mol de sal libera 1 mol de Ca²⁺.",
+"Mesma concentração em mol/L e mesmo volume ⟹ mesmo número de mols de Ca²⁺.",
+"Resposta: <b>sim, o resultado seria o mesmo</b> (mudaria só a massa de sal a pesar)."
+]
+},
+{
+"id": "2013-2-fis-09a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2013, 2ª fase, Física, questão 9(a)",
+"r": 1140,
+"tm": 40,
+"ctx": "Em 2012 foi comemorado o centenário da descoberta dos raios cósmicos, que são partículas provenientes do espaço. Os neutrinos são partículas que atingem a Terra, provenientes em sua maioria do Sol. Sabendo-se que a distância do Sol à Terra é igual a 1,5 × 10¹¹ m, e considerando a velocidade dos neutrinos igual a 3,0 × 10⁸ m/s, calcule o tempo, em segundos, de viagem de um neutrino solar até a Terra.",
+"a": 500,
+"u": "s",
+"tol": 0.005,
+"d": [
+[
+"Movimento uniforme",
+"Δt = d/v.",
+"Ex.: 6 × 10⁹ m a 3 × 10⁸ m/s ⟹ 20 s."
+],
+[
+"Divisão de potências de 10",
+"10ᵃ/10ᵇ = 10ᵃ⁻ᵇ.",
+""
+]
+],
+"h": [
+"Δt = 1,5 × 10¹¹ m ÷ 3,0 × 10⁸ m/s.",
+"= 0,5 × 10³ s.",
+"Δt = <b>500 s</b> (pouco mais de 8 minutos)."
+]
+},
+{
+"id": "2013-2-fis-09b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2013, 2ª fase, Física, questão 9(b)",
+"r": 1900,
+"tm": 90,
+"ctx": "Em 2012 foi comemorado o centenário da descoberta dos raios cósmicos, que são partículas provenientes do espaço. As partículas ionizam o ar e um instrumento usado para medir esta ionização é o eletroscópio. Ele consiste em duas hastes metálicas que se repelem quando carregadas. De forma simplificada, as hastes podem ser tratadas como dois pêndulos simples de mesma massa m e mesma carga q localizadas nas suas extremidades. O módulo da força elétrica entre as cargas é F<sub>e</sub> = k·q²/d², sendo k = 9 × 10⁹ N·m²/C². Para a situação ilustrada na figura, qual é a carga q, em coulombs, se m = 0,004 g? (Use g = 10 m/s².)",
+"fig": "<svg viewBox='0 0 124 84' class='fg' role='img' aria-label='duas hastes tratadas como pêndulos presos no mesmo ponto, cada fio fazendo 45 graus com a vertical; as duas cargas, nas pontas, estão separadas por d = 3 cm na horizontal; na carga da esquerda atuam a tração T ao longo do fio, a força elétrica F e horizontal para a esquerda e o peso m g para baixo'><g fill='none' stroke='currentColor'><g stroke-width='0.8'><line x1='60.0' y1='8.0' x2='22.0' y2='46.0'/><line x1='60.0' y1='8.0' x2='98.0' y2='46.0'/><line x1='50.0' y1='8.0' x2='70.0' y2='8.0'/></g><g stroke-width='0.5' stroke-dasharray='1.5 1.5'><line x1='60.0' y1='8.0' x2='60.0' y2='40.0'/></g><path d='M60.0,18.0 A10,10 0 0 1 52.9,15.1' stroke-width='0.6'/><g stroke-width='1.2'><line x1='22.0' y1='46.0' x2='33.3' y2='34.7'/><line x1='22.0' y1='46.0' x2='6.0' y2='46.0'/><line x1='22.0' y1='46.0' x2='22.0' y2='64.0'/></g><g stroke-width='0.5'><line x1='22.0' y1='74.0' x2='98.0' y2='74.0'/><line x1='22.0' y1='70.0' x2='22.0' y2='78.0'/><line x1='98.0' y1='70.0' x2='98.0' y2='78.0'/></g></g><g fill='currentColor'><circle cx='22' cy='46' r='3.2'/><circle cx='98' cy='46' r='3.2'/><polygon points='33.3,34.7 31.9,38.4 29.6,36.1'/><polygon points='6.0,46.0 9.6,44.3 9.6,47.7'/><polygon points='22.0,64.0 20.3,60.4 23.7,60.4'/><polygon points='22.0,74.0 24.7,72.7 24.7,75.3'/><polygon points='98.0,74.0 95.3,75.3 95.3,72.7'/><text x='31.3' y='31.7' text-anchor='end' font-size='7'>T</text><text x='6.0' y='41.0' text-anchor='middle' font-size='7'>F<tspan font-size='5' dy='1.5'>e</tspan></text><text x='26.0' y='64.0' text-anchor='start' font-size='7'>mg</text><text x='52.0' y='23.0' text-anchor='end' font-size='6'>45°</text><text x='60.0' y='82.0' text-anchor='middle' font-size='6.5'>d = 3 cm</text></g></svg>",
+"a": 2e-09,
+"u": "C",
+"tol": 0.02,
+"d": [
+[
+"Equilíbrio com três forças",
+"Decomponha a tração nas direções horizontal e vertical: T·sen θ equilibra a força horizontal e T·cos θ equilibra o peso. Dividindo: tan θ = F<sub>horizontal</sub>/peso.",
+"Ex.: θ = 45° ⟹ tan θ = 1 ⟹ força horizontal = peso."
+],
+[
+"Lei de Coulomb",
+"F<sub>e</sub> = k·q²/d² ⟹ q = d·√(F<sub>e</sub>/k). Use SI: g → kg e cm → m.",
+""
+]
+],
+"h": [
+"Com 45°: F<sub>e</sub> = mg = 4 × 10⁻⁶ kg × 10 m/s² = 4 × 10⁻⁵ N.",
+"q² = F<sub>e</sub>·d²/k = 4 × 10⁻⁵ × (3 × 10⁻²)²/(9 × 10⁹) = 4 × 10⁻¹⁸.",
+"q = <b>2 × 10⁻⁹ C</b>."
+]
+},
+{
+"id": "2013-2-fis-10a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2013, 2ª fase, Física, questão 10(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Alguns tênis esportivos modernos possuem um sensor na sola que permite o monitoramento do desempenho do usuário durante as corridas. Considere um atleta de massa m = 70 kg que usa um tênis com sensor durante uma série de três corridas. O gráfico 1 mostra a distância percorrida pelo atleta e a duração em horas das três corridas, realizadas em velocidades constantes distintas. Para essa série de corridas, o consumo de energia do corredor pode ser aproximado por E = C<sub>MET</sub>·m·t, onde m é a massa do corredor, t é a duração da corrida e C<sub>MET</sub> é uma constante que depende da velocidade do corredor, expressa em kJ/(kg·h). Usando o gráfico 2, que expressa C<sub>MET</sub> em função da velocidade do corredor, calcule a quantidade de energia, em kJ, que o atleta gastou na terceira corrida.",
+"fig": "<svg viewBox='0 0 244 112' class='fg' role='img' aria-label='gráfico 1: barras com a distância percorrida, em km, em cada corrida: 1ª corrida, duração 0,25 h, 1,5 km; 2ª corrida, duração 0,5 h, 5,0 km; 3ª corrida, duração 0,5 h, 7,5 km. Gráfico 2: C MET, em kJ por kg vezes h, em função da velocidade V, em km/h: a curva sobe de cerca de 12 em 3 km/h para 40 em 10 km/h, 60 em 15 km/h e cerca de 83 em 20 km/h'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='22' y1='72.0' x2='104' y2='72.0'/><line x1='22' y1='52.0' x2='104' y2='52.0'/><line x1='22' y1='32.0' x2='104' y2='32.0'/><line x1='22' y1='12.0' x2='104' y2='12.0'/></g><line x1='22' y1='92.0' x2='104' y2='92.0' stroke-width='1'/><line x1='22' y1='92.0' x2='22' y2='8.0' stroke-width='1'/><g stroke-width='0.5' stroke-opacity='0.45'><line x1='164.0' y1='92.0' x2='164.0' y2='12.0'/><line x1='182.0' y1='92.0' x2='182.0' y2='12.0'/><line x1='200.0' y1='92.0' x2='200.0' y2='12.0'/><line x1='218.0' y1='92.0' x2='218.0' y2='12.0'/><line x1='236.0' y1='92.0' x2='236.0' y2='12.0'/><line x1='146.0' y1='76.0' x2='236.0' y2='76.0'/><line x1='146.0' y1='60.0' x2='236.0' y2='60.0'/><line x1='146.0' y1='44.0' x2='236.0' y2='44.0'/><line x1='146.0' y1='28.0' x2='236.0' y2='28.0'/><line x1='146.0' y1='12.0' x2='236.0' y2='12.0'/></g><line x1='146.0' y1='92.0' x2='239.60000000000002' y2='92.0' stroke-width='1'/><line x1='146.0' y1='92.0' x2='146.0' y2='8.0' stroke-width='1'/><path d='M156.8,82.4 C158.0,81.9 161.6,81.1 164.0,79.2 C166.4,77.3 168.2,74.4 171.2,71.2 C174.2,68.0 177.2,64.5 182.0,60.0 C186.8,55.5 194.0,49.7 200.0,44.0 C206.0,38.3 215.0,28.7 218.0,25.6' stroke-width='1.3'/></g><g fill='currentColor'><rect x='26' y='80.0' width='8' height='12.0'/><rect x='51' y='52.0' width='8' height='40.0'/><rect x='76' y='32.0' width='8' height='60.0'/><text x='30.0' y='99.0' text-anchor='middle' font-size='5.5'>0,25 h</text><text x='30.0' y='106.0' text-anchor='middle' font-size='5.5'>1ª corrida</text><text x='55.0' y='99.0' text-anchor='middle' font-size='5.5'>0,5 h</text><text x='55.0' y='106.0' text-anchor='middle' font-size='5.5'>2ª corrida</text><text x='80.0' y='99.0' text-anchor='middle' font-size='5.5'>0,5 h</text><text x='80.0' y='106.0' text-anchor='middle' font-size='5.5'>3ª corrida</text><text x='20.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='20.0' y='74.0' text-anchor='end' font-size='5.5'>2,5</text><text x='20.0' y='54.0' text-anchor='end' font-size='5.5'>5</text><text x='20.0' y='34.0' text-anchor='end' font-size='5.5'>7,5</text><text x='20.0' y='14.0' text-anchor='end' font-size='5.5'>10</text><text x='6.0' y='52.0' text-anchor='middle' font-size='6' transform='rotate(-90 6.0 52.0)'>distância (km)</text><text x='60.0' y='6.0' text-anchor='middle' font-size='7'>1)</text><text x='146.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='164.0' y='99.0' text-anchor='middle' font-size='5.5'>5</text><text x='182.0' y='99.0' text-anchor='middle' font-size='5.5'>10</text><text x='200.0' y='99.0' text-anchor='middle' font-size='5.5'>15</text><text x='218.0' y='99.0' text-anchor='middle' font-size='5.5'>20</text><text x='236.0' y='99.0' text-anchor='middle' font-size='5.5'>25</text><text x='144.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='144.0' y='78.0' text-anchor='end' font-size='5.5'>20</text><text x='144.0' y='62.0' text-anchor='end' font-size='5.5'>40</text><text x='144.0' y='46.0' text-anchor='end' font-size='5.5'>60</text><text x='144.0' y='30.0' text-anchor='end' font-size='5.5'>80</text><text x='144.0' y='14.0' text-anchor='end' font-size='5.5'>100</text><text x='191.0' y='108.0' text-anchor='middle' font-size='6'>V (km/h)</text><text x='130.0' y='52.0' text-anchor='middle' font-size='6' transform='rotate(-90 130.0 52.0)'>C<tspan font-size='5' dy='1.5'>MET</tspan> (kJ/(kg·h))</text><text x='191.0' y='6.0' text-anchor='middle' font-size='7'>2)</text></g></svg>",
+"a": 2100,
+"u": "kJ",
+"tol": 0.01,
+"d": [
+[
+"Velocidade a partir do gráfico 1",
+"v = distância/duração da corrida.",
+"Ex.: 4 km em 0,5 h ⟹ 8 km/h."
+],
+[
+"Leitura do gráfico 2",
+"Com a velocidade calculada no eixo horizontal, suba até a curva e leia C<sub>MET</sub> no eixo vertical. Depois aplique E = C<sub>MET</sub>·m·t (kJ/(kg·h) × kg × h = kJ).",
+""
+]
+],
+"h": [
+"3ª corrida: 7,5 km em 0,5 h ⟹ v = 15 km/h.",
+"No gráfico 2, em 15 km/h: C<sub>MET</sub> = 60 kJ/(kg·h).",
+"E = 60 × 70 × 0,5 = <b>2100 kJ</b>."
+]
+},
+{
+"id": "2013-2-fis-10b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2013, 2ª fase, Física, questão 10(b) (área de contato fornecida)",
+"r": 1700,
+"tm": 60,
+"ctx": "Alguns tênis esportivos modernos possuem um sensor na sola que permite o monitoramento do desempenho do usuário durante as corridas. Considere um atleta de massa m = 70 kg que usa um tênis com sensor durante uma série de três corridas. O sensor detecta o contato da sola do tênis com o solo pela variação da pressão. Estimando a área de contato entre o tênis e o solo em 200 cm², calcule a pressão, em pascals, aplicada no solo quando o atleta está em repouso e apoiado sobre um único pé. (Use g = 10 m/s².)",
+"a": 35000.0,
+"u": "Pa",
+"tol": 0.01,
+"d": [
+[
+"Pressão",
+"p = F/A, com F em newtons e A em m²; em repouso sobre um pé, a força no solo é o peso todo, mg.",
+"Ex.: 600 N sobre 0,03 m² ⟹ 2 × 10⁴ Pa."
+],
+[
+"cm² para m²",
+"1 m² = 10⁴ cm², então A(m²) = A(cm²) × 10⁻⁴.",
+""
+]
+],
+"h": [
+"F = mg = 70 × 10 = 700 N.",
+"A = 200 cm² = 2 × 10⁻² m².",
+"p = 700 ÷ 0,02 = <b>3,5 × 10⁴ Pa</b>."
+]
+},
+{
+"id": "2013-2-fis-11a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2013, 2ª fase, Física, questão 11(a)",
+"r": 1780,
+"tm": 90,
+"ctx": "As nuvens são formadas por gotículas de água que são facilmente arrastadas pelo vento. Em determinadas situações, várias gotículas se juntam para formar uma gota maior, que cai, produzindo a chuva. De forma simplificada, a queda da gota ocorre quando a força gravitacional que age sobre ela fica maior que a força do vento ascendente. A densidade da água é ρ<sub>água</sub> = 1,0 × 10³ kg/m³. O módulo da força, vertical e para cima, que certo vento aplica sobre uma gota esférica de raio r pode ser aproximado por F<sub>vento</sub> = b·r, com b = 1,6 × 10⁻³ N/m. Calcule o raio mínimo da gota, em metros, para que ela comece a cair. (Use g = 10 m/s² e π = 3.)",
+"a": 0.0002,
+"u": "m",
+"tol": 0.02,
+"d": [
+[
+"Condição de queda",
+"A gota começa a cair quando o peso iguala (e passa) a força do vento: m·g = b·r.",
+""
+],
+[
+"Massa de uma esfera de água",
+"m = ρ·V, com V = (4/3)·π·r³.",
+"Ex.: r = 1 mm ⟹ V = 4 × 10⁻⁹ m³ (π = 3) e m = 4 × 10⁻⁶ kg."
+]
+],
+"h": [
+"ρ·(4/3)πr³·g = b·r ⟹ r² = 3b/(4πρg).",
+"r² = 3 × 1,6 × 10⁻³/(4 × 3 × 10³ × 10) = 4,8 × 10⁻³/1,2 × 10⁵ = 4 × 10⁻⁸ m².",
+"r = <b>2 × 10⁻⁴ m</b> (0,2 mm)."
+]
+},
+{
+"id": "2013-2-fis-11b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2013, 2ª fase, Física, questão 11(b)",
+"r": 1840,
+"tm": 90,
+"ctx": "As nuvens são formadas por gotículas de água que são facilmente arrastadas pelo vento. Em determinadas situações, várias gotículas se juntam para formar uma gota maior, que cai, produzindo a chuva. De forma simplificada, a queda da gota ocorre quando a força gravitacional que age sobre ela fica maior que a força do vento ascendente. A densidade da água é ρ<sub>água</sub> = 1,0 × 10³ kg/m³. O volume de chuva é usualmente expresso pelo índice pluviométrico, que corresponde à altura do nível da água da chuva acumulada em um recipiente aberto e disposto horizontalmente. Calcule o impulso, em kg·m/s, transferido pelas gotas da chuva para cada metro quadrado de solo horizontal, se a velocidade média das gotas ao chegar ao solo é de 2,5 m/s e o índice pluviométrico é igual a 20 mm. Considere a colisão como perfeitamente inelástica.",
+"a": 50,
+"u": "kg·m/s",
+"tol": 0.01,
+"d": [
+[
+"Massa de água a partir do índice pluviométrico",
+"Uma lâmina de altura h sobre área A tem volume A·h; m = ρ·A·h.",
+"Ex.: 10 mm sobre 1 m² ⟹ 0,01 m³ = 10 kg de água."
+],
+[
+"Impulso numa colisão inelástica",
+"I = ΔQ. Se as gotas param no solo, ΔQ tem módulo m·v.",
+""
+]
+],
+"h": [
+"Massa por m²: 1 m² × 0,020 m × 1000 kg/m³ = 20 kg.",
+"As gotas param: I = m·v = 20 × 2,5.",
+"I = <b>50 kg·m/s</b> por metro quadrado."
+]
+},
+{
+"id": "2013-2-fis-12a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2013, 2ª fase, Física, questão 12(a)",
+"r": 1470,
+"tm": 50,
+"ctx": "Em agosto de 2012, a NASA anunciou o pouso da sonda Curiosity na superfície de Marte. A sonda, de massa m = 1000 kg, entrou na atmosfera marciana a uma velocidade v₀ = 6000 m/s. A sonda atingiu o repouso, na superfície de Marte, 7 minutos após a sua entrada na atmosfera. Calcule o módulo da força resultante média de desaceleração da sonda durante sua descida, em newtons.",
+"a": 14300.0,
+"u": "N",
+"tol": 0.03,
+"d": [
+[
+"2ª lei de Newton com aceleração média",
+"F = m·a, com a = Δv/Δt (Δt em segundos).",
+"Ex.: 500 kg passando de 20 m/s a 0 em 10 s ⟹ F = 500 × 2 = 1000 N."
+]
+],
+"h": [
+"Δt = 7 × 60 = 420 s; Δv = 6000 m/s.",
+"a = 6000/420 ≈ 14,3 m/s².",
+"F = 1000 × 14,3 ≈ <b>1,4 × 10⁴ N</b>."
+]
+},
+{
+"id": "2013-2-fis-12b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2013, 2ª fase, Física, questão 12(b) (adaptada para múltipla escolha)",
+"r": 1970,
+"tm": 90,
+"ctx": "Em agosto de 2012, a NASA anunciou o pouso da sonda Curiosity na superfície de Marte. A sonda, de massa m = 1000 kg, entrou na atmosfera marciana a uma velocidade v₀ = 6000 m/s. Considere que, após a entrada na atmosfera a uma altitude h₀ = 125 km, a força de atrito reduziu a velocidade da sonda para v = 4000 m/s quando a altitude atingiu h = 100 km. A partir da variação da energia mecânica, calcule o trabalho realizado pela força de atrito nesse trecho, em joules. Considere a aceleração da gravidade de Marte, nesse trecho, constante e igual a 4 m/s².",
+"opts": [
+"−1,01 × 10¹⁰ J",
+"−1,00 × 10¹⁰ J",
+"−1,0 × 10⁸ J",
+"+1,01 × 10¹⁰ J"
+],
+"a": 0,
+"d": [
+[
+"Trabalho de forças dissipativas",
+"O trabalho do atrito é a variação da energia mecânica: W = E<sub>final</sub> − E<sub>inicial</sub>, com E = mv²/2 + mgh. Se a energia diminui, o trabalho é negativo.",
+"Ex.: E cai de 900 J para 600 J ⟹ W<sub>atrito</sub> = −300 J."
+],
+[
+"Unidades",
+"Altitudes em metros (km × 1000).",
+""
+]
+],
+"h": [
+"Inicial: ½ × 1000 × 6000² + 1000 × 4 × 125 000 = 1,8 × 10¹⁰ + 5 × 10⁸ = 1,85 × 10¹⁰ J.",
+"Final: ½ × 1000 × 4000² + 1000 × 4 × 100 000 = 8 × 10⁹ + 4 × 10⁸ = 8,4 × 10⁹ J.",
+"W = 8,4 × 10⁹ − 1,85 × 10¹⁰ = <b>−1,01 × 10¹⁰ J</b>."
+]
+},
+{
+"id": "2013-2-fis-13a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2013, 2ª fase, Física, questão 13(a)",
+"r": 1500,
+"tm": 60,
+"ctx": "A boa ventilação em ambientes fechados é um fator importante para o conforto térmico em regiões de clima quente. Uma chaminé solar pode ser usada para aumentar a ventilação de um edifício. Ela faz uso da energia solar para aquecer o ar de sua parte superior, tornando-o menos denso e fazendo com que ele suba, aspirando assim o ar dos ambientes e substituindo-o por ar vindo do exterior. A intensidade da radiação solar absorvida por uma placa usada para aquecer o ar é igual a 400 W/m². A energia absorvida durante 1,0 min por uma placa de 2 m² é usada para aquecer 6,0 kg de ar. O calor específico do ar é c = 1000 J/(kg·°C). Qual é a variação de temperatura do ar nesse período, em °C?",
+"a": 8,
+"u": "°C",
+"tol": 0.01,
+"d": [
+[
+"Energia de uma radiação",
+"Intensidade é potência por área: E = I·A·Δt (W/m² × m² × s = J).",
+"Ex.: 500 W/m² sobre 1 m² durante 10 s ⟹ 5000 J."
+],
+[
+"Calor sensível",
+"Q = m·c·Δθ ⟹ Δθ = Q/(m·c).",
+""
+]
+],
+"h": [
+"E = 400 × 2 × 60 = 48 000 J.",
+"Δθ = 48 000/(6,0 × 1000).",
+"Δθ = <b>8 °C</b>."
+]
+},
+{
+"id": "2013-2-fis-13b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2013, 2ª fase, Física, questão 13(b)",
+"r": 1760,
+"tm": 60,
+"ctx": "A boa ventilação em ambientes fechados é um fator importante para o conforto térmico em regiões de clima quente. Uma chaminé solar pode ser usada para aumentar a ventilação de um edifício. Ela faz uso da energia solar para aquecer o ar de sua parte superior, tornando-o menos denso e fazendo com que ele suba, aspirando assim o ar dos ambientes e substituindo-o por ar vindo do exterior. A densidade do ar a 290 K é ρ = 1,2 kg/m³. Adotando-se um número fixo de mols de ar mantido a pressão constante, calcule a sua densidade, em kg/m³, para a temperatura de 300 K. Considere o ar como um gás ideal.",
+"a": 1.16,
+"u": "kg/m³",
+"tol": 0.01,
+"d": [
+[
+"Densidade de um gás ideal",
+"Com massa e pressão fixas, V é proporcional a T (V/T constante). Como ρ = m/V, a densidade é inversamente proporcional a T: ρ·T = constante.",
+"Ex.: ρ = 1,0 kg/m³ a 300 K ⟹ a 600 K, ρ = 0,5 kg/m³."
+]
+],
+"h": [
+"ρ₁T₁ = ρ₂T₂ (pressão e número de mols fixos).",
+"ρ₂ = 1,2 × 290/300.",
+"ρ₂ = <b>1,16 kg/m³</b>."
+]
+},
+{
+"id": "2013-2-fis-14a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_mod",
+"src": "Unicamp 2013, 2ª fase, Física, questão 14(a)",
+"r": 1640,
+"tm": 75,
+"ctx": "O prêmio Nobel de Física de 2011 foi concedido a três astrônomos que verificaram a expansão acelerada do universo a partir da observação de supernovas distantes. A velocidade da luz é c = 3 × 10⁸ m/s. Observações anteriores sobre a expansão do universo mostraram uma relação direta entre a velocidade v de afastamento de uma galáxia e a distância r em que ela se encontra da Terra, dada por v = H·r, em que H = 2,3 × 10⁻¹⁸ s⁻¹ é a constante de Hubble. Em muitos casos, a velocidade v da galáxia pode ser obtida pela expressão v = c·Δλ/λ₀, em que λ₀ é o comprimento de onda da luz emitida e Δλ é o deslocamento Doppler da luz. Considerando ambas as expressões, calcule a que distância da Terra, em metros, se encontra uma galáxia, se Δλ = 0,092·λ₀.",
+"a": 1.2e+25,
+"u": "m",
+"tol": 0.02,
+"d": [
+[
+"Igualar duas expressões",
+"As duas fórmulas dão a mesma velocidade v: H·r = c·Δλ/λ₀ ⟹ r = c·(Δλ/λ₀)/H.",
+""
+],
+[
+"Razão adimensional",
+"Δλ = 0,092·λ₀ ⟹ Δλ/λ₀ = 0,092 (o λ₀ se cancela).",
+""
+]
+],
+"h": [
+"v = c × 0,092 = 3 × 10⁸ × 0,092 = 2,76 × 10⁷ m/s.",
+"r = v/H = 2,76 × 10⁷/2,3 × 10⁻¹⁸.",
+"r = <b>1,2 × 10²⁵ m</b>."
+]
+},
+{
+"id": "2013-2-fis-14b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_mod",
+"src": "Unicamp 2013, 2ª fase, Física, questão 14(b)",
+"r": 1580,
+"tm": 60,
+"ctx": "O prêmio Nobel de Física de 2011 foi concedido a três astrônomos que verificaram a expansão acelerada do universo a partir da observação de supernovas distantes. A velocidade da luz é c = 3 × 10⁸ m/s. Uma supernova, ao explodir, libera para o espaço massa em forma de energia, de acordo com a expressão E = mc². Numa explosão de supernova foram liberados 3,24 × 10⁴⁸ J, de forma que sua massa foi reduzida para m<sub>final</sub> = 4,0 × 10³⁰ kg. Qual era a massa da estrela, em kg, antes da explosão?",
+"a": 4e+31,
+"u": "kg",
+"tol": 0.02,
+"d": [
+[
+"Massa convertida em energia",
+"A massa perdida é Δm = E/c². A massa inicial é a final mais a perdida.",
+"Ex.: E = 9 × 10¹⁶ J ⟹ Δm = 1 kg."
+],
+[
+"Somar potências de 10",
+"Escreva os dois números com a mesma potência antes de somar: 3,6 × 10³¹ + 4,0 × 10³⁰ = 3,6 × 10³¹ + 0,4 × 10³¹.",
+""
+]
+],
+"h": [
+"Δm = 3,24 × 10⁴⁸/(3 × 10⁸)² = 3,24 × 10⁴⁸/9 × 10¹⁶ = 3,6 × 10³¹ kg.",
+"m<sub>i</sub> = 3,6 × 10³¹ + 0,4 × 10³¹.",
+"m<sub>i</sub> = <b>4,0 × 10³¹ kg</b>."
+]
+},
+{
+"id": "2013-2-fis-15a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2013, 2ª fase, Física, questão 15(a)",
+"r": 1520,
+"tm": 40,
+"ctx": "Uma forma alternativa de transmissão de energia elétrica a grandes distâncias (das unidades geradoras até os centros urbanos) consiste na utilização de linhas de transmissão de extensão aproximadamente igual a meio comprimento de onda da corrente alternada transmitida. Este comprimento de onda é muito próximo do comprimento de uma onda eletromagnética que viaja no ar com a mesma frequência da corrente alternada. Qual é o comprimento de onda, em metros, de uma onda eletromagnética que viaja no ar com uma frequência igual a 60 Hz? A velocidade da luz no ar é c = 3 × 10⁸ m/s.",
+"a": 5000000.0,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Equação fundamental da onda",
+"v = λ·f ⟹ λ = v/f.",
+"Ex.: 3 × 10⁸ m/s a 100 MHz (10⁸ Hz) ⟹ λ = 3 m."
+]
+],
+"h": [
+"λ = c/f = 3 × 10⁸/60.",
+"= 0,05 × 10⁸ m.",
+"λ = <b>5 × 10⁶ m</b> (5000 km)."
+]
+},
+{
+"id": "2013-2-fis-15b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2013, 2ª fase, Física, questão 15(b)",
+"r": 1580,
+"tm": 40,
+"ctx": "Uma forma alternativa de transmissão de energia elétrica a grandes distâncias (das unidades geradoras até os centros urbanos) consiste na utilização de linhas de transmissão de extensão aproximadamente igual a meio comprimento de onda da corrente alternada transmitida. Este comprimento de onda é muito próximo do comprimento de uma onda eletromagnética que viaja no ar com a mesma frequência da corrente alternada. Se a tensão na linha é de 500 kV e a potência transmitida é de 400 MW, qual é a corrente na linha, em ampères?",
+"a": 800,
+"u": "A",
+"tol": 0.005,
+"d": [
+[
+"Potência elétrica",
+"P = U·i ⟹ i = P/U. Converta os prefixos: k = 10³ e M = 10⁶.",
+"Ex.: 1 MW a 10 kV ⟹ i = 10⁶/10⁴ = 100 A."
+]
+],
+"h": [
+"P = 4 × 10⁸ W; U = 5 × 10⁵ V.",
+"i = 4 × 10⁸/5 × 10⁵.",
+"i = <b>800 A</b>."
+]
+},
+{
+"id": "2013-2-fis-16a",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2013, 2ª fase, Física, questão 16(a)",
+"r": 1680,
+"tm": 75,
+"ctx": "O efeito de imagem tridimensional no cinema e nos televisores 3D é obtido quando se expõe cada olho a uma mesma imagem em duas posições ligeiramente diferentes. Um modo de se conseguir imagens distintas em cada olho é através do uso de óculos com filtros polarizadores. A intensidade da luz polarizada que atravessa um filtro polarizador é dada por I = I₀·cos²θ, onde I₀ é a intensidade da luz incidente e θ é o ângulo entre o campo elétrico e a direção de polarização do filtro. A intensidade luminosa, a uma distância d de uma fonte que emite luz polarizada, é dada por I₀ = P₀/(4πd²), em que P₀ é a potência da fonte. Sendo P₀ = 24 W, calcule a intensidade luminosa, em W/m², que atravessa um polarizador que se encontra a d = 2 m da fonte e para o qual θ = 60°. (Use π = 3.)",
+"a": 0.125,
+"u": "W/m²",
+"tol": 0.01,
+"d": [
+[
+"Intensidade de uma fonte pontual",
+"A potência se espalha numa esfera de área 4πd²: I₀ = P₀/(4πd²).",
+"Ex.: 12 W a 1 m, com π = 3 ⟹ I₀ = 12/12 = 1 W/m²."
+],
+[
+"Lei de Malus",
+"I = I₀·cos²θ: o filtro deixa passar a fração cos²θ da intensidade.",
+"Ex.: θ = 45° ⟹ passa metade."
+]
+],
+"h": [
+"I₀ = 24/(4 × 3 × 2²) = 24/48 = 0,5 W/m².",
+"cos 60° = 1/2 ⟹ cos² 60° = 1/4.",
+"I = 0,5 × 1/4 = <b>0,125 W/m²</b>."
+]
+},
+{
+"id": "2013-2-fis-16b",
+"ano": 2013,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2013, 2ª fase, Física, questão 16(b)",
+"r": 1640,
+"tm": 75,
+"ctx": "O efeito de imagem tridimensional no cinema e nos televisores 3D é obtido quando se expõe cada olho a uma mesma imagem em duas posições ligeiramente diferentes. Um modo de se conseguir imagens distintas em cada olho é através do uso de óculos com filtros polarizadores. Uma maneira de polarizar a luz é por reflexão. Quando uma luz não polarizada incide na interface entre dois meios de índices de refração diferentes com o ângulo de incidência θ<sub>B</sub>, conhecido como ângulo de Brewster, a luz refletida é polarizada, como mostra a figura. Nessas condições, θ<sub>B</sub> + θ<sub>r</sub> = 90°, em que θ<sub>r</sub> é o ângulo do raio refratado. Sendo n₁ = 1,0 o índice de refração do meio 1 e θ<sub>B</sub> = 60°, calcule o índice de refração do meio 2.",
+"fig": "<svg viewBox='0 0 150 100' class='fg' role='img' aria-label='interface horizontal entre o meio 1, em cima, e o meio 2, embaixo, com a normal tracejada; o raio incidente não polarizado chega pela esquerda fazendo o ângulo theta B com a normal; o raio refletido, polarizado, sai pela direita com o mesmo ângulo theta B; o raio refratado entra no meio 2 fazendo o ângulo theta r com a normal'><g fill='none' stroke='currentColor'><g stroke-width='0.9'><line x1='10.0' y1='50.0' x2='140.0' y2='50.0'/></g><g stroke-width='0.5' stroke-dasharray='2 1.5'><line x1='72.0' y1='8.0' x2='72.0' y2='94.0'/></g><g stroke-width='1'><line x1='32.2' y1='27.0' x2='72.0' y2='50.0'/><line x1='72.0' y1='50.0' x2='111.8' y2='27.0'/><line x1='72.0' y1='50.0' x2='92.0' y2='84.6'/></g><path d='M61.6,44.0 A12,12 0 0 1 72.0,38.0' stroke-width='0.6'/><path d='M72.0,36.0 A14,14 0 0 1 84.1,43.0' stroke-width='0.6'/><path d='M87.0,76.0 A30,30 0 0 1 72.0,80.0' stroke-width='0.6'/></g><g fill='currentColor'><polygon points='52.1,38.5 48.1,38.2 49.8,35.2'/><polygon points='98.0,35.0 95.7,38.3 94.0,35.3'/><polygon points='86.0,74.2 82.7,72.0 85.7,70.3'/><text x='67.0' y='32.0' text-anchor='end' font-size='6.5'>θ<tspan font-size='5' dy='1.5'>B</tspan></text><text x='78.0' y='32.0' text-anchor='start' font-size='6.5'>θ<tspan font-size='5' dy='1.5'>B</tspan></text><text x='75.0' y='90.0' text-anchor='start' font-size='6.5'>θ<tspan font-size='5' dy='1.5'>r</tspan></text><text x='14.0' y='46.0' text-anchor='start' font-size='6'>meio 1</text><text x='14.0' y='58.0' text-anchor='start' font-size='6'>meio 2</text><text x='8.0' y='12.0' text-anchor='start' font-size='5.5'>raio incidente</text><text x='8.0' y='19.0' text-anchor='start' font-size='5.5'>não polarizado</text><text x='142.0' y='12.0' text-anchor='end' font-size='5.5'>raio refletido</text><text x='142.0' y='19.0' text-anchor='end' font-size='5.5'>polarizado</text></g></svg>",
+"a": 1.73,
+"tol": 0.01,
+"d": [
+[
+"Lei de Snell",
+"n₁·sen θ₁ = n₂·sen θ₂, com os ângulos medidos a partir da normal.",
+"Ex.: n₁ = 1, θ₁ = 30°, θ₂ = 20° ⟹ n₂ = 0,5/0,34 ≈ 1,46."
+],
+[
+"Ângulo de refração",
+"Pela condição dada, θ<sub>r</sub> = 90° − θ<sub>B</sub>.",
+""
+]
+],
+"h": [
+"θ<sub>r</sub> = 90° − 60° = 30°.",
+"1,0 × sen 60° = n₂ × sen 30° ⟹ (√3/2) = n₂ × (1/2).",
+"n₂ = <b>√3 ≈ 1,73</b>."
+]
+}
+]

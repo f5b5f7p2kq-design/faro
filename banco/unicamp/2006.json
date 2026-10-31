@@ -1,0 +1,2992 @@
+[
+{
+"id": "2006-1-01a",
+"ano": 2006,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 1ª fase, questão 1(a) (adaptada para múltipla escolha)",
+"r": 1320,
+"tm": 30,
+"ctx": "O gás natural veicular (GNV) é uma mistura de hidrocarbonetos de baixa massa molecular em que o componente majoritário é o mais leve dos alcanos. Sua combustão nos motores é completa, com baixíssima emissão de monóxido de carbono. O principal constituinte do GNV é o mais simples dos hidrocarbonetos de fórmula geral CₙH₂ₙ₊₂. Qual é ele?",
+"opts": [
+"Metano, CH₄: um carbono ligado a quatro hidrogênios",
+"Etano, C₂H₆",
+"Eteno, C₂H₄",
+"Metanol, CH₃OH"
+],
+"a": 0,
+"d": [
+[
+"Alcanos",
+"Hidrocarbonetos só com ligações simples, de fórmula CₙH₂ₙ₊₂. Os nomes indicam o número de carbonos: met- (1), et- (2), prop- (3), but- (4), com o sufixo -ano.",
+""
+]
+],
+"h": [
+"O mais simples tem n = 1: C₁H₄.",
+"Prefixo met- (1 carbono) e sufixo -ano.",
+"<b>Metano, CH₄</b> (carbono no centro, quatro ligações C–H)."
+]
+},
+{
+"id": "2006-1-01b",
+"ano": 2006,
+"fase": 1,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2006, 1ª fase, questão 1(b)",
+"r": 1280,
+"tm": 40,
+"ctx": "O gás natural veicular (GNV) é uma mistura de hidrocarbonetos de baixa massa molecular em que o componente majoritário é o mais leve dos alcanos. Sua combustão nos motores é completa, com baixíssima emissão de monóxido de carbono. Nos postos, o tanque é abastecido até a pressão de 220 atm. Se o tanque tem 100 litros, que volume teria essa mesma quantidade de gás a 1 atm e à mesma temperatura, em litros?",
+"a": 22000,
+"u": "L",
+"tol": 0,
+"d": [
+[
+"Lei de Boyle",
+"Para a mesma quantidade de gás à mesma temperatura: P₁V₁ = P₂V₂.",
+"Ex.: 2 L a 3 atm ocupam 6 L a 1 atm."
+]
+],
+"h": [
+"P₁V₁ = P₂V₂: 220 × 100 = 1 × V₂.",
+"V₂ = 22.000 L.",
+"<b>22.000 litros</b>."
+]
+},
+{
+"id": "2006-1-01c",
+"ano": 2006,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2006, 1ª fase, questão 1(c)",
+"r": 1440,
+"tm": 40,
+"ctx": "O gás natural veicular (GNV) é uma mistura de hidrocarbonetos de baixa massa molecular em que o componente majoritário é o mais leve dos alcanos. Sua combustão nos motores é completa, com baixíssima emissão de monóxido de carbono. Qual a equação balanceada da combustão completa do principal componente do GNV, formando dióxido de carbono e água?",
+"opts": [
+"CH₄ + 2 O₂ → CO₂ + 2 H₂O",
+"CH₄ + O₂ → CO₂ + 2 H₂",
+"CH₄ + 3 O₂ → CO₂ + 2 H₂O",
+"2 CH₄ + 3 O₂ → 2 CO + 4 H₂O"
+],
+"a": 0,
+"d": [
+[
+"Combustão completa",
+"Hidrocarboneto + O₂ → CO₂ + H₂O.",
+""
+],
+[
+"Balanceamento",
+"Acerte primeiro C, depois H e por último O, que aparece sozinho no O₂."
+]
+],
+"h": [
+"C: 1 CH₄ → 1 CO₂. H: 4 H → 2 H₂O.",
+"O nos produtos: 2 + 2 = 4 ⟹ 2 O₂.",
+"<b>CH₄ + 2 O₂ → CO₂ + 2 H₂O</b>."
+]
+},
+{
+"id": "2006-1-02a",
+"ano": 2006,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 1ª fase, questão 2(a) (adaptada para múltipla escolha)",
+"r": 1490,
+"tm": 40,
+"ctx": "O biodiesel pode ser produzido a partir de óleos vegetais ou gorduras animais por transesterificação: moléculas de álcool substituem a do glicerol no éster de partida, liberando glicerina. A massa final tem duas fases líquidas imiscíveis: a mais densa é glicerina bruta, com excesso de álcool, água e impurezas; a menos densa é uma mistura de ésteres metílicos ou etílicos. Qual fase interessa na obtenção do biodiesel?",
+"opts": [
+"A superior: é a menos densa e contém os ésteres",
+"A inferior: é a mais densa e contém os ésteres",
+"A inferior: a glicerina é o biodiesel",
+"A superior: é a que contém a glicerina"
+],
+"a": 0,
+"d": [
+[
+"Densidade e fases",
+"Em líquidos imiscíveis, o menos denso fica por cima.",
+""
+],
+[
+"Biodiesel",
+"O combustível é a mistura de ésteres; a glicerina é subproduto."
+]
+],
+"h": [
+"O biodiesel são os ésteres metílicos ou etílicos.",
+"Eles estão na fase menos densa, que fica em cima.",
+"<b>A fase superior</b>."
+]
+},
+{
+"id": "2006-1-02b",
+"ano": 2006,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2006, 1ª fase, questão 2(b) (adaptada para múltipla escolha)",
+"r": 1530,
+"tm": 40,
+"ctx": "O biodiesel pode ser produzido a partir de óleos vegetais ou gorduras animais por transesterificação: moléculas de álcool substituem a do glicerol no éster de partida, liberando glicerina. A massa final tem duas fases líquidas imiscíveis: a mais densa é glicerina bruta, com excesso de álcool, água e impurezas; a menos densa é uma mistura de ésteres metílicos ou etílicos. O biodiesel não contém enxofre. Pode-se dizer que sua combustão tem vantagem sobre a do diesel de petróleo quanto à chuva ácida?",
+"opts": [
+"Sim: sem enxofre não se forma SOₓ, que na atmosfera gera H₂SO₄",
+"Não: a combustão do biodiesel também libera SO₂",
+"Sim: o biodiesel não produz CO₂",
+"Não: a chuva ácida vem só do CO₂, que os dois liberam"
+],
+"a": 0,
+"d": [
+[
+"Chuva ácida",
+"O enxofre do combustível queima formando SO₂, que se oxida a SO₃; com a água, forma H₂SO₄. Óxidos de nitrogênio dão HNO₃.",
+""
+]
+],
+"h": [
+"Diesel com enxofre ⟹ SO₂ e SO₃ na queima ⟹ H₂SO₄ na chuva.",
+"Biodiesel sem enxofre não forma esses óxidos.",
+"<b>Sim</b>: não há formação de SOₓ nem de H₂SO₄."
+]
+},
+{
+"id": "2006-1-02c",
+"ano": 2006,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2006, 1ª fase, questão 2(c)",
+"r": 1620,
+"tm": 60,
+"ctx": "O biodiesel pode ser produzido a partir de óleos vegetais ou gorduras animais por transesterificação: moléculas de álcool substituem a do glicerol no éster de partida, liberando glicerina. A massa final tem duas fases líquidas imiscíveis: a mais densa é glicerina bruta, com excesso de álcool, água e impurezas; a menos densa é uma mistura de ésteres metílicos ou etílicos. O Brasil consome cerca de 36 bilhões de litros de diesel por ano, 10% importados já refinados. A produção de óleos vegetais é de 3,6 bilhões de litros. Se 50% desse óleo restassem como resíduo e esse resíduo virasse biodiesel (mesmo volume), em quantos por cento diminuiria a importação de diesel refinado?",
+"a": 50,
+"u": "%",
+"tol": 0,
+"d": [
+[
+"Porcentagem de uma quantidade",
+"Calcule a quantidade importada e compare com o biodiesel produzido: redução % = (biodiesel/importação) × 100.",
+""
+]
+],
+"h": [
+"Importação: 10% de 36 = 3,6 bilhões de litros.",
+"Biodiesel: 50% de 3,6 = 1,8 bilhão de litros.",
+"1,8/3,6 = 0,5 ⟹ redução de <b>50%</b> na importação."
+]
+},
+{
+"id": "2006-1-05a",
+"ano": 2006,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2006, 1ª fase, questão 5(a)",
+"r": 1280,
+"tm": 40,
+"ctx": "O gráfico mostra o total de acidentes de trânsito em Campinas e o total de acidentes sem vítimas, por 10.000 veículos, de 1997 a 2003. A frota de Campinas era de 500.000 veículos em 2003 e era 4% menor em 2002. Quantos acidentes de trânsito ocorreram em Campinas em 2003?",
+"fig": "<svg viewBox='0 0 236 138' class='fg' role='img' aria-label='gráfico de acidentes de trânsito em Campinas por 10.000 veículos, de 1997 a 2003; total de acidentes, linha contínua: 521, 487, 486, 426, 378, 334 e 296; acidentes sem vítimas, linha tracejada: 427, 404, 401, 350, 311, 274 e 245'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='42' y1='96.0' x2='228' y2='96.0'/><line x1='42' y1='80.0' x2='228' y2='80.0'/><line x1='42' y1='64.0' x2='228' y2='64.0'/><line x1='42' y1='48.0' x2='228' y2='48.0'/><line x1='42' y1='32.0' x2='228' y2='32.0'/><line x1='42' y1='16.0' x2='228' y2='16.0'/></g><line x1='42' y1='112' x2='228' y2='112' stroke-width='1'/><line x1='42' y1='112' x2='42' y2='14' stroke-width='1'/><polyline points='54.0,28.6 81.0,34.1 108.0,34.2 135.0,43.8 162.0,51.5 189.0,58.6 216.0,64.6' stroke-width='1.3'/><polyline points='54.0,43.7 81.0,47.4 108.0,47.8 135.0,56.0 162.0,62.2 189.0,68.2 216.0,72.8' stroke-width='1' stroke-dasharray='2.5 2'/><line x1='52' y1='93' x2='66' y2='93' stroke-width='1.3'/><line x1='52' y1='103' x2='66' y2='103' stroke-width='1' stroke-dasharray='2.5 2'/></g><g fill='currentColor'><rect x='52.4' y='27.0' width='3.2' height='3.2'/><rect x='79.4' y='32.5' width='3.2' height='3.2'/><rect x='106.4' y='32.6' width='3.2' height='3.2'/><rect x='133.4' y='42.2' width='3.2' height='3.2'/><rect x='160.4' y='49.9' width='3.2' height='3.2'/><rect x='187.4' y='57.0' width='3.2' height='3.2'/><rect x='214.4' y='63.0' width='3.2' height='3.2'/><rect x='52.4' y='42.1' width='3.2' height='3.2'/><rect x='79.4' y='45.8' width='3.2' height='3.2'/><rect x='106.4' y='46.2' width='3.2' height='3.2'/><rect x='133.4' y='54.4' width='3.2' height='3.2'/><rect x='160.4' y='60.6' width='3.2' height='3.2'/><rect x='187.4' y='66.6' width='3.2' height='3.2'/><rect x='214.4' y='71.2' width='3.2' height='3.2'/><rect x='57.4' y='91.4' width='3.2' height='3.2'/><rect x='57.4' y='101.4' width='3.2' height='3.2'/></g><g fill='currentColor' font-size='6.5'><text x='54.0' y='24.6' text-anchor='middle'>521</text><text x='81.0' y='30.1' text-anchor='middle'>487</text><text x='108.0' y='30.2' text-anchor='middle'>486</text><text x='135.0' y='39.8' text-anchor='middle'>426</text><text x='162.0' y='47.5' text-anchor='middle'>378</text><text x='189.0' y='54.6' text-anchor='middle'>334</text><text x='216.0' y='60.6' text-anchor='middle'>296</text><text x='54.0' y='52.7' text-anchor='middle'>427</text><text x='81.0' y='56.4' text-anchor='middle'>404</text><text x='108.0' y='56.8' text-anchor='middle'>401</text><text x='135.0' y='65.0' text-anchor='middle'>350</text><text x='162.0' y='71.2' text-anchor='middle'>311</text><text x='189.0' y='77.2' text-anchor='middle'>274</text><text x='216.0' y='81.8' text-anchor='middle'>245</text><text x='39' y='114.3' text-anchor='end'>0</text><text x='39' y='98.3' text-anchor='end'>100</text><text x='39' y='82.3' text-anchor='end'>200</text><text x='39' y='66.3' text-anchor='end'>300</text><text x='39' y='50.3' text-anchor='end'>400</text><text x='39' y='34.3' text-anchor='end'>500</text><text x='39' y='18.3' text-anchor='end'>600</text><text x='54.0' y='121' text-anchor='middle'>1997</text><text x='81.0' y='121' text-anchor='middle'>1998</text><text x='108.0' y='121' text-anchor='middle'>1999</text><text x='135.0' y='121' text-anchor='middle'>2000</text><text x='162.0' y='121' text-anchor='middle'>2001</text><text x='189.0' y='121' text-anchor='middle'>2002</text><text x='216.0' y='121' text-anchor='middle'>2003</text><text x='69' y='95.3'>total de acidentes</text><text x='69' y='105.3'>acidentes sem vítimas</text><text x='135' y='133' text-anchor='middle' font-size='7.5'>ano</text><text x='9' y='63' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 63)'>acidentes / 10.000 veículos</text></g></svg>",
+"a": 14800,
+"u": "acidentes",
+"tol": 0,
+"d": [
+[
+"Taxa por 10.000",
+"Número de casos = taxa × (frota/10.000).",
+"Ex.: 30 casos por 10.000 numa frota de 200.000: 30 × 20 = 600 casos."
+]
+],
+"h": [
+"Em 2003: 296 acidentes por 10.000 veículos.",
+"500.000/10.000 = 50 grupos de 10.000.",
+"296 × 50 = <b>14.800 acidentes</b>."
+]
+},
+{
+"id": "2006-1-05b",
+"ano": 2006,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2006, 1ª fase, questão 5(b)",
+"r": 1490,
+"tm": 60,
+"ctx": "O gráfico mostra o total de acidentes de trânsito em Campinas e o total de acidentes sem vítimas, por 10.000 veículos, de 1997 a 2003. A frota de Campinas era de 500.000 veículos em 2003 e era 4% menor em 2002. Quantos acidentes <b>com vítimas</b> ocorreram em Campinas em 2002?",
+"fig": "<svg viewBox='0 0 236 138' class='fg' role='img' aria-label='gráfico de acidentes de trânsito em Campinas por 10.000 veículos, de 1997 a 2003; total de acidentes, linha contínua: 521, 487, 486, 426, 378, 334 e 296; acidentes sem vítimas, linha tracejada: 427, 404, 401, 350, 311, 274 e 245'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='42' y1='96.0' x2='228' y2='96.0'/><line x1='42' y1='80.0' x2='228' y2='80.0'/><line x1='42' y1='64.0' x2='228' y2='64.0'/><line x1='42' y1='48.0' x2='228' y2='48.0'/><line x1='42' y1='32.0' x2='228' y2='32.0'/><line x1='42' y1='16.0' x2='228' y2='16.0'/></g><line x1='42' y1='112' x2='228' y2='112' stroke-width='1'/><line x1='42' y1='112' x2='42' y2='14' stroke-width='1'/><polyline points='54.0,28.6 81.0,34.1 108.0,34.2 135.0,43.8 162.0,51.5 189.0,58.6 216.0,64.6' stroke-width='1.3'/><polyline points='54.0,43.7 81.0,47.4 108.0,47.8 135.0,56.0 162.0,62.2 189.0,68.2 216.0,72.8' stroke-width='1' stroke-dasharray='2.5 2'/><line x1='52' y1='93' x2='66' y2='93' stroke-width='1.3'/><line x1='52' y1='103' x2='66' y2='103' stroke-width='1' stroke-dasharray='2.5 2'/></g><g fill='currentColor'><rect x='52.4' y='27.0' width='3.2' height='3.2'/><rect x='79.4' y='32.5' width='3.2' height='3.2'/><rect x='106.4' y='32.6' width='3.2' height='3.2'/><rect x='133.4' y='42.2' width='3.2' height='3.2'/><rect x='160.4' y='49.9' width='3.2' height='3.2'/><rect x='187.4' y='57.0' width='3.2' height='3.2'/><rect x='214.4' y='63.0' width='3.2' height='3.2'/><rect x='52.4' y='42.1' width='3.2' height='3.2'/><rect x='79.4' y='45.8' width='3.2' height='3.2'/><rect x='106.4' y='46.2' width='3.2' height='3.2'/><rect x='133.4' y='54.4' width='3.2' height='3.2'/><rect x='160.4' y='60.6' width='3.2' height='3.2'/><rect x='187.4' y='66.6' width='3.2' height='3.2'/><rect x='214.4' y='71.2' width='3.2' height='3.2'/><rect x='57.4' y='91.4' width='3.2' height='3.2'/><rect x='57.4' y='101.4' width='3.2' height='3.2'/></g><g fill='currentColor' font-size='6.5'><text x='54.0' y='24.6' text-anchor='middle'>521</text><text x='81.0' y='30.1' text-anchor='middle'>487</text><text x='108.0' y='30.2' text-anchor='middle'>486</text><text x='135.0' y='39.8' text-anchor='middle'>426</text><text x='162.0' y='47.5' text-anchor='middle'>378</text><text x='189.0' y='54.6' text-anchor='middle'>334</text><text x='216.0' y='60.6' text-anchor='middle'>296</text><text x='54.0' y='52.7' text-anchor='middle'>427</text><text x='81.0' y='56.4' text-anchor='middle'>404</text><text x='108.0' y='56.8' text-anchor='middle'>401</text><text x='135.0' y='65.0' text-anchor='middle'>350</text><text x='162.0' y='71.2' text-anchor='middle'>311</text><text x='189.0' y='77.2' text-anchor='middle'>274</text><text x='216.0' y='81.8' text-anchor='middle'>245</text><text x='39' y='114.3' text-anchor='end'>0</text><text x='39' y='98.3' text-anchor='end'>100</text><text x='39' y='82.3' text-anchor='end'>200</text><text x='39' y='66.3' text-anchor='end'>300</text><text x='39' y='50.3' text-anchor='end'>400</text><text x='39' y='34.3' text-anchor='end'>500</text><text x='39' y='18.3' text-anchor='end'>600</text><text x='54.0' y='121' text-anchor='middle'>1997</text><text x='81.0' y='121' text-anchor='middle'>1998</text><text x='108.0' y='121' text-anchor='middle'>1999</text><text x='135.0' y='121' text-anchor='middle'>2000</text><text x='162.0' y='121' text-anchor='middle'>2001</text><text x='189.0' y='121' text-anchor='middle'>2002</text><text x='216.0' y='121' text-anchor='middle'>2003</text><text x='69' y='95.3'>total de acidentes</text><text x='69' y='105.3'>acidentes sem vítimas</text><text x='135' y='133' text-anchor='middle' font-size='7.5'>ano</text><text x='9' y='63' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 63)'>acidentes / 10.000 veículos</text></g></svg>",
+"a": 2880,
+"u": "acidentes",
+"tol": 0,
+"d": [
+[
+"Ler o gráfico",
+"Acidentes com vítimas = total − sem vítimas.",
+""
+],
+[
+"Redução percentual",
+"Um valor 4% menor que V é V × (1 − 0,04) = 0,96·V."
+]
+],
+"h": [
+"Frota de 2002: 500.000 × 0,96 = 480.000 veículos.",
+"Com vítimas em 2002: 334 − 274 = 60 por 10.000 veículos.",
+"60 × 48 = <b>2.880 acidentes</b>."
+]
+},
+{
+"id": "2006-1-06a",
+"ano": 2006,
+"fase": 1,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2006, 1ª fase, questão 6(a) (adaptada para múltipla escolha)",
+"r": 1400,
+"tm": 60,
+"ctx": "Uma empresa precisa transportar 500 toneladas de grãos até o porto de Santos. Por caminhão, paga-se R$ 125,00 de custo fixo por caminhão mais R$ 0,50 por quilômetro rodado, e cada caminhão leva 20 toneladas. Por trem, paga-se R$ 8,00 de custo fixo por tonelada mais R$ 0,015 por tonelada por quilômetro. Se o porto fica a 300 km, quais são os custos por caminhões e por trem?",
+"opts": [
+"Caminhões: R$ 6.875,00; trem: R$ 6.250,00",
+"Caminhões: R$ 3.875,00; trem: R$ 6.250,00",
+"Caminhões: R$ 6.875,00; trem: R$ 4.002,25",
+"Caminhões: R$ 150.125,00; trem: R$ 6.250,00"
+],
+"a": 0,
+"d": [
+[
+"Custo fixo + custo variável",
+"Custo = (custo fixo por unidade × nº de unidades) + (custo por km × km × nº de unidades). Primeiro descubra quantos caminhões são necessários.",
+""
+]
+],
+"h": [
+"Caminhões: 500/20 = 25. Custo: 25 × 125 + 25 × 0,50 × 300 = 3.125 + 3.750 = 6.875.",
+"Trem: 500 × 8 + 500 × 0,015 × 300 = 4.000 + 2.250 = 6.250.",
+"<b>R$ 6.875,00 por caminhões e R$ 6.250,00 por trem</b>."
+]
+},
+{
+"id": "2006-1-06b",
+"ano": 2006,
+"fase": 1,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2006, 1ª fase, questão 6(b)",
+"r": 1570,
+"tm": 75,
+"ctx": "Uma empresa precisa transportar 500 toneladas de grãos até o porto de Santos. Por caminhão, paga-se R$ 125,00 de custo fixo por caminhão mais R$ 0,50 por quilômetro rodado, e cada caminhão leva 20 toneladas. Por trem, paga-se R$ 8,00 de custo fixo por tonelada mais R$ 0,015 por tonelada por quilômetro. Qual a distância mínima do armazém ao porto, em km, a partir da qual o trem é mais vantajoso?",
+"a": 175,
+"u": "km",
+"tol": 0,
+"d": [
+[
+"Funções afins",
+"Escreva o custo de cada meio em função da distância y: C(y) = parte fixa + (custo por km)·y.",
+""
+],
+[
+"Comparar",
+"O trem vale mais a pena quando T(y) é menor que C(y): resolva a inequação."
+]
+],
+"h": [
+"Caminhões: C(y) = 3.125 + 25 × 0,50·y = 3.125 + 12,5y.",
+"Trem: T(y) = 4.000 + 500 × 0,015·y = 4.000 + 7,5y.",
+"T menor que C ⟺ 5y maior que 875 ⟺ y maior que <b>175 km</b>."
+]
+},
+{
+"id": "2006-1-09a",
+"ano": 2006,
+"fase": 1,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2006, 1ª fase, questão 9(a)",
+"r": 1400,
+"tm": 45,
+"ctx": "Em 1906, Santos-Dumont fez em Paris um voo histórico com o 14 Bis. A massa do avião, incluindo o piloto, era de 300 kg, e a área total das duas asas era de cerca de 50 m². A força de sustentação, vertical e para cima, resulta da diferença de pressão entre a parte inferior e a superior das asas. O gráfico mostra, de forma simplificada, essa força em função do tempo no início do voo. Use g = 10 m/s². Em que instante, em segundos, o avião decola (perde contato com o chão)?",
+"fig": "<svg viewBox='0 0 236 128' class='fg' role='img' aria-label='gráfico da força de sustentação do 14 Bis, de 0 a 4 mil newtons, em função do tempo, de 0 a 25 segundos: nula até 3 segundos; cresce cada vez mais depressa e atinge 3 mil newtons em 10 segundos; sobe até cerca de 3,3 mil newtons entre 10 e 11 segundos; volta a 3 mil newtons por volta de 12 segundos; tem uma pequena queda até 2,7 mil newtons perto de 15 segundos; e fica constante em 3 mil newtons de 17 a 23 segundos'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='60.5' y1='16' x2='60.5' y2='104'/><line x1='79.0' y1='16' x2='79.0' y2='104'/><line x1='97.5' y1='16' x2='97.5' y2='104'/><line x1='116.0' y1='16' x2='116.0' y2='104'/><line x1='134.5' y1='16' x2='134.5' y2='104'/><line x1='153.0' y1='16' x2='153.0' y2='104'/><line x1='171.5' y1='16' x2='171.5' y2='104'/><line x1='190.0' y1='16' x2='190.0' y2='104'/><line x1='208.5' y1='16' x2='208.5' y2='104'/><line x1='227.0' y1='16' x2='227.0' y2='104'/><line x1='42' y1='93.0' x2='227.0' y2='93.0'/><line x1='42' y1='82.0' x2='227.0' y2='82.0'/><line x1='42' y1='71.0' x2='227.0' y2='71.0'/><line x1='42' y1='60.0' x2='227.0' y2='60.0'/><line x1='42' y1='49.0' x2='227.0' y2='49.0'/><line x1='42' y1='38.0' x2='227.0' y2='38.0'/><line x1='42' y1='27.0' x2='227.0' y2='27.0'/><line x1='42' y1='16.0' x2='227.0' y2='16.0'/></g><line x1='42' y1='104' x2='227.0' y2='104' stroke-width='1'/><line x1='42' y1='104' x2='42' y2='16' stroke-width='1'/><path d='M42.0,104.0 C45.7,104.0 59.3,104.1 64.2,104.0 C69.1,103.9 69.1,104.0 71.6,103.1 C74.1,102.2 76.5,100.7 79.0,98.5 C81.5,96.3 83.9,93.0 86.4,89.7 C88.9,86.4 91.3,82.7 93.8,78.7 C96.3,74.7 98.7,70.1 101.2,65.5 C103.7,60.9 106.1,55.8 108.6,51.2 C111.1,46.6 114.2,41.3 116.0,38.0 C117.8,34.7 118.3,32.5 119.7,31.4 C121.1,30.3 122.5,30.7 124.1,31.4 C125.7,32.1 127.5,34.4 129.3,35.4 C131.2,36.3 132.5,36.6 135.2,37.1 C138.0,37.7 142.9,37.8 145.6,38.7 C148.3,39.5 149.8,41.3 151.5,42.4 C153.2,43.5 154.4,45.3 156.0,45.5 C157.6,45.7 159.3,44.8 161.1,43.7 C163.0,42.7 165.0,40.1 167.1,39.1 C169.2,38.1 169.9,38.2 173.7,38.0 C177.5,37.8 183.6,38.0 190.0,38.0 C196.4,38.0 208.5,38.0 212.2,38.0' stroke-width='1.3'/></g><g fill='currentColor' font-size='6.5'><text x='39' y='106.3' text-anchor='end'>0,0</text><text x='39' y='84.3' text-anchor='end'>1,0·10³</text><text x='39' y='62.3' text-anchor='end'>2,0·10³</text><text x='39' y='40.3' text-anchor='end'>3,0·10³</text><text x='39' y='18.3' text-anchor='end'>4,0·10³</text><text x='42.0' y='112' text-anchor='middle'>0</text><text x='79.0' y='112' text-anchor='middle'>5</text><text x='116.0' y='112' text-anchor='middle'>10</text><text x='153.0' y='112' text-anchor='middle'>15</text><text x='190.0' y='112' text-anchor='middle'>20</text><text x='227.0' y='112' text-anchor='middle'>25</text><text x='135' y='123' text-anchor='middle' font-size='7.5'>tempo (s)</text><text x='8' y='60' text-anchor='middle' font-size='7.5' transform='rotate(-90 8 60)'>F<tspan font-size='5' dy='1.5'>sust</tspan><tspan dy='-1.5'> (N)</tspan></text></g></svg>",
+"a": 10,
+"u": "s",
+"tol": 0.05,
+"d": [
+[
+"Condição para decolar",
+"O avião sai do chão quando a força para cima iguala o peso (a normal do chão vai a zero).",
+""
+],
+[
+"Peso",
+"P = m·g."
+]
+],
+"h": [
+"Peso: 300 × 10 = 3,0·10³ N.",
+"No gráfico, a sustentação chega a 3,0·10³ N pela primeira vez em t = 10 s.",
+"Decola em <b>t = 10 s</b> (em t = 3 s a força apenas deixa de ser nula)."
+]
+},
+{
+"id": "2006-1-09b",
+"ano": 2006,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2006, 1ª fase, questão 9(b)",
+"r": 1440,
+"tm": 45,
+"ctx": "Em 1906, Santos-Dumont fez em Paris um voo histórico com o 14 Bis. A massa do avião, incluindo o piloto, era de 300 kg, e a área total das duas asas era de cerca de 50 m². A força de sustentação, vertical e para cima, resulta da diferença de pressão entre a parte inferior e a superior das asas. O gráfico mostra, de forma simplificada, essa força em função do tempo no início do voo. Use g = 10 m/s². Qual a diferença de pressão ΔP = P<sub>inf</sub> − P<sub>sup</sub> entre as faces das asas no instante t = 20 s, em pascals?",
+"fig": "<svg viewBox='0 0 236 128' class='fg' role='img' aria-label='gráfico da força de sustentação do 14 Bis, de 0 a 4 mil newtons, em função do tempo, de 0 a 25 segundos: nula até 3 segundos; cresce cada vez mais depressa e atinge 3 mil newtons em 10 segundos; sobe até cerca de 3,3 mil newtons entre 10 e 11 segundos; volta a 3 mil newtons por volta de 12 segundos; tem uma pequena queda até 2,7 mil newtons perto de 15 segundos; e fica constante em 3 mil newtons de 17 a 23 segundos'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='60.5' y1='16' x2='60.5' y2='104'/><line x1='79.0' y1='16' x2='79.0' y2='104'/><line x1='97.5' y1='16' x2='97.5' y2='104'/><line x1='116.0' y1='16' x2='116.0' y2='104'/><line x1='134.5' y1='16' x2='134.5' y2='104'/><line x1='153.0' y1='16' x2='153.0' y2='104'/><line x1='171.5' y1='16' x2='171.5' y2='104'/><line x1='190.0' y1='16' x2='190.0' y2='104'/><line x1='208.5' y1='16' x2='208.5' y2='104'/><line x1='227.0' y1='16' x2='227.0' y2='104'/><line x1='42' y1='93.0' x2='227.0' y2='93.0'/><line x1='42' y1='82.0' x2='227.0' y2='82.0'/><line x1='42' y1='71.0' x2='227.0' y2='71.0'/><line x1='42' y1='60.0' x2='227.0' y2='60.0'/><line x1='42' y1='49.0' x2='227.0' y2='49.0'/><line x1='42' y1='38.0' x2='227.0' y2='38.0'/><line x1='42' y1='27.0' x2='227.0' y2='27.0'/><line x1='42' y1='16.0' x2='227.0' y2='16.0'/></g><line x1='42' y1='104' x2='227.0' y2='104' stroke-width='1'/><line x1='42' y1='104' x2='42' y2='16' stroke-width='1'/><path d='M42.0,104.0 C45.7,104.0 59.3,104.1 64.2,104.0 C69.1,103.9 69.1,104.0 71.6,103.1 C74.1,102.2 76.5,100.7 79.0,98.5 C81.5,96.3 83.9,93.0 86.4,89.7 C88.9,86.4 91.3,82.7 93.8,78.7 C96.3,74.7 98.7,70.1 101.2,65.5 C103.7,60.9 106.1,55.8 108.6,51.2 C111.1,46.6 114.2,41.3 116.0,38.0 C117.8,34.7 118.3,32.5 119.7,31.4 C121.1,30.3 122.5,30.7 124.1,31.4 C125.7,32.1 127.5,34.4 129.3,35.4 C131.2,36.3 132.5,36.6 135.2,37.1 C138.0,37.7 142.9,37.8 145.6,38.7 C148.3,39.5 149.8,41.3 151.5,42.4 C153.2,43.5 154.4,45.3 156.0,45.5 C157.6,45.7 159.3,44.8 161.1,43.7 C163.0,42.7 165.0,40.1 167.1,39.1 C169.2,38.1 169.9,38.2 173.7,38.0 C177.5,37.8 183.6,38.0 190.0,38.0 C196.4,38.0 208.5,38.0 212.2,38.0' stroke-width='1.3'/></g><g fill='currentColor' font-size='6.5'><text x='39' y='106.3' text-anchor='end'>0,0</text><text x='39' y='84.3' text-anchor='end'>1,0·10³</text><text x='39' y='62.3' text-anchor='end'>2,0·10³</text><text x='39' y='40.3' text-anchor='end'>3,0·10³</text><text x='39' y='18.3' text-anchor='end'>4,0·10³</text><text x='42.0' y='112' text-anchor='middle'>0</text><text x='79.0' y='112' text-anchor='middle'>5</text><text x='116.0' y='112' text-anchor='middle'>10</text><text x='153.0' y='112' text-anchor='middle'>15</text><text x='190.0' y='112' text-anchor='middle'>20</text><text x='227.0' y='112' text-anchor='middle'>25</text><text x='135' y='123' text-anchor='middle' font-size='7.5'>tempo (s)</text><text x='8' y='60' text-anchor='middle' font-size='7.5' transform='rotate(-90 8 60)'>F<tspan font-size='5' dy='1.5'>sust</tspan><tspan dy='-1.5'> (N)</tspan></text></g></svg>",
+"a": 60,
+"u": "Pa",
+"tol": 0.02,
+"d": [
+[
+"Pressão e força",
+"Uma diferença de pressão ΔP sobre uma área A gera força F = ΔP·A. Unidade: 1 Pa = 1 N/m².",
+""
+]
+],
+"h": [
+"Em t = 20 s, o gráfico dá F = 3,0·10³ N.",
+"ΔP = F/A = 3.000/50.",
+"ΔP = <b>60 Pa</b>."
+]
+},
+{
+"id": "2006-1-10a",
+"ano": 2006,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2006, 1ª fase, questão 10(a)",
+"r": 1320,
+"tm": 40,
+"ctx": "Ondas transportam energia sem transportar massa. Um exemplo extremo são os tsunamis, ondas formadas no oceano, por exemplo, por terremotos submarinos. Na região de formação, o comprimento de onda de um tsunami é de 150 km e sua velocidade é de 200 m/s. Qual o período da onda, em segundos?",
+"a": 750,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Equação fundamental",
+"v = λ·f = λ/T. Use unidades do SI (λ em metros).",
+""
+]
+],
+"h": [
+"λ = 150 km = 1,5·10⁵ m.",
+"T = λ/v = 1,5·10⁵/200.",
+"T = <b>750 s</b> (12,5 min)."
+]
+},
+{
+"id": "2006-1-10b",
+"ano": 2006,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2006, 1ª fase, questão 10(b)",
+"r": 1280,
+"tm": 30,
+"ctx": "Ondas transportam energia sem transportar massa. Um exemplo extremo são os tsunamis, ondas formadas no oceano, por exemplo, por terremotos submarinos. A velocidade da onda é v = √(g·h), em que h é a profundidade local e g = 10 m/s². Qual a velocidade numa região perto da costa, com profundidade de 6,4 m, em m/s?",
+"a": 8,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Aplicar a fórmula dada",
+"Substitua g e h em v = √(g·h).",
+""
+]
+],
+"h": [
+"g·h = 10 × 6,4 = 64 m²/s².",
+"v = √64.",
+"v = <b>8,0 m/s</b>."
+]
+},
+{
+"id": "2006-1-10c",
+"ano": 2006,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2006, 1ª fase, questão 10(c)",
+"r": 1570,
+"tm": 60,
+"ctx": "Ondas transportam energia sem transportar massa. Um exemplo extremo são os tsunamis, ondas formadas no oceano, por exemplo, por terremotos submarinos. Sendo A a amplitude da onda e conservando-se a energia, o produto v·A² fica constante durante a propagação. A onda se forma com v = 200 m/s e amplitude de 1,0 m e chega perto da costa com v = 8,0 m/s. Qual a amplitude perto da costa, em metros?",
+"a": 5,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Grandeza conservada",
+"Se v·A² é constante: v₁·A₁² = v₂·A₂². Isole A₂.",
+""
+]
+],
+"h": [
+"200 × 1,0² = 8,0 × A².",
+"A² = 200/8 = 25.",
+"A = <b>5,0 m</b>."
+]
+},
+{
+"id": "2006-2-mat-01a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 1(a)",
+"r": 1440,
+"tm": 45,
+"ctx": "Um carro vai percorrer 70 voltas numa pista de 4,4 km. Ele faz em média 1,6 km por litro e seu tanque comporta 60 litros. Começando com o tanque cheio, quantas voltas completas ele pode dar antes do primeiro reabastecimento?",
+"a": 21,
+"u": "voltas",
+"tol": 0,
+"d": [
+[
+"Autonomia",
+"Distância possível = rendimento (km/L) × volume (L).",
+""
+],
+[
+"Voltas completas",
+"Divida pela extensão da pista e fique com a parte inteira: uma volta incompleta não conta."
+]
+],
+"h": [
+"Com 60 L: 60 × 1,6 = 96 km.",
+"96/4,4 ≈ 21,8 voltas.",
+"<b>21 voltas completas</b>."
+]
+},
+{
+"id": "2006-2-mat-01b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 1(b)",
+"r": 1400,
+"tm": 30,
+"ctx": "Um carro vai percorrer 70 voltas numa pista de 4,4 km. Ele faz em média 1,6 km por litro e seu tanque comporta 60 litros. Qual o volume total de combustível gasto na corrida, em litros?",
+"a": 192.5,
+"u": "L",
+"tol": 0,
+"d": [
+[
+"Consumo",
+"Volume = distância ÷ rendimento.",
+""
+]
+],
+"h": [
+"Distância: 70 × 4,4 = 308 km.",
+"308/1,6 = 192,5.",
+"<b>192,5 litros</b>."
+]
+},
+{
+"id": "2006-2-mat-02a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "conj",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 2(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "Uma empresa tem 5.000 funcionários: 48% têm mais de 30 anos, 36% são especializados e 1.400 têm mais de 30 anos e são especializados. Quantos funcionários têm até 30 anos e não são especializados?",
+"a": 2200,
+"u": "funcionários",
+"tol": 0,
+"d": [
+[
+"Tabela de dupla entrada",
+"Monte linhas (mais de 30 / até 30) e colunas (especializado / não). Cada total é a soma da linha ou da coluna.",
+""
+],
+[
+"Diagrama de Venn",
+"Nenhum dos dois = total − |A ∪ B|, com |A ∪ B| = |A| + |B| − |A ∩ B|."
+]
+],
+"h": [
+"Mais de 30: 0,48 × 5.000 = 2.400. Especializados: 0,36 × 5.000 = 1.800.",
+"Em pelo menos um dos grupos: 2.400 + 1.800 − 1.400 = 2.800.",
+"Nenhum dos dois: 5.000 − 2.800 = <b>2.200</b>."
+]
+},
+{
+"id": "2006-2-mat-02b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 2(b)",
+"r": 1570,
+"tm": 45,
+"ctx": "Uma empresa tem 5.000 funcionários: 48% têm mais de 30 anos, 36% são especializados e 1.400 têm mais de 30 anos e são especializados. Escolhendo um funcionário ao acaso, qual a probabilidade, em porcentagem, de ele ter até 30 anos e ser especializado?",
+"a": 8,
+"u": "%",
+"tol": 0,
+"d": [
+[
+"Probabilidade",
+"P = casos favoráveis ÷ total de casos.",
+""
+],
+[
+"Separar o grupo",
+"Especializados com até 30 anos = especializados − especializados com mais de 30."
+]
+],
+"h": [
+"Especializados: 1.800; com mais de 30 anos: 1.400.",
+"Até 30 e especializados: 400.",
+"P = 400/5.000 = 0,08 = <b>8%</b>."
+]
+},
+{
+"id": "2006-2-mat-03a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 3(a)",
+"r": 1660,
+"tm": 75,
+"ctx": "Um cidadão levou ao banco sua mala executiva, cujo interior tem 56 cm de comprimento, 39 cm de largura e 10 cm de altura, e só quer carregar notas de R$ 50,00. Cada nota tem 140 mm × 65 mm, 0,2 mm de espessura e densidade 0,75 g/cm³. Qual a quantia máxima, em reais, que ele pode colocar na mala?",
+"a": 600000,
+"u": "R$",
+"tol": 0,
+"d": [
+[
+"Mesma unidade",
+"Converta tudo para cm (1 cm = 10 mm) antes de comparar.",
+""
+],
+[
+"Empilhamento",
+"Veja quantas notas cabem lado a lado numa camada (comprimento e largura) e quantas camadas cabem na altura."
+]
+],
+"h": [
+"56 cm = 4 × 14 cm e 39 cm = 6 × 6,5 cm: 24 notas por camada, sem sobra.",
+"Camadas: 10/0,02 = 500. Total: 24 × 500 = 12.000 notas.",
+"12.000 × 50 = <b>R$ 600.000,00</b>."
+]
+},
+{
+"id": "2006-2-mat-03b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 3(b)",
+"r": 1660,
+"tm": 60,
+"ctx": "Um cidadão levou ao banco sua mala executiva, cujo interior tem 56 cm de comprimento, 39 cm de largura e 10 cm de altura, e só quer carregar notas de R$ 50,00. Cada nota tem 140 mm × 65 mm, 0,2 mm de espessura e densidade 0,75 g/cm³. As notas ocupam todo o interior da mala. Se a mala vazia pesa 2,6 kg, quanto pesa cheia de dinheiro, em kg?",
+"a": 18.98,
+"u": "kg",
+"tol": 0.002,
+"d": [
+[
+"Densidade",
+"massa = densidade × volume (g/cm³ × cm³ = g).",
+""
+],
+[
+"Volume",
+"Paralelepípedo: V = comprimento × largura × altura."
+]
+],
+"h": [
+"Volume das notas = volume interno: 56 × 39 × 10 = 21.840 cm³.",
+"Massa: 21.840 × 0,75 = 16.380 g = 16,38 kg.",
+"Mala cheia: 16,38 + 2,6 = <b>18,98 kg</b>."
+]
+},
+{
+"id": "2006-2-mat-04a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 4(a)",
+"r": 1910,
+"tm": 90,
+"ctx": "Seja S o conjunto dos números naturais escritos apenas com os algarismos 0, 1, 2, 3 e 4. Seja x = 2 0 3 4 1 3 2 1 _ _ um número de dez algarismos de S cujos dois últimos algarismos têm igual probabilidade de assumir qualquer valor de 0 a 4. Qual a probabilidade, em porcentagem, de x ser divisível por 15?",
+"a": 4,
+"u": "%",
+"tol": 0,
+"d": [
+[
+"Divisibilidade por 15",
+"Divisível por 15 ⟺ divisível por 3 e por 5. Por 5: termina em 0 ou 5. Por 3: a soma dos algarismos é múltipla de 3.",
+""
+],
+[
+"Casos possíveis",
+"Cada um dos dois últimos algarismos tem 5 valores: 5 × 5 pares igualmente prováveis."
+]
+],
+"h": [
+"Por 5: o último é 0 (o 5 não pertence a S).",
+"Soma dos oito algarismos dados: 16. Com o penúltimo d: 16 + d múltiplo de 3 ⟹ d = 2 (o único de 0 a 4).",
+"Só o par \"20\" serve: P = 1/25 = <b>4%</b>."
+]
+},
+{
+"id": "2006-2-mat-04b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 4(b)",
+"r": 2000,
+"tm": 90,
+"ctx": "Seja S o conjunto dos números naturais escritos apenas com os algarismos 0, 1, 2, 3 e 4. Quantos números de S menores que um bilhão são múltiplos de 4?",
+"a": 625000,
+"tol": 0,
+"d": [
+[
+"Divisibilidade por 4",
+"Um número é múltiplo de 4 quando o número formado pelos seus dois últimos algarismos é múltiplo de 4.",
+""
+],
+[
+"Princípio multiplicativo",
+"Menores que 10⁹: até 9 algarismos. Pense em 9 posições, aceitando zeros à esquerda."
+]
+],
+"h": [
+"Finais possíveis com 0 a 4: 00, 04, 12, 20, 24, 32, 40 e 44: 8 opções.",
+"As outras 7 posições: 5 opções cada ⟹ 5⁷ = 78.125.",
+"78.125 × 8 = <b>625.000</b>."
+]
+},
+{
+"id": "2006-2-mat-05a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 5(a)",
+"r": 1780,
+"tm": 90,
+"ctx": "Para trocar uma lâmpada, Roberto encostou uma escada na parede de casa, com o topo a cerca de √14 m de altura. Enquanto ele subia, a base da escada escorregou 1 m e foi tocar o muro paralelo à parede, como na figura. Depois de deslizar, a escada passou a fazer 45° com a horizontal. Qual a distância entre a parede e o muro, em metros?",
+"fig": "<svg viewBox='0 0 190 118' class='fg' role='img' aria-label='dois desenhos lado a lado; antes: a escada encostada na parede da casa, com o topo alto e a base no chão entre a parede e o muro, que é paralelo à parede e mais baixo; depois: a base escorregou e encostou no pé do muro, e a escada, apoiada mais abaixo na parede, faz 45 graus com o chão'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='12' y1='104' x2='80' y2='104'/><line x1='14' y1='104' x2='14' y2='14' stroke-width='1.4'/><line x1='74' y1='104' x2='74' y2='52' stroke-width='1.4'/><line x1='12.6' y1='29.9' x2='52.6' y2='104.8'/><line x1='15.4' y1='28.4' x2='55.4' y2='103.2'/><line x1='17.0' y1='38.2' x2='19.9' y2='36.7'/><line x1='21.5' y1='46.6' x2='24.3' y2='45.0'/><line x1='25.9' y1='54.9' x2='28.7' y2='53.4'/><line x1='30.4' y1='63.2' x2='33.2' y2='61.7'/><line x1='34.8' y1='71.5' x2='37.6' y2='70.0'/><line x1='39.3' y1='79.8' x2='42.1' y2='78.3'/><line x1='43.7' y1='88.1' x2='46.5' y2='86.6'/><line x1='48.1' y1='96.4' x2='51.0' y2='94.9'/><line x1='110' y1='104' x2='178' y2='104'/><line x1='112' y1='104' x2='112' y2='14' stroke-width='1.4'/><line x1='172' y1='104' x2='172' y2='52' stroke-width='1.4'/><line x1='110.9' y1='45.1' x2='170.9' y2='105.1'/><line x1='113.1' y1='42.9' x2='173.1' y2='102.9'/><line x1='117.5' y1='51.8' x2='119.8' y2='49.5'/><line x1='124.2' y1='58.5' x2='126.5' y2='56.2'/><line x1='130.9' y1='65.1' x2='133.1' y2='62.9'/><line x1='137.5' y1='71.8' x2='139.8' y2='69.5'/><line x1='144.2' y1='78.5' x2='146.5' y2='76.2'/><line x1='150.9' y1='85.1' x2='153.1' y2='82.9'/><line x1='157.5' y1='91.8' x2='159.8' y2='89.5'/><line x1='164.2' y1='98.5' x2='166.5' y2='96.2'/><path d='M161.0,104.0 A11,11 0 0 1 164.2,96.2' stroke-width='0.7'/></g><g fill='currentColor' font-size='7'><text x='44' y='10' text-anchor='middle' font-weight='bold'>ANTES</text><text x='142' y='10' text-anchor='middle' font-weight='bold'>DEPOIS</text><text x='16' y='113'>parede</text><text x='76' y='113' text-anchor='end'>muro</text><text x='114' y='113'>parede</text><text x='174' y='113' text-anchor='end'>muro</text><text x='38' y='52'>escada</text><text x='146' y='64'>escada</text><text x='156' y='99' text-anchor='end' font-size='6.5'>45°</text></g></svg>",
+"a": 3,
+"u": "m",
+"tol": 0,
+"d": [
+[
+"Pitágoras",
+"A escada (hipotenusa c), a parede e o chão formam um triângulo retângulo: c² = altura² + base².",
+""
+],
+[
+"Triângulo de 45°",
+"Com um ângulo de 45°, o triângulo retângulo é isósceles: altura = base, e c = base·√2."
+],
+[
+"Mesma escada",
+"O comprimento c é o mesmo antes e depois: iguale as duas expressões de c²."
+]
+],
+"h": [
+"Antes: c² = 14 + d₁². Depois (45°): base d₂ = d₁ + 1 e c² = 2(d₁ + 1)².",
+"14 + d₁² = 2d₁² + 4d₁ + 2 ⟹ d₁² + 4d₁ − 12 = 0 ⟹ d₁ = 2 (a raiz −6 não serve).",
+"d₂ = 2 + 1 = <b>3 m</b>."
+]
+},
+{
+"id": "2006-2-mat-05b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 5(b)",
+"r": 1660,
+"tm": 45,
+"ctx": "Para trocar uma lâmpada, Roberto encostou uma escada na parede de casa, com o topo a cerca de √14 m de altura. Enquanto ele subia, a base da escada escorregou 1 m e foi tocar o muro paralelo à parede, como na figura. Depois de deslizar, a escada passou a fazer 45° com a horizontal. Sabendo que a parede fica a 3 m do muro, qual o comprimento da escada, em metros?",
+"fig": "<svg viewBox='0 0 190 118' class='fg' role='img' aria-label='dois desenhos lado a lado; antes: a escada encostada na parede da casa, com o topo alto e a base no chão entre a parede e o muro, que é paralelo à parede e mais baixo; depois: a base escorregou e encostou no pé do muro, e a escada, apoiada mais abaixo na parede, faz 45 graus com o chão'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='12' y1='104' x2='80' y2='104'/><line x1='14' y1='104' x2='14' y2='14' stroke-width='1.4'/><line x1='74' y1='104' x2='74' y2='52' stroke-width='1.4'/><line x1='12.6' y1='29.9' x2='52.6' y2='104.8'/><line x1='15.4' y1='28.4' x2='55.4' y2='103.2'/><line x1='17.0' y1='38.2' x2='19.9' y2='36.7'/><line x1='21.5' y1='46.6' x2='24.3' y2='45.0'/><line x1='25.9' y1='54.9' x2='28.7' y2='53.4'/><line x1='30.4' y1='63.2' x2='33.2' y2='61.7'/><line x1='34.8' y1='71.5' x2='37.6' y2='70.0'/><line x1='39.3' y1='79.8' x2='42.1' y2='78.3'/><line x1='43.7' y1='88.1' x2='46.5' y2='86.6'/><line x1='48.1' y1='96.4' x2='51.0' y2='94.9'/><line x1='110' y1='104' x2='178' y2='104'/><line x1='112' y1='104' x2='112' y2='14' stroke-width='1.4'/><line x1='172' y1='104' x2='172' y2='52' stroke-width='1.4'/><line x1='110.9' y1='45.1' x2='170.9' y2='105.1'/><line x1='113.1' y1='42.9' x2='173.1' y2='102.9'/><line x1='117.5' y1='51.8' x2='119.8' y2='49.5'/><line x1='124.2' y1='58.5' x2='126.5' y2='56.2'/><line x1='130.9' y1='65.1' x2='133.1' y2='62.9'/><line x1='137.5' y1='71.8' x2='139.8' y2='69.5'/><line x1='144.2' y1='78.5' x2='146.5' y2='76.2'/><line x1='150.9' y1='85.1' x2='153.1' y2='82.9'/><line x1='157.5' y1='91.8' x2='159.8' y2='89.5'/><line x1='164.2' y1='98.5' x2='166.5' y2='96.2'/><path d='M161.0,104.0 A11,11 0 0 1 164.2,96.2' stroke-width='0.7'/></g><g fill='currentColor' font-size='7'><text x='44' y='10' text-anchor='middle' font-weight='bold'>ANTES</text><text x='142' y='10' text-anchor='middle' font-weight='bold'>DEPOIS</text><text x='16' y='113'>parede</text><text x='76' y='113' text-anchor='end'>muro</text><text x='114' y='113'>parede</text><text x='174' y='113' text-anchor='end'>muro</text><text x='38' y='52'>escada</text><text x='146' y='64'>escada</text><text x='156' y='99' text-anchor='end' font-size='6.5'>45°</text></g></svg>",
+"a": 4.243,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Triângulo de 45°",
+"Isósceles: os catetos são iguais e a hipotenusa vale cateto × √2.",
+""
+]
+],
+"h": [
+"Depois do escorregão, a base da escada mede 3 m e o ângulo é 45°.",
+"c = 3√2.",
+"c = <b>3√2 ≈ 4,24 m</b> (confere: √(14 + 2²) = √18)."
+]
+},
+{
+"id": "2006-2-mat-06a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 6(a) (adaptada para múltipla escolha)",
+"r": 1740,
+"tm": 45,
+"ctx": "A concentração de CO₂ na atmosfera, medida em Mauna Loa (Havaí), tem aumentado em média 0,5% ao ano, e é razoável supor que essa taxa continue constante. Em 2004 (t = 0) a concentração era de 377,4 ppm. Qual função representa a concentração C(t), em ppm, t anos depois de 2004?",
+"opts": [
+"C(t) = 377,4·(1,005)ᵗ",
+"C(t) = 377,4·(1,5)ᵗ",
+"C(t) = 377,4 + 0,005t",
+"C(t) = 377,4·(0,005)ᵗ"
+],
+"a": 0,
+"d": [
+[
+"Taxa percentual constante",
+"Crescer i% ao ano é multiplicar por (1 + i/100) a cada ano: após t anos, C(t) = C₀·(1 + i/100)ᵗ.",
+"Ex.: 10% ao ano ⟹ fator 1,10."
+]
+],
+"h": [
+"0,5% = 0,005: o fator anual é 1,005.",
+"Após t anos: C₀·1,005ᵗ, com C₀ = 377,4 ppm.",
+"<b>C(t) = 377,4·(1,005)ᵗ</b>."
+]
+},
+{
+"id": "2006-2-mat-06b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 6(b)",
+"r": 1870,
+"tm": 90,
+"ctx": "A concentração de CO₂ na atmosfera, medida em Mauna Loa (Havaí), tem aumentado em média 0,5% ao ano, e é razoável supor que essa taxa continue constante. Em 2004 (t = 0) a concentração era de 377,4 ppm. Em que ano, aproximadamente, a concentração será 50% maior que a de 2004? Use log 2 ≈ 0,3010; log 2,01 ≈ 0,3032; log 3 ≈ 0,4771.",
+"a": 2084,
+"tol": 0.0005,
+"d": [
+[
+"Equação exponencial",
+"Para resolver aᵗ = b, aplique log aos dois lados: t·log a = log b.",
+""
+],
+[
+"Truques de log",
+"log(x/y) = log x − log y. Escreva 1,005 = 2,01/2 e 1,5 = 3/2."
+]
+],
+"h": [
+"1,5·C₀ = C₀·1,005ᵗ ⟹ 1,005ᵗ = 3/2 ⟹ t = log(3/2)/log(2,01/2).",
+"t = (0,4771 − 0,3010)/(0,3032 − 0,3010) = 0,1761/0,0022 ≈ 80.",
+"2004 + 80 = <b>2084</b>."
+]
+},
+{
+"id": "2006-2-mat-07a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 7(a)",
+"r": 1910,
+"tm": 120,
+"ctx": "Um abajur de tecido tem a forma de um tronco de cone circular reto. As aberturas têm 25 cm e 50 cm de diâmetro, e a geratriz do tronco mede 30 cm. O tecido rasgou e será substituído: planificado, o revestimento é um pedaço de coroa circular (região entre dois arcos de mesmo centro). Qual o raio do arco menor (interno) que deve ser marcado no tecido, em cm?",
+"a": 30,
+"u": "cm",
+"tol": 0,
+"d": [
+[
+"Planificação do cone",
+"A superfície lateral de um cone é um setor circular: o raio do setor é a geratriz do cone e o arco tem o comprimento da circunferência da base.",
+""
+],
+[
+"Tronco",
+"O tronco é um cone grande menos um cone pequeno: os dois arcos têm o mesmo ângulo θ e raios r e r + 30. Comprimento de arco = raio × θ (em radianos)."
+]
+],
+"h": [
+"Arcos: r·θ = 25π (base menor) e (r + 30)·θ = 50π (base maior).",
+"Subtraindo: 30θ = 25π ⟹ θ = 5π/6.",
+"r = 25π/(5π/6) = <b>30 cm</b> (e o raio externo é 60 cm)."
+]
+},
+{
+"id": "2006-2-mat-07b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 7(b)",
+"r": 1870,
+"tm": 90,
+"ctx": "Um abajur de tecido tem a forma de um tronco de cone circular reto. As aberturas têm 25 cm e 50 cm de diâmetro, e a geratriz do tronco mede 30 cm. O tecido rasgou e será substituído: planificado, o revestimento é um pedaço de coroa circular (região entre dois arcos de mesmo centro). Os arcos do molde têm raios 30 cm e 60 cm. Qual a área de tecido, em cm²? Use π ≈ 3,1416.",
+"a": 3534.3,
+"u": "cm²",
+"tol": 0.003,
+"d": [
+[
+"Área do setor",
+"Setor de raio R e ângulo θ (rad): A = θR²/2. Ou, para o cone: área lateral = π·r<sub>base</sub>·g.",
+""
+],
+[
+"Coroa",
+"Área do tecido = setor grande − setor pequeno."
+]
+],
+"h": [
+"θ = 25π/30 = 5π/6.",
+"Setor grande: (5π/6)·60²/2 = 1.500π. Pequeno: (5π/6)·30²/2 = 375π.",
+"Tecido: 1.125π ≈ <b>3.534 cm²</b>."
+]
+},
+{
+"id": "2006-2-mat-08a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 8(a)",
+"r": 1960,
+"tm": 120,
+"ctx": "De uma praia, um topógrafo observa uma pequena escarpa sobre a qual há uma régua vertical de 2 m. Com o teodolito, ele mede 60° entre a reta vertical que passa pelo aparelho e o segmento até o topo da régua, e 75° entre a mesma vertical e o segmento até a base da régua. O teodolito está a 1,6 m de altura em relação à base da escarpa. Qual a distância horizontal entre a vertical do teodolito e a régua, em metros?",
+"fig": "<svg viewBox='0 0 236 146' class='fg' role='img' aria-label='um topógrafo na praia usa um teodolito a 1,6 metro do chão; à direita há uma escarpa com uma régua vertical de 2 metros em cima; linhas tracejadas ligam o teodolito ao topo e à base da régua; o ângulo entre a vertical do teodolito e a linha até o topo da régua é de 60 graus, e até a base da régua é de 75 graus'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='6' y1='135' x2='150.2' y2='135'/><path d='M150.2,135 L152.2,111.7 L148.2,91.7 L153.2,75.7 L151.2,61.7 L230,61.7' stroke-width='1.1'/><line x1='172.2' y1='61.7' x2='172.2' y2='17.7' stroke-width='2.2'/><line x1='30' y1='135' x2='30' y2='103.8'/><line x1='30' y1='103.8' x2='24' y2='135'/><line x1='30' y1='103.8' x2='36' y2='135'/><rect x='27' y='96.8' width='6' height='6' fill='currentColor'/><g stroke-dasharray='2 2' stroke-width='0.7'><line x1='30' y1='99.8' x2='30' y2='8'/><line x1='30' y1='99.8' x2='172.2' y2='17.7'/><line x1='30' y1='99.8' x2='172.2' y2='61.7'/></g><path d='M30.0,83.8 A16,16 0 0 1 43.9,91.8' stroke-width='0.7'/><path d='M30.0,74.8 A25,25 0 0 1 54.1,93.3' stroke-width='0.7'/><line x1='42' y1='99.8' x2='42' y2='135' stroke-width='0.6'/></g><g fill='currentColor'><polygon points='42.0,99.8 43.5,103.0 40.5,103.0'/><polygon points='42.0,135.0 40.5,131.8 43.5,131.8'/></g><g fill='currentColor' font-size='7'><text x='34' y='81.8' font-size='6.5'>60°</text><text x='52' y='87.8' font-size='6.5'>75°</text><text x='45' y='119.4' font-size='6.5'>1,6 m</text><text x='176.2' y='41.7'>2 m</text><text x='172.2' y='13.7' text-anchor='middle'>régua</text><text x='178.2' y='95.7'>escarpa</text><text x='8' y='131'>praia</text></g></svg>",
+"a": 6.464,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Ângulos com a horizontal",
+"Se o ângulo com a vertical é α, o ângulo com a horizontal é 90° − α.",
+""
+],
+[
+"Tangente",
+"Num triângulo retângulo com cateto horizontal d e vertical y: tg(ângulo com a horizontal) = y/d. Escreva duas equações (topo e base da régua) e use que elas diferem em 2 m."
+],
+[
+"Valores",
+"tg 30° = √3/3; tg 15° = tg(45° − 30°) = 2 − √3."
+]
+],
+"h": [
+"Seja h a altura da base da régua acima do teodolito: tg 15° = h/d e tg 30° = (h + 2)/d.",
+"Subtraindo: 2 = d·(tg 30° − tg 15°) = d·(√3/3 − 2 + √3) ⟹ d = 3 + 2√3.",
+"d = <b>3 + 2√3 ≈ 6,46 m</b>."
+]
+},
+{
+"id": "2006-2-mat-08b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 8(b)",
+"r": 1910,
+"tm": 90,
+"ctx": "De uma praia, um topógrafo observa uma pequena escarpa sobre a qual há uma régua vertical de 2 m. Com o teodolito, ele mede 60° entre a reta vertical que passa pelo aparelho e o segmento até o topo da régua, e 75° entre a mesma vertical e o segmento até a base da régua. O teodolito está a 1,6 m de altura em relação à base da escarpa. Qual a altura da escarpa, em metros?",
+"fig": "<svg viewBox='0 0 236 146' class='fg' role='img' aria-label='um topógrafo na praia usa um teodolito a 1,6 metro do chão; à direita há uma escarpa com uma régua vertical de 2 metros em cima; linhas tracejadas ligam o teodolito ao topo e à base da régua; o ângulo entre a vertical do teodolito e a linha até o topo da régua é de 60 graus, e até a base da régua é de 75 graus'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='6' y1='135' x2='150.2' y2='135'/><path d='M150.2,135 L152.2,111.7 L148.2,91.7 L153.2,75.7 L151.2,61.7 L230,61.7' stroke-width='1.1'/><line x1='172.2' y1='61.7' x2='172.2' y2='17.7' stroke-width='2.2'/><line x1='30' y1='135' x2='30' y2='103.8'/><line x1='30' y1='103.8' x2='24' y2='135'/><line x1='30' y1='103.8' x2='36' y2='135'/><rect x='27' y='96.8' width='6' height='6' fill='currentColor'/><g stroke-dasharray='2 2' stroke-width='0.7'><line x1='30' y1='99.8' x2='30' y2='8'/><line x1='30' y1='99.8' x2='172.2' y2='17.7'/><line x1='30' y1='99.8' x2='172.2' y2='61.7'/></g><path d='M30.0,83.8 A16,16 0 0 1 43.9,91.8' stroke-width='0.7'/><path d='M30.0,74.8 A25,25 0 0 1 54.1,93.3' stroke-width='0.7'/><line x1='42' y1='99.8' x2='42' y2='135' stroke-width='0.6'/></g><g fill='currentColor'><polygon points='42.0,99.8 43.5,103.0 40.5,103.0'/><polygon points='42.0,135.0 40.5,131.8 43.5,131.8'/></g><g fill='currentColor' font-size='7'><text x='34' y='81.8' font-size='6.5'>60°</text><text x='52' y='87.8' font-size='6.5'>75°</text><text x='45' y='119.4' font-size='6.5'>1,6 m</text><text x='176.2' y='41.7'>2 m</text><text x='172.2' y='13.7' text-anchor='middle'>régua</text><text x='178.2' y='95.7'>escarpa</text><text x='8' y='131'>praia</text></g></svg>",
+"a": 3.332,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Triângulo formado",
+"No triângulo teodolito–base da régua–topo da régua, os ângulos são 15° (no teodolito), 105° (na base da régua) e 60° (no topo). Use a lei dos senos ou a tangente.",
+""
+],
+[
+"Altura total",
+"Altura da escarpa = 1,6 m + desnível h entre o teodolito e a base da régua."
+]
+],
+"h": [
+"Lei dos senos: o lado oposto a 15° é a régua (2 m); a distância teodolito–base é oposta a 60°: a = 2·sen 60°/sen 15°. Ou, com d = 3 + 2√3: h = d·tg 15° = (3 + 2√3)(2 − √3) = √3.",
+"h = √3 ≈ 1,73 m acima do teodolito.",
+"Escarpa: 1,6 + √3 ≈ <b>3,33 m</b>."
+]
+},
+{
+"id": "2006-2-mat-09a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 9(a) (adaptada para múltipla escolha)",
+"r": 1780,
+"tm": 75,
+"ctx": "Sejam a matriz A = [[x − 1, x − 1, x − 1], [x − 1, 1, 2], [x − 1, 1, −2]] (dada por linhas), o vetor b = (m, 3, 5) e o vetor y = (y₁, y₂, y₃). Qual o conjunto solução da equação det(A) = 0?",
+"opts": [
+"{1, 2}",
+"{1}",
+"{2}",
+"{−1, 2}"
+],
+"a": 0,
+"d": [
+[
+"Fator comum",
+"Se uma linha inteira tem um fator comum k, ele sai do determinante: det = k·det(linha dividida por k).",
+""
+],
+[
+"Regra de Sarrus",
+"det de 3×3 = soma dos produtos das diagonais principais − soma dos produtos das secundárias."
+]
+],
+"h": [
+"Tirando (x − 1) da 1ª linha: det A = (x − 1)·det[[1, 1, 1], [x − 1, 1, 2], [x − 1, 1, −2]].",
+"Sarrus: det = (x − 1)·[4(x − 1) − 4] = 4(x − 1)(x − 2).",
+"det A = 0 ⟺ <b>x = 1 ou x = 2</b>."
+]
+},
+{
+"id": "2006-2-mat-09b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 9(b)",
+"r": 1910,
+"tm": 90,
+"ctx": "Sejam a matriz A = [[x − 1, x − 1, x − 1], [x − 1, 1, 2], [x − 1, 1, −2]] (dada por linhas), o vetor b = (m, 3, 5) e o vetor y = (y₁, y₂, y₃). Com x = 2 (o maior valor que anula det A), para que valor de m o sistema A·y = b tem infinitas soluções?",
+"a": 3.5,
+"tol": 0,
+"d": [
+[
+"Escalonamento",
+"Subtraia a 1ª equação das outras para eliminar variáveis. Um sistema com det = 0 tem infinitas soluções quando as equações restantes são compatíveis (não se contradizem).",
+""
+]
+],
+"h": [
+"Com x = 2: y₁ + y₂ + y₃ = m; y₁ + y₂ + 2y₃ = 3; y₁ + y₂ − 2y₃ = 5.",
+"Subtraindo a 1ª: y₃ = 3 − m e −3y₃ = 5 − m.",
+"Compatíveis: −3(3 − m) = 5 − m ⟹ 4m = 14 ⟹ m = <b>7/2</b>."
+]
+},
+{
+"id": "2006-2-mat-10a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 10(a) (adaptada para múltipla escolha)",
+"r": 1910,
+"tm": 90,
+"ctx": "A reta y = mx + 2 corta o gráfico de y = |x| em dois pontos distintos, A e B. Quais são os valores possíveis de m?",
+"opts": [
+"−1 &lt; m &lt; 1",
+"m &gt; −1",
+"m &lt; 1",
+"m ≠ 0"
+],
+"a": 0,
+"d": [
+[
+"Duas semirretas",
+"y = |x| é y = −x para x negativo e y = x para x positivo. Encontre a interseção da reta com cada parte e exija que a abscissa esteja do lado certo.",
+""
+],
+[
+"Inclinação",
+"A reta passa por (0, 2), acima do vértice. Se ela for mais inclinada que y = x ou que y = −x, não alcança um dos lados."
+]
+],
+"h": [
+"Com y = −x: x = −2/(m + 1), negativa ⟺ m &gt; −1.",
+"Com y = x: x = 2/(1 − m), positiva ⟺ m &lt; 1.",
+"<b>−1 &lt; m &lt; 1</b>."
+]
+},
+{
+"id": "2006-2-mat-10b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 10(b)",
+"r": 2000,
+"tm": 90,
+"ctx": "A reta y = mx + 2 corta o gráfico de y = |x| em dois pontos distintos, A e B. Sendo O a origem, para que valor de m a área do triângulo OAB é mínima?",
+"a": 0,
+"tol": 0,
+"d": [
+[
+"Triângulo retângulo",
+"As retas y = x e y = −x são perpendiculares: o ângulo em O é reto, e a área é OA·OB/2.",
+""
+],
+[
+"Mínimo de uma fração",
+"4/(1 − m²) é mínima quando o denominador é máximo."
+]
+],
+"h": [
+"A = (−2/(m + 1), 2/(m + 1)) e B = (2/(1 − m), 2/(1 − m)): OA = 2√2/(1 + m), OB = 2√2/(1 − m).",
+"Área = OA·OB/2 = 4/(1 − m²).",
+"1 − m² é máximo em <b>m = 0</b> (área 4)."
+]
+},
+{
+"id": "2006-2-mat-11a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 11(a) (adaptada para múltipla escolha)",
+"r": 1870,
+"tm": 120,
+"ctx": "Um triângulo retângulo ABC tem AC = 6 cm, AB = 8 cm e BC = 10 cm. Os lados AC, AB e BC são também lados de quadrados construídos externamente ao triângulo. O é o centro da circunferência circunscrita ao triângulo, e D, E e F são os centros dos quadrados de lados BC, AC e AB, respectivamente. Quanto medem DO, EO e FO?",
+"fig": "<svg viewBox='0 0 140 150' class='fg' role='img' aria-label='triângulo retângulo ABC, com ângulo reto em A, cateto AB de 8 centímetros na horizontal e AC de 6 centímetros na vertical; a circunferência circunscrita tem centro O no meio da hipotenusa BC; sobre cada lado há um quadrado construído para fora do triângulo: D é o centro do quadrado sobre BC, E o centro do quadrado sobre AC, à esquerda, e F o centro do quadrado sobre AB, embaixo'><g fill='none' stroke='currentColor' stroke-width='0.7'><polygon points='45.0,92.0 93.0,92.0 93.0,140.0 45.0,140.0'/><polygon points='45.0,92.0 45.0,56.0 9.0,56.0 9.0,92.0'/><polygon points='93.0,92.0 45.0,56.0 81.0,8.0 129.0,44.0'/><circle cx='69' cy='74' r='30' stroke-dasharray='2 1.5'/><polygon points='45.0,92.0 93.0,92.0 45.0,56.0' stroke-width='1.3'/><rect x='45' y='88' width='4' height='4' stroke-width='0.5'/></g><g fill='currentColor'><circle cx='87.0' cy='50.0' r='1.3'/><circle cx='27.0' cy='74.0' r='1.3'/><circle cx='69.0' cy='116.0' r='1.3'/><circle cx='69.0' cy='74.0' r='1.3'/></g><g fill='currentColor' font-size='7'><text x='42' y='99' text-anchor='end'>A</text><text x='96' y='99'>B</text><text x='42' y='54' text-anchor='end'>C</text><text x='90' y='48'>D</text><text x='27' y='71' text-anchor='middle'>E</text><text x='72' y='118.5'>F</text><text x='71' y='81'>O</text></g></svg>",
+"opts": [
+"DO = 5 cm, EO = 7 cm e FO = 7 cm",
+"DO = 5 cm, EO = 3 cm e FO = 4 cm",
+"DO = 10 cm, EO = 7 cm e FO = 7 cm",
+"DO = 5 cm, EO = 5 cm e FO = 5 cm"
+],
+"a": 0,
+"d": [
+[
+"Circuncentro do triângulo retângulo",
+"O centro da circunferência circunscrita a um triângulo retângulo é o ponto médio da hipotenusa.",
+""
+],
+[
+"Coordenadas",
+"Ponha A = (0, 0), B = (8, 0), C = (0, 6). O centro de um quadrado está a meio lado de distância do lado, na direção para fora, sobre a mediatriz desse lado."
+]
+],
+"h": [
+"O = ponto médio de BC = (4, 3); E = (−3, 3); F = (4, −4); D fica sobre a mediatriz de BC, a 5 cm de O, para fora.",
+"DO = 5 (meio lado de 10); EO = 4 + 3 = 7; FO = 3 + 4 = 7.",
+"<b>DO = 5 cm, EO = 7 cm e FO = 7 cm</b>."
+]
+},
+{
+"id": "2006-2-mat-11b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 11(b) (adaptada para múltipla escolha)",
+"r": 2080,
+"tm": 150,
+"ctx": "Um triângulo retângulo ABC tem AC = 6 cm, AB = 8 cm e BC = 10 cm. Os lados AC, AB e BC são também lados de quadrados construídos externamente ao triângulo. O é o centro da circunferência circunscrita ao triângulo, e D, E e F são os centros dos quadrados de lados BC, AC e AB, respectivamente. Quanto medem os lados do triângulo DEF?",
+"fig": "<svg viewBox='0 0 140 150' class='fg' role='img' aria-label='triângulo retângulo ABC, com ângulo reto em A, cateto AB de 8 centímetros na horizontal e AC de 6 centímetros na vertical; a circunferência circunscrita tem centro O no meio da hipotenusa BC; sobre cada lado há um quadrado construído para fora do triângulo: D é o centro do quadrado sobre BC, E o centro do quadrado sobre AC, à esquerda, e F o centro do quadrado sobre AB, embaixo'><g fill='none' stroke='currentColor' stroke-width='0.7'><polygon points='45.0,92.0 93.0,92.0 93.0,140.0 45.0,140.0'/><polygon points='45.0,92.0 45.0,56.0 9.0,56.0 9.0,92.0'/><polygon points='93.0,92.0 45.0,56.0 81.0,8.0 129.0,44.0'/><circle cx='69' cy='74' r='30' stroke-dasharray='2 1.5'/><polygon points='45.0,92.0 93.0,92.0 45.0,56.0' stroke-width='1.3'/><rect x='45' y='88' width='4' height='4' stroke-width='0.5'/></g><g fill='currentColor'><circle cx='87.0' cy='50.0' r='1.3'/><circle cx='27.0' cy='74.0' r='1.3'/><circle cx='69.0' cy='116.0' r='1.3'/><circle cx='69.0' cy='74.0' r='1.3'/></g><g fill='currentColor' font-size='7'><text x='42' y='99' text-anchor='end'>A</text><text x='96' y='99'>B</text><text x='42' y='54' text-anchor='end'>C</text><text x='90' y='48'>D</text><text x='27' y='71' text-anchor='middle'>E</text><text x='72' y='118.5'>F</text><text x='71' y='81'>O</text></g></svg>",
+"opts": [
+"EF = 7√2 cm, DE = 2√29 cm e DF = √130 cm",
+"EF = 7√2 cm, DE = DF = √74 cm",
+"EF = 14 cm, DE = 2√29 cm e DF = √130 cm",
+"EF = 7 cm, DE = 10 cm e DF = 11 cm"
+],
+"a": 0,
+"d": [
+[
+"Coordenadas",
+"Com A = (0, 0), B = (8, 0), C = (0, 6): E = (−3, 3), F = (4, −4). Para D: o quadrado sobre BC tem vértices B, C, C + n e B + n, em que n é o vetor perpendicular a BC, de comprimento 10, apontando para fora.",
+""
+],
+[
+"Distância",
+"d = √((Δx)² + (Δy)²). Alternativa: lei dos cossenos nos triângulos com vértice O."
+]
+],
+"h": [
+"BC = (−8, 6); para fora: n = (6, 8). D = centro de B, C, (6, 14), (14, 8) = (7, 7).",
+"EF = √(7² + 7²) = 7√2; DE = √(10² + 4²) = √116 = 2√29; DF = √(3² + 11²) = √130.",
+"<b>EF = 7√2, DE = 2√29 e DF = √130 cm</b>."
+]
+},
+{
+"id": "2006-2-mat-12a",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 12(a)",
+"r": 1740,
+"tm": 75,
+"ctx": "As três raízes da equação x³ − 3x² + 12x − q = 0, em que q é um parâmetro real, formam uma progressão aritmética. Quanto vale q?",
+"a": 10,
+"tol": 0,
+"d": [
+[
+"Relações de Girard",
+"Para x³ + bx² + cx + d = 0: soma das raízes = −b; soma dos produtos dois a dois = c; produto = −d.",
+""
+],
+[
+"Raízes em PA",
+"Escreva-as como a − r, a, a + r: a soma é 3a."
+]
+],
+"h": [
+"Soma das raízes: 3a = 3 ⟹ a = 1 é raiz.",
+"Substituindo x = 1: 1 − 3 + 12 − q = 0.",
+"q = <b>10</b>."
+]
+},
+{
+"id": "2006-2-mat-12b",
+"ano": 2006,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2006, 2ª fase, Matemática, questão 12(b) (adaptada para múltipla escolha)",
+"r": 1740,
+"tm": 75,
+"ctx": "As três raízes da equação x³ − 3x² + 12x − q = 0, em que q é um parâmetro real, formam uma progressão aritmética. Com q = 10, quais são as raízes da equação?",
+"opts": [
+"1, 1 − 3i e 1 + 3i",
+"1, 2 e 3",
+"1, −1 + 3i e −1 − 3i",
+"1, 1 − 9i e 1 + 9i"
+],
+"a": 0,
+"d": [
+[
+"Baixar o grau",
+"Conhecida uma raiz a, divida o polinômio por (x − a) (Briot-Ruffini) e resolva a equação do 2º grau que sobra.",
+""
+],
+[
+"Raízes complexas",
+"Se Δ é negativo: x = (−b ± i√|Δ|)/2a."
+]
+],
+"h": [
+"x = 1 é raiz: x³ − 3x² + 12x − 10 = (x − 1)(x² − 2x + 10).",
+"x² − 2x + 10 = 0: Δ = 4 − 40 = −36 ⟹ x = (2 ± 6i)/2 = 1 ± 3i.",
+"Raízes: <b>1, 1 − 3i e 1 + 3i</b> (PA de razão 3i)."
+]
+},
+{
+"id": "2006-2-fis-01a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2006, 2ª fase, Física, questão 1(a)",
+"r": 1490,
+"tm": 40,
+"ctx": "Um corredor de 100 metros rasos percorre os 20 primeiros metros em 4,0 s com aceleração constante, partindo do repouso. A velocidade atingida ao fim desses 4,0 s é mantida até o final da prova. Qual a aceleração nos primeiros 20 m, em m/s²?",
+"a": 2.5,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"MUV a partir do repouso",
+"Δx = a·t²/2.",
+""
+]
+],
+"h": [
+"20 = a·4,0²/2 = 8a.",
+"a = 20/8.",
+"a = <b>2,5 m/s²</b>."
+]
+},
+{
+"id": "2006-2-fis-01b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2006, 2ª fase, Física, questão 1(b)",
+"r": 1440,
+"tm": 30,
+"ctx": "Um corredor de 100 metros rasos percorre os 20 primeiros metros em 4,0 s com aceleração constante, partindo do repouso. A velocidade atingida ao fim desses 4,0 s é mantida até o final da prova. A aceleração nos primeiros 20 m é de 2,5 m/s². Qual a velocidade ao fim desse trecho, em m/s?",
+"a": 10,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"MUV",
+"v = v₀ + a·t.",
+""
+]
+],
+"h": [
+"v₀ = 0.",
+"v = 2,5 × 4,0.",
+"v = <b>10 m/s</b>."
+]
+},
+{
+"id": "2006-2-fis-01c",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2006, 2ª fase, Física, questão 1(c)",
+"r": 1570,
+"tm": 45,
+"ctx": "Um corredor de 100 metros rasos percorre os 20 primeiros metros em 4,0 s com aceleração constante, partindo do repouso. A velocidade atingida ao fim desses 4,0 s é mantida até o final da prova. A velocidade ao fim dos primeiros 20 m é de 10 m/s. Qual o tempo total da prova, em segundos?",
+"a": 12,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Dois trechos",
+"Some o tempo do trecho acelerado com o do trecho uniforme. No MU: t = Δx/v.",
+""
+]
+],
+"h": [
+"Trecho uniforme: 100 − 20 = 80 m.",
+"t = 80/10 = 8,0 s.",
+"Total: 4,0 + 8,0 = <b>12 s</b>."
+]
+},
+{
+"id": "2006-2-fis-02a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2006, 2ª fase, Física, questão 2(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "Num lançador de brinquedo, a mola da figura tem constante elástica k = 8.000 N/m e massa desprezível. Ela está comprimida de 2,0 cm e, ao ser liberada, empurra um carrinho de 0,20 kg, que a abandona quando ela atinge o comprimento relaxado. O carrinho percorre uma pista que termina numa rampa, sem perda de energia mecânica. Use g = 10 m/s². Qual a velocidade do carrinho ao abandonar a mola, em m/s?",
+"fig": "<svg viewBox='0 0 220 92' class='fg' role='img' aria-label='lançador de brinquedo: um batente à esquerda, uma mola comprimida e, encostado nela, um carrinho sobre uma pista horizontal que, à direita, termina numa rampa curva que sobe'><g fill='none' stroke='currentColor' stroke-width='1'><rect x='8' y='54' width='6' height='26' fill='currentColor' fill-opacity='0.3'/><polyline points='14,68 20,68 20.375,72 21.125,64 21.875,72 22.625,64 23.375,72 24.125,64 24.875,72 25.625,64 26,68 32,68'/><rect x='32' y='58' width='34' height='17'/><circle cx='40' cy='77.5' r='2.5'/><circle cx='58' cy='77.5' r='2.5'/><path d='M4,80 L128,80 Q186,80 214,16' stroke-width='1.2'/><line x1='22' y1='34' x2='23' y2='60' stroke-width='0.7'/><line x1='104' y1='60' x2='70' y2='66' stroke-width='0.7'/></g><g fill='currentColor'><polygon points='23.0,61.0 21.2,57.4 24.6,57.3'/><polygon points='68.0,66.4 71.3,64.1 71.9,67.4'/><g font-size='7'><text x='10' y='30'>mola comprimida</text><text x='106' y='62'>carrinho</text></g></g></svg>",
+"a": 4,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Energia elástica",
+"Mola comprimida de x armazena E = k·x²/2 (x em metros).",
+""
+],
+[
+"Conservação",
+"Sem atrito, a energia elástica vira energia cinética m·v²/2."
+]
+],
+"h": [
+"k·x²/2 = 8.000 × (0,020)²/2 = 1,6 J.",
+"0,20·v²/2 = 1,6 ⟹ v² = 16.",
+"v = <b>4,0 m/s</b>."
+]
+},
+{
+"id": "2006-2-fis-02b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2006, 2ª fase, Física, questão 2(b)",
+"r": 1660,
+"tm": 60,
+"ctx": "Num lançador de brinquedo, a mola da figura tem constante elástica k = 8.000 N/m e massa desprezível. Ela está comprimida de 2,0 cm e, ao ser liberada, empurra um carrinho de 0,20 kg, que a abandona quando ela atinge o comprimento relaxado. O carrinho percorre uma pista que termina numa rampa, sem perda de energia mecânica. Use g = 10 m/s². O carrinho deixa a mola a 4,0 m/s. A que altura da rampa sua velocidade é de 2,0 m/s, em metros?",
+"fig": "<svg viewBox='0 0 220 92' class='fg' role='img' aria-label='lançador de brinquedo: um batente à esquerda, uma mola comprimida e, encostado nela, um carrinho sobre uma pista horizontal que, à direita, termina numa rampa curva que sobe'><g fill='none' stroke='currentColor' stroke-width='1'><rect x='8' y='54' width='6' height='26' fill='currentColor' fill-opacity='0.3'/><polyline points='14,68 20,68 20.375,72 21.125,64 21.875,72 22.625,64 23.375,72 24.125,64 24.875,72 25.625,64 26,68 32,68'/><rect x='32' y='58' width='34' height='17'/><circle cx='40' cy='77.5' r='2.5'/><circle cx='58' cy='77.5' r='2.5'/><path d='M4,80 L128,80 Q186,80 214,16' stroke-width='1.2'/><line x1='22' y1='34' x2='23' y2='60' stroke-width='0.7'/><line x1='104' y1='60' x2='70' y2='66' stroke-width='0.7'/></g><g fill='currentColor'><polygon points='23.0,61.0 21.2,57.4 24.6,57.3'/><polygon points='68.0,66.4 71.3,64.1 71.9,67.4'/><g font-size='7'><text x='10' y='30'>mola comprimida</text><text x='106' y='62'>carrinho</text></g></g></svg>",
+"a": 0.6,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Conservação da energia mecânica",
+"m·v₁²/2 = m·v₂²/2 + m·g·h. A massa se cancela.",
+""
+]
+],
+"h": [
+"v₁²/2 = v₂²/2 + g·h: 16/2 = 4/2 + 10·h.",
+"8 = 2 + 10h.",
+"h = <b>0,60 m</b>."
+]
+},
+{
+"id": "2006-2-fis-03a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2006, 2ª fase, Física, questão 3(a)",
+"r": 1530,
+"tm": 40,
+"ctx": "Ao usar um saca-rolhas, a força mínima para a rolha começar a sair é de 360 N. Sendo 0,2 o coeficiente de atrito estático entre a rolha e o bocal, qual a força normal que a rolha exerce no bocal, em newtons? Despreze o peso da rolha.",
+"a": 1800,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Atrito estático máximo",
+"F<sub>at,máx</sub> = μ<sub>e</sub>·N. A rolha começa a sair quando a força aplicada iguala o atrito máximo.",
+""
+]
+],
+"h": [
+"360 = 0,2·N.",
+"N = 360/0,2.",
+"N = <b>1,8·10³ N</b>."
+]
+},
+{
+"id": "2006-2-fis-03b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2006, 2ª fase, Física, questão 3(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "Ao usar um saca-rolhas, a força mínima para a rolha começar a sair é de 360 N. A normal entre a rolha e o bocal é de 1,8·10³ N. O raio interno do bocal é de 0,75 cm e a rolha tem 4,0 cm de comprimento. Qual a pressão da rolha sobre o bocal? Use π = 3. Responda em unidades de 10⁶ Pa.",
+"a": 1.0,
+"u": "10⁶ Pa",
+"tol": 0.02,
+"d": [
+[
+"Pressão",
+"p = F/A, com A a área onde a força se distribui.",
+""
+],
+[
+"Que área?",
+"A rolha toca o bocal pela superfície lateral de um cilindro: A = 2πr·L (em m²)."
+]
+],
+"h": [
+"A = 2 × 3 × 0,0075 × 0,040 = 1,8·10⁻³ m².",
+"p = 1,8·10³/1,8·10⁻³.",
+"p = <b>1,0·10⁶ Pa</b> (1,0 MPa)."
+]
+},
+{
+"id": "2006-2-fis-04a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2006, 2ª fase, Física, questão 4(a)",
+"r": 1780,
+"tm": 75,
+"ctx": "Numa auto-estrada, a roda de um caminhão se solta e vai em direção à outra pista, atingindo um carro que vem em sentido oposto. A roda é lançada a 72 km/h, formando 30° com a pista, como na figura. O carro (900 kg) vinha a 90 km/h; a roda tem 100 kg e fica presa ao carro após a colisão. Use sen 30° = 0,5 e cos 30° = 0,87. Imediatamente após a colisão, qual a componente da velocidade do conjunto na direção transversal à pista, em m/s?",
+"fig": "<svg viewBox='0 0 230 100' class='fg' role='img' aria-label='vista de cima de uma auto-estrada com duas pistas separadas por um gramado; na pista de cima, um carro anda para a direita a 90 quilômetros por hora; na pista de baixo, um caminhão anda para a esquerda; a roda do caminhão se solta e sai para cima e para a esquerda, a 72 quilômetros por hora, formando 30 graus com a pista, em direção à pista do carro'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='4' y1='6' x2='226' y2='6'/><line x1='4' y1='94' x2='226' y2='94'/><rect x='4' y='42' width='222' height='12' fill='currentColor' fill-opacity='0.18' stroke-width='0.6'/><line x1='4' y1='24' x2='226' y2='24' stroke-dasharray='4 3' stroke-width='0.6'/><line x1='4' y1='74' x2='226' y2='74' stroke-dasharray='4 3' stroke-width='0.6'/><rect x='56' y='28' width='22' height='11' rx='2'/><line x1='71' y1='29' x2='71' y2='38'/><line x1='82' y1='33.5' x2='104' y2='33.5' stroke-width='1.1'/><rect x='132' y='58' width='13' height='12' rx='1'/><rect x='147' y='57' width='52' height='14'/><line x1='120' y1='64' x2='96' y2='64' stroke-width='1.1'/><circle cx='126' cy='56' r='2.6' fill='currentColor'/><line x1='126' y1='56' x2='96' y2='56' stroke-dasharray='2 2' stroke-width='0.6'/><line x1='126' y1='56' x2='100.0' y2='41.0' stroke-width='1.1'/><path d='M112.0,56.0 A14,14 0 0 1 113.9,49.0' stroke-width='0.7'/></g><g fill='currentColor'><polygon points='106.0,33.5 101.9,35.4 101.9,31.6'/><polygon points='94.0,64.0 98.1,62.1 98.1,65.9'/><polygon points='98.3,40.0 102.8,40.4 100.9,43.7'/><g font-size='6.5'><text x='7' y='15'>pista</text><text x='7' y='51'>gramado</text><text x='7' y='88'>pista</text><text x='108' y='31'>90 km/h</text><text x='173' y='66.5' text-anchor='middle'>caminhão</text><text x='131' y='50.5'>roda: 72 km/h</text><text x='103' y='52.5'>30°</text></g></g></svg>",
+"a": 1.0,
+"u": "m/s",
+"tol": 0.02,
+"d": [
+[
+"Quantidade de movimento",
+"Na colisão, Q = m·v se conserva em cada direção separadamente (forças externas desprezíveis durante o choque).",
+""
+],
+[
+"Componentes",
+"Na direção transversal, só a roda tinha velocidade: v·sen 30°. Converta km/h para m/s dividindo por 3,6."
+]
+],
+"h": [
+"72 km/h = 20 m/s; componente transversal da roda: 20 × 0,5 = 10 m/s. O carro não tinha componente transversal.",
+"100 × 10 = (900 + 100)·v<sub>y</sub>.",
+"v<sub>y</sub> = <b>1,0 m/s</b>."
+]
+},
+{
+"id": "2006-2-fis-04b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2006, 2ª fase, Física, questão 4(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "Numa auto-estrada, a roda de um caminhão se solta e vai em direção à outra pista, atingindo um carro que vem em sentido oposto. A roda é lançada a 72 km/h, formando 30° com a pista, como na figura. O carro (900 kg) vinha a 90 km/h; a roda tem 100 kg e fica presa ao carro após a colisão. Use sen 30° = 0,5 e cos 30° = 0,87. Qual a energia cinética do conjunto carro-roda logo após a colisão? Responda em unidades de 10⁵ J.",
+"fig": "<svg viewBox='0 0 230 100' class='fg' role='img' aria-label='vista de cima de uma auto-estrada com duas pistas separadas por um gramado; na pista de cima, um carro anda para a direita a 90 quilômetros por hora; na pista de baixo, um caminhão anda para a esquerda; a roda do caminhão se solta e sai para cima e para a esquerda, a 72 quilômetros por hora, formando 30 graus com a pista, em direção à pista do carro'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='4' y1='6' x2='226' y2='6'/><line x1='4' y1='94' x2='226' y2='94'/><rect x='4' y='42' width='222' height='12' fill='currentColor' fill-opacity='0.18' stroke-width='0.6'/><line x1='4' y1='24' x2='226' y2='24' stroke-dasharray='4 3' stroke-width='0.6'/><line x1='4' y1='74' x2='226' y2='74' stroke-dasharray='4 3' stroke-width='0.6'/><rect x='56' y='28' width='22' height='11' rx='2'/><line x1='71' y1='29' x2='71' y2='38'/><line x1='82' y1='33.5' x2='104' y2='33.5' stroke-width='1.1'/><rect x='132' y='58' width='13' height='12' rx='1'/><rect x='147' y='57' width='52' height='14'/><line x1='120' y1='64' x2='96' y2='64' stroke-width='1.1'/><circle cx='126' cy='56' r='2.6' fill='currentColor'/><line x1='126' y1='56' x2='96' y2='56' stroke-dasharray='2 2' stroke-width='0.6'/><line x1='126' y1='56' x2='100.0' y2='41.0' stroke-width='1.1'/><path d='M112.0,56.0 A14,14 0 0 1 113.9,49.0' stroke-width='0.7'/></g><g fill='currentColor'><polygon points='106.0,33.5 101.9,35.4 101.9,31.6'/><polygon points='94.0,64.0 98.1,62.1 98.1,65.9'/><polygon points='98.3,40.0 102.8,40.4 100.9,43.7'/><g font-size='6.5'><text x='7' y='15'>pista</text><text x='7' y='51'>gramado</text><text x='7' y='88'>pista</text><text x='108' y='31'>90 km/h</text><text x='173' y='66.5' text-anchor='middle'>caminhão</text><text x='131' y='50.5'>roda: 72 km/h</text><text x='103' y='52.5'>30°</text></g></g></svg>",
+"a": 2.16,
+"u": "10⁵ J",
+"tol": 0.02,
+"d": [
+[
+"Conservação por componentes",
+"Na direção da pista, a roda tinha componente v·cos 30° em sentido oposto ao do carro: some com sinais.",
+""
+],
+[
+"Velocidade final",
+"v² = v<sub>x</sub>² + v<sub>y</sub>²; E = m·v²/2."
+]
+],
+"h": [
+"Ao longo da pista: 900 × 25 − 100 × 20 × 0,87 = 1.000·v<sub>x</sub> ⟹ v<sub>x</sub> = 20.760/1.000 ≈ 20,8 m/s. Transversal: v<sub>y</sub> = 1,0 m/s.",
+"v² ≈ 20,8² + 1,0² ≈ 432 m²/s².",
+"E = 1.000 × 432/2 ≈ <b>2,2·10⁵ J</b>."
+]
+},
+{
+"id": "2006-2-fis-05a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2006, 2ª fase, Física, questão 5(a)",
+"r": 1570,
+"tm": 45,
+"ctx": "Um pêndulo cônico tem um fio de massa desprezível e comprimento L = 1,25 m, com uma massa m = 0,5 kg na ponta; a outra ponta está presa ao teto. A massa descreve um movimento circular uniforme num plano horizontal, e o fio forma θ = 60° com a vertical. Use sen 60° = 0,87 e cos 60° = 0,5. Use g = 10 m/s². Qual a tensão no fio, em newtons?",
+"fig": "<svg viewBox='0 0 150 64' class='fg' role='img' aria-label='pêndulo cônico: um fio de comprimento L preso ao teto sustenta uma massa m que descreve um círculo horizontal, desenhado como uma elipse pontilhada; o fio forma um ângulo teta com a vertical'><g fill='none' stroke='currentColor' stroke-width='0.9'><rect x='64' y='5' width='36' height='5' fill='currentColor' fill-opacity='0.25'/><line x1='82' y1='10' x2='82' y2='49.0' stroke-dasharray='2 2' stroke-width='0.6'/><ellipse cx='82' cy='41.0' rx='53.7' ry='7' stroke-dasharray='1.5 1.5' stroke-width='0.6'/><line x1='82' y1='10' x2='28.3' y2='41.0'/><path d='M82.0,23.0 A13,13 0 0 1 70.7,16.5' stroke-width='0.7'/></g><circle cx='28.3' cy='41.0' r='3.2' fill='currentColor'/><g fill='currentColor' font-size='7.5' font-style='italic'><text x='49.2' y='22.5' text-anchor='end'>L</text><text x='73' y='30' text-anchor='middle' font-size='7'>θ</text><text x='23.3' y='37.0' text-anchor='end'>m</text></g></svg>",
+"a": 10,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Equilíbrio vertical",
+"A massa não sobe nem desce: a componente vertical da tensão equilibra o peso, T·cos θ = m·g.",
+""
+]
+],
+"h": [
+"T·cos 60° = 0,5 × 10 = 5 N.",
+"T = 5/0,5.",
+"T = <b>10 N</b>."
+]
+},
+{
+"id": "2006-2-fis-05b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2006, 2ª fase, Física, questão 5(b)",
+"r": 1830,
+"tm": 75,
+"ctx": "Um pêndulo cônico tem um fio de massa desprezível e comprimento L = 1,25 m, com uma massa m = 0,5 kg na ponta; a outra ponta está presa ao teto. A massa descreve um movimento circular uniforme num plano horizontal, e o fio forma θ = 60° com a vertical. Use sen 60° = 0,87 e cos 60° = 0,5. Use g = 10 m/s². A tensão no fio vale 10 N. Qual a velocidade angular da massa, em rad/s?",
+"fig": "<svg viewBox='0 0 150 64' class='fg' role='img' aria-label='pêndulo cônico: um fio de comprimento L preso ao teto sustenta uma massa m que descreve um círculo horizontal, desenhado como uma elipse pontilhada; o fio forma um ângulo teta com a vertical'><g fill='none' stroke='currentColor' stroke-width='0.9'><rect x='64' y='5' width='36' height='5' fill='currentColor' fill-opacity='0.25'/><line x1='82' y1='10' x2='82' y2='49.0' stroke-dasharray='2 2' stroke-width='0.6'/><ellipse cx='82' cy='41.0' rx='53.7' ry='7' stroke-dasharray='1.5 1.5' stroke-width='0.6'/><line x1='82' y1='10' x2='28.3' y2='41.0'/><path d='M82.0,23.0 A13,13 0 0 1 70.7,16.5' stroke-width='0.7'/></g><circle cx='28.3' cy='41.0' r='3.2' fill='currentColor'/><g fill='currentColor' font-size='7.5' font-style='italic'><text x='49.2' y='22.5' text-anchor='end'>L</text><text x='73' y='30' text-anchor='middle' font-size='7'>θ</text><text x='23.3' y='37.0' text-anchor='end'>m</text></g></svg>",
+"a": 4,
+"u": "rad/s",
+"tol": 0.01,
+"d": [
+[
+"Resultante centrípeta",
+"A componente horizontal da tensão aponta para o centro do círculo: T·sen θ = m·ω²·r.",
+""
+],
+[
+"Raio do círculo",
+"r = L·sen θ."
+]
+],
+"h": [
+"T·sen θ = m·ω²·L·sen θ ⟹ ω² = T/(m·L).",
+"ω² = 10/(0,5 × 1,25) = 16.",
+"ω = <b>4,0 rad/s</b>."
+]
+},
+{
+"id": "2006-2-fis-06a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2006, 2ª fase, Física, questão 6(a)",
+"r": 1700,
+"tm": 45,
+"ctx": "Todos os corpos trocam energia com o ambiente emitindo e absorvendo ondas eletromagnéticas. Um corpo negro absorve toda onda que nele incide e tem a máxima eficiência de emissão; a intensidade que emite só depende de sua temperatura. O corpo humano a 37 °C pode ser considerado um corpo negro. A velocidade das ondas eletromagnéticas é 3,0·10⁸ m/s. A figura mostra a intensidade emitida por um corpo negro a 37 °C em função da frequência. Qual o comprimento de onda correspondente à frequência de intensidade máxima, em micrômetros?",
+"fig": "<svg viewBox='0 0 236 128' class='fg' role='img' aria-label='gráfico da intensidade das ondas emitidas por um corpo negro a 37 graus Celsius, em unidades arbitrárias de 0 a 2, em função da frequência, de 0 a 8 vezes 10 elevado a 13 hertz: a curva sobe a partir de zero, atinge o máximo de cerca de 1,77 em 1,8 vezes 10 elevado a 13 hertz e depois decai lentamente, quase a zero em 7,2 vezes 10 elevado a 13 hertz'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='81.4' y1='16' x2='81.4' y2='104'/><line x1='122.8' y1='16' x2='122.8' y2='104'/><line x1='164.2' y1='16' x2='164.2' y2='104'/><line x1='205.6' y1='16' x2='205.6' y2='104'/><line x1='40' y1='82.0' x2='224.0' y2='82.0'/><line x1='40' y1='60.0' x2='224.0' y2='60.0'/><line x1='40' y1='38.0' x2='224.0' y2='38.0'/><line x1='40' y1='16.0' x2='224.0' y2='16.0'/></g><line x1='40' y1='104' x2='224.0' y2='104' stroke-width='1'/><line x1='40' y1='104' x2='40' y2='16' stroke-width='1'/><path d='M40.0,104.0 C40.8,103.3 43.1,102.0 44.6,99.5 C46.1,97.0 47.7,92.9 49.2,88.8 C50.7,84.8 52.3,79.9 53.8,75.3 C55.3,70.8 56.9,65.9 58.4,61.5 C59.9,57.2 61.5,52.9 63.0,49.1 C64.5,45.4 66.1,41.9 67.6,39.1 C69.1,36.2 70.7,33.8 72.2,31.9 C73.7,30.0 75.3,28.6 76.8,27.7 C78.3,26.7 79.9,26.2 81.4,26.1 C82.9,26.0 84.5,26.4 86.0,27.0 C87.5,27.6 89.1,28.6 90.6,29.7 C92.1,30.9 93.7,32.3 95.2,33.9 C96.7,35.4 98.3,37.2 99.8,39.0 C101.3,40.8 102.9,42.8 104.4,44.7 C105.9,46.7 107.5,48.7 109.0,50.7 C110.5,52.7 112.1,54.7 113.6,56.6 C115.1,58.6 116.7,60.5 118.2,62.4 C119.7,64.3 121.3,66.1 122.8,67.8 C124.3,69.5 125.9,71.2 127.4,72.8 C128.9,74.4 130.5,75.9 132.0,77.3 C133.5,78.7 135.1,80.1 136.6,81.4 C138.1,82.6 139.7,83.8 141.2,84.9 C142.7,86.0 144.3,87.0 145.8,88.0 C147.3,88.9 148.9,89.8 150.4,90.7 C151.9,91.5 153.5,92.2 155.0,92.9 C156.5,93.6 158.1,94.3 159.6,94.9 C161.1,95.5 162.7,96.0 164.2,96.5 C165.7,97.0 167.3,97.4 168.8,97.9 C170.3,98.3 171.9,98.6 173.4,99.0 C174.9,99.3 176.5,99.6 178.0,99.9 C179.5,100.2 181.1,100.5 182.6,100.7 C184.1,100.9 185.7,101.2 187.2,101.3 C188.7,101.5 190.3,101.7 191.8,101.9 C193.3,102.0 194.9,102.2 196.4,102.3 C197.9,102.4 199.5,102.5 201.0,102.6 C202.5,102.7 204.1,102.8 205.6,102.9 C207.1,103.0 208.7,103.1 210.2,103.1 C211.7,103.2 213.3,103.3 214.8,103.3 C216.3,103.4 217.9,103.4 219.4,103.4 C220.9,103.5 223.2,103.5 224.0,103.6' stroke-width='1.3'/></g><g fill='currentColor' font-size='6.5'><text x='37' y='106.3' text-anchor='end'>0,0</text><text x='37' y='84.3' text-anchor='end'>0,5</text><text x='37' y='62.3' text-anchor='end'>1,0</text><text x='37' y='40.3' text-anchor='end'>1,5</text><text x='37' y='18.3' text-anchor='end'>2,0</text><text x='40' y='112' text-anchor='middle'>0</text><text x='81.4' y='112' text-anchor='middle'>1,8·10¹³</text><text x='122.8' y='112' text-anchor='middle'>3,6·10¹³</text><text x='164.2' y='112' text-anchor='middle'>5,4·10¹³</text><text x='205.6' y='112' text-anchor='middle'>7,2·10¹³</text><text x='132' y='123' text-anchor='middle' font-size='7.5'>f (Hz)</text><text x='9' y='60' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 60)'>I (unidades arbitrárias)</text></g></svg>",
+"a": 17,
+"u": "µm",
+"tol": 0.03,
+"d": [
+[
+"Ler o gráfico",
+"Localize no eixo horizontal a frequência do pico da curva.",
+""
+],
+[
+"Onda eletromagnética",
+"c = λ·f ⟹ λ = c/f. 1 µm = 10⁻⁶ m."
+]
+],
+"h": [
+"Pico em f ≈ 1,8·10¹³ Hz.",
+"λ = 3,0·10⁸/1,8·10¹³ ≈ 1,7·10⁻⁵ m.",
+"λ ≈ <b>17 µm</b> (infravermelho)."
+]
+},
+{
+"id": "2006-2-fis-06b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2006, 2ª fase, Física, questão 6(b) (com a área estimada fornecida)",
+"r": 1870,
+"tm": 90,
+"ctx": "Todos os corpos trocam energia com o ambiente emitindo e absorvendo ondas eletromagnéticas. Um corpo negro absorve toda onda que nele incide e tem a máxima eficiência de emissão; a intensidade que emite só depende de sua temperatura. O corpo humano a 37 °C pode ser considerado um corpo negro. A velocidade das ondas eletromagnéticas é 3,0·10⁸ m/s. Um corpo negro à temperatura absoluta T, num ambiente a Tₐ, perde a potência líquida P = σ·A·(T⁴ − Tₐ⁴), com σ = 6·10⁻⁸ W/(m²·K⁴). Estime a área da pele de uma pessoa de 1,70 m e 70 kg em 1,5 m² e calcule a energia que ela perde por radiação em um dia (≈ 9,0·10⁴ s) num ambiente a 27 °C. Responda em unidades de 10⁶ J.",
+"a": 9.2,
+"u": "10⁶ J",
+"tol": 0.06,
+"d": [
+[
+"Kelvin",
+"Na lei de radiação a temperatura é absoluta: T(K) = θ(°C) + 273.",
+""
+],
+[
+"Potência e energia",
+"E = P·Δt."
+]
+],
+"h": [
+"T = 310 K e Tₐ = 300 K: T⁴ − Tₐ⁴ ≈ 9,24·10⁹ − 8,10·10⁹ ≈ 1,14·10⁹ K⁴.",
+"P = 6·10⁻⁸ × 1,5 × 1,14·10⁹ ≈ 1,0·10² W.",
+"E ≈ 1,0·10² × 9,0·10⁴ ≈ <b>9·10⁶ J</b> (cerca de 2.200 kcal)."
+]
+},
+{
+"id": "2006-2-fis-07a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2006, 2ª fase, Física, questão 7(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Desconfiada de que o anel que ganhou não era uma liga de ouro de boa qualidade, uma estudante deixou o anel de 4,0 g por muito tempo em água fervente (100 °C) e depois o mergulhou num recipiente bem isolado com 2 mL de água a 15 °C, medindo a temperatura final de equilíbrio. Água: c = 1,0 cal/(g·°C) e densidade 1,0 g/cm³. Despreze o calor trocado com o recipiente. Se o anel fosse de ouro puro (c = 0,03 cal/(g·°C)), qual seria a temperatura final de equilíbrio, em °C?",
+"fig": "<svg viewBox='0 0 230 128' class='fg' role='img' aria-label='gráfico do calor específico de uma liga de ouro e cobre, em calorias por grama por grau Celsius, em função da porcentagem de ouro: uma reta que cai de 0,090 com 0 por cento de ouro até 0,030 com 100 por cento de ouro'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='88.5' y1='16.0' x2='88.5' y2='104'/><line x1='131.0' y1='16.0' x2='131.0' y2='104'/><line x1='173.5' y1='16.0' x2='173.5' y2='104'/><line x1='216.0' y1='16.0' x2='216.0' y2='104'/><line x1='67.2' y1='16.0' x2='67.2' y2='104'/><line x1='109.8' y1='16.0' x2='109.8' y2='104'/><line x1='152.2' y1='16.0' x2='152.2' y2='104'/><line x1='194.8' y1='16.0' x2='194.8' y2='104'/><line x1='46' y1='93.0' x2='216.0' y2='93.0'/><line x1='46' y1='82.0' x2='216.0' y2='82.0'/><line x1='46' y1='71.0' x2='216.0' y2='71.0'/><line x1='46' y1='60.0' x2='216.0' y2='60.0'/><line x1='46' y1='49.0' x2='216.0' y2='49.0'/><line x1='46' y1='38.0' x2='216.0' y2='38.0'/><line x1='46' y1='27.0' x2='216.0' y2='27.0'/><line x1='46' y1='16.0' x2='216.0' y2='16.0'/></g><line x1='46' y1='104' x2='216.0' y2='104' stroke-width='1'/><line x1='46' y1='104' x2='46' y2='16.0' stroke-width='1'/><line x1='46.0' y1='16.0' x2='216.0' y2='104.0' stroke-width='1.3'/><rect x='158.2' y='20.4' width='50' height='11' stroke-width='0.7'/></g><g fill='currentColor' font-size='6.5'><text x='43' y='106.3' text-anchor='end'>0,030</text><text x='43' y='84.3' text-anchor='end'>0,045</text><text x='43' y='62.3' text-anchor='end'>0,060</text><text x='43' y='40.3' text-anchor='end'>0,075</text><text x='43' y='18.3' text-anchor='end'>0,090</text><text x='46.0' y='112' text-anchor='middle'>0</text><text x='88.5' y='112' text-anchor='middle'>25</text><text x='131.0' y='112' text-anchor='middle'>50</text><text x='173.5' y='112' text-anchor='middle'>75</text><text x='216.0' y='112' text-anchor='middle'>100</text><text x='183.2' y='28.0' text-anchor='middle'>Liga de Au-Cu</text><text x='131' y='123' text-anchor='middle' font-size='7.5'>% de Au</text><text x='9' y='60' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 60)'>calor específico (cal/g°C)</text></g></svg>",
+"a": 19.8,
+"u": "°C",
+"tol": 0.02,
+"d": [
+[
+"Calorimetria",
+"Q = m·c·ΔT. Num sistema isolado, o calor cedido pelo corpo quente é igual ao recebido pelo frio.",
+""
+]
+],
+"h": [
+"Água: 2,0 g × 1,0 × (T − 15). Anel: 4,0 × 0,03 × (100 − T) = 0,12·(100 − T).",
+"2T − 30 = 12 − 0,12T ⟹ 2,12T = 42.",
+"T ≈ <b>19,8 °C</b> (cerca de 20 °C)."
+]
+},
+{
+"id": "2006-2-fis-07b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2006, 2ª fase, Física, questão 7(b)",
+"r": 1660,
+"tm": 45,
+"ctx": "Desconfiada de que o anel que ganhou não era uma liga de ouro de boa qualidade, uma estudante deixou o anel de 4,0 g por muito tempo em água fervente (100 °C) e depois o mergulhou num recipiente bem isolado com 2 mL de água a 15 °C, medindo a temperatura final de equilíbrio. Água: c = 1,0 cal/(g·°C) e densidade 1,0 g/cm³. Despreze o calor trocado com o recipiente. A temperatura final medida foi de 22 °C. Qual o calor específico do anel, em cal/(g·°C)?",
+"fig": "<svg viewBox='0 0 230 128' class='fg' role='img' aria-label='gráfico do calor específico de uma liga de ouro e cobre, em calorias por grama por grau Celsius, em função da porcentagem de ouro: uma reta que cai de 0,090 com 0 por cento de ouro até 0,030 com 100 por cento de ouro'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='88.5' y1='16.0' x2='88.5' y2='104'/><line x1='131.0' y1='16.0' x2='131.0' y2='104'/><line x1='173.5' y1='16.0' x2='173.5' y2='104'/><line x1='216.0' y1='16.0' x2='216.0' y2='104'/><line x1='67.2' y1='16.0' x2='67.2' y2='104'/><line x1='109.8' y1='16.0' x2='109.8' y2='104'/><line x1='152.2' y1='16.0' x2='152.2' y2='104'/><line x1='194.8' y1='16.0' x2='194.8' y2='104'/><line x1='46' y1='93.0' x2='216.0' y2='93.0'/><line x1='46' y1='82.0' x2='216.0' y2='82.0'/><line x1='46' y1='71.0' x2='216.0' y2='71.0'/><line x1='46' y1='60.0' x2='216.0' y2='60.0'/><line x1='46' y1='49.0' x2='216.0' y2='49.0'/><line x1='46' y1='38.0' x2='216.0' y2='38.0'/><line x1='46' y1='27.0' x2='216.0' y2='27.0'/><line x1='46' y1='16.0' x2='216.0' y2='16.0'/></g><line x1='46' y1='104' x2='216.0' y2='104' stroke-width='1'/><line x1='46' y1='104' x2='46' y2='16.0' stroke-width='1'/><line x1='46.0' y1='16.0' x2='216.0' y2='104.0' stroke-width='1.3'/><rect x='158.2' y='20.4' width='50' height='11' stroke-width='0.7'/></g><g fill='currentColor' font-size='6.5'><text x='43' y='106.3' text-anchor='end'>0,030</text><text x='43' y='84.3' text-anchor='end'>0,045</text><text x='43' y='62.3' text-anchor='end'>0,060</text><text x='43' y='40.3' text-anchor='end'>0,075</text><text x='43' y='18.3' text-anchor='end'>0,090</text><text x='46.0' y='112' text-anchor='middle'>0</text><text x='88.5' y='112' text-anchor='middle'>25</text><text x='131.0' y='112' text-anchor='middle'>50</text><text x='173.5' y='112' text-anchor='middle'>75</text><text x='216.0' y='112' text-anchor='middle'>100</text><text x='183.2' y='28.0' text-anchor='middle'>Liga de Au-Cu</text><text x='131' y='123' text-anchor='middle' font-size='7.5'>% de Au</text><text x='9' y='60' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 60)'>calor específico (cal/g°C)</text></g></svg>",
+"a": 0.045,
+"u": "cal/(g·°C)",
+"tol": 0.02,
+"d": [
+[
+"Balanço de calor",
+"Calor recebido pela água = calor cedido pelo anel: m<sub>a</sub>c<sub>a</sub>ΔT<sub>a</sub> = m<sub>anel</sub>c<sub>anel</sub>ΔT<sub>anel</sub>.",
+""
+]
+],
+"h": [
+"Água: 2,0 × 1,0 × (22 − 15) = 14 cal.",
+"Anel: 4,0 × c × (100 − 22) = 312c.",
+"c = 14/312 ≈ <b>0,045 cal/(g·°C)</b>."
+]
+},
+{
+"id": "2006-2-fis-07c",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2006, 2ª fase, Física, questão 7(c)",
+"r": 1570,
+"tm": 30,
+"ctx": "Desconfiada de que o anel que ganhou não era uma liga de ouro de boa qualidade, uma estudante deixou o anel de 4,0 g por muito tempo em água fervente (100 °C) e depois o mergulhou num recipiente bem isolado com 2 mL de água a 15 °C, medindo a temperatura final de equilíbrio. Água: c = 1,0 cal/(g·°C) e densidade 1,0 g/cm³. Despreze o calor trocado com o recipiente. O calor específico do anel é 0,045 cal/(g·°C). Pelo gráfico e pela tabela de quilates (0% de ouro: 0 quilate; 25%: 6; 50%: 12; 75%: 18; 100%: 24), qual a porcentagem de ouro e quantos quilates tem o anel?",
+"fig": "<svg viewBox='0 0 230 128' class='fg' role='img' aria-label='gráfico do calor específico de uma liga de ouro e cobre, em calorias por grama por grau Celsius, em função da porcentagem de ouro: uma reta que cai de 0,090 com 0 por cento de ouro até 0,030 com 100 por cento de ouro'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='88.5' y1='16.0' x2='88.5' y2='104'/><line x1='131.0' y1='16.0' x2='131.0' y2='104'/><line x1='173.5' y1='16.0' x2='173.5' y2='104'/><line x1='216.0' y1='16.0' x2='216.0' y2='104'/><line x1='67.2' y1='16.0' x2='67.2' y2='104'/><line x1='109.8' y1='16.0' x2='109.8' y2='104'/><line x1='152.2' y1='16.0' x2='152.2' y2='104'/><line x1='194.8' y1='16.0' x2='194.8' y2='104'/><line x1='46' y1='93.0' x2='216.0' y2='93.0'/><line x1='46' y1='82.0' x2='216.0' y2='82.0'/><line x1='46' y1='71.0' x2='216.0' y2='71.0'/><line x1='46' y1='60.0' x2='216.0' y2='60.0'/><line x1='46' y1='49.0' x2='216.0' y2='49.0'/><line x1='46' y1='38.0' x2='216.0' y2='38.0'/><line x1='46' y1='27.0' x2='216.0' y2='27.0'/><line x1='46' y1='16.0' x2='216.0' y2='16.0'/></g><line x1='46' y1='104' x2='216.0' y2='104' stroke-width='1'/><line x1='46' y1='104' x2='46' y2='16.0' stroke-width='1'/><line x1='46.0' y1='16.0' x2='216.0' y2='104.0' stroke-width='1.3'/><rect x='158.2' y='20.4' width='50' height='11' stroke-width='0.7'/></g><g fill='currentColor' font-size='6.5'><text x='43' y='106.3' text-anchor='end'>0,030</text><text x='43' y='84.3' text-anchor='end'>0,045</text><text x='43' y='62.3' text-anchor='end'>0,060</text><text x='43' y='40.3' text-anchor='end'>0,075</text><text x='43' y='18.3' text-anchor='end'>0,090</text><text x='46.0' y='112' text-anchor='middle'>0</text><text x='88.5' y='112' text-anchor='middle'>25</text><text x='131.0' y='112' text-anchor='middle'>50</text><text x='173.5' y='112' text-anchor='middle'>75</text><text x='216.0' y='112' text-anchor='middle'>100</text><text x='183.2' y='28.0' text-anchor='middle'>Liga de Au-Cu</text><text x='131' y='123' text-anchor='middle' font-size='7.5'>% de Au</text><text x='9' y='60' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 60)'>calor específico (cal/g°C)</text></g></svg>",
+"opts": [
+"75% de ouro, 18 quilates",
+"25% de ouro, 6 quilates",
+"50% de ouro, 12 quilates",
+"100% de ouro, 24 quilates"
+],
+"a": 0,
+"d": [
+[
+"Ler o gráfico",
+"Entre com o calor específico no eixo vertical e leia a porcentagem no horizontal.",
+""
+]
+],
+"h": [
+"c = 0,045 cal/(g·°C) corresponde, na reta, a 75% de ouro.",
+"Pela tabela, 75% equivalem a 18 quilates.",
+"<b>75% de ouro, 18 quilates</b>."
+]
+},
+{
+"id": "2006-2-fis-08a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2006, 2ª fase, Física, questão 8(a)",
+"r": 1660,
+"tm": 45,
+"ctx": "As baleias têm um sistema respiratório tão eficiente que dispensam um acúmulo muito grande de ar nos pulmões, o que prejudicaria sua capacidade de submergir. Certa baleia tem massa de 1,50·10⁵ kg e volume de 1,35·10² m³ com os pulmões vazios. Densidade da água do mar: 1,0·10³ kg/m³. Qual o volume máximo da baleia com os pulmões cheios, acima do qual ela não conseguiria submergir sem esforço, em m³? Despreze o peso do ar.",
+"a": 150,
+"u": "m³",
+"tol": 0.01,
+"d": [
+[
+"Empuxo",
+"E = d<sub>líquido</sub>·V<sub>submerso</sub>·g. Totalmente submersa, a baleia afunda sem esforço enquanto o peso for pelo menos igual ao empuxo.",
+""
+]
+],
+"h": [
+"Limite: empuxo = peso ⟹ d·V·g = m·g.",
+"V = m/d = 1,50·10⁵/1,0·10³.",
+"V<sub>máx</sub> = <b>1,5·10² m³</b>."
+]
+},
+{
+"id": "2006-2-fis-08b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2006, 2ª fase, Física, questão 8(b)",
+"r": 1570,
+"tm": 30,
+"ctx": "As baleias têm um sistema respiratório tão eficiente que dispensam um acúmulo muito grande de ar nos pulmões, o que prejudicaria sua capacidade de submergir. Certa baleia tem massa de 1,50·10⁵ kg e volume de 1,35·10² m³ com os pulmões vazios. Densidade da água do mar: 1,0·10³ kg/m³. O volume máximo é de 1,5·10² m³. Qual a variação percentual do volume da baleia ao encher os pulmões até esse valor, partindo deles vazios?",
+"a": 11.1,
+"u": "%",
+"tol": 0.02,
+"d": [
+[
+"Variação percentual",
+"ΔV/V<sub>inicial</sub> × 100%.",
+""
+]
+],
+"h": [
+"ΔV = 150 − 135 = 15 m³.",
+"15/135 ≈ 0,111.",
+"<b>≈ 11%</b>."
+]
+},
+{
+"id": "2006-2-fis-08c",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2006, 2ª fase, Física, questão 8(c)",
+"r": 1740,
+"tm": 60,
+"ctx": "As baleias têm um sistema respiratório tão eficiente que dispensam um acúmulo muito grande de ar nos pulmões, o que prejudicaria sua capacidade de submergir. Certa baleia tem massa de 1,50·10⁵ kg e volume de 1,35·10² m³ com os pulmões vazios. Densidade da água do mar: 1,0·10³ kg/m³. Uma baleia enche rapidamente os pulmões com ar a 7 °C e 1,0·10⁵ N/m². Qual a pressão do ar nos pulmões depois de atingir o equilíbrio térmico com o corpo, a 37 °C? Considere o volume constante e o ar um gás ideal. Responda em unidades de 10⁵ Pa.",
+"a": 1.107,
+"u": "10⁵ Pa",
+"tol": 0.01,
+"d": [
+[
+"Transformação isocórica",
+"Volume constante: P₁/T₁ = P₂/T₂, com T em kelvin.",
+""
+]
+],
+"h": [
+"T₁ = 280 K; T₂ = 310 K.",
+"P₂ = 1,0·10⁵ × 310/280.",
+"P₂ ≈ <b>1,1·10⁵ Pa</b>."
+]
+},
+{
+"id": "2006-2-fis-09a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2006, 2ª fase, Física, questão 9(a)",
+"r": 1780,
+"tm": 60,
+"ctx": "Pares metálicos são a base de certos disjuntores. Considere um par formado por uma haste de latão e outra de aço, ambas com 4,0 cm à temperatura ambiente. A variação de comprimento por aquecimento é ΔL = α·L·ΔT. Se a temperatura aumentar 60 °C, qual a diferença entre os novos comprimentos das hastes, soltas uma da outra? α<sub>latão</sub> = 1,9·10⁻⁵ °C⁻¹ e α<sub>aço</sub> = 1,3·10⁻⁵ °C⁻¹. Responda em unidades de 10⁻³ cm.",
+"a": 1.44,
+"u": "10⁻³ cm",
+"tol": 0.03,
+"d": [
+[
+"Dilatação linear",
+"ΔL = α·L₀·ΔT.",
+""
+],
+[
+"Diferença",
+"As hastes partem do mesmo comprimento: a diferença final é a diferença entre as dilatações."
+]
+],
+"h": [
+"ΔL<sub>latão</sub> − ΔL<sub>aço</sub> = L₀·(α<sub>latão</sub> − α<sub>aço</sub>)·ΔT.",
+"= 4,0 × 0,6·10⁻⁵ × 60.",
+"= <b>1,4·10⁻³ cm</b>."
+]
+},
+{
+"id": "2006-2-fis-09b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2006, 2ª fase, Física, questão 9(b)",
+"r": 1440,
+"tm": 30,
+"ctx": "Pares metálicos são a base de certos disjuntores. Considere um par formado por uma haste de latão e outra de aço, ambas com 4,0 cm à temperatura ambiente. A variação de comprimento por aquecimento é ΔL = α·L·ΔT. Se o aquecimento for feito por uma corrente de 10 A e o par tiver resistência de 2,4·10⁻³ Ω, qual a potência dissipada, em watts?",
+"a": 0.24,
+"u": "W",
+"tol": 0.01,
+"d": [
+[
+"Efeito Joule",
+"P = R·i².",
+""
+]
+],
+"h": [
+"P = 2,4·10⁻³ × 10².",
+"P = 2,4·10⁻³ × 100.",
+"P = <b>0,24 W</b>."
+]
+},
+{
+"id": "2006-2-fis-10a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2006, 2ª fase, Física, questão 10(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "O gráfico mostra a resistividade de um fio de nióbio (Nb) em função da temperatura: ela cai bruscamente em 9,0 K e é nula abaixo disso (supercondutividade). Um fio de Nb de 1,5 m e seção de 0,050 mm² é esticado verticalmente do topo ao fundo de um tanque de hélio líquido, como medidor de nível. O hélio líquido está a 4,2 K e a parte não imersa do fio fica em torno de 10 K. Qual a resistência do fio, em ohms, quando o tanque está vazio (todo o fio a 10 K)?",
+"fig": "<svg viewBox='0 0 264 128' class='fg' role='img' aria-label='à esquerda, gráfico da resistividade de um fio de nióbio, de 0 a 3 vezes 10 elevado a menos 6 ohm metro, em função da temperatura, de 0 a 25 kelvin: nula até 9 kelvin, onde salta para 2,0 vezes 10 elevado a menos 6, e depois cresce lentamente em linha reta até cerca de 2,65 vezes 10 elevado a menos 6 em 25 kelvin. À direita, um tanque de altura L atravessado verticalmente pelo fio de nióbio; a parte de baixo tem hélio líquido a 4,2 kelvin, até a altura h; acima do líquido, o fio está a 10 kelvin'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='54.0' y1='17' x2='54.0' y2='104'/><line x1='68.0' y1='17' x2='68.0' y2='104'/><line x1='82.0' y1='17' x2='82.0' y2='104'/><line x1='96.0' y1='17' x2='96.0' y2='104'/><line x1='110.0' y1='17' x2='110.0' y2='104'/><line x1='124.0' y1='17' x2='124.0' y2='104'/><line x1='138.0' y1='17' x2='138.0' y2='104'/><line x1='152.0' y1='17' x2='152.0' y2='104'/><line x1='166.0' y1='17' x2='166.0' y2='104'/><line x1='180.0' y1='17' x2='180.0' y2='104'/><line x1='40' y1='89.5' x2='180.0' y2='89.5'/><line x1='40' y1='75.0' x2='180.0' y2='75.0'/><line x1='40' y1='60.5' x2='180.0' y2='60.5'/><line x1='40' y1='46.0' x2='180.0' y2='46.0'/><line x1='40' y1='31.5' x2='180.0' y2='31.5'/><line x1='40' y1='17.0' x2='180.0' y2='17.0'/></g><line x1='40' y1='104' x2='180.0' y2='104' stroke-width='1'/><line x1='40' y1='104' x2='40' y2='17' stroke-width='1'/><polyline points='40.0,104.0 90.4,104.0 90.4,46.0 180.0,27.2' stroke-width='1.3'/><rect x='210' y='26' width='40' height='78' stroke-width='1'/><line x1='218' y1='12' x2='218' y2='104' stroke-width='1.4'/><path d='M210,64 q5,-3 10,0 t10,0 t10,0 t10,0' stroke-width='0.8'/><line x1='203' y1='26' x2='203' y2='104' stroke-width='0.6'/><line x1='255' y1='64' x2='255' y2='104' stroke-width='0.6'/></g><g fill='currentColor'><polygon points='203.0,26.0 204.5,29.2 201.5,29.2'/><polygon points='203.0,104.0 201.5,100.8 204.5,100.8'/><polygon points='255.0,64.0 256.5,67.2 253.5,67.2'/><polygon points='255.0,104.0 253.5,100.8 256.5,100.8'/><g font-size='6.5'><text x='37' y='106.3' text-anchor='end'>0,0</text><text x='37' y='77.3' text-anchor='end'>1,0·10⁻⁶</text><text x='37' y='48.3' text-anchor='end'>2,0·10⁻⁶</text><text x='37' y='19.3' text-anchor='end'>3,0·10⁻⁶</text><text x='40.0' y='112' text-anchor='middle'>0</text><text x='68.0' y='112' text-anchor='middle'>5</text><text x='96.0' y='112' text-anchor='middle'>10</text><text x='124.0' y='112' text-anchor='middle'>15</text><text x='152.0' y='112' text-anchor='middle'>20</text><text x='180.0' y='112' text-anchor='middle'>25</text><text x='110.0' y='123' text-anchor='middle' font-size='7.5'>T (K)</text><text x='9' y='60' text-anchor='middle' font-size='7' transform='rotate(-90 9 60)'>ρ (Ωm)</text><text x='222' y='12'>fio de Nb</text><text x='223' y='48'>T = 10 K</text><text x='223' y='88'>T = 4,2 K</text><text x='201' y='67' text-anchor='end' font-style='italic'>L</text><text x='258' y='87' font-style='italic'>h</text></g></g></svg>",
+"a": 60,
+"u": "Ω",
+"tol": 0.02,
+"d": [
+[
+"2ª lei de Ohm",
+"R = ρ·L/A, com A em m² (1 mm² = 10⁻⁶ m²).",
+""
+],
+[
+"Ler o gráfico",
+"Procure ρ em T = 10 K."
+]
+],
+"h": [
+"A 10 K: ρ = 2,0·10⁻⁶ Ω·m.",
+"R = 2,0·10⁻⁶ × 1,5/(0,050·10⁻⁶).",
+"R = <b>60 Ω</b>."
+]
+},
+{
+"id": "2006-2-fis-10b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2006, 2ª fase, Física, questão 10(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "O gráfico mostra a resistividade de um fio de nióbio (Nb) em função da temperatura: ela cai bruscamente em 9,0 K e é nula abaixo disso (supercondutividade). Um fio de Nb de 1,5 m e seção de 0,050 mm² é esticado verticalmente do topo ao fundo de um tanque de hélio líquido, como medidor de nível. O hélio líquido está a 4,2 K e a parte não imersa do fio fica em torno de 10 K. Com o tanque vazio, a resistência é de 60 Ω. Qual a altura h do nível de hélio líquido quando a resistência do fio é de 36 Ω, em metros?",
+"fig": "<svg viewBox='0 0 264 128' class='fg' role='img' aria-label='à esquerda, gráfico da resistividade de um fio de nióbio, de 0 a 3 vezes 10 elevado a menos 6 ohm metro, em função da temperatura, de 0 a 25 kelvin: nula até 9 kelvin, onde salta para 2,0 vezes 10 elevado a menos 6, e depois cresce lentamente em linha reta até cerca de 2,65 vezes 10 elevado a menos 6 em 25 kelvin. À direita, um tanque de altura L atravessado verticalmente pelo fio de nióbio; a parte de baixo tem hélio líquido a 4,2 kelvin, até a altura h; acima do líquido, o fio está a 10 kelvin'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='54.0' y1='17' x2='54.0' y2='104'/><line x1='68.0' y1='17' x2='68.0' y2='104'/><line x1='82.0' y1='17' x2='82.0' y2='104'/><line x1='96.0' y1='17' x2='96.0' y2='104'/><line x1='110.0' y1='17' x2='110.0' y2='104'/><line x1='124.0' y1='17' x2='124.0' y2='104'/><line x1='138.0' y1='17' x2='138.0' y2='104'/><line x1='152.0' y1='17' x2='152.0' y2='104'/><line x1='166.0' y1='17' x2='166.0' y2='104'/><line x1='180.0' y1='17' x2='180.0' y2='104'/><line x1='40' y1='89.5' x2='180.0' y2='89.5'/><line x1='40' y1='75.0' x2='180.0' y2='75.0'/><line x1='40' y1='60.5' x2='180.0' y2='60.5'/><line x1='40' y1='46.0' x2='180.0' y2='46.0'/><line x1='40' y1='31.5' x2='180.0' y2='31.5'/><line x1='40' y1='17.0' x2='180.0' y2='17.0'/></g><line x1='40' y1='104' x2='180.0' y2='104' stroke-width='1'/><line x1='40' y1='104' x2='40' y2='17' stroke-width='1'/><polyline points='40.0,104.0 90.4,104.0 90.4,46.0 180.0,27.2' stroke-width='1.3'/><rect x='210' y='26' width='40' height='78' stroke-width='1'/><line x1='218' y1='12' x2='218' y2='104' stroke-width='1.4'/><path d='M210,64 q5,-3 10,0 t10,0 t10,0 t10,0' stroke-width='0.8'/><line x1='203' y1='26' x2='203' y2='104' stroke-width='0.6'/><line x1='255' y1='64' x2='255' y2='104' stroke-width='0.6'/></g><g fill='currentColor'><polygon points='203.0,26.0 204.5,29.2 201.5,29.2'/><polygon points='203.0,104.0 201.5,100.8 204.5,100.8'/><polygon points='255.0,64.0 256.5,67.2 253.5,67.2'/><polygon points='255.0,104.0 253.5,100.8 256.5,100.8'/><g font-size='6.5'><text x='37' y='106.3' text-anchor='end'>0,0</text><text x='37' y='77.3' text-anchor='end'>1,0·10⁻⁶</text><text x='37' y='48.3' text-anchor='end'>2,0·10⁻⁶</text><text x='37' y='19.3' text-anchor='end'>3,0·10⁻⁶</text><text x='40.0' y='112' text-anchor='middle'>0</text><text x='68.0' y='112' text-anchor='middle'>5</text><text x='96.0' y='112' text-anchor='middle'>10</text><text x='124.0' y='112' text-anchor='middle'>15</text><text x='152.0' y='112' text-anchor='middle'>20</text><text x='180.0' y='112' text-anchor='middle'>25</text><text x='110.0' y='123' text-anchor='middle' font-size='7.5'>T (K)</text><text x='9' y='60' text-anchor='middle' font-size='7' transform='rotate(-90 9 60)'>ρ (Ωm)</text><text x='222' y='12'>fio de Nb</text><text x='223' y='48'>T = 10 K</text><text x='223' y='88'>T = 4,2 K</text><text x='201' y='67' text-anchor='end' font-style='italic'>L</text><text x='258' y='87' font-style='italic'>h</text></g></g></svg>",
+"a": 0.6,
+"u": "m",
+"tol": 0.02,
+"d": [
+[
+"Parte supercondutora",
+"A parte imersa (4,2 K) tem resistência nula: só o trecho acima do líquido conta.",
+""
+],
+[
+"Proporção",
+"Com ρ e A fixos, R é proporcional ao comprimento."
+]
+],
+"h": [
+"36/60 = L<sub>seco</sub>/1,5 ⟹ L<sub>seco</sub> = 0,90 m.",
+"h = 1,5 − 0,90.",
+"h = <b>0,60 m</b>."
+]
+},
+{
+"id": "2006-2-fis-11a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 2006, 2ª fase, Física, questão 11(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Na figura, parte de um tubo de raios X, um elétron com velocidade v = 5,0·10⁵ m/s na direção x entra na região entre placas de 10 cm de comprimento, onde há um campo magnético uniforme B, perpendicular ao papel e para dentro. Massa do elétron: 9·10⁻³¹ kg; carga: −1,6·10⁻¹⁹ C. A força magnética tem módulo F = |q|·v·B·sen θ, em que θ é o ângulo entre a velocidade e o campo. Com B = 0,010 T, qual o módulo do campo elétrico que deve ser aplicado entre as placas para o elétron seguir em movimento retilíneo uniforme? Responda em kV/m.",
+"fig": "<svg viewBox='0 0 200 146' class='fg' role='img' aria-label='duas placas horizontais de 10 centímetros de comprimento, uma em cima e outra embaixo; à direita delas, um alvo vertical; um elétron entra pela esquerda, na altura do meio, com velocidade v na direção x; entre as placas há um campo magnético B entrando no plano do papel; do eixo do elétron até a placa de baixo há 12 centímetros'><g fill='none' stroke='currentColor' stroke-width='1.2'><line x1='110' y1='18' x2='156' y2='18'/><line x1='110' y1='126' x2='156' y2='126'/><rect x='156' y='14' width='6' height='116' fill='currentColor' fill-opacity='0.3' stroke-width='0.8'/><line x1='64' y1='72' x2='92' y2='72' stroke-width='1'/><line x1='92' y1='72' x2='156' y2='72' stroke-dasharray='2 2' stroke-width='0.5'/><circle cx='128' cy='96' r='3.2' stroke-width='0.7'/><line x1='125.7' y1='93.7' x2='130.3' y2='98.3' stroke-width='0.7'/><line x1='130.3' y1='93.7' x2='125.7' y2='98.3' stroke-width='0.7'/><line x1='110' y1='136' x2='156' y2='136' stroke-width='0.6'/><line x1='172' y1='72' x2='172' y2='126' stroke-width='0.6'/><line x1='30' y1='120' x2='30' y2='104' stroke-width='0.7'/><line x1='30' y1='120' x2='46' y2='120' stroke-width='0.7'/><line x1='88' y1='40' x2='112' y2='20' stroke-width='0.5'/><line x1='88' y1='40' x2='112' y2='124' stroke-width='0.5'/><line x1='176' y1='40' x2='163' y2='46' stroke-width='0.5'/></g><g fill='currentColor'><circle cx='62' cy='72' r='2.6'/><polygon points='95.0,72.0 91.4,73.7 91.4,70.3'/><polygon points='110.0,136.0 113.2,134.5 113.2,137.5'/><polygon points='156.0,136.0 152.8,137.5 152.8,134.5'/><polygon points='172.0,72.0 173.5,75.2 170.5,75.2'/><polygon points='172.0,126.0 170.5,122.8 173.5,122.8'/><polygon points='30.0,102.0 31.5,105.2 28.5,105.2'/><polygon points='48.0,120.0 44.8,121.5 44.8,118.5'/><g font-size='7'><text x='46' y='64'>elétron</text><text x='76' y='83' font-style='italic'>v</text><text x='135' y='99' font-style='italic'>B</text><text x='70' y='44'>placas</text><text x='170' y='37'>alvo</text><text x='133' y='144' text-anchor='middle'>10 cm</text><text x='175' y='102'>12 cm</text><text x='24' y='107' font-style='italic'>y</text><text x='44' y='128' font-style='italic'>x</text></g></g></svg>",
+"a": 5,
+"u": "kV/m",
+"tol": 0.01,
+"d": [
+[
+"Forças que se anulam",
+"MRU ⟹ resultante nula: a força elétrica |q|·E deve equilibrar a força magnética |q|·v·B.",
+""
+]
+],
+"h": [
+"v ⊥ B: sen 90° = 1. |q|·E = |q|·v·B ⟹ E = v·B.",
+"E = 5,0·10⁵ × 0,010 = 5,0·10³ V/m.",
+"E = <b>5,0 kV/m</b>."
+]
+},
+{
+"id": "2006-2-fis-11b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 2006, 2ª fase, Física, questão 11(b)",
+"r": 2000,
+"tm": 90,
+"ctx": "Na figura, parte de um tubo de raios X, um elétron com velocidade v = 5,0·10⁵ m/s na direção x entra na região entre placas de 10 cm de comprimento, onde há um campo magnético uniforme B, perpendicular ao papel e para dentro. Massa do elétron: 9·10⁻³¹ kg; carga: −1,6·10⁻¹⁹ C. A força magnética tem módulo F = |q|·v·B·sen θ, em que θ é o ângulo entre a velocidade e o campo. Sem campo elétrico, qual o valor máximo de B para que o elétron ainda atinja o alvo? Responda em unidades de 10⁻⁵ T.",
+"fig": "<svg viewBox='0 0 200 146' class='fg' role='img' aria-label='duas placas horizontais de 10 centímetros de comprimento, uma em cima e outra embaixo; à direita delas, um alvo vertical; um elétron entra pela esquerda, na altura do meio, com velocidade v na direção x; entre as placas há um campo magnético B entrando no plano do papel; do eixo do elétron até a placa de baixo há 12 centímetros'><g fill='none' stroke='currentColor' stroke-width='1.2'><line x1='110' y1='18' x2='156' y2='18'/><line x1='110' y1='126' x2='156' y2='126'/><rect x='156' y='14' width='6' height='116' fill='currentColor' fill-opacity='0.3' stroke-width='0.8'/><line x1='64' y1='72' x2='92' y2='72' stroke-width='1'/><line x1='92' y1='72' x2='156' y2='72' stroke-dasharray='2 2' stroke-width='0.5'/><circle cx='128' cy='96' r='3.2' stroke-width='0.7'/><line x1='125.7' y1='93.7' x2='130.3' y2='98.3' stroke-width='0.7'/><line x1='130.3' y1='93.7' x2='125.7' y2='98.3' stroke-width='0.7'/><line x1='110' y1='136' x2='156' y2='136' stroke-width='0.6'/><line x1='172' y1='72' x2='172' y2='126' stroke-width='0.6'/><line x1='30' y1='120' x2='30' y2='104' stroke-width='0.7'/><line x1='30' y1='120' x2='46' y2='120' stroke-width='0.7'/><line x1='88' y1='40' x2='112' y2='20' stroke-width='0.5'/><line x1='88' y1='40' x2='112' y2='124' stroke-width='0.5'/><line x1='176' y1='40' x2='163' y2='46' stroke-width='0.5'/></g><g fill='currentColor'><circle cx='62' cy='72' r='2.6'/><polygon points='95.0,72.0 91.4,73.7 91.4,70.3'/><polygon points='110.0,136.0 113.2,134.5 113.2,137.5'/><polygon points='156.0,136.0 152.8,137.5 152.8,134.5'/><polygon points='172.0,72.0 173.5,75.2 170.5,75.2'/><polygon points='172.0,126.0 170.5,122.8 173.5,122.8'/><polygon points='30.0,102.0 31.5,105.2 28.5,105.2'/><polygon points='48.0,120.0 44.8,121.5 44.8,118.5'/><g font-size='7'><text x='46' y='64'>elétron</text><text x='76' y='83' font-style='italic'>v</text><text x='135' y='99' font-style='italic'>B</text><text x='70' y='44'>placas</text><text x='170' y='37'>alvo</text><text x='133' y='144' text-anchor='middle'>10 cm</text><text x='175' y='102'>12 cm</text><text x='24' y='107' font-style='italic'>y</text><text x='44' y='128' font-style='italic'>x</text></g></g></svg>",
+"a": 2.81,
+"u": "10⁻⁵ T",
+"tol": 0.02,
+"d": [
+[
+"Movimento circular",
+"Só com campo magnético perpendicular, a carga faz MCU: |q|·v·B = m·v²/r ⟹ r = m·v/(|q|·B). Quanto maior B, menor o raio.",
+""
+],
+[
+"Raio mínimo",
+"Para alcançar o alvo, a 10 cm da entrada, a trajetória precisa avançar 10 cm na direção x antes de começar a voltar: r ≥ 10 cm."
+]
+],
+"h": [
+"r<sub>mín</sub> = 0,10 m (com r = 0,10 m, o elétron chega ao alvo 10 cm abaixo do eixo, dentro dos 12 cm).",
+"B<sub>máx</sub> = m·v/(|q|·r) = 9·10⁻³¹ × 5,0·10⁵/(1,6·10⁻¹⁹ × 0,10).",
+"B<sub>máx</sub> ≈ <b>2,8·10⁻⁵ T</b>."
+]
+},
+{
+"id": "2006-2-fis-12a",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2006, 2ª fase, Física, questão 12(a) (adaptada para múltipla escolha)",
+"r": 1780,
+"tm": 60,
+"ctx": "O olho só focaliza a imagem de um objeto na retina se a distância do objeto ao cristalino for maior que a do ponto próximo, Pp, cuja posição muda com a idade. Uma pessoa tinha, aos 25 anos, o ponto próximo a 20 cm do cristalino; aos 65 anos, só via com nitidez objetos a pelo menos 50 cm. Para ela, a retina fica sempre a 2,5 cm do cristalino, que é uma lente convergente de distância focal variável. Quais as distâncias focais mínimas do cristalino aos 25 e aos 65 anos?",
+"fig": "<svg viewBox='0 0 200 74' class='fg' role='img' aria-label='esquema do olho: no eixo óptico, um objeto em forma de seta no ponto próximo Pp, à esquerda; o cristalino, uma lente convergente, no meio; e a retina, à direita, onde se forma a imagem invertida; dois raios saem do topo do objeto: um paralelo ao eixo, que se desvia no cristalino, e outro que passa pelo centro da lente sem desviar'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='8' y1='38' x2='192' y2='38' stroke-width='0.6'/><line x1='40' y1='38' x2='40' y2='23' stroke-width='1.2'/><line x1='120' y1='12' x2='120' y2='64' stroke-width='1.2'/><line x1='165' y1='10' x2='165' y2='66' stroke-dasharray='2 2' stroke-width='0.7'/><line x1='165' y1='38' x2='165' y2='45' stroke-width='1.2'/><polyline points='40,22 120,22 165,47' stroke-width='0.7'/><line x1='40' y1='22' x2='165' y2='47' stroke-width='0.7'/></g><g fill='currentColor'><polygon points='40.0,21.0 41.7,24.6 38.3,24.6'/><polygon points='120.0,11.0 121.9,15.1 118.1,15.1'/><polygon points='120.0,65.0 118.1,60.9 121.9,60.9'/><polygon points='165.0,47.0 163.5,43.8 166.5,43.8'/><circle cx='40' cy='38' r='1.5'/><circle cx='165' cy='38' r='1.3'/><g font-size='7'><text x='40' y='47' text-anchor='middle'>P<tspan font-size='5' dy='1.5'>p</tspan></text><text x='120' y='72' text-anchor='middle'>cristalino</text><text x='172' y='72' text-anchor='middle'>retina</text></g></g></svg>",
+"opts": [
+"≈ 2,2 cm aos 25 anos e ≈ 2,4 cm aos 65 anos",
+"≈ 2,4 cm aos 25 anos e ≈ 2,2 cm aos 65 anos",
+"20 cm aos 25 anos e 50 cm aos 65 anos",
+"≈ 2,5 cm nas duas idades"
+],
+"a": 0,
+"d": [
+[
+"Equação das lentes",
+"1/f = 1/p + 1/p′ (p: objeto; p′: imagem). Para ver nítido, a imagem cai na retina: p′ = 2,5 cm.",
+""
+],
+[
+"Focal mínima",
+"O objeto mais próximo visível (o ponto próximo) exige a menor distância focal: f = p·p′/(p + p′)."
+]
+],
+"h": [
+"25 anos: f = 20 × 2,5/22,5 ≈ 2,2 cm.",
+"65 anos: f = 50 × 2,5/52,5 ≈ 2,4 cm.",
+"<b>≈ 2,2 cm e ≈ 2,4 cm</b>."
+]
+},
+{
+"id": "2006-2-fis-12b",
+"ano": 2006,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2006, 2ª fase, Física, questão 12(b)",
+"r": 1910,
+"tm": 75,
+"ctx": "O olho só focaliza a imagem de um objeto na retina se a distância do objeto ao cristalino for maior que a do ponto próximo, Pp, cuja posição muda com a idade. Uma pessoa tinha, aos 25 anos, o ponto próximo a 20 cm do cristalino; aos 65 anos, só via com nitidez objetos a pelo menos 50 cm. Para ela, a retina fica sempre a 2,5 cm do cristalino, que é uma lente convergente de distância focal variável. Aos 65 anos, a distância focal mínima do cristalino é ≈ 2,4 cm. Se ela tentar focalizar um objeto a 20 cm do olho, a que distância da retina se forma a imagem, em milímetros?",
+"fig": "<svg viewBox='0 0 200 74' class='fg' role='img' aria-label='esquema do olho: no eixo óptico, um objeto em forma de seta no ponto próximo Pp, à esquerda; o cristalino, uma lente convergente, no meio; e a retina, à direita, onde se forma a imagem invertida; dois raios saem do topo do objeto: um paralelo ao eixo, que se desvia no cristalino, e outro que passa pelo centro da lente sem desviar'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='8' y1='38' x2='192' y2='38' stroke-width='0.6'/><line x1='40' y1='38' x2='40' y2='23' stroke-width='1.2'/><line x1='120' y1='12' x2='120' y2='64' stroke-width='1.2'/><line x1='165' y1='10' x2='165' y2='66' stroke-dasharray='2 2' stroke-width='0.7'/><line x1='165' y1='38' x2='165' y2='45' stroke-width='1.2'/><polyline points='40,22 120,22 165,47' stroke-width='0.7'/><line x1='40' y1='22' x2='165' y2='47' stroke-width='0.7'/></g><g fill='currentColor'><polygon points='40.0,21.0 41.7,24.6 38.3,24.6'/><polygon points='120.0,11.0 121.9,15.1 118.1,15.1'/><polygon points='120.0,65.0 118.1,60.9 121.9,60.9'/><polygon points='165.0,47.0 163.5,43.8 166.5,43.8'/><circle cx='40' cy='38' r='1.5'/><circle cx='165' cy='38' r='1.3'/><g font-size='7'><text x='40' y='47' text-anchor='middle'>P<tspan font-size='5' dy='1.5'>p</tspan></text><text x='120' y='72' text-anchor='middle'>cristalino</text><text x='172' y='72' text-anchor='middle'>retina</text></g></g></svg>",
+"a": 2,
+"u": "mm",
+"tol": 0.12,
+"d": [
+[
+"Posição da imagem",
+"Da equação das lentes: p′ = p·f/(p − f).",
+""
+],
+[
+"Comparar com a retina",
+"A distância à retina é |p′ − 2,5 cm|; se p′ for maior, a imagem fica atrás da retina."
+]
+],
+"h": [
+"p′ = 20 × 2,4/(20 − 2,4) = 48/17,6 ≈ 2,7 cm.",
+"2,7 − 2,5 = 0,2 cm.",
+"A imagem se forma <b>≈ 2 mm atrás da retina</b>."
+]
+},
+{
+"id": "2006-2-qui-01a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 1(a)",
+"r": 1530,
+"tm": 40,
+"ctx": "O medicamento dissulfiram, cuja fórmula estrutural está representada, é usado no tratamento do alcoolismo: em dosagem adequada, provoca grande intolerância a bebidas com etanol. Qual a fórmula molecular do dissulfiram?",
+"fig": "<svg viewBox='0 0 210 66' class='fg' role='img' aria-label='fórmula estrutural do dissulfiram: um nitrogênio com dois grupos etila ligado a um carbono que tem um enxofre em dupla ligação, ligado a um enxofre, que se liga a outro enxofre, ligado a outro carbono com enxofre em dupla ligação, ligado a um nitrogênio com dois grupos etila'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='60.0' y1='37.0' x2='68.0' y2='37.0'/><line x1='78.0' y1='37.0' x2='88.0' y2='37.0'/><line x1='98.0' y1='37.0' x2='108.0' y2='37.0'/><line x1='118.0' y1='37.0' x2='128.0' y2='37.0'/><line x1='138.0' y1='37.0' x2='146.0' y2='37.0'/><line x1='71.8' y1='31' x2='71.8' y2='22'/><line x1='74.2' y1='31' x2='74.2' y2='22'/><line x1='131.8' y1='41' x2='131.8' y2='50'/><line x1='134.2' y1='41' x2='134.2' y2='50'/></g><g fill='currentColor'><text x='58' y='40' text-anchor='end' font-size='8'>(H₃C–CH₂)₂N</text><text x='73' y='40' text-anchor='middle' font-size='8'>C</text><text x='93' y='40' text-anchor='middle' font-size='8'>S</text><text x='113' y='40' text-anchor='middle' font-size='8'>S</text><text x='133' y='40' text-anchor='middle' font-size='8'>C</text><text x='148' y='40' text-anchor='start' font-size='8'>N(CH₂–CH₃)₂</text><text x='73' y='19' text-anchor='middle' font-size='8'>S</text><text x='133' y='59' text-anchor='middle' font-size='8'>S</text></g></svg>",
+"opts": [
+"C₁₀H₂₀N₂S₄",
+"C₁₀H₂₀N₂S₂",
+"C₆H₁₂N₂S₄",
+"C₁₀H₂₂N₂S₄"
+],
+"a": 0,
+"d": [
+[
+"Contar átomos",
+"Conte cada elemento na fórmula estrutural; num grupo etila, –CH₂–CH₃, há 2 C e 5 H.",
+""
+]
+],
+"h": [
+"Quatro etilas: 8 C e 20 H. Mais os 2 C centrais: 10 C.",
+"2 N e 4 S (dois em dupla com C e dois na ponte S–S).",
+"<b>C₁₀H₂₀N₂S₄</b>."
+]
+},
+{
+"id": "2006-2-qui-01b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2006, 2ª fase, Química, questão 1(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "O medicamento dissulfiram, cuja fórmula estrutural está representada, é usado no tratamento do alcoolismo: em dosagem adequada, provoca grande intolerância a bebidas com etanol. Quantos pares de elétrons não compartilhados existem nessa molécula?",
+"fig": "<svg viewBox='0 0 210 66' class='fg' role='img' aria-label='fórmula estrutural do dissulfiram: um nitrogênio com dois grupos etila ligado a um carbono que tem um enxofre em dupla ligação, ligado a um enxofre, que se liga a outro enxofre, ligado a outro carbono com enxofre em dupla ligação, ligado a um nitrogênio com dois grupos etila'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='60.0' y1='37.0' x2='68.0' y2='37.0'/><line x1='78.0' y1='37.0' x2='88.0' y2='37.0'/><line x1='98.0' y1='37.0' x2='108.0' y2='37.0'/><line x1='118.0' y1='37.0' x2='128.0' y2='37.0'/><line x1='138.0' y1='37.0' x2='146.0' y2='37.0'/><line x1='71.8' y1='31' x2='71.8' y2='22'/><line x1='74.2' y1='31' x2='74.2' y2='22'/><line x1='131.8' y1='41' x2='131.8' y2='50'/><line x1='134.2' y1='41' x2='134.2' y2='50'/></g><g fill='currentColor'><text x='58' y='40' text-anchor='end' font-size='8'>(H₃C–CH₂)₂N</text><text x='73' y='40' text-anchor='middle' font-size='8'>C</text><text x='93' y='40' text-anchor='middle' font-size='8'>S</text><text x='113' y='40' text-anchor='middle' font-size='8'>S</text><text x='133' y='40' text-anchor='middle' font-size='8'>C</text><text x='148' y='40' text-anchor='start' font-size='8'>N(CH₂–CH₃)₂</text><text x='73' y='19' text-anchor='middle' font-size='8'>S</text><text x='133' y='59' text-anchor='middle' font-size='8'>S</text></g></svg>",
+"a": 10,
+"tol": 0,
+"d": [
+[
+"Pares livres",
+"Elétrons de valência que sobram depois das ligações. Fazendo o octeto: S (6 elétrons de valência) com 2 ligações tem 2 pares livres; N (5) com 3 ligações tem 1; C e H não têm.",
+""
+]
+],
+"h": [
+"4 átomos de S, cada um com 2 ligações (C=S ou C–S–S): 4 × 2 = 8 pares.",
+"2 átomos de N com 3 ligações: 2 × 1 = 2 pares.",
+"Total: <b>10 pares</b>."
+]
+},
+{
+"id": "2006-2-qui-01c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2006, 2ª fase, Química, questão 1(c) (adaptada para múltipla escolha)",
+"r": 1490,
+"tm": 40,
+"ctx": "O medicamento dissulfiram, cuja fórmula estrutural está representada, é usado no tratamento do alcoolismo: em dosagem adequada, provoca grande intolerância a bebidas com etanol. Seria possível um composto com a mesma estrutura, mas com os nitrogênios trocados por oxigênios?",
+"fig": "<svg viewBox='0 0 210 66' class='fg' role='img' aria-label='fórmula estrutural do dissulfiram: um nitrogênio com dois grupos etila ligado a um carbono que tem um enxofre em dupla ligação, ligado a um enxofre, que se liga a outro enxofre, ligado a outro carbono com enxofre em dupla ligação, ligado a um nitrogênio com dois grupos etila'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='60.0' y1='37.0' x2='68.0' y2='37.0'/><line x1='78.0' y1='37.0' x2='88.0' y2='37.0'/><line x1='98.0' y1='37.0' x2='108.0' y2='37.0'/><line x1='118.0' y1='37.0' x2='128.0' y2='37.0'/><line x1='138.0' y1='37.0' x2='146.0' y2='37.0'/><line x1='71.8' y1='31' x2='71.8' y2='22'/><line x1='74.2' y1='31' x2='74.2' y2='22'/><line x1='131.8' y1='41' x2='131.8' y2='50'/><line x1='134.2' y1='41' x2='134.2' y2='50'/></g><g fill='currentColor'><text x='58' y='40' text-anchor='end' font-size='8'>(H₃C–CH₂)₂N</text><text x='73' y='40' text-anchor='middle' font-size='8'>C</text><text x='93' y='40' text-anchor='middle' font-size='8'>S</text><text x='113' y='40' text-anchor='middle' font-size='8'>S</text><text x='133' y='40' text-anchor='middle' font-size='8'>C</text><text x='148' y='40' text-anchor='start' font-size='8'>N(CH₂–CH₃)₂</text><text x='73' y='19' text-anchor='middle' font-size='8'>S</text><text x='133' y='59' text-anchor='middle' font-size='8'>S</text></g></svg>",
+"opts": [
+"Não: o oxigênio faz duas ligações, e o nitrogênio ali faz três",
+"Sim: oxigênio e nitrogênio têm a mesma valência",
+"Sim: basta o oxigênio ficar com carga positiva",
+"Não: o oxigênio não se liga a carbono"
+],
+"a": 0,
+"d": [
+[
+"Valência",
+"Número usual de ligações para completar o octeto: C 4, N 3, O 2, S 2, H 1.",
+""
+]
+],
+"h": [
+"Na estrutura, cada N está ligado a três carbonos.",
+"O oxigênio neutro faz só duas ligações.",
+"<b>Não</b>: o O não faria as três ligações do N."
+]
+},
+{
+"id": "2006-2-qui-02a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 2(a) (adaptada para múltipla escolha; no original, pedia-se o desenho)",
+"r": 1740,
+"tm": 90,
+"ctx": "As prostaglandinas, que potencializam a dor, têm um anel saturado de cinco carbonos com duas cadeias laterais em carbonos vizinhos, cada uma com uma dupla ligação. Uma cadeia tem sete carbonos, incluindo o de um grupo ácido carboxílico terminal, e a dupla entre os carbonos 2 e 3 a partir do anel. A outra tem oito carbonos, com uma hidroxila no terceiro carbono a partir do anel e a dupla entre os carbonos 1 e 2 a partir do anel. Qual estrutura corresponde à descrição?",
+"opts": [
+"Ciclopentano com –CH₂–CH=CH–CH₂–CH₂–CH₂–COOH num carbono e, no vizinho, –CH=CH–CH(OH)–CH₂–CH₂–CH₂–CH₂–CH₃",
+"Ciclopentano com –CH=CH–CH₂–CH₂–CH₂–CH₂–COOH num carbono e, no vizinho, –CH₂–CH=CH(OH)–CH₂–CH₂–CH₂–CH₂–CH₃",
+"Ciclopentano com –CH₂–CH=CH–CH₂–CH₂–COOH num carbono e, no vizinho, –CH=CH–CH(OH)–CH₂–CH₂–CH₂–CH₃",
+"Benzeno com –CH₂–CH=CH–CH₂–CH₂–CH₂–COOH num carbono e, no vizinho, –CH=CH–CH(OH)–CH₂–CH₂–CH₂–CH₂–CH₃"
+],
+"a": 0,
+"d": [
+[
+"Numerar a partir do anel",
+"O carbono 1 da cadeia é o ligado ao anel. \"Dupla entre 2 e 3\" ⟹ –CH₂–CH=CH–…; \"dupla entre 1 e 2\" ⟹ –CH=CH–….",
+""
+],
+[
+"Contar carbonos",
+"Ácido carboxílico: –COOH conta como um carbono da cadeia. Anel saturado de 5 C: ciclopentano."
+]
+],
+"h": [
+"Cadeia 1 (7 C): C1H₂–C2H=C3H–C4H₂–C5H₂–C6H₂–C7OOH.",
+"Cadeia 2 (8 C): C1H=C2H–C3H(OH)–C4H₂–C5H₂–C6H₂–C7H₂–C8H₃.",
+"<b>Ciclopentano com –CH₂–CH=CH–(CH₂)₃–COOH e, no vizinho, –CH=CH–CH(OH)–(CH₂)₄–CH₃</b>."
+]
+},
+{
+"id": "2006-2-qui-02b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 2(b) (adaptada: no original, pedia-se para marcar um)",
+"r": 1830,
+"tm": 60,
+"ctx": "As prostaglandinas, que potencializam a dor, têm um anel saturado de cinco carbonos com duas cadeias laterais em carbonos vizinhos, cada uma com uma dupla ligação. Uma cadeia tem sete carbonos, incluindo o de um grupo ácido carboxílico terminal, e a dupla entre os carbonos 2 e 3 a partir do anel. A outra tem oito carbonos, com uma hidroxila no terceiro carbono a partir do anel e a dupla entre os carbonos 1 e 2 a partir do anel. Quantos carbonos assimétricos tem essa molécula?",
+"a": 3,
+"tol": 0,
+"d": [
+[
+"Carbono assimétrico",
+"Carbono saturado ligado a quatro grupos diferentes. Num anel, os dois \"caminhos\" pelo anel contam como grupos diferentes se não forem iguais.",
+""
+]
+],
+"h": [
+"No anel: os dois carbonos que têm as cadeias laterais (H, cadeia, e dois caminhos diferentes pelo anel).",
+"Na cadeia de 8 C: o carbono com OH (H, OH, –CH=CH–anel e pentila).",
+"<b>3 carbonos assimétricos</b>."
+]
+},
+{
+"id": "2006-2-qui-02c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 2(c)",
+"r": 1830,
+"tm": 75,
+"ctx": "As prostaglandinas, que potencializam a dor, têm um anel saturado de cinco carbonos com duas cadeias laterais em carbonos vizinhos, cada uma com uma dupla ligação. Uma cadeia tem sete carbonos, incluindo o de um grupo ácido carboxílico terminal, e a dupla entre os carbonos 2 e 3 a partir do anel. A outra tem oito carbonos, com uma hidroxila no terceiro carbono a partir do anel e a dupla entre os carbonos 1 e 2 a partir do anel. Qual a massa molar da prostaglandina, em g/mol? (C = 12; H = 1; O = 16)",
+"a": 322,
+"u": "g/mol",
+"tol": 0,
+"d": [
+[
+"Fórmula molecular",
+"Conte C, H e O. Cada dupla ligação ou anel tira 2 H da fórmula do alcano de mesmo número de carbonos (CₙH₂ₙ₊₂).",
+""
+],
+[
+"Massa molar",
+"Soma de (nº de átomos × massa atômica)."
+]
+],
+"h": [
+"C: 5 (anel) + 7 + 8 = 20. Insaturações: anel + 2 duplas + C=O = 4 ⟹ H = 2·20 + 2 − 8 = 34. O: 2 (COOH) + 1 (OH) = 3.",
+"C₂₀H₃₄O₃: 20 × 12 + 34 × 1 + 3 × 16.",
+"= <b>322 g/mol</b>."
+]
+},
+{
+"id": "2006-2-qui-03a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2006, 2ª fase, Química, questão 3(a) (adaptada para múltipla escolha)",
+"r": 1700,
+"tm": 40,
+"ctx": "O cloridrato de atomoxetina, usado no tratamento de hiperatividade e déficit de atenção, pode ser representado por R′R″NH₂⁺Cl⁻. Ele é vendido em cápsulas com 30 mg do cloridrato, para uso oral. Qual equação representa a dissociação desse medicamento em água?",
+"opts": [
+"R′R″NH₂⁺Cl⁻ → R′R″NH₂⁺(aq) + Cl⁻(aq)",
+"R′R″NH₂⁺Cl⁻ + H₂O → R′R″NH + H₃O⁺ + Cl⁻",
+"R′R″NH₂⁺Cl⁻ → R′R″N(aq) + H₂(g) + Cl⁻(aq)",
+"R′R″NH₂⁺Cl⁻ → R′R″NH₂(aq) + Cl(aq)"
+],
+"a": 0,
+"d": [
+[
+"Dissociação iônica",
+"Um sal se separa em seus íons ao se dissolver: o cátion e o ânion passam para a solução, cada um com sua carga.",
+""
+]
+],
+"h": [
+"O sal é formado pelo cátion R′R″NH₂⁺ e pelo ânion Cl⁻.",
+"Dissociar não envolve reação com a água (isso seria hidrólise).",
+"<b>R′R″NH₂⁺Cl⁻ → R′R″NH₂⁺(aq) + Cl⁻(aq)</b>."
+]
+},
+{
+"id": "2006-2-qui-03b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2006, 2ª fase, Química, questão 3(b) (adaptada para múltipla escolha)",
+"r": 1870,
+"tm": 60,
+"ctx": "O cloridrato de atomoxetina, usado no tratamento de hiperatividade e déficit de atenção, pode ser representado por R′R″NH₂⁺Cl⁻. Ele é vendido em cápsulas com 30 mg do cloridrato, para uso oral. Dissolvido em água, o meio fica ácido, básico ou neutro?",
+"opts": [
+"Ácido: R′R″NH₂⁺ + H₂O ⇌ R′R″NH + H₃O⁺",
+"Básico: Cl⁻ + H₂O ⇌ HCl + OH⁻",
+"Neutro: sais não alteram o pH",
+"Básico: o grupo amina capta H⁺ da água"
+],
+"a": 0,
+"d": [
+[
+"Hidrólise de sais",
+"O cátion de uma base fraca (como R–NH₃⁺, ácido conjugado de uma amina) doa H⁺ à água. O ânion de ácido forte (Cl⁻, de HCl) não hidrolisa.",
+""
+]
+],
+"h": [
+"R′R″NH₂⁺ é o ácido conjugado da amina R′R″NH, uma base fraca.",
+"Ele doa H⁺ à água: R′R″NH₂⁺ + H₂O ⇌ R′R″NH + H₃O⁺. O Cl⁻ não reage.",
+"Meio <b>ácido</b>."
+]
+},
+{
+"id": "2006-2-qui-03c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2006, 2ª fase, Química, questão 3(c)",
+"r": 1530,
+"tm": 30,
+"ctx": "O cloridrato de atomoxetina, usado no tratamento de hiperatividade e déficit de atenção, pode ser representado por R′R″NH₂⁺Cl⁻. Ele é vendido em cápsulas com 30 mg do cloridrato, para uso oral. Alguém dissolveu o conteúdo de uma cápsula em 50 mL de água. Qual a concentração do cloridrato, em g/L?",
+"a": 0.6,
+"u": "g/L",
+"tol": 0.01,
+"d": [
+[
+"Concentração comum",
+"C = massa do soluto (g)/volume (L).",
+""
+]
+],
+"h": [
+"30 mg = 0,030 g; 50 mL = 0,050 L.",
+"C = 0,030/0,050.",
+"C = <b>0,6 g/L</b>."
+]
+},
+{
+"id": "2006-2-qui-04a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2006, 2ª fase, Química, questão 4(a)",
+"r": 1400,
+"tm": 30,
+"ctx": "Na administração oral de um medicamento importam o tempo para atingir a concentração máxima no sangue, a concentração mínima efetiva (CME), mínima para o paciente responder ao medicamento, e a quantidade total no sangue. O gráfico mostra a concentração no sangue em função do tempo para a mesma quantidade do mesmo medicamento em duas formulações, A e B. Que formulação é absorvida mais rapidamente?",
+"fig": "<svg viewBox='0 0 236 134' class='fg' role='img' aria-label='gráfico da concentração do medicamento no sangue, em microgramas por mililitro, em função do tempo após a administração, de 0 a 20 horas, para duas formulações; a formulação A sobe depressa até cerca de 5,4 em 1,5 hora e cai, passando por 2 em 6 horas e chegando a 0,8 em 20 horas; a formulação B sobe devagar, passa por 2 em 2 horas, atinge cerca de 3,2 em 4 horas e cai, passando por 2 em 10 horas e chegando a 0,9 em 20 horas; uma linha horizontal marca a concentração mínima efetiva, CME, igual a 2'><g fill='none' stroke='currentColor'><line x1='38' y1='108' x2='218' y2='108' stroke-width='1'/><line x1='38' y1='108' x2='38' y2='15.0' stroke-width='1'/><line x1='38' y1='78' x2='191' y2='78' stroke-width='0.7' stroke-opacity='0.6'/><path d='M38.0,108.0 C38.8,101.5 41.0,80.5 42.5,69.0 C44.0,57.5 45.5,45.9 47.0,39.0 C48.5,32.1 50.0,29.2 51.5,27.8 C53.0,26.2 53.8,27.4 56.0,30.0 C58.2,32.6 62.0,38.8 65.0,43.5 C68.0,48.2 71.0,54.1 74.0,58.5 C77.0,62.9 80.0,66.5 83.0,69.8 C86.0,73.0 89.0,75.9 92.0,78.0 C95.0,80.1 98.0,81.0 101.0,82.2 C104.0,83.4 105.5,84.0 110.0,85.2 C114.5,86.5 122.0,88.5 128.0,89.7 C134.0,90.9 140.0,91.7 146.0,92.4 C152.0,93.1 158.0,93.5 164.0,93.9 C170.0,94.3 176.0,94.7 182.0,95.0 C188.0,95.2 194.0,95.5 200.0,95.7 C206.0,95.9 215.0,96.0 218.0,96.0' stroke-width='1.2'/><path d='M38.0,108.0 C39.5,105.5 44.0,98.0 47.0,93.0 C50.0,88.0 53.0,82.2 56.0,78.0 C59.0,73.8 62.0,70.4 65.0,67.5 C68.0,64.6 71.9,62.0 74.0,60.8 C76.1,59.5 76.1,59.9 77.6,60.0 C79.1,60.1 80.6,60.8 83.0,61.5 C85.4,62.2 89.0,63.5 92.0,64.5 C95.0,65.5 98.0,66.7 101.0,67.8 C104.0,68.9 107.0,70.1 110.0,71.2 C113.0,72.4 116.0,73.6 119.0,74.7 C122.0,75.8 125.0,77.0 128.0,78.0 C131.0,79.0 134.0,80.0 137.0,81.0 C140.0,82.0 141.5,82.5 146.0,83.7 C150.5,84.9 158.0,86.8 164.0,88.0 C170.0,89.3 176.0,90.3 182.0,91.2 C188.0,92.1 194.0,92.8 200.0,93.3 C206.0,93.8 215.0,94.3 218.0,94.5' stroke-width='1.2'/><line x1='61.4' y1='34.5' x2='84.8' y2='27.0' stroke-width='0.5'/><line x1='105.5' y1='69.0' x2='128.0' y2='58.5' stroke-width='0.5'/></g><g fill='currentColor' font-size='6.5'><text x='35' y='110.3' text-anchor='end'>0</text><text x='35' y='95.3' text-anchor='end'>1</text><text x='35' y='80.3' text-anchor='end'>2</text><text x='35' y='65.3' text-anchor='end'>3</text><text x='35' y='50.3' text-anchor='end'>4</text><text x='35' y='35.3' text-anchor='end'>5</text><text x='35' y='20.3' text-anchor='end'>6</text><text x='38.0' y='116' text-anchor='middle'>0</text><text x='56.0' y='116' text-anchor='middle'>2</text><text x='74.0' y='116' text-anchor='middle'>4</text><text x='92.0' y='116' text-anchor='middle'>6</text><text x='110.0' y='116' text-anchor='middle'>8</text><text x='128.0' y='116' text-anchor='middle'>10</text><text x='146.0' y='116' text-anchor='middle'>12</text><text x='164.0' y='116' text-anchor='middle'>14</text><text x='182.0' y='116' text-anchor='middle'>16</text><text x='200.0' y='116' text-anchor='middle'>18</text><text x='218.0' y='116' text-anchor='middle'>20</text><text x='86.6' y='29.0'>formulação A</text><text x='129.8' y='60.5'>formulação B</text><text x='193.7' y='80.3'>CME</text><text x='128' y='128' text-anchor='middle' font-size='7'>tempo após administração (horas)</text><text x='9' y='62' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 62)'>concentração no sangue (µg/mL)</text></g></svg>",
+"opts": [
+"A: a concentração no sangue sobe mais depressa",
+"B: atinge a CME primeiro",
+"B: permanece mais tempo no sangue",
+"As duas: atingem o mesmo pico"
+],
+"a": 0,
+"d": [
+[
+"Rapidez no gráfico",
+"Rapidez de absorção = quanto a concentração sobe por unidade de tempo: inclinação da subida da curva.",
+""
+]
+],
+"h": [
+"A curva A sobe muito mais inclinada e atinge o pico em cerca de 1,5 h.",
+"B leva cerca de 4 h para atingir seu pico, mais baixo.",
+"<b>Formulação A</b>."
+]
+},
+{
+"id": "2006-2-qui-04b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2006, 2ª fase, Química, questão 4(b)",
+"r": 1620,
+"tm": 45,
+"ctx": "Na administração oral de um medicamento importam o tempo para atingir a concentração máxima no sangue, a concentração mínima efetiva (CME), mínima para o paciente responder ao medicamento, e a quantidade total no sangue. O gráfico mostra a concentração no sangue em função do tempo para a mesma quantidade do mesmo medicamento em duas formulações, A e B. A formulação B mantém a concentração acima da CME por mais tempo. Por quantas horas, aproximadamente?",
+"fig": "<svg viewBox='0 0 236 134' class='fg' role='img' aria-label='gráfico da concentração do medicamento no sangue, em microgramas por mililitro, em função do tempo após a administração, de 0 a 20 horas, para duas formulações; a formulação A sobe depressa até cerca de 5,4 em 1,5 hora e cai, passando por 2 em 6 horas e chegando a 0,8 em 20 horas; a formulação B sobe devagar, passa por 2 em 2 horas, atinge cerca de 3,2 em 4 horas e cai, passando por 2 em 10 horas e chegando a 0,9 em 20 horas; uma linha horizontal marca a concentração mínima efetiva, CME, igual a 2'><g fill='none' stroke='currentColor'><line x1='38' y1='108' x2='218' y2='108' stroke-width='1'/><line x1='38' y1='108' x2='38' y2='15.0' stroke-width='1'/><line x1='38' y1='78' x2='191' y2='78' stroke-width='0.7' stroke-opacity='0.6'/><path d='M38.0,108.0 C38.8,101.5 41.0,80.5 42.5,69.0 C44.0,57.5 45.5,45.9 47.0,39.0 C48.5,32.1 50.0,29.2 51.5,27.8 C53.0,26.2 53.8,27.4 56.0,30.0 C58.2,32.6 62.0,38.8 65.0,43.5 C68.0,48.2 71.0,54.1 74.0,58.5 C77.0,62.9 80.0,66.5 83.0,69.8 C86.0,73.0 89.0,75.9 92.0,78.0 C95.0,80.1 98.0,81.0 101.0,82.2 C104.0,83.4 105.5,84.0 110.0,85.2 C114.5,86.5 122.0,88.5 128.0,89.7 C134.0,90.9 140.0,91.7 146.0,92.4 C152.0,93.1 158.0,93.5 164.0,93.9 C170.0,94.3 176.0,94.7 182.0,95.0 C188.0,95.2 194.0,95.5 200.0,95.7 C206.0,95.9 215.0,96.0 218.0,96.0' stroke-width='1.2'/><path d='M38.0,108.0 C39.5,105.5 44.0,98.0 47.0,93.0 C50.0,88.0 53.0,82.2 56.0,78.0 C59.0,73.8 62.0,70.4 65.0,67.5 C68.0,64.6 71.9,62.0 74.0,60.8 C76.1,59.5 76.1,59.9 77.6,60.0 C79.1,60.1 80.6,60.8 83.0,61.5 C85.4,62.2 89.0,63.5 92.0,64.5 C95.0,65.5 98.0,66.7 101.0,67.8 C104.0,68.9 107.0,70.1 110.0,71.2 C113.0,72.4 116.0,73.6 119.0,74.7 C122.0,75.8 125.0,77.0 128.0,78.0 C131.0,79.0 134.0,80.0 137.0,81.0 C140.0,82.0 141.5,82.5 146.0,83.7 C150.5,84.9 158.0,86.8 164.0,88.0 C170.0,89.3 176.0,90.3 182.0,91.2 C188.0,92.1 194.0,92.8 200.0,93.3 C206.0,93.8 215.0,94.3 218.0,94.5' stroke-width='1.2'/><line x1='61.4' y1='34.5' x2='84.8' y2='27.0' stroke-width='0.5'/><line x1='105.5' y1='69.0' x2='128.0' y2='58.5' stroke-width='0.5'/></g><g fill='currentColor' font-size='6.5'><text x='35' y='110.3' text-anchor='end'>0</text><text x='35' y='95.3' text-anchor='end'>1</text><text x='35' y='80.3' text-anchor='end'>2</text><text x='35' y='65.3' text-anchor='end'>3</text><text x='35' y='50.3' text-anchor='end'>4</text><text x='35' y='35.3' text-anchor='end'>5</text><text x='35' y='20.3' text-anchor='end'>6</text><text x='38.0' y='116' text-anchor='middle'>0</text><text x='56.0' y='116' text-anchor='middle'>2</text><text x='74.0' y='116' text-anchor='middle'>4</text><text x='92.0' y='116' text-anchor='middle'>6</text><text x='110.0' y='116' text-anchor='middle'>8</text><text x='128.0' y='116' text-anchor='middle'>10</text><text x='146.0' y='116' text-anchor='middle'>12</text><text x='164.0' y='116' text-anchor='middle'>14</text><text x='182.0' y='116' text-anchor='middle'>16</text><text x='200.0' y='116' text-anchor='middle'>18</text><text x='218.0' y='116' text-anchor='middle'>20</text><text x='86.6' y='29.0'>formulação A</text><text x='129.8' y='60.5'>formulação B</text><text x='193.7' y='80.3'>CME</text><text x='128' y='128' text-anchor='middle' font-size='7'>tempo após administração (horas)</text><text x='9' y='62' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 62)'>concentração no sangue (µg/mL)</text></g></svg>",
+"a": 8,
+"u": "h",
+"tol": 0.13,
+"d": [
+[
+"Ler o intervalo",
+"Ache os dois instantes em que a curva cruza a linha da CME e subtraia.",
+""
+]
+],
+"h": [
+"A curva B cruza a CME (2 µg/mL) subindo em t ≈ 2 h e descendo em t ≈ 10 h.",
+"Intervalo: 10 − 2.",
+"<b>≈ 8 horas</b> (a A fica acima da CME por menos de 6 h)."
+]
+},
+{
+"id": "2006-2-qui-04c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2006, 2ª fase, Química, questão 4(c)",
+"r": 1960,
+"tm": 75,
+"ctx": "Na administração oral de um medicamento importam o tempo para atingir a concentração máxima no sangue, a concentração mínima efetiva (CME), mínima para o paciente responder ao medicamento, e a quantidade total no sangue. O gráfico mostra a concentração no sangue em função do tempo para a mesma quantidade do mesmo medicamento em duas formulações, A e B. Se o paciente começar o tratamento com a formulação A e depois passar para a B, quantas horas após tomar A ele deve tomar B, para que a concentração não fique abaixo da CME?",
+"fig": "<svg viewBox='0 0 236 134' class='fg' role='img' aria-label='gráfico da concentração do medicamento no sangue, em microgramas por mililitro, em função do tempo após a administração, de 0 a 20 horas, para duas formulações; a formulação A sobe depressa até cerca de 5,4 em 1,5 hora e cai, passando por 2 em 6 horas e chegando a 0,8 em 20 horas; a formulação B sobe devagar, passa por 2 em 2 horas, atinge cerca de 3,2 em 4 horas e cai, passando por 2 em 10 horas e chegando a 0,9 em 20 horas; uma linha horizontal marca a concentração mínima efetiva, CME, igual a 2'><g fill='none' stroke='currentColor'><line x1='38' y1='108' x2='218' y2='108' stroke-width='1'/><line x1='38' y1='108' x2='38' y2='15.0' stroke-width='1'/><line x1='38' y1='78' x2='191' y2='78' stroke-width='0.7' stroke-opacity='0.6'/><path d='M38.0,108.0 C38.8,101.5 41.0,80.5 42.5,69.0 C44.0,57.5 45.5,45.9 47.0,39.0 C48.5,32.1 50.0,29.2 51.5,27.8 C53.0,26.2 53.8,27.4 56.0,30.0 C58.2,32.6 62.0,38.8 65.0,43.5 C68.0,48.2 71.0,54.1 74.0,58.5 C77.0,62.9 80.0,66.5 83.0,69.8 C86.0,73.0 89.0,75.9 92.0,78.0 C95.0,80.1 98.0,81.0 101.0,82.2 C104.0,83.4 105.5,84.0 110.0,85.2 C114.5,86.5 122.0,88.5 128.0,89.7 C134.0,90.9 140.0,91.7 146.0,92.4 C152.0,93.1 158.0,93.5 164.0,93.9 C170.0,94.3 176.0,94.7 182.0,95.0 C188.0,95.2 194.0,95.5 200.0,95.7 C206.0,95.9 215.0,96.0 218.0,96.0' stroke-width='1.2'/><path d='M38.0,108.0 C39.5,105.5 44.0,98.0 47.0,93.0 C50.0,88.0 53.0,82.2 56.0,78.0 C59.0,73.8 62.0,70.4 65.0,67.5 C68.0,64.6 71.9,62.0 74.0,60.8 C76.1,59.5 76.1,59.9 77.6,60.0 C79.1,60.1 80.6,60.8 83.0,61.5 C85.4,62.2 89.0,63.5 92.0,64.5 C95.0,65.5 98.0,66.7 101.0,67.8 C104.0,68.9 107.0,70.1 110.0,71.2 C113.0,72.4 116.0,73.6 119.0,74.7 C122.0,75.8 125.0,77.0 128.0,78.0 C131.0,79.0 134.0,80.0 137.0,81.0 C140.0,82.0 141.5,82.5 146.0,83.7 C150.5,84.9 158.0,86.8 164.0,88.0 C170.0,89.3 176.0,90.3 182.0,91.2 C188.0,92.1 194.0,92.8 200.0,93.3 C206.0,93.8 215.0,94.3 218.0,94.5' stroke-width='1.2'/><line x1='61.4' y1='34.5' x2='84.8' y2='27.0' stroke-width='0.5'/><line x1='105.5' y1='69.0' x2='128.0' y2='58.5' stroke-width='0.5'/></g><g fill='currentColor' font-size='6.5'><text x='35' y='110.3' text-anchor='end'>0</text><text x='35' y='95.3' text-anchor='end'>1</text><text x='35' y='80.3' text-anchor='end'>2</text><text x='35' y='65.3' text-anchor='end'>3</text><text x='35' y='50.3' text-anchor='end'>4</text><text x='35' y='35.3' text-anchor='end'>5</text><text x='35' y='20.3' text-anchor='end'>6</text><text x='38.0' y='116' text-anchor='middle'>0</text><text x='56.0' y='116' text-anchor='middle'>2</text><text x='74.0' y='116' text-anchor='middle'>4</text><text x='92.0' y='116' text-anchor='middle'>6</text><text x='110.0' y='116' text-anchor='middle'>8</text><text x='128.0' y='116' text-anchor='middle'>10</text><text x='146.0' y='116' text-anchor='middle'>12</text><text x='164.0' y='116' text-anchor='middle'>14</text><text x='182.0' y='116' text-anchor='middle'>16</text><text x='200.0' y='116' text-anchor='middle'>18</text><text x='218.0' y='116' text-anchor='middle'>20</text><text x='86.6' y='29.0'>formulação A</text><text x='129.8' y='60.5'>formulação B</text><text x='193.7' y='80.3'>CME</text><text x='128' y='128' text-anchor='middle' font-size='7'>tempo após administração (horas)</text><text x='9' y='62' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 62)'>concentração no sangue (µg/mL)</text></g></svg>",
+"a": 6,
+"u": "h",
+"tol": 0.1,
+"d": [
+[
+"Efeitos se somam",
+"As duas doses ficam no sangue ao mesmo tempo: a concentração total é a soma das curvas.",
+""
+],
+[
+"Quando trocar",
+"A primeira dose precisa garantir a CME até a segunda começar a contribuir; perto do fim de A, a queda de A é compensada pela subida de B."
+]
+],
+"h": [
+"A fica acima da CME até cerca de 6 h após a ingestão.",
+"Tomando B nesse momento, a subida de B compensa a queda de A, e a soma não cai abaixo de 2 µg/mL.",
+"Tomar B <b>≈ 6 horas</b> depois de A."
+]
+},
+{
+"id": "2006-2-qui-05a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2006, 2ª fase, Química, questão 5(a) (adaptada para múltipla escolha)",
+"r": 1740,
+"tm": 60,
+"ctx": "Na administração oral de um medicamento importam o tempo para atingir a concentração máxima no sangue, a concentração mínima efetiva (CME), mínima para o paciente responder ao medicamento, e a quantidade total no sangue. O gráfico mostra a concentração no sangue em função do tempo para a mesma quantidade do mesmo medicamento em duas formulações, A e B. Um tratamento deve durar sete dias com qualquer das formulações; as cápsulas de A e de B têm a mesma quantidade do medicamento, custam o mesmo e são vendidas por unidade. Qual tratamento custa menos?",
+"fig": "<svg viewBox='0 0 236 134' class='fg' role='img' aria-label='gráfico da concentração do medicamento no sangue, em microgramas por mililitro, em função do tempo após a administração, de 0 a 20 horas, para duas formulações; a formulação A sobe depressa até cerca de 5,4 em 1,5 hora e cai, passando por 2 em 6 horas e chegando a 0,8 em 20 horas; a formulação B sobe devagar, passa por 2 em 2 horas, atinge cerca de 3,2 em 4 horas e cai, passando por 2 em 10 horas e chegando a 0,9 em 20 horas; uma linha horizontal marca a concentração mínima efetiva, CME, igual a 2'><g fill='none' stroke='currentColor'><line x1='38' y1='108' x2='218' y2='108' stroke-width='1'/><line x1='38' y1='108' x2='38' y2='15.0' stroke-width='1'/><line x1='38' y1='78' x2='191' y2='78' stroke-width='0.7' stroke-opacity='0.6'/><path d='M38.0,108.0 C38.8,101.5 41.0,80.5 42.5,69.0 C44.0,57.5 45.5,45.9 47.0,39.0 C48.5,32.1 50.0,29.2 51.5,27.8 C53.0,26.2 53.8,27.4 56.0,30.0 C58.2,32.6 62.0,38.8 65.0,43.5 C68.0,48.2 71.0,54.1 74.0,58.5 C77.0,62.9 80.0,66.5 83.0,69.8 C86.0,73.0 89.0,75.9 92.0,78.0 C95.0,80.1 98.0,81.0 101.0,82.2 C104.0,83.4 105.5,84.0 110.0,85.2 C114.5,86.5 122.0,88.5 128.0,89.7 C134.0,90.9 140.0,91.7 146.0,92.4 C152.0,93.1 158.0,93.5 164.0,93.9 C170.0,94.3 176.0,94.7 182.0,95.0 C188.0,95.2 194.0,95.5 200.0,95.7 C206.0,95.9 215.0,96.0 218.0,96.0' stroke-width='1.2'/><path d='M38.0,108.0 C39.5,105.5 44.0,98.0 47.0,93.0 C50.0,88.0 53.0,82.2 56.0,78.0 C59.0,73.8 62.0,70.4 65.0,67.5 C68.0,64.6 71.9,62.0 74.0,60.8 C76.1,59.5 76.1,59.9 77.6,60.0 C79.1,60.1 80.6,60.8 83.0,61.5 C85.4,62.2 89.0,63.5 92.0,64.5 C95.0,65.5 98.0,66.7 101.0,67.8 C104.0,68.9 107.0,70.1 110.0,71.2 C113.0,72.4 116.0,73.6 119.0,74.7 C122.0,75.8 125.0,77.0 128.0,78.0 C131.0,79.0 134.0,80.0 137.0,81.0 C140.0,82.0 141.5,82.5 146.0,83.7 C150.5,84.9 158.0,86.8 164.0,88.0 C170.0,89.3 176.0,90.3 182.0,91.2 C188.0,92.1 194.0,92.8 200.0,93.3 C206.0,93.8 215.0,94.3 218.0,94.5' stroke-width='1.2'/><line x1='61.4' y1='34.5' x2='84.8' y2='27.0' stroke-width='0.5'/><line x1='105.5' y1='69.0' x2='128.0' y2='58.5' stroke-width='0.5'/></g><g fill='currentColor' font-size='6.5'><text x='35' y='110.3' text-anchor='end'>0</text><text x='35' y='95.3' text-anchor='end'>1</text><text x='35' y='80.3' text-anchor='end'>2</text><text x='35' y='65.3' text-anchor='end'>3</text><text x='35' y='50.3' text-anchor='end'>4</text><text x='35' y='35.3' text-anchor='end'>5</text><text x='35' y='20.3' text-anchor='end'>6</text><text x='38.0' y='116' text-anchor='middle'>0</text><text x='56.0' y='116' text-anchor='middle'>2</text><text x='74.0' y='116' text-anchor='middle'>4</text><text x='92.0' y='116' text-anchor='middle'>6</text><text x='110.0' y='116' text-anchor='middle'>8</text><text x='128.0' y='116' text-anchor='middle'>10</text><text x='146.0' y='116' text-anchor='middle'>12</text><text x='164.0' y='116' text-anchor='middle'>14</text><text x='182.0' y='116' text-anchor='middle'>16</text><text x='200.0' y='116' text-anchor='middle'>18</text><text x='218.0' y='116' text-anchor='middle'>20</text><text x='86.6' y='29.0'>formulação A</text><text x='129.8' y='60.5'>formulação B</text><text x='193.7' y='80.3'>CME</text><text x='128' y='128' text-anchor='middle' font-size='7'>tempo após administração (horas)</text><text x='9' y='62' text-anchor='middle' font-size='6.5' transform='rotate(-90 9 62)'>concentração no sangue (µg/mL)</text></g></svg>",
+"opts": [
+"B: mantém a CME por cerca de 8 h, logo 3 cápsulas por dia, contra 4 de A (a cada 6 h)",
+"A: atinge concentração mais alta, logo precisa de menos cápsulas",
+"Custam o mesmo: a quantidade de medicamento é a mesma",
+"A: é absorvida mais rápido e dura mais"
+],
+"a": 0,
+"d": [
+[
+"Intervalo entre doses",
+"Uma nova dose é necessária quando a anterior deixa de manter a CME: nº de doses por dia = 24 h ÷ tempo de efeito.",
+""
+]
+],
+"h": [
+"A mantém a CME por ≈ 6 h ⟹ 24/6 = 4 cápsulas por dia.",
+"B mantém por ≈ 8 h ⟹ 24/8 = 3 cápsulas por dia.",
+"<b>B</b> custa menos (21 cápsulas contra 28 em sete dias)."
+]
+},
+{
+"id": "2006-2-qui-05b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2006, 2ª fase, Química, questão 5(b) (adaptada para múltipla escolha)",
+"r": 1700,
+"tm": 45,
+"ctx": "Quem precisa de 10 mg de um remédio e tem comprimidos de 20 mg corta um comprimido ao meio. Uma pessoa precisa de 10 mg de um princípio ativo, mas o tem numa solução aquosa com 20 mg por gota, e não dá para \"cortar\" uma gota. Como ela pode proceder?",
+"opts": [
+"Diluir uma gota num volume conhecido de água e tomar metade desse volume",
+"Diluir uma gota num copo de água e tomar o copo inteiro",
+"Tomar uma gota, porque a dose extra é eliminada",
+"Pingar meia gota com mais cuidado"
+],
+"a": 0,
+"d": [
+[
+"Diluição",
+"Diluir não muda a quantidade de soluto: só o volume. Uma parte do volume contém a mesma fração do soluto.",
+""
+]
+],
+"h": [
+"Uma gota tem 20 mg; diluída em, por exemplo, 100 mL, continua com 20 mg.",
+"Metade da solução (50 mL) contém metade do soluto.",
+"<b>Diluir uma gota em volume conhecido e tomar metade</b> (10 mg)."
+]
+},
+{
+"id": "2006-2-qui-06a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2006, 2ª fase, Química, questão 6(a) (adaptada para múltipla escolha)",
+"r": 1440,
+"tm": 20,
+"ctx": "Misturas gasosas são usadas em hospitais e em mergulho profundo. O Trimix tem, em volume, 16% de oxigênio, 24% de hélio e 60% de nitrogênio. Um cilindro de Trimix está à temperatura ambiente e a 9.000 kPa. Quais as fórmulas dos gases da mistura?",
+"opts": [
+"O₂, He e N₂",
+"O, He₂ e N",
+"O₃, He e N₂",
+"O₂, H₂ e N₂"
+],
+"a": 0,
+"d": [
+[
+"Substâncias simples gasosas",
+"Oxigênio e nitrogênio formam moléculas diatômicas; os gases nobres existem como átomos isolados.",
+""
+]
+],
+"h": [
+"Oxigênio: O₂; nitrogênio: N₂.",
+"Hélio, gás nobre: He.",
+"<b>O₂, He e N₂</b>."
+]
+},
+{
+"id": "2006-2-qui-06b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2006, 2ª fase, Química, questão 6(b)",
+"r": 1660,
+"tm": 40,
+"ctx": "Misturas gasosas são usadas em hospitais e em mergulho profundo. O Trimix tem, em volume, 16% de oxigênio, 24% de hélio e 60% de nitrogênio. Um cilindro de Trimix está à temperatura ambiente e a 9.000 kPa. Qual a pressão parcial do hélio no cilindro, em kPa?",
+"a": 2160,
+"u": "kPa",
+"tol": 0,
+"d": [
+[
+"Lei de Dalton",
+"Em misturas de gases ideais, a fração em volume é igual à fração em mol, e pᵢ = xᵢ·P<sub>total</sub>.",
+""
+]
+],
+"h": [
+"x<sub>He</sub> = 0,24.",
+"p<sub>He</sub> = 0,24 × 9.000.",
+"p<sub>He</sub> = <b>2.160 kPa</b>."
+]
+},
+{
+"id": "2006-2-qui-06c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2006, 2ª fase, Química, questão 6(c)",
+"r": 1960,
+"tm": 60,
+"ctx": "Misturas gasosas são usadas em hospitais e em mergulho profundo. O Trimix tem, em volume, 16% de oxigênio, 24% de hélio e 60% de nitrogênio. Um cilindro de Trimix está à temperatura ambiente e a 9.000 kPa. Qual a massa molar média da mistura, em g/mol? (O = 16; He = 4; N = 14)",
+"a": 22.88,
+"u": "g/mol",
+"tol": 0.002,
+"d": [
+[
+"Média ponderada",
+"M<sub>média</sub> = Σ xᵢ·Mᵢ, com xᵢ a fração em mol (= fração em volume).",
+""
+]
+],
+"h": [
+"O₂: 0,16 × 32 = 5,12. He: 0,24 × 4 = 0,96. N₂: 0,60 × 28 = 16,8.",
+"Soma: 5,12 + 0,96 + 16,8.",
+"M = <b>22,88 g/mol</b>."
+]
+},
+{
+"id": "2006-2-qui-07a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 7(a) (adaptada para múltipla escolha; no original, pedia-se o desenho)",
+"r": 1660,
+"tm": 45,
+"ctx": "Polímeros derivados dos ácidos glicólico e lático são promissores para a liberação controlada de medicamentos. A figura representa um polímero desse tipo: se R = H, ele deriva do ácido glicólico; se R = CH₃, do ácido lático. Na formação desses polímeros a partir dos ácidos, há eliminação de água. Como é o polímero que apresenta, alternadamente, fragmentos dos ácidos lático e glicólico?",
+"fig": "<svg viewBox='0 0 210 70' class='fg' role='img' aria-label='fórmula de um polímero: entre colchetes, com índice n, quatro unidades repetidas, cada uma formada por um oxigênio ligado a um carbono com os grupos R e H, ligado a um carbono com oxigênio em dupla ligação'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='10.0' y1='38.0' x2='18.0' y2='38.0'/><line x1='26.0' y1='38.0' x2='32.0' y2='38.0'/><line x1='40.0' y1='38.0' x2='46.0' y2='38.0'/><line x1='54.0' y1='38.0' x2='60.0' y2='38.0'/><line x1='36.0' y1='33.0' x2='36.0' y2='23.0'/><line x1='36.0' y1='43.0' x2='36.0' y2='53.0'/><line x1='48.8' y1='33.0' x2='48.8' y2='23.0'/><line x1='51.2' y1='33.0' x2='51.2' y2='23.0'/><line x1='68.0' y1='38.0' x2='74.0' y2='38.0'/><line x1='82.0' y1='38.0' x2='88.0' y2='38.0'/><line x1='96.0' y1='38.0' x2='102.0' y2='38.0'/><line x1='78.0' y1='33.0' x2='78.0' y2='23.0'/><line x1='78.0' y1='43.0' x2='78.0' y2='53.0'/><line x1='90.8' y1='33.0' x2='90.8' y2='23.0'/><line x1='93.2' y1='33.0' x2='93.2' y2='23.0'/><line x1='110.0' y1='38.0' x2='116.0' y2='38.0'/><line x1='124.0' y1='38.0' x2='130.0' y2='38.0'/><line x1='138.0' y1='38.0' x2='144.0' y2='38.0'/><line x1='120.0' y1='33.0' x2='120.0' y2='23.0'/><line x1='120.0' y1='43.0' x2='120.0' y2='53.0'/><line x1='132.8' y1='33.0' x2='132.8' y2='23.0'/><line x1='135.2' y1='33.0' x2='135.2' y2='23.0'/><line x1='152.0' y1='38.0' x2='158.0' y2='38.0'/><line x1='166.0' y1='38.0' x2='172.0' y2='38.0'/><line x1='180.0' y1='38.0' x2='186.0' y2='38.0'/><line x1='162.0' y1='33.0' x2='162.0' y2='23.0'/><line x1='162.0' y1='43.0' x2='162.0' y2='53.0'/><line x1='174.8' y1='33.0' x2='174.8' y2='23.0'/><line x1='177.2' y1='33.0' x2='177.2' y2='23.0'/><path d='M15,8 L10,8 L10,66 L15,66'/><path d='M190,8 L195,8 L195,66 L190,66'/></g><g fill='currentColor'><text x='22' y='41' text-anchor='middle' font-size='8'>O</text><text x='36' y='41' text-anchor='middle' font-size='8'>C</text><text x='50' y='41' text-anchor='middle' font-size='8'>C</text><text x='36' y='20' text-anchor='middle' font-size='8'>R</text><text x='36' y='61' text-anchor='middle' font-size='8'>H</text><text x='50' y='20' text-anchor='middle' font-size='8'>O</text><text x='64' y='41' text-anchor='middle' font-size='8'>O</text><text x='78' y='41' text-anchor='middle' font-size='8'>C</text><text x='92' y='41' text-anchor='middle' font-size='8'>C</text><text x='78' y='20' text-anchor='middle' font-size='8'>R</text><text x='78' y='61' text-anchor='middle' font-size='8'>H</text><text x='92' y='20' text-anchor='middle' font-size='8'>O</text><text x='106' y='41' text-anchor='middle' font-size='8'>O</text><text x='120' y='41' text-anchor='middle' font-size='8'>C</text><text x='134' y='41' text-anchor='middle' font-size='8'>C</text><text x='120' y='20' text-anchor='middle' font-size='8'>R</text><text x='120' y='61' text-anchor='middle' font-size='8'>H</text><text x='134' y='20' text-anchor='middle' font-size='8'>O</text><text x='148' y='41' text-anchor='middle' font-size='8'>O</text><text x='162' y='41' text-anchor='middle' font-size='8'>C</text><text x='176' y='41' text-anchor='middle' font-size='8'>C</text><text x='162' y='20' text-anchor='middle' font-size='8'>R</text><text x='162' y='61' text-anchor='middle' font-size='8'>H</text><text x='176' y='20' text-anchor='middle' font-size='8'>O</text><text x='199' y='68' text-anchor='start' font-size='7'>n</text></g></svg>",
+"opts": [
+"–[O–CH(CH₃)–CO–O–CH₂–CO]ₙ–: as unidades com R = CH₃ e com R = H se alternam",
+"–[O–CH(CH₃)–CO–O–CH(CH₃)–CO]ₙ–: todas as unidades com R = CH₃",
+"–[O–CH₂–CO–O–CH₂–CO]ₙ–: todas as unidades com R = H",
+"–[O–CH(OH)–CO–O–CH₂–CO]ₙ–: R = OH alternado com R = H"
+],
+"a": 0,
+"d": [
+[
+"Unidade repetida",
+"Cada unidade –O–CHR–CO– vem de um hidroxiácido. Lático: R = CH₃; glicólico: R = H.",
+""
+]
+],
+"h": [
+"Alternar significa uma unidade com R = CH₃, a seguinte com R = H, e assim por diante.",
+"A unidade que se repete é o par lático-glicólico.",
+"<b>–[O–CH(CH₃)–CO–O–CH₂–CO]ₙ–</b>."
+]
+},
+{
+"id": "2006-2-qui-07b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 7(b) (adaptada para múltipla escolha)",
+"r": 1870,
+"tm": 60,
+"ctx": "Polímeros derivados dos ácidos glicólico e lático são promissores para a liberação controlada de medicamentos. A figura representa um polímero desse tipo: se R = H, ele deriva do ácido glicólico; se R = CH₃, do ácido lático. Na formação desses polímeros a partir dos ácidos, há eliminação de água. Na biodegradação, o polímero sofre primeiro hidrólise. Para um polímero formado só de ácido lático, que produto essa hidrólise forma?",
+"fig": "<svg viewBox='0 0 210 70' class='fg' role='img' aria-label='fórmula de um polímero: entre colchetes, com índice n, quatro unidades repetidas, cada uma formada por um oxigênio ligado a um carbono com os grupos R e H, ligado a um carbono com oxigênio em dupla ligação'><g fill='none' stroke='currentColor' stroke-width='0.9'><line x1='10.0' y1='38.0' x2='18.0' y2='38.0'/><line x1='26.0' y1='38.0' x2='32.0' y2='38.0'/><line x1='40.0' y1='38.0' x2='46.0' y2='38.0'/><line x1='54.0' y1='38.0' x2='60.0' y2='38.0'/><line x1='36.0' y1='33.0' x2='36.0' y2='23.0'/><line x1='36.0' y1='43.0' x2='36.0' y2='53.0'/><line x1='48.8' y1='33.0' x2='48.8' y2='23.0'/><line x1='51.2' y1='33.0' x2='51.2' y2='23.0'/><line x1='68.0' y1='38.0' x2='74.0' y2='38.0'/><line x1='82.0' y1='38.0' x2='88.0' y2='38.0'/><line x1='96.0' y1='38.0' x2='102.0' y2='38.0'/><line x1='78.0' y1='33.0' x2='78.0' y2='23.0'/><line x1='78.0' y1='43.0' x2='78.0' y2='53.0'/><line x1='90.8' y1='33.0' x2='90.8' y2='23.0'/><line x1='93.2' y1='33.0' x2='93.2' y2='23.0'/><line x1='110.0' y1='38.0' x2='116.0' y2='38.0'/><line x1='124.0' y1='38.0' x2='130.0' y2='38.0'/><line x1='138.0' y1='38.0' x2='144.0' y2='38.0'/><line x1='120.0' y1='33.0' x2='120.0' y2='23.0'/><line x1='120.0' y1='43.0' x2='120.0' y2='53.0'/><line x1='132.8' y1='33.0' x2='132.8' y2='23.0'/><line x1='135.2' y1='33.0' x2='135.2' y2='23.0'/><line x1='152.0' y1='38.0' x2='158.0' y2='38.0'/><line x1='166.0' y1='38.0' x2='172.0' y2='38.0'/><line x1='180.0' y1='38.0' x2='186.0' y2='38.0'/><line x1='162.0' y1='33.0' x2='162.0' y2='23.0'/><line x1='162.0' y1='43.0' x2='162.0' y2='53.0'/><line x1='174.8' y1='33.0' x2='174.8' y2='23.0'/><line x1='177.2' y1='33.0' x2='177.2' y2='23.0'/><path d='M15,8 L10,8 L10,66 L15,66'/><path d='M190,8 L195,8 L195,66 L190,66'/></g><g fill='currentColor'><text x='22' y='41' text-anchor='middle' font-size='8'>O</text><text x='36' y='41' text-anchor='middle' font-size='8'>C</text><text x='50' y='41' text-anchor='middle' font-size='8'>C</text><text x='36' y='20' text-anchor='middle' font-size='8'>R</text><text x='36' y='61' text-anchor='middle' font-size='8'>H</text><text x='50' y='20' text-anchor='middle' font-size='8'>O</text><text x='64' y='41' text-anchor='middle' font-size='8'>O</text><text x='78' y='41' text-anchor='middle' font-size='8'>C</text><text x='92' y='41' text-anchor='middle' font-size='8'>C</text><text x='78' y='20' text-anchor='middle' font-size='8'>R</text><text x='78' y='61' text-anchor='middle' font-size='8'>H</text><text x='92' y='20' text-anchor='middle' font-size='8'>O</text><text x='106' y='41' text-anchor='middle' font-size='8'>O</text><text x='120' y='41' text-anchor='middle' font-size='8'>C</text><text x='134' y='41' text-anchor='middle' font-size='8'>C</text><text x='120' y='20' text-anchor='middle' font-size='8'>R</text><text x='120' y='61' text-anchor='middle' font-size='8'>H</text><text x='134' y='20' text-anchor='middle' font-size='8'>O</text><text x='148' y='41' text-anchor='middle' font-size='8'>O</text><text x='162' y='41' text-anchor='middle' font-size='8'>C</text><text x='176' y='41' text-anchor='middle' font-size='8'>C</text><text x='162' y='20' text-anchor='middle' font-size='8'>R</text><text x='162' y='61' text-anchor='middle' font-size='8'>H</text><text x='176' y='20' text-anchor='middle' font-size='8'>O</text><text x='199' y='68' text-anchor='start' font-size='7'>n</text></g></svg>",
+"opts": [
+"Ácido lático, HO–CH(CH₃)–COOH: cada ligação éster recebe uma molécula de água",
+"Ácido glicólico, HO–CH₂–COOH",
+"Etanol e CO₂",
+"Ácido acético e metanol"
+],
+"a": 0,
+"d": [
+[
+"Poliéster",
+"O polímero se forma por condensação (eliminação de água) entre o –OH de uma molécula e o –COOH de outra. A hidrólise é o inverso: a água quebra a ligação éster e devolve os monômeros.",
+""
+]
+],
+"h": [
+"Cada ligação éster –CO–O– recebe uma H₂O.",
+"Saem os monômeros: o ácido lático, HO–CH(CH₃)–COOH (C₃H₆O₃).",
+"<b>Ácido lático</b>: [unidades]ₙ + n H₂O → n HO–CH(CH₃)–COOH."
+]
+},
+{
+"id": "2006-2-qui-07c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2006, 2ª fase, Química, questão 7(c) (adaptada para múltipla escolha)",
+"r": 1910,
+"tm": 45,
+"ctx": "Polímeros derivados dos ácidos glicólico e lático são promissores para a liberação controlada de medicamentos. A figura representa um polímero desse tipo: se R = H, ele deriva do ácido glicólico; se R = CH₃, do ácido lático. Na formação desses polímeros a partir dos ácidos, há eliminação de água. O ácido lático (C₃H₆O₃) é decomposto no organismo formando os mesmos produtos de sua combustão completa. Qual a equação dessa oxidação?",
+"opts": [
+"C₃H₆O₃ + 3 O₂ → 3 CO₂ + 3 H₂O",
+"C₃H₆O₃ + 2 O₂ → 3 CO₂ + 3 H₂O",
+"C₃H₆O₃ + 3 O₂ → 3 CO + 3 H₂O",
+"2 C₃H₆O₃ + 3 O₂ → 6 CO₂ + 6 H₂"
+],
+"a": 0,
+"d": [
+[
+"Combustão completa",
+"Compostos de C, H e O queimam formando CO₂ e H₂O. Acerte C, depois H, e por fim o O, lembrando o oxigênio que já está na molécula.",
+""
+]
+],
+"h": [
+"3 C → 3 CO₂; 6 H → 3 H₂O.",
+"O nos produtos: 6 + 3 = 9; a molécula já tem 3 ⟹ faltam 6 = 3 O₂.",
+"<b>C₃H₆O₃ + 3 O₂ → 3 CO₂ + 3 H₂O</b>."
+]
+},
+{
+"id": "2006-2-qui-08a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2006, 2ª fase, Química, questão 8(a) (adaptada para múltipla escolha)",
+"r": 1280,
+"tm": 20,
+"ctx": "O tetraidrocanabinol (THC), usado sob controle legal como coadjuvante contra náuseas de pacientes em quimioterapia, contra a perda de peso de portadores de AIDS e contra o glaucoma, é encontrado na Cannabis sativa (maconha). O skank, cultivado em laboratório, pode ter até 17,5% em massa de THC; a planta comum tem 2,5%. De acordo com o texto, o THC combate o vírus da AIDS?",
+"opts": [
+"Não: ele é só coadjuvante, contra a perda de peso",
+"Sim: ele é usado por portadores de AIDS",
+"Sim: ele combate o vírus e a náusea",
+"Não: ele só é usado no glaucoma"
+],
+"a": 0,
+"d": [
+[
+"Ler o enunciado",
+"Coadjuvante é o que ajuda um tratamento principal, aliviando sintomas, sem agir sobre a causa da doença.",
+""
+]
+],
+"h": [
+"O texto diz que o THC serve para \"interromper ou reverter a perda de peso\" de portadores de AIDS.",
+"Isso é tratar um sintoma, não o vírus.",
+"<b>Não</b>: é coadjuvante."
+]
+},
+{
+"id": "2006-2-qui-08b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2006, 2ª fase, Química, questão 8(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "O tetraidrocanabinol (THC), usado sob controle legal como coadjuvante contra náuseas de pacientes em quimioterapia, contra a perda de peso de portadores de AIDS e contra o glaucoma, é encontrado na Cannabis sativa (maconha). O skank, cultivado em laboratório, pode ter até 17,5% em massa de THC; a planta comum tem 2,5%. Um farmacêutico preparou uma mistura de vegetais com 1/3 de skank, 30 g de maconha comum e 1/5 de matéria vegetal sem THC, em massa. Qual a massa total da mistura, em gramas?",
+"a": 64.29,
+"u": "g",
+"tol": 0.005,
+"d": [
+[
+"Frações do todo",
+"As frações somam 1: a fração da maconha é 1 − 1/3 − 1/5. Essa fração corresponde a 30 g.",
+""
+]
+],
+"h": [
+"Maconha: 1 − 1/3 − 1/5 = 7/15 da mistura.",
+"(7/15)·M = 30 ⟹ M = 30 × 15/7.",
+"M ≈ <b>64,3 g</b>."
+]
+},
+{
+"id": "2006-2-qui-08c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2006, 2ª fase, Química, questão 8(c)",
+"r": 1960,
+"tm": 75,
+"ctx": "O tetraidrocanabinol (THC), usado sob controle legal como coadjuvante contra náuseas de pacientes em quimioterapia, contra a perda de peso de portadores de AIDS e contra o glaucoma, é encontrado na Cannabis sativa (maconha). O skank, cultivado em laboratório, pode ter até 17,5% em massa de THC; a planta comum tem 2,5%. A mistura do farmacêutico tem 64,3 g: 1/3 de skank, 30 g de maconha comum e o resto sem THC. Qual a porcentagem em massa de THC na mistura?",
+"a": 7.0,
+"u": "%",
+"tol": 0.02,
+"d": [
+[
+"Somar o soluto",
+"Massa de THC = (massa de skank × 17,5%) + (massa de maconha × 2,5%).",
+""
+],
+[
+"Porcentagem em massa",
+"% = massa de THC/massa total × 100."
+]
+],
+"h": [
+"Skank: 64,3/3 ≈ 21,4 g ⟹ THC: 0,175 × 21,4 ≈ 3,75 g. Maconha: 0,025 × 30 = 0,75 g.",
+"THC total ≈ 4,5 g.",
+"4,5/64,3 ≈ <b>7%</b>."
+]
+},
+{
+"id": "2006-2-qui-09a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2006, 2ª fase, Química, questão 9(a) (adaptada para múltipla escolha)",
+"r": 1490,
+"tm": 30,
+"ctx": "Um médico diagnosticou anemia numa criança e indicou comprimidos de um sulfato de ferro com vitamina C. O farmacêutico explicou que a vitamina C evita que o íon ferro passe a um estado de oxidação mais alto, pois ele só é absorvido no intestino no estado de oxidação mais baixo. Qual a fórmula do sulfato de ferro do medicamento?",
+"opts": [
+"FeSO₄",
+"Fe₂(SO₄)₃",
+"FeSO₃",
+"FeS"
+],
+"a": 0,
+"d": [
+[
+"Nox do ferro",
+"O ferro forma Fe²⁺ (menor estado) e Fe³⁺. O íon sulfato é SO₄²⁻.",
+""
+],
+[
+"Neutralidade",
+"Cargas do cátion e do ânion se compensam."
+]
+],
+"h": [
+"O ferro absorvido é o de menor nox: Fe²⁺.",
+"Fe²⁺ com SO₄²⁻: uma carga +2 para uma −2.",
+"<b>FeSO₄</b>."
+]
+},
+{
+"id": "2006-2-qui-09b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2006, 2ª fase, Química, questão 9(b) (adaptada para múltipla escolha)",
+"r": 1570,
+"tm": 30,
+"ctx": "Um médico diagnosticou anemia numa criança e indicou comprimidos de um sulfato de ferro com vitamina C. O farmacêutico explicou que a vitamina C evita que o íon ferro passe a um estado de oxidação mais alto, pois ele só é absorvido no intestino no estado de oxidação mais baixo. Qual o íon ferro que <b>não</b> é absorvido no intestino?",
+"opts": [
+"Fe³⁺",
+"Fe²⁺",
+"Fe⁺",
+"Fe⁴⁺"
+],
+"a": 0,
+"d": [
+[
+"Estados de oxidação do ferro",
+"Os íons comuns do ferro são Fe²⁺ (ferroso) e Fe³⁺ (férrico).",
+""
+]
+],
+"h": [
+"É absorvido o estado mais baixo: Fe²⁺.",
+"Não é absorvido o mais alto.",
+"<b>Fe³⁺</b>."
+]
+},
+{
+"id": "2006-2-qui-09c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2006, 2ª fase, Química, questão 9(c) (adaptada para múltipla escolha)",
+"r": 1570,
+"tm": 40,
+"ctx": "Um médico diagnosticou anemia numa criança e indicou comprimidos de um sulfato de ferro com vitamina C. O farmacêutico explicou que a vitamina C evita que o íon ferro passe a um estado de oxidação mais alto, pois ele só é absorvido no intestino no estado de oxidação mais baixo. No medicamento, a vitamina C atua como oxidante ou como antioxidante?",
+"opts": [
+"Antioxidante: impede que Fe²⁺ se oxide a Fe³⁺",
+"Oxidante: oxida o Fe²⁺ a Fe³⁺",
+"Oxidante: ela mesma se reduz",
+"Nenhum dos dois: só ajuda a dissolver o comprimido"
+],
+"a": 0,
+"d": [
+[
+"Oxidação e redução",
+"Oxidar é perder elétrons (o nox sobe). Um antioxidante (redutor) se oxida no lugar de outra espécie, protegendo-a.",
+""
+]
+],
+"h": [
+"A conversão indesejada é Fe²⁺ → Fe³⁺ (oxidação).",
+"A vitamina C, redutora, evita essa oxidação.",
+"<b>Antioxidante</b>."
+]
+},
+{
+"id": "2006-2-qui-10a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2006, 2ª fase, Química, questão 10(a) (adaptada para múltipla escolha)",
+"r": 1620,
+"tm": 40,
+"ctx": "De maneira geral, um medicamento é absorvido no sistema digestório quando suas moléculas estão na forma neutra. O pH varia ao longo do sistema: considere o estômago, o duodeno e o intestino delgado. Como se associam as faixas de pH 7,0–8,0; 1,0–3,0 e 6,0–6,5 a essas partes?",
+"opts": [
+"Estômago 1,0–3,0; duodeno 6,0–6,5; intestino delgado 7,0–8,0",
+"Estômago 7,0–8,0; duodeno 6,0–6,5; intestino delgado 1,0–3,0",
+"Estômago 1,0–3,0; duodeno 7,0–8,0; intestino delgado 6,0–6,5",
+"Estômago 6,0–6,5; duodeno 1,0–3,0; intestino delgado 7,0–8,0"
+],
+"a": 0,
+"d": [
+[
+"Digestão",
+"O estômago produz HCl (suco gástrico muito ácido). No duodeno, o bicarbonato do pâncreas neutraliza o ácido; o intestino fica levemente básico.",
+""
+]
+],
+"h": [
+"Estômago: muito ácido, pH 1–3.",
+"Duodeno: quase neutro (6,0–6,5); intestino delgado: levemente básico (7,0–8,0).",
+"<b>Estômago 1–3; duodeno 6,0–6,5; intestino 7–8</b>."
+]
+},
+{
+"id": "2006-2-qui-10b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2006, 2ª fase, Química, questão 10(b) (adaptada para múltipla escolha)",
+"r": 1780,
+"tm": 60,
+"ctx": "De maneira geral, um medicamento é absorvido no sistema digestório quando suas moléculas estão na forma neutra. O pH varia ao longo do sistema: considere o estômago, o duodeno e o intestino delgado. No estômago o pH vai de 1,0 a 3,0. Qual a ordem de grandeza da concentração média de H⁺ ali?",
+"opts": [
+"Entre 10⁻³ e 10⁻¹ mol/L; a média dos extremos é ≈ 5·10⁻² mol/L",
+"Entre 1 e 3 mol/L; média de 2 mol/L",
+"Cerca de 10⁻⁷ mol/L",
+"Entre 10⁻¹³ e 10⁻¹¹ mol/L"
+],
+"a": 0,
+"d": [
+[
+"Definição de pH",
+"pH = −log[H⁺] ⟹ [H⁺] = 10<sup>−pH</sup> mol/L. A escala é logarítmica: cada unidade de pH é um fator 10.",
+""
+]
+],
+"h": [
+"pH 1 ⟹ [H⁺] = 10⁻¹ mol/L; pH 3 ⟹ 10⁻³ mol/L.",
+"Média dos extremos: (0,1 + 0,001)/2 ≈ 0,05 mol/L. (Usar pH médio 2 dá 10⁻² mol/L, também aceito, mas a média de pH não é a média de [H⁺].)",
+"<b>≈ 5·10⁻² mol/L</b>, entre 10⁻³ e 10⁻¹."
+]
+},
+{
+"id": "2006-2-qui-10c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2006, 2ª fase, Química, questão 10(c) (adaptada para múltipla escolha)",
+"r": 1910,
+"tm": 60,
+"ctx": "De maneira geral, um medicamento é absorvido no sistema digestório quando suas moléculas estão na forma neutra. O pH varia ao longo do sistema: considere o estômago, o duodeno e o intestino delgado. Em que parte o ibuprofeno, representado na figura, será preferencialmente absorvido?",
+"fig": "<svg viewBox='0 0 220 60' class='fg' role='img' aria-label='fórmula do ibuprofeno: um anel benzênico com dois substituintes em posições opostas; à esquerda, um grupo isobutila, CH2 ligado a CH com dois CH3; à direita, um grupo CH ligado a CH3 e a um grupo ácido carboxílico, COOH'><g fill='none' stroke='currentColor' stroke-width='0.9'><polygon points='122.0,30.0 116.0,40.4 104.0,40.4 98.0,30.0 104.0,19.6 116.0,19.6'/><circle cx='110' cy='30' r='7' stroke-width='0.7'/><line x1='122.0' y1='30.0' x2='129.0' y2='30.0'/><line x1='98.0' y1='30.0' x2='91.0' y2='30.0'/></g><g fill='currentColor'><text x='131' y='33' text-anchor='start' font-size='8'>CH(CH₃)–COOH</text><text x='89' y='33' text-anchor='end' font-size='8'>(CH₃)₂CH–CH₂</text><text x='110' y='55' text-anchor='middle' font-size='7'>ibuprofeno</text></g></svg>",
+"opts": [
+"No estômago: é um ácido fraco (–COOH), quase todo não ionizado em pH baixo",
+"No intestino: o meio básico neutraliza o ácido e facilita a absorção",
+"No duodeno: em pH 6 ele está neutro",
+"Em todas as partes igualmente: o anel benzênico não ioniza"
+],
+"a": 0,
+"d": [
+[
+"Ácido fraco e pH",
+"HA ⇌ H⁺ + A⁻. Excesso de H⁺ (pH baixo) desloca o equilíbrio para HA, a forma neutra; em meio básico, predomina A⁻, com carga.",
+""
+]
+],
+"h": [
+"O ibuprofeno tem –COOH: é um ácido fraco.",
+"No estômago (pH 1–3), fica na forma neutra R–COOH; no intestino, vira R–COO⁻.",
+"Absorvido no <b>estômago</b>."
+]
+},
+{
+"id": "2006-2-qui-11a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2006, 2ª fase, Química, questão 11(a)",
+"r": 1780,
+"tm": 40,
+"ctx": "Sais de bismuto podem tratar úlceras gástricas: no estômago, os íons bismuto se ligam a citratos e formam um muco protetor da parede estomacal. No acetato de bismuto há 3 ânions para cada cátion. Qual o número de oxidação do bismuto nesse composto?",
+"a": 3,
+"tol": 0,
+"d": [
+[
+"Acetato",
+"O íon acetato, CH₃COO⁻, tem carga 1−.",
+""
+],
+[
+"Neutralidade",
+"Num sal, as cargas positivas e negativas se compensam."
+]
+],
+"h": [
+"Três acetatos: carga total 3−.",
+"Um bismuto compensa: +3.",
+"Bi<b>³⁺</b> (nox +3)."
+]
+},
+{
+"id": "2006-2-qui-11b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2006, 2ª fase, Química, questão 11(b) (adaptada para múltipla escolha)",
+"r": 1910,
+"tm": 40,
+"ctx": "Sais de bismuto podem tratar úlceras gástricas: no estômago, os íons bismuto se ligam a citratos e formam um muco protetor da parede estomacal. Qual a fórmula do acetato de bismuto?",
+"opts": [
+"Bi(CH₃COO)₃",
+"Bi₃(CH₃COO)",
+"BiCH₃COO",
+"B(CH₃COO)₃"
+],
+"a": 0,
+"d": [
+[
+"Fórmula de sais",
+"Escreva o cátion e o ânion em proporção que zere a carga; o ânion poliatômico vai entre parênteses.",
+""
+]
+],
+"h": [
+"Cátion Bi³⁺ (símbolo Bi; B é boro); ânion CH₃COO⁻.",
+"1 Bi³⁺ para 3 CH₃COO⁻.",
+"<b>Bi(CH₃COO)₃</b>."
+]
+},
+{
+"id": "2006-2-qui-11c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2006, 2ª fase, Química, questão 11(c) (adaptada para múltipla escolha)",
+"r": 2040,
+"tm": 60,
+"ctx": "Sais de bismuto podem tratar úlceras gástricas: no estômago, os íons bismuto se ligam a citratos e formam um muco protetor da parede estomacal. O ácido cítrico, C₆H₈O₇, tem três carboxilas. Qual a fórmula do citrato de bismuto formado no estômago?",
+"opts": [
+"BiC₆H₅O₇",
+"Bi₃C₆H₈O₇",
+"Bi(C₆H₇O₇)₃",
+"BiC₆H₈O₇"
+],
+"a": 0,
+"d": [
+[
+"Hidrogênios ionizáveis",
+"Cada –COOH tem um H ácido. Três carboxilas: o citrato é C₆H₅O₇³⁻.",
+""
+],
+[
+"Proporção",
+"Bi³⁺ e citrato³⁻ se combinam 1:1."
+]
+],
+"h": [
+"C₆H₈O₇ perde 3 H⁺ ⟹ C₆H₅O₇³⁻.",
+"Bi³⁺ + C₆H₅O₇³⁻: cargas iguais e opostas.",
+"<b>BiC₆H₅O₇</b>."
+]
+},
+{
+"id": "2006-2-qui-12a",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2006, 2ª fase, Química, questão 12(a) (adaptada para múltipla escolha)",
+"r": 1700,
+"tm": 40,
+"ctx": "Em 2003, cerca de vinte pessoas que fizeram exame de raios X morreram ao ingerir uma suspensão de sulfato de bário mal preparada. Esse sal é muito pouco solúvel em água, mesmo em meio ácido. O preparo pode ter sido feito pela reação direta do carbonato de bário (muito pouco solúvel) com ácido sulfúrico. Qual a equação dessa reação de preparo?",
+"opts": [
+"BaCO₃ + H₂SO₄ → BaSO₄ + H₂O + CO₂",
+"BaCO₃ + H₂SO₄ → BaSO₄ + H₂CO₃ + O₂",
+"BaCO₃ + H₂SO₄ → BaS + CO₂ + H₂O + O₂",
+"Ba + H₂SO₄ → BaSO₄ + H₂"
+],
+"a": 0,
+"d": [
+[
+"Carbonato + ácido",
+"Carbonato reage com ácido formando sal, água e gás carbônico (o H₂CO₃ formado se decompõe).",
+""
+]
+],
+"h": [
+"O H₂SO₄ troca o ânion: CO₃²⁻ sai, SO₄²⁻ entra.",
+"H₂CO₃ → H₂O + CO₂.",
+"<b>BaCO₃ + H₂SO₄ → BaSO₄ + H₂O + CO₂</b>."
+]
+},
+{
+"id": "2006-2-qui-12b",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2006, 2ª fase, Química, questão 12(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "Em 2003, cerca de vinte pessoas que fizeram exame de raios X morreram ao ingerir uma suspensão de sulfato de bário mal preparada. Esse sal é muito pouco solúvel em água, mesmo em meio ácido. O preparo pode ter sido feito pela reação direta do carbonato de bário (muito pouco solúvel) com ácido sulfúrico. Com 600 kg de carbonato de bário e excesso de ácido, que massa de sulfato de bário se obteria com rendimento de 100%, em kg? (Ba = 137; C = 12; O = 16; S = 32)",
+"a": 710,
+"u": "kg",
+"tol": 0.01,
+"d": [
+[
+"Massas molares",
+"Some as massas atômicas: BaCO₃ e BaSO₄.",
+""
+],
+[
+"Proporção 1:1",
+"1 mol de BaCO₃ dá 1 mol de BaSO₄: as massas seguem a razão das massas molares."
+]
+],
+"h": [
+"BaCO₃ = 137 + 12 + 48 = 197 g/mol; BaSO₄ = 137 + 32 + 64 = 233 g/mol.",
+"m = 600 × 233/197.",
+"m ≈ <b>710 kg</b>."
+]
+},
+{
+"id": "2006-2-qui-12c",
+"ano": 2006,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2006, 2ª fase, Química, questão 12(c) (adaptada para múltipla escolha)",
+"r": 2000,
+"tm": 60,
+"ctx": "Em 2003, cerca de vinte pessoas que fizeram exame de raios X morreram ao ingerir uma suspensão de sulfato de bário mal preparada. Esse sal é muito pouco solúvel em água, mesmo em meio ácido. O preparo pode ter sido feito pela reação direta do carbonato de bário (muito pouco solúvel) com ácido sulfúrico. Com rendimento de 100%, o acidente não teria acontecido; as mortes foram causadas por íons bário \"livres\". Por quê?",
+"opts": [
+"Sobrou BaCO₃ no produto, que reage com o ácido do estômago liberando Ba²⁺: BaCO₃ + 2 H⁺ → Ba²⁺ + H₂O + CO₂",
+"O BaSO₄ se dissolve bem no suco gástrico e libera Ba²⁺",
+"O excesso de H₂SO₄ é que é tóxico, não o bário",
+"O CO₂ produzido na reação é que causou as mortes"
+],
+"a": 0,
+"d": [
+[
+"Solubilidade e meio ácido",
+"BaSO₄ é insolúvel mesmo em ácido; carbonatos, embora pouco solúveis em água, se dissolvem em ácidos (liberam CO₂).",
+""
+]
+],
+"h": [
+"Rendimento incompleto deixa BaCO₃ misturado ao BaSO₄.",
+"No estômago (HCl): BaCO₃ + 2 H⁺ → Ba²⁺ + H₂O + CO₂, liberando Ba²⁺ tóxico.",
+"<b>O BaCO₃ restante se dissolve no ácido estomacal e libera Ba²⁺</b>."
+]
+}
+]

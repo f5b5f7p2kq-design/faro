@@ -1,0 +1,2720 @@
+[
+{
+"id": "2001-1-05a",
+"ano": 2001,
+"fase": 1,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 2001, 1ª fase, questão 5(a)",
+"r": 1440,
+"tm": 60,
+"ctx": "Raios cósmicos são partículas que bombardeiam a Terra vindas de todas as direções. O gráfico mostra o fluxo (partículas por m² por segundo) que atinge a superfície em função da energia da partícula; para 10¹⁶ eV, o fluxo é 10⁻⁷ partícula·m⁻²·s⁻¹. Área da superfície terrestre: 5,0·10¹⁴ m²; 1 eV = 1,6·10⁻¹⁹ J. Quantas partículas com energia de 10¹⁶ eV atingem a Terra ao longo de um dia?",
+"fig": "<svg viewBox='0 0 235 140' class='fg' role='img' aria-label='gráfico em escalas logarítmicas do fluxo de raios cósmicos, em partículas por metro quadrado por segundo, em função da energia, de 10 elevado a 14 até 10 elevado a 20 elétron-volts: o fluxo cai de cerca de 10 elevado a menos 4 até 10 elevado a menos 14; em 10 elevado a 16 eV ele vale 10 elevado a menos 7'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='68' y1='12' x2='68' y2='111'/><line x1='96' y1='12' x2='96' y2='111'/><line x1='124' y1='12' x2='124' y2='111'/><line x1='152' y1='12' x2='152' y2='111'/><line x1='180' y1='12' x2='180' y2='111'/><line x1='40' y1='21' x2='208' y2='21'/><line x1='40' y1='30' x2='208' y2='30'/><line x1='40' y1='39' x2='208' y2='39'/><line x1='40' y1='48' x2='208' y2='48'/><line x1='40' y1='57' x2='208' y2='57'/><line x1='40' y1='66' x2='208' y2='66'/><line x1='40' y1='75' x2='208' y2='75'/><line x1='40' y1='84' x2='208' y2='84'/><line x1='40' y1='93' x2='208' y2='93'/><line x1='40' y1='102' x2='208' y2='102'/></g><rect x='40' y='12' width='168' height='99' stroke-width='1.2'/><path d='M51.2,12.9 C54.0,14.4 60.5,17.5 68.0,21.9 C75.5,26.2 86.7,33.8 96.0,39.0 C105.3,44.2 114.7,48.6 124.0,53.4 C133.3,58.2 142.7,62.4 152.0,67.8 C161.3,73.2 170.7,79.3 180.0,85.8 C189.3,92.2 203.3,103.0 208.0,106.5' stroke-width='1.6'/></g><g fill='currentColor' font-size='8'><text x='32' y='121'>10¹⁴</text><text x='60' y='121'>10¹⁵</text><text x='88' y='121'>10¹⁶</text><text x='116' y='121'>10¹⁷</text><text x='144' y='121'>10¹⁸</text><text x='172' y='121'>10¹⁹</text><text x='200' y='121'>10²⁰</text><text x='14' y='24'>10⁻⁵</text><text x='14' y='42'>10⁻⁷</text><text x='14' y='60'>10⁻⁹</text><text x='14' y='78'>10⁻¹¹</text><text x='14' y='96'>10⁻¹³</text><text x='14' y='114'>10⁻¹⁵</text><text x='92' y='134'>energia (eV)</text><text x='44' y='9'>fluxo (partículas·m⁻²·s⁻¹)</text></g></svg>",
+"opts": [
+"≈ 4·10¹² partículas",
+"≈ 5·10⁷ partículas",
+"≈ 4·10¹⁰ partículas",
+"≈ 9·10⁻³ partícula"
+],
+"a": 0,
+"d": [
+[
+"Fluxo",
+"Fluxo = partículas ÷ (área × tempo). Então número = fluxo × área × tempo, com o tempo em segundos.",
+""
+],
+[
+"Um dia",
+"1 dia = 24 × 3.600 s = 86.400 s."
+]
+],
+"h": [
+"Do gráfico: fluxo = 10⁻⁷ m⁻²·s⁻¹.",
+"N = 10⁻⁷ × 5,0·10¹⁴ × 86.400.",
+"N ≈ <b>4,3·10¹² partículas</b> por dia."
+]
+},
+{
+"id": "2001-1-05b",
+"ano": 2001,
+"fase": 1,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2001, 1ª fase, questão 5(b)",
+"r": 1530,
+"tm": 60,
+"ctx": "O raio cósmico mais energético já detectado (1991) tinha 3,0·10²⁰ eV (1 eV = 1,6·10⁻¹⁹ J). Compare essa energia com a energia cinética de uma bola de tênis de 0,060 kg num saque a 144 km/h.",
+"opts": [
+"São praticamente iguais: cerca de 48 J cada",
+"O raio cósmico tem cerca de 10²⁰ vezes mais energia",
+"A bola tem cerca de 10¹⁹ vezes mais energia",
+"O raio tem cerca de 5 J e a bola, 48 J"
+],
+"a": 0,
+"d": [
+[
+"Conversão de energia",
+"E (J) = E (eV) × 1,6·10⁻¹⁹.",
+""
+],
+[
+"Energia cinética",
+"E<sub>c</sub> = m·v²/2, com v em m/s (km/h ÷ 3,6)."
+]
+],
+"h": [
+"Raio: 3,0·10²⁰ × 1,6·10⁻¹⁹ = 48 J.",
+"Bola: v = 144/3,6 = 40 m/s; E<sub>c</sub> = 0,060 × 40²/2 = 48 J.",
+"<b>São iguais (≈ 48 J)</b>: uma única partícula com a energia de um saque."
+]
+},
+{
+"id": "2001-1-06a",
+"ano": 2001,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2001, 1ª fase, questão 6(a)",
+"r": 1530,
+"tm": 75,
+"ctx": "Pesquisadores do LNLS, em Campinas, observaram um fio formado por apenas três átomos de ouro em fila, ligando dois pedaços de ouro. Resistividade do ouro: ρ = 1,6·10⁻⁸ Ω·m; raio do átomo de ouro: 2,0·10⁻¹⁰ m; use π ≈ 3,2. Tratando o fio como um cilindro de comprimento igual a três diâmetros atômicos e usando a física tradicional, R = ρ·L/A, qual a resistência?",
+"a": 150,
+"u": "Ω",
+"tol": 0.01,
+"d": [
+[
+"Dimensões do cilindro",
+"Comprimento = 3 diâmetros = 6 raios. A seção transversal é um círculo de raio atômico: A = π·r².",
+""
+],
+[
+"Potências de 10",
+"Agrupe os números e as potências separadamente."
+]
+],
+"h": [
+"L = 6 × 2,0·10⁻¹⁰ = 1,2·10⁻⁹ m; A = 3,2 × (2,0·10⁻¹⁰)² = 1,28·10⁻¹⁹ m².",
+"R = 1,6·10⁻⁸ × 1,2·10⁻⁹ / 1,28·10⁻¹⁹.",
+"R = <b>150 Ω</b>."
+]
+},
+{
+"id": "2001-1-06b",
+"ano": 2001,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2001, 1ª fase, questão 6(b)",
+"r": 1400,
+"tm": 45,
+"ctx": "Pesquisadores do LNLS, em Campinas, observaram um fio formado por apenas três átomos de ouro em fila, ligando dois pedaços de ouro. Resistividade do ouro: ρ = 1,6·10⁻⁸ Ω·m; raio do átomo de ouro: 2,0·10⁻¹⁰ m; use π ≈ 3,2. Aplicando 0,1 V nas extremidades do fio, mede-se uma corrente de 8,0·10⁻⁶ A. Qual a resistência medida, em kΩ?",
+"a": 12.5,
+"u": "kΩ",
+"tol": 0.05,
+"d": [
+[
+"Lei de Ohm",
+"R = V/I.",
+""
+]
+],
+"h": [
+"R = 0,1 / 8,0·10⁻⁶.",
+"= 1,25·10⁴ Ω.",
+"R ≈ <b>12,5 kΩ</b>, muito maior que os 150 Ω da física macroscópica."
+]
+},
+{
+"id": "2001-1-07a",
+"ano": 2001,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2001, 1ª fase, questão 7(a)",
+"r": 1740,
+"tm": 75,
+"ctx": "Sobre água coberta de um pó fino, adiciona-se 1,6·10⁻⁵ cm³ de um ácido orgânico insolúvel (densidade 0,9 g/cm³). Forma-se um círculo de 200 cm² com uma única camada de moléculas lado a lado. Suponha que cada molécula ocupe um cubo. Qual o volume ocupado por uma molécula, em cm³?",
+"opts": [
+"≈ 5·10⁻²² cm³",
+"≈ 8·10⁻⁸ cm³",
+"≈ 8·10⁻²⁰ cm³",
+"≈ 1,6·10⁻⁵ cm³"
+],
+"a": 0,
+"d": [
+[
+"Camada de uma molécula",
+"O volume do ácido se espalha numa \"placa\" de área 200 cm²: espessura = volume ÷ área. Com uma só camada, essa espessura é a aresta do cubo de cada molécula.",
+""
+],
+[
+"Volume do cubo",
+"V = a³."
+]
+],
+"h": [
+"Espessura: 1,6·10⁻⁵ / 200 = 8·10⁻⁸ cm.",
+"V = (8·10⁻⁸)³ = 512·10⁻²⁴ cm³.",
+"V ≈ <b>5·10⁻²² cm³</b>."
+]
+},
+{
+"id": "2001-1-07b",
+"ano": 2001,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2001, 1ª fase, questão 7(b)",
+"r": 1830,
+"tm": 90,
+"ctx": "Sobre água coberta de um pó fino, adiciona-se 1,6·10⁻⁵ cm³ de um ácido orgânico insolúvel (densidade 0,9 g/cm³). Forma-se um círculo de 200 cm² com uma única camada de moléculas lado a lado. Suponha que cada molécula ocupe um cubo. Cada molécula ocupa ≈ 5,12·10⁻²² cm³. Quantas moléculas há em 282 g do ácido?",
+"opts": [
+"≈ 6·10²³",
+"≈ 3·10¹⁶",
+"≈ 5·10²¹",
+"≈ 1,6·10²⁵"
+],
+"a": 0,
+"d": [
+[
+"Moléculas na gota",
+"Número de moléculas = volume da gota ÷ volume de uma molécula.",
+""
+],
+[
+"Massa da gota",
+"m = densidade × volume. Depois, regra de três: massa da gota está para suas moléculas assim como 282 g estão para x."
+]
+],
+"h": [
+"Moléculas na gota: 1,6·10⁻⁵ / 5,12·10⁻²² ≈ 3,1·10¹⁶. Massa: 0,9 × 1,6·10⁻⁵ = 1,44·10⁻⁵ g.",
+"x = 282 × 3,1·10¹⁶ / 1,44·10⁻⁵.",
+"x ≈ <b>6·10²³ moléculas</b> (uma estimativa da constante de Avogadro!)."
+]
+},
+{
+"id": "2001-1-08a",
+"ano": 2001,
+"fase": 1,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2001, 1ª fase, questão 8(a) (o original diz, por engano, \"β-bloqueador\")",
+"r": 1440,
+"tm": 45,
+"ctx": "Uma substância proibida no esporte (um β-agonista usado contra a asma) é eliminada na urina. O gráfico mostra a quantidade dela em amostras de urina ao longo de 90 h, com 100 no instante inicial; o comportamento vale também depois de 90 h: a quantidade cai à metade a cada 30 h. Depois de quanto tempo a quantidade cai a 1/4 do valor inicial (duas meias-vidas)?",
+"fig": "<svg viewBox='0 0 210 130' class='fg' role='img' aria-label='quantidade da substância na urina em função do tempo: começa em 100 no instante zero e cai pela metade a cada 30 horas: 50 em 30 h, 25 em 60 h, 12,5 em 90 h'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='66' y1='15' x2='66' y2='110'/><line x1='102' y1='15' x2='102' y2='110'/><line x1='138' y1='15' x2='138' y2='110'/><line x1='174' y1='15' x2='174' y2='110'/><line x1='30' y1='91' x2='192' y2='91'/><line x1='30' y1='72' x2='192' y2='72'/><line x1='30' y1='53' x2='192' y2='53'/><line x1='30' y1='34' x2='192' y2='34'/><line x1='30' y1='15' x2='192' y2='15'/></g><polyline points='30,10 30,110 196,110' stroke-width='1.2'/><path d='M30.0,15.0 C31.5,16.7 36.0,22.1 39.0,25.4 C42.0,28.6 45.0,31.7 48.0,34.6 C51.0,37.5 54.0,40.2 57.0,42.8 C60.0,45.4 63.0,47.8 66.0,50.2 C69.0,52.5 72.0,54.6 75.0,56.7 C78.0,58.7 81.0,60.7 84.0,62.5 C87.0,64.3 90.0,66.0 93.0,67.7 C96.0,69.3 99.0,70.8 102.0,72.3 C105.0,73.8 108.0,75.1 111.0,76.4 C114.0,77.7 117.0,78.9 120.0,80.1 C123.0,81.2 126.0,82.3 129.0,83.3 C132.0,84.4 135.0,85.3 138.0,86.2 C141.0,87.2 144.0,88.0 147.0,88.8 C150.0,89.7 153.0,90.4 156.0,91.1 C159.0,91.9 162.0,92.6 165.0,93.2 C168.0,93.9 171.0,94.5 174.0,95.0 C177.0,95.6 180.0,96.2 183.0,96.7 C186.0,97.2 190.5,97.9 192.0,98.1' stroke-width='1.6'/></g><g fill='currentColor' font-size='8'><text x='26' y='120'>0</text><text x='62' y='120'>20</text><text x='98' y='120'>40</text><text x='134' y='120'>60</text><text x='170' y='120'>80</text><text x='12' y='113'>0</text><text x='12' y='94'>20</text><text x='12' y='75'>40</text><text x='12' y='56'>60</text><text x='12' y='37'>80</text><text x='12' y='18'>100</text><text x='34' y='9'>quantidade</text><text x='120' y='129'>tempo (h)</text></g></svg>",
+"a": 60,
+"u": "h",
+"tol": 0.05,
+"d": [
+[
+"Meia-vida",
+"É o tempo para a quantidade cair à metade. Leia no gráfico quando ela chega a 50 e depois a 25.",
+""
+]
+],
+"h": [
+"Do gráfico, 100 → 50 em 30 h: meia-vida de 30 h.",
+"1/4 = duas meias-vidas.",
+"<b>60 horas</b>."
+]
+},
+{
+"id": "2001-1-08b",
+"ano": 2001,
+"fase": 1,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2001, 1ª fase, questão 8(b)",
+"r": 1700,
+"tm": 75,
+"ctx": "Uma substância proibida no esporte (um β-agonista usado contra a asma) é eliminada na urina. O gráfico mostra a quantidade dela em amostras de urina ao longo de 90 h, com 100 no instante inicial; o comportamento vale também depois de 90 h: a quantidade cai à metade a cada 30 h. O doping é positivo acima de 1,0 µg/mL na hora da competição. Uma amostra colhida 120 h após a prova tinha 15 µg em 150 mL de urina. Se colhida logo após a competição, o teste daria positivo?",
+"fig": "<svg viewBox='0 0 210 130' class='fg' role='img' aria-label='quantidade da substância na urina em função do tempo: começa em 100 no instante zero e cai pela metade a cada 30 horas: 50 em 30 h, 25 em 60 h, 12,5 em 90 h'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='66' y1='15' x2='66' y2='110'/><line x1='102' y1='15' x2='102' y2='110'/><line x1='138' y1='15' x2='138' y2='110'/><line x1='174' y1='15' x2='174' y2='110'/><line x1='30' y1='91' x2='192' y2='91'/><line x1='30' y1='72' x2='192' y2='72'/><line x1='30' y1='53' x2='192' y2='53'/><line x1='30' y1='34' x2='192' y2='34'/><line x1='30' y1='15' x2='192' y2='15'/></g><polyline points='30,10 30,110 196,110' stroke-width='1.2'/><path d='M30.0,15.0 C31.5,16.7 36.0,22.1 39.0,25.4 C42.0,28.6 45.0,31.7 48.0,34.6 C51.0,37.5 54.0,40.2 57.0,42.8 C60.0,45.4 63.0,47.8 66.0,50.2 C69.0,52.5 72.0,54.6 75.0,56.7 C78.0,58.7 81.0,60.7 84.0,62.5 C87.0,64.3 90.0,66.0 93.0,67.7 C96.0,69.3 99.0,70.8 102.0,72.3 C105.0,73.8 108.0,75.1 111.0,76.4 C114.0,77.7 117.0,78.9 120.0,80.1 C123.0,81.2 126.0,82.3 129.0,83.3 C132.0,84.4 135.0,85.3 138.0,86.2 C141.0,87.2 144.0,88.0 147.0,88.8 C150.0,89.7 153.0,90.4 156.0,91.1 C159.0,91.9 162.0,92.6 165.0,93.2 C168.0,93.9 171.0,94.5 174.0,95.0 C177.0,95.6 180.0,96.2 183.0,96.7 C186.0,97.2 190.5,97.9 192.0,98.1' stroke-width='1.6'/></g><g fill='currentColor' font-size='8'><text x='26' y='120'>0</text><text x='62' y='120'>20</text><text x='98' y='120'>40</text><text x='134' y='120'>60</text><text x='170' y='120'>80</text><text x='12' y='113'>0</text><text x='12' y='94'>20</text><text x='12' y='75'>40</text><text x='12' y='56'>60</text><text x='12' y='37'>80</text><text x='12' y='18'>100</text><text x='34' y='9'>quantidade</text><text x='120' y='129'>tempo (h)</text></g></svg>",
+"opts": [
+"Sim: logo após a prova havia cerca de 1,6 µg/mL",
+"Não: havia 0,1 µg/mL",
+"Não: havia cerca de 0,4 µg/mL",
+"Sim: havia cerca de 12 µg/mL"
+],
+"a": 0,
+"d": [
+[
+"Concentração",
+"c = massa ÷ volume.",
+""
+],
+[
+"Voltar no tempo",
+"Cada meia-vida para trás dobra a quantidade: 120 h correspondem a 120/30 meias-vidas."
+]
+],
+"h": [
+"Após 120 h: 15/150 = 0,1 µg/mL.",
+"120 h = 4 meias-vidas: 0,1 × 2⁴ = 1,6 µg/mL na hora da prova.",
+"1,6 > 1,0: <b>positivo</b>."
+]
+},
+{
+"id": "2001-1-11a",
+"ano": 2001,
+"fase": 1,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2001, 1ª fase, questão 11(a)",
+"r": 1360,
+"tm": 45,
+"ctx": "Áreas com transgênicos, em hectares (1997 → 1998): Estados Unidos 8,1·10⁶ → 20,5·10⁶; Argentina 1,4·10⁶ → 4,3·10⁶; Canadá 1,3·10⁶ → 2,8·10⁶; outros países 2,0·10⁵ → 3,4·10⁵. Qual a área total em 1997, em milhões de hectares?",
+"a": 11,
+"u": "milhões de ha",
+"tol": 0.01,
+"d": [
+[
+"Mesma potência de 10",
+"Antes de somar, escreva todos com 10⁶: 2,0·10⁵ = 0,2·10⁶.",
+""
+]
+],
+"h": [
+"8,1 + 1,4 + 1,3 + 0,2 = 11,0.",
+"Total: 11·10⁶ ha.",
+"<b>11 milhões de hectares</b>."
+]
+},
+{
+"id": "2001-1-11b",
+"ano": 2001,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2001, 1ª fase, questão 11(b)",
+"r": 1530,
+"tm": 60,
+"ctx": "Áreas com transgênicos, em hectares (1997 → 1998): Estados Unidos 8,1·10⁶ → 20,5·10⁶; Argentina 1,4·10⁶ → 4,3·10⁶; Canadá 1,3·10⁶ → 2,8·10⁶; outros países 2,0·10⁵ → 3,4·10⁵. A área total era 11·10⁶ ha em 1997. Qual foi o crescimento percentual de 1997 para 1998?",
+"a": 154,
+"u": "%",
+"tol": 0.01,
+"d": [
+[
+"Crescimento percentual",
+"(valor final − valor inicial) ÷ valor inicial × 100.",
+""
+]
+],
+"h": [
+"1998: 20,5 + 4,3 + 2,8 + 0,34 = 27,94·10⁶ ha.",
+"27,94/11 = 2,54: a área ficou 2,54 vezes maior.",
+"Crescimento de <b>154%</b>."
+]
+},
+{
+"id": "2001-1-12a",
+"ano": 2001,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2001, 1ª fase, questão 12(a)",
+"r": 1320,
+"tm": 45,
+"ctx": "Um terreno é um trapézio retângulo ABCD, com ângulos retos em B e C, AB = 25 m (base maior), BC = 24 m (altura) e CD = 15 m (base menor). Se cada m² vale R$ 50,00, qual o valor do terreno, em reais?",
+"fig": "<svg viewBox='0 0 180 140' class='fg' role='img' aria-label='terreno em forma de trapézio retângulo ABCD: base AB de 25 m embaixo, lado BC vertical de 24 m à direita, base CD de 15 m em cima; o lado AD é inclinado'><g fill='none' stroke='currentColor'><polygon points='20,125 145,125 145,10 70,10' fill='currentColor' fill-opacity='0.12' stroke-width='1.6'/><polyline points='137,125 137,117 145,117' stroke-width='0.8'/><polyline points='137,10 137,18 145,18' stroke-width='0.8'/></g><g fill='currentColor' font-size='9'><text x='10' y='134'>A</text><text x='148' y='134'>B</text><text x='148' y='9'>C</text><text x='62' y='9'>D</text><text x='72' y='136'>25 m</text><text x='150' y='70'>24 m</text><text x='96' y='23'>15 m</text></g></svg>",
+"a": 24000,
+"u": "R$",
+"tol": 0,
+"d": [
+[
+"Área do trapézio",
+"A = (base maior + base menor) × altura ÷ 2. Ou divida em retângulo + triângulo.",
+""
+]
+],
+"h": [
+"A = (25 + 15) × 24/2 = 480 m².",
+"Valor: 480 × 50.",
+"<b>R$ 24.000,00</b>."
+]
+},
+{
+"id": "2001-1-12b",
+"ano": 2001,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2001, 1ª fase, questão 12(b)",
+"r": 1490,
+"tm": 75,
+"ctx": "Um terreno é um trapézio retângulo ABCD, com ângulos retos em B e C, AB = 25 m (base maior), BC = 24 m (altura) e CD = 15 m (base menor). O terreno (480 m²) deve ser dividido em quatro partes de mesma área por três segmentos paralelos a BC. Quais as medidas dos pedaços em que AB fica dividido, a partir de A?",
+"fig": "<svg viewBox='0 0 180 140' class='fg' role='img' aria-label='terreno em forma de trapézio retângulo ABCD: base AB de 25 m embaixo, lado BC vertical de 24 m à direita, base CD de 15 m em cima; o lado AD é inclinado'><g fill='none' stroke='currentColor'><polygon points='20,125 145,125 145,10 70,10' fill='currentColor' fill-opacity='0.12' stroke-width='1.6'/><polyline points='137,125 137,117 145,117' stroke-width='0.8'/><polyline points='137,10 137,18 145,18' stroke-width='0.8'/></g><g fill='currentColor' font-size='9'><text x='10' y='134'>A</text><text x='148' y='134'>B</text><text x='148' y='9'>C</text><text x='62' y='9'>D</text><text x='72' y='136'>25 m</text><text x='150' y='70'>24 m</text><text x='96' y='23'>15 m</text></g></svg>",
+"opts": [
+"10 m, 5 m, 5 m e 5 m",
+"6,25 m em cada um dos quatro",
+"10 m, 6 m, 5 m e 4 m",
+"5 m, 5 m, 5 m e 10 m"
+],
+"a": 0,
+"d": [
+[
+"Decompor",
+"Trace por D uma paralela a BC até AB, no ponto X: fica um triângulo AXD e um retângulo XBCD. Calcule a área de cada um.",
+""
+],
+[
+"Comparar com 1/4",
+"Cada parte deve ter 480/4 = 120 m²."
+]
+],
+"h": [
+"AX = 25 − 15 = 10 m; triângulo AXD: 10 × 24/2 = 120 m², exatamente uma parte.",
+"O retângulo de 15 × 24 = 360 m² se divide em três faixas de 120 m²: 15/3 = 5 m cada.",
+"Pedaços: <b>10 m, 5 m, 5 m e 5 m</b>."
+]
+},
+{
+"id": "2001-2-mat-01a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 1(a)",
+"r": 1440,
+"tm": 45,
+"ctx": "Planos de celular (custo fixo mensal; custo por minuto): A, R$ 35,00 e R$ 0,50; B, R$ 20,00 e R$ 0,80; C, sem custo fixo e R$ 1,20. Qual é o plano mais vantajoso para quem usa 25 minutos por mês?",
+"opts": [
+"C (R$ 30,00)",
+"B (R$ 40,00)",
+"A (R$ 47,50)",
+"A e B empatam"
+],
+"a": 0,
+"d": [
+[
+"Função afim",
+"Custo = fixo + (preço por minuto) × t.",
+""
+]
+],
+"h": [
+"A: 35 + 0,50 × 25 = 47,50. B: 20 + 0,80 × 25 = 40,00.",
+"C: 1,20 × 25 = 30,00.",
+"O mais barato é <b>C (R$ 30,00)</b>."
+]
+},
+{
+"id": "2001-2-mat-01b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 1(b)",
+"r": 1660,
+"tm": 60,
+"ctx": "Planos de celular (custo fixo mensal; custo por minuto): A, R$ 35,00 e R$ 0,50; B, R$ 20,00 e R$ 0,80; C, sem custo fixo e R$ 1,20. A partir de quantos minutos de uso mensal o plano A é mais vantajoso que os outros dois?",
+"a": 50,
+"u": "min",
+"tol": 0,
+"d": [
+[
+"Inequações",
+"A deve ser mais barato que B e também que C: resolva as duas desigualdades e fique com o que satisfaz as duas.",
+""
+]
+],
+"h": [
+"A < B: 35 + 0,5t < 20 + 0,8t ⟹ 15 < 0,3t ⟹ t > 50.",
+"A < C: 35 + 0,5t < 1,2t ⟹ 35 < 0,7t ⟹ t > 50.",
+"A partir de <b>50 minutos</b>."
+]
+},
+{
+"id": "2001-2-mat-02a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 2(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "Um fio de 48 cm é cortado em duas partes, que formam dois quadrados; a área de um é quatro vezes a do outro. Qual o comprimento de cada parte?",
+"opts": [
+"32 cm e 16 cm",
+"38,4 cm e 9,6 cm",
+"24 cm e 24 cm",
+"36 cm e 12 cm"
+],
+"a": 0,
+"d": [
+[
+"Área e lado",
+"Se a área é 4 vezes maior, o lado é √4 = 2 vezes maior, e o perímetro (o pedaço de fio) também.",
+""
+]
+],
+"h": [
+"Pedaços x e 48 − x, com x = 2(48 − x).",
+"3x = 96 ⟹ x = 32.",
+"<b>32 cm e 16 cm</b>."
+]
+},
+{
+"id": "2001-2-mat-02b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 2(b)",
+"r": 1490,
+"tm": 30,
+"ctx": "Um fio de 48 cm foi cortado em pedaços de 32 cm e 16 cm, e cada pedaço forma um quadrado. Quais as áreas dos quadrados?",
+"opts": [
+"64 cm² e 16 cm²",
+"256 cm² e 64 cm²",
+"1.024 cm² e 256 cm²",
+"144 cm² e 36 cm²"
+],
+"a": 0,
+"d": [
+[
+"Perímetro do quadrado",
+"Lado = perímetro ÷ 4; área = lado².",
+""
+]
+],
+"h": [
+"Lados: 32/4 = 8 cm e 16/4 = 4 cm.",
+"Áreas: 8² e 4².",
+"<b>64 cm² e 16 cm²</b>."
+]
+},
+{
+"id": "2001-2-mat-03a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 3(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "A figura é a planificação de uma caixa sem tampa: o fundo mede 2x por x e a altura é x/5 (os quadrados de lado x/5 dos cantos são recortados). Qual deve ser x, em centímetros, para a caixa ter 50 litros?",
+"fig": "<svg viewBox='0 0 200 125' class='fg' role='img' aria-label='planificação de uma caixa sem tampa: folha retangular com um quadrado de lado x/5 recortado em cada canto; o fundo da caixa mede 2x por x'><g fill='none' stroke='currentColor'><rect x='20' y='15' width='144' height='84' stroke-width='0.8' stroke-dasharray='3 2'/><path d='M32,15 H152 V27 H164 V87 H152 V99 H32 V87 H20 V27 H32 Z' fill='currentColor' fill-opacity='0.15' stroke-width='1.5'/><rect x='32' y='27' width='120' height='60' stroke-width='0.8'/></g><g fill='currentColor' font-size='9'><text x='86' y='60'>2x</text><text x='155' y='60'>x</text><text x='168' y='24'>x/5</text><text x='4' y='96'>x/5</text></g></svg>",
+"a": 50,
+"u": "cm",
+"tol": 0,
+"d": [
+[
+"Volume",
+"V = comprimento × largura × altura = 2x · x · x/5.",
+""
+],
+[
+"Litro",
+"1 L = 1 dm³ = 1.000 cm³."
+]
+],
+"h": [
+"V = 2x³/5 = 50 dm³ ⟹ x³ = 125.",
+"x = 5 dm.",
+"x = <b>50 cm</b>."
+]
+},
+{
+"id": "2001-2-mat-03b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 3(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "Na planificação da caixa sem tampa (fundo 2x por x, altura x/5), com x = 50 cm, o material custa R$ 10,00 por m². Quanto custa a folha retangular usada numa caixa?",
+"fig": "<svg viewBox='0 0 200 125' class='fg' role='img' aria-label='planificação de uma caixa sem tampa: folha retangular com um quadrado de lado x/5 recortado em cada canto; o fundo da caixa mede 2x por x'><g fill='none' stroke='currentColor'><rect x='20' y='15' width='144' height='84' stroke-width='0.8' stroke-dasharray='3 2'/><path d='M32,15 H152 V27 H164 V87 H152 V99 H32 V87 H20 V27 H32 Z' fill='currentColor' fill-opacity='0.15' stroke-width='1.5'/><rect x='32' y='27' width='120' height='60' stroke-width='0.8'/></g><g fill='currentColor' font-size='9'><text x='86' y='60'>2x</text><text x='155' y='60'>x</text><text x='168' y='24'>x/5</text><text x='4' y='96'>x/5</text></g></svg>",
+"a": 8.4,
+"u": "R$",
+"tol": 0.01,
+"d": [
+[
+"Dimensões da folha",
+"A folha inteira (antes de recortar os cantos) mede (2x + 2·x/5) por (x + 2·x/5).",
+""
+],
+[
+"Unidades",
+"1 m² = 10.000 cm²."
+]
+],
+"h": [
+"Folha: (100 + 20) × (50 + 20) = 120 × 70 cm.",
+"Área: 8.400 cm² = 0,84 m².",
+"Custo: 0,84 × 10 = <b>R$ 8,40</b>."
+]
+},
+{
+"id": "2001-2-mat-04a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 4(a)",
+"r": 1700,
+"tm": 45,
+"ctx": "Se n = p₁^t₁ · p₂^t₂ ··· pᵣ^tᵣ (fatoração em primos distintos), o número de divisores positivos de n é d(n) = (t₁ + 1)(t₂ + 1)···(tᵣ + 1). Quanto vale d(168)?",
+"a": 16,
+"tol": 0,
+"d": [
+[
+"Fatoração",
+"Divida 168 sucessivamente por 2, depois por 3, e assim por diante.",
+""
+]
+],
+"h": [
+"168 = 2³ · 3 · 7.",
+"d(168) = (3 + 1)(1 + 1)(1 + 1).",
+"d(168) = <b>16</b>."
+]
+},
+{
+"id": "2001-2-mat-04b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 4(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "O número de divisores de n = p₁^t₁ · p₂^t₂ ··· é (t₁ + 1)(t₂ + 1)···. Qual é o menor natural com exatamente 15 divisores positivos?",
+"a": 144,
+"tol": 0,
+"d": [
+[
+"Decompor o 15",
+"Os produtos possíveis de fatores (t + 1) que dão 15 são 15 e 3 × 5. Isso dá n = p¹⁴ ou n = p² · q⁴.",
+""
+],
+[
+"Menor possível",
+"Use os menores primos e ponha o maior expoente no menor primo."
+]
+],
+"h": [
+"p¹⁴: 2¹⁴ = 16.384.",
+"p⁴q²: 2⁴ · 3² = 144 (e 2² · 3⁴ = 324).",
+"O menor é <b>144</b>."
+]
+},
+{
+"id": "2001-2-mat-05a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 5(a)",
+"r": 1740,
+"tm": 90,
+"ctx": "Três circunferências de raio 2 cm têm centros nos vértices de um triângulo equilátero de lado 6 cm. C é a curva fechada de comprimento mínimo que tangencia externamente as três (como uma correia em volta de três polias). Qual a área da parte do triângulo que fica fora das três circunferências, em cm²?",
+"fig": "<svg viewBox='0 0 230 200' class='fg' role='img' aria-label='triângulo equilátero de lado 6 cm com uma circunferência de raio 2 cm centrada em cada vértice; a região do triângulo fora das circunferências está sombreada; a curva C contorna as três circunferências por fora, com três segmentos paralelos aos lados e três arcos'><g fill='none' stroke='currentColor'><path d='M95.0,150.0 L135.0,150.0 A40,40 0 0 1 155.0,115.4 L135.0,80.7 A40,40 0 0 1 95.0,80.7 L75.0,115.4 A40,40 0 0 1 95.0,150.0 Z' fill='currentColor' fill-opacity='0.22' stroke='none'/><polygon points='55.0,150.0 175.0,150.0 115.0,46.1' stroke-width='1.1'/><circle cx='55.0' cy='150.0' r='40' stroke-width='0.8' stroke-dasharray='3 2'/><circle cx='175.0' cy='150.0' r='40' stroke-width='0.8' stroke-dasharray='3 2'/><circle cx='115.0' cy='46.1' r='40' stroke-width='0.8' stroke-dasharray='3 2'/><path d='M55.0,190.0 L175.0,190.0 A40,40 0 0 0 209.6,130.0 L149.6,26.1 A40,40 0 0 0 80.4,26.1 L20.4,130.0 A40,40 0 0 0 55.0,190.0 Z' stroke-width='1.8'/><line x1='55.0' y1='150.0' x2='20.4' y2='170.0' stroke-width='0.8'/></g><g fill='currentColor' font-size='9'><circle cx='55.0' cy='150.0' r='1.6'/><circle cx='175.0' cy='150.0' r='1.6'/><circle cx='115.0' cy='46.1' r='1.6'/><text x='104' y='145'>6 cm</text><text x='32' y='158'>2</text><text x='186' y='76'>C</text></g></svg>",
+"a": 9.305271960940308,
+"u": "cm²",
+"tol": 0.01,
+"d": [
+[
+"Área do equilátero",
+"A = ℓ²√3/4.",
+""
+],
+[
+"Setores",
+"Dentro do triângulo, cada círculo ocupa um setor de 60°. Três setores de 60° somam 180°: meio círculo."
+]
+],
+"h": [
+"Triângulo: 36√3/4 = 9√3 cm².",
+"Setores: meio círculo de raio 2 = π·2²/2 = 2π cm².",
+"Área = <b>9√3 − 2π ≈ 9,3 cm²</b>."
+]
+},
+{
+"id": "2001-2-mat-05b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 5(b)",
+"r": 1780,
+"tm": 75,
+"ctx": "Três circunferências de raio 2 cm têm centros nos vértices de um triângulo equilátero de lado 6 cm. C é a curva fechada de comprimento mínimo que tangencia externamente as três (como uma correia em volta de três polias). Qual o comprimento da curva C, em cm?",
+"fig": "<svg viewBox='0 0 230 200' class='fg' role='img' aria-label='triângulo equilátero de lado 6 cm com uma circunferência de raio 2 cm centrada em cada vértice; a região do triângulo fora das circunferências está sombreada; a curva C contorna as três circunferências por fora, com três segmentos paralelos aos lados e três arcos'><g fill='none' stroke='currentColor'><path d='M95.0,150.0 L135.0,150.0 A40,40 0 0 1 155.0,115.4 L135.0,80.7 A40,40 0 0 1 95.0,80.7 L75.0,115.4 A40,40 0 0 1 95.0,150.0 Z' fill='currentColor' fill-opacity='0.22' stroke='none'/><polygon points='55.0,150.0 175.0,150.0 115.0,46.1' stroke-width='1.1'/><circle cx='55.0' cy='150.0' r='40' stroke-width='0.8' stroke-dasharray='3 2'/><circle cx='175.0' cy='150.0' r='40' stroke-width='0.8' stroke-dasharray='3 2'/><circle cx='115.0' cy='46.1' r='40' stroke-width='0.8' stroke-dasharray='3 2'/><path d='M55.0,190.0 L175.0,190.0 A40,40 0 0 0 209.6,130.0 L149.6,26.1 A40,40 0 0 0 80.4,26.1 L20.4,130.0 A40,40 0 0 0 55.0,190.0 Z' stroke-width='1.8'/><line x1='55.0' y1='150.0' x2='20.4' y2='170.0' stroke-width='0.8'/></g><g fill='currentColor' font-size='9'><circle cx='55.0' cy='150.0' r='1.6'/><circle cx='175.0' cy='150.0' r='1.6'/><circle cx='115.0' cy='46.1' r='1.6'/><text x='104' y='145'>6 cm</text><text x='32' y='158'>2</text><text x='186' y='76'>C</text></g></svg>",
+"a": 30.566370614359172,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Partes retas",
+"A curva tem três segmentos tangentes, paralelos aos lados e de mesmo comprimento que eles.",
+""
+],
+[
+"Partes curvas",
+"Em cada vértice, um arco do círculo de raio 2. Os ângulos desses arcos somam 360° (cada um tem 120°)."
+]
+],
+"h": [
+"Retas: 3 × 6 = 18 cm.",
+"Arcos: três de 120° = uma circunferência inteira: 2π·2 = 4π cm.",
+"C = <b>18 + 4π ≈ 30,6 cm</b>."
+]
+},
+{
+"id": "2001-2-mat-06a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 6(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "Uma lata deve ter meio quilo de mistura de amendoim (R$ 5,00/kg), castanha de caju (R$ 20,00/kg) e castanha-do-pará (R$ 16,00/kg), com custo de R$ 5,75 por lata; a quantidade de caju deve ser um terço da soma das outras duas. Sejam x, y e z as massas, em kg, de amendoim, caju e castanha-do-pará. Qual sistema representa a situação?",
+"opts": [
+"x + y + z = 0,5; 5x + 20y + 16z = 5,75; y = (x + z)/3",
+"x + y + z = 500; 5x + 20y + 16z = 5,75; y = (x + z)/3",
+"x + y + z = 0,5; 5x + 20y + 16z = 5,75; 3y = x",
+"x + y + z = 0,5; 5x + 16y + 20z = 5,75; y = (x + z)/3"
+],
+"a": 0,
+"d": [
+[
+"Uma equação por informação",
+"Massa total, custo total e a relação entre o caju e os outros dois. Cuidado com as unidades: as massas estão em kg porque os preços são por kg.",
+""
+]
+],
+"h": [
+"Massa: x + y + z = 0,5.",
+"Custo: 5x + 20y + 16z = 5,75. Caju: y = (x + z)/3.",
+"<b>x + y + z = 0,5; 5x + 20y + 16z = 5,75; y = (x + z)/3</b>."
+]
+},
+{
+"id": "2001-2-mat-06b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 6(b)",
+"r": 1780,
+"tm": 90,
+"ctx": "Uma lata deve ter meio quilo de mistura de amendoim (R$ 5,00/kg), castanha de caju (R$ 20,00/kg) e castanha-do-pará (R$ 16,00/kg), com custo de R$ 5,75 por lata; a quantidade de caju deve ser um terço da soma das outras duas. Sejam x, y e z as massas, em kg, de amendoim, caju e castanha-do-pará. Resolvendo x + y + z = 0,5; 5x + 20y + 16z = 5,75; y = (x + z)/3, quanto vai de cada ingrediente por lata?",
+"opts": [
+"250 g de amendoim, 125 g de caju e 125 g de castanha-do-pará",
+"125 g de amendoim, 250 g de caju e 125 g de castanha-do-pará",
+"200 g de amendoim, 125 g de caju e 175 g de castanha-do-pará",
+"250 g de amendoim, 150 g de caju e 100 g de castanha-do-pará"
+],
+"a": 0,
+"d": [
+[
+"Substituição",
+"Use a 3ª equação na 1ª: se x + z = 3y, então 4y = 0,5.",
+""
+]
+],
+"h": [
+"4y = 0,5 ⟹ y = 0,125; x + z = 0,375.",
+"5x + 20(0,125) + 16z = 5,75 ⟹ 5x + 16z = 3,25; com x = 0,375 − z: 1,875 + 11z = 3,25 ⟹ z = 0,125, x = 0,25.",
+"<b>250 g de amendoim, 125 g de caju e 125 g de castanha-do-pará</b>."
+]
+},
+{
+"id": "2001-2-mat-07a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 7(a)",
+"r": 1700,
+"tm": 60,
+"ctx": "Quantos números naturais de cinco algarismos têm os cinco algarismos diferentes? (O zero não pode ser o primeiro algarismo.)",
+"a": 27216,
+"tol": 0,
+"d": [
+[
+"Princípio multiplicativo",
+"Preencha as posições da esquerda para a direita, contando as opções em cada uma. A primeira não pode ser 0.",
+""
+]
+],
+"h": [
+"1ª posição: 9 opções (1 a 9). 2ª: 9 (agora o 0 pode, menos o já usado).",
+"3ª: 8; 4ª: 7; 5ª: 6.",
+"9 · 9 · 8 · 7 · 6 = <b>27.216</b>."
+]
+},
+{
+"id": "2001-2-mat-07b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 7(b)",
+"r": 2000,
+"tm": 90,
+"ctx": "Entre os 27.216 números naturais de cinco algarismos distintos, escolhe-se um ao acaso. Qual a probabilidade de seus algarismos estarem em ordem crescente?",
+"opts": [
+"1/216",
+"1/120",
+"1/252",
+"1/27.216"
+],
+"a": 0,
+"d": [
+[
+"Ordem crescente",
+"O zero não pode aparecer (ele teria de ser o primeiro). Escolhidos 5 algarismos distintos de 1 a 9, há uma única maneira de colocá-los em ordem crescente.",
+""
+],
+[
+"Combinação",
+"C(9, 5) = 9!/(5!·4!)."
+]
+],
+"h": [
+"Favoráveis: C(9, 5) = 126.",
+"P = 126/27.216.",
+"P = <b>1/216</b>."
+]
+},
+{
+"id": "2001-2-mat-08a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 8(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "As retas y = 1, y = 2x − 5 e x − 2y + 5 = 0 formam um triângulo ABC. Quais são os vértices?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='as retas y = 1, y = 2x − 5 e x − 2y + 5 = 0 no plano cartesiano formam um triângulo ABC'><g fill='none' stroke='currentColor'><line x1='5' y1='115' x2='195' y2='115' stroke-width='0.7'/><line x1='70' y1='145' x2='70' y2='5' stroke-width='0.7'/><polygon points='112.0,101.0 28.0,101.0 140.0,45.0' fill='currentColor' fill-opacity='0.15' stroke='none'/><g stroke-width='1.3'><line x1='7.0' y1='101' x2='189.0' y2='101'/><line x1='98' y1='129' x2='151.2' y2='22.60000000000001'/><line x1='7.0' y1='111.5' x2='175.0' y2='27.5'/></g></g><g fill='currentColor' font-size='8'><text x='154' y='98'>y = 1</text><text x='107' y='26'>y = 2x − 5</text><text x='6' y='76'>x − 2y + 5 = 0</text><text x='115' y='110'>A</text><text x='20' y='110'>B</text><text x='130' y='42'>C</text><text x='192' y='112'>x</text><text x='73' y='12'>y</text></g></svg>",
+"opts": [
+"(3, 1), (−3, 1) e (5, 5)",
+"(3, 1), (−3, 1) e (−5, 5)",
+"(3, 1), (3, −1) e (5, 5)",
+"(1, 3), (1, −3) e (5, 5)"
+],
+"a": 0,
+"d": [
+[
+"Vértice = interseção",
+"Cada vértice é a interseção de duas das retas: resolva os três sistemas de duas equações.",
+""
+]
+],
+"h": [
+"y = 1 e y = 2x − 5: x = 3 → (3, 1). y = 1 e x − 2 + 5 = 0: x = −3 → (−3, 1).",
+"y = 2x − 5 em x − 2y + 5 = 0: x − 4x + 10 + 5 = 0 ⟹ x = 5, y = 5.",
+"<b>(3, 1), (−3, 1) e (5, 5)</b>."
+]
+},
+{
+"id": "2001-2-mat-08b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 8(b)",
+"r": 1780,
+"tm": 45,
+"ctx": "O triângulo ABC tem vértices A(3, 1), B(−3, 1) e C(5, 5). Qual a sua área?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='as retas y = 1, y = 2x − 5 e x − 2y + 5 = 0 no plano cartesiano formam um triângulo ABC'><g fill='none' stroke='currentColor'><line x1='5' y1='115' x2='195' y2='115' stroke-width='0.7'/><line x1='70' y1='145' x2='70' y2='5' stroke-width='0.7'/><polygon points='112.0,101.0 28.0,101.0 140.0,45.0' fill='currentColor' fill-opacity='0.15' stroke='none'/><g stroke-width='1.3'><line x1='7.0' y1='101' x2='189.0' y2='101'/><line x1='98' y1='129' x2='151.2' y2='22.60000000000001'/><line x1='7.0' y1='111.5' x2='175.0' y2='27.5'/></g></g><g fill='currentColor' font-size='8'><text x='154' y='98'>y = 1</text><text x='107' y='26'>y = 2x − 5</text><text x='6' y='76'>x − 2y + 5 = 0</text><text x='115' y='110'>A</text><text x='20' y='110'>B</text><text x='130' y='42'>C</text><text x='192' y='112'>x</text><text x='73' y='12'>y</text></g></svg>",
+"a": 12,
+"tol": 0,
+"d": [
+[
+"Base horizontal",
+"AB está na reta y = 1: seu comprimento é a diferença das abscissas. A altura relativa a AB é a distância vertical de C até y = 1.",
+""
+],
+[
+"Outra opção",
+"Área = |det| / 2, com o determinante das coordenadas."
+]
+],
+"h": [
+"AB = 3 − (−3) = 6.",
+"Altura: 5 − 1 = 4.",
+"Área = 6 × 4/2 = <b>12</b>."
+]
+},
+{
+"id": "2001-2-mat-09a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 9(a)",
+"r": 1570,
+"tm": 60,
+"ctx": "As populações de duas cidades, em milhares de habitantes, são A(t) = log₈(1 + t)⁶ e B(t) = log₂(4t + 4), com t em anos. Quais as populações em t = 1 e t = 7?",
+"opts": [
+"A(1) = 2 mil, A(7) = 6 mil; B(1) = 3 mil, B(7) = 5 mil",
+"A(1) = 6 mil, A(7) = 18 mil; B(1) = 3 mil, B(7) = 5 mil",
+"A(1) = 2 mil, A(7) = 6 mil; B(1) = 8 mil, B(7) = 32 mil",
+"A(1) = 1/3 mil, A(7) = 1 mil; B(1) = 3 mil, B(7) = 5 mil"
+],
+"a": 0,
+"d": [
+[
+"Propriedades",
+"log(aⁿ) = n·log a; log₈ 2 = 1/3 (pois 8^(1/3) = 2); log<sub>b</sub> b = 1.",
+""
+]
+],
+"h": [
+"A(1) = log₈ 2⁶ = 6 × 1/3 = 2; A(7) = log₈ 8⁶ = 6.",
+"B(1) = log₂ 8 = 3; B(7) = log₂ 32 = 5.",
+"<b>A: 2 mil e 6 mil; B: 3 mil e 5 mil</b>."
+]
+},
+{
+"id": "2001-2-mat-09b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 9(b)",
+"r": 1830,
+"tm": 90,
+"ctx": "As populações de duas cidades, em milhares de habitantes, são A(t) = log₈(1 + t)⁶ e B(t) = log₂(4t + 4), com t em anos. A partir de certo instante, uma cidade sempre tem mais habitantes que a outra. Qual é esse instante mínimo, e qual cidade fica maior?",
+"opts": [
+"t = 3 anos; a partir daí, A é maior",
+"t = 3 anos; a partir daí, B é maior",
+"t = 7 anos; a partir daí, A é maior",
+"t = 1 ano; a partir daí, B é maior"
+],
+"a": 0,
+"d": [
+[
+"Mesma base",
+"log₈ x = log₂ x / log₂ 8 = (1/3)·log₂ x. Assim A(t) = 2·log₂(1 + t).",
+""
+],
+[
+"Produto",
+"log₂(4(1 + t)) = 2 + log₂(1 + t)."
+]
+],
+"h": [
+"A(t) = 2·log₂(1 + t) e B(t) = 2 + log₂(1 + t). Seja u = log₂(1 + t).",
+"A = B ⟹ 2u = 2 + u ⟹ u = 2 ⟹ 1 + t = 4 ⟹ t = 3. Para u > 2, 2u > 2 + u.",
+"<b>t = 3 anos</b>; depois disso, <b>A</b> é sempre maior."
+]
+},
+{
+"id": "2001-2-mat-10a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 10(a) (adaptado: a demonstração virou cálculo)",
+"r": 1570,
+"tm": 45,
+"ctx": "Considere a equação sen²θ − 2cos²θ + (1/2)·sen 2θ = 0. Para os valores de θ com cos θ = 0, quanto vale o lado esquerdo da equação?",
+"a": 1,
+"tol": 0,
+"d": [
+[
+"Arco duplo",
+"sen 2θ = 2·sen θ·cos θ.",
+""
+],
+[
+"Relação fundamental",
+"sen²θ + cos²θ = 1: se cos θ = 0, então sen²θ = 1."
+]
+],
+"h": [
+"Com cos θ = 0: sen²θ = 1 e sen 2θ = 2·sen θ·0 = 0.",
+"1 − 0 + 0 = 1.",
+"Vale <b>1</b> ≠ 0: esses θ não são soluções."
+]
+},
+{
+"id": "2001-2-mat-10b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 10(b)",
+"r": 2080,
+"tm": 120,
+"ctx": "Considere a equação sen²θ − 2cos²θ + (1/2)·sen 2θ = 0. Sabendo que cos θ ≠ 0 nas soluções, quais são todos os valores de cos θ que resolvem a equação?",
+"opts": [
+"±√2/2 e ±√5/5",
+"±√2/2 e ±2√5/5",
+"Somente √2/2 e √5/5",
+"±1/2 e ±√3/2"
+],
+"a": 0,
+"d": [
+[
+"Dividir por cos²θ",
+"Com sen 2θ = 2 sen θ cos θ e dividindo tudo por cos²θ, a equação vira uma do 2º grau em tg θ.",
+""
+],
+[
+"De tg para cos",
+"1 + tg²θ = 1/cos²θ, então cos θ = ±1/√(1 + tg²θ)."
+]
+],
+"h": [
+"tg²θ − 2 + tg θ = 0 ⟹ tg θ = 1 ou tg θ = −2.",
+"tg θ = 1: cos²θ = 1/2. tg θ = −2: cos²θ = 1/5.",
+"cos θ = <b>±√2/2 ou ±√5/5</b>."
+]
+},
+{
+"id": "2001-2-mat-11a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 11(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Considere p(x) = x³ − 2x² + 5x + 26. O número 2 + 3i é raiz de p?",
+"opts": [
+"Sim: p(2 + 3i) = 0",
+"Não: p(2 + 3i) = 26",
+"Não: p(2 + 3i) = −46 + 9i",
+"Não: raízes complexas não existem para coeficientes reais"
+],
+"a": 0,
+"d": [
+[
+"Substituir",
+"Calcule (2 + 3i)² e (2 + 3i)³ usando i² = −1, e some os termos.",
+""
+]
+],
+"h": [
+"(2 + 3i)² = −5 + 12i; (2 + 3i)³ = −46 + 9i.",
+"p = (−46 + 9i) − 2(−5 + 12i) + 5(2 + 3i) + 26 = (−46 + 10 + 10 + 26) + (9 − 24 + 15)i.",
+"= 0: <b>sim, é raiz</b>."
+]
+},
+{
+"id": "2001-2-mat-11b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 11(b) (adaptado: a demonstração virou escolha)",
+"r": 2000,
+"tm": 90,
+"ctx": "Considere p(x) = x³ − 2x² + 5x + 26. Que fatoração de p mostra que p(x) > 0 para todo real x > −2?",
+"opts": [
+"(x + 2)(x² − 4x + 13)",
+"(x − 2)(x² + 4x + 13)",
+"(x + 2)(x² − 4x − 13)",
+"(x + 2)²(x − 6,5)"
+],
+"a": 0,
+"d": [
+[
+"Raiz real",
+"Teste x = −2: se p(−2) = 0, p é divisível por (x + 2) (Briot-Ruffini).",
+""
+],
+[
+"Raízes conjugadas",
+"2 + 3i e 2 − 3i são raízes: (x − 2)² + 9 = x² − 4x + 13 é fator, sem raízes reais e sempre positivo."
+]
+],
+"h": [
+"p(−2) = −8 − 8 − 10 + 26 = 0.",
+"p(x) = (x + 2)(x² − 4x + 13); o 2º fator tem Δ = 16 − 52 < 0, então é sempre positivo.",
+"<b>(x + 2)(x² − 4x + 13)</b>: para x > −2 os dois fatores são positivos."
+]
+},
+{
+"id": "2001-2-mat-12a",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 12(a)",
+"r": 1830,
+"tm": 90,
+"ctx": "A base de uma pirâmide é um triângulo equilátero de lado 6 cm, e as arestas laterais medem 4 cm. Qual a altura da pirâmide?",
+"fig": "<svg viewBox='0 0 200 110' class='fg' role='img' aria-label='pirâmide de base triangular equilátera de lado 6 cm e arestas laterais de 4 cm; o vértice V fica acima do centro O da base; a altura VO está tracejada'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='28.4,57.5 69.2,94.9 172.4,57.5 90.0,22.0 28.4,57.5'/><line x1='90.0' y1='22.0' x2='69.2' y2='94.9'/><g stroke-width='1' stroke-dasharray='4 3'><line x1='28.4' y1='57.5' x2='172.4' y2='57.5'/><line x1='90.0' y1='22.0' x2='90.0' y2='70.0'/></g></g><g fill='currentColor' font-size='9'><circle cx='90.0' cy='70.0' r='1.8'/><text x='87' y='17'>V</text><text x='94' y='73'>O</text><text x='125' y='88'>6</text><text x='137' y='38'>4</text></g></svg>",
+"a": 2,
+"u": "cm",
+"tol": 0,
+"d": [
+[
+"Pé da altura",
+"Arestas laterais iguais ⟹ o vértice se projeta no centro O da base, equidistante dos três vértices.",
+""
+],
+[
+"Centro do equilátero",
+"A distância do centro a um vértice é 2/3 da altura do triângulo: (2/3)·(ℓ√3/2) = ℓ√3/3."
+]
+],
+"h": [
+"Altura da base: 3√3; distância de O ao vértice: 2√3 cm.",
+"h² = 4² − (2√3)² = 16 − 12 = 4.",
+"h = <b>2 cm</b>."
+]
+},
+{
+"id": "2001-2-mat-12b",
+"ano": 2001,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2001, 2ª fase, Matemática, questão 12(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "A base de uma pirâmide é um triângulo equilátero de lado 6 cm, e as arestas laterais medem 4 cm. A altura da pirâmide é 2 cm e o centro da base está a 2√3 cm de cada vértice da base. Qual o raio da esfera circunscrita à pirâmide?",
+"fig": "<svg viewBox='0 0 200 110' class='fg' role='img' aria-label='pirâmide de base triangular equilátera de lado 6 cm e arestas laterais de 4 cm; o vértice V fica acima do centro O da base; a altura VO está tracejada'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='28.4,57.5 69.2,94.9 172.4,57.5 90.0,22.0 28.4,57.5'/><line x1='90.0' y1='22.0' x2='69.2' y2='94.9'/><g stroke-width='1' stroke-dasharray='4 3'><line x1='28.4' y1='57.5' x2='172.4' y2='57.5'/><line x1='90.0' y1='22.0' x2='90.0' y2='70.0'/></g></g><g fill='currentColor' font-size='9'><circle cx='90.0' cy='70.0' r='1.8'/><text x='87' y='17'>V</text><text x='94' y='73'>O</text><text x='125' y='88'>6</text><text x='137' y='38'>4</text></g></svg>",
+"a": 4,
+"u": "cm",
+"tol": 0,
+"d": [
+[
+"Centro da esfera",
+"Por simetria, o centro da esfera está na reta da altura. Ele fica a r de V e a r dos vértices da base.",
+""
+],
+[
+"Pitágoras",
+"Se o centro está a distância |r − h| de O, então (r − h)² + (2√3)² = r²."
+]
+],
+"h": [
+"(r − 2)² + 12 = r².",
+"r² − 4r + 4 + 12 = r² ⟹ 4r = 16.",
+"r = <b>4 cm</b> (o centro fica 2 cm abaixo da base)."
+]
+},
+{
+"id": "2001-2-fis-01a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2001, 2ª fase, Física, questão 1(a)",
+"r": 1280,
+"tm": 20,
+"ctx": "Num brinquedo de parque, uma plataforma cai a partir do repouso, em queda livre, de 75 m de altura. A 30 m do solo, passa a ser freada por uma força constante e para exatamente ao chegar ao solo. Use g = 10 m/s². Qual o valor absoluto da aceleração durante a queda livre?",
+"a": 10,
+"u": "m/s²",
+"tol": 0,
+"d": [
+[
+"Queda livre",
+"Sem resistência do ar, a única força é o peso: a aceleração é g.",
+""
+]
+],
+"h": [
+"Só o peso atua.",
+"a = g.",
+"|a| = <b>10 m/s²</b>."
+]
+},
+{
+"id": "2001-2-fis-01b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2001, 2ª fase, Física, questão 1(b)",
+"r": 1530,
+"tm": 45,
+"ctx": "Num brinquedo de parque, uma plataforma cai a partir do repouso, em queda livre, de 75 m de altura. A 30 m do solo, passa a ser freada por uma força constante e para exatamente ao chegar ao solo. Use g = 10 m/s². Qual a velocidade da plataforma quando o freio é acionado?",
+"a": 30,
+"u": "m/s",
+"tol": 0,
+"d": [
+[
+"Torricelli",
+"v² = v₀² + 2·g·Δh, com Δh a altura de queda livre.",
+""
+]
+],
+"h": [
+"Queda livre: de 75 m a 30 m, Δh = 45 m.",
+"v² = 2 × 10 × 45 = 900.",
+"v = <b>30 m/s</b>."
+]
+},
+{
+"id": "2001-2-fis-01c",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2001, 2ª fase, Física, questão 1(c)",
+"r": 1660,
+"tm": 45,
+"ctx": "Num brinquedo de parque, uma plataforma cai a partir do repouso, em queda livre, de 75 m de altura. A 30 m do solo, passa a ser freada por uma força constante e para exatamente ao chegar ao solo. Use g = 10 m/s². A plataforma chega a 30 m do solo a 30 m/s. Qual o módulo da aceleração necessária para pará-la no solo?",
+"a": 15,
+"u": "m/s²",
+"tol": 0,
+"d": [
+[
+"Frenagem",
+"v² = v₀² + 2aΔs, com v = 0 no solo e Δs = 30 m.",
+""
+]
+],
+"h": [
+"0 = 30² + 2a × 30.",
+"a = −900/60 = −15 m/s².",
+"|a| = <b>15 m/s²</b> (1,5 g)."
+]
+},
+{
+"id": "2001-2-fis-02a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2001, 2ª fase, Física, questão 2(a)",
+"r": 1740,
+"tm": 45,
+"ctx": "O regulador de uma máquina a vapor gira em torno de um eixo vertical com velocidade angular Ω. Em cada lado, uma haste de massa desprezível e comprimento L = 0,2 m, presa a uma articulação a d = 0,1 m do eixo, leva uma massa m = 0,18 kg na ponta. Quando as hastes formam θ = 30° com a vertical, o regulador fecha o vapor. Use g = 10 m/s² e tg 30° = √3/3 (√3 ≈ 1,8). Quais forças atuam sobre uma das massas?",
+"fig": "<svg viewBox='0 0 220 140' class='fg' role='img' aria-label='regulador de máquina a vapor: eixo vertical de rotação; uma barra horizontal presa a ele tem articulações a uma distância d do eixo; de cada articulação pende uma haste de comprimento L, inclinada de um ângulo teta com a vertical, com uma massa m na ponta'><g fill='none' stroke='currentColor'><line x1='110' y1='8' x2='110' y2='132' stroke-width='3'/><line x1='80.0' y1='40' x2='140.0' y2='40' stroke-width='2.4'/><line x1='80.0' y1='40' x2='50.0' y2='92.0' stroke-width='1.4'/><line x1='140.0' y1='40' x2='170.0' y2='92.0' stroke-width='1.4'/><line x1='80.0' y1='40' x2='80.0' y2='100' stroke-width='0.7' stroke-dasharray='3 2'/><path d='M80.0,62 A22,22 0 0 1 69.0,59.1' stroke-width='0.8'/><path d='M98,12 A14,5 0 1 0 122,12' stroke-width='0.9'/><line x1='80.0' y1='30' x2='110' y2='30' stroke-width='0.6'/></g><g fill='currentColor' font-size='9'><circle cx='50.0' cy='92.0' r='7' fill-opacity='0.3' stroke='currentColor'/><circle cx='170.0' cy='92.0' r='7' fill-opacity='0.3' stroke='currentColor'/><circle cx='80.0' cy='40' r='2.4'/><circle cx='140.0' cy='40' r='2.4'/><polygon points='122,12 116,9 117,15'/><text x='47' y='95' font-size='8'>m</text><text x='167' y='95' font-size='8'>m</text><text x='86' y='27'>d</text><text x='53' y='66'>L</text><text x='68' y='74'>θ</text><text x='126' y='14'>Ω</text><text x='116' y='128'>eixo</text></g></svg>",
+"opts": [
+"O peso (vertical, para baixo) e a tração da haste (ao longo dela); a resultante é horizontal, apontando para o eixo",
+"O peso, a tração e uma força centrífuga apontando para fora",
+"Somente o peso",
+"O peso e uma força normal feita pelo eixo"
+],
+"a": 0,
+"d": [
+[
+"Referencial inercial",
+"Visto de fora (do chão), só agem forças com agente: a Terra (peso) e a haste (tração). A \"força centrífuga\" não é uma força aplicada por nada.",
+""
+],
+[
+"Movimento circular",
+"A massa gira num círculo horizontal: a resultante precisa ser centrípeta."
+]
+],
+"h": [
+"A Terra puxa a massa para baixo (peso); a haste puxa ao longo de si (tração).",
+"A componente vertical da tração equilibra o peso; a horizontal é a resultante centrípeta.",
+"<b>Peso e tração</b>, com resultante horizontal apontando para o eixo."
+]
+},
+{
+"id": "2001-2-fis-02b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2001, 2ª fase, Física, questão 2(b)",
+"r": 1910,
+"tm": 90,
+"ctx": "O regulador de uma máquina a vapor gira em torno de um eixo vertical com velocidade angular Ω. Em cada lado, uma haste de massa desprezível e comprimento L = 0,2 m, presa a uma articulação a d = 0,1 m do eixo, leva uma massa m = 0,18 kg na ponta. Quando as hastes formam θ = 30° com a vertical, o regulador fecha o vapor. Use g = 10 m/s² e tg 30° = √3/3 (√3 ≈ 1,8). Qual a velocidade angular Ω para a qual θ = 30°?",
+"fig": "<svg viewBox='0 0 220 140' class='fg' role='img' aria-label='regulador de máquina a vapor: eixo vertical de rotação; uma barra horizontal presa a ele tem articulações a uma distância d do eixo; de cada articulação pende uma haste de comprimento L, inclinada de um ângulo teta com a vertical, com uma massa m na ponta'><g fill='none' stroke='currentColor'><line x1='110' y1='8' x2='110' y2='132' stroke-width='3'/><line x1='80.0' y1='40' x2='140.0' y2='40' stroke-width='2.4'/><line x1='80.0' y1='40' x2='50.0' y2='92.0' stroke-width='1.4'/><line x1='140.0' y1='40' x2='170.0' y2='92.0' stroke-width='1.4'/><line x1='80.0' y1='40' x2='80.0' y2='100' stroke-width='0.7' stroke-dasharray='3 2'/><path d='M80.0,62 A22,22 0 0 1 69.0,59.1' stroke-width='0.8'/><path d='M98,12 A14,5 0 1 0 122,12' stroke-width='0.9'/><line x1='80.0' y1='30' x2='110' y2='30' stroke-width='0.6'/></g><g fill='currentColor' font-size='9'><circle cx='50.0' cy='92.0' r='7' fill-opacity='0.3' stroke='currentColor'/><circle cx='170.0' cy='92.0' r='7' fill-opacity='0.3' stroke='currentColor'/><circle cx='80.0' cy='40' r='2.4'/><circle cx='140.0' cy='40' r='2.4'/><polygon points='122,12 116,9 117,15'/><text x='47' y='95' font-size='8'>m</text><text x='167' y='95' font-size='8'>m</text><text x='86' y='27'>d</text><text x='53' y='66'>L</text><text x='68' y='74'>θ</text><text x='126' y='14'>Ω</text><text x='116' y='128'>eixo</text></g></svg>",
+"a": 5.5,
+"u": "rad/s",
+"tol": 0.03,
+"d": [
+[
+"Decompor a tração",
+"Vertical: T·cos θ = m·g. Horizontal: T·sen θ = m·Ω²·r.",
+""
+],
+[
+"Raio da circunferência",
+"A massa gira a r = d + L·sen θ do eixo."
+]
+],
+"h": [
+"Dividindo: tg θ = Ω²·r/g, com r = 0,1 + 0,2 × 0,5 = 0,2 m.",
+"Ω² = g·tg 30°/r = 10 × (1,8/3)/0,2 = 30.",
+"Ω = √30 ≈ <b>5,5 rad/s</b>."
+]
+},
+{
+"id": "2001-2-fis-03a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2001, 2ª fase, Física, questão 3(a)",
+"r": 1490,
+"tm": 45,
+"ctx": "No salto com vara, a energia cinética da corrida vira energia elástica da vara e, depois, energia potencial gravitacional. Um atleta de 80 kg chega a 10 m/s quando a vara começa a flexionar. Use g = 10 m/s². Qual a máxima elevação possível do centro de massa do atleta, se ele passa a barra com velocidade praticamente nula?",
+"a": 5,
+"u": "m",
+"tol": 0,
+"d": [
+[
+"Conservação da energia",
+"Toda a energia cinética vira potencial: m·v²/2 = m·g·h.",
+""
+]
+],
+"h": [
+"h = v²/(2g).",
+"h = 100/20.",
+"h = <b>5,0 m</b>."
+]
+},
+{
+"id": "2001-2-fis-03b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2001, 2ª fase, Física, questão 3(b)",
+"r": 1570,
+"tm": 45,
+"ctx": "No salto com vara, a energia cinética da corrida vira energia elástica da vara e, depois, energia potencial gravitacional. Um atleta de 80 kg chega a 10 m/s quando a vara começa a flexionar. Use g = 10 m/s². O centro de massa sobe no máximo 5,0 m. Para um atleta de 2,0 m de altura, cujo centro de massa fica a cerca de 1,2 m do chão quando em pé, qual o limite estimado da altura do salto?",
+"a": 6.2,
+"u": "m",
+"tol": 0.04,
+"d": [
+[
+"Altura total",
+"O atleta começa com o centro de massa já a ~1,2 m e passa a barra deitado: somam-se as duas alturas.",
+""
+]
+],
+"h": [
+"Elevação do centro de massa: 5,0 m.",
+"Altura inicial do centro de massa: ≈ 1,2 m.",
+"Limite: <b>≈ 6,2 m</b>."
+]
+},
+{
+"id": "2001-2-fis-03c",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2001, 2ª fase, Física, questão 3(c)",
+"r": 1620,
+"tm": 30,
+"ctx": "No salto com vara, a energia cinética da corrida vira energia elástica da vara e, depois, energia potencial gravitacional. Um atleta de 80 kg chega a 10 m/s quando a vara começa a flexionar. Use g = 10 m/s². Um atleta de mesma altura (2,0 m), mas com 60 kg, poderia saltar mais alto, chegando à mesma velocidade?",
+"opts": [
+"Não: a elevação v²/(2g) não depende da massa",
+"Sim: com menos massa ele sobe mais",
+"Não: com menos massa ele sobe menos",
+"Sim: a vara se curva mais com menos peso"
+],
+"a": 0,
+"d": [
+[
+"A massa se cancela",
+"Em m·v²/2 = m·g·h, a massa aparece dos dois lados.",
+""
+]
+],
+"h": [
+"h = v²/(2g) só depende da velocidade.",
+"Mesma velocidade e mesma altura do centro de massa dão o mesmo limite.",
+"<b>Não</b>: o resultado independe da massa."
+]
+},
+{
+"id": "2001-2-fis-04a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2001, 2ª fase, Física, questão 4(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Num modelo da arcada dentária, a mandíbula gira em torno de uma articulação. O músculo masseter atua a 2 cm da articulação, os molares estão a 9 cm e os incisivos a 12 cm (distâncias horizontais). A força máxima do masseter numa mordida é 1.800 N. Quais as forças máximas exercidas pelos incisivos e pelos molares?",
+"fig": "<svg viewBox='0 0 240 140' class='fg' role='img' aria-label='modelo da arcada: barra horizontal articulada à esquerda; o músculo masseter está a 2 cm da articulação, os molares a 9 cm e os incisivos a 12 cm; a mandíbula é uma barra inclinada que parte da articulação'><g fill='none' stroke='currentColor'><circle cx='30' cy='70' r='8' stroke-width='1'/><line x1='38' y1='70' x2='212' y2='70' stroke-width='5'/><line x1='35' y1='76' x2='160' y2='130' stroke-width='5'/><ellipse cx='58' cy='80' rx='5' ry='13' transform='rotate(25 58 80)' stroke-width='0.9'/><line x1='60' y1='72' x2='54' y2='88' stroke-width='2'/><rect x='150' y='72' width='24' height='14' stroke-width='1'/><rect x='205' y='72' width='6' height='16' stroke-width='1'/><g stroke-width='0.6'><line x1='30' y1='10' x2='30' y2='60'/><line x1='60' y1='40' x2='60' y2='66'/><line x1='165' y1='26' x2='165' y2='66'/><line x1='208' y1='12' x2='208' y2='66'/><line x1='32' y1='48' x2='58' y2='48'/><line x1='32' y1='32' x2='163' y2='32'/><line x1='32' y1='18' x2='206' y2='18'/></g></g><g fill='currentColor' font-size='9'><polygon points='32,48 37,45.5 37,50.5'/><polygon points='58,48 53,45.5 53,50.5'/><polygon points='32,32 37,29.5 37,34.5'/><polygon points='163,32 158,29.5 158,34.5'/><polygon points='32,18 37,15.5 37,20.5'/><polygon points='206,18 201,15.5 201,20.5'/><text x='38' y='45'>2 cm</text><text x='90' y='29'>9 cm</text><text x='110' y='15'>12 cm</text><text x='14' y='104'>masseter</text><text x='148' y='98'>molares</text><text x='196' y='100'>incisivos</text></g></svg>",
+"opts": [
+"Incisivos: 300 N; molares: 400 N",
+"Incisivos: 400 N; molares: 300 N",
+"Incisivos: 10.800 N; molares: 8.100 N",
+"Incisivos: 150 N; molares: 200 N"
+],
+"a": 0,
+"d": [
+[
+"Alavanca",
+"Em equilíbrio, os momentos em relação à articulação se anulam: F<sub>músculo</sub> × 2 = F<sub>dente</sub> × (distância do dente).",
+""
+]
+],
+"h": [
+"Incisivos: 1.800 × 2 = F × 12 ⟹ F = 300 N.",
+"Molares: 1.800 × 2 = F × 9 ⟹ F = 400 N.",
+"<b>Incisivos 300 N; molares 400 N</b>."
+]
+},
+{
+"id": "2001-2-fis-04b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2001, 2ª fase, Física, questão 4(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "Num modelo da arcada dentária, a mandíbula gira em torno de uma articulação. O músculo masseter atua a 2 cm da articulação, os molares estão a 9 cm e os incisivos a 12 cm (distâncias horizontais). A força máxima do masseter numa mordida é 1.800 N. Os incisivos exercem 300 N e os molares 400 N. Com área de contato de cerca de 0,2 cm² para um incisivo e 1 cm² para um molar, qual a pressão aplicada pelo incisivo, em MPa?",
+"fig": "<svg viewBox='0 0 240 140' class='fg' role='img' aria-label='modelo da arcada: barra horizontal articulada à esquerda; o músculo masseter está a 2 cm da articulação, os molares a 9 cm e os incisivos a 12 cm; a mandíbula é uma barra inclinada que parte da articulação'><g fill='none' stroke='currentColor'><circle cx='30' cy='70' r='8' stroke-width='1'/><line x1='38' y1='70' x2='212' y2='70' stroke-width='5'/><line x1='35' y1='76' x2='160' y2='130' stroke-width='5'/><ellipse cx='58' cy='80' rx='5' ry='13' transform='rotate(25 58 80)' stroke-width='0.9'/><line x1='60' y1='72' x2='54' y2='88' stroke-width='2'/><rect x='150' y='72' width='24' height='14' stroke-width='1'/><rect x='205' y='72' width='6' height='16' stroke-width='1'/><g stroke-width='0.6'><line x1='30' y1='10' x2='30' y2='60'/><line x1='60' y1='40' x2='60' y2='66'/><line x1='165' y1='26' x2='165' y2='66'/><line x1='208' y1='12' x2='208' y2='66'/><line x1='32' y1='48' x2='58' y2='48'/><line x1='32' y1='32' x2='163' y2='32'/><line x1='32' y1='18' x2='206' y2='18'/></g></g><g fill='currentColor' font-size='9'><polygon points='32,48 37,45.5 37,50.5'/><polygon points='58,48 53,45.5 53,50.5'/><polygon points='32,32 37,29.5 37,34.5'/><polygon points='163,32 158,29.5 158,34.5'/><polygon points='32,18 37,15.5 37,20.5'/><polygon points='206,18 201,15.5 201,20.5'/><text x='38' y='45'>2 cm</text><text x='90' y='29'>9 cm</text><text x='110' y='15'>12 cm</text><text x='14' y='104'>masseter</text><text x='148' y='98'>molares</text><text x='196' y='100'>incisivos</text></g></svg>",
+"a": 15,
+"u": "MPa",
+"tol": 0.02,
+"d": [
+[
+"Pressão",
+"p = F/A, com A em m² (1 cm² = 10⁻⁴ m²). 1 MPa = 10⁶ Pa.",
+""
+]
+],
+"h": [
+"Incisivo: A = 0,2·10⁻⁴ m².",
+"p = 300/(0,2·10⁻⁴) = 1,5·10⁷ Pa.",
+"p = <b>15 MPa</b> (o molar, 4 MPa: os incisivos cortam, os molares trituram)."
+]
+},
+{
+"id": "2001-2-fis-05a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2001, 2ª fase, Física, questão 5(a)",
+"r": 1780,
+"tm": 75,
+"ctx": "Um paraquedista quer superar a velocidade do som (340 m/s) em queda livre, antes de abrir o paraquedas. A velocidade limite de queda é v<sub>max</sub> = 80/√ρ m/s (ρ = densidade do ar, em kg/m³), atingida em menos de 5 km de queda. Densidade do ar por altitude: 10.000 m, 0,36; 15.000 m, 0,25; 20.000 m, 0,09; 25.000 m, 0,04; 30.000 m, 0,02 kg/m³. Em que intervalo está a altitude mínima de onde ele deve saltar?",
+"opts": [
+"Entre 25.000 m e 30.000 m",
+"Entre 20.000 m e 25.000 m",
+"Entre 15.000 m e 20.000 m",
+"Acima de 30.000 m"
+],
+"a": 0,
+"d": [
+[
+"Densidade necessária",
+"Para v<sub>max</sub> > 340 m/s: 80/√ρ > 340 ⟹ ρ < (80/340)².",
+""
+],
+[
+"Distância para acelerar",
+"Ele precisa cair até 5 km para atingir a velocidade limite: some isso à altitude onde o ar já é rarefeito o bastante."
+]
+],
+"h": [
+"ρ < (80/340)² ≈ 0,055 kg/m³: isso ocorre a partir de ≈ 23 km (entre 0,09 e 0,04).",
+"Somando os 5 km de queda: ≈ 28 km.",
+"Altitude mínima <b>entre 25.000 m e 30.000 m</b>."
+]
+},
+{
+"id": "2001-2-fis-05b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2001, 2ª fase, Física, questão 5(b)",
+"r": 1660,
+"tm": 45,
+"ctx": "Um paraquedista quer superar a velocidade do som (340 m/s) em queda livre, antes de abrir o paraquedas. A velocidade limite de queda é v<sub>max</sub> = 80/√ρ m/s (ρ = densidade do ar, em kg/m³), atingida em menos de 5 km de queda. Densidade do ar por altitude: 10.000 m, 0,36; 15.000 m, 0,25; 20.000 m, 0,09; 25.000 m, 0,04; 30.000 m, 0,02 kg/m³. O balão tem volume de 10.000 m³ e massa total de 200 kg. Qual a altitude máxima que ele atinge?",
+"a": 30000,
+"u": "m",
+"tol": 0,
+"d": [
+[
+"Empuxo",
+"O balão sobe enquanto o empuxo (ρ<sub>ar</sub>·V·g) supera o peso (m·g). No limite, ρ<sub>ar</sub>·V = m.",
+""
+]
+],
+"h": [
+"ρ<sub>ar</sub> = m/V = 200/10.000 = 0,02 kg/m³.",
+"Na tabela, 0,02 kg/m³ corresponde a 30.000 m.",
+"Altitude máxima: <b>30.000 m</b>."
+]
+},
+{
+"id": "2001-2-fis-06a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2001, 2ª fase, Física, questão 6(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "O impacto do asteroide que teria extinguido os dinossauros liberou cerca de 10²³ J. Massa do asteroide: 8,0·10¹⁵ kg; massa da Terra: 6,0·10²⁴ kg. Supondo que a energia liberada seja a energia cinética do asteroide, qual a velocidade dele antes da colisão?",
+"a": 5000,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Energia cinética",
+"E = m·v²/2 ⟹ v = √(2E/m). (A energia que sobra no movimento da Terra é desprezível.)",
+""
+]
+],
+"h": [
+"v² = 2 × 10²³ / 8,0·10¹⁵ = 2,5·10⁷.",
+"v = √(2,5·10⁷) = 5·10³.",
+"v = <b>5.000 m/s</b>."
+]
+},
+{
+"id": "2001-2-fis-06b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2001, 2ª fase, Física, questão 6(b)",
+"r": 1740,
+"tm": 60,
+"ctx": "O impacto do asteroide que teria extinguido os dinossauros liberou cerca de 10²³ J. Massa do asteroide: 8,0·10¹⁵ kg; massa da Terra: 6,0·10²⁴ kg. O asteroide (8,0·10¹⁵ kg, a 5.000 m/s) fica encravado na Terra. Qual a velocidade de recuo da Terra logo após a colisão?",
+"opts": [
+"≈ 7·10⁻⁶ m/s",
+"≈ 7·10⁻³ m/s",
+"≈ 5·10³ m/s",
+"≈ 1·10⁻¹⁸ m/s"
+],
+"a": 0,
+"d": [
+[
+"Colisão inelástica",
+"Momento conservado: m·v = (m + M)·V. Como M ≫ m, V ≈ m·v/M.",
+""
+]
+],
+"h": [
+"V ≈ 8,0·10¹⁵ × 5.000 / 6,0·10²⁴.",
+"= 4·10¹⁹/6·10²⁴ ≈ 6,7·10⁻⁶.",
+"V ≈ <b>7·10⁻⁶ m/s</b>: praticamente nada."
+]
+},
+{
+"id": "2001-2-fis-07a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 2001, 2ª fase, Física, questão 7(a)",
+"r": 1700,
+"tm": 45,
+"ctx": "Galileu propôs que uma viga cilíndrica de diâmetro d e vão livre L, apoiada nas extremidades, rompe-se sob uma força vertical F no centro dada por F = σ·d³/L, onde σ é a tensão de ruptura do material. Seja γ o peso específico (peso por unidade de volume) do material. Quais as unidades de σ no SI?",
+"fig": "<svg viewBox='0 0 230 110' class='fg' role='img' aria-label='viga cilíndrica de diâmetro d e comprimento L apoiada nas extremidades, com uma força vertical F aplicada no centro, a L/2 de um apoio'><g fill='none' stroke='currentColor'><rect x='25' y='50' width='180' height='18' rx='3' fill='currentColor' fill-opacity='0.12' stroke-width='1.4'/><ellipse cx='205' cy='59' rx='4' ry='9' stroke-width='1'/><polygon points='25,68 17,84 33,84' stroke-width='1.2'/><polygon points='205,68 197,84 213,84' stroke-width='1.2'/><line x1='115' y1='18' x2='115' y2='46' stroke-width='1.6'/><g stroke-width='0.6'><line x1='25' y1='30' x2='113' y2='30'/><line x1='25' y1='96' x2='205' y2='96'/><line x1='25' y1='26' x2='25' y2='48'/><line x1='25' y1='88' x2='25' y2='100'/><line x1='205' y1='88' x2='205' y2='100'/></g></g><g fill='currentColor' font-size='9'><polygon points='115,49 111,41 119,41'/><polygon points='25,30 30,28 30,32'/><polygon points='113,30 108,28 108,32'/><polygon points='25,96 30,94 30,98'/><polygon points='205,96 200,94 200,98'/><text x='119' y='22'>F</text><text x='62' y='27'>L/2</text><text x='112' y='107'>L</text><text x='212' y='62'>d</text></g></svg>",
+"opts": [
+"N/m² (= kg/(m·s²))",
+"N·m",
+"N/m³",
+"N"
+],
+"a": 0,
+"d": [
+[
+"Análise dimensional",
+"Isole σ = F·L/d³ e substitua as unidades: F em N, L e d em m.",
+""
+]
+],
+"h": [
+"σ = F·L/d³.",
+"[σ] = N·m/m³ = N/m².",
+"<b>N/m²</b> (pascal, = kg·m⁻¹·s⁻²)."
+]
+},
+{
+"id": "2001-2-fis-07b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 2001, 2ª fase, Física, questão 7(b)",
+"r": 1740,
+"tm": 45,
+"ctx": "Galileu propôs que uma viga cilíndrica de diâmetro d e vão livre L, apoiada nas extremidades, rompe-se sob uma força vertical F no centro dada por F = σ·d³/L, onde σ é a tensão de ruptura do material. Seja γ o peso específico (peso por unidade de volume) do material. Qual o peso total da viga em função de γ, d e L?",
+"fig": "<svg viewBox='0 0 230 110' class='fg' role='img' aria-label='viga cilíndrica de diâmetro d e comprimento L apoiada nas extremidades, com uma força vertical F aplicada no centro, a L/2 de um apoio'><g fill='none' stroke='currentColor'><rect x='25' y='50' width='180' height='18' rx='3' fill='currentColor' fill-opacity='0.12' stroke-width='1.4'/><ellipse cx='205' cy='59' rx='4' ry='9' stroke-width='1'/><polygon points='25,68 17,84 33,84' stroke-width='1.2'/><polygon points='205,68 197,84 213,84' stroke-width='1.2'/><line x1='115' y1='18' x2='115' y2='46' stroke-width='1.6'/><g stroke-width='0.6'><line x1='25' y1='30' x2='113' y2='30'/><line x1='25' y1='96' x2='205' y2='96'/><line x1='25' y1='26' x2='25' y2='48'/><line x1='25' y1='88' x2='25' y2='100'/><line x1='205' y1='88' x2='205' y2='100'/></g></g><g fill='currentColor' font-size='9'><polygon points='115,49 111,41 119,41'/><polygon points='25,30 30,28 30,32'/><polygon points='113,30 108,28 108,32'/><polygon points='25,96 30,94 30,98'/><polygon points='205,96 200,94 200,98'/><text x='119' y='22'>F</text><text x='62' y='27'>L/2</text><text x='112' y='107'>L</text><text x='212' y='62'>d</text></g></svg>",
+"opts": [
+"P = γ·π·d²·L/4",
+"P = γ·π·d²·L",
+"P = γ·π·d·L",
+"P = γ·d³/L"
+],
+"a": 0,
+"d": [
+[
+"Volume do cilindro",
+"V = (área da base) × comprimento, com área da base π·(d/2)².",
+""
+],
+[
+"Peso específico",
+"P = γ·V."
+]
+],
+"h": [
+"V = π·(d/2)²·L = π·d²·L/4.",
+"P = γ·V.",
+"<b>P = γ·π·d²·L/4</b>."
+]
+},
+{
+"id": "2001-2-fis-07c",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2001, 2ª fase, Física, questão 7(c)",
+"r": 2080,
+"tm": 120,
+"ctx": "Galileu propôs que uma viga cilíndrica de diâmetro d e vão livre L, apoiada nas extremidades, rompe-se sob uma força vertical F no centro dada por F = σ·d³/L, onde σ é a tensão de ruptura do material. Seja γ o peso específico (peso por unidade de volume) do material. Uma viga de diâmetro d₁ se rompe sob o próprio peso se o comprimento passar de L₁. Qual o diâmetro mínimo de uma viga do mesmo material, com comprimento 2L₁, para não se romper sob o próprio peso?",
+"fig": "<svg viewBox='0 0 230 110' class='fg' role='img' aria-label='viga cilíndrica de diâmetro d e comprimento L apoiada nas extremidades, com uma força vertical F aplicada no centro, a L/2 de um apoio'><g fill='none' stroke='currentColor'><rect x='25' y='50' width='180' height='18' rx='3' fill='currentColor' fill-opacity='0.12' stroke-width='1.4'/><ellipse cx='205' cy='59' rx='4' ry='9' stroke-width='1'/><polygon points='25,68 17,84 33,84' stroke-width='1.2'/><polygon points='205,68 197,84 213,84' stroke-width='1.2'/><line x1='115' y1='18' x2='115' y2='46' stroke-width='1.6'/><g stroke-width='0.6'><line x1='25' y1='30' x2='113' y2='30'/><line x1='25' y1='96' x2='205' y2='96'/><line x1='25' y1='26' x2='25' y2='48'/><line x1='25' y1='88' x2='25' y2='100'/><line x1='205' y1='88' x2='205' y2='100'/></g></g><g fill='currentColor' font-size='9'><polygon points='115,49 111,41 119,41'/><polygon points='25,30 30,28 30,32'/><polygon points='113,30 108,28 108,32'/><polygon points='25,96 30,94 30,98'/><polygon points='205,96 200,94 200,98'/><text x='119' y='22'>F</text><text x='62' y='27'>L/2</text><text x='112' y='107'>L</text><text x='212' y='62'>d</text></g></svg>",
+"opts": [
+"4d₁",
+"2d₁",
+"√2·d₁",
+"8d₁"
+],
+"a": 0,
+"d": [
+[
+"Limite de ruptura",
+"No limite, o próprio peso faz o papel de F: γ·π·d²·L/4 = σ·d³/L.",
+""
+],
+[
+"Isolar d",
+"Simplificando, d é proporcional a L²: dobrar L multiplica d por 2² = 4."
+]
+],
+"h": [
+"γπd²L/4 = σd³/L ⟹ d = γπL²/(4σ).",
+"d ∝ L²: com 2L₁, d = 4·(γπL₁²/4σ) = 4d₁.",
+"d<sub>mín</sub> = <b>4d₁</b>."
+]
+},
+{
+"id": "2001-2-fis-08a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2001, 2ª fase, Física, questão 8(a) (o enunciado original troca os nomes das fontes quente e fria)",
+"r": 1910,
+"tm": 90,
+"ctx": "Uma termelétrica queima 7.200 kg de gás natural por hora (5,0·10⁷ J por kg), com a fonte quente a 1.227 °C. O calor não aproveitado vai para um rio com vazão de 5.000 L/s, inicialmente a 27 °C. A eficiência máxima teórica é η = 1 − T<sub>fria</sub>/T<sub>quente</sub> (em kelvin). Calor específico da água: 4.000 J/(kg·°C). Qual a potência gerada por uma usina com metade da eficiência máxima teórica, em MW?",
+"a": 40,
+"u": "MW",
+"tol": 0.01,
+"d": [
+[
+"Eficiência de Carnot",
+"Converta para kelvin (T = θ + 273) e use η = 1 − T<sub>fria</sub>/T<sub>quente</sub>.",
+""
+],
+[
+"Potência",
+"Potência do calor = energia por hora ÷ 3.600 s; potência útil = eficiência × essa potência."
+]
+],
+"h": [
+"T<sub>quente</sub> = 1.500 K; T<sub>fria</sub> = 300 K: η<sub>max</sub> = 1 − 300/1.500 = 0,8; a usina tem 0,4.",
+"Calor: 7.200 × 5,0·10⁷ / 3.600 = 1,0·10⁸ W.",
+"P = 0,4 × 10⁸ = <b>4·10⁷ W = 40 MW</b>."
+]
+},
+{
+"id": "2001-2-fis-08b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2001, 2ª fase, Física, questão 8(b)",
+"r": 1960,
+"tm": 75,
+"ctx": "Uma termelétrica queima 7.200 kg de gás natural por hora (5,0·10⁷ J por kg), com a fonte quente a 1.227 °C. O calor não aproveitado vai para um rio com vazão de 5.000 L/s, inicialmente a 27 °C. A eficiência máxima teórica é η = 1 − T<sub>fria</sub>/T<sub>quente</sub> (em kelvin). Calor específico da água: 4.000 J/(kg·°C). A usina recebe 1,0·10⁸ W de calor e gera 4·10⁷ W. De quanto aumenta a temperatura do rio ao passar por ela?",
+"a": 3,
+"u": "°C",
+"tol": 0.01,
+"d": [
+[
+"Calor rejeitado",
+"O que não vira trabalho vai para o rio: P<sub>rio</sub> = P<sub>calor</sub> − P<sub>útil</sub>.",
+""
+],
+[
+"Aquecimento contínuo",
+"Por segundo: P = (massa por segundo)·c·ΔT. 5.000 L/s de água = 5.000 kg/s."
+]
+],
+"h": [
+"P<sub>rio</sub> = 1,0·10⁸ − 0,4·10⁸ = 6·10⁷ W.",
+"ΔT = 6·10⁷ / (5.000 × 4.000).",
+"ΔT = <b>3 °C</b>."
+]
+},
+{
+"id": "2001-2-fis-09a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2001, 2ª fase, Física, questão 9(a)",
+"r": 2000,
+"tm": 90,
+"ctx": "Um diapasão de 440 Hz vibra junto à boca de um tubo com água; a altura da coluna de ar pode ser ajustada. Há um máximo de intensidade do som com a coluna de ar de 0,6 m, e o efeito se repete pela primeira vez com 1,0 m. Lembre que v = λ·f. Qual a velocidade do som no ar nessas condições?",
+"a": 352,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Ressonâncias seguidas",
+"Num tubo fechado (pela água) e aberto em cima, duas ressonâncias consecutivas diferem de meio comprimento de onda.",
+""
+]
+],
+"h": [
+"λ/2 = 1,0 − 0,6 = 0,4 m ⟹ λ = 0,8 m.",
+"v = λ·f = 0,8 × 440.",
+"v = <b>352 m/s</b>."
+]
+},
+{
+"id": "2001-2-fis-09b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2001, 2ª fase, Física, questão 9(b)",
+"r": 1910,
+"tm": 60,
+"ctx": "Um diapasão de 440 Hz vibra junto à boca de um tubo com água; a altura da coluna de ar pode ser ajustada. Há um máximo de intensidade do som com a coluna de ar de 0,6 m, e o efeito se repete pela primeira vez com 1,0 m. Lembre que v = λ·f. Qual o comprimento de onda do som do diapasão?",
+"a": 0.8,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Ressonâncias seguidas",
+"A distância entre duas posições de ressonância consecutivas é λ/2.",
+""
+],
+[
+"Conferindo",
+"Num tubo fechado, ressonâncias ocorrem em L = λ/4, 3λ/4, 5λ/4..."
+]
+],
+"h": [
+"λ/2 = 1,0 − 0,6 = 0,4 m.",
+"λ = 0,8 m (e 0,6 m = 3λ/4).",
+"λ = <b>0,8 m</b>."
+]
+},
+{
+"id": "2001-2-fis-10a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2001, 2ª fase, Física, questão 10(a)",
+"r": 1830,
+"tm": 45,
+"ctx": "O gráfico mostra a ddp e a corrente num dispositivo de um microcomputador. A ddp sobe de 0 a 2 V entre 0 e 1 ns, fica em 2 V até 2 ns, desce a 0 entre 2 e 3 ns, fica em 0 até 4 ns, e o ciclo se repete. A corrente vale 1·10⁻¹² A, exceto entre 1 e 2 ns (e 5 e 6 ns), quando é zero. Qual a frequência de operação do dispositivo, em GHz?",
+"fig": "<svg viewBox='0 0 230 165' class='fg' role='img' aria-label='dois gráficos em função do tempo, de 0 a 8 nanossegundos: a ddp sobe de 0 a 2 V entre 0 e 1, fica em 2 V até 2, desce a 0 entre 2 e 3, fica em 0 até 4, e repete; a corrente vale 1 vezes 10 elevado a menos 12 A, exceto entre 1 e 2 e entre 5 e 6, quando é zero'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='52' y1='10' x2='52' y2='145'/><line x1='74' y1='10' x2='74' y2='145'/><line x1='96' y1='10' x2='96' y2='145'/><line x1='118' y1='10' x2='118' y2='145'/><line x1='140' y1='10' x2='140' y2='145'/><line x1='162' y1='10' x2='162' y2='145'/><line x1='184' y1='10' x2='184' y2='145'/><line x1='206' y1='10' x2='206' y2='145'/></g><polyline points='30,8 30,70 213,70' stroke-width='1.1'/><polyline points='30,85 30,145 213,145' stroke-width='1.1'/><polyline points='30.0,70.0 52.0,22.0 74.0,22.0 96.0,70.0 118.0,70.0 140.0,22.0 162.0,22.0 184.0,70.0 206.0,70.0' stroke-width='1.6'/><polyline points='30.0,101.0 52.0,101.0 52.0,145.0 74.0,145.0 74.0,101.0 140.0,101.0 140.0,145.0 162.0,145.0 162.0,101.0 206.0,101.0' stroke-width='1.6'/></g><g fill='currentColor' font-size='8'><text x='14' y='73'>0</text><text x='14' y='49'>1</text><text x='14' y='25'>2</text><text x='14' y='148'>0</text><text x='14' y='104'>1</text><text x='34' y='8'>ddp (V)</text><text x='34' y='86'>corrente (10⁻¹² A)</text><text x='28' y='156'>0</text><text x='72' y='156'>2</text><text x='116' y='156'>4</text><text x='160' y='156'>6</text><text x='204' y='156'>8</text><text x='120' y='164'>tempo (10⁻⁹ s)</text></g></svg>",
+"a": 0.25,
+"u": "GHz",
+"tol": 0.01,
+"d": [
+[
+"Período",
+"Ache o tempo de um ciclo completo (até o padrão se repetir) e use f = 1/T.",
+""
+]
+],
+"h": [
+"O padrão se repete a cada T = 4 ns = 4·10⁻⁹ s.",
+"f = 1/(4·10⁻⁹) = 2,5·10⁸ Hz.",
+"f = <b>0,25 GHz</b> (250 MHz)."
+]
+},
+{
+"id": "2001-2-fis-10c",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2001, 2ª fase, Física, questão 10(c) (com o item b)",
+"r": 2040,
+"tm": 90,
+"ctx": "O gráfico mostra a ddp e a corrente num dispositivo de um microcomputador. A ddp sobe de 0 a 2 V entre 0 e 1 ns, fica em 2 V até 2 ns, desce a 0 entre 2 e 3 ns, fica em 0 até 4 ns, e o ciclo se repete. A corrente vale 1·10⁻¹² A, exceto entre 1 e 2 ns (e 5 e 6 ns), quando é zero. Qual a potência média dissipada no dispositivo durante um período, em 10⁻¹² W (pW)?",
+"fig": "<svg viewBox='0 0 230 165' class='fg' role='img' aria-label='dois gráficos em função do tempo, de 0 a 8 nanossegundos: a ddp sobe de 0 a 2 V entre 0 e 1, fica em 2 V até 2, desce a 0 entre 2 e 3, fica em 0 até 4, e repete; a corrente vale 1 vezes 10 elevado a menos 12 A, exceto entre 1 e 2 e entre 5 e 6, quando é zero'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='52' y1='10' x2='52' y2='145'/><line x1='74' y1='10' x2='74' y2='145'/><line x1='96' y1='10' x2='96' y2='145'/><line x1='118' y1='10' x2='118' y2='145'/><line x1='140' y1='10' x2='140' y2='145'/><line x1='162' y1='10' x2='162' y2='145'/><line x1='184' y1='10' x2='184' y2='145'/><line x1='206' y1='10' x2='206' y2='145'/></g><polyline points='30,8 30,70 213,70' stroke-width='1.1'/><polyline points='30,85 30,145 213,145' stroke-width='1.1'/><polyline points='30.0,70.0 52.0,22.0 74.0,22.0 96.0,70.0 118.0,70.0 140.0,22.0 162.0,22.0 184.0,70.0 206.0,70.0' stroke-width='1.6'/><polyline points='30.0,101.0 52.0,101.0 52.0,145.0 74.0,145.0 74.0,101.0 140.0,101.0 140.0,145.0 162.0,145.0 162.0,101.0 206.0,101.0' stroke-width='1.6'/></g><g fill='currentColor' font-size='8'><text x='14' y='73'>0</text><text x='14' y='49'>1</text><text x='14' y='25'>2</text><text x='14' y='148'>0</text><text x='14' y='104'>1</text><text x='34' y='8'>ddp (V)</text><text x='34' y='86'>corrente (10⁻¹² A)</text><text x='28' y='156'>0</text><text x='72' y='156'>2</text><text x='116' y='156'>4</text><text x='160' y='156'>6</text><text x='204' y='156'>8</text><text x='120' y='164'>tempo (10⁻⁹ s)</text></g></svg>",
+"a": 0.5,
+"u": "pW",
+"tol": 0.01,
+"d": [
+[
+"Potência instantânea",
+"P = V·I em cada instante. Monte P(t) trecho a trecho.",
+""
+],
+[
+"Média",
+"P<sub>média</sub> = energia num período ÷ período; a energia é a área sob P(t)."
+]
+],
+"h": [
+"0–1 ns: V sobe e I = 1 pA, P sobe de 0 a 2 pW. 1–2 ns: I = 0. 2–3 ns: P desce de 2 a 0. 3–4 ns: V = 0.",
+"Área: dois triângulos de base 1 ns e altura 2 pW = 2·10⁻²¹ J.",
+"P<sub>média</sub> = 2·10⁻²¹ / 4·10⁻⁹ = <b>0,5·10⁻¹² W</b>."
+]
+},
+{
+"id": "2001-2-fis-11b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2001, 2ª fase, Física, questão 11(b) (item b)",
+"r": 1870,
+"tm": 75,
+"ctx": "O \"olho-de-gato\" das estradas usa prismas retos de plástico: a luz entra perpendicular à face plana OG e sofre reflexão total nas faces AC e BC, que formam 45° com o raio, voltando para trás. Com o prisma no ar (n = 1,0), qual o menor índice de refração do plástico para que toda a luz seja refletida?",
+"fig": "<svg viewBox='0 0 160 145' class='fg' role='img' aria-label='olho-de-gato: placa de plástico com face plana OG à esquerda, por onde a luz entra, e uma fileira de prismas retos à direita, em dentes de serra; no prisma ABC, com ângulo reto em C, um raio entra perpendicular a OG, reflete em AC, desce, reflete em BC e volta paralelo ao raio incidente'><g fill='none' stroke='currentColor'><path d='M60,10 L100,10 L120,30 L100,50 L120,70 L100,90 L120,110 L100,130 L60,130 Z' fill='currentColor' fill-opacity='0.15' stroke-width='1.3'/><line x1='100' y1='50' x2='100' y2='90' stroke-width='0.8' stroke-dasharray='2 2'/><polyline points='116.5,66.5 113,70 116.5,73.5' stroke-width='0.7'/><polyline points='10,60 110,60 110,80 10,80' stroke-width='1.2'/></g><g fill='currentColor' font-size='9'><polygon points='45,60 37,57 37,63'/><polygon points='110,74 107,67 113,67'/><polygon points='30,80 38,77 38,83'/><text x='55' y='8'>O</text><text x='55' y='142'>G</text><text x='91' y='54'>A</text><text x='124' y='73'>C</text><text x='91' y='96'>B</text><text x='10' y='54'>luz</text></g></svg>",
+"a": 1.4142135623730951,
+"tol": 0.01,
+"d": [
+[
+"Reflexão total",
+"Ocorre quando o ângulo de incidência é maior ou igual ao ângulo limite L, com sen L = n<sub>ar</sub>/n<sub>prisma</sub>.",
+""
+],
+[
+"Ângulo de incidência",
+"O raio chega em AC com 45° em relação à normal."
+]
+],
+"h": [
+"Na condição limite, L = 45°: sen 45° = 1/n.",
+"n = 1/sen 45° = 1/(√2/2).",
+"n<sub>mín</sub> = <b>√2 ≈ 1,41</b>."
+]
+},
+{
+"id": "2001-2-fis-12a",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2001, 2ª fase, Física, questão 12(a)",
+"r": 1740,
+"tm": 45,
+"ctx": "Numa impressora a jato de tinta, gotas eletrizadas atravessam, com velocidade horizontal v, uma região de comprimento L com campo elétrico uniforme entre duas placas, e são desviadas. Gota típica: m = 1,0·10⁻¹⁰ kg, q = −2,0·10⁻¹³ C, v = 6,0 m/s; L = 8,0·10⁻³ m; E = 1,5·10⁶ N/C. Use g = 10 m/s². Qual a razão F<sub>E</sub>/F<sub>P</sub> entre os módulos da força elétrica e do peso da gota?",
+"fig": "<svg viewBox='0 0 240 110' class='fg' role='img' aria-label='impressora a jato de tinta: gerador de gotas, carregador e, depois, duas placas defletoras de comprimento L, a de cima positiva e a de baixo negativa; a gota negativa entra com velocidade v horizontal, é desviada para cima entre as placas e segue até o papel'><g fill='none' stroke='currentColor'><rect x='5' y='45' width='40' height='22' stroke-width='1'/><rect x='56' y='45' width='56' height='22' stroke-width='1'/><rect x='130' y='28' width='50' height='5' fill='currentColor' fill-opacity='0.3' stroke-width='1'/><rect x='130' y='80' width='50' height='5' fill='currentColor' fill-opacity='0.3' stroke-width='1'/><line x1='225' y1='5' x2='225' y2='105' stroke-width='2'/><path d='M45,56 L56,56 M112,56 L130,56 Q160,54 180,44 L225,22' stroke-width='1' stroke-dasharray='3 2'/><line x1='130' y1='18' x2='180' y2='18' stroke-width='0.6'/></g><g fill='currentColor' font-size='8'><circle cx='50' cy='56' r='2.5'/><circle cx='121' cy='56' r='2.5'/><polygon points='130,18 135,16 135,20'/><polygon points='180,18 175,16 175,20'/><text x='8' y='59'>gerador</text><text x='59' y='59' font-size='7'>carregador</text><text x='152' y='15'>L</text><text x='186' y='33'>+ + +</text><text x='186' y='86'>− − −</text><text x='221' y='104' text-anchor='end'>papel</text><text x='118' y='70'>v</text><text x='126' y='100'>placas defletoras</text></g></svg>",
+"a": 300,
+"tol": 0.01,
+"d": [
+[
+"Forças",
+"F<sub>E</sub> = |q|·E e F<sub>P</sub> = m·g.",
+""
+]
+],
+"h": [
+"F<sub>E</sub> = 2,0·10⁻¹³ × 1,5·10⁶ = 3,0·10⁻⁷ N.",
+"F<sub>P</sub> = 1,0·10⁻¹⁰ × 10 = 1,0·10⁻⁹ N.",
+"F<sub>E</sub>/F<sub>P</sub> = <b>300</b>: o peso é desprezível."
+]
+},
+{
+"id": "2001-2-fis-12b",
+"ano": 2001,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2001, 2ª fase, Física, questão 12(b)",
+"r": 1960,
+"tm": 75,
+"ctx": "Numa impressora a jato de tinta, gotas eletrizadas atravessam, com velocidade horizontal v, uma região de comprimento L com campo elétrico uniforme entre duas placas, e são desviadas. Gota típica: m = 1,0·10⁻¹⁰ kg, q = −2,0·10⁻¹³ C, v = 6,0 m/s; L = 8,0·10⁻³ m; E = 1,5·10⁶ N/C. Use g = 10 m/s². Qual a componente vertical da velocidade da gota ao sair da região com campo?",
+"fig": "<svg viewBox='0 0 240 110' class='fg' role='img' aria-label='impressora a jato de tinta: gerador de gotas, carregador e, depois, duas placas defletoras de comprimento L, a de cima positiva e a de baixo negativa; a gota negativa entra com velocidade v horizontal, é desviada para cima entre as placas e segue até o papel'><g fill='none' stroke='currentColor'><rect x='5' y='45' width='40' height='22' stroke-width='1'/><rect x='56' y='45' width='56' height='22' stroke-width='1'/><rect x='130' y='28' width='50' height='5' fill='currentColor' fill-opacity='0.3' stroke-width='1'/><rect x='130' y='80' width='50' height='5' fill='currentColor' fill-opacity='0.3' stroke-width='1'/><line x1='225' y1='5' x2='225' y2='105' stroke-width='2'/><path d='M45,56 L56,56 M112,56 L130,56 Q160,54 180,44 L225,22' stroke-width='1' stroke-dasharray='3 2'/><line x1='130' y1='18' x2='180' y2='18' stroke-width='0.6'/></g><g fill='currentColor' font-size='8'><circle cx='50' cy='56' r='2.5'/><circle cx='121' cy='56' r='2.5'/><polygon points='130,18 135,16 135,20'/><polygon points='180,18 175,16 175,20'/><text x='8' y='59'>gerador</text><text x='59' y='59' font-size='7'>carregador</text><text x='152' y='15'>L</text><text x='186' y='33'>+ + +</text><text x='186' y='86'>− − −</text><text x='221' y='104' text-anchor='end'>papel</text><text x='118' y='70'>v</text><text x='126' y='100'>placas defletoras</text></g></svg>",
+"a": 4,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Como um lançamento horizontal",
+"Na horizontal, velocidade constante: o tempo entre as placas é t = L/v. Na vertical, aceleração constante a = |q|E/m (o peso é desprezível).",
+""
+]
+],
+"h": [
+"t = 8,0·10⁻³ / 6,0 ≈ 1,33·10⁻³ s; a = 3,0·10⁻⁷/1,0·10⁻¹⁰ = 3,0·10³ m/s².",
+"v<sub>y</sub> = a·t = 3,0·10³ × 1,33·10⁻³.",
+"v<sub>y</sub> = <b>4,0 m/s</b>."
+]
+},
+{
+"id": "2001-2-qui-01a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 1(a)",
+"r": 1910,
+"tm": 75,
+"ctx": "O ácido oleico, CH₃(CH₂)₇CH=CH(CH₂)₇COOH (ou R–COOH), forma uma camada de uma molécula de espessura sobre a água. Numa experiência foram usados 1,4·10⁻⁵ g do ácido, cerca de 3·10¹⁶ moléculas. Se essa quantidade reagisse completamente com iodo (I₂), quantos gramas de iodo seriam gastos? (I = 127 g/mol; 6·10²³ mol⁻¹)",
+"opts": [
+"1,27·10⁻⁵ g",
+"6,3·10⁻⁶ g",
+"2,54·10⁻⁵ g",
+"3·10¹⁶ g"
+],
+"a": 0,
+"d": [
+[
+"Adição na dupla ligação",
+"O I₂ se adiciona à ligação C=C: cada dupla consome uma molécula de I₂. O ácido oleico tem uma dupla.",
+""
+],
+[
+"Moléculas → massa",
+"Massa = (número de moléculas ÷ 6·10²³) × massa molar."
+]
+],
+"h": [
+"3·10¹⁶ moléculas de ácido consomem 3·10¹⁶ moléculas de I₂ (254 g/mol).",
+"m = 3·10¹⁶/6·10²³ × 254 = 5·10⁻⁸ × 254.",
+"m = <b>1,27·10⁻⁵ g</b>."
+]
+},
+{
+"id": "2001-2-qui-01b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2001, 2ª fase, Química, questão 1(b)",
+"r": 1830,
+"tm": 45,
+"ctx": "O ácido oleico, CH₃(CH₂)₇CH=CH(CH₂)₇COOH (ou R–COOH), forma uma camada de uma molécula de espessura sobre a água. Numa experiência foram usados 1,4·10⁻⁵ g do ácido, cerca de 3·10¹⁶ moléculas. Como as moléculas do ácido oleico interagem com as da água, na superfície?",
+"opts": [
+"O grupo –COOH, polar, faz ligações de hidrogênio com a água; a cadeia apolar fica para fora",
+"A cadeia carbônica se dissolve na água e o –COOH fica para fora",
+"O ácido reage com a água formando um sal insolúvel",
+"Não interagem: o ácido apenas boia por ser menos denso"
+],
+"a": 0,
+"d": [
+[
+"Molécula anfifílica",
+"Uma ponta polar (que gosta de água) e uma longa cadeia apolar (que foge dela).",
+""
+],
+[
+"Ligação de hidrogênio",
+"O O–H e o C=O da carboxila interagem com H e O da água."
+]
+],
+"h": [
+"A carboxila é polar: fica em contato com a água.",
+"Ela faz ligações de hidrogênio com as moléculas de água; a cadeia de hidrocarboneto aponta para o ar.",
+"<b>Ligações de hidrogênio entre o –COOH e a água</b>."
+]
+},
+{
+"id": "2001-2-qui-02a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 2(a)",
+"r": 1700,
+"tm": 30,
+"ctx": "A oleamida, C₁₈H₃₅NO, é uma amida derivada do ácido oleico (CH₃(CH₂)₇CH=CH(CH₂)₇COOH) e estaria ligada ao sono; só o isômero cis é ativo. No sono, ela é hidrolisada a ácido oleico. Qual a representação da função amida?",
+"opts": [
+"R–CO–NH₂ (carbonila ligada a nitrogênio)",
+"R–NH₂",
+"R–CO–O–R′",
+"R–C≡N"
+],
+"a": 0,
+"d": [
+[
+"Grupos funcionais",
+"Amida = carbonila (C=O) ligada diretamente a um nitrogênio. Amina tem N sem a carbonila; éster tem C=O ligado a O.",
+""
+]
+],
+"h": [
+"Amida derivada de ácido: troca-se o –OH do –COOH por –NH₂.",
+"Fica –C(=O)–NH₂.",
+"<b>R–CO–NH₂</b>."
+]
+},
+{
+"id": "2001-2-qui-02b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 2(b)",
+"r": 1870,
+"tm": 45,
+"ctx": "A oleamida, C₁₈H₃₅NO, é uma amida derivada do ácido oleico (CH₃(CH₂)₇CH=CH(CH₂)₇COOH) e estaria ligada ao sono; só o isômero cis é ativo. No sono, ela é hidrolisada a ácido oleico. Qual a estrutura do isômero ativo?",
+"opts": [
+"CH₃(CH₂)₇–CH=CH–(CH₂)₇–CONH₂ com os dois H da dupla do mesmo lado (cis)",
+"CH₃(CH₂)₇–CH=CH–(CH₂)₇–CONH₂ com os dois H da dupla em lados opostos (trans)",
+"CH₂=CH–(CH₂)₁₅–CONH₂",
+"Um isômero óptico com carbono quiral"
+],
+"a": 0,
+"d": [
+[
+"Isomeria geométrica",
+"Numa dupla C=C com dois grupos diferentes em cada carbono, cis = grupos iguais (ou as cadeias) do mesmo lado; trans = em lados opostos.",
+""
+]
+],
+"h": [
+"A amida mantém a cadeia do ácido oleico e troca –COOH por –CONH₂.",
+"O isômero ativo é o cis: H e H do mesmo lado da dupla (e as duas cadeias também).",
+"<b>cis-CH₃(CH₂)₇CH=CH(CH₂)₇CONH₂</b>."
+]
+},
+{
+"id": "2001-2-qui-02c",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 2(c)",
+"r": 1910,
+"tm": 45,
+"ctx": "A oleamida, C₁₈H₃₅NO, é uma amida derivada do ácido oleico (CH₃(CH₂)₇CH=CH(CH₂)₇COOH) e estaria ligada ao sono; só o isômero cis é ativo. No sono, ela é hidrolisada a ácido oleico. Qual a equação da hidrólise da oleamida? (R = CH₃(CH₂)₇CH=CH(CH₂)₇–)",
+"opts": [
+"R–CONH₂ + H₂O → R–COOH + NH₃",
+"R–CONH₂ + H₂O → R–CH₂OH + HNO",
+"R–CONH₂ → R–COOH + N₂",
+"R–CONH₂ + H₂ → R–CH₃ + NH₂OH"
+],
+"a": 0,
+"d": [
+[
+"Hidrólise de amida",
+"A água quebra a ligação C–N: o C ganha –OH (vira ácido) e o N ganha H (vira amônia ou amina).",
+""
+]
+],
+"h": [
+"O produto orgânico é o ácido oleico, R–COOH.",
+"O nitrogênio sai como NH₃.",
+"<b>R–CONH₂ + H₂O → R–COOH + NH₃</b>."
+]
+},
+{
+"id": "2001-2-qui-03a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2001, 2ª fase, Química, questão 3(a)",
+"r": 1700,
+"tm": 45,
+"ctx": "Duas garrafas fechadas, A e B, estão ligadas por um tubo em U com água: a coluna I fica do lado de A e a coluna II do lado de B. Em A há alumínio metálico; em B, a mesma quantidade em mols de magnésio metálico. Virando as garrafas, cada metal reage com ácido clorídrico. Qual a equação da reação do alumínio com o ácido?",
+"fig": "<svg viewBox='0 0 230 130' class='fg' role='img' aria-label='duas garrafas fechadas, A à esquerda com alumínio em tiras e B à direita com magnésio em tiras, cada uma com um recipiente de solução de ácido; as garrafas são ligadas por conexões flexíveis a um tubo em U com água colorida; a coluna I fica do lado de A e a coluna II do lado de B'><g fill='none' stroke='currentColor'><rect x='10' y='20' width='50' height='95' rx='10' stroke-width='1.4'/><rect x='170' y='20' width='50' height='95' rx='10' stroke-width='1.4'/><polyline points='60,30 90,30 90,105 140,105 140,30 170,30' stroke-width='1'/><polyline points='98,30 98,97 132,97 132,30' stroke-width='1'/><rect x='90' y='60' width='8' height='45' fill='currentColor' fill-opacity='0.3' stroke='none'/><rect x='132' y='60' width='8' height='45' fill='currentColor' fill-opacity='0.3' stroke='none'/><rect x='98' y='97' width='34' height='8' fill='currentColor' fill-opacity='0.3' stroke='none'/><rect x='18' y='85' width='14' height='22' stroke-width='0.9'/><rect x='198' y='85' width='14' height='22' stroke-width='0.9'/><path d='M38,108 l4,-10 l4,10 l4,-10' stroke-width='1'/><path d='M178,108 l4,-10 l4,10 l4,-10' stroke-width='1'/></g><g fill='currentColor' font-size='8'><text x='31' y='14' font-size='10'>A</text><text x='191' y='14' font-size='10'>B</text><text x='79' y='55'>I</text><text x='145' y='55'>II</text><text x='12' y='126'>Al + ácido</text><text x='168' y='126'>Mg + ácido</text><text x='96' y='122'>tubo em U</text></g></svg>",
+"opts": [
+"2 Al + 6 HCl → 2 AlCl₃ + 3 H₂",
+"Al + HCl → AlCl + ½ H₂",
+"2 Al + 3 HCl → Al₂Cl₃ + 3 H",
+"Al + 2 HCl → AlCl₂ + H₂"
+],
+"a": 0,
+"d": [
+[
+"Metal + ácido",
+"Metal mais reativo que o H desloca-o do ácido: forma sal e H₂. O alumínio forma Al³⁺.",
+""
+]
+],
+"h": [
+"Al³⁺ com Cl⁻: AlCl₃. Cada Al cede 3 elétrons, que formam 3/2 H₂.",
+"Multiplicando por 2 para tirar a fração.",
+"<b>2 Al + 6 HCl → 2 AlCl₃ + 3 H₂</b>."
+]
+},
+{
+"id": "2001-2-qui-03b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2001, 2ª fase, Química, questão 3(b)",
+"r": 1910,
+"tm": 60,
+"ctx": "Duas garrafas fechadas, A e B, estão ligadas por um tubo em U com água: a coluna I fica do lado de A e a coluna II do lado de B. Em A há alumínio metálico; em B, a mesma quantidade em mols de magnésio metálico. Virando as garrafas, cada metal reage com ácido clorídrico. Terminadas as reações (ácido em excesso), os níveis das colunas I e II mudam?",
+"fig": "<svg viewBox='0 0 230 130' class='fg' role='img' aria-label='duas garrafas fechadas, A à esquerda com alumínio em tiras e B à direita com magnésio em tiras, cada uma com um recipiente de solução de ácido; as garrafas são ligadas por conexões flexíveis a um tubo em U com água colorida; a coluna I fica do lado de A e a coluna II do lado de B'><g fill='none' stroke='currentColor'><rect x='10' y='20' width='50' height='95' rx='10' stroke-width='1.4'/><rect x='170' y='20' width='50' height='95' rx='10' stroke-width='1.4'/><polyline points='60,30 90,30 90,105 140,105 140,30 170,30' stroke-width='1'/><polyline points='98,30 98,97 132,97 132,30' stroke-width='1'/><rect x='90' y='60' width='8' height='45' fill='currentColor' fill-opacity='0.3' stroke='none'/><rect x='132' y='60' width='8' height='45' fill='currentColor' fill-opacity='0.3' stroke='none'/><rect x='98' y='97' width='34' height='8' fill='currentColor' fill-opacity='0.3' stroke='none'/><rect x='18' y='85' width='14' height='22' stroke-width='0.9'/><rect x='198' y='85' width='14' height='22' stroke-width='0.9'/><path d='M38,108 l4,-10 l4,10 l4,-10' stroke-width='1'/><path d='M178,108 l4,-10 l4,10 l4,-10' stroke-width='1'/></g><g fill='currentColor' font-size='8'><text x='31' y='14' font-size='10'>A</text><text x='191' y='14' font-size='10'>B</text><text x='79' y='55'>I</text><text x='145' y='55'>II</text><text x='12' y='126'>Al + ácido</text><text x='168' y='126'>Mg + ácido</text><text x='96' y='122'>tubo em U</text></g></svg>",
+"opts": [
+"Sim: o nível I desce e o II sobe, pois o Al libera 1,5 vez mais H₂ que o Mg",
+"Sim: o nível I sobe e o II desce, pois o Mg libera mais H₂",
+"Não: os dois metais liberam a mesma quantidade de H₂",
+"Os dois níveis sobem"
+],
+"a": 0,
+"d": [
+[
+"Estequiometria",
+"Compare os mols de H₂ por mol de metal: 2 Al → 3 H₂; Mg + 2 HCl → MgCl₂ + H₂.",
+""
+],
+[
+"Pressão",
+"Mais gás no mesmo volume fechado ⟹ maior pressão, que empurra o líquido do seu lado para baixo."
+]
+],
+"h": [
+"Por mol de metal: Al dá 1,5 mol de H₂; Mg dá 1 mol.",
+"A pressão fica maior em A, que empurra a coluna I.",
+"<b>I desce e II sobe</b>."
+]
+},
+{
+"id": "2001-2-qui-04a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2001, 2ª fase, Química, questão 4(a)",
+"r": 1960,
+"tm": 75,
+"ctx": "Num frasco de 380 mL e massa 100,00 g colocam-se cerca de 5 g de um líquido; o frasco, com um orifício muito pequeno na tampa, vai a uma estufa a 107 °C (acima do ponto de ebulição do líquido) até não restar líquido. Depois de resfriado, o frasco (com o vapor condensado no fundo) pesa 101,85 g. Considere 1 atm e R = 0,082 atm·L/(mol·K). Quantos mols do líquido sobraram no frasco?",
+"a": 0.0122,
+"u": "mol",
+"tol": 0.03,
+"d": [
+[
+"O que sobrou",
+"A 107 °C, o excesso escapou pelo orifício: o frasco ficou cheio só de vapor, a 1 atm, ocupando os 380 mL. É esse vapor que condensa.",
+""
+],
+[
+"Gás ideal",
+"n = pV/(RT), com V em L e T em K."
+]
+],
+"h": [
+"V = 0,380 L; T = 107 + 273 = 380 K.",
+"n = 1 × 0,380 / (0,082 × 380).",
+"n ≈ <b>0,012 mol</b>."
+]
+},
+{
+"id": "2001-2-qui-04b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2001, 2ª fase, Química, questão 4(b)",
+"r": 2040,
+"tm": 60,
+"ctx": "Num frasco de 380 mL e massa 100,00 g colocam-se cerca de 5 g de um líquido; o frasco, com um orifício muito pequeno na tampa, vai a uma estufa a 107 °C (acima do ponto de ebulição do líquido) até não restar líquido. Depois de resfriado, o frasco (com o vapor condensado no fundo) pesa 101,85 g. Considere 1 atm e R = 0,082 atm·L/(mol·K). Sobraram ≈ 0,012 mol da substância. Qual a sua massa molar?",
+"a": 154,
+"u": "g/mol",
+"tol": 0.03,
+"d": [
+[
+"Massa que sobrou",
+"É a diferença entre a massa final e a do frasco vazio.",
+""
+],
+[
+"Massa molar",
+"M = massa ÷ número de mols."
+]
+],
+"h": [
+"Massa: 101,85 − 100,00 = 1,85 g.",
+"M = 1,85/0,012.",
+"M ≈ <b>154 g/mol</b>."
+]
+},
+{
+"id": "2001-2-qui-04c",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2001, 2ª fase, Química, questão 4(c)",
+"r": 2080,
+"tm": 60,
+"ctx": "Num frasco de 380 mL e massa 100,00 g colocam-se cerca de 5 g de um líquido; o frasco, com um orifício muito pequeno na tampa, vai a uma estufa a 107 °C (acima do ponto de ebulição do líquido) até não restar líquido. Depois de resfriado, o frasco (com o vapor condensado no fundo) pesa 101,85 g. Considere 1 atm e R = 0,082 atm·L/(mol·K). A substância (M ≈ 154 g/mol) tem 1 átomo de carbono e mais 4 átomos iguais. Qual é ela?",
+"opts": [
+"CCl₄, tetracloreto de carbono",
+"CF₄, tetrafluoreto de carbono",
+"CBr₄, tetrabrometo de carbono",
+"CH₄, metano"
+],
+"a": 0,
+"d": [
+[
+"Descontar o carbono",
+"Tire a massa do C (12) e divida o resto por 4: é a massa de cada átomo igual. Compare com a tabela periódica.",
+""
+]
+],
+"h": [
+"154 − 12 = 142.",
+"142/4 = 35,5: cloro.",
+"<b>CCl₄, tetracloreto de carbono</b>."
+]
+},
+{
+"id": "2001-2-qui-05a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2001, 2ª fase, Química, questão 5(a)",
+"r": 1490,
+"tm": 20,
+"ctx": "Para mostrar que o HCl gasoso é muito solúvel em água, monta-se um balão cheio de HCl(g) a 1 atm, com um tubo que desce até uma cuba de água com tornassol azul; uma torneira no tubo mantém, de início, o gás e a água separados. O que se faz para iniciar o experimento?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='balão de vidro invertido, cheio de HCl gasoso a 1 atm, com um tubo que desce pela rolha até uma cuba com água contendo tornassol azul; no tubo há uma torneira fechada'><g fill='none' stroke='currentColor'><circle cx='90' cy='45' r='35' stroke-width='1.4'/><rect x='84' y='78' width='12' height='10' stroke-width='1'/><line x1='88' y1='88' x2='88' y2='140' stroke-width='1'/><line x1='92' y1='88' x2='92' y2='140' stroke-width='1'/><polyline points='40,100 40,145 150,145 150,100' stroke-width='1.4'/><rect x='41' y='112' width='108' height='32' fill='currentColor' fill-opacity='0.15' stroke='none'/><line x1='40' y1='112' x2='150' y2='112' stroke-width='0.8'/><rect x='86' y='98' width='8' height='8' stroke-width='1' fill='currentColor' fill-opacity='0.4'/><line x1='94' y1='102' x2='104' y2='102' stroke-width='2'/></g><g fill='currentColor' font-size='8'><text x='76' y='48'>HCl (g)</text><text x='128' y='24'>1 atm</text><text x='108' y='105'>torneira</text><text x='155' y='122'>água +</text><text x='155' y='131'>tornassol</text><text x='155' y='140'>azul</text></g></svg>",
+"opts": [
+"Abre-se a torneira",
+"Aquece-se o balão",
+"Adiciona-se mais tornassol",
+"Agita-se a cuba"
+],
+"a": 0,
+"d": [
+[
+"Ler o esquema",
+"O que impede o gás de tocar a água? Basta remover esse obstáculo.",
+""
+]
+],
+"h": [
+"A torneira separa o HCl da água.",
+"Abrindo-a, o gás entra em contato com a água do tubo.",
+"<b>Abre-se a torneira</b>."
+]
+},
+{
+"id": "2001-2-qui-05b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2001, 2ª fase, Química, questão 5(b)",
+"r": 1830,
+"tm": 45,
+"ctx": "Para mostrar que o HCl gasoso é muito solúvel em água, monta-se um balão cheio de HCl(g) a 1 atm, com um tubo que desce até uma cuba de água com tornassol azul; uma torneira no tubo mantém, de início, o gás e a água separados. Aberta a torneira, o que se observa?",
+"fig": "<svg viewBox='0 0 200 150' class='fg' role='img' aria-label='balão de vidro invertido, cheio de HCl gasoso a 1 atm, com um tubo que desce pela rolha até uma cuba com água contendo tornassol azul; no tubo há uma torneira fechada'><g fill='none' stroke='currentColor'><circle cx='90' cy='45' r='35' stroke-width='1.4'/><rect x='84' y='78' width='12' height='10' stroke-width='1'/><line x1='88' y1='88' x2='88' y2='140' stroke-width='1'/><line x1='92' y1='88' x2='92' y2='140' stroke-width='1'/><polyline points='40,100 40,145 150,145 150,100' stroke-width='1.4'/><rect x='41' y='112' width='108' height='32' fill='currentColor' fill-opacity='0.15' stroke='none'/><line x1='40' y1='112' x2='150' y2='112' stroke-width='0.8'/><rect x='86' y='98' width='8' height='8' stroke-width='1' fill='currentColor' fill-opacity='0.4'/><line x1='94' y1='102' x2='104' y2='102' stroke-width='2'/></g><g fill='currentColor' font-size='8'><text x='76' y='48'>HCl (g)</text><text x='128' y='24'>1 atm</text><text x='108' y='105'>torneira</text><text x='155' y='122'>água +</text><text x='155' y='131'>tornassol</text><text x='155' y='140'>azul</text></g></svg>",
+"opts": [
+"A água sobe pelo tubo e jorra no balão (o HCl se dissolve e a pressão cai), e o tornassol fica vermelho",
+"A água desce na cuba e o tornassol fica azul-escuro",
+"O gás borbulha na cuba e nada muda de cor",
+"A água sobe, mas o tornassol continua azul"
+],
+"a": 0,
+"d": [
+[
+"Pressão",
+"Se o gás do balão se dissolve, sobra muito menos gás: a pressão interna cai abaixo da atmosférica, que empurra a água para cima.",
+""
+],
+[
+"Indicador",
+"O HCl dissolvido é ácido; o tornassol fica vermelho em meio ácido."
+]
+],
+"h": [
+"O HCl se dissolve na água do tubo e a pressão no balão despenca.",
+"A atmosfera empurra a água da cuba para dentro do balão, num esguicho (o \"chafariz\").",
+"A água <b>sobe e jorra no balão, e o tornassol fica vermelho</b>."
+]
+},
+{
+"id": "2001-2-qui-06a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2001, 2ª fase, Química, questão 6(a)",
+"r": 1780,
+"tm": 45,
+"ctx": "Duas buretas lado a lado, uma com água e outra com n-hexano, deixam escorrer \"fios\" de líquido. Aproxima-se, entre os dois fios, um bastão de plástico atritado com flanela (eletrizado). Como saber qual bureta contém n-hexano?",
+"opts": [
+"O fio de n-hexano não é desviado: suas moléculas são apolares",
+"O fio de n-hexano é atraído: suas moléculas são polares",
+"O fio de n-hexano é repelido: ele tem carga",
+"Os dois fios se desviam igualmente"
+],
+"a": 0,
+"d": [
+[
+"Polaridade",
+"Moléculas polares (dipolos) se orientam e são atraídas por um corpo eletrizado; moléculas apolares quase não.",
+""
+],
+[
+"As duas moléculas",
+"A água é angular e polar; o hexano (só C e H) é apolar."
+]
+],
+"h": [
+"A água, polar, é atraída pelo bastão: seu fio se curva.",
+"O hexano, apolar, não sente o bastão.",
+"O fio que <b>não se desvia</b> é o de n-hexano."
+]
+},
+{
+"id": "2001-2-qui-06b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2001, 2ª fase, Química, questão 6(b)",
+"r": 1910,
+"tm": 45,
+"ctx": "Duas buretas lado a lado, uma com água e outra com n-hexano, deixam escorrer \"fios\" de líquido. Aproxima-se, entre os dois fios, um bastão de plástico atritado com flanela (eletrizado). E se fossem usados trans-1,2-dicloroeteno e cis-1,2-dicloroeteno?",
+"opts": [
+"O fio do cis (polar) se desvia; o do trans (apolar) não",
+"O fio do trans se desvia; o do cis não",
+"Os dois se desviam",
+"Nenhum se desvia"
+],
+"a": 0,
+"d": [
+[
+"Soma dos dipolos",
+"As ligações C–Cl são polares. No trans, os dois dipolos C–Cl apontam em sentidos opostos e se cancelam; no cis, eles se somam.",
+""
+]
+],
+"h": [
+"trans: Cl em lados opostos da dupla, momento dipolar zero.",
+"cis: Cl do mesmo lado, momento dipolar resultante.",
+"<b>O cis se desvia; o trans não</b>."
+]
+},
+{
+"id": "2001-2-qui-07a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 7(a)",
+"r": 1830,
+"tm": 30,
+"ctx": "Três tubos têm porções iguais de uma solução de NH₄Cl. Adiciona-se a mesma quantidade em mols de: tubo 1, acetato de sódio; tubo 2, Na₂CO₃; tubo 3, NaHCO₃. Os ânions se hidrolisam: Xⁿ⁻ + H₂O ⇌ HX⁽ⁿ⁻¹⁾⁻ + OH⁻, com K<sub>b</sub>: acetato 5,6·10⁻¹⁰; carbonato 5,6·10⁻⁴; bicarbonato 2,4·10⁻⁸. K<sub>b</sub> da amônia: 1,8·10⁻⁵. Qual equação representa a liberação de amônia a partir dos íons amônio?",
+"opts": [
+"NH₄⁺ + OH⁻ → NH₃ + H₂O",
+"NH₄⁺ + H⁺ → NH₅²⁺",
+"NH₃ + H₂O → NH₄⁺ + OH⁻",
+"NH₄Cl → NH₄ + Cl"
+],
+"a": 0,
+"d": [
+[
+"Ácido conjugado",
+"NH₄⁺ é o ácido conjugado da amônia: ao perder H⁺ (para uma base, como OH⁻), vira NH₃.",
+""
+]
+],
+"h": [
+"Uma base retira o H⁺ do amônio.",
+"Com OH⁻, forma-se água.",
+"<b>NH₄⁺ + OH⁻ → NH₃ + H₂O</b>."
+]
+},
+{
+"id": "2001-2-qui-07b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 7(b)",
+"r": 1960,
+"tm": 45,
+"ctx": "Três tubos têm porções iguais de uma solução de NH₄Cl. Adiciona-se a mesma quantidade em mols de: tubo 1, acetato de sódio; tubo 2, Na₂CO₃; tubo 3, NaHCO₃. Os ânions se hidrolisam: Xⁿ⁻ + H₂O ⇌ HX⁽ⁿ⁻¹⁾⁻ + OH⁻, com K<sub>b</sub>: acetato 5,6·10⁻¹⁰; carbonato 5,6·10⁻⁴; bicarbonato 2,4·10⁻⁸. K<sub>b</sub> da amônia: 1,8·10⁻⁵. Em qual tubo o cheiro de amônia é mais forte?",
+"opts": [
+"Tubo 2 (carbonato): maior K<sub>b</sub>, mais OH⁻",
+"Tubo 1 (acetato)",
+"Tubo 3 (bicarbonato)",
+"Os três igualmente"
+],
+"a": 0,
+"d": [
+[
+"Força da base",
+"Quanto maior K<sub>b</sub>, mais OH⁻ a base gera, e mais NH₄⁺ vira NH₃ (que tem cheiro).",
+""
+]
+],
+"h": [
+"K<sub>b</sub>: carbonato (5,6·10⁻⁴) > bicarbonato (2,4·10⁻⁸) > acetato (5,6·10⁻¹⁰).",
+"O carbonato gera mais OH⁻ e libera mais NH₃.",
+"<b>Tubo 2</b>."
+]
+},
+{
+"id": "2001-2-qui-07c",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 7(c)",
+"r": 2000,
+"tm": 45,
+"ctx": "O pH de uma solução de cloreto de amônio, NH₄Cl, é maior, menor ou igual a 7?",
+"opts": [
+"Menor que 7: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺",
+"Igual a 7: todo sal é neutro",
+"Maior que 7: libera NH₃, que é base",
+"Menor que 7: Cl⁻ + H₂O ⇌ HCl + OH⁻"
+],
+"a": 0,
+"d": [
+[
+"Hidrólise salina",
+"Sal de ácido forte (HCl) com base fraca (NH₃): o cátion da base fraca reage com a água; o ânion do ácido forte não.",
+""
+]
+],
+"h": [
+"O Cl⁻ não se hidrolisa (HCl é forte).",
+"NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ libera H₃O⁺.",
+"pH <b>menor que 7</b>."
+]
+},
+{
+"id": "2001-2-qui-08a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 8(a)",
+"r": 1740,
+"tm": 45,
+"ctx": "Em 1938, um pesquisador abriu um cilindro de gás tetrafluoreteno (CF₂=CF₂) que parecia vazio, mas tinha o mesmo peso de antes: dentro havia um pó com a massa do gás colocado. Que reação aconteceu no cilindro?",
+"opts": [
+"Polimerização por adição: n CF₂=CF₂ → (–CF₂–CF₂–)ₙ",
+"Combustão: CF₂=CF₂ + O₂ → CO₂ + F₂",
+"Decomposição: CF₂=CF₂ → 2 C + 2 F₂",
+"Hidrólise: CF₂=CF₂ + H₂O → CF₂H–CF₂OH"
+],
+"a": 0,
+"d": [
+[
+"Massa conservada, gás vira sólido",
+"Moléculas pequenas com dupla ligação se ligam umas às outras abrindo a dupla, formando uma cadeia longa (sólido), sem perder átomos.",
+""
+]
+],
+"h": [
+"A massa se manteve: nenhum átomo saiu ou entrou.",
+"As duplas C=C se abriram e as unidades se encadearam.",
+"<b>Polimerização</b>: n CF₂=CF₂ → (–CF₂–CF₂–)ₙ (teflon)."
+]
+},
+{
+"id": "2001-2-qui-08b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 8(b)",
+"r": 1700,
+"tm": 20,
+"ctx": "Em 1938, um pesquisador abriu um cilindro de gás tetrafluoreteno (CF₂=CF₂) que parecia vazio, mas tinha o mesmo peso de antes: dentro havia um pó com a massa do gás colocado. O pó formado é usado em frigideiras. Que propriedade permite isso?",
+"opts": [
+"Resistência ao calor e antiaderência",
+"Boa condução de eletricidade",
+"Solubilidade em óleo",
+"Baixo ponto de fusão"
+],
+"a": 0,
+"d": [
+[
+"Uso em frigideiras",
+"Pense no que uma frigideira \"que não gruda\" precisa: aguentar o fogo e não deixar o alimento aderir.",
+""
+]
+],
+"h": [
+"Ela vai ao fogo: precisa ser termicamente estável.",
+"O ovo não gruda: superfície antiaderente.",
+"<b>Resistência ao calor e antiaderência</b>."
+]
+},
+{
+"id": "2001-2-qui-08c",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2001, 2ª fase, Química, questão 8(c)",
+"r": 1740,
+"tm": 20,
+"ctx": "Em 1938, um pesquisador abriu um cilindro de gás tetrafluoreteno (CF₂=CF₂) que parecia vazio, mas tinha o mesmo peso de antes: dentro havia um pó com a massa do gás colocado. Se os átomos de flúor fossem trocados por hidrogênio e a nova substância reagisse da mesma forma, que composto se formaria?",
+"opts": [
+"Polietileno",
+"Poliestireno",
+"PVC (policloreto de vinila)",
+"Náilon"
+],
+"a": 0,
+"d": [
+[
+"Monômero",
+"CF₂=CF₂ com H no lugar de F é CH₂=CH₂, o eteno (etileno).",
+""
+]
+],
+"h": [
+"O monômero vira eteno.",
+"Polímero do eteno: (–CH₂–CH₂–)ₙ.",
+"<b>Polietileno</b>."
+]
+},
+{
+"id": "2001-2-qui-09a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 9(a)",
+"r": 2040,
+"tm": 60,
+"ctx": "Para identificar o íon nitrito (NO₂⁻), adicionam-se íons ferro(II) e ácido: forma-se NO, além de ferro(III) e água. O NO formado combina-se com Fe²⁺ em excesso, numa espécie marrom de composição 1 : 1 e carga 2+. Quais as semirreações de oxirredução?",
+"opts": [
+"Fe²⁺ → Fe³⁺ + e⁻ e NO₂⁻ + 2 H⁺ + e⁻ → NO + H₂O",
+"Fe³⁺ + e⁻ → Fe²⁺ e NO → NO₂⁻ + e⁻",
+"Fe²⁺ + 2 e⁻ → Fe e NO₂⁻ → NO + O",
+"Fe²⁺ → Fe³⁺ + e⁻ e NO₂⁻ + 2 H⁺ → NO + H₂O + e⁻"
+],
+"a": 0,
+"d": [
+[
+"Números de oxidação",
+"Fe: +2 → +3 (oxida). N: em NO₂⁻ é +3; em NO é +2 (reduz, ganha 1 e⁻).",
+""
+],
+[
+"Balancear em meio ácido",
+"Acerte O com H₂O, H com H⁺ e a carga com elétrons."
+]
+],
+"h": [
+"Oxidação: Fe²⁺ → Fe³⁺ + e⁻.",
+"Redução: NO₂⁻ + e⁻ → NO; o O que sobra vira água com 2 H⁺.",
+"<b>Fe²⁺ → Fe³⁺ + e⁻; NO₂⁻ + 2 H⁺ + e⁻ → NO + H₂O</b>."
+]
+},
+{
+"id": "2001-2-qui-09b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2001, 2ª fase, Química, questão 9(b)",
+"r": 1910,
+"tm": 30,
+"ctx": "Para identificar o íon nitrito (NO₂⁻), adicionam-se íons ferro(II) e ácido: forma-se NO, além de ferro(III) e água. O NO formado combina-se com Fe²⁺ em excesso, numa espécie marrom de composição 1 : 1 e carga 2+. Qual a fórmula da espécie marrom?",
+"opts": [
+"[Fe(NO)]²⁺",
+"[Fe(NO)₂]⁺",
+"Fe(NO)₃",
+"[Fe₂(NO)]²⁺"
+],
+"a": 0,
+"d": [
+[
+"Ler o enunciado",
+"Relação 1 : 1 entre Fe²⁺ e NO; a carga total é 2+.",
+""
+]
+],
+"h": [
+"Um Fe²⁺ e um NO (neutro).",
+"Carga total: +2.",
+"<b>[Fe(NO)]²⁺</b>."
+]
+},
+{
+"id": "2001-2-qui-10a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 10(a)",
+"r": 1780,
+"tm": 45,
+"ctx": "No corpo, o CO₂ dos tecidos passa para o sangue e o O₂ do sangue vai para os tecidos; nos pulmões, a troca é inversa. Onde o pH é um pouco mais baixo: no sangue arterial ou no venoso?",
+"opts": [
+"No venoso: tem mais CO₂, e CO₂ + H₂O ⇌ HCO₃⁻ + H⁺",
+"No arterial: tem mais O₂, que é ácido",
+"No venoso: tem menos CO₂",
+"É igual nos dois"
+],
+"a": 0,
+"d": [
+[
+"CO₂ é óxido ácido",
+"Dissolvido em água, forma H₂CO₃, que libera H⁺: CO₂ + H₂O ⇌ HCO₃⁻ + H⁺.",
+""
+]
+],
+"h": [
+"O sangue venoso volta dos tecidos carregado de CO₂.",
+"Mais CO₂ ⟹ mais H⁺ ⟹ pH menor.",
+"<b>No sangue venoso</b>."
+]
+},
+{
+"id": "2001-2-qui-10b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2001, 2ª fase, Química, questão 10(b)",
+"r": 1870,
+"tm": 75,
+"ctx": "Em repouso, liberamos cerca de 200 mL de CO₂ por minuto (a 25 °C, onde o volume molar é 24 L/mol). Uma fatia de pão de 18 g, tratada como glicose (C₆H₁₂O₆, 180 g/mol), vira CO₂ e água. Quantos minutos levam para ela ser \"queimada\"?",
+"a": 72,
+"u": "min",
+"tol": 0.01,
+"d": [
+[
+"Combustão da glicose",
+"C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O.",
+""
+],
+[
+"Volume de gás",
+"V = mols × volume molar."
+]
+],
+"h": [
+"18 g = 0,1 mol de glicose ⟹ 0,6 mol de CO₂ = 0,6 × 24 = 14,4 L.",
+"Tempo: 14,4 L / 0,200 L/min.",
+"<b>72 minutos</b>."
+]
+},
+{
+"id": "2001-2-qui-11a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2001, 2ª fase, Química, questão 11(a)",
+"r": 1570,
+"tm": 45,
+"ctx": "Uma barra de chocolate de 50 g tem 7% de proteínas, 59% de carboidratos e 27% de lipídios. Energia de combustão: proteínas e carboidratos, 17 kJ/g; lipídios, 38 kJ/g. Quanta energia a barra fornece, em kJ?",
+"a": 1074,
+"u": "kJ",
+"tol": 0.01,
+"d": [
+[
+"Somar por componente",
+"Massa de cada componente = porcentagem × 50 g; energia = massa × energia por grama.",
+""
+]
+],
+"h": [
+"Proteínas: 3,5 g × 17 = 59,5 kJ; carboidratos: 29,5 g × 17 = 501,5 kJ.",
+"Lipídios: 13,5 g × 38 = 513 kJ.",
+"Total: <b>1.074 kJ</b>."
+]
+},
+{
+"id": "2001-2-qui-11b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2001, 2ª fase, Química, questão 11(b)",
+"r": 1740,
+"tm": 60,
+"ctx": "Uma barra de chocolate de 50 g tem 7% de proteínas, 59% de carboidratos e 27% de lipídios. Energia de combustão: proteínas e carboidratos, 17 kJ/g; lipídios, 38 kJ/g. A barra fornece 1.074 kJ. Se toda essa energia aquecesse o corpo de uma pessoa de 60 kg (\"calor específico\" 4,5 J/(g·K)), sem perdas, qual seria a variação de temperatura?",
+"a": 3.98,
+"u": "°C",
+"tol": 0.03,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·ΔT. Atenção às unidades: c em J/(g·K), então m em gramas e Q em joules.",
+""
+]
+],
+"h": [
+"Q = 1.074.000 J; m = 60.000 g.",
+"ΔT = 1.074.000/(60.000 × 4,5).",
+"ΔT ≈ <b>4 °C</b>."
+]
+},
+{
+"id": "2001-2-qui-12a",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 12(a)",
+"r": 1870,
+"tm": 30,
+"ctx": "Um efluente contém íons Pb²⁺, que podem ser removidos precipitando um sal muito pouco solúvel. K<sub>s</sub>: PbSO₄, 2·10⁻⁸; PbCO₃, 2·10⁻¹³; PbS, 4·10⁻²⁸. Qual ânion é o mais indicado para precipitar o Pb²⁺?",
+"opts": [
+"S²⁻ (sulfeto): o PbS tem o menor K<sub>s</sub>",
+"SO₄²⁻ (sulfato): o PbSO₄ tem o maior K<sub>s</sub>",
+"CO₃²⁻ (carbonato): valor intermediário",
+"Qualquer um: todos são pouco solúveis"
+],
+"a": 0,
+"d": [
+[
+"Produto de solubilidade",
+"Sais com a mesma proporção (1 : 1) podem ser comparados diretamente: menor K<sub>s</sub> ⟹ menos solúvel ⟹ menos Pb²⁺ fica dissolvido.",
+""
+]
+],
+"h": [
+"Os três sais são 1 : 1.",
+"O menor K<sub>s</sub> é o do PbS (4·10⁻²⁸).",
+"Ânion: <b>S²⁻</b>."
+]
+},
+{
+"id": "2001-2-qui-12b",
+"ano": 2001,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2001, 2ª fase, Química, questão 12(b)",
+"r": 2040,
+"tm": 60,
+"ctx": "Um efluente contém íons Pb²⁺, que podem ser removidos precipitando um sal muito pouco solúvel. K<sub>s</sub>: PbSO₄, 2·10⁻⁸; PbCO₃, 2·10⁻¹³; PbS, 4·10⁻²⁸. O efluente tem 1·10⁻³ mol/L de Pb²⁺ e recebe a quantidade estequiométrica de S²⁻. Qual a concentração final de Pb²⁺?",
+"opts": [
+"2·10⁻¹⁴ mol/L",
+"4·10⁻²⁸ mol/L",
+"1·10⁻³ mol/L",
+"4·10⁻²⁵ mol/L"
+],
+"a": 0,
+"d": [
+[
+"Quantidade estequiométrica",
+"Precipita quase tudo; o que sobra dissolvido vem da dissolução do PbS, com [Pb²⁺] = [S²⁻] = x.",
+""
+],
+[
+"K<sub>s</sub>",
+"K<sub>s</sub> = [Pb²⁺][S²⁻] = x²."
+]
+],
+"h": [
+"x² = 4·10⁻²⁸.",
+"x = 2·10⁻¹⁴.",
+"[Pb²⁺] = <b>2·10⁻¹⁴ mol/L</b>."
+]
+}
+]

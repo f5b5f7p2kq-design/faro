@@ -1,0 +1,2474 @@
+[
+{
+"id": "1992-1-06",
+"ano": 1992,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 1992, 1ª fase, questão 6",
+"r": 1020,
+"tm": 45,
+"ctx": "Uma plantação de cana de açúcar de cerca de 4.000 m² retira da atmosfera 20 toneladas de carbono por ano. Se não houvesse maneira de devolver esse carbono à atmosfera, em poucos séculos os vegetais consumiriam todo o carbono atmosférico. Quais processos devolvem o carbono à atmosfera?",
+"opts": [
+"respiração dos seres vivos, decomposição da matéria orgânica e queima (combustão)",
+"fotossíntese, decomposição e combustão",
+"fotossíntese, respiração e fixação de nitrogênio",
+"evaporação da água, fotossíntese e chuva ácida"
+],
+"a": 0,
+"d": [
+[
+"Ciclo do carbono",
+"A fotossíntese retira CO₂ do ar e o incorpora à matéria orgânica. Os processos que oxidam a matéria orgânica liberam CO₂ de volta.",
+""
+]
+],
+"h": [
+"A fotossíntese é o processo que <i>retira</i> carbono, então não pode estar na resposta.",
+"Devolvem CO₂: a respiração (animais, plantas e microrganismos), a decomposição de restos orgânicos e a queima de madeira, bagaço ou combustíveis.",
+"<b>Respiração, decomposição e combustão</b>."
+]
+},
+{
+"id": "1992-1-07",
+"ano": 1992,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1992, 1ª fase, questão 7",
+"r": 940,
+"tm": 45,
+"ctx": "Têm-se três misturas: I, areia e água; II, álcool (etanol) e água; III, sal de cozinha (NaCl) e água, uma mistura homogênea. Cada uma foi filtrada em funil com papel e o filtrado foi aquecido até evaporar totalmente. Qual mistura deixou resíduo sólido no papel, e em qual apareceu resíduo sólido após a evaporação?",
+"opts": [
+"no papel: areia (mistura I); após a evaporação: sal (mistura III)",
+"no papel: sal (mistura III); após a evaporação: areia (mistura I)",
+"no papel: areia (mistura I); após a evaporação: álcool (mistura II)",
+"nenhuma deixa resíduo no papel; o sal fica após a evaporação"
+],
+"a": 0,
+"d": [
+[
+"Filtração",
+"Separa um sólido não dissolvido de um líquido: o sólido fica no papel.",
+""
+],
+[
+"Evaporação",
+"Um sólido dissolvido passa pelo filtro e só reaparece quando o solvente evapora. Líquidos voláteis evaporam junto e não deixam resíduo."
+]
+],
+"h": [
+"A areia não se dissolve: fica retida no papel (mistura I).",
+"O álcool é líquido e evapora com a água: não deixa resíduo (mistura II).",
+"O NaCl está dissolvido, atravessa o papel e sobra quando a água evapora: <b>areia no papel, sal após a evaporação</b>."
+]
+},
+{
+"id": "1992-1-08",
+"ano": 1992,
+"fase": 1,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1992, 1ª fase, questão 8",
+"r": 1280,
+"tm": 60,
+"ctx": "Nas salinas, depois de retirada a maior parte dos sais, sobra uma solução que ainda contém íons brometo (Br⁻). Borbulhando-se gás cloro (Cl₂) nessa solução, obtêm-se vapores de bromo (Br₂). Qual a equação da reação, e quem é o oxidante e quem é o redutor?",
+"opts": [
+"Cl₂ + 2 Br⁻ → 2 Cl⁻ + Br₂; oxidante: Cl₂; redutor: Br⁻",
+"Cl₂ + 2 Br⁻ → 2 Cl⁻ + Br₂; oxidante: Br⁻; redutor: Cl₂",
+"Cl₂ + Br⁻ → Cl⁻ + Br₂; oxidante: Cl₂; redutor: Br⁻",
+"2 Cl⁻ + Br₂ → Cl₂ + 2 Br⁻; oxidante: Br₂; redutor: Cl⁻"
+],
+"a": 0,
+"d": [
+[
+"Oxidante e redutor",
+"O oxidante ganha elétrons (seu número de oxidação diminui); o redutor perde elétrons (seu número de oxidação aumenta).",
+""
+],
+[
+"Balanceamento",
+"Confira átomos e cargas dos dois lados."
+]
+],
+"h": [
+"O cloro passa de 0 (Cl₂) a −1 (Cl⁻): ganha elétrons, é o oxidante.",
+"O bromo passa de −1 (Br⁻) a 0 (Br₂): perde elétrons, é o redutor.",
+"Balanceando átomos e cargas: <b>Cl₂ + 2 Br⁻ → 2 Cl⁻ + Br₂; oxidante Cl₂, redutor Br⁻</b>."
+]
+},
+{
+"id": "1992-1-09a",
+"ano": 1992,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1992, 1ª fase, questão 9(a)",
+"r": 1100,
+"tm": 60,
+"ctx": "A rede elétrica de 110 V de uma casa é protegida por um fusível de 15 A. Há um aquecedor de água de 2200 W, um ferro de passar de 770 W e lâmpadas de 100 W. Quais desses aparelhos podem ser ligados, um de cada vez, sem queimar o fusível?",
+"opts": [
+"o ferro e a lâmpada; o aquecedor queima o fusível",
+"só a lâmpada",
+"os três aparelhos",
+"o aquecedor e o ferro; a lâmpada não"
+],
+"a": 0,
+"d": [
+[
+"Potência elétrica",
+"P = U·i, logo i = P/U.",
+""
+],
+[
+"Fusível",
+"Queima quando a corrente total passa do seu valor nominal."
+]
+],
+"h": [
+"Potência máxima suportada: P = 110 × 15 = 1650 W.",
+"Aquecedor: 2200 W > 1650 W (i = 20 A). Ferro: 770 W (7 A). Lâmpada: 100 W (0,9 A).",
+"Podem ser ligados <b>o ferro e a lâmpada</b>; o aquecedor queimaria o fusível."
+]
+},
+{
+"id": "1992-1-09b",
+"ano": 1992,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1992, 1ª fase, questão 9(b)",
+"r": 1230,
+"tm": 60,
+"ctx": "A rede elétrica de 110 V de uma casa é protegida por um fusível de 15 A. Se apenas lâmpadas de 100 W forem ligadas, qual o número máximo de lâmpadas acesas ao mesmo tempo sem queimar o fusível?",
+"a": 16,
+"u": "lâmpadas",
+"tol": 0,
+"d": [
+[
+"Potência elétrica",
+"P = U·i.",
+""
+],
+[
+"Aparelhos em paralelo",
+"Numa casa, os aparelhos ficam em paralelo: as potências (e as correntes) se somam."
+]
+],
+"h": [
+"Potência máxima: 110 × 15 = 1650 W.",
+"1650 ÷ 100 = 16,5.",
+"Como não dá para ter meia lâmpada: <b>16 lâmpadas</b>."
+]
+},
+{
+"id": "1992-1-10",
+"ano": 1992,
+"fase": 1,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1992, 1ª fase, questão 10",
+"r": 1530,
+"tm": 75,
+"ctx": "O bloco B está apoiado sobre o bloco A, que está sobre uma mesa; ambos estão em repouso. Uma força horizontal F = 5,0 N é aplicada no bloco A, que permanece em repouso. Há atrito entre A e a mesa e entre A e B. O que acontece com o bloco B, e quais forças horizontais atuam em A e em B?",
+"fig": "<svg viewBox='0 0 200 92' class='fg' role='img' aria-label='bloco B sobre o bloco A, apoiado numa mesa; força F de 5,0 N horizontal, para a direita, aplicada em A'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='20' y1='75' x2='190' y2='75'/><rect x='95' y='40' width='60' height='35'/><rect x='110' y='15' width='30' height='25'/><line x1='40' y1='57' x2='88' y2='57'/></g><g fill='currentColor' font-size='11'><polygon points='94,57 86,53 86,61'/><text x='40' y='50'>F = 5,0 N</text><text x='121' y='62'>A</text><text x='121' y='32'>B</text><text x='112' y='88'>mesa</text></g></svg>",
+"opts": [
+"B continua em repouso e nenhuma força horizontal age sobre ele; em A agem F = 5,0 N e o atrito da mesa, de 5,0 N, em sentido oposto",
+"B continua em repouso porque o atrito de A sobre B, de 5,0 N, o segura",
+"B escorrega para trás, pois o atrito com A é menor que 5,0 N",
+"em A agem F e o atrito de B, de 5,0 N; a mesa não exerce atrito"
+],
+"a": 0,
+"d": [
+[
+"Primeira lei de Newton",
+"Corpo em repouso: a força resultante sobre ele é zero.",
+""
+],
+[
+"Atrito estático",
+"Só aparece quando há tendência de escorregamento, e tem o valor exato para impedi-lo, até um máximo."
+]
+],
+"h": [
+"A não se move: sobre ele, a resultante horizontal é zero.",
+"B também fica parado e não há nada que tente fazê-lo escorregar sobre A (A não acelera): o atrito entre A e B é nulo.",
+"Logo, <b>B segue em repouso sem força horizontal</b>; em A, F = 5,0 N é equilibrada pelo atrito da mesa, 5,0 N em sentido oposto."
+]
+},
+{
+"id": "1992-1-11",
+"ano": 1992,
+"fase": 1,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1992, 1ª fase, questão 11",
+"r": 1190,
+"tm": 75,
+"ctx": "O IBGE contratou recenseadores para visitar as residências de uma cidade. Se cada um visitasse 100 residências, 60 delas não seriam visitadas. Mas todas foram visitadas, e cada recenseador visitou 102. Quantas residências tem a cidade?",
+"a": 3060,
+"u": "residências",
+"tol": 0,
+"d": [
+[
+"Equação do 1º grau",
+"Chame de n a quantidade desconhecida e escreva o total de duas formas; iguale as duas expressões.",
+""
+]
+],
+"h": [
+"Com n recenseadores: total = 100n + 60 e também total = 102n.",
+"102n = 100n + 60 → 2n = 60 → n = 30.",
+"Total = 102 × 30 = <b>3060 residências</b>."
+]
+},
+{
+"id": "1992-1-12",
+"ano": 1992,
+"fase": 1,
+"s": "mat",
+"t": "juros",
+"src": "Unicamp 1992, 1ª fase, questão 12",
+"r": 1360,
+"tm": 75,
+"ctx": "Um vendedor oferece duas formas de pagamento: (a) à vista, com 65% de desconto sobre o preço de tabela; (b) em 30 dias, com 55% de desconto sobre o preço de tabela. O comprador consegue uma aplicação que rende 25% em 30 dias. Qual alternativa é mais vantajosa para ele?",
+"opts": [
+"à vista: pagar 35% da tabela hoje é menos que os 36% da tabela necessários hoje para ter 45% em 30 dias",
+"em 30 dias: 45% aplicados rendem mais que o desconto à vista",
+"são equivalentes",
+"em 30 dias: 55% de desconto é maior que 25% de rendimento"
+],
+"a": 0,
+"d": [
+[
+"Valor no tempo",
+"Para comparar pagamentos em datas diferentes, leve todos para a mesma data: valor de hoje = valor futuro ÷ (1 + taxa).",
+""
+],
+[
+"Desconto",
+"Desconto de d% sobre P: paga-se P·(1 − d/100)."
+]
+],
+"h": [
+"Seja P o preço de tabela. À vista: 0,35P hoje. Em 30 dias: 0,45P.",
+"Para ter 0,45P em 30 dias, aplica-se hoje 0,45P/1,25 = 0,36P.",
+"0,35P < 0,36P: o pagamento <b>à vista</b> é mais vantajoso."
+]
+},
+{
+"id": "1992-2-mat-01",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 1",
+"r": 1440,
+"tm": 90,
+"ctx": "Em 1991, numa cidade, os candidatos da 2ª fase foram distribuídos em salas de 35 lugares, sendo necessária uma sala incompleta com 18 candidatos. Em 1992, o número de candidatos aumentou em 42. Usando ainda salas de 35 lugares, quantos candidatos ficaram numa sala incompleta?",
+"a": 25,
+"u": "candidatos",
+"tol": 0,
+"d": [
+[
+"Divisão com resto",
+"N = 35q + r, com 0 ≤ r < 35: r é o número de pessoas da sala incompleta.",
+""
+],
+[
+"Somando restos",
+"Some os restos e tire 35 quantas vezes der."
+]
+],
+"h": [
+"1991: N = 35q + 18. 1992: N + 42 = 35q + 60.",
+"60 = 35 + 25, então N + 42 = 35(q + 1) + 25.",
+"A sala incompleta tem <b>25 candidatos</b>."
+]
+},
+{
+"id": "1992-2-mat-02",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 2",
+"r": 1620,
+"tm": 120,
+"ctx": "Encontre a e b positivos para que a reta ax + by = 6 passe pelo ponto (3, 1) e forme com os eixos coordenados um triângulo de área 6.",
+"opts": [
+"a = 1 e b = 3",
+"a = 3 e b = 1",
+"a = 2 e b = 0",
+"a = 1/2 e b = 9/2"
+],
+"a": 0,
+"d": [
+[
+"Ponto na reta",
+"Se (x₀, y₀) está na reta, a equação vale com x = x₀ e y = y₀.",
+""
+],
+[
+"Interceptos",
+"A reta ax + by = c corta os eixos em (c/a, 0) e (0, c/b)."
+],
+[
+"Área do triângulo com os eixos",
+"Área = (base · altura)/2, com base e altura iguais aos interceptos."
+]
+],
+"h": [
+"Pelo ponto (3, 1): 3a + b = 6.",
+"Interceptos 6/a e 6/b: área = (6/a)(6/b)/2 = 18/(ab) = 6 → ab = 3.",
+"b = 6 − 3a → a(6 − 3a) = 3 → a² − 2a + 1 = 0 → a = 1, b = 3.",
+"<b>a = 1 e b = 3</b>."
+]
+},
+{
+"id": "1992-2-mat-03",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 3",
+"r": 1400,
+"tm": 75,
+"ctx": "Um relógio foi acertado exatamente ao meio-dia. Que horas ele marca quando o ponteiro das horas (o menor) tiver percorrido um ângulo de 42°?",
+"opts": [
+"13 h 24 min",
+"12 h 42 min",
+"13 h 42 min",
+"12 h 07 min"
+],
+"a": 0,
+"d": [
+[
+"Ponteiro das horas",
+"Dá uma volta (360°) em 12 h: 30° por hora, ou 0,5° por minuto.",
+""
+]
+],
+"h": [
+"42° ÷ 0,5°/min = 84 min.",
+"84 min = 1 h 24 min depois do meio-dia.",
+"<b>13 h 24 min</b>."
+]
+},
+{
+"id": "1992-2-mat-04",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 4",
+"r": 1660,
+"tm": 120,
+"ctx": "Para medir a largura AC de um rio, um homem em A, numa margem, mira o coqueiro C na margem oposta (AC perpendicular à margem). Ele localiza na mesma margem um ponto B de onde o ângulo ABC é 60°; depois marca o ponto D no prolongamento de CA, atrás de A, de forma que o ângulo CBD seja 90°. Medindo AD = 40 m, qual é a largura do rio?",
+"fig": "<svg viewBox='0 0 200 165' class='fg' role='img' aria-label='rio entre duas margens; B e A na margem de cima, C na margem de baixo, D no prolongamento de CA atrás de A; ângulo ABC de 60 graus, ângulo CBD reto, AD igual a 40 m'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='10' y1='40' x2='190' y2='40'/><line x1='10' y1='144' x2='190' y2='144'/><line x1='130' y1='5' x2='130' y2='144'/><line x1='70' y1='40' x2='130' y2='144'/><line x1='70' y1='40' x2='130' y2='5'/></g><g fill='currentColor' font-size='11'><text x='58' y='37'>B</text><text x='134' y='38'>A</text><text x='134' y='158'>C</text><text x='134' y='11'>D</text><text x='150' y='25'>40 m</text><text x='84' y='57'>60°</text><text x='24' y='95' font-style='italic'>rio</text></g></svg>",
+"a": 120,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Razões no triângulo retângulo",
+"tg θ = cateto oposto ÷ cateto adjacente.",
+"tg 30° = √3/3 e tg 60° = √3."
+],
+[
+"Soma de ângulos",
+"Se ABC = 60° e CBD = 90°, o ângulo ABD vale 90° − 60°."
+]
+],
+"h": [
+"ABD = 30°. No triângulo retângulo BAD (reto em A): tg 30° = AD/AB → AB = 40/(√3/3) = 40√3 m.",
+"No triângulo retângulo BAC: tg 60° = AC/AB → AC = 40√3 · √3.",
+"AC = <b>120 m</b>."
+]
+},
+{
+"id": "1992-2-mat-05",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "binom",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 5",
+"r": 1620,
+"tm": 90,
+"ctx": "A desigualdade (1 + x)ⁿ ≥ 1 + nx vale para x ≥ −1 e n inteiro positivo. No caso mais simples, x ≥ 0, qual argumento a demonstra?",
+"opts": [
+"pelo binômio de Newton, (1 + x)ⁿ = 1 + nx + (termos em x², x³, ... com coeficientes positivos), e esses termos são ≥ 0 quando x ≥ 0",
+"(1 + x)ⁿ = 1 + xⁿ, e xⁿ ≥ nx para todo x ≥ 0",
+"n·x ≥ xⁿ para todo x ≥ 0, então a desigualdade vale",
+"basta testar n = 1, pois os demais casos são iguais"
+],
+"a": 0,
+"d": [
+[
+"Binômio de Newton",
+"(1 + x)ⁿ = Σ C(n, k)·xᵏ, com k de 0 a n. Os dois primeiros termos são 1 e nx.",
+""
+],
+[
+"Sinal dos termos",
+"Coeficientes binomiais são positivos; potências de x ≥ 0 são ≥ 0."
+]
+],
+"h": [
+"(1 + x)ⁿ = 1 + nx + C(n,2)x² + ... + xⁿ.",
+"Com x ≥ 0, todos os termos depois de nx são ≥ 0.",
+"Logo <b>(1 + x)ⁿ ≥ 1 + nx</b>, pelo binômio de Newton (cuidado: (1 + x)ⁿ não é 1 + xⁿ)."
+]
+},
+{
+"id": "1992-2-mat-06",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 6",
+"r": 1620,
+"tm": 90,
+"ctx": "Três pontos a, b e c estão numa reta, nessa ordem. Qual ponto x da reta torna a soma das distâncias de x até a, de x até b e de x até c a menor possível?",
+"fig": "<svg viewBox='0 0 200 42' class='fg' role='img' aria-label='reta com os pontos a, b e c, nessa ordem'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='10' y1='18' x2='190' y2='18'/></g><g fill='currentColor' font-size='12'><circle cx='50' cy='18' r='3'/><circle cx='95' cy='18' r='3'/><circle cx='155' cy='18' r='3'/><text x='46' y='36'>a</text><text x='91' y='36'>b</text><text x='151' y='36'>c</text></g></svg>",
+"opts": [
+"x = b, o ponto do meio",
+"x no ponto médio entre a e c",
+"x = a",
+"qualquer ponto entre a e c dá a mesma soma"
+],
+"a": 0,
+"d": [
+[
+"Distâncias entre dois pontos extremos",
+"Para qualquer x entre a e c, |x − a| + |x − c| = c − a, constante; fora desse trecho, a soma é maior.",
+""
+],
+[
+"Separar a soma",
+"Escreva a soma como (dist. até a + dist. até c) + dist. até b e minimize cada parte."
+]
+],
+"h": [
+"Para x entre a e c, a soma das distâncias até a e até c vale sempre c − a, o mínimo possível.",
+"Resta a distância até b, que é mínima (zero) em x = b, ponto que está entre a e c.",
+"A soma mínima é c − a, atingida em <b>x = b</b>."
+]
+},
+{
+"id": "1992-2-mat-07",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 7",
+"r": 1830,
+"tm": 150,
+"ctx": "Qual a área de um triângulo em função de um lado l e dos dois ângulos α e β adjacentes a esse lado?",
+"opts": [
+"l²·sen α·sen β / [2·sen(α + β)]",
+"l²·sen α·sen β / 2",
+"l²·sen(α + β) / [2·sen α·sen β]",
+"l²·tg α·tg β / 2"
+],
+"a": 0,
+"d": [
+[
+"Lei dos senos",
+"a/sen A = b/sen B = c/sen C.",
+""
+],
+[
+"Área com dois lados e o ângulo entre eles",
+"Área = (1/2)·a·b·sen θ."
+],
+[
+"Ângulo restante",
+"O terceiro ângulo é 180° − α − β, e sen(180° − θ) = sen θ."
+]
+],
+"h": [
+"O ângulo oposto a l é γ = 180° − (α + β), com sen γ = sen(α + β).",
+"Lei dos senos: o lado adjacente a l e oposto a β mede b = l·sen β / sen(α + β).",
+"Área = (1/2)·l·b·sen α = <b>l²·sen α·sen β / [2·sen(α + β)]</b>."
+]
+},
+{
+"id": "1992-2-mat-08",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 8",
+"r": 1660,
+"tm": 90,
+"ctx": "Sejam a₁, a₂, ..., aₙ, ... e b₁, b₂, ..., bₙ, ... duas progressões aritméticas, de razões r ≠ 0 e s. Por que os pontos (aⱼ, bⱼ), j = 1, 2, ..., estão todos numa mesma reta?",
+"opts": [
+"a cada passo, x aumenta r e y aumenta s; a inclinação entre pontos consecutivos é sempre s/r, então todos estão na reta de inclinação s/r que passa por (a₁, b₁)",
+"porque aⱼ = bⱼ para todo j",
+"porque toda sequência de pontos com coordenadas inteiras é colinear",
+"porque a soma aⱼ + bⱼ é constante"
+],
+"a": 0,
+"d": [
+[
+"Termo geral da PA",
+"aⱼ = a₁ + (j − 1)·r.",
+""
+],
+[
+"Inclinação de uma reta",
+"Entre dois pontos: m = Δy/Δx. Pontos alinhados têm a mesma inclinação em relação a um ponto fixo."
+]
+],
+"h": [
+"aⱼ = a₁ + (j − 1)r e bⱼ = b₁ + (j − 1)s.",
+"A inclinação de (a₁, b₁) até (aⱼ, bⱼ) é (j − 1)s / [(j − 1)r] = s/r, igual para todo j.",
+"Todos os pontos estão na <b>reta y − b₁ = (s/r)(x − a₁)</b>."
+]
+},
+{
+"id": "1992-2-mat-09",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 9",
+"r": 1530,
+"tm": 90,
+"ctx": "Por que 3 divide n³ − n para qualquer número natural n?",
+"opts": [
+"n³ − n = (n − 1)·n·(n + 1), produto de três inteiros consecutivos, e um deles é sempre múltiplo de 3",
+"porque n³ é sempre múltiplo de 3",
+"porque n³ − n é sempre par",
+"porque n³ − n = n(n − 3)"
+],
+"a": 0,
+"d": [
+[
+"Fatoração",
+"Coloque n em evidência e use a diferença de quadrados: a² − b² = (a − b)(a + b).",
+""
+],
+[
+"Consecutivos",
+"Entre três inteiros consecutivos, exatamente um é múltiplo de 3."
+]
+],
+"h": [
+"n³ − n = n(n² − 1) = (n − 1)·n·(n + 1).",
+"São três inteiros consecutivos: um deles é múltiplo de 3.",
+"Logo <b>3 divide n³ − n</b> (e, como um deles também é par, até 6 divide)."
+]
+},
+{
+"id": "1992-2-mat-10",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 10",
+"r": 1780,
+"tm": 120,
+"ctx": "Dado um cubo de aresta l, qual o volume do octaedro cujos vértices são os centros das faces do cubo?",
+"opts": [
+"l³/6",
+"l³/3",
+"l³/8",
+"l³/12"
+],
+"a": 0,
+"d": [
+[
+"Volume da pirâmide",
+"V = (área da base × altura)/3.",
+""
+],
+[
+"Octaedro",
+"É formado por duas pirâmides de base quadrada coladas pela base."
+],
+[
+"Quadrado pela diagonal",
+"Área de um quadrado de diagonal D: D²/2."
+]
+],
+"h": [
+"Os quatro centros das faces laterais formam um quadrado de diagonal l: área l²/2.",
+"Cada pirâmide tem altura l/2 (do centro do cubo ao centro da face de cima): V = (l²/2)(l/2)/3 = l³/12.",
+"Duas pirâmides: <b>l³/6</b>."
+]
+},
+{
+"id": "1992-2-mat-11a",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 11(a)",
+"r": 2040,
+"tm": 180,
+"ctx": "Na figura, AB = AC = l é o lado do decágono regular inscrito numa circunferência de raio 1 e centro O (o ângulo AOB vale 36°, e C está em OB). Quanto vale l?",
+"fig": "<svg viewBox='0 0 195 125' class='fg' role='img' aria-label='setor de circunferência de centro O e raio 1; A no arco, B no raio horizontal OB; C em OB com AC igual a AB, igual a l; altura tracejada de A até OB'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='15' y1='110' x2='175' y2='110'/><line x1='15' y1='110' x2='144.4' y2='16'/><line x1='144.4' y1='16' x2='175' y2='110'/><line x1='144.4' y1='16' x2='113.9' y2='110'/><path d='M144.4,16 A160,160 0 0 1 175,110'/><line x1='144.4' y1='16' x2='144.4' y2='110' stroke-dasharray='3 3'/></g><g fill='currentColor' font-size='11'><text x='5' y='122'>O</text><text x='140' y='11'>A</text><text x='176' y='122'>B</text><text x='108' y='122'>C</text><text x='68' y='57'>1</text><text x='115' y='66' font-style='italic'>ℓ</text><text x='166' y='60' font-style='italic'>ℓ</text></g></svg>",
+"a": 0.618,
+"tol": 0.01,
+"d": [
+[
+"Ângulo central",
+"Num polígono regular de n lados, cada lado subentende um ângulo central de 360°/n.",
+""
+],
+[
+"Triângulo isósceles",
+"Lados iguais ficam opostos a ângulos iguais."
+],
+[
+"Semelhança",
+"Triângulos com os mesmos ângulos têm lados proporcionais."
+]
+],
+"h": [
+"Triângulo OAB: OA = OB = 1 e ângulo O = 36°, então A = B = 72°. Como AC = AB, o triângulo ABC tem C = 72° e o ângulo CAB = 36°.",
+"Ângulo OAC = 72° − 36° = 36° = ângulo AOC: o triângulo OAC é isósceles, OC = AC = l, e CB = 1 − l.",
+"OAB e ACB são semelhantes (ângulos 36°, 72°, 72°): l/1 = (1 − l)/l → l² + l − 1 = 0.",
+"l = (√5 − 1)/2 ≈ <b>0,618</b>."
+]
+},
+{
+"id": "1992-2-mat-11b",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 11(b)",
+"r": 1960,
+"tm": 150,
+"ctx": "No decágono regular inscrito numa circunferência de raio 1, o lado mede l = (√5 − 1)/2 e subentende um ângulo central de 36°. Usando esse resultado, quanto vale cos 36°?",
+"opts": [
+"(1 + √5)/4",
+"(√5 − 1)/4",
+"√5/4",
+"(1 + √5)/2"
+],
+"a": 0,
+"d": [
+[
+"Lei dos cossenos",
+"a² = b² + c² − 2bc·cos A.",
+""
+],
+[
+"Triângulo central",
+"Os dois raios (iguais a 1) e o lado l formam um triângulo com ângulo de 36° entre os raios."
+]
+],
+"h": [
+"l² = 1 + 1 − 2·cos 36° → cos 36° = 1 − l²/2.",
+"l² = (6 − 2√5)/4 = (3 − √5)/2.",
+"cos 36° = 1 − (3 − √5)/4 = <b>(1 + √5)/4</b>."
+]
+},
+{
+"id": "1992-2-mat-12",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 12 (o enunciado original omite o termo x por erro de impressão)",
+"r": 1870,
+"tm": 150,
+"ctx": "Mostre que as raízes de x⁵ + x⁴ + x³ + x² + x + 1 = 0 também são raízes de x⁶ − 1 = 0. Quais são essas raízes?",
+"opts": [
+"−1, 1/2 ± (√3/2)i e −1/2 ± (√3/2)i",
+"1, −1, i e −i",
+"−1 e ±i",
+"1, 1/2 ± (√3/2)i e −1/2 ± (√3/2)i"
+],
+"a": 0,
+"d": [
+[
+"Soma de PG",
+"1 + x + x² + ... + x⁵ = (x⁶ − 1)/(x − 1), para x ≠ 1.",
+""
+],
+[
+"Raízes da unidade",
+"As soluções de xⁿ = 1 são cos(2πk/n) + i·sen(2πk/n), k = 0, ..., n − 1."
+]
+],
+"h": [
+"(x − 1)(x⁵ + x⁴ + x³ + x² + x + 1) = x⁶ − 1: toda raiz do primeiro polinômio é raiz de x⁶ − 1.",
+"As raízes de x⁶ = 1 são os ângulos 0°, 60°, 120°, 180°, 240° e 300°; tire x = 1 (ângulo 0°), que não anula a soma (dá 6).",
+"Raízes: <b>−1, 1/2 ± (√3/2)i e −1/2 ± (√3/2)i</b>."
+]
+},
+{
+"id": "1992-2-mat-14",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 14",
+"r": 1740,
+"tm": 120,
+"ctx": "A equação x³ − 2x² + 7x − 4 = 0 tem raízes a, b e c. Escreva uma equação cúbica cujas raízes sejam a + 1, b + 1 e c + 1.",
+"opts": [
+"y³ − 5y² + 14y − 14 = 0",
+"y³ − 2y² + 7y − 3 = 0",
+"y³ + y² + 6y + 2 = 0",
+"y³ − 5y² + 14y − 4 = 0"
+],
+"a": 0,
+"d": [
+[
+"Translação das raízes",
+"Se x é raiz de p(x) = 0, então y = x + 1 é raiz de p(y − 1) = 0.",
+""
+],
+[
+"Cubo da diferença",
+"(y − 1)³ = y³ − 3y² + 3y − 1."
+]
+],
+"h": [
+"Substitua x = y − 1: (y − 1)³ − 2(y − 1)² + 7(y − 1) − 4 = 0.",
+"= (y³ − 3y² + 3y − 1) − (2y² − 4y + 2) + (7y − 7) − 4.",
+"<b>y³ − 5y² + 14y − 14 = 0</b>."
+]
+},
+{
+"id": "1992-2-mat-15",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 15",
+"r": 1960,
+"tm": 120,
+"ctx": "Duas circunferências de centros fixos se tocam, de modo que a rotação de uma produz rotação na outra, sem deslizamento. Uma tem raio racional, a outra raio irracional. Por que os dois pontos (um de cada circunferência) que coincidem no início nunca mais voltam a se encontrar?",
+"fig": "<svg viewBox='0 0 200 100' class='fg' role='img' aria-label='duas circunferências tangentes, de raios diferentes, com o ponto de contato marcado'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='62' cy='50' r='40'/><circle cx='130' cy='50' r='28'/></g><g fill='currentColor'><circle cx='62' cy='50' r='2'/><circle cx='130' cy='50' r='2'/><circle cx='102' cy='50' r='3'/></g></svg>",
+"opts": [
+"para voltarem a coincidir, o comprimento rolado teria de ser múltiplo inteiro dos dois perímetros: 2πR·m = 2πr·n, o que daria R/r = n/m racional, um absurdo",
+"porque o perímetro de uma circunferência é sempre irracional",
+"porque as duas giram em sentidos opostos",
+"porque a circunferência menor gira mais devagar"
+],
+"a": 0,
+"d": [
+[
+"Rolamento sem deslizamento",
+"Os dois contornos percorrem o mesmo comprimento de arco no ponto de contato.",
+""
+],
+[
+"Volta completa",
+"Um ponto volta à posição de contato após rolar um múltiplo inteiro do perímetro, 2πR."
+],
+[
+"Racionais",
+"O quociente de dois inteiros é racional; racional ÷ irracional é irracional."
+]
+],
+"h": [
+"Se os pontos voltassem a se encontrar, o arco rolado L seria m voltas de uma e n voltas da outra: L = 2πR·m = 2πr·n.",
+"Daí R/r = n/m, um número racional.",
+"Mas R é racional e r irracional, então R/r é irracional: <b>contradição, os pontos nunca se reencontram</b>."
+]
+},
+{
+"id": "1992-2-mat-16",
+"ano": 1992,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1992, 2ª fase, Matemática, questão 16",
+"r": 2040,
+"tm": 150,
+"ctx": "A e B são matrizes de ordens n×m e m×n, com m < n. Por que det(A·B) = 0? (Pense no sistema (A·B)·X = 0, com X de n incógnitas.)",
+"opts": [
+"o sistema B·X = 0 tem m equações e n > m incógnitas, logo tem solução X ≠ 0; essa X também satisfaz (A·B)·X = 0, e um sistema homogêneo n×n com solução não nula tem determinante zero",
+"porque A·B não é uma matriz quadrada",
+"porque det(A·B) = det(A)·det(B) e det(A) = 0",
+"porque toda matriz produto tem determinante nulo"
+],
+"a": 0,
+"d": [
+[
+"Sistema homogêneo",
+"Um sistema linear homogêneo com mais incógnitas do que equações sempre tem solução não trivial.",
+""
+],
+[
+"Determinante e soluções",
+"Uma matriz quadrada M tem det(M) ≠ 0 se, e só se, M·X = 0 tem apenas a solução X = 0."
+]
+],
+"h": [
+"A·B é n×n (quadrada), mas det(A·B) = det(A)·det(B) não vale aqui: A e B não são quadradas.",
+"B·X = 0 tem m equações e n incógnitas, com m < n: existe X ≠ 0 com B·X = 0.",
+"Então (A·B)·X = A·(B·X) = 0 com X ≠ 0, e por isso <b>det(A·B) = 0</b>."
+]
+},
+{
+"id": "1992-2-fis-01",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1992, 2ª fase, Física, questão 1",
+"r": 1190,
+"tm": 75,
+"ctx": "Considere estes equipamentos operando na máxima potência durante uma hora: uma lâmpada de 100 W, o motor de um Fusca, o motor de um caminhão, uma lâmpada de 40 W e um ferro de passar roupa. Qual a ordem crescente de consumo de energia?",
+"opts": [
+"lâmpada de 40 W < lâmpada de 100 W < ferro < motor do Fusca < motor do caminhão",
+"lâmpada de 40 W < lâmpada de 100 W < motor do Fusca < ferro < motor do caminhão",
+"ferro < lâmpada de 40 W < lâmpada de 100 W < motor do Fusca < motor do caminhão",
+"lâmpada de 40 W < ferro < lâmpada de 100 W < motor do caminhão < motor do Fusca"
+],
+"a": 0,
+"d": [
+[
+"Energia e potência",
+"E = P·Δt: com o mesmo tempo, mais potência significa mais energia.",
+""
+],
+[
+"Ordens de grandeza",
+"Ferro de passar: cerca de 1 kW. Motor de carro pequeno: dezenas de kW (1 cv ≈ 735 W). Motor de caminhão: centenas de kW."
+]
+],
+"h": [
+"O tempo é o mesmo, então basta ordenar as potências.",
+"Lâmpadas: 40 W e 100 W. Ferro: ~1000 W. Fusca: ~40 kW. Caminhão: ~200 kW.",
+"<b>40 W < 100 W < ferro < Fusca < caminhão</b>."
+]
+},
+{
+"id": "1992-2-fis-02a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1992, 2ª fase, Física, questão 2(a)",
+"r": 940,
+"tm": 45,
+"ctx": "Um escoteiro perdido escuta os rojões da polícia florestal. Com um cronômetro, ele mede 6 s entre a visão do clarão e a chegada do barulho. Ele usa a regra prática de dividir por 3 o tempo em segundos para obter a distância em quilômetros. Que distância a regra prática dá?",
+"a": 2,
+"u": "km",
+"tol": 0.01,
+"d": [
+[
+"Regra prática",
+"Distância (km) ≈ tempo (s) ÷ 3. Ela vem de supor o som a cerca de 1/3 km por segundo.",
+""
+]
+],
+"h": [
+"6 ÷ 3 = 2.",
+"Distância pela regra: <b>2 km</b>."
+]
+},
+{
+"id": "1992-2-fis-02b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1992, 2ª fase, Física, questão 2(b)",
+"r": 1530,
+"tm": 75,
+"ctx": "Um escoteiro mede 6 s entre a visão do clarão de um rojão e a chegada do barulho, e usa a regra prática de dividir o tempo por 3 para ter a distância em km. Se o som viaja a 340 m/s, qual o erro percentual da regra prática?",
+"a": 2,
+"u": "%",
+"tol": 0.06,
+"d": [
+[
+"Distância real",
+"d = v·t, com o som a velocidade constante.",
+""
+],
+[
+"Erro percentual",
+"erro = |valor real − valor obtido| ÷ valor real × 100%."
+]
+],
+"h": [
+"Distância real: 340 × 6 = 2040 m = 2,04 km. Regra: 2 km.",
+"Erro: 0,04/2,04 ≈ 0,0196.",
+"Cerca de <b>2%</b>."
+]
+},
+{
+"id": "1992-2-fis-02c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1992, 2ª fase, Física, questão 2(c)",
+"r": 1490,
+"tm": 60,
+"ctx": "Um escoteiro mede, com um cronômetro de centésimos de segundo, 6 s entre ver o clarão de um rojão e ouvir o barulho, a cerca de 2 km. A luz viaja a 3,0·10⁸ m/s. Qual erro é maior: considerar a velocidade da luz infinita ou o erro na cronometragem do tempo?",
+"opts": [
+"o erro de cronometragem: a luz leva cerca de 7 μs para chegar, muito menos que o centésimo de segundo do cronômetro (e o tempo de reação humano)",
+"considerar a luz infinita: ela leva quase 1 s para percorrer 2 km",
+"os dois são iguais",
+"nenhum dos dois influencia o resultado"
+],
+"a": 0,
+"d": [
+[
+"Tempo de percurso",
+"t = d/v.",
+""
+],
+[
+"Comparar erros",
+"Compare as ordens de grandeza dos dois tempos."
+]
+],
+"h": [
+"Tempo da luz: 2000/(3·10⁸) ≈ 7·10⁻⁶ s.",
+"A cronometragem tem resolução de 0,01 s, e o tempo de reação humano é de décimos de segundo.",
+"O <b>erro de cronometragem</b> é muito maior."
+]
+},
+{
+"id": "1992-2-fis-03a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 3(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "A fila única de um banco tem 50 m de comprimento; a distância média entre as pessoas é de 1,0 m. Os clientes são atendidos por três caixas, e cada caixa leva cerca de 3,0 min para atender um cliente. Qual a velocidade média dos clientes ao longo da fila, em m/min?",
+"a": 1,
+"u": "m/min",
+"tol": 0.01,
+"d": [
+[
+"Vazão de atendimento",
+"Clientes atendidos por minuto = número de caixas ÷ tempo de cada atendimento.",
+""
+],
+[
+"Velocidade na fila",
+"Cada cliente atendido faz a fila andar o espaçamento entre duas pessoas."
+]
+],
+"h": [
+"Três caixas, 3 min cada: 1 cliente atendido por minuto.",
+"A cada minuto a fila anda 1,0 m.",
+"v = <b>1,0 m/min</b>."
+]
+},
+{
+"id": "1992-2-fis-03b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 3(b)",
+"r": 1360,
+"tm": 60,
+"ctx": "A fila única de um banco tem 50 m de comprimento e anda a 1,0 m/min. Quanto tempo um cliente passa na fila?",
+"a": 50,
+"u": "min",
+"tol": 0.01,
+"d": [
+[
+"Movimento uniforme",
+"Δt = Δs/v.",
+""
+]
+],
+"h": [
+"Δt = 50 m ÷ 1,0 m/min.",
+"<b>50 min</b>."
+]
+},
+{
+"id": "1992-2-fis-03c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 3(c)",
+"r": 1700,
+"tm": 90,
+"ctx": "Numa fila de banco, as pessoas ficam a 1,0 m umas das outras e chegam em média 1 cliente por minuto, mantendo o comprimento da fila constante enquanto três caixas atendem (cada uma leva 3,0 min por cliente). Se um dos caixas se retirar por trinta minutos, de quantos metros a fila aumenta?",
+"a": 10,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Taxa de atendimento",
+"Clientes por minuto = caixas ÷ minutos por cliente.",
+""
+],
+[
+"Balanço",
+"Aumento da fila = (chegadas − atendimentos) × tempo × espaçamento."
+]
+],
+"h": [
+"Com dois caixas: 2/3 de cliente por minuto. Chegam 1 por minuto.",
+"Em 30 min chegam 30 e são atendidos 20: sobram 10 pessoas a mais.",
+"A fila aumenta <b>10 m</b>."
+]
+},
+{
+"id": "1992-2-fis-04a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1992, 2ª fase, Física, questão 4(a)",
+"r": 1440,
+"tm": 90,
+"ctx": "O enormus, o normus e o pequenus são seres de mesma densidade, com a forma de cubos de lados 10,0, 1,0 e 0,10, e temperatura acima da ambiente. Por dia, cada um perde o calor ΔQ = (1/1000) × (área da superfície). Para cada ser ingerido, ganha a energia ΔE = (1/10) × (volume do ser ingerido). O enormus come normus e o normus come pequenus. Quantos normus o enormus deve ingerir por dia só para manter sua temperatura constante?",
+"a": 6,
+"u": "normus",
+"tol": 0,
+"d": [
+[
+"Área e volume do cubo",
+"Cubo de lado L: área 6L², volume L³.",
+""
+],
+[
+"Balanço de energia",
+"Temperatura constante: energia ganha = calor perdido."
+]
+],
+"h": [
+"Perda do enormus: (1/1000) × 6 × 10² = 0,6.",
+"Cada normus fornece (1/10) × 1³ = 0,1.",
+"0,6 ÷ 0,1 = <b>6 normus</b>."
+]
+},
+{
+"id": "1992-2-fis-04b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1992, 2ª fase, Física, questão 4(b)",
+"r": 1530,
+"tm": 90,
+"ctx": "O enormus, o normus e o pequenus são seres de mesma densidade, com a forma de cubos de lados 10,0, 1,0 e 0,10, e temperatura acima da ambiente. Por dia, cada um perde o calor ΔQ = (1/1000) × (área da superfície). Para cada ser ingerido, ganha a energia ΔE = (1/10) × (volume do ser ingerido). O enormus come normus e o normus come pequenus. Quantos pequenus o normus deve ingerir por dia só para manter sua temperatura constante?",
+"a": 60,
+"u": "pequenus",
+"tol": 0,
+"d": [
+[
+"Área e volume do cubo",
+"Cubo de lado L: área 6L², volume L³.",
+""
+],
+[
+"Balanço de energia",
+"Temperatura constante: energia ganha = calor perdido."
+]
+],
+"h": [
+"Perda do normus: (1/1000) × 6 × 1² = 0,006.",
+"Cada pequenus fornece (1/10) × 0,1³ = 0,0001.",
+"0,006 ÷ 0,0001 = <b>60 pequenus</b>."
+]
+},
+{
+"id": "1992-2-fis-04c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1992, 2ª fase, Física, questão 4(c)",
+"r": 1620,
+"tm": 90,
+"ctx": "O enormus, o normus e o pequenus são seres de mesma densidade, com a forma de cubos de lados 10,0, 1,0 e 0,10, e temperatura acima da ambiente. Por dia, cada um perde o calor ΔQ = (1/1000) × (área da superfície). Para cada ser ingerido, ganha a energia ΔE = (1/10) × (volume do ser ingerido). O enormus come normus e o normus come pequenus. O enormus precisa de 6 normus por dia e o normus de 60 pequenus. Que fração da própria massa cada um come por dia?",
+"opts": [
+"enormus: 0,6%; normus: 6%",
+"enormus: 6%; normus: 0,6%",
+"os dois: 6%",
+"enormus: 60%; normus: 6%"
+],
+"a": 0,
+"d": [
+[
+"Mesma densidade",
+"Com a mesma densidade, a razão das massas é a razão dos volumes.",
+""
+],
+[
+"Área sobre volume",
+"Quanto menor o ser, maior a área por unidade de volume, e maior a perda relativa de calor."
+]
+],
+"h": [
+"Enormus: come 6 × 1³ = 6 de volume, e tem 10³ = 1000: 6/1000 = 0,6%.",
+"Normus: come 60 × 0,1³ = 0,06, e tem 1: 6%.",
+"<b>Enormus 0,6%, normus 6%</b>: seres menores precisam comer proporcionalmente mais."
+]
+},
+{
+"id": "1992-2-fis-05",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1992, 2ª fase, Física, questão 5",
+"r": 1960,
+"tm": 150,
+"ctx": "Dois espelhos planos, praticamente paralelos, estão separados por 5,0 m. Um homem fica de frente para um deles, a 2,0 m dele, e vê uma sequência infinita de imagens nesse espelho, algumas de frente e outras de costas. Quais as distâncias entre imagens consecutivas?",
+"fig": "<svg viewBox='0 0 200 80' class='fg' role='img' aria-label='dois espelhos verticais paralelos a 5,0 m um do outro; homem a 2,0 m do espelho da esquerda, olhando para ele'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='40' y1='10' x2='40' y2='60' stroke-width='3'/><line x1='160' y1='10' x2='160' y2='60' stroke-width='3'/><circle cx='88' cy='22' r='5'/><line x1='88' y1='27' x2='88' y2='45'/><line x1='88' y1='45' x2='83' y2='58'/><line x1='88' y1='45' x2='93' y2='58'/><line x1='88' y1='32' x2='76' y2='32'/><g stroke-dasharray='3 3'><line x1='40' y1='68' x2='88' y2='68'/><line x1='40' y1='76' x2='160' y2='76'/></g></g><g fill='currentColor' font-size='10'><text x='52' y='65'>2,0 m</text><text x='118' y='73'>5,0 m</text></g></svg>",
+"opts": [
+"alternam entre 6,0 m e 4,0 m (a 1ª imagem é de frente, a 2ª de costas, e assim por diante)",
+"todas a 4,0 m umas das outras",
+"todas a 5,0 m umas das outras",
+"alternam entre 2,0 m e 3,0 m"
+],
+"a": 0,
+"d": [
+[
+"Espelho plano",
+"A imagem fica à mesma distância do espelho que o objeto, do outro lado.",
+""
+],
+[
+"Imagens de imagens",
+"Cada imagem formada num espelho funciona como objeto para o outro espelho."
+]
+],
+"h": [
+"Ponha o espelho da frente em x = 0, o de trás em x = 5 e o homem em x = 2. Imagem direta: x = −2 (de frente).",
+"A imagem das costas no espelho de trás está em x = 8; refletida no da frente, vai a x = −8 (de costas). Em seguida: x = −12 (frente), x = −18 (costas)...",
+"Distâncias: 6, 4, 6, 4...: <b>alternam entre 6,0 m e 4,0 m</b>."
+]
+},
+{
+"id": "1992-2-fis-06a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 6(a)",
+"r": 1620,
+"tm": 75,
+"ctx": "Um malabarista de circo quer ter três bolas no ar em todos os instantes. Ele arremessa uma bola para cima a cada 0,40 s (g = 10 m/s²). Quanto tempo cada bola fica no ar?",
+"a": 1.2,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Ritmo periódico",
+"Se sai uma bola a cada Δt e há sempre N bolas no ar, cada bola fica no ar N·Δt.",
+""
+]
+],
+"h": [
+"Para haver sempre 3 bolas no ar, cada bola volta à mão quando a terceira seguinte vai sair.",
+"t = 3 × 0,40 s = <b>1,2 s</b>."
+]
+},
+{
+"id": "1992-2-fis-06b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 6(b)",
+"r": 1660,
+"tm": 75,
+"ctx": "Um malabarista de circo quer ter três bolas no ar em todos os instantes. Ele arremessa uma bola para cima a cada 0,40 s (g = 10 m/s²). Cada bola fica 1,2 s no ar. Com que velocidade inicial o malabarista deve atirar cada bola para cima?",
+"a": 6,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Lançamento vertical",
+"v = v₀ − g·t. No ponto mais alto, v = 0.",
+""
+],
+[
+"Simetria",
+"O tempo de subida é metade do tempo total no ar."
+]
+],
+"h": [
+"Subida: 1,2/2 = 0,6 s.",
+"v₀ = g·t = 10 × 0,6.",
+"v₀ = <b>6,0 m/s</b>."
+]
+},
+{
+"id": "1992-2-fis-06c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 6(c)",
+"r": 1660,
+"tm": 75,
+"ctx": "Um malabarista de circo quer ter três bolas no ar em todos os instantes. Ele arremessa uma bola para cima a cada 0,40 s (g = 10 m/s²). Cada bola fica 1,2 s no ar. A que altura acima das mãos cada bola sobe?",
+"a": 1.8,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Queda livre",
+"h = g·t²/2, a partir do repouso.",
+""
+],
+[
+"Simetria",
+"A descida a partir do ponto mais alto dura metade do tempo no ar."
+]
+],
+"h": [
+"Descida: 0,6 s, partindo do repouso no topo.",
+"h = 10 × 0,6²/2 = 10 × 0,36/2.",
+"h = <b>1,8 m</b>."
+]
+},
+{
+"id": "1992-2-fis-07a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 7(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Um habitante do planeta Bongo atirou uma flecha e obteve os gráficos: x(t) é uma reta que passa pela origem, com x = 1,5 m em t = 1 s, 3,0 m em 2 s e 4,5 m em 3 s; a trajetória y(x) começa em y = 4 m com tangente horizontal em x = 0 e chega ao chão (y = 0) em x = 3 m. Qual a velocidade horizontal da flecha?",
+"fig": "<svg viewBox='0 0 300 130' class='fg' role='img' aria-label='dois gráficos: x em função de t, uma reta que passa pela origem e por x = 1,5 m em t = 1 s, 3 m em 2 s e 4,5 m em 3 s; y em função de x, um arco de parábola que começa em y = 4 m com tangente horizontal em x = 0 e chega a y = 0 em x = 3 m'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,105 140,105'/><line x1='30' y1='105' x2='117.5' y2='10.5' stroke-width='2'/><polyline points='180,8 180,105 290,105'/><path d='M180,33 Q217.5,33 255,105' stroke-width='2'/><g stroke-dasharray='2 3' stroke-width='1'><polyline points='30,78 55,78 55,105'/><polyline points='30,51 80,51 80,105'/><polyline points='30,24 105,24 105,105'/></g></g><g fill='currentColor' font-size='9'><text x='52' y='116'>1</text><text x='77' y='116'>2</text><text x='102' y='116'>3</text><text x='14' y='81'>1,5</text><text x='20' y='54'>3</text><text x='14' y='27'>4,5</text><text x='60' y='127'>t (s)</text><text x='34' y='10'>x (m)</text><text x='202' y='116'>1</text><text x='227' y='116'>2</text><text x='252' y='116'>3</text><text x='172' y='90'>1</text><text x='172' y='72'>2</text><text x='172' y='54'>3</text><text x='172' y='36'>4</text><text x='215' y='127'>x (m)</text><text x='184' y='10'>y (m)</text></g></svg>",
+"a": 1.5,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Gráfico x × t",
+"Numa reta, a velocidade é a inclinação: v = Δx/Δt.",
+""
+]
+],
+"h": [
+"De t = 0 a t = 3 s, x vai de 0 a 4,5 m.",
+"vₓ = 4,5/3 = <b>1,5 m/s</b>."
+]
+},
+{
+"id": "1992-2-fis-07b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 7(b)",
+"r": 1530,
+"tm": 60,
+"ctx": "Um habitante do planeta Bongo atirou uma flecha e obteve os gráficos: x(t) é uma reta que passa pela origem, com x = 1,5 m em t = 1 s, 3,0 m em 2 s e 4,5 m em 3 s; a trajetória y(x) começa em y = 4 m com tangente horizontal em x = 0 e chega ao chão (y = 0) em x = 3 m. Qual a velocidade vertical inicial da flecha?",
+"fig": "<svg viewBox='0 0 300 130' class='fg' role='img' aria-label='dois gráficos: x em função de t, uma reta que passa pela origem e por x = 1,5 m em t = 1 s, 3 m em 2 s e 4,5 m em 3 s; y em função de x, um arco de parábola que começa em y = 4 m com tangente horizontal em x = 0 e chega a y = 0 em x = 3 m'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,105 140,105'/><line x1='30' y1='105' x2='117.5' y2='10.5' stroke-width='2'/><polyline points='180,8 180,105 290,105'/><path d='M180,33 Q217.5,33 255,105' stroke-width='2'/><g stroke-dasharray='2 3' stroke-width='1'><polyline points='30,78 55,78 55,105'/><polyline points='30,51 80,51 80,105'/><polyline points='30,24 105,24 105,105'/></g></g><g fill='currentColor' font-size='9'><text x='52' y='116'>1</text><text x='77' y='116'>2</text><text x='102' y='116'>3</text><text x='14' y='81'>1,5</text><text x='20' y='54'>3</text><text x='14' y='27'>4,5</text><text x='60' y='127'>t (s)</text><text x='34' y='10'>x (m)</text><text x='202' y='116'>1</text><text x='227' y='116'>2</text><text x='252' y='116'>3</text><text x='172' y='90'>1</text><text x='172' y='72'>2</text><text x='172' y='54'>3</text><text x='172' y='36'>4</text><text x='215' y='127'>x (m)</text><text x='184' y='10'>y (m)</text></g></svg>",
+"a": 0,
+"u": "m/s",
+"d": [
+[
+"Tangente da trajetória",
+"A direção da velocidade é tangente à trajetória: v<sub>y</sub>/vₓ é a inclinação da curva y(x).",
+""
+]
+],
+"h": [
+"Em x = 0, a curva y(x) tem tangente horizontal.",
+"Então a velocidade é toda horizontal no início.",
+"v<sub>y0</sub> = <b>0</b>: a flecha foi atirada na horizontal."
+]
+},
+{
+"id": "1992-2-fis-07c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1992, 2ª fase, Física, questão 7(c)",
+"r": 1700,
+"tm": 90,
+"ctx": "Um habitante do planeta Bongo atirou uma flecha e obteve os gráficos: x(t) é uma reta que passa pela origem, com x = 1,5 m em t = 1 s, 3,0 m em 2 s e 4,5 m em 3 s; a trajetória y(x) começa em y = 4 m com tangente horizontal em x = 0 e chega ao chão (y = 0) em x = 3 m. A flecha foi atirada na horizontal, com vₓ = 1,5 m/s. Qual o valor da aceleração da gravidade em Bongo?",
+"fig": "<svg viewBox='0 0 300 130' class='fg' role='img' aria-label='dois gráficos: x em função de t, uma reta que passa pela origem e por x = 1,5 m em t = 1 s, 3 m em 2 s e 4,5 m em 3 s; y em função de x, um arco de parábola que começa em y = 4 m com tangente horizontal em x = 0 e chega a y = 0 em x = 3 m'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,105 140,105'/><line x1='30' y1='105' x2='117.5' y2='10.5' stroke-width='2'/><polyline points='180,8 180,105 290,105'/><path d='M180,33 Q217.5,33 255,105' stroke-width='2'/><g stroke-dasharray='2 3' stroke-width='1'><polyline points='30,78 55,78 55,105'/><polyline points='30,51 80,51 80,105'/><polyline points='30,24 105,24 105,105'/></g></g><g fill='currentColor' font-size='9'><text x='52' y='116'>1</text><text x='77' y='116'>2</text><text x='102' y='116'>3</text><text x='14' y='81'>1,5</text><text x='20' y='54'>3</text><text x='14' y='27'>4,5</text><text x='60' y='127'>t (s)</text><text x='34' y='10'>x (m)</text><text x='202' y='116'>1</text><text x='227' y='116'>2</text><text x='252' y='116'>3</text><text x='172' y='90'>1</text><text x='172' y='72'>2</text><text x='172' y='54'>3</text><text x='172' y='36'>4</text><text x='215' y='127'>x (m)</text><text x='184' y='10'>y (m)</text></g></svg>",
+"a": 2,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"Lançamento horizontal",
+"Na horizontal, movimento uniforme: x = vₓ·t. Na vertical, queda a partir do repouso: Δy = g·t²/2.",
+""
+]
+],
+"h": [
+"Tempo de voo: x = 3 m com vₓ = 1,5 m/s → t = 2 s.",
+"Queda de 4 m em 2 s: 4 = g·2²/2 = 2g.",
+"g = <b>2 m/s²</b>."
+]
+},
+{
+"id": "1992-2-fis-08a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1992, 2ª fase, Física, questão 8(a)",
+"r": 1020,
+"tm": 45,
+"ctx": "Um aluno precisa de um resistor que, ligado a uma tomada de 220 V, gere 2200 W de potência térmica. Ele usa fio de constantan com seção transversal de 5,0·10⁻² mm² e condutividade elétrica de 2,0·10⁶ (Ω·m)⁻¹. Que corrente passará pelo resistor?",
+"a": 10,
+"u": "A",
+"tol": 0.01,
+"d": [
+[
+"Potência",
+"P = U·i.",
+""
+]
+],
+"h": [
+"i = P/U = 2200/220.",
+"i = <b>10 A</b>."
+]
+},
+{
+"id": "1992-2-fis-08b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1992, 2ª fase, Física, questão 8(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Um aluno precisa de um resistor que, ligado a uma tomada de 220 V, gere 2200 W de potência térmica. Ele usa fio de constantan com seção transversal de 5,0·10⁻² mm² e condutividade elétrica de 2,0·10⁶ (Ω·m)⁻¹. Qual será a resistência elétrica?",
+"a": 22,
+"u": "Ω",
+"tol": 0.01,
+"d": [
+[
+"Potência",
+"P = U²/R, ou R = U/i.",
+""
+]
+],
+"h": [
+"R = U²/P = 220²/2200 = 48400/2200.",
+"R = <b>22 Ω</b>."
+]
+},
+{
+"id": "1992-2-fis-08c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1992, 2ª fase, Física, questão 8(c)",
+"r": 1620,
+"tm": 90,
+"ctx": "Um aluno precisa de um resistor que, ligado a uma tomada de 220 V, gere 2200 W de potência térmica. Ele usa fio de constantan com seção transversal de 5,0·10⁻² mm² e condutividade elétrica de 2,0·10⁶ (Ω·m)⁻¹. A resistência deve ser 22 Ω. Quantos metros de fio serão necessários?",
+"a": 2.2,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Segunda lei de Ohm",
+"R = L/(σ·A), com σ a condutividade (o inverso da resistividade).",
+""
+],
+[
+"Conversão de área",
+"1 mm² = 10⁻⁶ m²."
+]
+],
+"h": [
+"A = 5,0·10⁻² mm² = 5,0·10⁻⁸ m².",
+"L = R·σ·A = 22 × 2,0·10⁶ × 5,0·10⁻⁸ = 22 × 0,10.",
+"L = <b>2,2 m</b>."
+]
+},
+{
+"id": "1992-2-fis-09a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1992, 2ª fase, Física, questão 9(a)",
+"r": 1190,
+"tm": 60,
+"ctx": "Um rapaz quer tomar banho de banheira com água a 30 °C, misturando água quente e fria. Ele coloca 100 L de água fria a 20 °C. Desprezando a capacidade térmica da banheira e as perdas de calor, quantos litros de água quente, a 50 °C, ele deve colocar?",
+"a": 50,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Equilíbrio térmico",
+"Calor cedido pela água quente = calor recebido pela fria: m·c·ΔT de cada uma.",
+""
+],
+[
+"Mesma substância",
+"Com água dos dois lados, c se cancela; 1 L de água tem 1 kg."
+]
+],
+"h": [
+"Fria: 100 × (30 − 20) = 1000. Quente: m × (50 − 30) = 20m.",
+"20m = 1000 → m = 50.",
+"<b>50 L</b> de água quente."
+]
+},
+{
+"id": "1992-2-fis-09b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1992, 2ª fase, Física, questão 9(b)",
+"r": 1100,
+"tm": 45,
+"ctx": "Um rapaz precisa colocar 50 L de água quente na banheira. Se a vazão da torneira de água quente é de 0,20 L/s, por quanto tempo a torneira deve ficar aberta?",
+"a": 250,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Vazão",
+"Vazão = volume ÷ tempo.",
+""
+]
+],
+"h": [
+"t = 50 L ÷ 0,20 L/s.",
+"t = <b>250 s</b> (cerca de 4 min)."
+]
+},
+{
+"id": "1992-2-fis-10a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1992, 2ª fase, Física, questão 10(a)",
+"r": 1620,
+"tm": 90,
+"ctx": "Uma hidrelétrica gera 5,0·10⁹ W de potência elétrica usando uma queda d'água de 100 m. Suponha que o gerador aproveite 100% da energia da queda e que a represa colete 20% de toda a chuva que cai numa região de 400.000 km². Considere 1 ano = 32·10⁶ s e g = 10 m/s². Qual a vazão de água, em m³/s, necessária para fornecer os 5,0·10⁹ W?",
+"a": 5000,
+"u": "m³/s",
+"tol": 0.01,
+"d": [
+[
+"Potência da queda",
+"Por segundo, a água perde energia potencial m·g·h: P = (massa por segundo)·g·h.",
+""
+],
+[
+"Densidade da água",
+"1 m³ de água tem 1000 kg."
+]
+],
+"h": [
+"Massa por segundo: 5,0·10⁹ = ṁ × 10 × 100 → ṁ = 5,0·10⁶ kg/s.",
+"Em volume: 5,0·10⁶ kg/s ÷ 1000 kg/m³.",
+"Vazão = <b>5000 m³/s</b>."
+]
+},
+{
+"id": "1992-2-fis-10b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1992, 2ª fase, Física, questão 10(b)",
+"r": 1870,
+"tm": 120,
+"ctx": "Uma hidrelétrica gera 5,0·10⁹ W de potência elétrica usando uma queda d'água de 100 m. Suponha que o gerador aproveite 100% da energia da queda e que a represa colete 20% de toda a chuva que cai numa região de 400.000 km². Considere 1 ano = 32·10⁶ s e g = 10 m/s². A vazão necessária é de 5000 m³/s. Quantos milímetros de chuva devem cair por ano na região para manter a hidrelétrica operando?",
+"a": 2000,
+"u": "mm",
+"tol": 0.01,
+"d": [
+[
+"Volume por ano",
+"V = vazão × tempo.",
+""
+],
+[
+"Altura de chuva",
+"Altura = volume de chuva ÷ área."
+],
+[
+"Conversão",
+"1 km² = 10⁶ m²; 1 m = 1000 mm."
+]
+],
+"h": [
+"Volume usado por ano: 5000 × 32·10⁶ = 1,6·10¹¹ m³.",
+"Isso é 20% da chuva: chuva total = 8,0·10¹¹ m³.",
+"Área: 4·10⁵ km² = 4·10¹¹ m². Altura: 8·10¹¹/4·10¹¹ = 2 m = <b>2000 mm</b>."
+]
+},
+{
+"id": "1992-2-fis-11a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1992, 2ª fase, Física, questão 11(a)",
+"r": 1440,
+"tm": 75,
+"ctx": "Um carrinho de 300 kg percorre uma montanha-russa cujo trecho BCD é um arco de circunferência de raio R = 5,4 m; o centro do arco está na altura do ponto A, e C é o topo do arco. A velocidade no ponto A é 12 m/s. Use g = 10 m/s² e despreze o atrito. Qual a velocidade do carrinho no ponto C?",
+"fig": "<svg viewBox='0 0 200 130' class='fg' role='img' aria-label='montanha-russa: carrinho no ponto A, num vale, na altura do centro de um arco BCD de raio R; C é o topo do arco'><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M5,40 C25,40 25,80 40,80 C55,80 70,73 91.7,51.7 A40,40 0 0 1 148.3,51.7 C170,73 180,72 195,66' stroke-width='2'/><g stroke-dasharray='3 3' stroke-width='1'><line x1='5' y1='80' x2='195' y2='80'/><circle cx='120' cy='80' r='40'/><line x1='120' y1='80' x2='120' y2='40'/></g><rect x='33' y='72' width='14' height='7'/></g><g fill='currentColor' font-size='11'><circle cx='120' cy='80' r='2'/><text x='36' y='95'>A</text><text x='82' y='48'>B</text><text x='116' y='35'>C</text><text x='151' y='48'>D</text><text x='124' y='64'>R</text></g></svg>",
+"a": 6,
+"u": "m/s",
+"tol": 0.01,
+"d": [
+[
+"Conservação da energia mecânica",
+"Sem atrito: v²/2 + g·h é constante.",
+""
+],
+[
+"Altura de C",
+"C está um raio acima do centro do arco."
+]
+],
+"h": [
+"C está R = 5,4 m acima de A.",
+"v<sub>C</sub>² = v<sub>A</sub>² − 2gh = 144 − 2 × 10 × 5,4 = 36.",
+"v<sub>C</sub> = <b>6,0 m/s</b>."
+]
+},
+{
+"id": "1992-2-fis-11b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1992, 2ª fase, Física, questão 11(b)",
+"r": 1570,
+"tm": 75,
+"ctx": "Um carrinho de 300 kg percorre uma montanha-russa cujo trecho BCD é um arco de circunferência de raio R = 5,4 m; o centro do arco está na altura do ponto A, e C é o topo do arco. A velocidade no ponto A é 12 m/s. Use g = 10 m/s² e despreze o atrito. No ponto C a velocidade é 6,0 m/s. Qual a aceleração do carrinho em C?",
+"fig": "<svg viewBox='0 0 200 130' class='fg' role='img' aria-label='montanha-russa: carrinho no ponto A, num vale, na altura do centro de um arco BCD de raio R; C é o topo do arco'><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M5,40 C25,40 25,80 40,80 C55,80 70,73 91.7,51.7 A40,40 0 0 1 148.3,51.7 C170,73 180,72 195,66' stroke-width='2'/><g stroke-dasharray='3 3' stroke-width='1'><line x1='5' y1='80' x2='195' y2='80'/><circle cx='120' cy='80' r='40'/><line x1='120' y1='80' x2='120' y2='40'/></g><rect x='33' y='72' width='14' height='7'/></g><g fill='currentColor' font-size='11'><circle cx='120' cy='80' r='2'/><text x='36' y='95'>A</text><text x='82' y='48'>B</text><text x='116' y='35'>C</text><text x='151' y='48'>D</text><text x='124' y='64'>R</text></g></svg>",
+"a": 6.67,
+"u": "m/s²",
+"tol": 0.02,
+"d": [
+[
+"Aceleração centrípeta",
+"a = v²/R, apontando para o centro da curva.",
+""
+],
+[
+"Topo do arco",
+"Em C a velocidade é horizontal e não há atrito: a aceleração é só centrípeta."
+]
+],
+"h": [
+"a = 6,0²/5,4 = 36/5,4.",
+"a ≈ <b>6,7 m/s²</b>, vertical, para baixo (para o centro)."
+]
+},
+{
+"id": "1992-2-fis-11c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1992, 2ª fase, Física, questão 11(c)",
+"r": 1780,
+"tm": 90,
+"ctx": "Um carrinho de 300 kg percorre uma montanha-russa cujo trecho BCD é um arco de circunferência de raio R = 5,4 m; o centro do arco está na altura do ponto A, e C é o topo do arco. A velocidade no ponto A é 12 m/s. Use g = 10 m/s² e despreze o atrito. Em C, a aceleração é 20/3 ≈ 6,7 m/s², para baixo. Qual a força que os trilhos fazem sobre o carrinho em C?",
+"fig": "<svg viewBox='0 0 200 130' class='fg' role='img' aria-label='montanha-russa: carrinho no ponto A, num vale, na altura do centro de um arco BCD de raio R; C é o topo do arco'><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M5,40 C25,40 25,80 40,80 C55,80 70,73 91.7,51.7 A40,40 0 0 1 148.3,51.7 C170,73 180,72 195,66' stroke-width='2'/><g stroke-dasharray='3 3' stroke-width='1'><line x1='5' y1='80' x2='195' y2='80'/><circle cx='120' cy='80' r='40'/><line x1='120' y1='80' x2='120' y2='40'/></g><rect x='33' y='72' width='14' height='7'/></g><g fill='currentColor' font-size='11'><circle cx='120' cy='80' r='2'/><text x='36' y='95'>A</text><text x='82' y='48'>B</text><text x='116' y='35'>C</text><text x='151' y='48'>D</text><text x='124' y='64'>R</text></g></svg>",
+"a": 1000,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Segunda lei no topo",
+"Resultante para o centro = m·v²/R. Por cima do trilho: m·g − N = m·a.",
+""
+]
+],
+"h": [
+"Peso: 300 × 10 = 3000 N. Resultante necessária: 300 × 20/3 = 2000 N, para baixo.",
+"N = 3000 − 2000.",
+"N = <b>1000 N</b>, vertical para cima."
+]
+},
+{
+"id": "1992-2-fis-12a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1992, 2ª fase, Física, questão 12(a)",
+"r": 1320,
+"tm": 60,
+"ctx": "Um corpo de massa m = 10 kg está preso a uma mola de constante k = 40 N/m e em repouso no ponto O. Ele é puxado até a posição A e solto; o atrito é desprezível. Com π = 3,14, qual o período de oscilação?",
+"fig": "<svg viewBox='0 0 200 85' class='fg' role='img' aria-label='bloco de massa m preso a uma mola horizontal presa à parede, em repouso no ponto O; B entre O e A; A é o ponto até onde o bloco é puxado'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='12' y1='10' x2='12' y2='68'/><line x1='12' y1='68' x2='195' y2='68'/><polyline points='12,48 22,48 26,40 34,56 42,40 50,56 58,40 66,56 70,48 80,48'/><rect x='80' y='36' width='40' height='26'/><rect x='150' y='36' width='40' height='26' stroke-dasharray='3 3'/><line x1='100' y1='30' x2='100' y2='75' stroke-dasharray='2 2' stroke-width='1'/></g><g fill='currentColor' font-size='11'><text x='96' y='84'>O</text><text x='130' y='84'>B</text><circle cx='134' cy='68' r='2'/><text x='166' y='84'>A</text><circle cx='170' cy='68' r='2'/><text x='84' y='53'>m</text><text x='38' y='34'>k</text></g></svg>",
+"a": 3.14,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Sistema massa-mola",
+"T = 2π·√(m/k), independente da amplitude.",
+""
+]
+],
+"h": [
+"m/k = 10/40 = 0,25 → √0,25 = 0,5.",
+"T = 2 × 3,14 × 0,5.",
+"T = <b>3,14 s</b>."
+]
+},
+{
+"id": "1992-2-fis-12b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1992, 2ª fase, Física, questão 12(b)",
+"r": 1700,
+"tm": 90,
+"ctx": "Um corpo preso a uma mola oscila entre A e o ponto simétrico a A em relação a O, com período 3,14 s, a partir de A. Um observador parado no ponto B, entre O e A, conta quantas vezes o corpo passa por ele. Quantas vezes ele vê o corpo passar em 15,7 s?",
+"fig": "<svg viewBox='0 0 200 85' class='fg' role='img' aria-label='bloco de massa m preso a uma mola horizontal presa à parede, em repouso no ponto O; B entre O e A; A é o ponto até onde o bloco é puxado'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='12' y1='10' x2='12' y2='68'/><line x1='12' y1='68' x2='195' y2='68'/><polyline points='12,48 22,48 26,40 34,56 42,40 50,56 58,40 66,56 70,48 80,48'/><rect x='80' y='36' width='40' height='26'/><rect x='150' y='36' width='40' height='26' stroke-dasharray='3 3'/><line x1='100' y1='30' x2='100' y2='75' stroke-dasharray='2 2' stroke-width='1'/></g><g fill='currentColor' font-size='11'><text x='96' y='84'>O</text><text x='130' y='84'>B</text><circle cx='134' cy='68' r='2'/><text x='166' y='84'>A</text><circle cx='170' cy='68' r='2'/><text x='84' y='53'>m</text><text x='38' y='34'>k</text></g></svg>",
+"a": 10,
+"u": "vezes",
+"tol": 0,
+"d": [
+[
+"Número de oscilações",
+"n = tempo ÷ período.",
+""
+],
+[
+"Passagens por um ponto",
+"Num ciclo completo, o corpo passa duas vezes por cada ponto interno da trajetória: uma indo e outra voltando."
+]
+],
+"h": [
+"15,7 ÷ 3,14 = 5 períodos completos.",
+"Em cada período, o corpo passa por B duas vezes (indo para o outro lado e voltando para A).",
+"5 × 2 = <b>10 vezes</b>."
+]
+},
+{
+"id": "1992-2-fis-13a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1992, 2ª fase, Física, questão 13(a)",
+"r": 1530,
+"tm": 75,
+"ctx": "Uma bexiga de festa está cheia com 5,4 L de ar. Um mergulhador a leva para o fundo de um lago de 8,0 m de profundidade. Considere 1 atm = 10 m de água, g = 10 m/s² e temperatura constante. Qual o volume da bexiga no fundo do lago?",
+"a": 3,
+"u": "L",
+"tol": 0.01,
+"d": [
+[
+"Pressão na água",
+"p = p<sub>atm</sub> + pressão da coluna de água; cada 10 m de água acrescentam 1 atm.",
+""
+],
+[
+"Lei de Boyle",
+"A temperatura constante: p₁·V₁ = p₂·V₂."
+]
+],
+"h": [
+"No fundo: p = 1 + 0,8 = 1,8 atm.",
+"V = 1,0 × 5,4/1,8.",
+"V = <b>3,0 L</b>."
+]
+},
+{
+"id": "1992-2-fis-13b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1992, 2ª fase, Física, questão 13(b)",
+"r": 1570,
+"tm": 60,
+"ctx": "Uma bexiga de festa está cheia com 5,4 L de ar. Um mergulhador a leva para o fundo de um lago de 8,0 m de profundidade. Considere 1 atm = 10 m de água, g = 10 m/s² e temperatura constante. No fundo, a bexiga tem 3,0 L. Qual a força de empuxo sobre ela?",
+"a": 30,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Empuxo",
+"E = ρ<sub>líquido</sub> · V<sub>submerso</sub> · g.",
+""
+],
+[
+"Conversão",
+"1 L = 10⁻³ m³; ρ da água = 1000 kg/m³."
+]
+],
+"h": [
+"V = 3,0·10⁻³ m³.",
+"E = 1000 × 3,0·10⁻³ × 10.",
+"E = <b>30 N</b>."
+]
+},
+{
+"id": "1992-2-fis-13c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1992, 2ª fase, Física, questão 13(c)",
+"r": 1440,
+"tm": 60,
+"ctx": "Uma bexiga de festa está cheia com 5,4 L de ar. Um mergulhador a leva para o fundo de um lago de 8,0 m de profundidade. Considere 1 atm = 10 m de água, g = 10 m/s² e temperatura constante. Onde o empuxo sobre a bexiga é maior: logo abaixo da superfície do lago ou no fundo?",
+"opts": [
+"logo abaixo da superfície: a pressão é menor, a bexiga tem volume maior e desloca mais água",
+"no fundo: a pressão é maior e empurra mais a bexiga para cima",
+"é igual nos dois lugares, pois o empuxo não depende da profundidade",
+"no fundo, porque a água lá é mais densa"
+],
+"a": 0,
+"d": [
+[
+"Empuxo",
+"E = ρ·V·g depende do volume deslocado.",
+""
+],
+[
+"Lei de Boyle",
+"Menos pressão, mais volume (temperatura constante)."
+]
+],
+"h": [
+"Junto à superfície, p ≈ 1 atm e V = 5,4 L; no fundo, V = 3,0 L.",
+"Mais volume, mais água deslocada.",
+"O empuxo é maior <b>logo abaixo da superfície</b> (54 N contra 30 N)."
+]
+},
+{
+"id": "1992-2-fis-14a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1992, 2ª fase, Física, questão 14(a)",
+"r": 1620,
+"tm": 90,
+"ctx": "Uma bomba de massa m, movendo-se na horizontal com velocidade v₀, explode em três fragmentos: um de massa m/3 sai para cima com velocidade 3v₀; um de massa m/2 sai para baixo com velocidade v₂; o terceiro sai na horizontal, no sentido de v₀, com velocidade v₁. Quanto vale v₁, em múltiplos de v₀?",
+"fig": "<svg viewBox='0 0 200 100' class='fg' role='img' aria-label='antes: corpo de massa m com velocidade v0 para a direita; depois: fragmento m/3 com velocidade 3v0 para cima, fragmento m/2 com velocidade v2 para baixo e um terceiro fragmento com velocidade v1 para a direita'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='20' cy='50' r='5'/><line x1='25' y1='50' x2='55' y2='50'/><circle cx='135' cy='35' r='5'/><line x1='135' y1='30' x2='135' y2='8'/><circle cx='135' cy='68' r='5'/><line x1='135' y1='73' x2='135' y2='93'/><circle cx='160' cy='50' r='5'/><line x1='165' y1='50' x2='190' y2='50'/><line x1='92' y1='5' x2='92' y2='95' stroke-dasharray='3 3' stroke-width='1'/></g><g fill='currentColor' font-size='10'><polygon points='60,50 53,46 53,54'/><polygon points='135,3 131,10 139,10'/><polygon points='135,98 131,91 139,91'/><polygon points='195,50 188,46 188,54'/><text x='16' y='68'>m</text><text x='34' y='44'>v₀</text><text x='12' y='12'>antes</text><text x='100' y='12'>depois</text><text x='112' y='40'>m/3</text><text x='141' y='14'>3v₀</text><text x='112' y='72'>m/2</text><text x='141' y='92'>v₂</text><text x='176' y='44'>v₁</text></g></svg>",
+"a": 6,
+"u": "× v₀",
+"tol": 0.01,
+"d": [
+[
+"Conservação do momento linear",
+"Na explosão, as forças são internas: o momento total (vetor) se conserva, em cada direção.",
+""
+],
+[
+"Massa que sobra",
+"A massa do terceiro fragmento é m − m/3 − m/2."
+]
+],
+"h": [
+"Massa do terceiro fragmento: m − m/3 − m/2 = m/6.",
+"Horizontal: m·v₀ = (m/6)·v₁ (os outros dois se movem na vertical).",
+"v₁ = <b>6v₀</b>."
+]
+},
+{
+"id": "1992-2-fis-14b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1992, 2ª fase, Física, questão 14(b)",
+"r": 1570,
+"tm": 75,
+"ctx": "Uma bomba de massa m, movendo-se na horizontal com velocidade v₀, explode em três fragmentos: um de massa m/3 sai para cima com velocidade 3v₀; um de massa m/2 sai para baixo com velocidade v₂; o terceiro sai na horizontal, no sentido de v₀, com velocidade v₁. Quanto vale v₂, em múltiplos de v₀?",
+"fig": "<svg viewBox='0 0 200 100' class='fg' role='img' aria-label='antes: corpo de massa m com velocidade v0 para a direita; depois: fragmento m/3 com velocidade 3v0 para cima, fragmento m/2 com velocidade v2 para baixo e um terceiro fragmento com velocidade v1 para a direita'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='20' cy='50' r='5'/><line x1='25' y1='50' x2='55' y2='50'/><circle cx='135' cy='35' r='5'/><line x1='135' y1='30' x2='135' y2='8'/><circle cx='135' cy='68' r='5'/><line x1='135' y1='73' x2='135' y2='93'/><circle cx='160' cy='50' r='5'/><line x1='165' y1='50' x2='190' y2='50'/><line x1='92' y1='5' x2='92' y2='95' stroke-dasharray='3 3' stroke-width='1'/></g><g fill='currentColor' font-size='10'><polygon points='60,50 53,46 53,54'/><polygon points='135,3 131,10 139,10'/><polygon points='135,98 131,91 139,91'/><polygon points='195,50 188,46 188,54'/><text x='16' y='68'>m</text><text x='34' y='44'>v₀</text><text x='12' y='12'>antes</text><text x='100' y='12'>depois</text><text x='112' y='40'>m/3</text><text x='141' y='14'>3v₀</text><text x='112' y='72'>m/2</text><text x='141' y='92'>v₂</text><text x='176' y='44'>v₁</text></g></svg>",
+"a": 2,
+"u": "× v₀",
+"tol": 0.01,
+"d": [
+[
+"Conservação do momento linear",
+"O momento total se conserva em cada direção. Antes da explosão, o momento vertical é zero.",
+""
+]
+],
+"h": [
+"Vertical: 0 = (m/3)·3v₀ − (m/2)·v₂.",
+"m·v₀ = (m/2)·v₂.",
+"v₂ = <b>2v₀</b>."
+]
+},
+{
+"id": "1992-2-fis-14c",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1992, 2ª fase, Física, questão 14(c)",
+"r": 1740,
+"tm": 90,
+"ctx": "Uma bomba de massa m, movendo-se na horizontal com velocidade v₀, explode em três fragmentos: um de massa m/3 sai para cima com velocidade 3v₀; um de massa m/2 sai para baixo com velocidade v₂; o terceiro sai na horizontal, no sentido de v₀, com velocidade v₁. Os fragmentos têm massas m/3, m/2 e m/6 e velocidades 3v₀, 2v₀ e 6v₀. A energia mecânica aumenta, diminui ou permanece a mesma na explosão?",
+"fig": "<svg viewBox='0 0 200 100' class='fg' role='img' aria-label='antes: corpo de massa m com velocidade v0 para a direita; depois: fragmento m/3 com velocidade 3v0 para cima, fragmento m/2 com velocidade v2 para baixo e um terceiro fragmento com velocidade v1 para a direita'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='20' cy='50' r='5'/><line x1='25' y1='50' x2='55' y2='50'/><circle cx='135' cy='35' r='5'/><line x1='135' y1='30' x2='135' y2='8'/><circle cx='135' cy='68' r='5'/><line x1='135' y1='73' x2='135' y2='93'/><circle cx='160' cy='50' r='5'/><line x1='165' y1='50' x2='190' y2='50'/><line x1='92' y1='5' x2='92' y2='95' stroke-dasharray='3 3' stroke-width='1'/></g><g fill='currentColor' font-size='10'><polygon points='60,50 53,46 53,54'/><polygon points='135,3 131,10 139,10'/><polygon points='135,98 131,91 139,91'/><polygon points='195,50 188,46 188,54'/><text x='16' y='68'>m</text><text x='34' y='44'>v₀</text><text x='12' y='12'>antes</text><text x='100' y='12'>depois</text><text x='112' y='40'>m/3</text><text x='141' y='14'>3v₀</text><text x='112' y='72'>m/2</text><text x='141' y='92'>v₂</text><text x='176' y='44'>v₁</text></g></svg>",
+"opts": [
+"aumenta: passa de mv₀²/2 para 11 × mv₀²/2, com a energia química do explosivo",
+"permanece a mesma, porque o momento se conserva",
+"diminui, porque parte vira calor e som",
+"aumenta só 3 vezes"
+],
+"a": 0,
+"d": [
+[
+"Energia cinética",
+"E = m·v²/2 de cada fragmento; some todas.",
+""
+],
+[
+"Explosão",
+"O momento se conserva, mas a energia cinética não precisa: o explosivo fornece energia."
+]
+],
+"h": [
+"Antes: mv₀²/2.",
+"Depois: (m/3)(9v₀²)/2 + (m/2)(4v₀²)/2 + (m/6)(36v₀²)/2 = (3 + 2 + 6)·mv₀²/2.",
+"A energia <b>aumenta</b>, 11 vezes, à custa da energia química do explosivo."
+]
+},
+{
+"id": "1992-2-fis-15a",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1992, 2ª fase, Física, questão 15(a)",
+"r": 1620,
+"tm": 90,
+"ctx": "Considere uma molécula diatômica iônica: um átomo tem carga q = 1,6·10⁻¹⁹ C e o outro, carga oposta. A distância interatômica de equilíbrio é 2,0·10⁻¹⁰ m, e 1/(4πε₀) = 9,0·10⁹ (SI). Na distância de equilíbrio, a atração entre as cargas é anulada por outras forças internas. Qual o módulo da resultante dessas outras forças?",
+"a": 5.76e-09,
+"u": "N",
+"tol": 0.02,
+"d": [
+[
+"Lei de Coulomb",
+"F = k·|q₁·q₂|/d², com k = 1/(4πε₀).",
+""
+],
+[
+"Equilíbrio",
+"As outras forças têm o mesmo módulo da atração e sentido oposto (repulsivo)."
+]
+],
+"h": [
+"F = 9,0·10⁹ × (1,6·10⁻¹⁹)² / (2,0·10⁻¹⁰)².",
+"= 9,0·10⁹ × 2,56·10⁻³⁸ / 4,0·10⁻²⁰.",
+"F ≈ <b>5,8·10⁻⁹ N</b>, repulsiva."
+]
+},
+{
+"id": "1992-2-fis-15b",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1992, 2ª fase, Física, questão 15(b)",
+"r": 1870,
+"tm": 120,
+"ctx": "Considere uma molécula diatômica iônica: um átomo tem carga q = 1,6·10⁻¹⁹ C e o outro, carga oposta. A distância interatômica de equilíbrio é 2,0·10⁻¹⁰ m, e 1/(4πε₀) = 9,0·10⁹ (SI). Para distâncias maiores que a de equilíbrio, as outras forças internas são desprezíveis. Qual a energia necessária para separar completamente as duas cargas (dissociar a molécula em dois íons)?",
+"a": 1.15e-18,
+"u": "J",
+"tol": 0.02,
+"d": [
+[
+"Energia potencial elétrica",
+"U = k·q₁·q₂/d, com U = 0 a distância infinita.",
+""
+],
+[
+"Trabalho para separar",
+"Energia necessária = U(∞) − U(d) = k·q²/d para cargas opostas."
+]
+],
+"h": [
+"A energia potencial no equilíbrio é U = −k·q²/d.",
+"E = 9,0·10⁹ × 2,56·10⁻³⁸ / 2,0·10⁻¹⁰.",
+"E ≈ <b>1,2·10⁻¹⁸ J</b> (cerca de 7 eV)."
+]
+},
+{
+"id": "1992-2-fis-16",
+"ano": 1992,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1992, 2ª fase, Física, questão 16",
+"r": 1780,
+"tm": 120,
+"ctx": "Uma espira quadrada de lado a atravessa, com velocidade constante, da esquerda para a direita, uma região quadrada de lado b > a onde há um campo magnético constante apontando para cima. Para um observador que olha de cima para baixo, qual o sentido da corrente na espira quando ela está entrando na região, no meio da região e saindo dela?",
+"fig": "<svg viewBox='0 0 200 100' class='fg' role='img' aria-label='vista de cima: região quadrada de lado b com campo magnético saindo do papel, isto é, para cima; espira quadrada menor, de lado a, à esquerda, movendo-se para a direita com velocidade v'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='95' y='15' width='75' height='75' stroke-dasharray='4 3'/><rect x='30' y='38' width='28' height='28'/><line x1='62' y1='52' x2='82' y2='52'/></g><g fill='currentColor' font-size='10'><polygon points='87,52 80,48 80,56'/><circle cx='110' cy='30' r='2'/><circle cx='132' cy='30' r='2'/><circle cx='154' cy='30' r='2'/><circle cx='110' cy='52' r='2'/><circle cx='132' cy='52' r='2'/><circle cx='154' cy='52' r='2'/><circle cx='110' cy='75' r='2'/><circle cx='132' cy='75' r='2'/><circle cx='154' cy='75' r='2'/><text x='40' y='78'>a</text><text x='130' y='100'>b</text><text x='68' y='46'>v</text></g></svg>",
+"opts": [
+"entrando: horário; no meio: não há corrente; saindo: anti-horário",
+"entrando: anti-horário; no meio: não há corrente; saindo: horário",
+"entrando: horário; no meio: horário; saindo: horário",
+"entrando: anti-horário; no meio: anti-horário; saindo: anti-horário"
+],
+"a": 0,
+"d": [
+[
+"Lei de Faraday-Lenz",
+"Só há corrente induzida quando o fluxo magnético muda. A corrente cria um campo que se opõe à variação do fluxo.",
+""
+],
+[
+"Regra da mão direita",
+"Corrente anti-horária, vista de cima, cria campo para cima (para o observador); horária, para baixo."
+]
+],
+"h": [
+"Entrando: o fluxo para cima aumenta; a corrente cria campo para baixo: sentido horário visto de cima.",
+"No meio (espira inteira dentro, b > a): o fluxo não muda, não há corrente.",
+"Saindo: o fluxo para cima diminui; a corrente cria campo para cima: anti-horário. <b>Horário, nenhuma, anti-horário</b>."
+]
+},
+{
+"id": "1992-2-qui-01a",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1992, 2ª fase, Química, questão 1(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "Colocou-se 1,0 L de nitrogênio líquido, N₂(l), num recipiente de 30,0 L, que foi fechado. Qual a massa de nitrogênio colocada? Dado: densidade do N₂(l) a −196 °C = 0,81 g/cm³.",
+"a": 810,
+"u": "g",
+"tol": 0.01,
+"d": [
+[
+"Densidade",
+"m = d·V.",
+""
+],
+[
+"Conversão",
+"1 L = 1000 cm³."
+]
+],
+"h": [
+"V = 1,0 L = 1000 cm³.",
+"m = 0,81 × 1000.",
+"m = <b>810 g</b>."
+]
+},
+{
+"id": "1992-2-qui-01b",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1992, 2ª fase, Química, questão 1(b)",
+"r": 1780,
+"tm": 120,
+"ctx": "Colocaram-se 810 g de nitrogênio líquido num recipiente de 30,0 L que continha ar a 1,0 atm, e o recipiente foi fechado. Depois que todo o nitrogênio vaporizou, a temperatura era 27 °C. Qual a pressão final dentro do recipiente? Dados: N₂ = 28 g/mol; R = 0,082 atm·L/(K·mol).",
+"a": 24.7,
+"u": "atm",
+"tol": 0.02,
+"d": [
+[
+"Gás ideal",
+"p·V = n·R·T, com T em kelvin.",
+""
+],
+[
+"Lei de Dalton",
+"Numa mistura de gases, a pressão total é a soma das pressões parciais."
+]
+],
+"h": [
+"n(N₂) = 810/28 ≈ 28,9 mol; T = 300 K.",
+"p(N₂) = 28,9 × 0,082 × 300/30,0 ≈ 23,7 atm.",
+"Somando o ar já presente (1,0 atm): p ≈ <b>24,7 atm</b>."
+]
+},
+{
+"id": "1992-2-qui-02",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1992, 2ª fase, Química, questão 2",
+"r": 1190,
+"tm": 60,
+"ctx": "Num bulbo de flash fotográfico há magnésio metálico (Mg) e oxigênio (O₂). Um dispositivo elétrico provoca a reação, formando óxido de magnésio. Qual a equação, qual o redutor, e o número de átomos dentro do bulbo varia com a reação?",
+"opts": [
+"2 Mg + O₂ → 2 MgO; o magnésio é o redutor; o número de átomos não varia, pois os átomos só se rearranjam",
+"2 Mg + O₂ → 2 MgO; o oxigênio é o redutor; o número de átomos diminui",
+"Mg + O₂ → MgO₂; o magnésio é o redutor; o número de átomos aumenta",
+"2 Mg + O₂ → 2 MgO; o magnésio é o oxidante; o número de átomos não varia"
+],
+"a": 0,
+"d": [
+[
+"Redutor",
+"É quem perde elétrons (o número de oxidação aumenta).",
+""
+],
+[
+"Lei de Lavoisier",
+"Numa reação química, os átomos se rearranjam; nenhum é criado ou destruído."
+]
+],
+"h": [
+"Mg passa de 0 a +2 em MgO (Mg²⁺O²⁻): perde elétrons, é o redutor.",
+"Equação balanceada: 2 Mg + O₂ → 2 MgO.",
+"O bulbo é fechado e os átomos só mudam de arranjo: o número de átomos <b>não varia</b>."
+]
+},
+{
+"id": "1992-2-qui-03",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1992, 2ª fase, Química, questão 3",
+"r": 1280,
+"tm": 60,
+"ctx": "Do repolho roxo se extrai uma substância responsável pela cor, ânion de um ácido fraco: HR (amarelo) ⇌ H⁺ + R⁻ (roxo). Por que a adição de vinagre ou limão (ácidos) muda a cor do extrato?",
+"opts": [
+"o H⁺ adicionado desloca o equilíbrio para a esquerda, formando HR: a cor tende ao amarelo",
+"o H⁺ adicionado desloca o equilíbrio para a direita: a cor fica mais roxa",
+"o ácido destrói o R⁻, deixando a solução incolor",
+"o equilíbrio não muda; a cor muda pela diluição"
+],
+"a": 0,
+"d": [
+[
+"Princípio de Le Chatelier",
+"Acrescentar uma espécie desloca o equilíbrio no sentido que a consome.",
+""
+]
+],
+"h": [
+"Ácidos aumentam a concentração de H⁺, que está do lado direito.",
+"O equilíbrio se desloca para a esquerda, consumindo H⁺ e R⁻ e formando HR.",
+"Predomina HR: a cor passa de roxo para <b>amarelo</b>."
+]
+},
+{
+"id": "1992-2-qui-04",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1992, 2ª fase, Química, questão 4",
+"r": 1360,
+"tm": 75,
+"ctx": "Bombeia-se ar continuamente por um sistema: primeiro pelo frasco I, com solução de hidróxido de cálcio, Ca(OH)₂, que retém o gás carbônico do ar; depois por um frasco II, onde há uma vela acesa; por fim, pelo frasco III, também com solução de Ca(OH)₂. O que se observa no frasco III após algum tempo, e qual a equação da reação?",
+"opts": [
+"a solução fica turva (precipitado branco de CaCO₃): Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+"nada muda, pois o CO₂ do ar ficou retido no frasco I",
+"a solução fica azul: Ca(OH)₂ + O₂ → CaO₂ + H₂O",
+"forma-se gás hidrogênio: Ca(OH)₂ + C → CaCO + H₂"
+],
+"a": 0,
+"d": [
+[
+"Combustão",
+"A queima da vela (hidrocarbonetos) produz CO₂ e H₂O.",
+""
+],
+[
+"Teste do CO₂",
+"CO₂ reage com água de cal, Ca(OH)₂, formando carbonato de cálcio, insolúvel."
+]
+],
+"h": [
+"O ar que chega à vela não tem CO₂ (ficou no frasco I).",
+"A vela produz CO₂, que chega ao frasco III.",
+"Turvação por precipitado branco: <b>Ca(OH)₂ + CO₂ → CaCO₃ + H₂O</b>."
+]
+},
+{
+"id": "1992-2-qui-05",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1992, 2ª fase, Química, questão 5",
+"r": 1100,
+"tm": 60,
+"ctx": "O soro caseiro, usado para evitar a desidratação infantil, é uma solução aquosa de cloreto de sódio (3,5 g/L) e de sacarose (11,0 g/L). Qual a concentração de NaCl em mol/L? (Na = 23,0; Cl = 35,5)",
+"a": 0.06,
+"u": "mol/L",
+"tol": 0.03,
+"d": [
+[
+"Massa molar",
+"Soma das massas atômicas.",
+""
+],
+[
+"Concentração molar",
+"mol/L = (g/L) ÷ massa molar."
+]
+],
+"h": [
+"M(NaCl) = 23,0 + 35,5 = 58,5 g/mol.",
+"3,5 ÷ 58,5 ≈ 0,060.",
+"<b>0,060 mol/L</b>."
+]
+},
+{
+"id": "1992-2-qui-06",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1992, 2ª fase, Química, questão 6",
+"r": 1440,
+"tm": 75,
+"ctx": "Na molécula de ureia, CH₄N₂O, o carbono faz duas ligações simples e uma dupla, o oxigênio faz uma dupla, cada nitrogênio faz três simples e cada hidrogênio uma simples. Átomos iguais não se ligam entre si. Qual a fórmula estrutural?",
+"opts": [
+"H₂N–C(=O)–NH₂: o C faz dupla com O e simples com os dois N; cada N tem dois H",
+"H₂N–O–C(=NH)–H",
+"H₃C–N=N–OH",
+"HN=C(–OH)–NH₂"
+],
+"a": 0,
+"d": [
+[
+"Valência",
+"Conte as ligações de cada átomo: C faz 4, N faz 3, O faz 2, H faz 1.",
+""
+]
+],
+"h": [
+"O oxigênio faz só uma dupla, que tem de ser com o carbono (a única dupla do C).",
+"As duas simples do carbono vão para os dois nitrogênios (N–N está proibido).",
+"Cada N completa 3 ligações com 2 H: <b>H₂N–C(=O)–NH₂</b>."
+]
+},
+{
+"id": "1992-2-qui-07",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1992, 2ª fase, Química, questão 7",
+"r": 1440,
+"tm": 75,
+"ctx": "Na pilha de Daniell ocorre Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s). O compartimento B, separado do A por material poroso, contém o eletrodo de cobre metálico; o eletrodo de zinco está no A. Qual destas substâncias, dissolvida em água, deve ir para o compartimento B para que a pilha produza eletricidade: HCl, ZnCl₂, CuSO₄, H₂SO₄, Na₂SO₄, PbSO₄ ou ZnSO₄?",
+"opts": [
+"CuSO₄: fornece os íons Cu²⁺ que se reduzem sobre o eletrodo de cobre",
+"ZnSO₄: fornece Zn²⁺ ao cátodo",
+"H₂SO₄: o ácido conduz melhor a corrente",
+"PbSO₄: é o sal mais pesado da lista"
+],
+"a": 0,
+"d": [
+[
+"Pilha",
+"No cátodo ocorre redução; a espécie que se reduz precisa estar em solução junto a ele.",
+""
+]
+],
+"h": [
+"No eletrodo de cobre (cátodo) ocorre Cu²⁺ + 2e⁻ → Cu.",
+"Então o compartimento B precisa de íons Cu²⁺ em solução.",
+"Da lista, só o <b>CuSO₄</b> fornece Cu²⁺ (e é solúvel)."
+]
+},
+{
+"id": "1992-2-qui-08",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1992, 2ª fase, Química, questão 8",
+"r": 1490,
+"tm": 90,
+"ctx": "Energia de ligação é o ΔH para quebrar um mol de uma ligação. Em CH₄(g) → C(g) + 4 H(g), ΔH = 1663 kJ/mol, e são quebrados 4 mol de ligações C–H: cada uma vale 416 kJ/mol. Sabendo que C₂H₆(g) → 2 C(g) + 6 H(g) tem ΔH = 2826 kJ/mol, qual a energia da ligação C–C?",
+"a": 330,
+"u": "kJ/mol",
+"tol": 0.01,
+"d": [
+[
+"Energias de ligação",
+"Para atomizar uma molécula, quebram-se todas as suas ligações: ΔH = soma das energias de ligação.",
+""
+],
+[
+"Etano",
+"H₃C–CH₃: uma ligação C–C e seis C–H."
+]
+],
+"h": [
+"2826 = 1 × E(C–C) + 6 × 416.",
+"6 × 416 = 2496.",
+"E(C–C) = 2826 − 2496 = <b>330 kJ/mol</b>."
+]
+},
+{
+"id": "1992-2-qui-09",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1992, 2ª fase, Química, questão 9",
+"r": 1190,
+"tm": 60,
+"ctx": "Água pura é má condutora de corrente elétrica, e ácido sulfúrico puro também. Por que uma solução diluída de ácido sulfúrico em água é boa condutora?",
+"opts": [
+"na água, o H₂SO₄ se ioniza (H₂SO₄ → 2 H⁺ + SO₄²⁻), e esses íons livres conduzem a corrente",
+"a água e o ácido formam uma liga metálica",
+"a mistura libera elétrons livres como um metal",
+"o ácido aquece a água, e água quente conduz melhor"
+],
+"a": 0,
+"d": [
+[
+"Condução em soluções",
+"Uma solução conduz quando há íons livres para se mover.",
+""
+],
+[
+"Ionização",
+"Ácidos moleculares formam íons ao reagir com a água."
+]
+],
+"h": [
+"Puros, a água e o H₂SO₄ quase não têm íons livres.",
+"Em água, o ácido se ioniza: H₂SO₄ + 2 H₂O → 2 H₃O⁺ + SO₄²⁻.",
+"Os <b>íons livres</b> conduzem a corrente."
+]
+},
+{
+"id": "1992-2-qui-10",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1992, 2ª fase, Química, questão 10",
+"r": 1440,
+"tm": 75,
+"ctx": "A Petrobras anunciou que reduziria de 5% para 3% o teor de enxofre no óleo combustível, o que significa cerca de 272 toneladas de enxofre a menos por dia na atmosfera. O enxofre vira SO₂ na queima. Qual a massa, em toneladas, de SO₂ que deixa de ser lançada por dia? (O = 16; S = 32)",
+"a": 544,
+"u": "t",
+"tol": 0.01,
+"d": [
+[
+"Proporção em massa",
+"S + O₂ → SO₂: 32 g de S formam 64 g de SO₂.",
+""
+]
+],
+"h": [
+"1 mol de S (32 g) dá 1 mol de SO₂ (64 g): a massa dobra.",
+"272 × 64/32.",
+"<b>544 t</b> de SO₂ por dia."
+]
+},
+{
+"id": "1992-2-qui-11",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1992, 2ª fase, Química, questão 11",
+"r": 1620,
+"tm": 75,
+"ctx": "O éster responsável pelo aroma do rum tem a fórmula (CH₃)₂CH–CH₂–O–CO–CH₃. De quais ácido e álcool ele pode ser formado?",
+"opts": [
+"ácido acético (CH₃–COOH) e 2-metilpropan-1-ol ((CH₃)₂CH–CH₂–OH)",
+"ácido 2-metilpropanoico e metanol",
+"ácido fórmico e 2-metilpropan-2-ol",
+"ácido acético e propan-2-ol"
+],
+"a": 0,
+"d": [
+[
+"Esterificação",
+"Ácido carboxílico + álcool → éster + água. Em R–CO–O–R', a parte R–CO– vem do ácido e a parte –O–R' vem do álcool.",
+""
+]
+],
+"h": [
+"A parte ligada ao C=O é CH₃–CO–: vem do ácido acético, CH₃COOH.",
+"A parte ligada ao O é (CH₃)₂CH–CH₂–: vem do álcool (CH₃)₂CH–CH₂–OH.",
+"<b>Ácido acético e 2-metilpropan-1-ol</b> (isobutanol)."
+]
+},
+{
+"id": "1992-2-qui-12",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1992, 2ª fase, Química, questão 12",
+"r": 1440,
+"tm": 75,
+"ctx": "Quando vapores de etanol passam por argila aquecida (catalisador), formam-se um hidrocarboneto insaturado gasoso e vapor d'água. Esse hidrocarboneto reage com bromo (Br₂) dando um único produto. Qual é o hidrocarboneto e qual o produto com o bromo?",
+"opts": [
+"eteno (CH₂=CH₂), e o produto é o 1,2-dibromoetano (CH₂Br–CH₂Br)",
+"etino (HC≡CH), e o produto é o bromoetano",
+"eteno, e o produto é o bromoeteno com HBr",
+"metano, e o produto é o dibromometano"
+],
+"a": 0,
+"d": [
+[
+"Desidratação de álcool",
+"Álcool aquecido com catalisador perde água e forma alceno.",
+""
+],
+[
+"Adição a alcenos",
+"Br₂ se adiciona à dupla ligação: cada carbono da dupla recebe um Br."
+]
+],
+"h": [
+"C₂H₅OH → CH₂=CH₂ + H₂O: o hidrocarboneto é o eteno.",
+"CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br.",
+"<b>Eteno; 1,2-dibromoetano</b>."
+]
+},
+{
+"id": "1992-2-qui-13",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1992, 2ª fase, Química, questão 13",
+"r": 1280,
+"tm": 60,
+"ctx": "O nitrogênio tem cinco elétrons na camada de valência. Na estrutura de Lewis da amônia (NH₃), quantos pares eletrônicos há em torno do N, e que propriedade, ácida ou básica, se espera da amônia?",
+"opts": [
+"três pares ligantes (N–H) e um par não ligante; a amônia é básica, pois o par livre pode receber um H⁺",
+"três pares ligantes e nenhum par livre; a amônia é ácida, pois libera H⁺",
+"quatro pares ligantes; a amônia é neutra",
+"dois pares ligantes e dois livres; a amônia é ácida"
+],
+"a": 0,
+"d": [
+[
+"Estrutura de Lewis",
+"Distribua os elétrons de valência em pares: compartilhados (ligações) e não compartilhados.",
+""
+],
+[
+"Base de Lewis / Brönsted",
+"Uma espécie com par de elétrons livre pode receber um H⁺: comporta-se como base."
+]
+],
+"h": [
+"N tem 5 elétrons de valência: 3 se emparelham com os 3 H (3 ligações) e sobram 2, um par livre.",
+"O par livre aceita H⁺: NH₃ + H⁺ → NH₄⁺.",
+"<b>3 pares ligantes e 1 par livre; amônia básica</b>."
+]
+},
+{
+"id": "1992-2-qui-14",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1992, 2ª fase, Química, questão 14",
+"r": 1700,
+"tm": 120,
+"ctx": "Em 1990 foram consumidos no Brasil cerca de 164 bilhões (164·10⁹) de cigarros. A massa queimada de um cigarro é de cerca de 0,85 g, e 40% dela é carbono. Quantas toneladas de CO₂ os fumantes lançaram na atmosfera? (C = 12; O = 16; 1 t = 10⁶ g)",
+"a": 204000.0,
+"u": "t",
+"tol": 0.03,
+"d": [
+[
+"Porcentagem em massa",
+"Massa de carbono = 40% da massa queimada.",
+""
+],
+[
+"Proporção C → CO₂",
+"C + O₂ → CO₂: 12 g de C formam 44 g de CO₂."
+]
+],
+"h": [
+"Massa queimada: 164·10⁹ × 0,85 ≈ 1,39·10¹¹ g; carbono: 40% → 5,58·10¹⁰ g.",
+"CO₂: 5,58·10¹⁰ × 44/12 ≈ 2,04·10¹¹ g.",
+"Em toneladas: <b>≈ 2,0·10⁵ t</b> (cerca de 204 mil toneladas)."
+]
+},
+{
+"id": "1992-2-qui-15",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1992, 2ª fase, Química, questão 15",
+"r": 1360,
+"tm": 75,
+"ctx": "Na alta atmosfera ou em laboratório, sob radiação eletromagnética, o ozônio se forma pela reação endotérmica 3 O₂ ⇌ 2 O₃. O aumento da temperatura favorece ou dificulta a formação de ozônio? E o aumento da pressão?",
+"opts": [
+"a temperatura favorece (reação endotérmica) e a pressão também favorece (3 mol de gás viram 2)",
+"a temperatura dificulta e a pressão favorece",
+"a temperatura favorece e a pressão dificulta",
+"nenhum dos dois altera o equilíbrio"
+],
+"a": 0,
+"d": [
+[
+"Le Chatelier e temperatura",
+"Aquecer favorece o sentido endotérmico.",
+""
+],
+[
+"Le Chatelier e pressão",
+"Aumentar a pressão favorece o lado com menos mols de gás."
+]
+],
+"h": [
+"A formação do O₃ é endotérmica: aquecer favorece.",
+"Pressão: o lado do O₃ tem 2 mol de gás, contra 3 do O₂: aumentar a pressão favorece o O₃.",
+"<b>As duas mudanças favorecem a formação do ozônio</b>."
+]
+},
+{
+"id": "1992-2-qui-16",
+"ano": 1992,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1992, 2ª fase, Química, questão 16",
+"r": 1620,
+"tm": 90,
+"ctx": "Massas iguais de lítio (Li), sódio (Na) e potássio (K) reagiram separadamente com cloro gasoso em excesso, formando os cloretos. Qual cloreto teve a maior massa, e em qual reação foi consumida a menor quantidade de cloro? (Li = 6,9; Na = 23,0; K = 39,1)",
+"opts": [
+"maior massa: LiCl; menos cloro consumido: na do potássio",
+"maior massa: KCl; menos cloro consumido: na do lítio",
+"maior massa: KCl; menos cloro consumido: na do potássio",
+"as massas são iguais e o cloro consumido também"
+],
+"a": 0,
+"d": [
+[
+"Quantidade de matéria",
+"n = m/M: com a mesma massa, o metal de menor massa molar tem mais mols.",
+""
+],
+[
+"Proporção",
+"2 M + Cl₂ → 2 MCl: cada mol de metal pega 1 mol de Cl."
+]
+],
+"h": [
+"Com massas iguais, o Li (M = 6,9) tem mais mols e o K (M = 39,1) tem menos.",
+"Cada mol de metal incorpora 35,5 g de cloro: mais mols, mais cloro, cloreto mais pesado.",
+"<b>LiCl é o mais pesado; a reação do potássio consome menos cloro</b>."
+]
+}
+]

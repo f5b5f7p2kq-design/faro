@@ -1,0 +1,666 @@
+# Acerto esperado de cada tipo de questão gerada do Faro
+#
+# Uma linha por tipo: chave e a fração de vestibulandos (o público da 1ª fase da Unicamp) que acertaria
+# a questão de cabeça, digitando a resposta (ou marcando, se for de alternativa).
+#   tópico.variação.nível p        um nível só
+#   tópico.subtipo p_baixo p_alto  subtipo do gerador base: p no menor nível em que ele aparece e p no nível 2
+#                                  (o nível do meio fica entre os dois, em log-odds)
+# variação: b = gerador base, xN = variação extra N; subtipo: o número que o gerador base marca em q._v.
+# *form, *lei e *const valem para todos os tópicos de fórmulas, leis e constantes (teoria), por tipo de pergunta:
+#   form 0 nome → fórmula, 1 fórmula → nome, 2 alternativas quase iguais, 3 isolar uma variável;
+#   lei e const 0 nome → enunciado (ou valor), 1 enunciado → nome, 2 alternativas quase iguais.
+#
+# O rating sai como nas questões da Unicamp sem estatística oficial:
+#   r = 1300 + 400·log10((1 − p)/p), depois 340 + 0,85·r (a correção das estimativas, medida nos anos com dados).
+# Estimado amostrando cada tipo (banco/geradas/tabela.js --amostra) em 31/10/2026.
+
+
+soma.b.0 .99
+soma.b.1 .96
+soma.b.2 .90
+soma.x0.0 .72
+soma.x0.1 .60
+soma.x0.2 .45
+soma.x1.1 .95
+soma.x1.2 .90
+soma.x2.2 .40
+soma.x3.0 .99
+soma.x3.1 .97
+soma.x3.2 .94
+
+sub.b.0 .995
+sub.b.1 .93
+sub.b.2 .85
+sub.x0.0 .985
+sub.x0.1 .96
+sub.x0.2 .92
+sub.x1.1 .90
+sub.x1.2 .80
+sub.x2.0 .99
+sub.x2.1 .97
+sub.x2.2 .95
+
+mult.b.0 .985
+mult.b.1 .97
+mult.b.2 .70
+mult.x0.0 .96
+mult.x0.1 .93
+mult.x0.2 .85
+mult.x1.1 .52
+mult.x1.2 .55
+mult.x2.2 .75
+mult.x3.0 .95
+mult.x3.1 .90
+mult.x3.2 .80
+mult.x4.0 .985
+mult.x4.1 .95
+mult.x4.2 .96
+
+div.b.0 .97
+div.b.1 .88
+div.b.2 .75
+div.x0.0 .98
+div.x0.1 .94
+div.x0.2 .90
+div.x1.1 .92
+div.x1.2 .82
+div.x2.0 .93
+div.x2.1 .90
+div.x2.2 .88
+div.x3.0 .99
+div.x3.1 .97
+div.x3.2 .92
+
+pot.b.0 .93
+pot.b.1 .85
+pot.b.2 .60
+pot.x0.0 .995
+pot.x0.1 .98
+pot.x0.2 .93
+pot.x1.1 .70
+pot.x1.2 .55
+pot.x2.2 .50
+pot.x3.0 .95
+pot.x3.1 .85
+pot.x3.2 .75
+pot.x4.1 .80
+pot.x4.2 .75
+pot.x5.1 .80
+pot.x5.2 .75
+
+raiz.b.0 .97
+raiz.b.1 .85
+raiz.b.2 .60
+raiz.x0.0 .93
+raiz.x0.1 .82
+raiz.x0.2 .75
+raiz.x1.0 .95
+raiz.x1.1 .93
+raiz.x1.2 .88
+raiz.x2.1 .70
+raiz.x2.2 .65
+raiz.x3.0 .95
+raiz.x3.1 .85
+raiz.x3.2 .70
+raiz.x4.0 .97
+raiz.x4.1 .90
+raiz.x4.2 .82
+raiz.x5.1 .85
+raiz.x5.2 .82
+raiz.x6.0 .90
+raiz.x6.1 .85
+raiz.x6.2 .78
+raiz.x7.0 .995
+raiz.x7.1 .88
+raiz.x7.2 .70
+raiz.x8.0 .99
+raiz.x8.1 .985
+
+porc.b.0 .95
+porc.b.1 .85
+porc.b.2 .72
+porc.x0.1 .82
+porc.x0.2 .60
+porc.x1.0 .97
+porc.x1.1 .85
+porc.x1.2 .70
+porc.x2.2 .82
+porc.x3.0 .90
+porc.x3.1 .85
+porc.x3.2 .75
+porc.x4.0 .93
+porc.x4.1 .75
+porc.x4.2 .60
+
+fat.b.0 .97
+fat.b.1 .82
+fat.b.2 .65
+fat.x0.0 .80
+fat.x0.1 .92
+fat.x0.2 .90
+fat.x1.0 .90
+fat.x1.1 .90
+fat.x1.2 .88
+fat.x2.0 .95
+fat.x2.1 .88
+fat.x2.2 .78
+fat.x3.1 .45
+fat.x3.2 .40
+fat.x4.1 .85
+fat.x4.2 .72
+fat.x5.0 .95
+fat.x5.1 .88
+fat.x5.2 .75
+fat.x6.0 .60
+fat.x6.1 .50
+fat.x6.2 .45
+fat.x7.1 .88
+fat.x7.2 .85
+
+perm.b.0 .97
+perm.b.1 .90
+perm.b.2 .75
+perm.x0.1 .55
+perm.x0.2 .45
+perm.x1.2 .45
+perm.x2.1 .60
+perm.x2.2 .50
+perm.x3.0 .95
+perm.x3.1 .88
+perm.x3.2 .82
+
+prep.b.0 .75
+prep.b.1 .60
+prep.b.2 .45
+prep.x0.1 .65
+prep.x0.2 .50
+prep.x1.0 .75
+prep.x1.1 .55
+prep.x1.2 .40
+
+arr.b.0 .90
+arr.b.1 .85
+arr.b.2 .70
+arr.x0.0 .85
+arr.x0.1 .80
+arr.x0.2 .75
+arr.x1.2 .45
+arr.x2.0 .80
+arr.x2.1 .78
+arr.x2.2 .70
+
+comb.b.0 .80
+comb.b.1 .68
+comb.b.2 .55
+comb.x0.0 .80
+comb.x0.1 .60
+comb.x0.2 .55
+comb.x1.0 .80
+comb.x1.1 .65
+comb.x1.2 .50
+comb.x2.1 .50
+comb.x2.2 .45
+comb.x3.0 .90
+comb.x3.1 .78
+comb.x3.2 .72
+comb.x4.2 .35
+
+conj.b.0 .85
+conj.b.1 .70
+conj.b.2 .50
+conj.x0.0 .90
+conj.x0.1 .90
+conj.x0.2 .90
+conj.x1.0 .97
+conj.x1.1 .96
+conj.x1.2 .95
+conj.x2.1 .55
+conj.x2.2 .55
+conj.x3.2 .45
+conj.x4.0 .90
+conj.x4.1 .50
+conj.x4.2 .42
+
+mdc.b.0 .93
+mdc.b.1 .85
+mdc.b.2 .75
+mdc.x0.0 .92
+mdc.x0.1 .82
+mdc.x0.2 .80
+mdc.x1.0 .88
+mdc.x1.1 .82
+mdc.x1.2 .72
+mdc.x2.2 .55
+
+cont.b.0 .95
+cont.b.1 .92
+cont.b.2 .55
+cont.x0.0 .72
+cont.x0.1 .70
+cont.x0.2 .70
+cont.x1.0 .75
+cont.x1.1 .65
+cont.x1.2 .55
+
+frac.0 .75 .60
+frac.1 .95 .75
+frac.2 .88 .72
+frac.3 .88 .82
+frac.4 .95 .85
+frac.5 .70 .75
+frac.6 .80
+frac.7 .65
+
+seq.0 .92 .75
+seq.1 .65 .45
+seq.2 .85 .82
+seq.3 .93 .80
+seq.6 .90 .82
+seq.8 .88 .55
+seq.4 .50 .40
+seq.5 .60 .50
+seq.7 .40
+
+juros.0 .92 .90
+juros.1 .75 .65
+juros.2 .88 .88
+juros.5 .65 .65
+juros.6 .85 .82
+juros.7 .65 .40
+juros.3 .60 .55
+juros.4 .40
+
+func.0 .95 .95
+func.1 .92 .92
+func.2 .85 .85
+func.3 .78 .78
+func.4 .75 .65
+func.5 .85 .82
+func.12 .88 .70
+func.13 .60 .55
+func.6 .88 .88
+func.7 .75 .72
+func.8 .78 .78
+func.9 .62
+func.10 .60
+func.11 .70
+
+poli.0 .72 .62
+poli.1 .78 .55
+poli.2 .85 .85
+poli.3 .88 .88
+poli.4 .75 .75
+poli.5 .55
+poli.6 .35
+
+prob.0 .85 .65
+prob.1 .55 .45
+prob.2 .92 .92
+prob.7 .78 .72
+prob.3 .65 .65
+prob.5 .75 .78
+prob.4 .50
+prob.6 .55
+
+binom.0 .80 .80
+binom.1 .70 .55
+binom.5 .70 .65
+binom.2 .50 .50
+binom.3 .35
+binom.4 .40
+
+matr.0 .85 .82
+matr.4 .82 .82
+matr.5 .90 .78
+matr.8 .70 .68
+matr.1 .55 .50
+matr.2 .45 .45
+matr.7 .70 .70
+matr.3 .70
+matr.6 .50
+
+gplan.0 .85 .82
+gplan.2 .90 .88
+gplan.3 .90 .90
+gplan.5 .93 .82
+gplan.11 .55 .45
+gplan.13 .88 .60
+gplan.1 .70 .72
+gplan.6 .55 .55
+gplan.7 .88 .88
+gplan.12 .45 .45
+gplan.4 .70
+gplan.8 .55
+gplan.9 .55
+gplan.10 .50
+
+gesp.0 .90 .85
+gesp.4 .70 .75
+gesp.5 .75 .78
+gesp.6 .70 .72
+gesp.8 .80 .55
+gesp.1 .65 .90
+gesp.2 .60 .85
+gesp.7 .70 .72
+gesp.3 .50
+
+trig.0 .90 .90
+trig.1 .88 .90
+trig.2 .72 .62
+trig.3 .55 .45
+trig.6 .85 .80
+trig.7 .70 .70
+trig.8 .60 .50
+trig.4 .40
+trig.5 .35
+
+ganal.0 .80 .72
+ganal.1 .93 .92
+ganal.2 .85 .80
+ganal.3 .72 .70
+ganal.7 .82 .82
+ganal.4 .50
+ganal.5 .40
+ganal.6 .60
+
+logexp.0 .95 .88
+logexp.1 .88 .72
+logexp.7 .80 .50
+logexp.2 .70 .62
+logexp.5 .82 .82
+logexp.6 .72 .72
+logexp.3 .50
+logexp.4 .40
+
+f_un.0 .90 .85
+f_un.1 .88 .60
+f_un.2 .88 .85
+f_un.4 .90 .85
+f_un.6 .70 .70
+f_un.7 .55 .45
+f_un.8 .82 .45
+f_un.3 .55 .50
+f_un.5 .75 .75
+
+f_cin.0 .97 .97
+f_cin.1 .95 .93
+f_cin.4 .78 .82
+f_cin.11 .95 .82
+f_cin.12 .90 .60
+f_cin.2 .78 .70
+f_cin.3 .65 .65
+f_cin.5 .75 .78
+f_cin.7 .75 .80
+f_cin.9 .75 .78
+f_cin.10 .75 .78
+f_cin.13 .60 .58
+f_cin.6 .50
+f_cin.8 .30
+
+f_din.0 .97 .97
+f_din.1 .85 .70
+f_din.5 .70 .70
+f_din.8 .88 .85
+f_din.9 .85 .62
+f_din.10 .93 .70
+f_din.11 .80 .62
+f_din.2 .60 .55
+f_din.3 .65 .65
+f_din.4 .60 .58
+f_din.6 .50
+f_din.7 .70
+
+f_en.0 .88 .90
+f_en.1 .92 .93
+f_en.2 .70 .60
+f_en.3 .95 .80
+f_en.6 .82 .85
+f_en.10 .80 .60
+f_en.11 .93 .40
+f_en.12 .55 .50
+f_en.13 .85 .80
+f_en.4 .75 .78
+f_en.5 .90 .88
+f_en.7 .55 .55
+f_en.8 .75
+f_en.9 .60
+
+f_mom.0 .97 .95
+f_mom.1 .92 .92
+f_mom.6 .80 .80
+f_mom.2 .70 .70
+f_mom.3 .78 .78
+f_mom.4 .72 .65
+f_mom.5 .50
+
+f_grav.0 .75 .70
+f_grav.4 .80 .75
+f_grav.5 .80 .85
+f_grav.1 .50 .55
+f_grav.2 .50 .45
+f_grav.3 .60 .62
+f_grav.6 .40 .35
+
+f_hid.0 .95 .95
+f_hid.1 .90 .85
+f_hid.2 .90 .90
+f_hid.4 .80 .82
+f_hid.7 .97 .93
+f_hid.9 .55 .35
+f_hid.10 .90 .50
+f_hid.3 .72 .72
+f_hid.5 .78 .62
+f_hid.6 .55
+f_hid.8 .50
+
+f_term.0 .70 .60
+f_term.1 .92 .92
+f_term.3 .90 .90
+f_term.8 .85 .85
+f_term.2 .60 .65
+f_term.4 .85 .78
+f_term.5 .75 .72
+f_term.9 .55 .50
+f_term.10 .65 .45
+f_term.6 .50
+f_term.7 .50
+
+f_gas.0 .88 .88
+f_gas.1 .88 .70
+f_gas.2 .75 .70
+f_gas.6 .65 .70
+f_gas.3 .55 .55
+f_gas.4 .75 .75
+f_gas.5 .85 .82
+f_gas.7 .65 .75
+
+f_ond.0 .93 .93
+f_ond.1 .90 .90
+f_ond.8 .75 .72
+f_ond.9 .55 .65
+f_ond.10 .65 .45
+f_ond.11 .75 .70
+f_ond.2 .75 .75
+f_ond.3 .55 .55
+f_ond.4 .62 .62
+f_ond.5 .60 .60
+f_ond.6 .70
+f_ond.7 .55
+
+f_opt.0 .90 .85
+f_opt.3 .75 .78
+f_opt.4 .82 .75
+f_opt.7 .75 .75
+f_opt.8 .82 .60
+f_opt.1 .60 .60
+f_opt.2 .55 .50
+f_opt.5 .55
+f_opt.6 .50
+
+f_ele.0 .78 .60
+f_ele.1 .92 .90
+f_ele.2 .65 .65
+f_ele.5 .88 .70
+f_ele.8 .75 .70
+f_ele.3 .72 .72
+f_ele.4 .80 .80
+f_ele.6 .60 .62
+f_ele.7 .45
+
+f_cir.0 .95 .95
+f_cir.1 .93 .88
+f_cir.2 .97 .85
+f_cir.8 .70 .72
+f_cir.9 .85 .45
+f_cir.10 .65 .50
+f_cir.11 .82 .40
+f_cir.3 .70 .72
+f_cir.5 .55 .50
+f_cir.6 .70 .75
+f_cir.4 .60
+f_cir.7 .70
+
+f_mag.0 .82 .82
+f_mag.1 .80 .78
+f_mag.7 .70 .62
+f_mag.2 .70 .62
+f_mag.3 .45 .45
+f_mag.4 .75 .70
+f_mag.5 .65
+f_mag.6 .45
+
+q_mol.0 .92 .75
+q_mol.1 .93 .80
+q_mol.2 .90 .88
+q_mol.3 .92 .78
+q_mol.5 .95 .95
+q_mol.4 .45
+
+q_gas.0 .90 .90
+q_gas.2 .90 .90
+q_gas.7 .70 .62
+q_gas.8 .65 .60
+q_gas.1 .82 .82
+q_gas.3 .70 .70
+q_gas.5 .70 .70
+q_gas.6 .62 .55
+q_gas.4 .50
+
+q_sol.0 .90 .90
+q_sol.1 .80 .78
+q_sol.4 .72 .72
+q_sol.8 .65 .55
+q_sol.9 .70 .88
+q_sol.2 .60 .60
+q_sol.6 .80 .70
+q_sol.7 .75 .75
+q_sol.3 .60
+q_sol.5 .50
+
+q_ato.0 .95 .95
+q_ato.1 .88 .88
+q_ato.6 .85 .85
+q_ato.2 .75 .75
+q_ato.5 .70 .65
+q_ato.3 .55
+q_ato.4 .50
+
+q_rad.0 .90 .75
+q_rad.1 .95 .80
+q_rad.2 .80 .72
+q_rad.5 .85 .85
+q_rad.3 .50
+q_rad.4 .70
+
+q_lig.0 .88 .90
+q_lig.5 .60 .65
+q_lig.6 .80 .82
+q_lig.1 .65 .65
+q_lig.2 .70 .70
+q_lig.3 .62 .65
+q_lig.4 .55 .50
+
+q_est.0 .85 .72
+q_est.2 .90 .85
+q_est.5 .97 .90
+q_est.6 .95 .95
+q_est.9 .90 .70
+q_est.1 .65 .60
+q_est.3 .62 .62
+q_est.4 .70
+q_est.7 .45
+q_est.8 .35
+
+q_ter.0 .85 .85
+q_ter.1 .90 .90
+q_ter.5 .80 .50
+q_ter.2 .55 .50
+q_ter.4 .62 .62
+q_ter.3 .45
+
+q_cin.0 .90 .90
+q_cin.2 .75 .78
+q_cin.7 .70 .70
+q_cin.1 .72 .72
+q_cin.3 .65 .70
+q_cin.4 .75 .72
+q_cin.5 .80 .80
+q_cin.6 .60
+
+q_eq.0 .92 .78
+q_eq.7 .95 .80
+q_eq.8 .78 .45
+q_eq.1 .78 .78
+q_eq.2 .60 .70
+q_eq.3 .75 .75
+q_eq.4 .60
+q_eq.5 .40
+q_eq.6 .55
+
+q_elq.0 .78 .68
+q_elq.2 .70 .70
+q_elq.3 .65 .65
+q_elq.6 .70 .65
+q_elq.7 .70 .45
+q_elq.1 .75 .72
+q_elq.4 .85 .55
+q_elq.5 .60
+
+q_org.0 .85 .85
+q_org.2 .85 .82
+q_org.1 .55 .60
+q_org.3 .82 .80
+q_org.6 .70 .65
+q_org.4 .50
+q_org.5 .35
+
+q_amb.0 .85 .90
+q_amb.1 .85 .85
+
+med.0 .97 .90
+med.1 .85 .85
+med.2 .65 .65
+med.3 .90 .65
+med.4 .93 .80
+med.5 .78 .80
+
+estm.0 .85 .75
+estm.1 .90 .82
+estm.2 .80 .65
+estm.3 .65 .50
+
+f_est.0 .72 .62
+f_est.1 .60 .50
+f_est.2 .65 .60
+f_est.3 .70 .60
+
+*form.0 .78
+*form.1 .75
+*form.2 .55
+*form.3 .72
+*lei.0 .75
+*lei.1 .72
+*lei.2 .52
+*const.0 .70
+*const.1 .72
+*const.2 .50

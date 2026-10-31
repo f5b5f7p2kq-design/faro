@@ -2,6 +2,7 @@
 # Monta o Faro a partir de src/:
 #   public/index.html e public/dicas.html  o site (Vercel), com contas pelo Supabase
 #   dist/claude.html e dist/dicas.html     a versão do claude.ai (Artifact), com a conta Claude
+#   public/unicamp.json                    o banco de questões da Unicamp, que o treino baixa (só no site)
 set -euo pipefail
 cd "$(dirname "$0")"
 TIPS_CLAUDE='https://claude.ai/artifact/3wHqTT2rP8Z8v8FsAXw1fG'
@@ -25,6 +26,7 @@ page() { # $1 = web | claude
 }
 
 mkdir -p dist public/vendor
+python3 banco/montar.py   # public/unicamp.json, as questões da Unicamp (banco/unicamp)
 page claude > dist/claude.html
 sed "s#@FARO@#$FARO_CLAUDE\" target=\"_blank\" rel=\"noopener#" src/dicas.html > dist/dicas.html
 page web | sed -e "s#$TIPS_CLAUDE#dicas.html#g" -e '/<meta name="claude:viewport-fit-sides"/d' > public/index.html

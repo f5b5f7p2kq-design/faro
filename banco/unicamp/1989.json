@@ -1,0 +1,2028 @@
+[
+{
+"id": "1989-1-07a",
+"ano": 1989,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1989, 1ª fase, questão 7(a)",
+"r": 1320,
+"tm": 90,
+"ctx": "A gasolina vendida nos postos tem teor padrão de 22% de álcool (volume/volume). No teste, numa proveta de 100 cm<sup>3</sup> colocam-se 50 cm<sup>3</sup> de gasolina e 50 cm<sup>3</sup> de água, e agita-se. Formam-se duas fases: em cima gasolina, embaixo água mais álcool. Qual o volume de cada fase, para uma gasolina dentro do padrão?",
+"opts": [
+"superior 39 cm³; inferior 61 cm³",
+"superior 50 cm³; inferior 50 cm³",
+"superior 28 cm³; inferior 72 cm³",
+"superior 61 cm³; inferior 39 cm³"
+],
+"a": 0,
+"d": [
+[
+"Porcentagem em volume",
+"Volume do componente = porcentagem × volume da mistura.",
+"22% de 200 mL = 44 mL"
+],
+[
+"Polaridade e miscibilidade",
+"Semelhante dissolve semelhante: o álcool (polar, faz ligações de hidrogênio) prefere a água à gasolina (apolar)."
+]
+],
+"h": [
+"Álcool na amostra: 22% de 50 cm³ = 11 cm³.",
+"Ao agitar, o álcool sai da gasolina e passa para a água.",
+"Fase superior: 50 − 11 = <b>39 cm³</b> de gasolina; inferior: 50 + 11 = <b>61 cm³</b> (supondo volumes aditivos)."
+]
+},
+{
+"id": "1989-1-07b",
+"ano": 1989,
+"fase": 1,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1989, 1ª fase, questão 7(b)",
+"r": 1060,
+"tm": 40,
+"ctx": "No teste da gasolina (50 cm<sup>3</sup> de gasolina + 50 cm<sup>3</sup> de água; o padrão é 22% de álcool), como se percebe que a gasolina tem mais álcool que o permitido?",
+"opts": [
+"a fase inferior (água + álcool) passa de 61 cm³",
+"a fase superior passa de 39 cm³",
+"as duas fases ficam com 50 cm³",
+"não se formam duas fases"
+],
+"a": 0,
+"d": [
+[
+"Extração",
+"O álcool sai da gasolina e vai para a água: a fase aquosa cresce exatamente o volume de álcool extraído.",
+""
+]
+],
+"h": [
+"Com 22% de álcool, a fase aquosa vai a 50 + 11 = 61 cm³.",
+"Mais álcool na gasolina → mais volume passa para a água.",
+"Fase inferior <b>acima de 61 cm³</b> (e superior abaixo de 39 cm³) indica excesso de álcool."
+]
+},
+{
+"id": "1989-1-08a",
+"ano": 1989,
+"fase": 1,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1989, 1ª fase, questão 8(a)",
+"r": 1230,
+"tm": 45,
+"ctx": "Na eletrólise da água esquematizada, as semirreações são:<br>2 H<sub>2</sub>O(l) + 2e<sup>−</sup> → 2 OH<sup>−</sup>(aq) + H<sub>2</sub>(g)<br>2 H<sub>2</sub>O(l) → 4 H<sup>+</sup>(aq) + O<sub>2</sub>(g) + 4e<sup>−</sup><br>O tubo A acumulou o dobro do gás do tubo B. Quais são os gases A e B?",
+"fig": "<svg viewBox='0 0 220 155' class='fg' role='img' aria-label='dois tubos emborcados sobre eletrodos num recipiente com água; o tubo A tem o dobro de gás do tubo B; os eletrodos ligam-se a uma bateria'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='20,60 20,115 180,115 180,60'/><path d='M50,112 L50,22 A15,15 0 0 1 80,22 L80,112'/><path d='M110,112 L110,22 A15,15 0 0 1 140,22 L140,112'/><g stroke-dasharray='4 3'><line x1='20' y1='68' x2='50' y2='68'/><line x1='80' y1='68' x2='110' y2='68'/><line x1='140' y1='68' x2='180' y2='68'/><line x1='50' y1='93' x2='80' y2='93'/><line x1='110' y1='50' x2='140' y2='50'/></g><rect x='60' y='100' width='10' height='12'/><rect x='120' y='100' width='10' height='12'/><polyline points='65,112 65,135 92,135'/><polyline points='125,112 125,135 98,135'/><line x1='92' y1='125' x2='92' y2='145'/><line x1='98' y1='130' x2='98' y2='140'/></g><g fill='currentColor' font-size='13'><text x='60' y='45'>A</text><text x='120' y='45'>B</text><text x='146' y='100'>água</text><text x='110' y='152'>bateria</text></g></svg>",
+"opts": [
+"A = H<sub>2</sub> e B = O<sub>2</sub>",
+"A = O<sub>2</sub> e B = H<sub>2</sub>",
+"A = H<sub>2</sub> e B = H<sub>2</sub>",
+"A = O<sub>2</sub> e B = vapor de água"
+],
+"a": 0,
+"d": [
+[
+"Proporção na eletrólise",
+"Some as semirreações com o mesmo número de elétrons: a razão entre os mols de gás é a razão entre os volumes (mesma P e T).",
+""
+],
+[
+"Cátodo e ânodo",
+"Redução (ganho de e⁻) no cátodo; oxidação (perda de e⁻) no ânodo."
+]
+],
+"h": [
+"Multiplicando a 1ª semirreação por 2: 4 e⁻ formam 2 H₂; na 2ª, 4 e⁻ formam 1 O₂.",
+"O volume de H₂ é o dobro do de O₂.",
+"O tubo com mais gás tem H₂: <b>A = H₂, B = O₂</b>."
+]
+},
+{
+"id": "1989-1-08b",
+"ano": 1989,
+"fase": 1,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1989, 1ª fase, questão 8(b)",
+"r": 1440,
+"tm": 60,
+"ctx": "Na eletrólise da água, com as semirreações 2 H<sub>2</sub>O + 2e<sup>−</sup> → 2 OH<sup>−</sup> + H<sub>2</sub> e 2 H<sub>2</sub>O → 4 H<sup>+</sup> + O<sub>2</sub> + 4e<sup>−</sup>, depois de um tempo, a água do recipiente (toda misturada) estará ácida, básica ou neutra?",
+"opts": [
+"neutra: formam-se H⁺ e OH⁻ na mesma quantidade",
+"ácida: forma-se H⁺ no ânodo",
+"básica: forma-se OH⁻ no cátodo",
+"ácida: o O₂ dissolvido forma um ácido"
+],
+"a": 0,
+"d": [
+[
+"Balanço de elétrons",
+"Os elétrons cedidos no ânodo são os mesmos recebidos no cátodo: iguale os elétrons das duas semirreações.",
+""
+],
+[
+"Neutralização",
+"H⁺ + OH⁻ → H₂O"
+]
+],
+"h": [
+"Com 4 e⁻: o cátodo forma 4 OH⁻ (a 1ª semirreação vezes 2) e o ânodo forma 4 H⁺.",
+"Quantidades iguais de H⁺ e OH⁻ se neutralizam ao se misturarem.",
+"Meio <b>neutro</b>: a reação global é só 2 H₂O → 2 H₂ + O₂."
+]
+},
+{
+"id": "1989-1-09",
+"ano": 1989,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1989, 1ª fase, questão 9",
+"r": 1020,
+"tm": 45,
+"ctx": "Um carro, a 18 km/h constantes, percorre um trecho de rua retilíneo. Por um problema mecânico, pinga óleo do motor à razão de 6 gotas por minuto. Qual a distância entre os pingos de óleo que o carro deixa na rua?",
+"a": 50,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Conversão de velocidade",
+"km/h ÷ 3,6 = m/s.",
+"72 km/h = 20 m/s"
+],
+[
+"Movimento uniforme",
+"Δs = v·Δt."
+],
+[
+"Frequência e período",
+"Se acontecem n eventos por minuto, o intervalo entre dois deles é 60/n segundos."
+]
+],
+"h": [
+"18 km/h = 5 m/s.",
+"6 gotas por minuto → uma gota a cada 10 s.",
+"Distância = 5 × 10 = <b>50 m</b>."
+]
+},
+{
+"id": "1989-1-10a",
+"ano": 1989,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1989, 1ª fase, questão 10 (V₁)",
+"r": 1190,
+"tm": 90,
+"ctx": "Numa experiência sobre escoamento de água por um orifício na base de um reservatório extenso, mediu-se o volume V escoado por segundo para diferentes áreas A do orifício e alturas H da água:<br>A = 1 cm², H = 100 cm: V = 300 cm³/s<br>A = 1 cm², H = 400 cm: V = 600 cm³/s<br>A = 1 cm², H = 900 cm: V = 900 cm³/s<br>A = 2 cm², H = 100 cm: V = 600 cm³/s<br>A = 3 cm², H = 100 cm: V = 900 cm³/s<br>Que valor V<sub>1</sub> se espera para A = 4 cm² e H = 100 cm?",
+"a": 1200,
+"u": "cm³/s",
+"tol": 0.01,
+"d": [
+[
+"Ler proporcionalidade numa tabela",
+"Fixe uma grandeza e veja como V muda com a outra: se ela dobra e V dobra, V é proporcional a ela.",
+""
+]
+],
+"h": [
+"Com H = 100 cm fixo: A = 1, 2, 3 dá V = 300, 600, 900. V é proporcional a A.",
+"A = 4 → V<sub>1</sub> = 4 × 300 = <b>1200 cm³/s</b>."
+]
+},
+{
+"id": "1989-1-10b",
+"ano": 1989,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1989, 1ª fase, questão 10 (V₂)",
+"r": 1620,
+"tm": 150,
+"ctx": "Na mesma experiência de escoamento:<br>A = 1 cm², H = 100 cm: V = 300 cm³/s<br>A = 1 cm², H = 400 cm: V = 600 cm³/s<br>A = 1 cm², H = 900 cm: V = 900 cm³/s<br>A = 2 cm², H = 100 cm: V = 600 cm³/s<br>A = 3 cm², H = 100 cm: V = 900 cm³/s<br>Que valor V<sub>2</sub> se espera para A = 2 cm² e H = 144 cm?",
+"a": 720,
+"u": "cm³/s",
+"tol": 0.01,
+"d": [
+[
+"Ler proporcionalidade numa tabela",
+"Fixe uma grandeza e veja como V muda com a outra: se ela dobra e V dobra, V ∝ x; se ela quadruplica e V só dobra, V ∝ √x.",
+""
+],
+[
+"Lei combinada",
+"Se V ∝ A e V ∝ √H, então V = k·A·√H; ache k com uma linha da tabela."
+]
+],
+"h": [
+"Com A = 1 fixo: H = 100, 400, 900 (×1, ×4, ×9) dá V = 300, 600, 900 (×1, ×2, ×3). V ∝ √H.",
+"Com H fixo, V ∝ A. Então V = 300·A·√(H/100).",
+"V<sub>2</sub> = 300 × 2 × √1,44 = 600 × 1,2 = <b>720 cm³/s</b>."
+]
+},
+{
+"id": "1989-1-11",
+"ano": 1989,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1989, 1ª fase, questão 11",
+"r": 1620,
+"tm": 120,
+"ctx": "Um fabricante de televisores oferece como 'vantagem' a devolução do dinheiro pago, dois anos após a compra. Com inflação anual de 900% (os preços ficam dez vezes maiores em um ano) nesses dois anos, se em vez de devolver o dinheiro o fabricante desse um desconto equivalente no ato da compra, de quanto por cento seria esse desconto?",
+"a": 1,
+"u": "%",
+"tol": 0.01,
+"d": [
+[
+"Inflação",
+"Inflação de i% no período: os preços ficam multiplicados por (1 + i/100). Em períodos seguidos, os fatores se multiplicam.",
+"50% ao ano por 2 anos: ×1,5² = ×2,25"
+],
+[
+"Valor real do dinheiro",
+"Uma quantia recebida no futuro vale, em dinheiro de hoje, ela dividida pelo fator de aumento dos preços no período."
+]
+],
+"h": [
+"Inflação de 900% ao ano: preços ×10 por ano; em dois anos, ×100.",
+"O valor P devolvido daqui a dois anos compra o que hoje se compra com P/100, ou seja, 1% de P.",
+"Desconto equivalente: <b>1%</b> do preço."
+]
+},
+{
+"id": "1989-1-12",
+"ano": 1989,
+"fase": 1,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1989, 1ª fase, questão 12",
+"r": 1490,
+"tm": 120,
+"ctx": "Para construir um arco de circunferência sobre uma porta, o pedreiro usa duas medidas: a largura da porta (corda do arco) e a flecha (altura do arco acima da corda, no meio). Com 1 metro de largura e 20 cm de flecha, qual é o raio do arco?",
+"fig": "<svg viewBox='0 0 200 170' class='fg' role='img' aria-label='porta retangular com um arco de circunferência em cima; largura 1 m e flecha 20 cm'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='40,60 40,160 160,160 160,60'/><line x1='40' y1='60' x2='160' y2='60'/><path d='M40,60 A87,87 0 0 1 160,60'/><line x1='100' y1='36' x2='100' y2='60' stroke-dasharray='3 2'/><line x1='95' y1='36' x2='105' y2='36'/><line x1='44' y1='110' x2='156' y2='110'/><polyline points='50,105 44,110 50,115'/><polyline points='150,105 156,110 150,115'/></g><g fill='currentColor' font-size='12'><text x='106' y='53'>20 cm</text><text x='90' y='104'>1 m</text></g></svg>",
+"a": 72.5,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Corda e raio",
+"A perpendicular traçada do centro até a corda cai no ponto médio dela.",
+""
+],
+[
+"Pitágoras",
+"Num triângulo retângulo, hipotenusa² = cateto² + cateto².",
+""
+],
+[
+"Flecha",
+"Se a flecha é f e o raio é R, a distância do centro até a corda é R − f."
+]
+],
+"h": [
+"Metade da corda: 50 cm. Distância do centro até a corda: R − 20.",
+"Pitágoras: R² = 50² + (R − 20)² → 0 = 2500 − 40R + 400.",
+"40R = 2900 → R = <b>72,5 cm</b>."
+]
+},
+{
+"id": "1989-2-mat-01",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 1",
+"r": 890,
+"tm": 45,
+"ctx": "Uma lanchonete vende hambúrgueres a Cz$ 600,00 cada. 1/5 desse preço é o custo do pão e dos demais ingredientes, e 1/3 corresponde às outras despesas. Qual o lucro na venda de cada hambúrguer, em Cz$?",
+"a": 280,
+"u": "Cz$",
+"tol": 0.01,
+"d": [
+[
+"Fração de um valor",
+"a/b de V = V·a/b.",
+""
+],
+[
+"Soma de frações",
+"Reduza ao mesmo denominador.",
+"1/2 + 1/3 = 3/6 + 2/6 = 5/6"
+]
+],
+"h": [
+"Custos: 1/5 + 1/3 = 3/15 + 5/15 = 8/15 do preço.",
+"Lucro: 1 − 8/15 = 7/15 do preço.",
+"7/15 × 600 = <b>Cz$ 280,00</b>."
+]
+},
+{
+"id": "1989-2-mat-02",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 2",
+"r": 1190,
+"tm": 60,
+"ctx": "Uma bola elástica, abandonada de certa altura, volta a 8/9 da altura de onde caiu cada vez que toca o solo. Depois de dois toques no solo, ela sobe a 80 cm. Qual era a altura original?",
+"a": 101.25,
+"u": "cm",
+"tol": 0.005,
+"d": [
+[
+"Progressão geométrica",
+"Cada termo é o anterior vezes a razão q: depois de n passos, o valor inicial fica multiplicado por qⁿ.",
+""
+],
+[
+"Isolar a incógnita",
+"Em h·(a/b) = c, faça h = c·b/a."
+]
+],
+"h": [
+"A cada toque a altura é multiplicada por 8/9; depois de dois, h·(8/9)² = h·64/81.",
+"h·64/81 = 80 → h = 80·81/64.",
+"h = <b>101,25 cm</b>."
+]
+},
+{
+"id": "1989-2-mat-03",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 3",
+"r": 1360,
+"tm": 90,
+"ctx": "As avenidas de uma cidade vão de norte a sul e as ruas de leste a oeste. Um trabalhador mora numa esquina e trabalha noutra, duas quadras ao sul e três quadras a leste. Quantos caminhos diferentes ele pode seguir, percorrendo sempre a menor distância?",
+"a": 10,
+"tol": 0,
+"d": [
+[
+"Caminhos mínimos numa grade",
+"Todo caminho mínimo é uma sequência de passos: tantos S quanto as quadras ao sul e tantos L quanto as quadras a leste, em qualquer ordem.",
+""
+],
+[
+"Permutação com repetição",
+"n objetos, sendo a de um tipo e b de outro: n!/(a!·b!).",
+"SSLL: 4!/(2!·2!) = 6"
+]
+],
+"h": [
+"Cada caminho mínimo tem 2 passos S e 3 passos L: 5 passos ao todo.",
+"Contar as ordens de SSLLL: 5!/(2!·3!).",
+"= 120/(2·6) = <b>10 caminhos</b>."
+]
+},
+{
+"id": "1989-2-mat-04",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 4",
+"r": 1400,
+"tm": 60,
+"ctx": "O velocímetro de um carro funciona contando as voltas da roda. Se os pneus forem trocados por pneus de diâmetro maior, a velocidade indicada será menor, igual ou maior que a velocidade real do carro?",
+"opts": [
+"menor que a real",
+"igual à real",
+"maior que a real",
+"depende da velocidade"
+],
+"a": 0,
+"d": [
+[
+"Comprimento da circunferência",
+"C = π·d: a cada volta sem escorregar, a roda avança uma circunferência.",
+""
+],
+[
+"O que o aparelho mede",
+"O velocímetro conta voltas por tempo e multiplica pela circunferência do pneu para o qual foi calibrado."
+]
+],
+"h": [
+"O velocímetro transforma voltas por tempo em velocidade usando a circunferência do pneu antigo.",
+"Com pneu maior, cada volta avança mais; para a mesma velocidade real, a roda dá menos voltas.",
+"Menos voltas → indica <b>menos que a velocidade real</b>."
+]
+},
+{
+"id": "1989-2-mat-05",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 5",
+"r": 1190,
+"tm": 60,
+"ctx": "Um copo cilíndrico tem altura h e base de raio r. A água que enche totalmente esse copo encheria parcialmente, totalmente ou faria transbordar outro copo cilíndrico de altura 2h e base de raio r/2?",
+"opts": [
+"faria transbordar: o 2º copo tem metade do volume",
+"encheria só a metade do 2º copo",
+"encheria exatamente o 2º copo",
+"encheria 3/4 do 2º copo"
+],
+"a": 0,
+"d": [
+[
+"Volume do cilindro",
+"V = π·r²·h.",
+""
+],
+[
+"Efeito do raio",
+"O volume depende do raio ao quadrado: raio pela metade divide a área da base por 4."
+]
+],
+"h": [
+"V<sub>1</sub> = πr²h.",
+"V<sub>2</sub> = π(r/2)²·2h = πr²h/2.",
+"V<sub>2</sub> é metade de V<sub>1</sub>: a água <b>transborda</b>."
+]
+},
+{
+"id": "1989-2-mat-06",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 6",
+"r": 1700,
+"tm": 180,
+"ctx": "Determine todas as raízes da equação do 3º grau det M = 0, em que M é a matriz de linhas (x², 2x, 1), (x, x + 1, 1) e (1, 2, 1).",
+"opts": [
+"x = 1 (raiz tripla)",
+"x = 0, x = 1 e x = 2",
+"x = −1 (raiz tripla)",
+"x = −1, x = 0 e x = 1"
+],
+"a": 0,
+"d": [
+[
+"Determinante 3×3 (Sarrus)",
+"Para linhas (a, b, c), (d, e, f), (g, h, i): det = aei + bfg + cdh − ceg − bdi − afh.",
+""
+],
+[
+"Fatorar",
+"Procure um fator comum entre os termos e reconheça trinômios quadrados perfeitos.",
+"x² − 2x + 1 = (x − 1)²"
+]
+],
+"h": [
+"Expandindo pela 1ª linha: x²[(x + 1) − 2] − 2x[x − 1] + 1[2x − (x + 1)].",
+"= x²(x − 1) − 2x(x − 1) + (x − 1) = (x − 1)(x² − 2x + 1).",
+"= (x − 1)³ = 0 → <b>x = 1, raiz tripla</b>."
+]
+},
+{
+"id": "1989-2-mat-07",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 7",
+"r": 1660,
+"tm": 150,
+"ctx": "A circunferência da roda de uma bicicleta tem 2,2 m. A roda dentada do pedal tem 44 dentes e a catraca da roda traseira, 20. Quantas pedaladas por minuto (voltas completas do pedal) o ciclista deve dar para andar a 29,04 km/h?",
+"a": 100,
+"u": "por minuto",
+"tol": 0.01,
+"d": [
+[
+"Engrenagens ligadas por corrente",
+"Passa o mesmo número de dentes por minuto nas duas: N<sub>1</sub>·f<sub>1</sub> = N<sub>2</sub>·f<sub>2</sub>.",
+""
+],
+[
+"Roda que rola",
+"Voltas por minuto = distância por minuto ÷ circunferência."
+],
+[
+"Conversão",
+"km/h para m/min: × 1000 ÷ 60."
+]
+],
+"h": [
+"29,04 km/h = 29 040 m em 60 min = 484 m/min.",
+"Voltas da roda (e da catraca, que gira junto): 484/2,2 = 220 por minuto.",
+"Pedal: 44·f = 20·220 → f = <b>100 pedaladas por minuto</b>."
+]
+},
+{
+"id": "1989-2-mat-08",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 8",
+"r": 1620,
+"tm": 120,
+"ctx": "É possível encontrar dois números, ambos divisíveis por 7, tais que a divisão de um pelo outro deixe resto 39?",
+"opts": [
+"Não: o resto também teria de ser múltiplo de 7",
+"Sim, por exemplo 735 e 49",
+"Sim, desde que o divisor seja maior que 39",
+"Não, porque 39 é ímpar"
+],
+"a": 0,
+"d": [
+[
+"Algoritmo da divisão",
+"a = b·q + r, com 0 ≤ r < b.",
+""
+],
+[
+"Divisibilidade de combinações",
+"Se d divide a e b, então d divide a − b·q, para qualquer inteiro q."
+]
+],
+"h": [
+"Se a = 7m e b = 7n, o resto é r = a − b·q = 7(m − nq).",
+"Então o resto seria múltiplo de 7.",
+"39 não é múltiplo de 7: <b>não é possível</b>."
+]
+},
+{
+"id": "1989-2-mat-09a",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 9(a)",
+"r": 1150,
+"tm": 60,
+"ctx": "Uma Câmara Municipal tem vereadores de três partidos: 3 do partido A, 6 do B e 9 do C. Qual a menor comissão (em número de vereadores) que mantém a mesma proporcionalidade partidária?",
+"a": 6,
+"u": "vereadores",
+"tol": 0,
+"d": [
+[
+"Proporção",
+"Para manter a proporção a : b : c com os menores inteiros, divida todos pelo MDC.",
+"4 : 6 : 10 = 2 : 3 : 5"
+]
+],
+"h": [
+"3 : 6 : 9, dividindo por 3 → 1 : 2 : 3.",
+"Menor comissão: 1 do A, 2 do B, 3 do C.",
+"Total: <b>6 vereadores</b>."
+]
+},
+{
+"id": "1989-2-mat-09b",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 9(b)",
+"r": 1570,
+"tm": 90,
+"ctx": "Na Câmara com 3 vereadores do partido A, 6 do B e 9 do C, quantas comissões diferentes de 6 membros, com 1 do A, 2 do B e 3 do C, podem ser formadas?",
+"a": 3780,
+"u": "comissões",
+"tol": 0,
+"d": [
+[
+"Combinação",
+"C(n, p) = n!/(p!·(n − p)!): modos de escolher p entre n, sem importar a ordem.",
+"C(5, 2) = 10"
+],
+[
+"Princípio multiplicativo",
+"Escolhas independentes se multiplicam."
+]
+],
+"h": [
+"Partido A: C(3, 1) = 3. Partido B: C(6, 2) = 15. Partido C: C(9, 3) = 84.",
+"As escolhas são independentes: 3 × 15 × 84.",
+"= <b>3780 comissões</b>."
+]
+},
+{
+"id": "1989-2-mat-10a",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 10 (BF)",
+"r": 1530,
+"tm": 120,
+"ctx": "Observadores nos pontos A e B localizam um foco de incêndio florestal em F. Sabendo que o ângulo FÂB = 45°, o ângulo FB̂A = 105° e AB = 15 km, qual é a distância BF?",
+"fig": "<svg viewBox='0 0 250 125' class='fg' role='img' aria-label='triângulo ABF com ângulo de 45 graus em A e 105 graus em B'><g fill='none' stroke='currentColor' stroke-width='1.5'><polygon points='20,110 97,33 230,110'/><path d='M44,110 A24,24 0 0 0 37,93'/><path d='M86,44 A15,15 0 0 0 112,42'/></g><g fill='currentColor' font-size='12'><text x='6' y='120'>A</text><text x='92' y='25'>B</text><text x='234' y='120'>F</text><text x='48' y='104'>45°</text><text x='88' y='60'>105°</text><text x='26' y='68'>15 km</text></g></svg>",
+"a": 21.21,
+"u": "km",
+"tol": 0.01,
+"d": [
+[
+"Soma dos ângulos",
+"Num triângulo, os ângulos internos somam 180°.",
+""
+],
+[
+"Lei dos senos",
+"a/sen Â = b/sen B̂ = c/sen Ĉ: cada lado dividido pelo seno do ângulo oposto dá o mesmo valor."
+],
+[
+"Senos notáveis",
+"sen 30° = 1/2; sen 45° = √2/2; sen 60° = √3/2."
+]
+],
+"h": [
+"Ângulo em F: 180° − 45° − 105° = 30°.",
+"Lei dos senos: BF/sen 45° = AB/sen 30° = 15/(1/2) = 30.",
+"BF = 30 · √2/2 = <b>15√2 ≈ 21,2 km</b>."
+]
+},
+{
+"id": "1989-2-mat-10b",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 10 (AF)",
+"r": 1740,
+"tm": 150,
+"ctx": "Observadores nos pontos A e B localizam um foco de incêndio florestal em F. Sabendo que o ângulo FÂB = 45°, o ângulo FB̂A = 105° e AB = 15 km, qual é a distância AF?",
+"fig": "<svg viewBox='0 0 250 125' class='fg' role='img' aria-label='triângulo ABF com ângulo de 45 graus em A e 105 graus em B'><g fill='none' stroke='currentColor' stroke-width='1.5'><polygon points='20,110 97,33 230,110'/><path d='M44,110 A24,24 0 0 0 37,93'/><path d='M86,44 A15,15 0 0 0 112,42'/></g><g fill='currentColor' font-size='12'><text x='6' y='120'>A</text><text x='92' y='25'>B</text><text x='234' y='120'>F</text><text x='48' y='104'>45°</text><text x='88' y='60'>105°</text><text x='26' y='68'>15 km</text></g></svg>",
+"a": 28.98,
+"u": "km",
+"tol": 0.01,
+"d": [
+[
+"Soma dos ângulos",
+"Num triângulo, os ângulos internos somam 180°.",
+""
+],
+[
+"Lei dos senos",
+"a/sen Â = b/sen B̂ = c/sen Ĉ."
+],
+[
+"Seno da soma",
+"sen(a + b) = sen a·cos b + sen b·cos a; e sen(180° − x) = sen x.",
+"sen 75° = sen(45° + 30°)"
+]
+],
+"h": [
+"Ângulo em F: 30°, e AB/sen 30° = 15/(1/2) = 30.",
+"AF é oposto ao ângulo de 105°: AF = 30·sen 105° = 30·sen 75°.",
+"sen 75° = (√6 + √2)/4 → AF = 7,5(√6 + √2) ≈ <b>29,0 km</b>."
+]
+},
+{
+"id": "1989-2-mat-11a",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 11(a)",
+"r": 1440,
+"tm": 120,
+"ctx": "Num pomar havia 30 laranjeiras, cada uma produzindo 600 laranjas por ano. Foram plantadas n novas laranjeiras. Por competição pelos nutrientes, cada laranjeira (nova ou velha) passou a produzir 10 laranjas a menos por ano para cada nova laranjeira plantada. Qual é a produção anual f(n) do pomar?",
+"opts": [
+"f(n) = (30 + n)(600 − 10n)",
+"f(n) = 30(600 − 10n)",
+"f(n) = (30 + n)·600 − 10n",
+"f(n) = 30·600 + n(600 − 10n)"
+],
+"a": 0,
+"d": [
+[
+"Produção total",
+"Total = (número de árvores) × (produção de cada árvore).",
+""
+],
+[
+"Modelar com uma variável",
+"Escreva cada fator em função de n: o que aumenta e o que diminui quando n cresce."
+]
+],
+"h": [
+"Número de árvores: 30 + n.",
+"Produção de cada uma: 600 − 10n.",
+"<b>f(n) = (30 + n)(600 − 10n)</b> = −10n² + 300n + 18 000."
+]
+},
+{
+"id": "1989-2-mat-11b",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 11(b)",
+"r": 1320,
+"tm": 60,
+"ctx": "A produção anual de um pomar, com n novas laranjeiras plantadas, é f(n) = (30 + n)(600 − 10n). Para quais valores de n se tem f(n) = 0?",
+"opts": [
+"n = −30 e n = 60",
+"n = 30 e n = −60",
+"n = 0 e n = 60",
+"n = −30 e n = 6"
+],
+"a": 0,
+"d": [
+[
+"Produto nulo",
+"a·b = 0 ⇔ a = 0 ou b = 0.",
+""
+]
+],
+"h": [
+"30 + n = 0 → n = −30.",
+"600 − 10n = 0 → n = 60.",
+"<b>n = −30 ou n = 60</b>; no pomar só n = 60 tem sentido (a produção de cada árvore zera)."
+]
+},
+{
+"id": "1989-2-mat-11c",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 11(c)",
+"r": 1530,
+"tm": 90,
+"ctx": "A produção anual de um pomar, com n novas laranjeiras plantadas, é f(n) = (30 + n)(600 − 10n). Quantas novas laranjeiras deveriam ser plantadas para que a produção fosse máxima?",
+"a": 15,
+"u": "laranjeiras",
+"tol": 0,
+"d": [
+[
+"Vértice da parábola",
+"Para f(n) = an² + bn + c, o vértice está em n = −b/(2a); com a < 0, é um máximo.",
+""
+],
+[
+"Simetria",
+"O vértice fica no meio das raízes: n<sub>v</sub> = (n<sub>1</sub> + n<sub>2</sub>)/2."
+]
+],
+"h": [
+"Raízes: n = −30 e n = 60.",
+"O máximo fica no meio: (−30 + 60)/2.",
+"n = <b>15 laranjeiras</b>."
+]
+},
+{
+"id": "1989-2-mat-11d",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 11(d)",
+"r": 1570,
+"tm": 90,
+"ctx": "A produção anual de um pomar, com n novas laranjeiras plantadas, é f(n) = (30 + n)(600 − 10n). Qual é a produção máxima, em laranjas por ano?",
+"a": 20250,
+"u": "laranjas",
+"tol": 0,
+"d": [
+[
+"Valor máximo",
+"Ache o n do vértice e substitua na função.",
+""
+],
+[
+"Vértice",
+"n<sub>v</sub> = −b/(2a), ou o ponto médio entre as raízes."
+]
+],
+"h": [
+"O máximo ocorre no ponto médio das raízes −30 e 60: n = 15.",
+"f(15) = (30 + 15)(600 − 150) = 45 × 450.",
+"= <b>20 250 laranjas por ano</b>."
+]
+},
+{
+"id": "1989-2-mat-12",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 12",
+"r": 1700,
+"tm": 180,
+"ctx": "Os alvéolos dos favos de mel são hexágonos regulares; poderiam ser quadrados ou triângulos equiláteros, mas o hexágono dá a maior área com o mesmo perímetro. Com o mesmo perímetro ℓ, quais são as áreas A<sub>6</sub> (hexágono regular), A<sub>4</sub> (quadrado) e A<sub>3</sub> (triângulo equilátero)?",
+"opts": [
+"A₆ = √3ℓ²/24, A₄ = ℓ²/16, A₃ = √3ℓ²/36",
+"A₆ = 3√3ℓ²/2, A₄ = ℓ², A₃ = √3ℓ²/4",
+"A₆ = √3ℓ²/36, A₄ = ℓ²/16, A₃ = √3ℓ²/24",
+"A₆ = √3ℓ²/6, A₄ = ℓ²/4, A₃ = √3ℓ²/9"
+],
+"a": 0,
+"d": [
+[
+"Área do triângulo equilátero",
+"Lado a: A = a²√3/4.",
+""
+],
+[
+"Hexágono regular",
+"É formado por 6 triângulos equiláteros com lado igual ao do hexágono."
+],
+[
+"Perímetro fixo",
+"Lado = perímetro ÷ número de lados."
+]
+],
+"h": [
+"Lados: hexágono ℓ/6, quadrado ℓ/4, triângulo ℓ/3.",
+"A₆ = 6·(ℓ/6)²·√3/4 = √3ℓ²/24 ≈ 0,072ℓ²; A₄ = (ℓ/4)² = ℓ²/16 = 0,0625ℓ²; A₃ = (ℓ/3)²·√3/4 = √3ℓ²/36 ≈ 0,048ℓ².",
+"<b>A₆ = √3ℓ²/24, A₄ = ℓ²/16, A₃ = √3ℓ²/36</b>, e de fato A₆ > A₄ > A₃."
+]
+},
+{
+"id": "1989-2-mat-13",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 13",
+"r": 2000,
+"tm": 240,
+"ctx": "Uma esfera de 4 cm de raio cai numa cavidade cônica de 12 cm de profundidade, cuja abertura tem 5 cm de raio. Qual a distância do vértice da cavidade à esfera?",
+"fig": "<svg viewBox='0 0 200 160' class='fg' role='img' aria-label='cavidade cônica com vértice para baixo, raio da abertura 5 cm e profundidade 12 cm'><g fill='none' stroke='currentColor' stroke-width='1.5'><ellipse cx='100' cy='30' rx='50' ry='9'/><line x1='50' y1='30' x2='100' y2='150'/><line x1='150' y1='30' x2='100' y2='150'/><g stroke-dasharray='4 3'><line x1='100' y1='30' x2='150' y2='30'/><line x1='100' y1='30' x2='100' y2='150'/></g></g><g fill='currentColor' font-size='12'><text x='112' y='17'>5 cm</text><text x='104' y='96'>12 cm</text></g></svg>",
+"a": 6.4,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Corte pelo eixo",
+"Cortando cone e esfera por um plano que contém o eixo, aparece um triângulo isósceles com um círculo tangente aos dois lados.",
+""
+],
+[
+"Raio e tangente",
+"O raio até o ponto de tangência é perpendicular à reta tangente: forma um triângulo retângulo com o eixo."
+],
+[
+"Semelhança",
+"Triângulos retângulos com um ângulo agudo igual são semelhantes: lados proporcionais."
+]
+],
+"h": [
+"Geratriz: √(12² + 5²) = 13. No vértice, o semiângulo α tem sen α = 5/13.",
+"Do vértice ao centro da esfera, distância d: o raio 4 é perpendicular à geratriz, então sen α = 4/d → d = 4·13/5 = 10,4 cm.",
+"Distância do vértice à esfera: 10,4 − 4 = <b>6,4 cm</b>."
+]
+},
+{
+"id": "1989-2-mat-14",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 14",
+"r": 1870,
+"tm": 180,
+"ctx": "A órbita de um satélite é uma elipse com a Terra num dos focos. As velocidades máxima e mínima ocorrem nos pontos de menor e maior distância à Terra, e são inversamente proporcionais a essas distâncias. Se a velocidade máxima é o dobro da mínima, qual a excentricidade da órbita? (Excentricidade = distância entre os focos ÷ comprimento do eixo maior.)",
+"opts": [
+"1/3",
+"1/2",
+"2/3",
+"1/4"
+],
+"a": 0,
+"d": [
+[
+"Distâncias extremas ao foco",
+"Numa elipse de semieixo maior a e semidistância focal c: a menor distância a um foco é a − c, a maior é a + c.",
+""
+],
+[
+"Excentricidade",
+"e = 2c/2a = c/a."
+],
+[
+"Proporção inversa",
+"v·d = constante: se v dobra, d cai à metade."
+]
+],
+"h": [
+"v<sub>máx</sub>·(a − c) = v<sub>mín</sub>·(a + c), com v<sub>máx</sub> = 2v<sub>mín</sub>.",
+"2(a − c) = a + c → a = 3c.",
+"e = c/a = <b>1/3</b>."
+]
+},
+{
+"id": "1989-2-mat-15",
+"ano": 1989,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1989, 2ª fase, Matemática, questão 15",
+"r": 1740,
+"tm": 180,
+"ctx": "Num certo mês, dois jornais circularam com 100 000 e 400 000 exemplares diários. A partir daí, a circulação do primeiro cresce 8,8% ao mês e a do segundo decresce 15% ao mês. Qual o número mínimo de meses para que a circulação do primeiro supere a do segundo? (Use log 2 = 0,301.)",
+"a": 6,
+"u": "meses",
+"tol": 0,
+"d": [
+[
+"Variação percentual repetida",
+"Aumento de i% por período: multiplica por (1 + i/100); queda de i%: por (1 − i/100). Após n períodos, eleve à n.",
+""
+],
+[
+"Propriedades do log",
+"log(aⁿ) = n·log a; log(a/b) = log a − log b."
+],
+[
+"Desigualdade com log",
+"Se q > 1: qⁿ > k ⇔ n > log k / log q."
+]
+],
+"h": [
+"100 000·1,088ⁿ > 400 000·0,85ⁿ → (1,088/0,85)ⁿ > 4 → 1,28ⁿ > 4.",
+"1,28 = 128/100 = 2⁷/10² → log 1,28 = 7·0,301 − 2 = 0,107.",
+"n > 2·0,301/0,107 = 0,602/0,107 ≈ 5,6 → <b>6 meses</b>."
+]
+},
+{
+"id": "1989-2-fis-01",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1989, 2ª fase, Física, questão 1",
+"r": 890,
+"tm": 45,
+"ctx": "A velocidade de um atleta da São Silvestre nos segundos iniciais da corrida foi:<br>t (s): 0; 1; 2; 3; 4; 5<br>v (m/s): 0; 1,8; 3,6; 5,4; 7,2; 9,0<br>Qual a aceleração do atleta nos primeiros 5 segundos?",
+"a": 1.8,
+"u": "m/s²",
+"tol": 0.01,
+"d": [
+[
+"Aceleração média",
+"a = Δv/Δt.",
+""
+],
+[
+"Movimento uniformemente variado",
+"Se v aumenta o mesmo tanto a cada segundo, a aceleração é constante e o gráfico v × t é uma reta."
+]
+],
+"h": [
+"v cresce 1,8 m/s a cada segundo: o gráfico é uma reta.",
+"a = (9,0 − 0)/(5 − 0).",
+"a = <b>1,8 m/s²</b>."
+]
+},
+{
+"id": "1989-2-fis-02",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1989, 2ª fase, Física, questão 2",
+"r": 1830,
+"tm": 180,
+"ctx": "Um cigarro sem filtro, de 80 mm, foi aceso e apoiado na borda plana de um cinzeiro, como na figura: 25 mm ficam para fora do cinzeiro e a ponta acesa fica sobre o fundo. Ele queima à razão de 5 mm por minuto, e a cinza sempre se desprende. Quanto tempo o cigarro ficará sobre o cinzeiro?",
+"fig": "<svg viewBox='0 0 270 140' class='fg' role='img' aria-label='cigarro horizontal de 80 mm apoiado na borda plana de um cinzeiro, com 25 mm para fora; a ponta acesa, com fumaça, fica sobre o fundo'><g fill='none' stroke='currentColor' stroke-width='1.5'><rect x='10' y='50' width='160' height='7'/><polyline points='60,130 60,58 120,58 120,82 200,82 200,58 240,58 240,130'/><line x1='30' y1='130' x2='260' y2='130'/><path d='M170,48 Q164,40 170,32 Q176,24 170,16' stroke-dasharray='3 2'/><line x1='10' y1='70' x2='60' y2='70'/><line x1='10' y1='65' x2='10' y2='75'/><line x1='60' y1='65' x2='60' y2='75'/><line x1='10' y1='42' x2='170' y2='42'/><line x1='10' y1='38' x2='10' y2='46'/><line x1='170' y1='38' x2='170' y2='46'/></g><g fill='currentColor' font-size='12'><text x='14' y='86'>25 mm</text><text x='70' y='37'>80 mm</text></g></svg>",
+"a": 6,
+"u": "min",
+"tol": 0.01,
+"d": [
+[
+"Equilíbrio de corpo apoiado",
+"Um corpo apoiado fica em equilíbrio enquanto a vertical do seu centro de massa passa pela região de apoio.",
+""
+],
+[
+"Centro de massa de barra homogênea",
+"Fica no meio da barra, a L/2 de cada ponta."
+],
+[
+"Queima a taxa constante",
+"Comprimento queimado = taxa × tempo."
+]
+],
+"h": [
+"O cigarro é homogêneo: o centro de massa fica no meio. Ele queima pela ponta acesa (sobre o cinzeiro); a ponta de fora, a 25 mm da borda, não muda.",
+"Ele tomba para fora quando o centro de massa passa da borda, isto é, quando restarem 2 × 25 = 50 mm.",
+"Queima 80 − 50 = 30 mm a 5 mm/min: <b>6 minutos</b>."
+]
+},
+{
+"id": "1989-2-fis-03a",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1989, 2ª fase, Física, questão 3(a)",
+"r": 1150,
+"tm": 60,
+"ctx": "De um ponto PM, a 1,8 m de altura, lançou-se horizontalmente uma bomba de gás lacrimogêneo, que atingiu os pés de um professor universitário (PU) a 20 m de distância. Quanto tempo a bomba levou para atingir o professor? (g = 10 m/s²)",
+"fig": "<svg viewBox='0 0 250 125' class='fg' role='img' aria-label='lançamento horizontal de PM, a 1,8 m de altura, até PU, a 20 m de distância'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='10' y1='100' x2='240' y2='100'/><line x1='30' y1='30' x2='68' y2='30'/><polyline points='62,26 68,30 62,34'/><path d='M30,30 Q130,30 220,100' stroke-dasharray='4 3'/><line x1='18' y1='30' x2='18' y2='100'/><line x1='14' y1='30' x2='22' y2='30'/><line x1='30' y1='112' x2='220' y2='112'/><line x1='30' y1='108' x2='30' y2='116'/><line x1='220' y1='108' x2='220' y2='116'/></g><g fill='currentColor' font-size='12'><circle cx='30' cy='30' r='2.5'/><circle cx='220' cy='100' r='2.5'/><text x='26' y='20'>PM</text><text x='44' y='24'>v₀</text><text x='22' y='70'>1,8 m</text><text x='210' y='92'>PU</text><text x='112' y='124'>20 m</text></g></svg>",
+"a": 0.6,
+"u": "s",
+"tol": 0.01,
+"d": [
+[
+"Lançamento horizontal",
+"Na vertical, o movimento é uma queda livre a partir do repouso: h = g·t²/2. Na horizontal, a velocidade é constante: x = v₀·t.",
+""
+]
+],
+"h": [
+"Na vertical: 1,8 = 10·t²/2 = 5t².",
+"t² = 0,36.",
+"t = <b>0,6 s</b>."
+]
+},
+{
+"id": "1989-2-fis-03b",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1989, 2ª fase, Física, questão 3(b)",
+"r": 1360,
+"tm": 90,
+"ctx": "Uma bomba de gás lacrimogêneo foi lançada horizontalmente de 1,8 m de altura e caiu a 20 m de distância. Com que velocidade v₀, em km/h, ela foi lançada? (g = 10 m/s²)",
+"a": 120,
+"u": "km/h",
+"tol": 0.01,
+"d": [
+[
+"Lançamento horizontal",
+"A altura dá o tempo de queda: h = g·t²/2. Na horizontal, x = v₀·t.",
+""
+],
+[
+"Conversão",
+"m/s × 3,6 = km/h."
+]
+],
+"h": [
+"Tempo de queda: 1,8 = 5t² → t = 0,6 s.",
+"v₀ = 20/0,6 ≈ 33,3 m/s.",
+"× 3,6 → v₀ = <b>120 km/h</b>."
+]
+},
+{
+"id": "1989-2-fis-04",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1989, 2ª fase, Física, questão 4",
+"r": 1620,
+"tm": 150,
+"ctx": "Um disco de 100 mm de raio rola sem escorregar sobre um plano. O gráfico mostra a velocidade V do centro do disco em função do tempo. Quantas voltas o disco dá do instante inicial até t = 10 s? (π = 3,14)",
+"fig": "<svg viewBox='0 0 230 125' class='fg' role='img' aria-label='gráfico V por t: V cai em linha reta de 628 mm/s em t igual a 0 até 0 em t igual a 10 s, e fica nula até 20 s'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,100 205,100'/><polyline points='30,30 110,100 190,100' stroke-width='2'/><line x1='70' y1='97' x2='70' y2='103'/><line x1='110' y1='97' x2='110' y2='103'/><line x1='150' y1='97' x2='150' y2='103'/><line x1='190' y1='97' x2='190' y2='103'/><line x1='27' y1='30' x2='33' y2='30'/></g><g fill='currentColor' font-size='11'><text x='2' y='34'>628</text><text x='34' y='12'>V (mm/s)</text><text x='27' y='114'>0</text><text x='67' y='114'>5</text><text x='104' y='114'>10</text><text x='144' y='114'>15</text><text x='184' y='114'>20</text><text x='200' y='124'>t (s)</text></g></svg>",
+"a": 5,
+"u": "voltas",
+"tol": 0.01,
+"d": [
+[
+"Área sob v × t",
+"O deslocamento é a área sob o gráfico da velocidade em função do tempo.",
+""
+],
+[
+"Rolar sem escorregar",
+"A cada volta, o centro avança uma circunferência: 2πR."
+]
+],
+"h": [
+"Deslocamento do centro até 10 s: área do triângulo = 628 × 10/2 = 3140 mm.",
+"Circunferência: 2 × 3,14 × 100 = 628 mm.",
+"Voltas: 3140/628 = <b>5 voltas</b> (de 10 s a 20 s, nenhuma: o disco está parado)."
+]
+},
+{
+"id": "1989-2-fis-06",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1989, 2ª fase, Física, questão 6",
+"r": 1570,
+"tm": 90,
+"ctx": "Um isolante passa a conduzir eletricidade quando o campo elétrico supera um valor limite, a 'rigidez dielétrica'. A que potencial máximo se pode manter carregada uma esfera metálica de 2 cm de raio, no ar, longe de outros objetos? A rigidez dielétrica do ar é 28 000 V/cm.",
+"a": 56000,
+"u": "V",
+"tol": 0.01,
+"d": [
+[
+"Esfera condutora carregada",
+"Na superfície e fora dela, campo e potencial são os de uma carga pontual no centro: E = kQ/R² e V = kQ/R.",
+""
+],
+[
+"Relação entre E e V na superfície",
+"Dividindo uma pela outra: V = E·R."
+]
+],
+"h": [
+"O campo é máximo na superfície: E = V/R.",
+"O limite é E = 28 000 V/cm, com R = 2 cm.",
+"V<sub>máx</sub> = 28 000 × 2 = <b>56 000 V</b> (5,6·10⁴ V)."
+]
+},
+{
+"id": "1989-2-fis-07",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1989, 2ª fase, Física, questão 7",
+"r": 1700,
+"tm": 90,
+"ctx": "Um pulso transversal se propaga da esquerda para a direita numa corda ideal, longa e esticada. Num instante t<sub>0</sub>, os pontos A, B e C da corda estão como na figura: A na subida do pulso (lado esquerdo), B no topo e C na descida (lado direito). Qual é a velocidade de cada ponto nesse instante?",
+"fig": "<svg viewBox='0 0 240 80' class='fg' role='img' aria-label='pulso numa corda indo para a direita; A no lado esquerdo do pulso, B no topo, C no lado direito'><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M10,55 L80,55 C100,55 105,25 125,25 C145,25 150,55 170,55 L230,55'/><line x1='180' y1='20' x2='212' y2='20'/><polyline points='206,16 212,20 206,24'/></g><g fill='currentColor' font-size='12'><circle cx='102.5' cy='40' r='2.5'/><circle cx='125' cy='25' r='2.5'/><circle cx='147.5' cy='40' r='2.5'/><text x='88' y='38'>A</text><text x='121' y='18'>B</text><text x='153' y='38'>C</text><text x='192' y='14'>v</text></g></svg>",
+"opts": [
+"A desce, B está parado, C sobe",
+"A sobe, B está parado, C desce",
+"A, B e C movem-se para a direita",
+"A, B e C sobem"
+],
+"a": 0,
+"d": [
+[
+"Onda transversal",
+"Os pontos da corda só se movem na vertical; quem anda na horizontal é a forma do pulso.",
+""
+],
+[
+"Truque do 'um instante depois'",
+"Desenhe o pulso um pouco deslocado no sentido da propagação e veja se cada ponto ficou mais alto ou mais baixo."
+]
+],
+"h": [
+"Pulso indo para a direita: o lado direito (C) é a frente, o lado esquerdo (A) é a traseira.",
+"Deslocando o desenho um pouco para a direita: no lugar de C a corda fica mais alta (sobe); no lugar de A, mais baixa (desce).",
+"B, no topo, tem velocidade nula nesse instante: <b>A desce, B parado, C sobe</b>."
+]
+},
+{
+"id": "1989-2-fis-08",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 1989, 2ª fase, Física, questão 8 (com volume dado)",
+"r": 1400,
+"tm": 90,
+"ctx": "Estime a massa de ar contida nos pulmões numa inspiração profunda. Considere volume de 5 litros, pressão de 1 atm, temperatura de 37 °C, R = 0,08 atm·L/(K·mol) e massa molar média do ar de 30 g/mol.",
+"a": 6,
+"u": "g",
+"tol": 0.05,
+"d": [
+[
+"Gás ideal",
+"PV = nRT, com T em kelvin (T = θ + 273).",
+""
+],
+[
+"Massa e mol",
+"m = n·M."
+]
+],
+"h": [
+"T = 37 + 273 = 310 K.",
+"n = PV/(RT) = 1·5/(0,08·310) ≈ 0,20 mol.",
+"m = 0,20 × 30 ≈ <b>6 g</b>."
+]
+},
+{
+"id": "1989-2-fis-09",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1989, 2ª fase, Física, questão 9(b)",
+"r": 1780,
+"tm": 120,
+"ctx": "A água tem densidade máxima a 4 °C. Os recipientes A e B têm massas iguais de água, inicialmente a 4 °C. Ambos são isolados termicamente, exceto a tampa de A e a base de B, que são condutoras e mantidas a 0 °C. Em qual deles a temperatura uniforme de 0 °C é atingida primeiro?",
+"fig": "<svg viewBox='0 0 240 130' class='fg' role='img' aria-label='recipiente A com tampa a 0 grau e recipiente B com base a 0 grau, ambos com água a 4 graus'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='20,25 20,105 100,105 100,25'/><line x1='16' y1='25' x2='104' y2='25' stroke-width='4'/><polyline points='140,25 140,105 220,105 220,25 140,25'/><line x1='136' y1='105' x2='224' y2='105' stroke-width='4'/></g><g fill='currentColor' font-size='12'><text x='45' y='16'>0 °C</text><text x='46' y='70'>4 °C</text><text x='166' y='70'>4 °C</text><text x='12' y='124'>A (tampa a 0 °C)</text><text x='134' y='124'>B (base a 0 °C)</text></g></svg>",
+"opts": [
+"Em B: a água esfriada no fundo fica menos densa, sobe e cria convecção",
+"Em A: a água fria do topo desce e cria convecção",
+"Nos dois ao mesmo tempo, pois as massas são iguais",
+"Em A: o calor sobe e sai pela tampa mais depressa"
+],
+"a": 0,
+"d": [
+[
+"Comportamento anômalo da água",
+"Entre 0 °C e 4 °C a água se contrai ao ser aquecida: abaixo de 4 °C, quanto mais fria, menos densa.",
+""
+],
+[
+"Convecção",
+"Fluido menos denso sobe e mais denso desce; na água, a convecção troca calor muito mais depressa que a condução."
+]
+],
+"h": [
+"Abaixo de 4 °C, a água mais fria é menos densa e tende a ficar em cima.",
+"Em A, a água esfriada fica junto da tampa, no alto: não há convecção, só condução, que é lenta.",
+"Em B, a água esfriada no fundo sobe e a de 4 °C desce até a base: há convecção. <b>B chega a 0 °C primeiro</b>."
+]
+},
+{
+"id": "1989-2-fis-10",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1989, 2ª fase, Física, questão 10(b)",
+"r": 1780,
+"tm": 90,
+"ctx": "Um frasco fechado com água repousa sobre uma mesa. A é um ponto na superfície livre da água e B, um ponto no fundo do frasco. O frasco é abandonado e cai em queda livre. Durante a queda, qual é a diferença entre as pressões em B e em A?",
+"opts": [
+"zero",
+"ρ·g·h, igual à de repouso",
+"2ρ·g·h",
+"ρ·g·h/2"
+],
+"a": 0,
+"d": [
+[
+"Lei de Stevin",
+"Num líquido em repouso, p<sub>B</sub> − p<sub>A</sub> = ρ·g·h: a diferença vem do peso da coluna de líquido que precisa ser sustentada.",
+""
+],
+[
+"Gravidade efetiva",
+"Num referencial com aceleração a, tudo se passa como se a gravidade fosse g − a (vetorialmente)."
+]
+],
+"h": [
+"Em repouso, a diferença é ρgh, pois a coluna de água tem de ser sustentada.",
+"Em queda livre, frasco e água caem com aceleração g: a gravidade efetiva é g − g = 0.",
+"Nada precisa ser sustentado: a diferença é <b>zero</b>."
+]
+},
+{
+"id": "1989-2-fis-11a",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1989, 2ª fase, Física, questão 11(a)",
+"r": 1700,
+"tm": 150,
+"ctx": "No circuito da figura, qual é a carga no capacitor enquanto a chave Ch está aberta (depois de estabilizado)?",
+"fig": "<svg viewBox='0 0 260 165' class='fg' role='img' aria-label='circuito: ramo esquerdo com 20 ohms e 10 ohms em série; ramo do meio com 20 ohms e capacitor de 3 microfarads em série; bateria de 30 volts à direita; a chave Ch liga os pontos do meio dos dois ramos'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='60' y1='20' x2='230' y2='20'/><line x1='60' y1='150' x2='230' y2='150'/><polyline points='60,20 60,30 66,33 54,38 66,43 54,48 66,53 54,58 60,62 60,95 66,98 54,103 66,108 54,113 66,118 54,123 60,127 60,150'/><polyline points='150,20 150,30 156,33 144,38 156,43 144,48 156,53 144,58 150,62 150,110'/><line x1='138' y1='110' x2='162' y2='110'/><line x1='138' y1='117' x2='162' y2='117'/><line x1='150' y1='117' x2='150' y2='150'/><line x1='60' y1='85' x2='90' y2='85'/><line x1='90' y1='85' x2='112' y2='73'/><line x1='115' y1='85' x2='150' y2='85'/><line x1='230' y1='20' x2='230' y2='78'/><line x1='218' y1='78' x2='242' y2='78'/><line x1='224' y1='86' x2='236' y2='86'/><line x1='230' y1='86' x2='230' y2='150'/></g><g fill='currentColor' font-size='12'><circle cx='60' cy='85' r='2.5'/><circle cx='150' cy='85' r='2.5'/><circle cx='90' cy='85' r='2'/><circle cx='115' cy='85' r='2'/><text x='14' y='50'>20 Ω</text><text x='14' y='115'>10 Ω</text><text x='160' y='48'>20 Ω</text><text x='166' y='118'>3 μF</text><text x='92' y='100'>Ch</text><text x='190' y='92'>30 V</text></g></svg>",
+"a": 90,
+"u": "μC",
+"tol": 0.01,
+"d": [
+[
+"Capacitor carregado",
+"Em regime, não passa corrente pelo ramo do capacitor; um resistor em série com ele não tem queda de tensão.",
+""
+],
+[
+"Carga do capacitor",
+"Q = C·U."
+],
+[
+"Lei de Ohm",
+"U = R·i; resistores em série somam."
+]
+],
+"h": [
+"Com a chave aberta, a corrente passa só pelo ramo 20 Ω + 10 Ω; no ramo do capacitor não há corrente.",
+"Sem corrente, o resistor de 20 Ω do meio não tem queda: o capacitor fica com a tensão total, 30 V.",
+"Q = 3 μF × 30 V = <b>90 μC</b>."
+]
+},
+{
+"id": "1989-2-fis-11b",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1989, 2ª fase, Física, questão 11(b)",
+"r": 1960,
+"tm": 180,
+"ctx": "No mesmo circuito, qual é a carga final no capacitor depois que a chave Ch é fechada?",
+"fig": "<svg viewBox='0 0 260 165' class='fg' role='img' aria-label='circuito: ramo esquerdo com 20 ohms e 10 ohms em série; ramo do meio com 20 ohms e capacitor de 3 microfarads em série; bateria de 30 volts à direita; a chave Ch liga os pontos do meio dos dois ramos'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='60' y1='20' x2='230' y2='20'/><line x1='60' y1='150' x2='230' y2='150'/><polyline points='60,20 60,30 66,33 54,38 66,43 54,48 66,53 54,58 60,62 60,95 66,98 54,103 66,108 54,113 66,118 54,123 60,127 60,150'/><polyline points='150,20 150,30 156,33 144,38 156,43 144,48 156,53 144,58 150,62 150,110'/><line x1='138' y1='110' x2='162' y2='110'/><line x1='138' y1='117' x2='162' y2='117'/><line x1='150' y1='117' x2='150' y2='150'/><line x1='60' y1='85' x2='90' y2='85'/><line x1='90' y1='85' x2='112' y2='73'/><line x1='115' y1='85' x2='150' y2='85'/><line x1='230' y1='20' x2='230' y2='78'/><line x1='218' y1='78' x2='242' y2='78'/><line x1='224' y1='86' x2='236' y2='86'/><line x1='230' y1='86' x2='230' y2='150'/></g><g fill='currentColor' font-size='12'><circle cx='60' cy='85' r='2.5'/><circle cx='150' cy='85' r='2.5'/><circle cx='90' cy='85' r='2'/><circle cx='115' cy='85' r='2'/><text x='14' y='50'>20 Ω</text><text x='14' y='115'>10 Ω</text><text x='160' y='48'>20 Ω</text><text x='166' y='118'>3 μF</text><text x='92' y='100'>Ch</text><text x='190' y='92'>30 V</text></g></svg>",
+"a": 45,
+"u": "μC",
+"tol": 0.01,
+"d": [
+[
+"Nó comum",
+"Fechar a chave liga os pontos do meio dos dois ramos: eles passam a ter o mesmo potencial.",
+""
+],
+[
+"Associação em paralelo",
+"Resistores ligados entre os mesmos dois nós estão em paralelo: R<sub>eq</sub> = R<sub>1</sub>R<sub>2</sub>/(R<sub>1</sub> + R<sub>2</sub>)."
+],
+[
+"Carga do capacitor",
+"Q = C·U, com U a tensão entre os terminais do capacitor."
+]
+],
+"h": [
+"Com a chave fechada, os dois resistores de 20 Ω ficam em paralelo entre o fio de cima e o nó do meio: 10 Ω. Do nó do meio ao fio de baixo, o resistor de 10 Ω (o capacitor não conduz em regime).",
+"Corrente: 30/(10 + 10) = 1,5 A; tensão no resistor de 10 Ω: 15 V. O capacitor está ligado entre o nó do meio e o fio de baixo: também 15 V.",
+"Q = 3 μF × 15 V = <b>45 μC</b>."
+]
+},
+{
+"id": "1989-2-fis-12",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1989, 2ª fase, Física, questão 12",
+"r": 1960,
+"tm": 150,
+"ctx": "Duas trenas metálicas de precisão, A e B, de materiais diferentes, foram calibradas a 20 °C. Um comprimento fixo X<sub>0</sub> é medido com as duas trenas a 0 °C e a 40 °C: trena A: X<sub>1</sub> (0 °C) e X<sub>2</sub> (40 °C); trena B: X<sub>3</sub> (0 °C) e X<sub>4</sub> (40 °C). O coeficiente de dilatação de A é menor que o de B. Qual a ordem crescente dos cinco valores?",
+"opts": [
+"X₄ < X₂ < X₀ < X₁ < X₃",
+"X₃ < X₁ < X₀ < X₂ < X₄",
+"X₂ < X₄ < X₀ < X₃ < X₁",
+"X₁ < X₃ < X₀ < X₄ < X₂"
+],
+"a": 0,
+"d": [
+[
+"Dilatação linear",
+"ΔL = L<sub>0</sub>·α·Δθ.",
+""
+],
+[
+"Régua dilatada",
+"Se a régua esquenta, as marcas se afastam e cabem menos divisões no mesmo objeto: a leitura diminui. Se a régua esfria, a leitura aumenta."
+]
+],
+"h": [
+"A 0 °C as trenas estão contraídas (marcas mais próximas): leem mais que X<sub>0</sub>. A 40 °C estão dilatadas: leem menos.",
+"B dilata mais que A, então erra mais: X<sub>3</sub> > X<sub>1</sub> > X<sub>0</sub> e X<sub>4</sub> < X<sub>2</sub> < X<sub>0</sub>.",
+"Ordem: <b>X₄ < X₂ < X₀ < X₁ < X₃</b>."
+]
+},
+{
+"id": "1989-2-fis-13",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1989, 2ª fase, Física, questão 13",
+"r": 2120,
+"tm": 180,
+"ctx": "Uma corrente I<sub>0</sub> percorre um fio muito longo LMN, dobrado em ângulo reto em M (figura 1), e produz no ponto P, no prolongamento de NM, um campo de módulo B<sub>1</sub>. Solda-se em M outro fio muito longo, de modo que LMO fique retilíneo (figura 2); agora as correntes em LM e MN são I<sub>0</sub> e I<sub>0</sub>/2, e o campo em P tem módulo B<sub>2</sub>. Quanto vale B<sub>1</sub>/B<sub>2</sub>?",
+"fig": "<svg viewBox='0 0 300 135' class='fg' role='img' aria-label='figura 1: fio horizontal LM com corrente I0 até M e fio vertical MN para baixo; P acima de M. Figura 2: o fio continua reto de M até O, e MN leva I0/2'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='10' y1='50' x2='40' y2='50' stroke-dasharray='4 3'/><line x1='40' y1='50' x2='100' y2='50'/><line x1='100' y1='50' x2='100' y2='110'/><line x1='100' y1='110' x2='100' y2='125' stroke-dasharray='4 3'/><line x1='100' y1='18' x2='100' y2='50' stroke-dasharray='2 3'/><line x1='160' y1='50' x2='190' y2='50' stroke-dasharray='4 3'/><line x1='190' y1='50' x2='280' y2='50'/><line x1='280' y1='50' x2='296' y2='50' stroke-dasharray='4 3'/><line x1='240' y1='50' x2='240' y2='110'/><line x1='240' y1='110' x2='240' y2='125' stroke-dasharray='4 3'/><line x1='240' y1='18' x2='240' y2='50' stroke-dasharray='2 3'/></g><g fill='currentColor' font-size='12'><polygon points='70,46 76,50 70,54'/><polygon points='96,80 100,86 104,80'/><polygon points='210,46 216,50 210,54'/><polygon points='236,80 240,86 244,80'/><circle cx='100' cy='15' r='2.5'/><circle cx='240' cy='15' r='2.5'/><text x='18' y='44'>L</text><text x='58' y='66'>I₀</text><text x='106' y='62'>M</text><text x='106' y='108'>N</text><text x='106' y='18'>P</text><text x='30' y='132'>figura 1</text><text x='168' y='44'>L</text><text x='198' y='66'>I₀</text><text x='246' y='44'>M</text><text x='282' y='44'>O</text><text x='246' y='100'>I₀/2</text><text x='246' y='120'>N</text><text x='246' y='18'>P</text><text x='160' y='132'>figura 2</text></g></svg>",
+"opts": [
+"2/3",
+"1/2",
+"1",
+"3/2"
+],
+"a": 0,
+"d": [
+[
+"Fio longo retilíneo",
+"B = μ₀I/(2πd). Um fio semi-infinito que termina no pé da perpendicular traçada por P produz metade disso: μ₀I/(4πd).",
+""
+],
+[
+"Ponto na reta do fio",
+"Um trecho de fio cuja reta passa por P não produz campo em P."
+],
+[
+"Superposição",
+"Some os campos de cada trecho; aqui todos são perpendiculares ao plano da figura."
+]
+],
+"h": [
+"Figura 1: MN está na reta de P, campo nulo. LM é semi-infinito e termina em M: B<sub>1</sub> = μ₀I₀/(4πd).",
+"Figura 2: MN continua dando zero; LM dá μ₀I₀/(4πd); MO leva I₀/2 no mesmo sentido e dá μ₀I₀/(8πd), somando. B<sub>2</sub> = (3/2)·μ₀I₀/(4πd).",
+"B<sub>1</sub>/B<sub>2</sub> = <b>2/3</b>."
+]
+},
+{
+"id": "1989-2-fis-15",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1989, 2ª fase, Física, questão 15",
+"r": 1780,
+"tm": 150,
+"ctx": "Entre dois blocos de madeira, em repouso sobre um piso horizontal, há uma pequena carga explosiva. Na detonação, o conjunto se separa e um dos blocos, de 100 g, desliza 56 cm em linha reta até parar. Que distância percorre o outro bloco, de 200 g, se o coeficiente de atrito com o piso é o mesmo para ambos?",
+"a": 14,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Conservação da quantidade de movimento",
+"Numa explosão só agem forças internas: a quantidade de movimento total se conserva. Se começa em zero, m<sub>1</sub>v<sub>1</sub> = m<sub>2</sub>v<sub>2</sub>.",
+""
+],
+[
+"Frenagem por atrito",
+"a = μg e v² = 2·a·d → d = v²/(2μg): com o mesmo μ, a distância é proporcional a v²."
+]
+],
+"h": [
+"100·v<sub>1</sub> = 200·v<sub>2</sub> → v<sub>2</sub> = v<sub>1</sub>/2.",
+"Mesmo μ: d ∝ v², então d<sub>2</sub> = d<sub>1</sub>·(1/2)² = d<sub>1</sub>/4.",
+"d<sub>2</sub> = 56/4 = <b>14 cm</b>."
+]
+},
+{
+"id": "1989-2-fis-16",
+"ano": 1989,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1989, 2ª fase, Física, questão 16",
+"r": 1620,
+"tm": 150,
+"ctx": "Nas extremidades de um fio de massa desprezível e 0,5 m de comprimento estão presos dois chumbinhos de 10 g cada. Inicialmente o chumbinho A está sobre o B e o conjunto repousa no chão. Você ergue A muito devagar, na vertical, até 1 m acima do chão. Qual o trabalho total que você realiza? (g = 10 m/s²)",
+"a": 0.15,
+"u": "J",
+"tol": 0.01,
+"d": [
+[
+"Erguer devagar",
+"'Muito devagar' significa velocidade constante: a força aplicada equilibra o peso de tudo o que está suspenso.",
+""
+],
+[
+"Trabalho por trechos",
+"Com força constante em cada trecho, W = F·d; o total é a soma (a área sob o gráfico F × z)."
+]
+],
+"h": [
+"De z = 0 a 0,5 m, só A está suspenso: F = 0,01 × 10 = 0,1 N. Trabalho: 0,1 × 0,5 = 0,05 J.",
+"De 0,5 m a 1 m, o fio estica e ergue B também: F = 0,2 N. Trabalho: 0,2 × 0,5 = 0,10 J.",
+"Total: <b>0,15 J</b>, igual ao ganho de energia potencial (A sobe 1 m e B, 0,5 m)."
+]
+},
+{
+"id": "1989-2-qui-01",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1989, 2ª fase, Química, questão 1",
+"r": 1190,
+"tm": 90,
+"ctx": "Para adoçar uma xícara de café usam-se, em média, 7 g de sacarose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>). Supondo que o volume final do café adoçado seja 50 cm<sup>3</sup>, qual a concentração molar aproximada do açúcar? (C = 12, H = 1, O = 16)",
+"a": 0.41,
+"u": "mol/L",
+"tol": 0.03,
+"d": [
+[
+"Massa molar",
+"Some as massas atômicas de todos os átomos da fórmula.",
+""
+],
+[
+"Concentração molar",
+"M = n/V, com V em litros e n = m/MM."
+]
+],
+"h": [
+"MM = 12·12 + 22·1 + 11·16 = 342 g/mol.",
+"n = 7/342 ≈ 0,0205 mol; V = 50 cm³ = 0,050 L.",
+"M = 0,0205/0,050 ≈ <b>0,41 mol/L</b>."
+]
+},
+{
+"id": "1989-2-qui-02",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1989, 2ª fase, Química, questão 2",
+"r": 1190,
+"tm": 90,
+"ctx": "Três frascos sem rótulo contêm benzeno (d = 0,87 g/cm<sup>3</sup>), tetracloreto de carbono (d = 1,59 g/cm<sup>3</sup>) e metanol (d = 0,79 g/cm<sup>3</sup>). Só o metanol é solúvel em água (d = 1,00 g/cm<sup>3</sup>). Os três são tóxicos e não podem ser cheirados. Adicionando um pouco de cada líquido à água, como reconhecer cada um?",
+"opts": [
+"mistura-se com a água: metanol; flutua: benzeno; afunda: tetracloreto",
+"flutua: metanol; afunda: benzeno; mistura-se: tetracloreto",
+"flutua: tetracloreto; afunda: benzeno; mistura-se: metanol",
+"os três flutuam, pois são orgânicos"
+],
+"a": 0,
+"d": [
+[
+"Miscibilidade",
+"Líquidos solúveis entre si formam uma só fase; insolúveis formam duas fases.",
+""
+],
+[
+"Densidade e camadas",
+"Num sistema de duas fases líquidas, a menos densa fica em cima."
+]
+],
+"h": [
+"O metanol é solúvel: forma uma só fase com a água.",
+"Benzeno (0,87) é menos denso que a água: forma uma camada em cima.",
+"Tetracloreto (1,59) é mais denso: vai ao fundo. <b>Mistura: metanol; flutua: benzeno; afunda: CCl₄</b>."
+]
+},
+{
+"id": "1989-2-qui-03",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1989, 2ª fase, Química, questão 3",
+"r": 1530,
+"tm": 90,
+"ctx": "Observe o diagrama de fases do dióxido de carbono. Uma amostra de CO<sub>2</sub> está a 1 atm e −50 °C. Mantendo a temperatura constante, a pressão é aumentada lentamente até 10 atm. O que se observa?",
+"fig": "<svg viewBox='0 0 270 165' class='fg' role='img' aria-label='diagrama de fases do CO2: ponto triplo perto de menos 57 graus e 5 atm; curva sólido-líquido quase vertical, curva líquido-gás subindo para a direita, curva sólido-gás para baixo à esquerda'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='40,5 40,145 265,145'/><path d='M46,142 Q110,130 152,92'/><line x1='152' y1='92' x2='184' y2='17'/><path d='M152,92 Q200,80 255,55'/><line x1='36' y1='135' x2='44' y2='135'/><line x1='36' y1='95' x2='44' y2='95'/><line x1='36' y1='35' x2='44' y2='35'/><line x1='60' y1='141' x2='60' y2='149'/><line x1='140' y1='141' x2='140' y2='149'/><line x1='220' y1='141' x2='220' y2='149'/></g><g fill='currentColor' font-size='12'><text x='24' y='139'>1</text><text x='24' y='99'>5</text><text x='18' y='39'>11</text><text x='48' y='160'>−80</text><text x='128' y='160'>−60</text><text x='208' y='160'>−40</text><text x='46' y='14'>p (atm)</text><text x='228' y='138'>T (°C)</text><text x='70' y='82'>sólido</text><text x='196' y='50'>líquido</text><text x='170' y='124'>gasoso</text></g></svg>",
+"opts": [
+"o gás se liquefaz (perto de 6 atm) e continua líquido até 10 atm",
+"o gás passa direto a sólido",
+"o gás se liquefaz e depois se solidifica antes de 10 atm",
+"nada: continua gás até 10 atm"
+],
+"a": 0,
+"d": [
+[
+"Diagrama de fases",
+"Cada região é um estado físico; atravessar uma curva é mudar de estado. No ponto triplo, os três estados coexistem.",
+""
+],
+[
+"Transformação isotérmica",
+"Temperatura constante: siga uma reta vertical no diagrama, subindo conforme a pressão aumenta."
+]
+],
+"h": [
+"A 1 atm e −50 °C, o ponto está na região do gás.",
+"Subindo na vertical em −50 °C (à direita do ponto triplo, ≈ −57 °C e 5 atm), cruza-se a curva líquido–gás perto de 6 atm: o CO₂ se liquefaz.",
+"Em −50 °C, a curva sólido–líquido fica acima de 10 atm: <b>liquefaz e permanece líquido</b>."
+]
+},
+{
+"id": "1989-2-qui-04",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_ato",
+"src": "Unicamp 1989, 2ª fase, Química, questão 4",
+"r": 1230,
+"tm": 60,
+"ctx": "Raios iônicos (pm):<br>Li<sup>+</sup> 60; Na<sup>+</sup> ?; K<sup>+</sup> 133; Rb<sup>+</sup> 148; Cs<sup>+</sup> 160<br>Be<sup>2+</sup> 31; Mg<sup>2+</sup> 65; Ca<sup>2+</sup> 99; Sr<sup>2+</sup> ?; Ba<sup>2+</sup> 135<br>Pela periodicidade, quais são os valores aproximados dos raios do Na<sup>+</sup> e do Sr<sup>2+</sup>?",
+"opts": [
+"Na⁺ ≈ 97 pm e Sr²⁺ ≈ 117 pm",
+"Na⁺ ≈ 30 pm e Sr²⁺ ≈ 80 pm",
+"Na⁺ ≈ 140 pm e Sr²⁺ ≈ 150 pm",
+"Na⁺ ≈ 65 pm e Sr²⁺ ≈ 99 pm"
+],
+"a": 0,
+"d": [
+[
+"Raio numa família",
+"Descendo numa família, cada período acrescenta uma camada eletrônica: o raio cresce. Um valor que falta pode ser estimado entre o vizinho de cima e o de baixo.",
+""
+]
+],
+"h": [
+"Na está entre Li (60) e K (133) na família 1: (60 + 133)/2 ≈ 97 pm.",
+"Sr está entre Ca (99) e Ba (135) na família 2: (99 + 135)/2 = 117 pm.",
+"<b>Na⁺ ≈ 97 pm, Sr²⁺ ≈ 117 pm</b> (os valores reais são cerca de 95 e 113 pm)."
+]
+},
+{
+"id": "1989-2-qui-05",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1989, 2ª fase, Química, questão 5",
+"r": 1320,
+"tm": 90,
+"ctx": "Um elemento da família 2A forma um composto com o flúor, de massa molar 78,1 g/mol. Qual a fórmula e o nome do composto? (F = 19; Be = 9; Mg = 24,3; Ca = 40,1; Sr = 87,6)",
+"opts": [
+"CaF₂, fluoreto de cálcio",
+"MgF₂, fluoreto de magnésio",
+"SrF, fluoreto de estrôncio",
+"CaF, fluoreto de cálcio"
+],
+"a": 0,
+"d": [
+[
+"Fórmula de composto iônico",
+"A família 2A forma cátion 2+; o flúor, ânion 1−. A carga total do composto é zero.",
+""
+],
+[
+"Massa molar",
+"Soma das massas dos átomos da fórmula."
+]
+],
+"h": [
+"Fórmula MF₂ (M²⁺ e 2 F⁻).",
+"M + 2·19 = 78,1 → M = 40,1.",
+"É o cálcio: <b>CaF₂, fluoreto de cálcio</b>."
+]
+},
+{
+"id": "1989-2-qui-06",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1989, 2ª fase, Química, questão 6",
+"r": 1490,
+"tm": 90,
+"ctx": "Refrigerantes têm muito gás carbônico dissolvido: CO<sub>2</sub>(g) + H<sub>2</sub>O(l) ⇌ HCO<sub>3</sub><sup>−</sup>(aq) + H<sup>+</sup>(aq). A dissolução de gases é favorecida por pressão alta e temperatura baixa, e no estômago a concentração de H<sup>+</sup> é elevada. Por que o refrigerante provoca arroto?",
+"opts": [
+"no estômago, o H⁺ elevado e a temperatura de 37 °C deslocam o equilíbrio para a esquerda e liberam CO₂ gasoso",
+"o H⁺ do estômago desloca o equilíbrio para a direita, formando mais HCO₃⁻",
+"a pressão no estômago é maior, o que expulsa o gás",
+"o CO₂ reage com o ácido do estômago formando H₂"
+],
+"a": 0,
+"d": [
+[
+"Princípio de Le Chatelier",
+"Aumentar a concentração de um participante desloca o equilíbrio no sentido que o consome.",
+""
+],
+[
+"Solubilidade de gases",
+"Diminui quando a temperatura aumenta e quando a pressão diminui."
+]
+],
+"h": [
+"H⁺ está à direita da equação; muito H⁺ no estômago desloca o equilíbrio para a esquerda, formando CO₂(g).",
+"A temperatura do corpo (≈ 37 °C) é maior que a do refrigerante gelado, e a pressão caiu ao abrir a garrafa: o gás fica menos solúvel.",
+"O CO₂ liberado é expelido: <b>arroto</b>."
+]
+},
+{
+"id": "1989-2-qui-07",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1989, 2ª fase, Química, questão 7",
+"r": 1320,
+"tm": 60,
+"ctx": "A 2-propanona (H<sub>3</sub>C–CO–CH<sub>3</sub>) pode ser chamada simplesmente de propanona, pois não existe um composto chamado 1-propanona. Por quê?",
+"opts": [
+"com a carbonila no carbono 1, o composto seria um aldeído (propanal), não uma cetona",
+"porque o carbono 1 não pode fazer ligação dupla",
+"porque a 1-propanona seria o mesmo composto que o propanol",
+"porque a carbonila de cetona só existe no carbono 2 de qualquer cadeia"
+],
+"a": 0,
+"d": [
+[
+"Cetona e aldeído",
+"Cetona: C=O entre dois carbonos (no meio da cadeia). Aldeído: C=O na ponta da cadeia, com um H ligado ao carbono da carbonila.",
+""
+]
+],
+"h": [
+"Numa cadeia de 3 carbonos, a carbonila pode estar no meio (C2) ou numa ponta (C1, igual a C3).",
+"Na ponta, o carbono da C=O tem um H: é o grupo –CHO, de aldeído.",
+"O 'C1' daria o <b>propanal</b>; a única cetona possível é a de C2."
+]
+},
+{
+"id": "1989-2-qui-08",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 1989, 2ª fase, Química, questão 8",
+"r": 1360,
+"tm": 90,
+"ctx": "Esponjas de aço úmidas enferrujam pela reação com o oxigênio do ar. Uma esponja úmida é presa no fundo de um cilindro graduado com ar, emborcado num recipiente com água. Ao final do experimento, o que se observa e como se obtém a porcentagem, em volume, de O<sub>2</sub> no ar?",
+"opts": [
+"a água sobe no cilindro; % de O₂ = volume que a água subiu ÷ volume inicial de ar (cerca de 20%)",
+"a água desce, empurrada pelo gás formado na ferrugem",
+"o nível não muda, pois o O₂ é trocado por vapor de água",
+"a água sobe até encher o cilindro, pois todo o ar é consumido"
+],
+"a": 0,
+"d": [
+[
+"Consumo de gás",
+"Se um gás é consumido por uma reação que forma sólido, o volume de gás diminui e a pressão externa empurra o líquido para ocupar o espaço.",
+""
+],
+[
+"Composição do ar",
+"Cerca de 21% de O₂ e 78% de N₂ em volume; o N₂ não reage com o ferro."
+]
+],
+"h": [
+"O ferro consome o O₂ e forma ferrugem (sólida).",
+"O gás no cilindro diminui e a água sobe até ocupar o volume do O₂ consumido.",
+"% O₂ = (volume que a água subiu ÷ volume inicial de ar) × 100 ≈ <b>21%</b>, cerca de 1/5."
+]
+},
+{
+"id": "1989-2-qui-09a",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1989, 2ª fase, Química, questão 9(a)",
+"r": 1320,
+"tm": 60,
+"ctx": "Na pilha de manganês (pilha seca), as reações são:<br>2 MnO<sub>2</sub>(s) + 2 NH<sub>4</sub><sup>+</sup>(aq) + 2e<sup>−</sup> → Mn<sub>2</sub>O<sub>3</sub>(s) + 2 NH<sub>3</sub>(aq) + H<sub>2</sub>O(l)<br>Zn(s) → Zn<sup>2+</sup>(aq) + 2e<sup>−</sup><br>Qual é o agente oxidante?",
+"opts": [
+"MnO₂",
+"Zn",
+"NH₄⁺",
+"Mn₂O₃"
+],
+"a": 0,
+"d": [
+[
+"Oxidante e redutor",
+"O oxidante é a espécie que se reduz (ganha elétrons, o nox diminui); o redutor é a que se oxida.",
+""
+],
+[
+"Nox",
+"Em óxidos, O vale −2; a soma dos nox é igual à carga da espécie."
+]
+],
+"h": [
+"No MnO₂, Mn tem nox +4; no Mn₂O₃, +3: o manganês ganha elétrons.",
+"No NH₄⁺ → NH₃, o N continua −3; o Zn se oxida (0 → +2).",
+"O agente oxidante é o <b>MnO₂</b>."
+]
+},
+{
+"id": "1989-2-qui-09b",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1989, 2ª fase, Química, questão 9(b)",
+"r": 1230,
+"tm": 60,
+"ctx": "Na pilha de manganês, com as reações 2 MnO<sub>2</sub> + 2 NH<sub>4</sub><sup>+</sup> + 2e<sup>−</sup> → Mn<sub>2</sub>O<sub>3</sub> + 2 NH<sub>3</sub> + H<sub>2</sub>O e Zn → Zn<sup>2+</sup> + 2e<sup>−</sup>, qual substância diminui e qual aumenta enquanto a pilha funciona?",
+"opts": [
+"diminui: Zn; aumenta: Zn²⁺ (ZnCl₂)",
+"diminui: Mn₂O₃; aumenta: MnO₂",
+"diminui: Zn²⁺; aumenta: Zn",
+"diminui: NH₃; aumenta: NH₄⁺"
+],
+"a": 0,
+"d": [
+[
+"Pilha em funcionamento",
+"Os reagentes das semirreações são consumidos e os produtos se acumulam; o metal do ânodo se desgasta.",
+""
+]
+],
+"h": [
+"Reagentes são consumidos: Zn, MnO₂ e NH₄⁺ diminuem.",
+"Produtos se acumulam: Zn²⁺, Mn₂O₃, NH₃ e H₂O aumentam.",
+"Por exemplo: <b>diminui o Zn; aumenta o Zn²⁺</b>."
+]
+},
+{
+"id": "1989-2-qui-10",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1989, 2ª fase, Química, questão 10",
+"r": 1280,
+"tm": 60,
+"ctx": "Um fermento químico para bolos é o bicarbonato de amônio (carbonato ácido de amônio). Aquecido, ele se decompõe em dióxido de carbono, amônia e água. Qual a equação e por que a reação faz o bolo crescer?",
+"opts": [
+"NH₄HCO₃ → NH₃ + CO₂ + H₂O; os gases formados expandem a massa",
+"NH₄HCO₃ → NH₄OH + CO₂; o CO₂ endurece a massa",
+"NH₄HCO₃ → NH₃ + HCO₃; o bicarbonato reage com a farinha",
+"2 NH₄HCO₃ → (NH₄)₂CO₃ + CO₂ + H₂O; o sal formado faz a massa subir"
+],
+"a": 0,
+"d": [
+[
+"Decomposição térmica de sais de amônio",
+"Sais de amônio se decompõem em amônia (NH₃) e no ácido correspondente ou nos produtos dele.",
+"NH₄Cl → NH₃ + HCl"
+],
+[
+"Gás numa massa",
+"Gás formado dentro da massa faz bolhas que, aquecidas, se expandem."
+]
+],
+"h": [
+"NH₄HCO₃ → NH₃ + CO₂ + H₂O. Confira: 1 N, 5 H, 1 C e 3 O de cada lado.",
+"No forno, os três produtos estão na forma de gás.",
+"As bolhas de gás se expandem e <b>fazem a massa crescer</b>."
+]
+},
+{
+"id": "1989-2-qui-11",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1989, 2ª fase, Química, questão 11",
+"r": 1440,
+"tm": 60,
+"ctx": "Estafilococos precisam, para crescer, de uma substância formada por um anel benzênico com um grupo –NH<sub>2</sub> e um grupo –COOH em posições opostas do anel (posição para). Qual o nome dessa substância e qual o seu caráter ácido-básico?",
+"opts": [
+"ácido p-aminobenzoico; anfótero: –COOH é ácido e –NH₂ é básico",
+"anilina; básico, por causa do –NH₂",
+"ácido benzoico; só ácido, por causa do –COOH",
+"p-aminofenol; neutro"
+],
+"a": 0,
+"d": [
+[
+"Benzeno dissubstituído",
+"Posições 1,2 = orto; 1,3 = meta; 1,4 = para. O grupo principal (–COOH) dá o nome: ácido benzoico.",
+""
+],
+[
+"Ácido e base orgânicos",
+"–COOH libera H⁺ (ácido carboxílico); –NH₂ recebe H⁺ (amina, base de Brønsted)."
+]
+],
+"h": [
+"Base do nome: ácido benzoico (benzeno com –COOH).",
+"–NH₂ na posição 4 (para): ácido <b>p-aminobenzoico</b> (PABA).",
+"Tem um grupo ácido e um básico: é <b>anfótero</b>."
+]
+},
+{
+"id": "1989-2-qui-12",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1989, 2ª fase, Química, questão 12",
+"r": 1400,
+"tm": 60,
+"ctx": "Num gás ideal não há interações intermoleculares; nos gases reais, há. Dos gases HCl e H<sub>2</sub>, qual se aproxima e qual se afasta mais do comportamento ideal?",
+"opts": [
+"H₂ se aproxima (apolar, interações fracas); HCl se afasta (polar, dipolo-dipolo)",
+"HCl se aproxima por ser mais pesado; H₂ se afasta",
+"os dois se comportam igualmente como ideais",
+"HCl se aproxima porque é iônico"
+],
+"a": 0,
+"d": [
+[
+"Polaridade",
+"Ligação entre átomos de eletronegatividades diferentes é polar; molécula diatômica de átomos iguais é apolar.",
+""
+],
+[
+"Forças intermoleculares",
+"Dipolo-dipolo (moléculas polares) é mais forte que dipolo induzido (moléculas apolares pequenas)."
+]
+],
+"h": [
+"H₂: átomos iguais, molécula apolar e pequena: só forças de dispersão, muito fracas.",
+"HCl: Cl é mais eletronegativo, molécula polar: atração dipolo-dipolo.",
+"Mais interação, mais longe do ideal: <b>H₂ se aproxima, HCl se afasta</b>."
+]
+},
+{
+"id": "1989-2-qui-13",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1989, 2ª fase, Química, questão 13",
+"r": 1490,
+"tm": 120,
+"ctx": "Um caminhão-tanque tombou e derramou 20 toneladas (2·10<sup>7</sup> g) de ácido sulfúrico concentrado, com 98% de H<sub>2</sub>SO<sub>4</sub>. A equipe usou cal extinta, Ca(OH)<sub>2</sub>, para neutralizar o ácido. Qual a massa mínima de Ca(OH)<sub>2</sub> necessária, em toneladas? (H = 1, O = 16, S = 32, Ca = 40)",
+"a": 14.8,
+"u": "t",
+"tol": 0.02,
+"d": [
+[
+"Neutralização",
+"Ácido + base → sal + água; acerte a proporção igualando H⁺ e OH⁻.",
+"2 HCl + Ca(OH)₂ → CaCl₂ + 2 H₂O"
+],
+[
+"Pureza",
+"Massa da substância = pureza × massa da amostra."
+],
+[
+"Mol",
+"n = m/M."
+]
+],
+"h": [
+"H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2 H₂O: proporção 1 : 1.",
+"H₂SO₄ puro: 0,98 × 2·10⁷ = 1,96·10⁷ g; ÷ 98 g/mol = 2·10⁵ mol.",
+"Ca(OH)₂: 2·10⁵ × 74 = 1,48·10⁷ g = <b>14,8 t</b>."
+]
+},
+{
+"id": "1989-2-qui-14",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1989, 2ª fase, Química, questão 14",
+"r": 1360,
+"tm": 60,
+"ctx": "Os diagramas representam a mesma reação, com e sem catalisador. No diagrama 1 (concentração dos produtos × tempo), a curva B sobe mais depressa que a A, e as duas chegam ao mesmo valor final. No diagrama 2 (energia × caminho da reação), a curva D tem pico mais alto que a C, com os mesmos níveis inicial e final. Quais curvas representam a reação com catalisador?",
+"fig": "<svg viewBox='0 0 300 125' class='fg' role='img' aria-label='diagrama 1: curva B sobe mais rápido que a curva A até o mesmo patamar; diagrama 2: curva D com pico mais alto que a curva C'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='20,8 20,100 140,100'/><path d='M20,100 Q30,30 80,30 L140,30'/><path d='M20,100 Q60,40 140,32'/><polyline points='165,8 165,100 290,100'/><line x1='170' y1='75' x2='200' y2='75'/><line x1='260' y1='85' x2='290' y2='85'/><path d='M200,75 Q230,-5 260,85'/><path d='M200,75 Q230,35 260,85'/></g><g fill='currentColor' font-size='12'><text x='48' y='24'>B</text><text x='72' y='64'>A</text><text x='226' y='32'>D</text><text x='226' y='70'>C</text><text x='14' y='118'>concentração × tempo</text><text x='172' y='118'>energia × caminho</text></g></svg>",
+"opts": [
+"B e C",
+"A e D",
+"B e D",
+"A e C"
+],
+"a": 0,
+"d": [
+[
+"Catalisador",
+"Oferece um caminho com energia de ativação menor: a reação fica mais rápida, mas o ΔH e a quantidade final de produto não mudam.",
+""
+]
+],
+"h": [
+"Com catalisador, os produtos se formam mais depressa: curva B.",
+"A energia de ativação (altura do pico) é menor: curva C.",
+"<b>B e C</b>; os níveis inicial e final (ΔH) e o valor final da concentração são os mesmos."
+]
+},
+{
+"id": "1989-2-qui-15",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1989, 2ª fase, Química, questão 15",
+"r": 1190,
+"tm": 60,
+"ctx": "A fórmula de um sabão é CH<sub>3</sub>(CH<sub>2</sub>)<sub>14</sub>–COO<sup>−</sup>Na<sup>+</sup>. Na limpeza, uma parte da molécula se liga às gorduras e a outra, à água. Qual parte se liga a cada uma?",
+"opts": [
+"a cadeia CH₃(CH₂)₁₄ (apolar) à gordura; o COO⁻Na⁺ (iônico) à água",
+"o COO⁻Na⁺ à gordura; a cadeia à água",
+"as duas partes se ligam à água",
+"a cadeia se liga à gordura e à água; o COO⁻ não interage"
+],
+"a": 0,
+"d": [
+[
+"Semelhante dissolve semelhante",
+"Partes polares ou iônicas interagem com a água (polar); partes apolares, com gorduras (apolares).",
+""
+]
+],
+"h": [
+"CH₃(CH₂)₁₄: só C e H, cadeia apolar (hidrofóbica).",
+"–COO⁻Na⁺: extremidade iônica, polar (hidrofílica).",
+"<b>Cadeia → gordura; COO⁻Na⁺ → água</b>: o sabão faz a ponte e forma micelas em volta da gordura."
+]
+},
+{
+"id": "1989-2-qui-16",
+"ano": 1989,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1989, 2ª fase, Química, questão 16",
+"r": 1320,
+"tm": 90,
+"ctx": "Magnésio metálico reage com ácido clorídrico liberando um gás A. O mesmo ácido reage com carbonato de magnésio (MgCO<sub>3</sub>) liberando outro gás, B. Uma bexiga cheia de A, solta no ar, sobe; outra, cheia de B, desce. Quais são A e B e por que se comportam assim?",
+"opts": [
+"A = H₂ (2 g/mol), mais leve que o ar (≈ 29 g/mol); B = CO₂ (44 g/mol), mais pesado",
+"A = CO₂, mais leve que o ar; B = H₂, mais pesado",
+"A = Cl₂ e B = O₂",
+"A = H₂ e B = O₂, que é mais pesado que o ar"
+],
+"a": 0,
+"d": [
+[
+"Metal + ácido",
+"Metal mais reativo que o hidrogênio + ácido → sal + H₂.",
+"Zn + 2 HCl → ZnCl₂ + H₂"
+],
+[
+"Carbonato + ácido",
+"Carbonato + ácido → sal + H₂O + CO₂."
+],
+[
+"Densidade de gases",
+"Na mesma P e T, a densidade de um gás é proporcional à massa molar; a do ar é ≈ 29 g/mol."
+]
+],
+"h": [
+"Mg + 2 HCl → MgCl₂ + H₂: A = H₂ (2 g/mol).",
+"MgCO₃ + 2 HCl → MgCl₂ + H₂O + CO₂: B = CO₂ (44 g/mol).",
+"H₂ é menos denso que o ar (29 g/mol) e sobe; CO₂ é mais denso e desce."
+]
+}
+]

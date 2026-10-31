@@ -1,0 +1,2242 @@
+[
+{
+"id": "1987-1-07a",
+"ano": 1987,
+"fase": 1,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1987, 1ª fase, questão 7(a)",
+"r": 1230,
+"tm": 60,
+"ctx": "Numa solução aquosa diluída de ácido acético existe o equilíbrio H<sub>3</sub>C–COOH ⇌ H<sub>3</sub>C–COO<sup>−</sup> + H<sup>+</sup>. O que acontece com a concentração do íon acetato quando se adiciona ácido clorídrico (HCl) à solução?",
+"opts": [
+"diminui",
+"aumenta",
+"não muda",
+"dobra, junto com a de H<sup>+</sup>"
+],
+"a": 0,
+"d": [
+[
+"Princípio de Le Chatelier",
+"Um equilíbrio perturbado se desloca no sentido de consumir o que foi adicionado.",
+"adicionar um produto desloca o equilíbrio para a esquerda"
+],
+[
+"Efeito do íon comum",
+"Um ácido forte libera H<sup>+</sup>, que também é produto da ionização do ácido fraco.",
+""
+]
+],
+"h": [
+"O HCl é um ácido forte: ioniza totalmente e aumenta a concentração de H<sup>+</sup>.",
+"H<sup>+</sup> é produto da ionização do ácido acético, então o equilíbrio se desloca para a esquerda (efeito do íon comum).",
+"Acetato é consumido para formar ácido acético: a concentração de acetato <b>diminui</b>."
+]
+},
+{
+"id": "1987-1-07b",
+"ano": 1987,
+"fase": 1,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1987, 1ª fase, questão 7(b)",
+"r": 1190,
+"tm": 45,
+"ctx": "Para o equilíbrio H<sub>3</sub>C–COOH ⇌ H<sub>3</sub>C–COO<sup>−</sup> + H<sup>+</sup>, qual é a expressão da constante de equilíbrio em termos de concentração?",
+"opts": [
+"K = [CH<sub>3</sub>COO<sup>−</sup>][H<sup>+</sup>] / [CH<sub>3</sub>COOH]",
+"K = [CH<sub>3</sub>COOH] / ([CH<sub>3</sub>COO<sup>−</sup>][H<sup>+</sup>])",
+"K = [CH<sub>3</sub>COO<sup>−</sup>] + [H<sup>+</sup>] − [CH<sub>3</sub>COOH]",
+"K = [CH<sub>3</sub>COO<sup>−</sup>][H<sup>+</sup>][CH<sub>3</sub>COOH]"
+],
+"a": 0,
+"d": [
+[
+"Constante de equilíbrio",
+"K = produto das concentrações dos produtos ÷ produto das concentrações dos reagentes, cada uma elevada ao seu coeficiente.",
+"aA ⇌ bB + cC → K = [B]<sup>b</sup>[C]<sup>c</sup>/[A]<sup>a</sup>"
+]
+],
+"h": [
+"Produtos: acetato e H<sup>+</sup>, ambos com coeficiente 1. Reagente: ácido acético, coeficiente 1.",
+"K<sub>a</sub> = [CH<sub>3</sub>COO<sup>−</sup>][H<sup>+</sup>] / [CH<sub>3</sub>COOH]."
+]
+},
+{
+"id": "1987-1-08a",
+"ano": 1987,
+"fase": 1,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1987, 1ª fase, questão 8(a)",
+"r": 1100,
+"tm": 45,
+"ctx": "Os principais componentes do ar são N<sub>2</sub>, O<sub>2</sub>, Ar, CO<sub>2</sub> e vapor d'água. Quando o ar é borbulhado numa solução de hidróxido de cálcio, Ca(OH)<sub>2</sub>, forma-se um precipitado branco de carbonato de cálcio. Qual componente do ar provoca essa reação?",
+"opts": [
+"CO<sub>2</sub>",
+"O<sub>2</sub>",
+"N<sub>2</sub>",
+"vapor d'água"
+],
+"a": 0,
+"d": [
+[
+"Óxido ácido + base",
+"Óxidos ácidos (CO<sub>2</sub>, SO<sub>2</sub>...) reagem com bases formando sal e água.",
+"SO<sub>2</sub> + 2 NaOH → Na<sub>2</sub>SO<sub>3</sub> + H<sub>2</sub>O"
+],
+[
+"Carbonato",
+"O íon carbonato é CO<sub>3</sub><sup>2−</sup>: precisa vir de algo que tenha carbono e oxigênio.",
+""
+]
+],
+"h": [
+"O precipitado é CaCO<sub>3</sub>: o carbono só pode vir do CO<sub>2</sub>.",
+"CO<sub>2</sub> é um óxido ácido e reage com a base: CO<sub>2</sub> + Ca(OH)<sub>2</sub> → CaCO<sub>3</sub>↓ + H<sub>2</sub>O."
+]
+},
+{
+"id": "1987-1-08b",
+"ano": 1987,
+"fase": 1,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 1987, 1ª fase, questão 8(b)",
+"r": 1150,
+"tm": 40,
+"ctx": "Ao borbulhar ar em água de cal, Ca(OH)<sub>2</sub>, forma-se um precipitado branco de carbonato de cálcio. Quais íons formam esse precipitado?",
+"opts": [
+"Ca<sup>2+</sup> e CO<sub>3</sub><sup>2−</sup>",
+"Ca<sup>2+</sup> e OH<sup>−</sup>",
+"H<sup>+</sup> e CO<sub>3</sub><sup>2−</sup>",
+"Ca<sup>+</sup> e HCO<sub>3</sub><sup>−</sup>"
+],
+"a": 0,
+"d": [
+[
+"Sais são iônicos",
+"Um sal é formado pelo cátion da base e pelo ânion do ácido.",
+"NaCl: Na<sup>+</sup> (da base NaOH) e Cl<sup>−</sup> (do ácido HCl)"
+]
+],
+"h": [
+"Carbonato de cálcio é CaCO<sub>3</sub>.",
+"Cátion da base Ca(OH)<sub>2</sub>: Ca<sup>2+</sup>. Ânion do ácido carbônico: CO<sub>3</sub><sup>2−</sup>."
+]
+},
+{
+"id": "1987-1-09b",
+"ano": 1987,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1987, 1ª fase, questão 9",
+"r": 1230,
+"tm": 75,
+"ctx": "A corrente num fio é inversamente proporcional à sua resistência, e a resistência é inversamente proporcional à área da secção reta. Num fio de raio 1 mm passa 5 A. Qual a corrente num fio do mesmo material e comprimento, com raio 2 mm, sob a mesma diferença de potencial?",
+"a": 20,
+"u": "A",
+"d": [
+[
+"Segunda lei de Ohm",
+"R = ρL/A: com o mesmo material e comprimento, a resistência cai na mesma proporção em que a área cresce.",
+""
+],
+[
+"Área do círculo",
+"A = πr²: dobrar o raio multiplica a área por 4.",
+""
+],
+[
+"Primeira lei de Ohm",
+"i = U/R: com a mesma tensão, a corrente é inversamente proporcional a R.",
+""
+]
+],
+"h": [
+"i ∝ 1/R e R ∝ 1/A, então i ∝ A: a corrente é proporcional à área da secção.",
+"A área vai com r²: raio de 1 mm para 2 mm multiplica a área por 2² = 4.",
+"i = 4 × 5 A = <b>20 A</b>."
+]
+},
+{
+"id": "1987-1-10",
+"ano": 1987,
+"fase": 1,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 1987, 1ª fase, questão 10",
+"r": 1320,
+"tm": 60,
+"ctx": "Um pescador para seu barco leve encostado na margem de uma lagoa calma, em frente a uma árvore. O atrito entre o barco e a água é desprezível. Ele larga a vara no barco e anda sobre ele em direção à árvore. O que acontece?",
+"opts": [
+"O barco se afasta da margem enquanto ele anda, e ele não alcança a árvore",
+"O barco fica parado, e ele alcança a árvore",
+"O barco vai para a margem junto com ele",
+"O barco só se move depois que ele para de andar"
+],
+"a": 0,
+"d": [
+[
+"Conservação da quantidade de movimento",
+"Sem forças externas horizontais, a quantidade de movimento total do sistema não muda.",
+"sistema parado: m<sub>1</sub>v<sub>1</sub> + m<sub>2</sub>v<sub>2</sub> = 0"
+],
+[
+"Ação e reação",
+"Para andar, a pessoa empurra o chão (o barco) para trás.",
+""
+]
+],
+"h": [
+"Sistema pescador + barco: começa parado e não há atrito com a água, então Q<sub>total</sub> = 0 o tempo todo.",
+"Quando o pescador vai para a frente, o barco vai para trás: m<sub>p</sub>v<sub>p</sub> = −m<sub>b</sub>v<sub>b</sub>.",
+"O centro de massa do sistema não sai do lugar: o barco se afasta da margem e o pescador <b>não alcança a árvore</b>."
+]
+},
+{
+"id": "1987-1-11",
+"ano": 1987,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 1987, 1ª fase, questão 11",
+"r": 1400,
+"tm": 90,
+"ctx": "Numa pesquisa eleitoral, o candidato X tem 21% dos votos. Os indecisos são 33%, mas 80% dos indecisos não votam em X de jeito nenhum. Se há 10.000.000 de eleitores, qual o número máximo de votos que X pode obter, de acordo com a pesquisa?",
+"a": 2760000,
+"u": "votos",
+"d": [
+[
+"Porcentagem de porcentagem",
+"p% de q% do total = (p/100)·(q/100)·total.",
+"20% de 30% = 0,2 × 0,3 = 6%"
+],
+[
+"Máximo possível",
+"No melhor caso, todo mundo que ainda pode votar no candidato vota nele.",
+""
+]
+],
+"h": [
+"Dos indecisos, 100% − 80% = 20% ainda podem votar em X.",
+"20% de 33% = 0,2 × 33% = 6,6% do eleitorado.",
+"Máximo: 21% + 6,6% = 27,6% de 10.000.000 = <b>2.760.000 votos</b>."
+]
+},
+{
+"id": "1987-1-12",
+"ano": 1987,
+"fase": 1,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1987, 1ª fase, questão 12",
+"r": 1440,
+"tm": 150,
+"ctx": "Uma indústria vende rádios a 150 cruzados e televisores a 5.000 cruzados. O custo de cada rádio é 130 cruzados e o de cada televisor, 3.000. Num mês, a produção custou 1.200.000 cruzados e deu um lucro de 600.000 cruzados. Quantos televisores foram produzidos?",
+"a": 270,
+"u": "TVs",
+"d": [
+[
+"Lucro",
+"Lucro = receita − custo, então receita = custo + lucro.",
+""
+],
+[
+"Sistema por eliminação",
+"Multiplique uma equação para igualar o coeficiente de uma incógnita e subtraia.",
+"2x + 3y = 12 e x + 3y = 9 → subtraindo, x = 3"
+]
+],
+"h": [
+"Sejam r rádios e t TVs. Custo: 130r + 3000t = 1.200.000. Receita = 1.200.000 + 600.000: 150r + 5000t = 1.800.000.",
+"Multiplique o custo por 5/3: 216,67r + 5000t = 2.000.000. Subtraia a receita: 66,67r = 200.000 → r = 3.000 rádios.",
+"130 × 3000 = 390.000 → 3000t = 810.000 → t = <b>270 televisores</b>."
+]
+},
+{
+"id": "1987-2-mat-01",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 1",
+"r": 940,
+"tm": 75,
+"ctx": "Para votar, cinco eleitores demoraram 3 min 38 s, 3 min 18 s, 2 min 46 s, 2 min 57 s e 3 min 26 s. Qual foi o tempo médio, em segundos?",
+"a": 193,
+"u": "s",
+"d": [
+[
+"Média aritmética",
+"Some todos os valores e divida pela quantidade.",
+""
+],
+[
+"Minutos e segundos",
+"Passe tudo para segundos antes de somar: 1 min = 60 s.",
+"2 min 15 s = 135 s"
+]
+],
+"h": [
+"Em segundos: 218, 198, 166, 177 e 206.",
+"Soma: 965 s.",
+"Média: 965 ÷ 5 = <b>193 s</b> (3 min 13 s)."
+]
+},
+{
+"id": "1987-2-mat-02",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 2",
+"r": 1100,
+"tm": 90,
+"ctx": "Dois números inteiros positivos e consecutivos têm soma dos quadrados igual a 481. Qual é o menor deles?",
+"a": 15,
+"d": [
+[
+"Consecutivos",
+"Chame o menor de n: o outro é n + 1.",
+""
+],
+[
+"Equação do 2º grau",
+"ax² + bx + c = 0 → x = (−b ± √Δ)/2a, com Δ = b² − 4ac.",
+""
+]
+],
+"h": [
+"n² + (n + 1)² = 481 → 2n² + 2n + 1 = 481 → n² + n − 240 = 0.",
+"Δ = 1 + 960 = 961 = 31² → n = (−1 + 31)/2 = 15.",
+"Os números são 15 e 16; o menor é <b>15</b>."
+]
+},
+{
+"id": "1987-2-mat-03",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 3",
+"r": 1620,
+"tm": 120,
+"ctx": "Para quais valores reais de x vale a desigualdade −4/x + 3/2 ≥ −1/x ?",
+"opts": [
+"x &lt; 0 ou x ≥ 2",
+"x ≥ 2",
+"0 &lt; x ≤ 2",
+"x ≤ −2 ou x &gt; 0"
+],
+"a": 0,
+"d": [
+[
+"Inequação com x no denominador",
+"Não multiplique pelo denominador sem saber o sinal dele: passe tudo para um lado e estude o sinal da fração.",
+""
+],
+[
+"Estudo de sinal",
+"Uma fração (x − a)/x muda de sinal em x = a e em x = 0 (onde não existe).",
+""
+]
+],
+"h": [
+"Junte os termos com x: 3/2 ≥ 4/x − 1/x = 3/x.",
+"3/2 − 3/x ≥ 0 → 3(x − 2)/(2x) ≥ 0.",
+"Numerador e denominador com o mesmo sinal: x ≥ 2 ou x &lt; 0 (x = 0 não vale). Resposta: <b>x &lt; 0 ou x ≥ 2</b>."
+]
+},
+{
+"id": "1987-2-mat-04",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 4",
+"r": 1360,
+"tm": 120,
+"ctx": "Os lados de um triângulo retângulo estão em progressão aritmética e a área do triângulo é 150. Quanto mede a hipotenusa?",
+"a": 25,
+"d": [
+[
+"Termos de uma PA",
+"Três termos em PA podem ser escritos como a − r, a, a + r.",
+""
+],
+[
+"Pitágoras",
+"Num triângulo retângulo, a² = b² + c², sendo a o maior lado.",
+""
+],
+[
+"Área do triângulo retângulo",
+"Metade do produto dos catetos.",
+""
+]
+],
+"h": [
+"Lados a − r, a, a + r: (a − r)² + a² = (a + r)² → a² = 4ar → a = 4r.",
+"Os lados são 3r, 4r e 5r. Área: 3r × 4r ÷ 2 = 6r² = 150 → r = 5.",
+"Lados 15, 20 e 25: hipotenusa <b>25</b>."
+]
+},
+{
+"id": "1987-2-mat-05",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 5",
+"r": 1440,
+"tm": 120,
+"ctx": "Numa comunidade, o número de pessoas cuja renda anual excede x cruzados é 10<sup>12</sup>/x². Quantas pessoas têm renda anual entre 20.000 e 50.000 cruzados?",
+"a": 2100,
+"u": "pessoas",
+"d": [
+[
+"Contar quem está entre dois valores",
+"(acima de a) − (acima de b), com a &lt; b, dá quem está entre a e b.",
+""
+],
+[
+"Potências de 10",
+"Escreva 20.000 = 2 × 10<sup>4</sup> e eleve ao quadrado antes de dividir.",
+"(2 × 10<sup>4</sup>)² = 4 × 10<sup>8</sup>"
+]
+],
+"h": [
+"Acima de 20.000: 10<sup>12</sup>/(4 × 10<sup>8</sup>) = 2.500 pessoas.",
+"Acima de 50.000: 10<sup>12</sup>/(2,5 × 10<sup>9</sup>) = 400 pessoas.",
+"Entre os dois valores: 2.500 − 400 = <b>2.100 pessoas</b>."
+]
+},
+{
+"id": "1987-2-mat-06",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 6",
+"r": 1960,
+"tm": 300,
+"ctx": "Um coelho leva 6 meses para virar adulto. Cada casal adulto tem uma ninhada de 3 machos e 3 fêmeas a cada 2 meses (a primeira 2 meses depois de virar adulto). Começando com 2 casais adultos, quantos animais há ao final de um ano, contando a ninhada que nasce exatamente no 12º mês? (Nenhum coelho morre e os filhotes formam casais.)",
+"a": 184,
+"u": "coelhos",
+"d": [
+[
+"Recorrência",
+"Monte uma tabela mês a mês: quem nasce em cada mês depende de quantos casais eram adultos 2 meses antes.",
+""
+],
+[
+"Atraso de maturação",
+"Quem nasce no mês m só vira adulto no mês m + 6 e só tem filhotes a partir do mês m + 8.",
+""
+]
+],
+"h": [
+"Cada ninhada de um casal são 3 casais novos. Nascimentos (em casais) = 3 × casais adultos 2 meses antes.",
+"Meses 2, 4, 6 e 8: só os 2 casais iniciais são adultos → 6 casais novos em cada um. No mês 10, os nascidos no mês 2 já são adultos: 3 × (2 + 6) = 24. No mês 12: 3 × (2 + 6 + 6) = 42.",
+"Total de casais: 2 + 6 + 6 + 6 + 6 + 24 + 42 = 92 casais = <b>184 coelhos</b> (dos quais 20 casais, 40 animais, são adultos)."
+]
+},
+{
+"id": "1987-2-mat-07a",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 7(a)",
+"r": 1320,
+"tm": 90,
+"ctx": "Seja A a matriz de linhas (2 − x, 1, −3), (−7, −3 − x, 9) e (0, 3, 1 − x). Para qual valor de x a terceira linha é igual à soma das duas primeiras?",
+"a": -5,
+"d": [
+[
+"Igualdade de vetores",
+"Duas linhas são iguais quando cada posição é igual: uma equação por coluna.",
+""
+]
+],
+"h": [
+"Soma das duas primeiras linhas: (2 − x − 7, 1 − 3 − x, −3 + 9) = (−5 − x, −2 − x, 6).",
+"Igualando a (0, 3, 1 − x): −5 − x = 0, −2 − x = 3 e 6 = 1 − x.",
+"As três dão o mesmo valor: <b>x = −5</b>."
+]
+},
+{
+"id": "1987-2-mat-07b",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 7(b)",
+"r": 1870,
+"tm": 240,
+"ctx": "Seja A a matriz de linhas (2 − x, 1, −3), (−7, −3 − x, 9) e (0, 3, 1 − x). Quais são as raízes da equação det A = 0?",
+"opts": [
+"−5, (5 + √33)/2 e (5 − √33)/2",
+"5, (−5 + √33)/2 e (−5 − √33)/2",
+"−5, 2 e 3",
+"−5 e 0"
+],
+"a": 0,
+"d": [
+[
+"Determinante 3 × 3",
+"Regra de Sarrus ou expansão pela primeira linha: a·(ei − fh) − b·(di − fg) + c·(dh − eg).",
+""
+],
+[
+"Linhas dependentes zeram o determinante",
+"Se uma linha é combinação das outras para algum x, esse x é raiz de det A = 0.",
+"use o resultado do item anterior"
+],
+[
+"Fatorar um polinômio de grau 3",
+"Conhecida uma raiz r, divida por (x − r) (Briot-Ruffini) e resolva o 2º grau que sobra.",
+""
+]
+],
+"h": [
+"Pela primeira linha: (2 − x)[(−3 − x)(1 − x) − 27] − 1·[−7(1 − x)] − 3·(−21) = −x³ + 27x + 10.",
+"x = −5 é raiz (para ele a 3ª linha é soma das outras). Dividindo x³ − 27x − 10 por (x + 5): x² − 5x − 2.",
+"x² − 5x − 2 = 0 → x = (5 ± √33)/2. Raízes: <b>−5 e (5 ± √33)/2</b>."
+]
+},
+{
+"id": "1987-2-mat-08",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 8",
+"r": 1700,
+"tm": 180,
+"ctx": "Na figura, a circunferência tem centro O e raio r, e o segmento BC mede r. Se o ângulo AOP mede 75°, quanto mede o ângulo ABP?",
+"a": 25,
+"u": "°",
+"fig": "<svg viewBox='0 0 200 130' class='fg' role='img' aria-label='circunferência de centro O; reta PB passa por O; reta por B corta a circunferência em C e A'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='80' cy='70' r='50'/><line x1='30' y1='70' x2='171' y2='70'/><line x1='67' y1='22' x2='171' y2='70'/><line x1='80' y1='70' x2='67' y2='22'/><line x1='80' y1='70' x2='125' y2='49' stroke-dasharray='3 3'/></g><g fill='currentColor' font-size='15'><text x='18' y='75'>P</text><text x='76' y='86'>O</text><text x='58' y='16'>A</text><text x='124' y='43'>C</text><text x='175' y='75'>B</text></g></svg>",
+"d": [
+[
+"Triângulo isósceles",
+"Lados iguais têm ângulos da base iguais. Dois raios formam sempre um triângulo isósceles com o centro.",
+""
+],
+[
+"Ângulo externo",
+"Num triângulo, o ângulo externo é a soma dos dois internos não adjacentes.",
+""
+]
+],
+"h": [
+"Trace OC. OC = r = BC, então o triângulo OCB é isósceles: ângulo COB = ângulo CBO = β (o ângulo pedido).",
+"Ângulo externo em C no triângulo OCB: ângulo OCA = 2β. OA = OC = r, então OAC é isósceles: ângulo OAC = 2β.",
+"No triângulo AOB, o ângulo externo em O é AOP = ângulo OAB + ângulo OBA = 2β + β = 3β. Logo β = 75° ÷ 3 = <b>25°</b>."
+]
+},
+{
+"id": "1987-2-mat-09",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 9",
+"r": 1660,
+"tm": 150,
+"ctx": "Para quais valores de x, com 0° ≤ x &lt; 360°, vale 2cos²x + 5 sen x − 4 ≥ 0 ?",
+"opts": [
+"30° ≤ x ≤ 150°",
+"0° ≤ x ≤ 30° ou 150° ≤ x &lt; 360°",
+"60° ≤ x ≤ 120°",
+"30° ≤ x ≤ 330°"
+],
+"a": 0,
+"d": [
+[
+"Relação fundamental",
+"sen²x + cos²x = 1, então cos²x = 1 − sen²x: deixa tudo em função de sen x.",
+""
+],
+[
+"Inequação do 2º grau",
+"Ache as raízes e use o sinal da parábola: com a &gt; 0, ela é negativa entre as raízes.",
+""
+],
+[
+"Seno no ciclo",
+"sen x ≥ 1/2 vale entre 30° e 150°; sen x nunca passa de 1.",
+""
+]
+],
+"h": [
+"2(1 − sen²x) + 5 sen x − 4 ≥ 0 → −2s² + 5s − 2 ≥ 0 → 2s² − 5s + 2 ≤ 0, com s = sen x.",
+"Raízes: s = 1/2 e s = 2. A parábola é ≤ 0 entre elas: 1/2 ≤ sen x ≤ 2, ou seja, sen x ≥ 1/2.",
+"No ciclo: <b>30° ≤ x ≤ 150°</b>."
+]
+},
+{
+"id": "1987-2-mat-10",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 10",
+"r": 1490,
+"tm": 120,
+"ctx": "A Lua descreve órbita circular de raio 378.000 km em torno da Terra, com período de 27 dias. Um satélite geoestacionário tem período de 1 dia. Pela terceira lei de Kepler, o quadrado do período é proporcional ao cubo do raio da órbita. Qual o raio da órbita do satélite, em km?",
+"a": 42000,
+"u": "km",
+"d": [
+[
+"Terceira lei de Kepler",
+"T²/R³ é igual para todos os corpos que orbitam o mesmo astro: (T<sub>1</sub>/T<sub>2</sub>)² = (R<sub>1</sub>/R<sub>2</sub>)³.",
+""
+],
+[
+"Raiz cúbica",
+"27 = 3³: a razão dos períodos ao quadrado vira um cubo perfeito.",
+""
+]
+],
+"h": [
+"(R<sub>S</sub>/R<sub>L</sub>)³ = (T<sub>S</sub>/T<sub>L</sub>)² = (1/27)² = 1/729.",
+"R<sub>S</sub>/R<sub>L</sub> = ∛(1/729) = 1/9.",
+"R<sub>S</sub> = 378.000 ÷ 9 = <b>42.000 km</b>."
+]
+},
+{
+"id": "1987-2-mat-11",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 11",
+"r": 1740,
+"tm": 180,
+"ctx": "Uma circunferência tangencia a reta y = 3x/4, tangencia a reta y = 0 no ponto (5, 0) e tem o centro no primeiro quadrante. Qual é a sua equação?",
+"opts": [
+"(x − 5)² + (y − 5/3)² = 25/9",
+"(x − 5)² + (y − 15)² = 225",
+"(x − 5)² + (y − 3)² = 9",
+"(x − 5)² + (y − 5/3)² = 5/3"
+],
+"a": 0,
+"d": [
+[
+"Tangente horizontal",
+"Se a circunferência toca y = 0 em (5, 0), o centro está na vertical x = 5 e o raio é a altura do centro.",
+"centro (5, k), raio k"
+],
+[
+"Distância de ponto a reta",
+"d = |ax₀ + by₀ + c| / √(a² + b²) para a reta ax + by + c = 0.",
+""
+],
+[
+"Tangência",
+"Reta tangente: a distância do centro até ela é igual ao raio.",
+""
+]
+],
+"h": [
+"Centro (5, k) com k &gt; 0 e raio k.",
+"Reta 3x − 4y = 0: distância = |15 − 4k|/5 = k → 15 − 4k = 5k → k = 5/3 (a outra solução dá k negativo).",
+"Equação: <b>(x − 5)² + (y − 5/3)² = 25/9</b>."
+]
+},
+{
+"id": "1987-2-mat-12",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 12",
+"r": 1620,
+"tm": 150,
+"ctx": "Dividindo 7040 por n, obtém-se resto 20. Dividindo 12384 por n, obtém-se resto 9. Ache n.",
+"a": 45,
+"d": [
+[
+"Divisão com resto",
+"N = n·q + r, com 0 ≤ r &lt; n. Então N − r é múltiplo de n.",
+""
+],
+[
+"Divisor comum",
+"Um número que divide os dois é divisor do MDC deles.",
+""
+]
+],
+"h": [
+"n divide 7040 − 20 = 7020 e 12384 − 9 = 12375.",
+"7020 = 2²·3³·5·13 e 12375 = 3²·5³·11 → MDC = 3²·5 = 45. n é divisor de 45.",
+"Como o resto 20 tem que ser menor que n, n &gt; 20: o único divisor de 45 acima de 20 é <b>45</b>."
+]
+},
+{
+"id": "1987-2-mat-13a",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 13(a)",
+"r": 1230,
+"tm": 75,
+"ctx": "Num grupo de 400 homens e 600 mulheres, a probabilidade de um homem estar com tuberculose é 0,05 e a de uma mulher, 0,10. Qual a probabilidade de uma pessoa do grupo estar com tuberculose?",
+"a": 0.08,
+"d": [
+[
+"Probabilidade como contagem",
+"P = casos favoráveis ÷ total. Transforme as probabilidades em números de pessoas.",
+""
+]
+],
+"h": [
+"Homens doentes: 400 × 0,05 = 20. Mulheres doentes: 600 × 0,10 = 60.",
+"Total de doentes: 80 em 1.000 pessoas.",
+"P = 80/1000 = <b>0,08</b>."
+]
+},
+{
+"id": "1987-2-mat-13b",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 13(b)",
+"r": 1490,
+"tm": 90,
+"ctx": "Num grupo de 400 homens e 600 mulheres, a probabilidade de um homem estar com tuberculose é 0,05 e a de uma mulher, 0,10. Uma pessoa sorteada está com tuberculose. Qual a probabilidade de ser homem?",
+"a": 0.25,
+"d": [
+[
+"Probabilidade condicional",
+"Sabendo que algo aconteceu, o espaço amostral passa a ser só os casos em que aconteceu: P(A|B) = n(A e B)/n(B).",
+""
+]
+],
+"h": [
+"Doentes: 20 homens (400 × 0,05) e 60 mulheres (600 × 0,10), 80 ao todo.",
+"Entre os doentes, homens são 20 de 80.",
+"P = 20/80 = <b>0,25</b>."
+]
+},
+{
+"id": "1987-2-mat-14",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 14",
+"r": 1230,
+"tm": 75,
+"ctx": "Sete tijolos, cada um de uma cor, são empilhados. De quantos modos isso pode ser feito com o verde e o amarelo sempre juntos?",
+"a": 1440,
+"u": "modos",
+"d": [
+[
+"Elementos sempre juntos",
+"Trate o grupo como um bloco só e depois multiplique pelas ordens possíveis dentro do bloco.",
+""
+],
+[
+"Permutação",
+"n objetos distintos em fila: n! ordens.",
+""
+]
+],
+"h": [
+"Verde + amarelo viram um bloco: são 6 itens para empilhar → 6! = 720.",
+"Dentro do bloco: verde em cima ou amarelo em cima → 2.",
+"Total: 720 × 2 = <b>1.440</b>."
+]
+},
+{
+"id": "1987-2-mat-15a",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 15(a)",
+"r": 1490,
+"tm": 120,
+"ctx": "Sabendo que log<sub>10</sub>2 = 0,301... (precisão até a terceira casa), quantos algarismos tem o número 8<sup>20</sup>?",
+"a": 19,
+"u": "algarismos",
+"d": [
+[
+"Número de algarismos",
+"Se log N = k + 0,..., com k inteiro, então N tem k + 1 algarismos.",
+"log N = 2,7 → N está entre 100 e 1000 → 3 algarismos"
+],
+[
+"Propriedades do log",
+"log a<sup>n</sup> = n·log a, e 8 = 2³.",
+""
+]
+],
+"h": [
+"8<sup>20</sup> = 2<sup>60</sup>, então log 8<sup>20</sup> = 60 × log 2.",
+"Com 0,301 ≤ log 2 &lt; 0,302: 18,06 ≤ log 8<sup>20</sup> &lt; 18,12. A parte inteira é 18 de todo jeito.",
+"8<sup>20</sup> tem <b>19 algarismos</b>."
+]
+},
+{
+"id": "1987-2-mat-15b",
+"ano": 1987,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 1987, 2ª fase, Matemática, questão 15(b)",
+"r": 1910,
+"tm": 120,
+"ctx": "Sabe-se apenas que log<sub>10</sub>2 = 0,301... (os algarismos depois da 3ª casa são desconhecidos). Esse valor é suficiente para saber quantos algarismos tem 8<sup>10<sup>4</sup></sup> ?",
+"opts": [
+"Não: 30.000 × log 2 fica entre 9.030 e 9.060, e a parte inteira não fica determinada",
+"Sim: 30.000 × 0,301 = 9.030, então são 9.031 algarismos",
+"Sim, porque o erro de log 2 é menor que 0,001",
+"Não, porque 8<sup>10<sup>4</sup></sup> não tem logaritmo"
+],
+"a": 0,
+"d": [
+[
+"Propagação do erro",
+"Multiplicar um valor aproximado por n multiplica a incerteza por n também.",
+"se x está entre 0,301 e 0,302, 100x está entre 30,1 e 30,2"
+],
+[
+"Número de algarismos",
+"Depende só da parte inteira de log N.",
+""
+]
+],
+"h": [
+"8<sup>10<sup>4</sup></sup> = 2<sup>30000</sup>, então log = 30.000 × log 2.",
+"Com 0,301 ≤ log 2 &lt; 0,302: 9.030 ≤ log &lt; 9.060. A parte inteira pode ser qualquer valor de 9.030 a 9.059.",
+"A precisão <b>não é suficiente</b>: o número de algarismos poderia ir de 9.031 a 9.060."
+]
+},
+{
+"id": "1987-2-fis-01a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 1987, 2ª fase, Física, questão 1(a)",
+"r": 1020,
+"tm": 60,
+"ctx": "Mil pessoas estão num teatro. Para ventilar, introduzem-se 2 litros de ar por segundo por pessoa. Quantos litros de ar entram no teatro em duas horas?",
+"a": 14400000,
+"u": "L",
+"d": [
+[
+"Vazão",
+"Volume = vazão × tempo, com o tempo na mesma unidade da vazão.",
+""
+],
+[
+"Horas em segundos",
+"1 h = 3.600 s.",
+""
+]
+],
+"h": [
+"Vazão total: 1000 × 2 = 2.000 L/s.",
+"Duas horas: 7.200 s.",
+"2.000 × 7.200 = <b>14.400.000 L</b> (1,44 × 10<sup>7</sup> L)."
+]
+},
+{
+"id": "1987-2-fis-01b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 1987, 2ª fase, Física, questão 1(b)",
+"r": 1400,
+"tm": 120,
+"ctx": "Num teatro entram 1,44 × 10<sup>7</sup> litros de ar em duas horas. O ar externo está a 10 °C e é aquecido até 20 °C. Um litro de ar tem massa 1,3 g e o calor específico do ar é 0,24 cal/g°C. Quantas calorias são transferidas em duas horas? (responda em 10<sup>7</sup> cal)",
+"a": 4.49,
+"u": "× 10<sup>7</sup> cal",
+"tol": 0.02,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·ΔT.",
+""
+],
+[
+"Massa a partir do volume",
+"m = volume × massa por litro.",
+""
+]
+],
+"h": [
+"m = 1,44 × 10<sup>7</sup> × 1,3 = 1,872 × 10<sup>7</sup> g.",
+"Q = 1,872 × 10<sup>7</sup> × 0,24 × 10 = 4,49 × 10<sup>7</sup> cal.",
+"Resposta: <b>≈ 4,5 × 10<sup>7</sup> cal</b>."
+]
+},
+{
+"id": "1987-2-fis-02a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1987, 2ª fase, Física, questão 2(a)",
+"r": 1620,
+"tm": 120,
+"ctx": "Uma pequena esfera parte do repouso na borda P de uma canaleta semicircular vertical e desliza sem atrito. Qual a aceleração da esfera no ponto onde a energia cinética é máxima? (g = 10 m/s²)",
+"a": 20,
+"u": "m/s²",
+"fig": "<svg viewBox='0 0 160 90' class='fg' role='img' aria-label='canaleta semicircular com a esfera P na borda esquerda'><g fill='none' stroke='currentColor' stroke-width='1.5'><path d='M20 15 A60 60 0 0 0 140 15'/></g><circle cx='22' cy='12' r='4' fill='currentColor'/><text x='8' y='12' fill='currentColor' font-size='14'>P</text></svg>",
+"d": [
+[
+"Conservação da energia",
+"Sem atrito: m·g·h = m·v²/2 entre dois pontos (v₀ = 0).",
+""
+],
+[
+"Aceleração centrípeta",
+"No movimento circular: a<sub>c</sub> = v²/R. No ponto mais baixo, a componente tangencial é zero.",
+""
+]
+],
+"h": [
+"A energia cinética é máxima no ponto mais baixo, que fica R abaixo de P: v² = 2gR.",
+"Lá a aceleração tangencial é nula e só sobra a centrípeta: a = v²/R = 2gR/R = 2g.",
+"a = 2 × 10 = <b>20 m/s²</b>, apontando para o centro (para cima)."
+]
+},
+{
+"id": "1987-2-fis-02b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1987, 2ª fase, Física, questão 2(b)",
+"r": 1660,
+"tm": 90,
+"ctx": "Uma esfera desliza sem atrito numa canaleta semicircular vertical, partindo do repouso na borda. No ponto onde a energia potencial é máxima (a borda), qual é a resultante das forças sobre a esfera?",
+"opts": [
+"o peso, vertical para baixo",
+"zero",
+"a normal, horizontal",
+"peso + normal, apontando para o centro"
+],
+"a": 0,
+"d": [
+[
+"Normal no movimento circular",
+"N − (componente do peso na direção do raio) = m·v²/R.",
+""
+],
+[
+"Velocidade nos extremos",
+"Na altura máxima a velocidade é zero (toda a energia é potencial).",
+""
+]
+],
+"h": [
+"Na borda, a altura é máxima e v = 0.",
+"Lá o raio é horizontal: o peso não tem componente radial, então N = m·v²/R = 0.",
+"Só sobra o peso: resultante = <b>mg, vertical para baixo</b>."
+]
+},
+{
+"id": "1987-2-fis-03",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1987, 2ª fase, Física, questão 3",
+"r": 1230,
+"tm": 75,
+"ctx": "Uma fonte de potência 15 W alimenta três resistores iguais R em série (montagem A). Outra fonte, de mesma potência, alimenta três resistores iguais R em paralelo (montagem B). Quanto dissipa cada resistor?",
+"opts": [
+"5 W em A e 5 W em B",
+"5 W em A e 15 W em B",
+"15 W em A e 5 W em B",
+"45 W em A e 5 W em B"
+],
+"a": 0,
+"d": [
+[
+"Conservação da energia",
+"A potência da fonte é toda dissipada nos resistores: a soma das potências é a potência total.",
+""
+],
+[
+"Simetria",
+"Resistores iguais com a mesma corrente (série) ou a mesma tensão (paralelo) dissipam o mesmo.",
+""
+]
+],
+"h": [
+"Nos dois casos os três resistores são iguais e ficam em situação idêntica entre si.",
+"A potência total, 15 W, se divide igualmente por 3.",
+"<b>5 W em cada resistor, nas duas montagens</b>."
+]
+},
+{
+"id": "1987-2-fis-04",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1987, 2ª fase, Física, questão 4",
+"r": 1780,
+"tm": 180,
+"ctx": "O gráfico mostra a velocidade de dois ciclistas C<sub>1</sub> e C<sub>2</sub>, que partem juntos da origem em t = 0, em linha reta e no mesmo sentido. Qual a distância entre eles no instante em que têm a mesma velocidade?",
+"a": 1.2,
+"u": "m",
+"fig": "<svg viewBox='0 0 230 130' class='fg' role='img' aria-label='gráfico v por t: C1 sobe de 0 a 4,0 m/s até t = 10 s e fica constante; C2 sobe de 0 a 2,4 m/s até t = 5 s e fica constante'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 225,110'/><polyline points='30,110 130,30 215,30'/><polyline points='30,110 80,62 215,62'/></g><g fill='none' stroke='currentColor' stroke-dasharray='3 3'><line x1='30' y1='30' x2='130' y2='30'/><line x1='30' y1='62' x2='80' y2='62'/><line x1='80' y1='62' x2='80' y2='110'/><line x1='130' y1='30' x2='130' y2='110'/></g><g fill='currentColor' font-size='13'><text x='4' y='34'>4,0</text><text x='4' y='66'>2,4</text><text x='72' y='124'>5,0</text><text x='120' y='124'>10,0</text><text x='200' y='124'>t (s)</text><text x='34' y='12'>v (m/s)</text><text x='205' y='25'>C₁</text><text x='205' y='57'>C₂</text></g></svg>",
+"d": [
+[
+"Aceleração no gráfico v × t",
+"a = Δv/Δt, a inclinação da reta.",
+""
+],
+[
+"Deslocamento no gráfico v × t",
+"A área sob o gráfico é o deslocamento.",
+""
+]
+],
+"h": [
+"C<sub>1</sub>: a = 4,0/10 = 0,4 m/s². Ele chega a 2,4 m/s (a velocidade final de C<sub>2</sub>) em t = 2,4/0,4 = 6 s.",
+"Áreas até 6 s. C<sub>1</sub>: 6 × 2,4/2 = 7,2 m. C<sub>2</sub>: 5 × 2,4/2 + 1 × 2,4 = 6 + 2,4 = 8,4 m.",
+"Distância: 8,4 − 7,2 = <b>1,2 m</b> (C<sub>2</sub> à frente)."
+]
+},
+{
+"id": "1987-2-fis-05a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1987, 2ª fase, Física, questão 5(a)",
+"r": 1910,
+"tm": 180,
+"ctx": "No circuito, três ramos estão em paralelo: o de cima tem a bateria ε<sub>1</sub> = 4 V, o do meio, o resistor R, e o de baixo, a bateria ε<sub>2</sub> = 2 V em série com a lâmpada L. As duas baterias têm resistência interna r = 1 Ω e estão com o polo positivo do mesmo lado. Para qual valor de R a lâmpada não acende (corrente nula em L)?",
+"a": 1,
+"u": "Ω",
+"fig": "<svg viewBox='0 0 170 120' class='fg' role='img' aria-label='três ramos em paralelo: bateria 1 em cima, resistor R no meio, bateria 2 e lâmpada embaixo'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='20,15 75,15'/><polyline points='95,15 150,15'/><line x1='20' y1='15' x2='20' y2='105'/><line x1='150' y1='15' x2='150' y2='105'/><line x1='75' y1='5' x2='75' y2='25'/><line x1='82' y1='9' x2='82' y2='21' stroke-width='3'/><line x1='82' y1='15' x2='95' y2='15'/><polyline points='20,60 60,60 64,52 70,68 76,52 82,68 88,52 94,68 98,60 150,60'/><polyline points='20,105 55,105'/><line x1='55' y1='95' x2='55' y2='115'/><line x1='62' y1='99' x2='62' y2='111' stroke-width='3'/><polyline points='62,105 110,105'/><circle cx='118' cy='105' r='8'/><line x1='126' y1='105' x2='150' y2='105'/></g><g fill='currentColor' font-size='13'><text x='68' y='38'>ε₁, r</text><text x='76' y='50'>R</text><text x='48' y='90'>ε₂, r</text><text x='114' y='92'>L</text></g></svg>",
+"d": [
+[
+"Ramo sem corrente",
+"Se a corrente num ramo é zero, não há queda de tensão na resistência interna: a tensão entre os nós é a própria fem daquele ramo.",
+""
+],
+[
+"Gerador real",
+"U = ε − r·i: a tensão nos terminais cai com a corrente.",
+""
+]
+],
+"h": [
+"Sem corrente na lâmpada, o ramo de baixo não tem queda em r: a tensão entre os nós é ε<sub>2</sub> = 2 V.",
+"No ramo de cima: 2 = 4 − 1·i → i = 2 A. Essa corrente circula pela bateria 1 e pelo resistor R.",
+"R = 2 V ÷ 2 A = <b>1 Ω</b>."
+]
+},
+{
+"id": "1987-2-fis-05b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1987, 2ª fase, Física, questão 5(b)",
+"r": 1620,
+"tm": 90,
+"ctx": "Três ramos em paralelo: bateria ε<sub>1</sub> = 4 V (r = 1 Ω), resistor R e bateria ε<sub>2</sub> = 2 V (r = 1 Ω) em série com uma lâmpada. Com R ajustado para a lâmpada ficar apagada (corrente nula nela), qual a corrente em R?",
+"a": 2,
+"u": "A",
+"d": [
+[
+"Ramo sem corrente",
+"Sem corrente, a resistência interna não tem queda: a tensão entre os nós é a fem daquele ramo.",
+""
+],
+[
+"Gerador real",
+"U = ε − r·i.",
+""
+]
+],
+"h": [
+"Tensão entre os nós: ε<sub>2</sub> = 2 V (o ramo da lâmpada não tem corrente).",
+"Bateria 1: 2 = 4 − 1·i → i = 2 A.",
+"Essa é a corrente que passa por R: <b>2 A</b>."
+]
+},
+{
+"id": "1987-2-fis-06a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1987, 2ª fase, Física, questão 6(a)",
+"r": 1280,
+"tm": 75,
+"ctx": "Um bloco de 0,5 kg desliza num plano horizontal com atrito (μ = 0,4) e comprime uma mola de k = 1,6 × 10² N/m até a compressão máxima de 0,1 m. Qual o trabalho da força de atrito durante a compressão? (g = 10 m/s²)",
+"a": -0.2,
+"u": "J",
+"d": [
+[
+"Força de atrito",
+"F<sub>at</sub> = μ·N, e no plano horizontal N = m·g.",
+""
+],
+[
+"Trabalho de força constante",
+"W = F·d·cos θ. O atrito é contra o movimento: trabalho negativo.",
+""
+]
+],
+"h": [
+"F<sub>at</sub> = 0,4 × 0,5 × 10 = 2 N.",
+"Durante a compressão o bloco anda 0,1 m.",
+"W = −2 × 0,1 = <b>−0,2 J</b>."
+]
+},
+{
+"id": "1987-2-fis-06b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 1987, 2ª fase, Física, questão 6(b)",
+"r": 1620,
+"tm": 150,
+"ctx": "Um bloco de 0,5 kg desliza num plano horizontal com atrito (μ = 0,4) e comprime uma mola de k = 1,6 × 10² N/m até a compressão máxima de 0,1 m. Qual era a velocidade do bloco no instante em que tocou a mola? (g = 10 m/s²)",
+"a": 2,
+"u": "m/s",
+"d": [
+[
+"Energia com atrito",
+"Energia cinética inicial = energia elástica final + energia dissipada pelo atrito.",
+""
+],
+[
+"Energia elástica",
+"E = k·x²/2.",
+""
+]
+],
+"h": [
+"Elástica na compressão máxima: 160 × 0,1²/2 = 0,8 J. Dissipada pelo atrito: 0,4 × 0,5 × 10 × 0,1 = 0,2 J.",
+"m·v²/2 = 0,8 + 0,2 = 1,0 J.",
+"v² = 2 × 1,0/0,5 = 4 → v = <b>2 m/s</b>."
+]
+},
+{
+"id": "1987-2-fis-07",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1987, 2ª fase, Física, questão 7",
+"r": 1780,
+"tm": 180,
+"ctx": "Um mol de gás ideal faz o ciclo A → B → C → A do diagrama V × T. Qual o trabalho realizado na expansão A → B? (R = 8,31 J/mol·K)",
+"a": 4986,
+"u": "J",
+"tol": 0.02,
+"fig": "<svg viewBox='0 0 200 130' class='fg' role='img' aria-label='diagrama volume por temperatura: A em 300 K e 1 L; B em 3 L sobre a reta que passa pela origem; C em 300 K e 3 L'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 195,110'/><polyline points='60,88 150,30 60,30 60,88'/></g><line x1='30' y1='110' x2='60' y2='88' stroke='currentColor' stroke-dasharray='3 3'/><g fill='currentColor' font-size='13'><text x='16' y='92'>1</text><text x='16' y='34'>3</text><text x='50' y='124'>300</text><text x='64' y='96'>A</text><text x='154' y='30'>B</text><text x='54' y='24'>C</text><text x='34' y='12'>V (L)</text><text x='170' y='124'>T (K)</text></g></svg>",
+"d": [
+[
+"Reta pela origem no V × T",
+"V proporcional a T quer dizer pressão constante (transformação isobárica).",
+""
+],
+[
+"Trabalho a pressão constante",
+"W = p·ΔV = n·R·ΔT.",
+""
+]
+],
+"h": [
+"A → B está na reta que passa pela origem: é isobárica. V triplica (1 → 3 L), então T triplica: 300 → 900 K.",
+"W = n·R·ΔT = 1 × 8,31 × 600.",
+"W = <b>4.986 J ≈ 5,0 kJ</b> (ou p = 24,6 atm, W = 24,6 × 2 = 49,2 atm·L)."
+]
+},
+{
+"id": "1987-2-fis-07c",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 1987, 2ª fase, Física, questão 7(a)",
+"r": 1620,
+"tm": 120,
+"ctx": "Um mol de gás ideal faz o ciclo do diagrama V × T: A (300 K, 1 L) → B (900 K, 3 L) pela reta que passa pela origem → C (300 K, 3 L) a volume constante → A a temperatura constante. Qual a pressão no estado C? (R = 0,082 atm·L/mol·K)",
+"a": 8.2,
+"u": "atm",
+"tol": 0.02,
+"d": [
+[
+"Equação de Clapeyron",
+"p·V = n·R·T, com V em litros e R = 0,082 para p em atm.",
+""
+]
+],
+"h": [
+"Em C: n = 1 mol, T = 300 K, V = 3 L.",
+"p = nRT/V = 1 × 0,082 × 300 ÷ 3.",
+"p = <b>8,2 atm</b> (em A e B, 24,6 atm: no P × V o ciclo é uma reta horizontal, uma vertical e uma hipérbole)."
+]
+},
+{
+"id": "1987-2-fis-08",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 1987, 2ª fase, Física, questão 8(b)",
+"r": 1490,
+"tm": 60,
+"ctx": "Um ponto objeto P, abaixo do eixo de um espelho côncavo, tem imagem P' acima do eixo. Qual a natureza da imagem P'?",
+"opts": [
+"real e invertida",
+"virtual e direita",
+"virtual e invertida",
+"real e direita"
+],
+"a": 0,
+"d": [
+[
+"Imagens no espelho côncavo",
+"Objeto real além do foco: imagem real e invertida. Entre o foco e o espelho: virtual, direita e maior.",
+""
+],
+[
+"Invertida",
+"Imagem do outro lado do eixo em relação ao objeto é invertida.",
+""
+]
+],
+"h": [
+"P e P' estão em lados opostos do eixo: a imagem é invertida.",
+"Num espelho côncavo com objeto real, toda imagem invertida é real (só a imagem direita é virtual).",
+"Imagem <b>real e invertida</b>."
+]
+},
+{
+"id": "1987-2-fis-09a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1987, 2ª fase, Física, questão 9(a)",
+"r": 1490,
+"tm": 60,
+"ctx": "O peso de um elevador com passageiros é 640 kgf e a tração no cabo é 768 kgf. Dá para dizer em que sentido o elevador se move?",
+"opts": [
+"Não: a aceleração é para cima, mas ele pode subir acelerando ou descer freando",
+"Sim: está subindo, porque a tração é maior que o peso",
+"Sim: está descendo",
+"Sim: está parado"
+],
+"a": 0,
+"d": [
+[
+"Segunda lei de Newton",
+"A força resultante dá a aceleração, não a velocidade.",
+""
+],
+[
+"Acelerar × frear",
+"Aceleração no sentido da velocidade: acelera. Contra a velocidade: freia.",
+""
+]
+],
+"h": [
+"Resultante: 768 − 640 = 128 kgf para cima, então a aceleração é para cima.",
+"Aceleração para cima acontece subindo cada vez mais rápido ou descendo cada vez mais devagar.",
+"<b>Não dá para saber</b> o sentido do movimento."
+]
+},
+{
+"id": "1987-2-fis-09b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 1987, 2ª fase, Física, questão 9(b)",
+"r": 1360,
+"tm": 75,
+"ctx": "O peso de um elevador com passageiros é 640 kgf e a tração no cabo é 768 kgf. Qual o módulo da aceleração do elevador? (g = 10 m/s², 1 kgf = 10 N)",
+"a": 2,
+"u": "m/s²",
+"d": [
+[
+"Segunda lei de Newton",
+"F<sub>R</sub> = m·a.",
+""
+],
+[
+"kgf",
+"1 kgf é o peso de 1 kg: um corpo que pesa 640 kgf tem massa 640 kg.",
+""
+]
+],
+"h": [
+"Resultante: 768 − 640 = 128 kgf = 1.280 N.",
+"Massa: 640 kg.",
+"a = 1280 ÷ 640 = <b>2 m/s²</b>, para cima."
+]
+},
+{
+"id": "1987-2-fis-10a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1987, 2ª fase, Física, questão 10(a)",
+"r": 1490,
+"tm": 75,
+"ctx": "Duas esferas condutoras A e B, distantes, de mesmo raio R, têm cargas Q<sub>A</sub> = −q e Q<sub>B</sub> = +2q. Qual a diferença de potencial V<sub>B</sub> − V<sub>A</sub>? (k = constante eletrostática)",
+"opts": [
+"3kq/R",
+"kq/R",
+"−kq/R",
+"2kq/R"
+],
+"a": 0,
+"d": [
+[
+"Potencial de esfera condutora",
+"V = kQ/R (vale na superfície e em todo o interior).",
+""
+]
+],
+"h": [
+"V<sub>A</sub> = −kq/R e V<sub>B</sub> = 2kq/R.",
+"V<sub>B</sub> − V<sub>A</sub> = 2kq/R − (−kq/R).",
+"= <b>3kq/R</b>."
+]
+},
+{
+"id": "1987-2-fis-10b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1987, 2ª fase, Física, questão 10(b)",
+"r": 1440,
+"tm": 75,
+"ctx": "Esferas condutoras iguais: A com −q, B com +2q e C neutra. C toca primeiro A, depois B, e é afastada. Qual a carga final de C?",
+"opts": [
+"+3q/4",
+"+q/2",
+"+q",
+"−q/2"
+],
+"a": 0,
+"d": [
+[
+"Contato entre esferas iguais",
+"A carga total se divide igualmente entre as duas.",
+"+4q e 0 → +2q e +2q"
+]
+],
+"h": [
+"C toca A: (−q + 0)/2 = −q/2 para cada uma.",
+"C toca B: (−q/2 + 2q)/2 = (3q/2)/2.",
+"C fica com <b>+3q/4</b>."
+]
+},
+{
+"id": "1987-2-fis-11",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1987, 2ª fase, Física, questão 11",
+"r": 1400,
+"tm": 90,
+"ctx": "Numa corda de violão de comprimento L, densidade linear μ e tração T, a onda tem velocidade v = √(T/μ). Mantendo μ e L, por quanto é preciso multiplicar a tração para dobrar a frequência do som?",
+"a": 4,
+"d": [
+[
+"Frequência da corda",
+"Fundamental: f = v/(2L). Com L fixo, f é proporcional a v.",
+""
+],
+[
+"Raiz",
+"v = √(T/μ): para multiplicar v por 2, T tem que ser multiplicada por 2².",
+""
+]
+],
+"h": [
+"f = v/(2L) com L fixo: dobrar f é dobrar v.",
+"v = √(T/μ): dobrar v exige T multiplicada por 4 (com μ fixo).",
+"Tração <b>4 vezes</b> maior (outra forma: reduzir L à metade, apertando a corda no meio)."
+]
+},
+{
+"id": "1987-2-fis-12a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1987, 2ª fase, Física, questão 12(a)",
+"r": 1570,
+"tm": 120,
+"ctx": "Um toca-discos gira a 33⅓ rpm. Uma faixa ocupa toda a face útil do LP, do raio externo 15,0 cm ao interno 7,0 cm, e é tocada em 24 minutos. Qual a distância média entre dois sulcos consecutivos, em mm?",
+"a": 0.1,
+"u": "mm",
+"d": [
+[
+"Frequência e número de voltas",
+"voltas = frequência × tempo.",
+""
+],
+[
+"Sulco do disco",
+"A agulha avança da borda para o centro uma distância por volta: largura ÷ número de voltas.",
+""
+]
+],
+"h": [
+"Voltas: 33⅓ × 24 = 800.",
+"Largura da faixa: 15,0 − 7,0 = 8,0 cm = 80 mm.",
+"80 mm ÷ 800 = <b>0,1 mm</b>."
+]
+},
+{
+"id": "1987-2-fis-12b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 1987, 2ª fase, Física, questão 12(b)",
+"r": 1490,
+"tm": 90,
+"ctx": "Um disco gira a 33⅓ rpm e a faixa termina no raio de 7,0 cm. Qual a velocidade do ponto do disco sob a agulha no fim da faixa, em m/s? (π = 3,14)",
+"a": 0.244,
+"u": "m/s",
+"tol": 0.03,
+"d": [
+[
+"Velocidade no movimento circular",
+"v = 2πR·f, com f em voltas por segundo.",
+""
+],
+[
+"rpm",
+"rpm ÷ 60 = voltas por segundo.",
+""
+]
+],
+"h": [
+"f = 33,33/60 = 0,556 Hz.",
+"v = 2 × 3,14 × 0,07 × 0,556.",
+"v ≈ <b>0,24 m/s</b> (24 cm/s)."
+]
+},
+{
+"id": "1987-2-fis-13a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1987, 2ª fase, Física, questão 13(a)",
+"r": 1570,
+"tm": 75,
+"ctx": "Dois pêndulos de 2 m, com esferas de mesma massa presas no mesmo ponto, são soltos juntos do repouso, um a 8° e outro a 4° da vertical, em lados opostos. Onde as esferas se chocam?",
+"opts": [
+"no ponto mais baixo (na vertical)",
+"mais perto de onde estava a de 4°",
+"mais perto de onde estava a de 8°",
+"depende da massa das esferas"
+],
+"a": 0,
+"d": [
+[
+"Pêndulo simples",
+"Para ângulos pequenos, T = 2π√(L/g): o período não depende da amplitude nem da massa.",
+""
+],
+[
+"Tempo até a vertical",
+"Do extremo ao ponto mais baixo leva T/4.",
+""
+]
+],
+"h": [
+"Os dois pêndulos têm o mesmo comprimento, então o mesmo período, mesmo com amplitudes diferentes.",
+"Cada um leva T/4 para chegar à vertical.",
+"Chegam juntos ao ponto mais baixo: o choque é <b>na vertical</b>."
+]
+},
+{
+"id": "1987-2-fis-13b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 1987, 2ª fase, Física, questão 13(b)",
+"r": 1400,
+"tm": 75,
+"ctx": "Duas esferinhas de pêndulos de 2 m colidem e ficam grudadas. Qual o período do pêndulo formado pelas duas juntas? (g = 10 m/s², π = 3,14)",
+"a": 2.81,
+"u": "s",
+"tol": 0.03,
+"d": [
+[
+"Período do pêndulo simples",
+"T = 2π√(L/g), sem depender da massa.",
+""
+]
+],
+"h": [
+"O comprimento continua 2 m; a massa dobrar não muda o período.",
+"T = 2 × 3,14 × √(2/10) = 6,28 × 0,447.",
+"T ≈ <b>2,8 s</b>."
+]
+},
+{
+"id": "1987-2-fis-14a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1987, 2ª fase, Física, questão 14(a)",
+"r": 1870,
+"tm": 180,
+"ctx": "Q<sub>1</sub> = +4 × 10<sup>−6</sup> C e Q<sub>2</sub> = −2 × 10<sup>−6</sup> C estão no eixo x, a 3√2 m uma da outra. A que distância de Q<sub>2</sub>, medida no eixo x, o campo elétrico resultante é nulo?",
+"a": 10.24,
+"u": "m",
+"tol": 0.02,
+"d": [
+[
+"Campo de carga puntiforme",
+"E = k|Q|/d², apontando para longe da carga positiva e para a negativa.",
+""
+],
+[
+"Onde o campo zera",
+"Com cargas de sinais opostos, só pode zerar fora do segmento, do lado da carga de menor módulo.",
+""
+]
+],
+"h": [
+"O ponto fica além de Q<sub>2</sub> (a menor), a uma distância d dela e d + 3√2 de Q<sub>1</sub>.",
+"4/(d + 3√2)² = 2/d² → d + 3√2 = √2·d → d = 3√2/(√2 − 1) = 6 + 3√2.",
+"d ≈ <b>10,2 m</b> de Q<sub>2</sub>."
+]
+},
+{
+"id": "1987-2-fis-14b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 1987, 2ª fase, Física, questão 14(b)",
+"r": 1570,
+"tm": 120,
+"ctx": "Q<sub>1</sub> = +4 µC e Q<sub>2</sub> = −2 µC estão a 3√2 m uma da outra. Qual a força sobre uma carga Q<sub>3</sub> = +2 µC no ponto médio entre elas? (k = 9 × 10<sup>9</sup> N·m²/C²)",
+"a": 0.024,
+"u": "N",
+"tol": 0.02,
+"d": [
+[
+"Lei de Coulomb",
+"F = k|q<sub>1</sub>q<sub>2</sub>|/d². Sinais iguais se repelem; opostos se atraem.",
+""
+],
+[
+"Ponto médio",
+"d = 3√2/2, então d² = 4,5 m².",
+""
+]
+],
+"h": [
+"Q<sub>1</sub> repele Q<sub>3</sub> para o lado de Q<sub>2</sub>: 9 × 10<sup>9</sup> × 8 × 10<sup>−12</sup>/4,5 = 0,016 N.",
+"Q<sub>2</sub> atrai Q<sub>3</sub> para o seu lado: 9 × 10<sup>9</sup> × 4 × 10<sup>−12</sup>/4,5 = 0,008 N.",
+"As duas apontam para Q<sub>2</sub>: <b>0,024 N</b>."
+]
+},
+{
+"id": "1987-2-fis-15a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1987, 2ª fase, Física, questão 15(a)",
+"r": 1440,
+"tm": 90,
+"ctx": "Uma tábua homogênea de 6,0 m e 50 kg está articulada em A, na margem, e apoiada num suporte S a 5 m de A, preso a um cubo de isopor de 1 m de aresta que flutua. Qual a força que a tábua aplica no cubo? (g = 10 m/s²)",
+"a": 300,
+"u": "N",
+"fig": "<svg viewBox='0 0 220 110' class='fg' role='img' aria-label='tábua articulada em A na margem, apoiada em S sobre um cubo flutuante'><g fill='none' stroke='currentColor' stroke-width='1.5'><line x1='15' y1='30' x2='195' y2='30' stroke-width='3'/><rect x='20' y='42' width='36' height='36'/><line x1='38' y1='42' x2='38' y2='33'/><polyline points='195,30 205,30 205,105'/><line x1='5' y1='62' x2='205' y2='62' stroke-dasharray='4 3'/></g><circle cx='195' cy='30' r='3' fill='currentColor'/><g fill='currentColor' font-size='13'><text x='34' y='24'>S</text><text x='190' y='22'>A</text><text x='105' y='18'>5 m</text><text x='26' y='96'>1 m</text></g></svg>",
+"d": [
+[
+"Equilíbrio de rotação",
+"A soma dos momentos (força × distância ao ponto de giro) é zero. Calcule em torno da articulação para eliminar a força dela.",
+""
+],
+[
+"Corpo homogêneo",
+"O peso atua no meio da tábua.",
+""
+]
+],
+"h": [
+"Momentos em torno de A. Peso da tábua: 500 N a 3 m de A. Força do apoio: N a 5 m de A.",
+"N × 5 = 500 × 3.",
+"N = <b>300 N</b>."
+]
+},
+{
+"id": "1987-2-fis-15b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 1987, 2ª fase, Física, questão 15(b)",
+"r": 1530,
+"tm": 90,
+"ctx": "Um cubo de isopor de 1 m de aresta flutua sustentando uma prancha. Um menino de 40 kg para sobre a prancha exatamente em cima do suporte do cubo. Quanto o cubo afunda a mais, em cm? (água: 10³ kg/m³, g = 10 m/s²)",
+"a": 4,
+"u": "cm",
+"d": [
+[
+"Empuxo",
+"E = ρ<sub>líquido</sub>·V<sub>submerso</sub>·g.",
+""
+],
+[
+"Força extra",
+"Um peso a mais pede um empuxo a mais do mesmo tamanho.",
+""
+]
+],
+"h": [
+"Em cima do suporte, todo o peso do menino (400 N) vai para o cubo.",
+"Volume extra submerso: 400 = 1000 × V × 10 → V = 0,04 m³.",
+"Base de 1 m²: afunda 0,04 m = <b>4 cm</b>."
+]
+},
+{
+"id": "1987-2-fis-16a",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 1987, 2ª fase, Física, questão 16(a)",
+"r": 1570,
+"tm": 120,
+"ctx": "Um condutor em forma de circunferência tem resistência 8 Ω. Uma corrente de 4 A entra pelo ponto A (no alto) e sai pelo ponto B (à direita, a um quarto de volta de A). Qual a corrente no arco menor, entre A e B?",
+"a": 3,
+"u": "A",
+"fig": "<svg viewBox='0 0 180 130' class='fg' role='img' aria-label='anel com corrente entrando em A no topo e saindo em B à direita'><g fill='none' stroke='currentColor' stroke-width='1.5'><circle cx='80' cy='75' r='45'/><line x1='80' y1='5' x2='80' y2='30'/><line x1='125' y1='75' x2='170' y2='75'/><line x1='80' y1='30' x2='80' y2='75' stroke-dasharray='3 3'/><line x1='80' y1='75' x2='125' y2='75' stroke-dasharray='3 3'/></g><g fill='currentColor' font-size='13'><text x='68' y='28'>A</text><text x='128' y='92'>B</text><text x='70' y='88'>O</text><text x='86' y='16'>4 A</text><text x='145' y='70'>4 A</text></g></svg>",
+"d": [
+[
+"Resistência proporcional ao comprimento",
+"Um arco de um quarto da circunferência tem 1/4 da resistência total.",
+""
+],
+[
+"Divisor de corrente",
+"Em paralelo, a corrente se divide na razão inversa das resistências.",
+""
+]
+],
+"h": [
+"Arco menor: 1/4 de 8 Ω = 2 Ω. Arco maior: 6 Ω. Estão em paralelo entre A e B.",
+"A corrente se divide na razão 6 : 2 = 3 : 1.",
+"Arco menor: <b>3 A</b>; arco maior: 1 A."
+]
+},
+{
+"id": "1987-2-fis-16b",
+"ano": 1987,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 1987, 2ª fase, Física, questão 16(b)",
+"r": 1830,
+"tm": 120,
+"ctx": "Num anel de resistência 8 Ω, 4 A entram por A e saem por B, a um quarto de volta: passam 3 A pelo arco de 1/4 e 1 A pelo arco de 3/4. Os fios que chegam e saem são radiais (suas retas passam pelo centro O). Qual o campo magnético no centro O?",
+"opts": [
+"zero",
+"μ₀·4/(2R)",
+"μ₀·3/(8R)",
+"μ₀·2/(2R)"
+],
+"a": 0,
+"d": [
+[
+"Campo de um arco",
+"No centro, um arco de fração θ/2π da volta com corrente i dá B = (μ₀i/2R)·(θ/2π).",
+""
+],
+[
+"Fio retilíneo",
+"Um fio cuja reta passa pelo ponto não produz campo nele.",
+""
+],
+[
+"Sentidos",
+"Correntes que giram em sentidos opostos em torno do centro dão campos opostos.",
+""
+]
+],
+"h": [
+"Arco de 1/4 com 3 A: (μ₀·3/2R)·(1/4) = 3μ₀/8R. Arco de 3/4 com 1 A: (μ₀·1/2R)·(3/4) = 3μ₀/8R.",
+"As correntes vão de A para B pelos dois lados, girando em sentidos opostos em torno de O: os campos se anulam.",
+"Os fios retos são radiais e não contribuem: <b>B = 0</b>."
+]
+},
+{
+"id": "1987-2-qui-01",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1987, 2ª fase, Química, questão 1",
+"r": 940,
+"tm": 45,
+"ctx": "O que é destilação e para que serve?",
+"opts": [
+"Separação de líquidos (ou de um líquido e um sólido dissolvido) por diferença de ponto de ebulição: vaporiza e condensa",
+"Separação de sólidos por diferença de densidade",
+"Reação de um ácido com uma base",
+"Separação de um sólido em suspensão por papel de filtro"
+],
+"a": 0,
+"d": [
+[
+"Processos de separação",
+"Filtração: sólido não dissolvido. Decantação: densidades. Destilação: pontos de ebulição. Evaporação: recupera o sólido dissolvido.",
+""
+]
+],
+"h": [
+"Na destilação, aquece-se a mistura: o componente mais volátil vaporiza primeiro.",
+"O vapor passa por um condensador e volta a ser líquido, separado do resto.",
+"Serve para separar <b>misturas homogêneas</b> (água e sal, água e álcool) pela diferença de ponto de ebulição."
+]
+},
+{
+"id": "1987-2-qui-02",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 1987, 2ª fase, Química, questão 2",
+"r": 1320,
+"tm": 90,
+"ctx": "O tanque de um carro comporta 50 dm³ de etanol (C<sub>2</sub>H<sub>5</sub>OH, densidade 8,0 × 10² g/dm³). Quantas moléculas de etanol há nesse volume? (Avogadro: 6,0 × 10<sup>23</sup>; responda em 10<sup>26</sup> moléculas)",
+"a": 5.2,
+"u": "× 10<sup>26</sup>",
+"tol": 0.02,
+"d": [
+[
+"Densidade",
+"m = d·V.",
+""
+],
+[
+"Mol",
+"n = m/M, e o número de moléculas é n × 6,0 × 10<sup>23</sup>.",
+""
+],
+[
+"Massa molar",
+"Some as massas atômicas: C = 12, H = 1, O = 16.",
+""
+]
+],
+"h": [
+"m = 800 × 50 = 40.000 g. M(C<sub>2</sub>H<sub>6</sub>O) = 24 + 6 + 16 = 46 g/mol.",
+"n = 40.000/46 ≈ 870 mol.",
+"870 × 6,0 × 10<sup>23</sup> ≈ <b>5,2 × 10<sup>26</sup> moléculas</b>."
+]
+},
+{
+"id": "1987-2-qui-03",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1987, 2ª fase, Química, questão 3(b)",
+"r": 1360,
+"tm": 90,
+"ctx": "Aquecendo 4,99 g de CuSO<sub>4</sub>·5H<sub>2</sub>O, obteve-se o sal anidro, que foi dissolvido em água até 1,00 dm³. Qual a concentração da solução, em mol/dm³? (Cu = 63,5; S = 32; O = 16; H = 1)",
+"a": 0.02,
+"u": "mol/dm³",
+"tol": 0.02,
+"d": [
+[
+"Desidratação",
+"CuSO<sub>4</sub>·5H<sub>2</sub>O → CuSO<sub>4</sub> + 5 H<sub>2</sub>O: 1 mol do sal hidratado dá 1 mol do anidro.",
+""
+],
+[
+"Concentração molar",
+"C = n/V.",
+""
+]
+],
+"h": [
+"M(CuSO<sub>4</sub>·5H<sub>2</sub>O) = 63,5 + 32 + 64 + 90 = 249,5 g/mol.",
+"n = 4,99/249,5 = 0,020 mol, que vira 0,020 mol de CuSO<sub>4</sub>.",
+"C = 0,020 mol / 1,00 dm³ = <b>0,020 mol/dm³</b>."
+]
+},
+{
+"id": "1987-2-qui-04",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1987, 2ª fase, Química, questão 4",
+"r": 1100,
+"tm": 60,
+"ctx": "O gráfico mostra a pressão de vapor de dois líquidos, A e B, em função da temperatura. Qual deles tem maior pressão de vapor a 50 °C, e qual ferve a uma temperatura mais baixa sob 1,0 atm?",
+"fig": "<svg viewBox='0 0 220 130' class='fg' role='img' aria-label='curvas de pressão de vapor: A acima de B, A atinge 1 atm perto de 65 °C e B perto de 70 °C'><g fill='none' stroke='currentColor' stroke-width='1.5'><polyline points='30,8 30,110 215,110'/><path d='M30 82 Q120 70 170 18'/><path d='M30 92 Q130 82 185 18'/></g><line x1='30' y1='20' x2='200' y2='20' stroke='currentColor' stroke-dasharray='3 3'/><g fill='currentColor' font-size='12'><text x='6' y='24'>1,0</text><text x='160' y='14'>A</text><text x='188' y='14'>B</text><text x='96' y='124'>50</text><text x='178' y='124'>70</text><text x='34' y='12'>p (atm)</text><text x='190' y='124'>T (°C)</text></g></svg>",
+"opts": [
+"A nos dois casos",
+"B nos dois casos",
+"A tem maior pressão de vapor, mas B ferve antes",
+"B tem maior pressão de vapor, mas A ferve antes"
+],
+"a": 0,
+"d": [
+[
+"Ebulição",
+"Um líquido ferve quando a pressão de vapor iguala a pressão externa.",
+""
+],
+[
+"Volatilidade",
+"Maior pressão de vapor na mesma temperatura = mais volátil = ferve a temperatura menor.",
+""
+]
+],
+"h": [
+"A 50 °C a curva de A está acima da de B: A tem maior pressão de vapor.",
+"A curva de A chega a 1,0 atm antes (≈ 65 °C) que a de B (≈ 70 °C).",
+"<b>A nos dois casos</b>: é o mais volátil."
+]
+},
+{
+"id": "1987-2-qui-05",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1987, 2ª fase, Química, questão 5",
+"r": 1190,
+"tm": 60,
+"ctx": "Qual é a geometria das moléculas NH<sub>3</sub>, CH<sub>4</sub>, CO<sub>2</sub> e H<sub>2</sub>O, nessa ordem?",
+"opts": [
+"piramidal, tetraédrica, linear, angular",
+"tetraédrica, tetraédrica, angular, linear",
+"piramidal, quadrangular, linear, linear",
+"trigonal, tetraédrica, angular, angular"
+],
+"a": 0,
+"d": [
+[
+"Repulsão dos pares (VSEPR)",
+"Conte os pares em volta do átomo central (ligações e pares isolados): 4 pares formam um tetraedro, mas a forma da molécula considera só os átomos.",
+"4 pares, 1 isolado: piramidal; 4 pares, 2 isolados: angular"
+],
+[
+"Duplas ligações",
+"Uma dupla conta como uma região só: CO<sub>2</sub> tem 2 regiões e nenhum par isolado no C.",
+""
+]
+],
+"h": [
+"NH<sub>3</sub>: N com 3 ligações e 1 par isolado → piramidal. CH<sub>4</sub>: 4 ligações → tetraédrica.",
+"CO<sub>2</sub>: O=C=O, 2 regiões → linear. H<sub>2</sub>O: 2 ligações e 2 pares isolados → angular.",
+"<b>piramidal, tetraédrica, linear, angular</b>."
+]
+},
+{
+"id": "1987-2-qui-06",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1987, 2ª fase, Química, questão 6",
+"r": 1190,
+"tm": 60,
+"ctx": "Uma molécula tem dois átomos de nitrogênio ligados entre si, cada um ligado a dois átomos de hidrogênio, e um par de elétrons isolado em cada nitrogênio. Qual é ela?",
+"opts": [
+"H<sub>2</sub>N–NH<sub>2</sub> (hidrazina, N<sub>2</sub>H<sub>4</sub>)",
+"HN=NH (N<sub>2</sub>H<sub>2</sub>)",
+"NH<sub>3</sub>",
+"H<sub>2</sub>N–NH<sub>3</sub><sup>+</sup>"
+],
+"a": 0,
+"d": [
+[
+"Valência do nitrogênio",
+"N faz 3 ligações e fica com 1 par isolado (5 elétrons de valência).",
+""
+]
+],
+"h": [
+"Cada N: 1 ligação com o outro N + 2 com H = 3 ligações, e 1 par isolado.",
+"A fórmula estrutural é H<sub>2</sub>N–NH<sub>2</sub>, análoga à da água oxigenada HO–OH.",
+"É a <b>hidrazina, N<sub>2</sub>H<sub>4</sub></b>."
+]
+},
+{
+"id": "1987-2-qui-07",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1987, 2ª fase, Química, questão 7",
+"r": 1060,
+"tm": 60,
+"ctx": "Que tipo de ligação há nos compostos formados por H e O, por H e Cl, e por Na e Cl, nessa ordem?",
+"opts": [
+"covalente, covalente, iônica",
+"iônica, covalente, iônica",
+"covalente, iônica, iônica",
+"covalente, covalente, metálica"
+],
+"a": 0,
+"d": [
+[
+"Tipos de ligação",
+"Ametal + ametal (ou H): covalente. Metal + ametal: iônica. Metal + metal: metálica.",
+""
+]
+],
+"h": [
+"H e O são ametais: H<sub>2</sub>O, covalente. H e Cl: HCl, covalente.",
+"Na é metal e Cl é ametal: NaCl, iônica.",
+"<b>covalente, covalente, iônica</b>."
+]
+},
+{
+"id": "1987-2-qui-08a",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 1987, 2ª fase, Química, questão 8(a)",
+"r": 1280,
+"tm": 60,
+"ctx": "Na metalurgia do zinco: ZnO + CO → Zn + CO<sub>2</sub>. Quem é o oxidante e quem é o redutor?",
+"opts": [
+"oxidante: ZnO; redutor: CO",
+"oxidante: CO; redutor: ZnO",
+"oxidante: Zn; redutor: CO<sub>2</sub>",
+"oxidante: CO<sub>2</sub>; redutor: Zn"
+],
+"a": 0,
+"d": [
+[
+"Oxidação e redução",
+"Quem perde elétrons (o nox sobe) se oxida e é o redutor. Quem ganha (nox desce) se reduz e é o oxidante.",
+""
+],
+[
+"Nox",
+"O no óxido vale −2; substância simples tem nox 0.",
+""
+]
+],
+"h": [
+"Zn: +2 no ZnO → 0 no Zn. Reduziu: ZnO é o oxidante.",
+"C: +2 no CO → +4 no CO<sub>2</sub>. Oxidou: CO é o redutor.",
+"<b>Oxidante ZnO, redutor CO</b>."
+]
+},
+{
+"id": "1987-2-qui-08b",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 1987, 2ª fase, Química, questão 8(b)",
+"r": 1280,
+"tm": 75,
+"ctx": "Na reação ZnO + CO → Zn + CO<sub>2</sub>, que massa de zinco se obtém a partir de 1000 g de ZnO? (Zn = 65,4; O = 16)",
+"a": 803,
+"u": "g",
+"tol": 0.02,
+"d": [
+[
+"Proporção em massa",
+"Da equação: 1 mol de ZnO dá 1 mol de Zn. Use as massas molares como proporção.",
+""
+]
+],
+"h": [
+"M(ZnO) = 65,4 + 16 = 81,4 g/mol; M(Zn) = 65,4 g/mol.",
+"81,4 g de ZnO → 65,4 g de Zn; 1000 g → x.",
+"x = 1000 × 65,4/81,4 ≈ <b>803 g</b>."
+]
+},
+{
+"id": "1987-2-qui-09",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 1987, 2ª fase, Química, questão 9",
+"r": 1190,
+"tm": 60,
+"ctx": "Na combustão do enxofre forma-se um óxido que, em contato com a água, abaixa o pH. Quais são as reações?",
+"opts": [
+"S + O<sub>2</sub> → SO<sub>2</sub>; SO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>SO<sub>3</sub>, um ácido",
+"S + O<sub>2</sub> → SO<sub>2</sub>; SO<sub>2</sub> + H<sub>2</sub>O → S + H<sub>2</sub>O<sub>2</sub>",
+"S + H<sub>2</sub>O → H<sub>2</sub>S; o H<sub>2</sub>S é uma base",
+"2 S + O<sub>2</sub> → 2 SO; SO + H<sub>2</sub>O → S(OH)<sub>2</sub>, uma base"
+],
+"a": 0,
+"d": [
+[
+"Óxidos ácidos",
+"Óxidos de ametais reagem com água formando ácidos (que liberam H<sup>+</sup> e abaixam o pH).",
+"CO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>CO<sub>3</sub>"
+]
+],
+"h": [
+"Combustão: S + O<sub>2</sub> → SO<sub>2</sub>.",
+"SO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>SO<sub>3</sub> (ácido sulfuroso), que se ioniza: H<sub>2</sub>SO<sub>3</sub> ⇌ H<sup>+</sup> + HSO<sub>3</sub><sup>−</sup>.",
+"O aumento de H<sup>+</sup> abaixa o pH: é a origem da <b>chuva ácida</b>."
+]
+},
+{
+"id": "1987-2-qui-10",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 1987, 2ª fase, Química, questão 10",
+"r": 1360,
+"tm": 90,
+"ctx": "Uma vela tem fórmula C<sub>20</sub>H<sub>42</sub>. Na combustão, ΔH = −13.300 kJ/mol. Quanto calor é liberado na queima de 10,0 g da vela, em kJ? (C = 12; H = 1)",
+"a": 472,
+"u": "kJ",
+"tol": 0.02,
+"d": [
+[
+"Entalpia por mol",
+"ΔH da equação vale para a quantidade em mol escrita nela. Para outra massa, faça regra de três pela massa molar.",
+""
+]
+],
+"h": [
+"M(C<sub>20</sub>H<sub>42</sub>) = 240 + 42 = 282 g/mol.",
+"n = 10,0/282 = 0,0355 mol.",
+"Q = 0,0355 × 13.300 ≈ <b>472 kJ</b> liberados."
+]
+},
+{
+"id": "1987-2-qui-11",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 1987, 2ª fase, Química, questão 11",
+"r": 1020,
+"tm": 45,
+"ctx": "A concentração de um produto X foi medida ao longo do tempo em dois experimentos iguais, exceto pela presença de catalisador em um deles. A curva A sobe mais rápido que a B, e as duas chegam ao mesmo valor final. Qual curva corresponde ao experimento com catalisador?",
+"opts": [
+"A, porque o catalisador aumenta a velocidade sem mudar o final",
+"B, porque o catalisador aumenta a quantidade final de produto",
+"B, porque o catalisador é consumido",
+"As duas, porque o catalisador não altera nada"
+],
+"a": 0,
+"d": [
+[
+"Catalisador",
+"Diminui a energia de ativação: a reação fica mais rápida, mas o rendimento final e o equilíbrio não mudam.",
+""
+]
+],
+"h": [
+"O catalisador acelera a reação: a concentração de X sobe mais depressa.",
+"Ele não muda a quantidade final de produto.",
+"É a curva <b>A</b>."
+]
+},
+{
+"id": "1987-2-qui-12",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1987, 2ª fase, Química, questão 12",
+"r": 1440,
+"tm": 90,
+"ctx": "Quantos compostos isômeros têm a fórmula C<sub>3</sub>H<sub>8</sub>O, e algum deles tem atividade óptica?",
+"opts": [
+"3 isômeros (propan-1-ol, propan-2-ol e metoxietano), nenhum com atividade óptica",
+"2 isômeros, ambos com atividade óptica",
+"3 isômeros, e o propan-2-ol tem atividade óptica",
+"4 isômeros, e o metoxietano tem atividade óptica"
+],
+"a": 0,
+"d": [
+[
+"Isomeria plana",
+"Mesma fórmula molecular: mude a posição do grupo (álcool primário × secundário) ou a função (álcool × éter).",
+""
+],
+[
+"Carbono quiral",
+"Atividade óptica exige um carbono com 4 grupos diferentes.",
+""
+]
+],
+"h": [
+"Álcoois: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH (propan-1-ol) e CH<sub>3</sub>CHOHCH<sub>3</sub> (propan-2-ol). Éter: CH<sub>3</sub>OCH<sub>2</sub>CH<sub>3</sub> (metoxietano).",
+"No propan-2-ol, o carbono central tem dois CH<sub>3</sub> iguais: não é quiral.",
+"<b>3 isômeros, nenhum com atividade óptica</b>."
+]
+},
+{
+"id": "1987-2-qui-13",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 1987, 2ª fase, Química, questão 13",
+"r": 1490,
+"tm": 120,
+"ctx": "Num recipiente de 1,0 dm³ coloca-se 0,10 mol de butano gasoso, que isomeriza: butano ⇌ isobutano, com K = 2,5. Qual a concentração de isobutano no equilíbrio, em mol/dm³?",
+"a": 0.0714,
+"u": "mol/dm³",
+"tol": 0.02,
+"d": [
+[
+"Tabela início, reage, equilíbrio",
+"Chame de x o que reagiu e escreva as concentrações no equilíbrio em função de x.",
+""
+],
+[
+"Constante de equilíbrio",
+"K = [produtos]/[reagentes].",
+""
+]
+],
+"h": [
+"Equilíbrio: [isobutano] = x e [butano] = 0,10 − x.",
+"x/(0,10 − x) = 2,5 → x = 0,25 − 2,5x → 3,5x = 0,25.",
+"x ≈ <b>0,071 mol/dm³</b>."
+]
+},
+{
+"id": "1987-2-qui-14",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 1987, 2ª fase, Química, questão 14",
+"r": 1280,
+"tm": 75,
+"ctx": "O etanol, oxidado pelo ar com catalisador, forma ácido acético. Esse ácido reage com etanol e forma um composto A. Quem é A?",
+"opts": [
+"acetato de etila (etanoato de etila), um éster",
+"éter dietílico",
+"acetaldeído (etanal)",
+"acetato de sódio"
+],
+"a": 0,
+"d": [
+[
+"Esterificação",
+"Ácido carboxílico + álcool → éster + água.",
+"ácido + álcool: R–COOH + R'–OH → R–COO–R' + H<sub>2</sub>O"
+],
+[
+"Oxidação de álcool primário",
+"Álcool primário → aldeído → ácido carboxílico.",
+""
+]
+],
+"h": [
+"Oxidação: C<sub>2</sub>H<sub>5</sub>OH + O<sub>2</sub> → CH<sub>3</sub>COOH + H<sub>2</sub>O.",
+"Ácido + álcool: CH<sub>3</sub>COOH + C<sub>2</sub>H<sub>5</sub>OH → CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub> + H<sub>2</sub>O.",
+"A é o <b>acetato de etila</b>."
+]
+},
+{
+"id": "1987-2-qui-15",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 1987, 2ª fase, Química, questão 15",
+"r": 1150,
+"tm": 60,
+"ctx": "Dois frascos têm pós brancos sem cheiro: um é cloreto de sódio, o outro é açúcar (sacarose). Sem provar, como identificar cada um?",
+"opts": [
+"Dissolver em água e testar a condutividade elétrica: só a solução de NaCl conduz",
+"Dissolver em água: só o NaCl se dissolve",
+"Observar a cor da solução",
+"Pesar os dois pós"
+],
+"a": 0,
+"d": [
+[
+"Compostos iônicos × moleculares",
+"Iônicos dissolvidos liberam íons e conduzem eletricidade; moleculares como o açúcar não.",
+""
+]
+],
+"h": [
+"NaCl é iônico: em água se dissocia em Na<sup>+</sup> e Cl<sup>−</sup>.",
+"Sacarose é molecular: dissolve, mas não forma íons.",
+"A solução que <b>conduz corrente</b> é a de NaCl (aquecer também serve: o açúcar carameliza e escurece)."
+]
+},
+{
+"id": "1987-2-qui-16",
+"ano": 1987,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 1987, 2ª fase, Química, questão 16",
+"r": 940,
+"tm": 45,
+"ctx": "Um copo de vidro com água bem gelada fica molhado por fora. Hipótese A: a água atravessa o vidro. Hipótese B: o vapor d'água do ar se condensa ao tocar o copo frio. Qual hipótese explica melhor?",
+"opts": [
+"B: o vapor do ar se condensa na superfície fria",
+"A: o vidro é permeável à água",
+"As duas igualmente",
+"Nenhuma: a água sai por evaporação"
+],
+"a": 0,
+"d": [
+[
+"Condensação",
+"Vapor que encontra uma superfície fria perde energia e volta a ser líquido.",
+""
+],
+[
+"Teste da hipótese",
+"Se fosse A, o copo também molharia com água morna e com o copo tampado no ar seco.",
+""
+]
+],
+"h": [
+"O vidro é impermeável: com água em temperatura ambiente o copo não molha por fora.",
+"O ar tem vapor d'água; perto do copo gelado ele esfria e condensa.",
+"A hipótese <b>B</b> é a correta."
+]
+}
+]

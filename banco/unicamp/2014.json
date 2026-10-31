@@ -1,0 +1,2543 @@
+[
+{
+"id": "2014-1-25",
+"ano": 2014,
+"fase": 1,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2014, 1ª fase, questão 25",
+"r": 1420,
+"tm": 90,
+"ctx": "Na readequação de alguns estádios de futebol, por conta de uma atitude ecológica coerente, milhares de assentos serão produzidos a partir de garrafas PET. Para cada assento serão necessárias cerca de 100 garrafas PET de capacidade de 600 mL e massa de 18 g cada uma. Pode-se afirmar que a redução de volume do material reaproveitado para a fabricação dos assentos será, aproximadamente, igual a (Dados: densidade do PET = 1,3 g/cm³. Considere que no reaproveitamento do PET não ocorre perda de massa, e que o volume externo da garrafa é de 600 mL.)",
+"opts": [
+"97,7%",
+"2,3%",
+"33,3%",
+"66,6%"
+],
+"a": 0,
+"d": [
+[
+"Volume a partir da densidade",
+"d = m/V ⟹ V = m/d. Com m em g e d em g/cm³, V sai em cm³ (1 cm³ = 1 mL).",
+"Ex.: 26 g de um material de densidade 1,3 g/cm³ ocupam 20 cm³."
+],
+[
+"Redução percentual",
+"Redução = (V<sub>antes</sub> − V<sub>depois</sub>)/V<sub>antes</sub> × 100.",
+""
+]
+],
+"h": [
+"Antes: 100 garrafas × 600 mL = 60 000 cm³ (o volume que as garrafas ocupam).",
+"Depois: massa 100 × 18 g = 1800 g de PET compacto ⟹ V = 1800/1,3 ≈ 1385 cm³.",
+"Redução = (60 000 − 1385)/60 000 ≈ 0,977 = <b>97,7%</b>."
+]
+},
+{
+"id": "2014-1-26",
+"ano": 2014,
+"fase": 1,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2014, 1ª fase, questão 26",
+"r": 1240,
+"tm": 60,
+"ctx": "O uso mais popular do cloreto de sódio é na cozinha, onde é utilizado para acrescentar sabor a uma infinidade de alimentos e também como conservante e material de limpeza. É na indústria química, no entanto, que ele é mais consumido. São inúmeros os processos que fazem uso de produtos do processamento desse sal. O uso industrial do cloreto de sódio se dá principalmente no processo de obtenção de alguns importantes produtos de sua eletrólise em meio aquoso. Simplificadamente, esse processo é feito pela passagem de uma corrente elétrica em uma solução aquosa desse sal. Pode-se afirmar que, a partir desse processo, seriam obtidos:",
+"opts": [
+"gás hidrogênio, gás cloro e hidróxido de sódio em solução.",
+"gás hidrogênio, gás oxigênio e ácido clorídrico.",
+"gás hidrogênio, gás cloro e ácido clorídrico.",
+"gás hidrogênio, gás oxigênio e hidróxido de sódio em solução."
+],
+"a": 0,
+"d": [
+[
+"Eletrólise em solução aquosa",
+"No cátodo (polo −), quem se reduz é a água ou o cátion; Na⁺ é muito difícil de reduzir, então a água forma H₂ e OH⁻. No ânodo (polo +), Cl⁻ se oxida mais facilmente que a água, formando Cl₂.",
+"Ex.: na eletrólise de KCl(aq) formam-se H₂, Cl₂ e KOH."
+]
+],
+"h": [
+"Cátodo: 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻.",
+"Ânodo: 2 Cl⁻ → Cl₂ + 2 e⁻. Na solução restam Na⁺ e OH⁻: NaOH.",
+"Produtos: <b>H₂, Cl₂ e NaOH em solução</b>."
+]
+},
+{
+"id": "2014-1-27",
+"ano": 2014,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2014, 1ª fase, questão 27",
+"r": 1420,
+"tm": 75,
+"ctx": "O uso mais popular do cloreto de sódio é na cozinha, onde é utilizado para acrescentar sabor a uma infinidade de alimentos e também como conservante e material de limpeza. É na indústria química, no entanto, que ele é mais consumido. São inúmeros os processos que fazem uso de produtos do processamento desse sal. Obtém-se um sal de cozinha do tipo <i>light</i> substituindo-se uma parte do sal comum por cloreto de potássio. Esse produto é indicado para pessoas com problemas de pressão arterial alta. Sabendo-se que a massa molar do sódio é menor que a do potássio, pode-se afirmar que, para uma mesma massa dos dois tipos de sal, no tipo <i>light</i> há",
+"opts": [
+"menos íons cloreto e menos íons sódio do que no sal comum.",
+"menos íons cloreto e mais íons sódio do que no sal comum.",
+"mais íons cloreto e menos íons sódio do que no sal comum.",
+"mais íons cloreto e mais íons sódio do que no sal comum."
+],
+"a": 0,
+"d": [
+[
+"Mesma massa, massas molares diferentes",
+"n = m/M: para a mesma massa, a substância de maior massa molar fornece menos mols. Cada mol de NaCl ou de KCl fornece 1 mol de Cl⁻.",
+"Ex.: 10 g de NaCl (M ≈ 58,5) ≈ 0,17 mol; 10 g de KCl (M ≈ 74,5) ≈ 0,13 mol."
+]
+],
+"h": [
+"Parte do NaCl é trocada por KCl, de massa molar maior: na mesma massa de sal há menos mols de sal no total ⟹ menos Cl⁻.",
+"Como parte do NaCl saiu, há também menos Na⁺.",
+"Resposta: <b>menos íons cloreto e menos íons sódio</b>."
+]
+},
+{
+"id": "2014-1-28",
+"ano": 2014,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2014, 1ª fase, questão 28",
+"r": 1590,
+"tm": 60,
+"ctx": "Recentemente encontrou-se um verdadeiro “fatberg”, um iceberg de gordura com cerca de 15 toneladas, nas tubulações de esgoto de uma região de Londres. Esse “fatberg”, resultado do descarte inadequado de gorduras e óleo usados em frituras, poderia ser reaproveitado na produção de",
+"opts": [
+"biodiesel, por transesterificação em meio básico.",
+"sabão, por hidrólise em meio salino.",
+"sabão, por transesterificação em meio salino.",
+"biodiesel, por hidrólise em meio básico."
+],
+"a": 0,
+"d": [
+[
+"Destinos de óleos e gorduras (triglicerídeos)",
+"Saponificação: hidrólise em meio básico (NaOH) ⟹ sabão + glicerol. Transesterificação: reação com um álcool (metanol ou etanol), catalisada por base ⟹ ésteres do biodiesel + glicerol.",
+""
+]
+],
+"h": [
+"As alternativas ligam sabão ao meio salino (errado: sabão exige base) e biodiesel à hidrólise (errado: hidrólise não forma ésteres).",
+"Biodiesel se faz por transesterificação com álcool, em meio básico.",
+"Resposta: <b>biodiesel, por transesterificação em meio básico</b>."
+]
+},
+{
+"id": "2014-1-29",
+"ano": 2014,
+"fase": 1,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2014, 1ª fase, questão 29",
+"r": 1110,
+"tm": 45,
+"ctx": "A matriz energética brasileira tem se diversificado bastante nos últimos anos, em razão do aumento da demanda de energia, da grande extensão do território brasileiro e das exigências ambientais. Considerando-se as diferentes fontes para obtenção de energia, pode-se afirmar que é vantajoso utilizar",
+"opts": [
+"resíduos orgânicos, pois o processo aproveita matéria disponível e sem destino apropriado.",
+"carvão mineral, pois é um recurso natural e renovável.",
+"energia hidrelétrica, pois é uma energia limpa e sua geração não causa dano ambiental.",
+"energia nuclear, pois ela usa uma fonte renovável e não gera resíduo químico."
+],
+"a": 0,
+"d": [
+[
+"Avalie cada justificativa",
+"Uma alternativa só está certa se a justificativa também estiver. Combustíveis fósseis e minério de urânio não são renováveis; toda usina tem algum impacto ambiental.",
+""
+]
+],
+"h": [
+"Carvão mineral é fóssil (não renovável); urânio é minério (não renovável) e gera rejeito radioativo.",
+"Hidrelétricas alagam áreas e afetam rios: há dano ambiental.",
+"Resposta: <b>resíduos orgânicos</b> (biomassa sem destino, como bagaço e lixo orgânico)."
+]
+},
+{
+"id": "2014-1-30",
+"ano": 2014,
+"fase": 1,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2014, 1ª fase, questão 30",
+"r": 1350,
+"tm": 45,
+"ctx": "Em setembro de 2011, no Rio Grande do Sul, pessoas alegaram ter sofrido queimaduras depois de beberem um achocolatado. Em março de 2013, um caso semelhante voltou a ocorrer, agora com um suco de maçã. Em função de problemas semelhantes durante o processo de higienização, o achocolatado foi contaminado por água sanitária e o suco de maçã substituído por soda cáustica 2,5%. Pode-se afirmar que, comparados aos produtos não contaminados, os líquidos que causaram problemas aos consumidores apresentavam-se",
+"opts": [
+"mais básicos e, portanto, com maiores valores de pH.",
+"mais ácidos e, portanto, com maiores valores de pH.",
+"mais ácidos e, portanto, com menores valores de pH.",
+"mais básicos e, portanto, com menores valores de pH."
+],
+"a": 0,
+"d": [
+[
+"Caráter das soluções de limpeza",
+"Soda cáustica é NaOH (base forte); água sanitária é solução de hipoclorito de sódio, também básica.",
+""
+],
+[
+"pH",
+"Quanto mais básico, maior o pH (acima de 7); quanto mais ácido, menor.",
+""
+]
+],
+"h": [
+"Os contaminantes (NaOH e hipoclorito) são básicos.",
+"Mais básico ⟹ pH maior.",
+"Resposta: <b>mais básicos, com maiores valores de pH</b>."
+]
+},
+{
+"id": "2014-1-31",
+"ano": 2014,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2014, 1ª fase, questão 31",
+"r": 1190,
+"tm": 75,
+"ctx": "Andar de bondinho no complexo do Pão de Açúcar no Rio de Janeiro é um dos passeios aéreos urbanos mais famosos do mundo. Marca registrada da cidade, o Morro do Pão de Açúcar é constituído de um único bloco de granito, despido de vegetação em sua quase totalidade e tem mais de 600 milhões de anos. O passeio completo inclui um trecho de bondinho de aproximadamente 540 m, da Praia Vermelha ao Morro da Urca, uma caminhada até a segunda estação no Morro da Urca, e um segundo trecho de bondinho de cerca de 720 m, do Morro da Urca ao Pão de Açúcar. A velocidade escalar média do bondinho no primeiro trecho é v₁ = 10,8 km/h e, no segundo, é v₂ = 14,4 km/h. Supondo que, em certo dia, o tempo gasto na caminhada no Morro da Urca somado ao tempo de espera nas estações é de 30 minutos, o tempo total do passeio completo da Praia Vermelha até o Pão de Açúcar será igual a",
+"opts": [
+"36 min.",
+"33 min.",
+"42 min.",
+"50 min."
+],
+"a": 0,
+"d": [
+[
+"Tempo em cada trecho",
+"Δt = d/v. Passe km/h para m/s dividindo por 3,6, para usar as distâncias em metros.",
+"Ex.: 7,2 km/h = 2 m/s; 300 m levam 150 s."
+]
+],
+"h": [
+"1º trecho: 10,8 km/h = 3 m/s ⟹ 540/3 = 180 s = 3 min.",
+"2º trecho: 14,4 km/h = 4 m/s ⟹ 720/4 = 180 s = 3 min.",
+"Total: 3 + 30 + 3 = <b>36 min</b>."
+]
+},
+{
+"id": "2014-1-32",
+"ano": 2014,
+"fase": 1,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2014, 1ª fase, questão 32",
+"r": 1190,
+"tm": 60,
+"ctx": "Andar de bondinho no complexo do Pão de Açúcar no Rio de Janeiro é um dos passeios aéreos urbanos mais famosos do mundo. Marca registrada da cidade, o Morro do Pão de Açúcar é constituído de um único bloco de granito, despido de vegetação em sua quase totalidade e tem mais de 600 milhões de anos. A altura do Morro da Urca é de 220 m e a altura do Pão de Açúcar é de cerca de 400 m, ambas em relação ao solo. A variação da energia potencial gravitacional do bondinho com passageiros de massa total M = 5000 kg, no segundo trecho do passeio (do Morro da Urca ao Pão de Açúcar), é (Use g = 10 m/s².)",
+"opts": [
+"9 × 10⁶ J.",
+"11 × 10⁶ J.",
+"20 × 10⁶ J.",
+"31 × 10⁶ J."
+],
+"a": 0,
+"d": [
+[
+"Energia potencial gravitacional",
+"ΔEp = m·g·Δh: só importa a diferença de altura entre o fim e o começo do trecho.",
+"Ex.: 100 kg subindo de 10 m para 30 m ⟹ ΔEp = 100 × 10 × 20 = 2 × 10⁴ J."
+]
+],
+"h": [
+"Δh = 400 − 220 = 180 m.",
+"ΔEp = 5000 × 10 × 180.",
+"ΔEp = <b>9 × 10⁶ J</b>."
+]
+},
+{
+"id": "2014-1-33",
+"ano": 2014,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2014, 1ª fase, questão 33",
+"r": 1210,
+"tm": 60,
+"ctx": "As máquinas cortadeiras e colheitadeiras de cana-de-açúcar podem substituir dezenas de trabalhadores rurais, o que pode alterar de forma significativa a relação de trabalho nas lavouras de cana-de-açúcar. A pá cortadeira da máquina ilustrada na figura gira em movimento circular uniforme a uma frequência de 300 rpm. A velocidade de um ponto extremo P da pá vale (Considere π ≈ 3.)",
+"fig": "<svg viewBox='0 0 120 100' class='fg' role='img' aria-label='pá cortadeira vista de frente, com dentes em volta de um eixo central; uma circunferência tracejada passa pelas pontas dos dentes; o ponto P fica na extremidade da pá, a uma distância R = 60 cm do eixo'><g fill='none' stroke='currentColor'><polygon points='28.0,50.0 44.7,40.0 45.0,20.6 62.0,30.0 79.0,20.6 79.3,40.0 96.0,50.0 79.3,60.0 79.0,79.4 62.0,70.0 45.0,79.4 44.7,60.0' fill='currentColor' fill-opacity='0.3' stroke-width='0.8'/><circle cx='62' cy='50' r='34' stroke-width='0.6' stroke-dasharray='2 1.5'/><g stroke-width='0.9'><line x1='62.0' y1='50.0' x2='28.0' y2='50.0'/></g></g><g fill='currentColor'><circle cx='62' cy='50' r='3'/><circle cx='28' cy='50' r='1.8'/><text x='25.0' y='52.0' text-anchor='end' font-size='7'>P</text><text x='45.0' y='59.0' text-anchor='middle' font-size='6'>R = 60 cm</text></g></svg>",
+"opts": [
+"18 m/s.",
+"9 m/s.",
+"15 m/s.",
+"60 m/s."
+],
+"a": 0,
+"d": [
+[
+"Frequência em hertz",
+"rpm é rotações por minuto; divida por 60 para obter rotações por segundo (Hz).",
+"Ex.: 120 rpm = 2 Hz."
+],
+[
+"Velocidade no movimento circular",
+"v = 2πR·f, com R em metros e f em Hz.",
+""
+]
+],
+"h": [
+"f = 300/60 = 5 Hz; R = 60 cm = 0,6 m.",
+"v = 2 × 3 × 0,6 × 5.",
+"v = <b>18 m/s</b>."
+]
+},
+{
+"id": "2014-1-34",
+"ano": 2014,
+"fase": 1,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2014, 1ª fase, questão 34",
+"r": 1540,
+"tm": 75,
+"ctx": "Uma boia de sinalização marítima muito simples pode ser construída unindo-se dois cilindros de mesmas dimensões e de densidades diferentes, sendo um de densidade menor e outro de densidade maior que a da água, tal como esquematizado na figura. Submergindo-se totalmente esta boia de sinalização na água, quais serão os pontos efetivos mais prováveis de aplicação das forças Peso e Empuxo?",
+"fig": "<svg viewBox='0 0 160 62' class='fg' role='img' aria-label='boia formada por dois cilindros iguais unidos pelas bases, deitados; o da esquerda tem densidade menor que a da água e o da direita, densidade maior; sobre o eixo, perto da junção, estão os pontos A (um pouco à esquerda da junção), B (exatamente na junção, no centro da boia) e C (um pouco à direita da junção)'><g stroke='currentColor' stroke-width='0.8'><rect x='20' y='26' width='60' height='22' fill='currentColor' fill-opacity='0.15'/><rect x='80' y='26' width='60' height='22' fill='currentColor' fill-opacity='0.55'/></g><g fill='currentColor'><text x='50.0' y='13.0' text-anchor='middle' font-size='6.5'>densidade</text><text x='50.0' y='21.0' text-anchor='middle' font-size='6.5'>menor</text><text x='110.0' y='13.0' text-anchor='middle' font-size='6.5'>densidade</text><text x='110.0' y='21.0' text-anchor='middle' font-size='6.5'>maior</text><circle cx='72' cy='37' r='1.8' fill='currentColor'/><text x='72.0' y='57.0' text-anchor='middle' font-size='6.5'>A</text><circle cx='80' cy='37' r='1.8' fill='currentColor'/><text x='80.0' y='57.0' text-anchor='middle' font-size='6.5'>B</text><circle cx='88' cy='37' r='1.8' fill='currentColor'/><text x='88.0' y='57.0' text-anchor='middle' font-size='6.5'>C</text></g></svg>",
+"opts": [
+"Peso em C e Empuxo em B.",
+"Peso em B e Empuxo em B.",
+"Peso em C e Empuxo em A.",
+"Peso em B e Empuxo em C."
+],
+"a": 0,
+"d": [
+[
+"Onde age o peso",
+"O peso atua no centro de massa, que fica deslocado para o lado com mais massa.",
+"Ex.: num martelo, o centro de massa fica perto da cabeça de ferro."
+],
+[
+"Onde age o empuxo",
+"O empuxo atua no centro do volume de líquido deslocado (centro de carena). Totalmente submersa, ele é o centro geométrico do corpo, que não depende de como a massa está distribuída.",
+""
+]
+],
+"h": [
+"Os dois cilindros têm o mesmo volume: o centro geométrico do conjunto é a junção, B ⟹ empuxo em B.",
+"O cilindro da direita é mais denso (mais massa): o centro de massa se desloca para a direita, C ⟹ peso em C.",
+"Resposta: <b>Peso em C e Empuxo em B</b>."
+]
+},
+{
+"id": "2014-1-35",
+"ano": 2014,
+"fase": 1,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2014, 1ª fase, questão 35",
+"r": 1210,
+"tm": 45,
+"ctx": "A tecnologia de telefonia celular 4G passou a ser utilizada no Brasil em 2013, como parte da iniciativa de melhoria geral dos serviços no Brasil, em preparação para a Copa do Mundo de 2014. Algumas operadoras inauguraram serviços com ondas eletromagnéticas na frequência de 40 MHz. Sendo a velocidade da luz no vácuo c = 3,0 × 10⁸ m/s, o comprimento de onda dessas ondas eletromagnéticas é",
+"opts": [
+"7,5 m.",
+"1,2 m.",
+"5,0 m.",
+"12,0 m."
+],
+"a": 0,
+"d": [
+[
+"Equação fundamental da onda",
+"v = λ·f ⟹ λ = v/f; 1 MHz = 10⁶ Hz.",
+"Ex.: 3 × 10⁸ m/s a 60 MHz ⟹ λ = 5 m."
+]
+],
+"h": [
+"f = 40 MHz = 4 × 10⁷ Hz.",
+"λ = 3,0 × 10⁸/4 × 10⁷.",
+"λ = <b>7,5 m</b>."
+]
+},
+{
+"id": "2014-1-36",
+"ano": 2014,
+"fase": 1,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2014, 1ª fase, questão 36",
+"r": 1200,
+"tm": 75,
+"ctx": "A atração e a repulsão entre partículas carregadas têm inúmeras aplicações industriais, tal como a pintura eletrostática. A figura mostra um conjunto de partículas carregadas, nos vértices de um quadrado de lado a, que exercem forças eletrostáticas sobre a carga A (−q) no centro desse quadrado. Na situação apresentada, a força resultante agindo sobre a carga A é",
+"fig": "<svg viewBox='0 0 120 86' class='fg' role='img' aria-label='quadrado de lado a com cargas nos vértices: em cima à esquerda +q, em cima à direita −2q, embaixo à esquerda +q e embaixo à direita −2q; no centro do quadrado está a carga A, igual a −q'><g fill='none' stroke='currentColor' stroke-width='0.6' stroke-dasharray='2 1.5'><rect x='30' y='12' width='60' height='60'/></g><g fill='currentColor'><circle cx='30' cy='12' r='3.2'/><text x='24.0' y='9.0' text-anchor='end' font-size='7'>+q</text><circle cx='90' cy='12' r='3.2'/><text x='96.0' y='9.0' text-anchor='start' font-size='7'>−2q</text><circle cx='30' cy='72' r='3.2'/><text x='24.0' y='82.0' text-anchor='end' font-size='7'>+q</text><circle cx='90' cy='72' r='3.2'/><text x='96.0' y='82.0' text-anchor='start' font-size='7'>−2q</text><circle cx='60' cy='42' r='3.2'/><text x='60.0' y='34.0' text-anchor='middle' font-size='7'>−q</text><text x='60.0' y='53.0' text-anchor='middle' font-size='7'>A</text><text x='60.0' y='8.0' text-anchor='middle' font-size='7'>a</text><text x='60.0' y='82.0' text-anchor='middle' font-size='7'>a</text><text x='24.0' y='45.0' text-anchor='end' font-size='7'>a</text><text x='96.0' y='45.0' text-anchor='start' font-size='7'>a</text></g></svg>",
+"opts": [
+"horizontal, apontando para a esquerda (para o lado das cargas +q).",
+"horizontal, apontando para a direita (para o lado das cargas −2q).",
+"inclinada, apontando para baixo e para a esquerda.",
+"inclinada, apontando para cima e para a direita."
+],
+"a": 0,
+"d": [
+[
+"Sentido de cada força",
+"Cargas de sinais opostos se atraem (a força aponta para a outra carga); cargas de mesmo sinal se repelem (a força aponta para longe dela).",
+""
+],
+[
+"Simetria",
+"Cargas iguais em posições simétricas dão forças de mesmo módulo: as componentes perpendiculares ao eixo de simetria se cancelam.",
+""
+]
+],
+"h": [
+"As duas cargas +q atraem A (−q) para a esquerda (uma para cima, outra para baixo): sobra componente para a esquerda.",
+"As duas cargas −2q repelem A, empurrando-a para longe da direita: também para a esquerda.",
+"As componentes verticais se cancelam por simetria: força <b>horizontal, para a esquerda</b>."
+]
+},
+{
+"id": "2014-1-37",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2014, 1ª fase, questão 37",
+"r": 1110,
+"tm": 75,
+"ctx": "A figura exibe, em porcentagem, a previsão da oferta de energia no Brasil em 2030, segundo o Plano Nacional de Energia. Segundo o plano, em 2030, a oferta total de energia do país irá atingir 557 milhões de tep (toneladas equivalentes de petróleo). Nesse caso, podemos prever que a parcela oriunda de fontes renováveis, indicada em cinza na figura, equivalerá a",
+"fig": "<svg viewBox='0 0 210 128' class='fg' role='img' aria-label='gráfico de setores com a previsão da oferta de energia no Brasil em 2030, em porcentagem. Em branco: gás natural 15,5; petróleo e derivados 28; urânio 3; carvão mineral 6,9. Em cinza, as fontes renováveis: lenha e carvão vegetal 5,5; produtos de cana 18,5; hidráulica 13,5; outras fontes renováveis 9,1'><g stroke='currentColor'><path d='M100,62 L100.0,20.0 A42,42 0 0 1 134.7,38.4 Z' fill='currentColor' fill-opacity='0.04' stroke-width='0.7'/><path d='M100,62 L134.7,38.4 A42,42 0 0 1 116.7,100.5 Z' fill='currentColor' fill-opacity='0.04' stroke-width='0.7'/><path d='M100,62 L116.7,100.5 A42,42 0 0 1 109.2,103.0 Z' fill='currentColor' fill-opacity='0.04' stroke-width='0.7'/><path d='M100,62 L109.2,103.0 A42,42 0 0 1 91.1,103.0 Z' fill='currentColor' fill-opacity='0.04' stroke-width='0.7'/><path d='M100,62 L91.1,103.0 A42,42 0 0 1 77.7,97.6 Z' fill='currentColor' fill-opacity='0.45' stroke-width='0.7'/><path d='M100,62 L77.7,97.6 A42,42 0 0 1 58.5,55.7 Z' fill='currentColor' fill-opacity='0.45' stroke-width='0.7'/><path d='M100,62 L58.5,55.7 A42,42 0 0 1 77.3,26.7 Z' fill='currentColor' fill-opacity='0.45' stroke-width='0.7'/><path d='M100,62 L77.3,26.7 A42,42 0 0 1 100.0,20.0 Z' fill='currentColor' fill-opacity='0.45' stroke-width='0.7'/><g stroke-width='0.5' fill='none'><line x1='113.0' y1='101.9' x2='140.0' y2='108.0'/><line x1='100.0' y1='104.0' x2='100.0' y2='114.0'/><line x1='84.3' y1='100.9' x2='64.0' y2='112.0'/></g></g><g fill='currentColor'><text x='124.0' y='16.0' text-anchor='start' font-size='5.5'>Gás natural 15,5</text><text x='148.0' y='72.0' text-anchor='start' font-size='5.5'>Petróleo e derivados 28</text><text x='141.0' y='112.0' text-anchor='start' font-size='5.5'>Urânio 3</text><text x='100.0' y='121.0' text-anchor='middle' font-size='5.5'>Carvão mineral 6,9</text><text x='62.0' y='114.0' text-anchor='end' font-size='5.5'>Lenha e carvão vegetal 5,5</text><text x='54.0' y='86.0' text-anchor='end' font-size='5.5'>Produtos de cana 18,5</text><text x='56.0' y='34.0' text-anchor='end' font-size='5.5'>Hidráulica 13,5</text><text x='84.0' y='12.0' text-anchor='end' font-size='5.5'>Outras fontes renováveis 9,1</text></g></svg>",
+"opts": [
+"259,562 milhões de tep.",
+"178,240 milhões de tep.",
+"297,995 milhões de tep.",
+"353,138 milhões de tep."
+],
+"a": 0,
+"d": [
+[
+"Porcentagem de um total",
+"Some as porcentagens das partes pedidas e aplique ao total: parte = (soma %/100) × total.",
+"Ex.: 30% + 20% de 400 = 0,5 × 400 = 200."
+]
+],
+"h": [
+"Setores cinza: 9,1 + 13,5 + 18,5 + 5,5 = 46,6%.",
+"0,466 × 557.",
+"= <b>259,562 milhões de tep</b>."
+]
+},
+{
+"id": "2014-1-38",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2014, 1ª fase, questão 38",
+"r": 1310,
+"tm": 75,
+"ctx": "Um investidor dispõe de R$ 200,00 por mês para adquirir o maior número possível de ações de certa empresa. No primeiro mês, o preço de cada ação era R$ 9,00. No segundo mês houve uma desvalorização e esse preço caiu para R$ 7,00. No terceiro mês, com o preço unitário das ações a R$ 8,00, o investidor resolveu vender o total de ações que possuía. Sabendo que só é permitida a negociação de um número inteiro de ações, podemos concluir que com a compra e venda de ações o investidor teve",
+"opts": [
+"lucro de R$ 6,00.",
+"nem lucro nem prejuízo.",
+"prejuízo de R$ 6,00.",
+"lucro de R$ 6,50."
+],
+"a": 0,
+"d": [
+[
+"Divisão com quociente inteiro",
+"O número de ações compradas é o quociente inteiro de 200 pelo preço; o resto não é gasto.",
+"Ex.: com R$ 50 e ações a R$ 6, compram-se 8 ações (R$ 48) e sobram R$ 2."
+],
+[
+"Lucro",
+"Lucro = valor recebido na venda − valor efetivamente gasto nas compras.",
+""
+]
+],
+"h": [
+"Mês 1: 200 ÷ 9 ⟹ 22 ações, gasto R$ 198. Mês 2: 200 ÷ 7 ⟹ 28 ações, gasto R$ 196.",
+"Total: 50 ações, gasto R$ 394. Venda: 50 × 8 = R$ 400.",
+"Lucro = 400 − 394 = <b>R$ 6,00</b>."
+]
+},
+{
+"id": "2014-1-39",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2014, 1ª fase, questão 39",
+"r": 1300,
+"tm": 75,
+"ctx": "O perímetro de um triângulo retângulo é igual a 6,0 m e as medidas dos lados estão em progressão aritmética (PA). A área desse triângulo é igual a",
+"opts": [
+"1,5 m².",
+"3,0 m².",
+"2,0 m².",
+"3,5 m²."
+],
+"a": 0,
+"d": [
+[
+"Três termos de uma PA",
+"Escreva os lados como x − r, x, x + r: a soma é 3x, o que dá x direto pelo perímetro.",
+""
+],
+[
+"Pitágoras",
+"No triângulo retângulo, o maior lado é a hipotenusa: (x − r)² + x² = (x + r)².",
+""
+]
+],
+"h": [
+"3x = 6 ⟹ x = 2.",
+"(2 − r)² + 4 = (2 + r)² ⟹ 4 = 8r ⟹ r = 0,5: lados 1,5; 2; 2,5.",
+"Área = 1,5 × 2/2 = <b>1,5 m²</b>."
+]
+},
+{
+"id": "2014-1-40",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2014, 1ª fase, questão 40",
+"r": 1260,
+"tm": 90,
+"ctx": "Um caixa eletrônico de certo banco dispõe apenas de cédulas de 20 e 50 reais. No caso de um saque de 400 reais, a probabilidade do número de cédulas entregues ser ímpar é igual a",
+"opts": [
+"2/5.",
+"1/4.",
+"2/3.",
+"3/5."
+],
+"a": 0,
+"d": [
+[
+"Listar as soluções inteiras",
+"Resolva 20x + 50y = 400 com x, y inteiros ≥ 0: simplifique (2x + 5y = 40) e teste os valores de y que deixam 40 − 5y par.",
+""
+],
+[
+"Espaço amostral",
+"Considere cada forma possível de compor o saque como igualmente provável; P = formas favoráveis/total de formas.",
+""
+]
+],
+"h": [
+"2x + 5y = 40 ⟹ y par: (x, y) = (20, 0), (15, 2), (10, 4), (5, 6), (0, 8).",
+"Totais de cédulas: 20, 17, 14, 11, 8 ⟹ ímpares: 17 e 11.",
+"P = <b>2/5</b>."
+]
+},
+{
+"id": "2014-1-41",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2014, 1ª fase, questão 41",
+"r": 1340,
+"tm": 90,
+"ctx": "Considere as funções f e g, cujos gráficos estão representados na figura. O valor de f(g(1)) − g(f(1)) é igual a",
+"fig": "<svg viewBox='0 0 160 128' class='fg' role='img' aria-label='gráficos de duas funções no plano cartesiano. y = f(x), linha cheia, é um V com vértice em (1, −1), passando por (0, 1), (0,5; 0) e (1,5; 0). y = g(x), tracejada, é uma curva de terceiro grau que corta o eixo x em −1, 1 e 2, passa por (0, 2), tem máximo perto de 2,1 logo à esquerda do eixo y e mínimo perto de −0,6 entre x = 1 e x = 2'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='2.0' y1='112' x2='2.0' y2='12'/><line x1='17.0' y1='112' x2='17.0' y2='12'/><line x1='32.0' y1='112' x2='32.0' y2='12'/><line x1='47.0' y1='112' x2='47.0' y2='12'/><line x1='62.0' y1='112' x2='62.0' y2='12'/><line x1='77.0' y1='112' x2='77.0' y2='12'/><line x1='92.0' y1='112' x2='92.0' y2='12'/><line x1='107.0' y1='112' x2='107.0' y2='12'/><line x1='122.0' y1='112' x2='122.0' y2='12'/><line x1='137.0' y1='112' x2='137.0' y2='12'/><line x1='152.0' y1='112' x2='152.0' y2='12'/><line x1='2' y1='112.0' x2='152' y2='112.0'/><line x1='2' y1='102.0' x2='152' y2='102.0'/><line x1='2' y1='92.0' x2='152' y2='92.0'/><line x1='2' y1='82.0' x2='152' y2='82.0'/><line x1='2' y1='72.0' x2='152' y2='72.0'/><line x1='2' y1='62.0' x2='152' y2='62.0'/><line x1='2' y1='52.0' x2='152' y2='52.0'/><line x1='2' y1='42.0' x2='152' y2='42.0'/><line x1='2' y1='32.0' x2='152' y2='32.0'/><line x1='2' y1='22.0' x2='152' y2='22.0'/><line x1='2' y1='12.0' x2='152' y2='12.0'/></g><g stroke-width='0.8'><line x1='-1.0' y1='72.0' x2='155.0' y2='72.0'/><line x1='62.0' y1='120.0' x2='62.0' y2='8.0'/></g><polyline points='33.5,14.0 92.0,92.0 150.5,14.0' stroke-width='1.2'/><polyline points='24.8,106.8 25.4,103.5 26.0,100.2 26.6,97.0 27.2,93.8 27.8,90.8 28.4,87.9 29.0,85.0 29.6,82.3 30.2,79.6 30.8,77.0 31.4,74.4 32.0,72.0 32.6,69.6 33.2,67.4 33.8,65.2 34.4,63.0 35.0,61.0 35.6,59.0 36.2,57.1 36.8,55.3 37.4,53.5 38.0,51.8 38.6,50.2 39.2,48.7 39.8,47.2 40.4,45.8 41.0,44.5 41.6,43.2 42.2,42.0 42.8,40.8 43.4,39.7 44.0,38.7 44.6,37.8 45.2,36.9 45.8,36.0 46.4,35.2 47.0,34.5 47.6,33.8 48.2,33.2 48.8,32.6 49.4,32.1 50.0,31.7 50.6,31.3 51.2,30.9 51.8,30.6 52.4,30.4 53.0,30.1 53.6,30.0 54.2,29.9 54.8,29.8 55.4,29.7 56.0,29.8 56.6,29.8 57.2,29.9 57.8,30.0 58.4,30.2 59.0,30.4 59.6,30.7 60.2,30.9 60.8,31.3 61.4,31.6 62.0,32.0 62.6,32.4 63.2,32.9 63.8,33.3 64.4,33.8 65.0,34.4 65.6,34.9 66.2,35.5 66.8,36.1 67.4,36.8 68.0,37.4 68.6,38.1 69.2,38.8 69.8,39.6 70.4,40.3 71.0,41.1 71.6,41.8 72.2,42.6 72.8,43.5 73.4,44.3 74.0,45.1 74.6,46.0 75.2,46.8 75.8,47.7 76.4,48.6 77.0,49.5 77.6,50.4 78.2,51.3 78.8,52.2 79.4,53.2 80.0,54.1 80.6,55.0 81.2,55.9 81.8,56.9 82.4,57.8 83.0,58.7 83.6,59.7 84.2,60.6 84.8,61.5 85.4,62.4 86.0,63.4 86.6,64.3 87.2,65.2 87.8,66.1 88.4,66.9 89.0,67.8 89.6,68.7 90.2,69.5 90.8,70.4 91.4,71.2 92.0,72.0 92.6,72.8 93.2,73.6 93.8,74.3 94.4,75.1 95.0,75.8 95.6,76.5 96.2,77.2 96.8,77.8 97.4,78.4 98.0,79.0 98.6,79.6 99.2,80.2 99.8,80.7 100.4,81.2 101.0,81.7 101.6,82.1 102.2,82.5 102.8,82.9 103.4,83.2 104.0,83.5 104.6,83.8 105.2,84.0 105.8,84.2 106.4,84.4 107.0,84.5 107.6,84.6 108.2,84.6 108.8,84.6 109.4,84.6 110.0,84.5 110.6,84.3 111.2,84.2 111.8,83.9 112.4,83.7 113.0,83.3 113.6,83.0 114.2,82.5 114.8,82.1 115.4,81.5 116.0,81.0 116.6,80.3 117.2,79.6 117.8,78.9 118.4,78.1 119.0,77.2 119.6,76.3 120.2,75.3 120.8,74.3 121.4,73.2 122.0,72.0 122.6,70.8 123.2,69.5 123.8,68.1 124.4,66.7 125.0,65.2 125.6,63.6 126.2,62.0 126.8,60.3 127.4,58.5 128.0,56.6 128.6,54.7 129.2,52.7 129.8,50.6 130.4,48.5 131.0,46.3 131.6,44.0 132.2,41.6 132.8,39.1 133.4,36.6 134.0,33.9 134.6,31.2 135.2,28.4 135.8,25.5 136.4,22.6 137.0,19.5 137.6,16.4 138.2,13.1' stroke-width='1.1' stroke-dasharray='3 1.5'/></g><g fill='currentColor'><text x='2.0' y='79.0' text-anchor='middle' font-size='5.5'>−2</text><text x='32.0' y='79.0' text-anchor='middle' font-size='5.5'>−1</text><text x='92.0' y='79.0' text-anchor='middle' font-size='5.5'>1</text><text x='122.0' y='79.0' text-anchor='middle' font-size='5.5'>2</text><text x='60.0' y='94.0' text-anchor='end' font-size='5.5'>−1</text><text x='60.0' y='54.0' text-anchor='end' font-size='5.5'>1</text><text x='60.0' y='34.0' text-anchor='end' font-size='5.5'>2</text><text x='29.5' y='16.0' text-anchor='end' font-size='6'>y = f(x)</text><text x='27.5' y='116.0' text-anchor='start' font-size='6'>y = g(x)</text><text x='64.0' y='10.0' text-anchor='start' font-size='6'>y</text><text x='155.0' y='70.0' text-anchor='end' font-size='6'>x</text></g></svg>",
+"opts": [
+"1.",
+"0.",
+"−1.",
+"2."
+],
+"a": 0,
+"d": [
+[
+"Função composta",
+"f(g(1)): calcule primeiro g(1) e depois aplique f a esse resultado. A ordem importa.",
+"Ex.: se g(2) = 5 e f(5) = 0, então f(g(2)) = 0."
+],
+[
+"Leitura no gráfico",
+"g(a) é a altura do gráfico de g sobre x = a. Pontos onde o gráfico corta o eixo x têm valor 0.",
+""
+]
+],
+"h": [
+"g(1) = 0 (o gráfico de g corta o eixo x em 1) ⟹ f(g(1)) = f(0) = 1.",
+"f(1) = −1 (vértice do V) ⟹ g(f(1)) = g(−1) = 0.",
+"f(g(1)) − g(f(1)) = 1 − 0 = <b>1</b>."
+]
+},
+{
+"id": "2014-1-42",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2014, 1ª fase, questão 42",
+"r": 1430,
+"tm": 90,
+"ctx": "Seja x real tal que cos x = tan x. O valor de sen x é",
+"opts": [
+"(√5 − 1)/2.",
+"(√3 − 1)/2.",
+"(1 − √3)/2.",
+"(1 − √5)/2."
+],
+"a": 0,
+"d": [
+[
+"Escrever tudo em seno",
+"tan x = sen x/cos x; multiplique por cos x e use cos²x = 1 − sen²x para ficar só com sen x.",
+""
+],
+[
+"Equação do 2º grau e restrição",
+"Resolva para s = sen x e descarte valores fora de [−1, 1].",
+""
+]
+],
+"h": [
+"cos x = sen x/cos x ⟹ cos²x = sen x ⟹ 1 − s² = s ⟹ s² + s − 1 = 0.",
+"s = (−1 ± √5)/2; a raiz (−1 − √5)/2 ≈ −1,6 é menor que −1 e não serve.",
+"sen x = <b>(√5 − 1)/2</b>."
+]
+},
+{
+"id": "2014-1-43",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "arit",
+"src": "Unicamp 2014, 1ª fase, questão 43",
+"r": 1120,
+"tm": 45,
+"ctx": "A razão entre a idade de Pedro e a de seu pai é igual a 2/9. Se a soma das duas idades é igual a 55 anos, então Pedro tem",
+"opts": [
+"10 anos.",
+"12 anos.",
+"13 anos.",
+"15 anos."
+],
+"a": 0,
+"d": [
+[
+"Razão em partes",
+"Razão 2/9 significa que as idades são 2k e 9k para algum k. A soma vale 11k.",
+"Ex.: razão 1/3 e soma 40 ⟹ 4k = 40 ⟹ idades 10 e 30."
+]
+],
+"h": [
+"Pedro = 2k e pai = 9k.",
+"2k + 9k = 55 ⟹ k = 5.",
+"Pedro tem <b>10 anos</b> (e o pai, 45)."
+]
+},
+{
+"id": "2014-1-44",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2014, 1ª fase, questão 44",
+"r": 1250,
+"tm": 60,
+"ctx": "No plano cartesiano, a reta de equação 2x − 3y = 12 intercepta os eixos coordenados nos pontos A e B. O ponto médio do segmento AB tem coordenadas",
+"opts": [
+"(3, −2).",
+"(4, 4/3).",
+"(3, 2).",
+"(4, −4/3)."
+],
+"a": 0,
+"d": [
+[
+"Interseções com os eixos",
+"Com o eixo x, faça y = 0; com o eixo y, faça x = 0.",
+""
+],
+[
+"Ponto médio",
+"M = ((x<sub>A</sub> + x<sub>B</sub>)/2, (y<sub>A</sub> + y<sub>B</sub>)/2).",
+""
+]
+],
+"h": [
+"y = 0 ⟹ x = 6: A = (6, 0). x = 0 ⟹ y = −4: B = (0, −4).",
+"M = ((6 + 0)/2, (0 − 4)/2).",
+"M = <b>(3, −2)</b>."
+]
+},
+{
+"id": "2014-1-45",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2014, 1ª fase, questão 45",
+"r": 1320,
+"tm": 45,
+"ctx": "Considere um cilindro circular reto. Se o raio da base for reduzido pela metade e a altura for duplicada, o volume do cilindro",
+"opts": [
+"é reduzido em 50%.",
+"aumenta em 50%.",
+"permanece o mesmo.",
+"é reduzido em 25%."
+],
+"a": 0,
+"d": [
+[
+"Volume do cilindro",
+"V = πr²h: o raio entra ao quadrado, então dividir o raio por 2 divide o volume por 4.",
+""
+]
+],
+"h": [
+"V′ = π(r/2)²·(2h) = πr²h·(1/4)·2.",
+"V′ = V/2.",
+"O volume <b>é reduzido em 50%</b>."
+]
+},
+{
+"id": "2014-1-46",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2014, 1ª fase, questão 46",
+"r": 1380,
+"tm": 60,
+"ctx": "O gráfico exibe a curva de potencial biótico q(t) para uma população de microorganismos, ao longo do tempo t. Sendo a e b constantes reais, a função que pode representar esse potencial é",
+"fig": "<svg viewBox='0 0 160 108' class='fg' role='img' aria-label='gráfico da curva q(t) para t de 0 a 5: começa em 1000 em t = 0 e cresce cada vez mais depressa, passando por cerca de 1500 em t = 1, 2250 em t = 2, 3400 em t = 3, 5000 em t = 4 e 7600 em t = 5'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='50.0' y1='96.0' x2='50.0' y2='8.0'/><line x1='74.0' y1='96.0' x2='74.0' y2='8.0'/><line x1='98.0' y1='96.0' x2='98.0' y2='8.0'/><line x1='122.0' y1='96.0' x2='122.0' y2='8.0'/><line x1='146.0' y1='96.0' x2='146.0' y2='8.0'/><line x1='26' y1='85.0' x2='150.8' y2='85.0'/><line x1='26' y1='74.0' x2='150.8' y2='74.0'/><line x1='26' y1='63.0' x2='150.8' y2='63.0'/><line x1='26' y1='52.0' x2='150.8' y2='52.0'/><line x1='26' y1='41.0' x2='150.8' y2='41.0'/><line x1='26' y1='30.0' x2='150.8' y2='30.0'/><line x1='26' y1='19.0' x2='150.8' y2='19.0'/><line x1='26' y1='8.0' x2='150.8' y2='8.0'/></g><line x1='26' y1='96.0' x2='158.0' y2='96.0' stroke-width='1'/><line x1='26' y1='96.0' x2='26' y2='4.700000000000003' stroke-width='1'/><path d='M26.0,85.0 C27.0,84.8 30.0,84.2 32.0,83.8 C34.0,83.4 36.0,83.0 38.0,82.5 C40.0,82.1 42.0,81.6 44.0,81.1 C46.0,80.6 48.0,80.1 50.0,79.5 C52.0,78.9 54.0,78.4 56.0,77.7 C58.0,77.1 60.0,76.5 62.0,75.8 C64.0,75.1 66.0,74.4 68.0,73.6 C70.0,72.9 72.0,72.1 74.0,71.2 C76.0,70.4 78.0,69.5 80.0,68.6 C82.0,67.7 84.0,66.7 86.0,65.7 C88.0,64.7 90.0,63.6 92.0,62.5 C94.0,61.3 96.0,60.1 98.0,58.9 C100.0,57.6 102.0,56.3 104.0,54.9 C106.0,53.5 108.0,52.1 110.0,50.5 C112.0,49.0 114.0,47.4 116.0,45.7 C118.0,44.0 120.0,42.2 122.0,40.3 C124.0,38.4 126.0,36.5 128.0,34.4 C130.0,32.3 132.0,30.1 134.0,27.8 C136.0,25.5 138.0,23.1 140.0,20.5 C142.0,18.0 145.0,13.8 146.0,12.5' stroke-width='1.3'/></g><g fill='currentColor'><text x='26.0' y='103.0' text-anchor='middle' font-size='5.5'>0</text><text x='50.0' y='103.0' text-anchor='middle' font-size='5.5'>1</text><text x='74.0' y='103.0' text-anchor='middle' font-size='5.5'>2</text><text x='98.0' y='103.0' text-anchor='middle' font-size='5.5'>3</text><text x='122.0' y='103.0' text-anchor='middle' font-size='5.5'>4</text><text x='146.0' y='103.0' text-anchor='middle' font-size='5.5'>5</text><text x='24.0' y='87.0' text-anchor='end' font-size='5.5'>1000</text><text x='24.0' y='76.0' text-anchor='end' font-size='5.5'>2000</text><text x='24.0' y='65.0' text-anchor='end' font-size='5.5'>3000</text><text x='24.0' y='54.0' text-anchor='end' font-size='5.5'>4000</text><text x='24.0' y='43.0' text-anchor='end' font-size='5.5'>5000</text><text x='24.0' y='32.0' text-anchor='end' font-size='5.5'>6000</text><text x='24.0' y='21.0' text-anchor='end' font-size='5.5'>7000</text><text x='24.0' y='10.0' text-anchor='end' font-size='5.5'>8000</text><text x='158.0' y='94.0' text-anchor='end' font-size='6.5'>t</text><text x='29.0' y='5.0' text-anchor='start' font-size='6.5'>q(t)</text></g></svg>",
+"opts": [
+"q(t) = a·bᵗ.",
+"q(t) = at + b.",
+"q(t) = at² + bt.",
+"q(t) = a + log<sub>b</sub> t."
+],
+"a": 0,
+"d": [
+[
+"Reconhecer o tipo de crescimento",
+"Função afim: reta. Quadrática da forma at² + bt: passa pela origem. Logarítmica: não é definida em t = 0 e cresce cada vez mais devagar. Exponencial a·bᵗ (b > 1): vale a em t = 0 e cresce cada vez mais depressa.",
+""
+]
+],
+"h": [
+"A curva não é reta, não passa pela origem (q(0) = 1000) e está definida em t = 0.",
+"Ela cresce cada vez mais rápido: de 1 em 1 unidade de t, q é multiplicado por cerca de 1,5.",
+"Resposta: <b>q(t) = a·bᵗ</b> (com a = 1000 e b ≈ 1,5)."
+]
+},
+{
+"id": "2014-1-47",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2014, 1ª fase, questão 47",
+"r": 1480,
+"tm": 60,
+"ctx": "O módulo do número complexo z = i²⁰¹⁴ − i¹⁹⁸⁷ é igual a",
+"opts": [
+"√2.",
+"0.",
+"√3.",
+"1."
+],
+"a": 0,
+"d": [
+[
+"Potências de i",
+"iⁿ depende só do resto de n por 4: resto 0 → 1; 1 → i; 2 → −1; 3 → −i.",
+"Ex.: i¹⁰³ = i³ = −i (103 deixa resto 3)."
+],
+[
+"Módulo",
+"|a + bi| = √(a² + b²).",
+""
+]
+],
+"h": [
+"2014 deixa resto 2 ⟹ i²⁰¹⁴ = −1; 1987 deixa resto 3 ⟹ i¹⁹⁸⁷ = −i.",
+"z = −1 − (−i) = −1 + i.",
+"|z| = √(1 + 1) = <b>√2</b>."
+]
+},
+{
+"id": "2014-1-48",
+"ano": 2014,
+"fase": 1,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2014, 1ª fase, questão 48",
+"r": 1330,
+"tm": 90,
+"ctx": "Considere a matriz M = [1 a 1; b 1 a; 1 b 1] (linhas separadas por ponto e vírgula), onde a e b são números reais distintos. Podemos afirmar que",
+"opts": [
+"o determinante de M é positivo.",
+"a matriz M não é invertível.",
+"o determinante de M é igual a a² − b².",
+"a matriz M é igual à sua transposta."
+],
+"a": 0,
+"d": [
+[
+"Determinante 3 × 3",
+"Use a regra de Sarrus ou o desenvolvimento pela primeira linha: det = 1·(1·1 − a·b) − a·(b·1 − a·1) + 1·(b·b − 1·1).",
+""
+],
+[
+"Quadrado de uma diferença",
+"a² − 2ab + b² = (a − b)², que é positivo quando a ≠ b.",
+""
+]
+],
+"h": [
+"det M = (1 − ab) − a(b − a) + (b² − 1) = 1 − ab − ab + a² + b² − 1.",
+"det M = a² − 2ab + b² = (a − b)².",
+"Como a ≠ b, (a − b)² > 0: <b>o determinante é positivo</b> (e M é invertível)."
+]
+},
+{
+"id": "2014-2-mat-13a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 13(a)",
+"r": 1230,
+"tm": 45,
+"ctx": "A pizza é, sem dúvida, o alimento preferido de muitos paulistas. Estima-se que o consumo diário no Brasil seja de 1,5 milhão de pizzas, sendo o Estado de São Paulo responsável por 53% desse consumo. O gráfico exibe a preferência do consumidor paulista em relação aos tipos de pizza. Se não for considerado o consumo do Estado de São Paulo, quantas pizzas são consumidas diariamente no Brasil?",
+"fig": "<svg viewBox='0 0 160 108' class='fg' role='img' aria-label='gráfico de setores da preferência do consumidor paulista por tipo de pizza: mozarela 35%, calabresa 25%, marguerita 22% e outras 18%'><g stroke='currentColor'><path d='M60,56 L60.0,16.0 A40,40 0 0 1 96.2,39.0 Z' fill='currentColor' fill-opacity='0.04' stroke-width='0.7'/><path d='M60,56 L96.2,39.0 A40,40 0 0 1 83.5,88.4 Z' fill='currentColor' fill-opacity='0.3' stroke-width='0.7'/><path d='M60,56 L83.5,88.4 A40,40 0 0 1 27.6,79.5 Z' fill='currentColor' fill-opacity='0.6' stroke-width='0.7'/><path d='M60,56 L27.6,79.5 A40,40 0 0 1 60.0,16.0 Z' fill='currentColor' fill-opacity='0.9' stroke-width='0.7'/></g><g fill='currentColor'><text x='85.2' y='16.3' text-anchor='start' font-size='6'>18%</text><text x='106.5' y='67.9' text-anchor='start' font-size='6'>22%</text><text x='52.5' y='103.4' text-anchor='middle' font-size='6'>25%</text><text x='18.1' y='34.7' text-anchor='end' font-size='6'>35%</text><rect x='116' y='14' width='7' height='7' fill='currentColor' fill-opacity='0.9' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='20.0' text-anchor='start' font-size='6'>mozarela</text><rect x='116' y='25' width='7' height='7' fill='currentColor' fill-opacity='0.6' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='31.0' text-anchor='start' font-size='6'>calabresa</text><rect x='116' y='36' width='7' height='7' fill='currentColor' fill-opacity='0.3' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='42.0' text-anchor='start' font-size='6'>marguerita</text><rect x='116' y='47' width='7' height='7' fill='currentColor' fill-opacity='0.04' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='53.0' text-anchor='start' font-size='6'>outras</text></g></svg>",
+"a": 705000,
+"u": "pizzas",
+"tol": 0.005,
+"d": [
+[
+"Porcentagem do restante",
+"Se uma parte corresponde a p% do total, o restante é (100 − p)% do total.",
+"Ex.: se 40% de 2000 são de um estado, os outros consomem 60% × 2000 = 1200."
+]
+],
+"h": [
+"Fora de SP: 100% − 53% = 47%.",
+"0,47 × 1 500 000.",
+"= <b>705 000 pizzas</b> por dia."
+]
+},
+{
+"id": "2014-2-mat-13b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 13(b)",
+"r": 1400,
+"tm": 60,
+"ctx": "A pizza é, sem dúvida, o alimento preferido de muitos paulistas. Estima-se que o consumo diário no Brasil seja de 1,5 milhão de pizzas, sendo o Estado de São Paulo responsável por 53% desse consumo. O gráfico exibe a preferência do consumidor paulista em relação aos tipos de pizza. Quantas pizzas de mozarela e de calabresa são consumidas diariamente no Estado de São Paulo?",
+"fig": "<svg viewBox='0 0 160 108' class='fg' role='img' aria-label='gráfico de setores da preferência do consumidor paulista por tipo de pizza: mozarela 35%, calabresa 25%, marguerita 22% e outras 18%'><g stroke='currentColor'><path d='M60,56 L60.0,16.0 A40,40 0 0 1 96.2,39.0 Z' fill='currentColor' fill-opacity='0.04' stroke-width='0.7'/><path d='M60,56 L96.2,39.0 A40,40 0 0 1 83.5,88.4 Z' fill='currentColor' fill-opacity='0.3' stroke-width='0.7'/><path d='M60,56 L83.5,88.4 A40,40 0 0 1 27.6,79.5 Z' fill='currentColor' fill-opacity='0.6' stroke-width='0.7'/><path d='M60,56 L27.6,79.5 A40,40 0 0 1 60.0,16.0 Z' fill='currentColor' fill-opacity='0.9' stroke-width='0.7'/></g><g fill='currentColor'><text x='85.2' y='16.3' text-anchor='start' font-size='6'>18%</text><text x='106.5' y='67.9' text-anchor='start' font-size='6'>22%</text><text x='52.5' y='103.4' text-anchor='middle' font-size='6'>25%</text><text x='18.1' y='34.7' text-anchor='end' font-size='6'>35%</text><rect x='116' y='14' width='7' height='7' fill='currentColor' fill-opacity='0.9' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='20.0' text-anchor='start' font-size='6'>mozarela</text><rect x='116' y='25' width='7' height='7' fill='currentColor' fill-opacity='0.6' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='31.0' text-anchor='start' font-size='6'>calabresa</text><rect x='116' y='36' width='7' height='7' fill='currentColor' fill-opacity='0.3' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='42.0' text-anchor='start' font-size='6'>marguerita</text><rect x='116' y='47' width='7' height='7' fill='currentColor' fill-opacity='0.04' stroke='currentColor' stroke-width='0.5'/><text x='126.0' y='53.0' text-anchor='start' font-size='6'>outras</text></g></svg>",
+"a": 477000,
+"u": "pizzas",
+"tol": 0.005,
+"d": [
+[
+"Porcentagem de porcentagem",
+"Primeiro ache o consumo de SP (53% do total); depois aplique a fatia do gráfico a esse consumo de SP.",
+"Ex.: 50% de 40% de 1000 = 0,5 × 0,4 × 1000 = 200."
+]
+],
+"h": [
+"Mozarela + calabresa = 35% + 25% = 60% do consumo paulista.",
+"Consumo de SP: 0,53 × 1,5 milhão = 795 000.",
+"0,60 × 795 000 = <b>477 000 pizzas</b>."
+]
+},
+{
+"id": "2014-2-mat-14a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 14(a)",
+"r": 1580,
+"tm": 60,
+"ctx": "O peso médio (média aritmética dos pesos) dos 100 alunos de uma academia de ginástica é igual a 75 kg. O peso médio dos homens é 90 kg e o das mulheres é 65 kg. Quantos homens frequentam a academia?",
+"a": 40,
+"u": "homens",
+"tol": 0.005,
+"d": [
+[
+"Média ponderada",
+"Soma total = média × quantidade. A soma de todos é a soma dos homens (90·H) mais a das mulheres (65·M).",
+"Ex.: 3 pessoas de média 10 e 2 de média 20 ⟹ média geral (30 + 40)/5 = 14."
+]
+],
+"h": [
+"H + M = 100 e 90H + 65M = 75 × 100 = 7500.",
+"M = 100 − H ⟹ 90H + 6500 − 65H = 7500 ⟹ 25H = 1000.",
+"H = <b>40 homens</b>."
+]
+},
+{
+"id": "2014-2-mat-14b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 14(b)",
+"r": 1660,
+"tm": 60,
+"ctx": "O peso médio (média aritmética dos pesos) dos 100 alunos de uma academia de ginástica é igual a 75 kg. O peso médio dos homens é 90 kg e o das mulheres é 65 kg. Se não são considerados os 10 alunos mais pesados, o peso médio cai de 75 kg para 72 kg. Qual é o peso médio, em kg, desses 10 alunos?",
+"a": 102,
+"u": "kg",
+"tol": 0.005,
+"d": [
+[
+"Retirar um grupo de uma média",
+"Soma dos que ficaram = soma total − soma dos retirados; e soma = média × número de pessoas.",
+"Ex.: 10 notas de média 6 (soma 60); retirando 2 notas de soma 18, os 8 restantes têm média 42/8 = 5,25."
+]
+],
+"h": [
+"Soma total: 100 × 75 = 7500 kg. Soma dos 90 restantes: 90 × 72 = 6480 kg.",
+"Soma dos 10 mais pesados: 7500 − 6480 = 1020 kg.",
+"Média deles: <b>102 kg</b>."
+]
+},
+{
+"id": "2014-2-mat-15a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 15(a) (adaptada para múltipla escolha)",
+"r": 1400,
+"tm": 60,
+"ctx": "O consumo mensal de água nas residências de uma pequena cidade é cobrado como se descreve a seguir. Para um consumo mensal de até 10 metros cúbicos, o preço é fixo e igual a 20 reais. Para um consumo superior, o preço é de 20 reais acrescidos de 4 reais por metro cúbico consumido acima dos 10 metros cúbicos. Considere a função c(x) que associa o gasto mensal com o consumo de x metros cúbicos de água. Para x entre 0 e 30, o gráfico de c(x) é",
+"opts": [
+"um segmento horizontal na altura 20 de x = 0 a x = 10, seguido de um segmento de reta crescente de (10, 20) até (30, 100).",
+"um único segmento de reta crescente de (0, 20) até (30, 140).",
+"um segmento crescente de (0, 0) até (10, 20), seguido de um segmento horizontal na altura 20 até x = 30.",
+"um segmento horizontal na altura 20 de x = 0 a x = 10, seguido de um segmento de reta crescente de (10, 20) até (30, 120)."
+],
+"a": 0,
+"d": [
+[
+"Função definida por partes",
+"Escreva uma expressão para cada faixa de consumo: até 10 m³ a conta é constante; acima disso, some 4 reais para cada m³ que passa de 10, isto é, 4(x − 10).",
+"Ex.: com 12 m³, paga-se 20 + 4 × 2 = 28 reais."
+]
+],
+"h": [
+"0 ≤ x ≤ 10: c(x) = 20 (trecho horizontal).",
+"x > 10: c(x) = 20 + 4(x − 10) = 4x − 20, reta crescente; c(30) = 100.",
+"Gráfico: <b>horizontal em 20 até x = 10 e depois reta de (10, 20) a (30, 100)</b>."
+]
+},
+{
+"id": "2014-2-mat-15b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 15(b) (adaptada para múltipla escolha)",
+"r": 1440,
+"tm": 60,
+"ctx": "O consumo mensal de água nas residências de uma pequena cidade é cobrado como se descreve a seguir. Para um consumo mensal de até 10 metros cúbicos, o preço é fixo e igual a 20 reais. Para um consumo superior, o preço é de 20 reais acrescidos de 4 reais por metro cúbico consumido acima dos 10 metros cúbicos. Considere a função c(x) que associa o gasto mensal com o consumo de x metros cúbicos de água. Qual é o preço efetivamente pago por metro cúbico para um consumo mensal de 4 metros cúbicos? E para um consumo mensal de 25 metros cúbicos?",
+"opts": [
+"R$ 5,00 por m³ e R$ 3,20 por m³.",
+"R$ 5,00 por m³ e R$ 4,00 por m³.",
+"R$ 2,00 por m³ e R$ 3,20 por m³.",
+"R$ 5,00 por m³ e R$ 3,40 por m³."
+],
+"a": 0,
+"d": [
+[
+"Preço médio",
+"Preço efetivo por m³ = conta total ÷ consumo.",
+""
+],
+[
+"Conta acima da faixa fixa",
+"Para x > 10: c(x) = 20 + 4(x − 10).",
+""
+]
+],
+"h": [
+"4 m³: conta de R$ 20 ⟹ 20/4 = R$ 5,00 por m³.",
+"25 m³: 20 + 4 × 15 = R$ 80 ⟹ 80/25 = R$ 3,20 por m³.",
+"Resposta: <b>R$ 5,00 e R$ 3,20 por m³</b>."
+]
+},
+{
+"id": "2014-2-mat-16a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 16(a) (adaptada para múltipla escolha)",
+"r": 1750,
+"tm": 60,
+"ctx": "Uma loteria sorteia três números distintos entre doze números possíveis. Para uma aposta em três números, qual é a probabilidade de acerto?",
+"opts": [
+"1/220",
+"1/1320",
+"1/36",
+"3/12"
+],
+"a": 0,
+"d": [
+[
+"Combinações",
+"A ordem do sorteio não importa: o número de resultados é C(n, k) = n!/(k!(n − k)!).",
+"Ex.: C(10, 2) = 10 × 9/2 = 45."
+]
+],
+"h": [
+"Resultados possíveis: C(12, 3) = 12 × 11 × 10/6 = 220.",
+"Uma aposta de três números cobre um único resultado.",
+"P = <b>1/220</b> ≈ 0,45%."
+]
+},
+{
+"id": "2014-2-mat-16b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "cont",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 16(b)",
+"r": 1910,
+"tm": 75,
+"ctx": "Uma loteria sorteia três números distintos entre doze números possíveis. Se a aposta em três números custa R$ 2,00, quanto deveria custar, em reais, uma aposta em cinco números?",
+"a": 20,
+"u": "reais",
+"tol": 0.005,
+"d": [
+[
+"Aposta múltipla",
+"Uma aposta em 5 números vale por todas as apostas de 3 números que dá para formar com eles: C(5, 3) apostas simples.",
+"Ex.: apostar em 4 números equivale a C(4, 3) = 4 apostas de 3."
+]
+],
+"h": [
+"C(5, 3) = 5 × 4 × 3/6 = 10 apostas simples.",
+"Preço justo: 10 × R$ 2,00.",
+"= <b>R$ 20,00</b>."
+]
+},
+{
+"id": "2014-2-mat-17a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 17(a) (adaptada para múltipla escolha)",
+"r": 1340,
+"tm": 75,
+"ctx": "Considere um hexágono, como o exibido na figura, com cinco lados com comprimento de 1 cm e um lado com comprimento de x cm. Encontre o valor de x, em cm.",
+"fig": "<svg viewBox='0 0 150 108' class='fg' role='img' aria-label='hexágono com um vértice O embaixo, de onde saem diagonais finas; partindo de O, os lados medem 1, 1, 1, 1 e 1, cada um perpendicular ao segmento que liga O ao vértice anterior, formando quatro triângulos retângulos encadeados; o sexto lado, que volta a O, mede x; alfa é o ângulo do hexágono no vértice O'><g fill='none' stroke='currentColor'><polygon points='92.0,100.0 130.0,100.0 130.0,62.0 103.1,35.1 65.7,28.7 30.0,41.9' fill='currentColor' fill-opacity='0.08' stroke-width='1'/><g stroke-width='0.5'><line x1='92.0' y1='100.0' x2='130.0' y2='62.0'/><line x1='92.0' y1='100.0' x2='103.1' y2='35.1'/><line x1='92.0' y1='100.0' x2='65.7' y2='28.7'/></g><polyline points='127.0,100.0 127.0,97.0 130.0,97.0' stroke-width='0.5'/><polyline points='127.9,64.1 125.8,62.0 127.9,59.9' stroke-width='0.5'/><polyline points='102.6,38.1 99.7,37.6 100.2,34.6' stroke-width='0.5'/><polyline points='66.7,31.5 63.9,32.6 62.9,29.7' stroke-width='0.5'/><path d='M86.2,94.5 A8,8 0 0 1 100.0,100.0' stroke-width='0.6'/></g><g fill='currentColor'><text x='90.0' y='107.0' text-anchor='middle' font-size='6.5'>O</text><text x='94.0' y='90.0' text-anchor='middle' font-size='6.5'>α</text><text x='111.0' y='107.0' text-anchor='middle' font-size='6.5'>1</text><text x='134.0' y='83.0' text-anchor='middle' font-size='6.5'>1</text><text x='120.6' y='46.6' text-anchor='middle' font-size='6.5'>1</text><text x='84.4' y='28.9' text-anchor='middle' font-size='6.5'>1</text><text x='44.9' y='32.3' text-anchor='middle' font-size='6.5'>1</text><text x='58.0' y='76.9' text-anchor='end' font-size='7'>x</text></g></svg>",
+"opts": [
+"√5",
+"√6",
+"2",
+"5"
+],
+"a": 0,
+"d": [
+[
+"Triângulos retângulos encadeados",
+"Cada diagonal que sai de O é a hipotenusa de um triângulo retângulo e, ao mesmo tempo, um cateto do triângulo seguinte (o outro cateto é um lado de 1 cm).",
+"Ex.: catetos 1 e 1 ⟹ hipotenusa √2; catetos √2 e 1 ⟹ hipotenusa √3."
+]
+],
+"h": [
+"Hipotenusas sucessivas: √(1 + 1) = √2; √(2 + 1) = √3; √(3 + 1) = 2.",
+"Último triângulo: catetos 2 e 1 ⟹ hipotenusa √(4 + 1).",
+"x = <b>√5 cm</b>."
+]
+},
+{
+"id": "2014-2-mat-17b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 17(b) (adaptada para múltipla escolha)",
+"r": 1860,
+"tm": 120,
+"ctx": "Considere um hexágono, como o exibido na figura, com cinco lados com comprimento de 1 cm e um lado com comprimento de x cm. O ângulo α do hexágono no vértice O é a soma dos ângulos em O dos quatro triângulos retângulos. Qual afirmação justifica que α é inferior a 150°?",
+"fig": "<svg viewBox='0 0 150 108' class='fg' role='img' aria-label='hexágono com um vértice O embaixo, de onde saem diagonais finas; partindo de O, os lados medem 1, 1, 1, 1 e 1, cada um perpendicular ao segmento que liga O ao vértice anterior, formando quatro triângulos retângulos encadeados; o sexto lado, que volta a O, mede x; alfa é o ângulo do hexágono no vértice O'><g fill='none' stroke='currentColor'><polygon points='92.0,100.0 130.0,100.0 130.0,62.0 103.1,35.1 65.7,28.7 30.0,41.9' fill='currentColor' fill-opacity='0.08' stroke-width='1'/><g stroke-width='0.5'><line x1='92.0' y1='100.0' x2='130.0' y2='62.0'/><line x1='92.0' y1='100.0' x2='103.1' y2='35.1'/><line x1='92.0' y1='100.0' x2='65.7' y2='28.7'/></g><polyline points='127.0,100.0 127.0,97.0 130.0,97.0' stroke-width='0.5'/><polyline points='127.9,64.1 125.8,62.0 127.9,59.9' stroke-width='0.5'/><polyline points='102.6,38.1 99.7,37.6 100.2,34.6' stroke-width='0.5'/><polyline points='66.7,31.5 63.9,32.6 62.9,29.7' stroke-width='0.5'/><path d='M86.2,94.5 A8,8 0 0 1 100.0,100.0' stroke-width='0.6'/></g><g fill='currentColor'><text x='90.0' y='107.0' text-anchor='middle' font-size='6.5'>O</text><text x='94.0' y='90.0' text-anchor='middle' font-size='6.5'>α</text><text x='111.0' y='107.0' text-anchor='middle' font-size='6.5'>1</text><text x='134.0' y='83.0' text-anchor='middle' font-size='6.5'>1</text><text x='120.6' y='46.6' text-anchor='middle' font-size='6.5'>1</text><text x='84.4' y='28.9' text-anchor='middle' font-size='6.5'>1</text><text x='44.9' y='32.3' text-anchor='middle' font-size='6.5'>1</text><text x='58.0' y='76.9' text-anchor='end' font-size='7'>x</text></g></svg>",
+"opts": [
+"Os ângulos em O medem 45°, arctan(1/√2), 30° e arctan(1/2); como arctan(1/√2) < 45° e arctan(1/2) < 30°, a soma é menor que 45° + 45° + 30° + 30° = 150°.",
+"Os quatro ângulos em O medem 45° cada, logo α = 180° − 45° = 135° < 150°.",
+"Os ângulos em O medem 45°, 30°, 30° e 30°, logo α = 135° < 150°.",
+"O hexágono é regular, logo cada ângulo interno mede 120° < 150°."
+],
+"a": 0,
+"d": [
+[
+"Ângulo em O de cada triângulo",
+"Num triângulo retângulo, tan(ângulo) = cateto oposto/cateto adjacente. Em O, o cateto oposto é o lado de 1 cm e o adjacente é a diagonal anterior (1, √2, √3, 2).",
+""
+],
+[
+"Comparar sem calculadora",
+"A tangente é crescente entre 0° e 90°: se tan θ < tan 45° = 1, então θ < 45°; se tan θ < tan 30° = 1/√3, então θ < 30°.",
+""
+]
+],
+"h": [
+"Ângulos em O: arctan(1/1) = 45°, arctan(1/√2), arctan(1/√3) = 30° e arctan(1/2).",
+"1/√2 < 1 ⟹ arctan(1/√2) < 45°; 1/2 < 1/√3 ≈ 0,577 ⟹ arctan(1/2) < 30°.",
+"α < 45° + 45° + 30° + 30° = 150° (na verdade α ≈ 136,8°): <b>a soma dos quatro ângulos é menor que 150°</b>."
+]
+},
+{
+"id": "2014-2-mat-18a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 18(a) (adaptada para múltipla escolha)",
+"r": 1640,
+"tm": 75,
+"ctx": "Sejam a e b reais. Considere as funções quadráticas da forma f(x) = x² + ax + b, definidas para todo x real. Sabendo que o gráfico de y = f(x) intercepta o eixo y no ponto (0, 1) e é tangente ao eixo x, determine os possíveis valores de a e b.",
+"opts": [
+"b = 1 e a = ±2",
+"b = 1 e a = 2, somente",
+"b = 0 e a = ±1",
+"b = 1 e a = ±4"
+],
+"a": 0,
+"d": [
+[
+"Interseção com o eixo y",
+"O gráfico corta o eixo y em (0, f(0)), e f(0) = b.",
+""
+],
+[
+"Tangente ao eixo x",
+"A parábola toca o eixo x num único ponto quando há uma raiz dupla: Δ = a² − 4b = 0.",
+"Ex.: x² + 6x + 9 = (x + 3)² tem Δ = 36 − 36 = 0."
+]
+],
+"h": [
+"f(0) = b = 1.",
+"Δ = a² − 4 × 1 = 0 ⟹ a² = 4.",
+"<b>b = 1 e a = 2 ou a = −2</b>."
+]
+},
+{
+"id": "2014-2-mat-18b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 18(b) (adaptada para múltipla escolha)",
+"r": 1980,
+"tm": 90,
+"ctx": "Sejam a e b reais. Considere as funções quadráticas da forma f(x) = x² + ax + b, definidas para todo x real. Quando a + b = 1, os gráficos dessas funções quadráticas têm um ponto em comum. Determine as coordenadas desse ponto.",
+"opts": [
+"(1, 2)",
+"(0, 1)",
+"(−1, 0)",
+"(1, 1)"
+],
+"a": 0,
+"d": [
+[
+"Ponto comum a uma família",
+"Substitua b = 1 − a e procure um x para o qual o termo com a desapareça: aí f(x) não depende de a e todas as curvas passam pelo mesmo ponto.",
+"Ex.: y = x² + a(x − 2) passa por (2, 4) para qualquer a."
+]
+],
+"h": [
+"f(x) = x² + ax + 1 − a = x² + 1 + a(x − 1).",
+"Em x = 1 o termo com a se anula: f(1) = 1 + 1 = 2, para qualquer a.",
+"Ponto comum: <b>(1, 2)</b>."
+]
+},
+{
+"id": "2014-2-mat-19a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 19(a) (adaptada para múltipla escolha)",
+"r": 1580,
+"tm": 75,
+"ctx": "Dizemos que uma sequência de números reais não nulos (a₁, a₂, a₃, a₄, …) é uma progressão harmônica se a sequência dos inversos (1/a₁, 1/a₂, 1/a₃, 1/a₄, …) é uma progressão aritmética (PA). Dada a progressão harmônica (2/5, 4/9, 1/2, …), encontre o seu sexto termo.",
+"opts": [
+"4/5",
+"5/4",
+"2/3",
+"4/7"
+],
+"a": 0,
+"d": [
+[
+"Trabalhe com os inversos",
+"Inverta cada termo, encontre a razão da PA dos inversos, avance até o termo desejado e inverta de volta no final.",
+"Ex.: (1, 1/2, 1/3, …) tem inversos (1, 2, 3, …): o 5º termo é 1/5."
+]
+],
+"h": [
+"Inversos: 5/2, 9/4, 2, … ⟹ PA de razão 9/4 − 5/2 = −1/4.",
+"Continuando: 7/4, 3/2, 5/4 (sexto termo da PA).",
+"Sexto termo da progressão harmônica: <b>4/5</b>."
+]
+},
+{
+"id": "2014-2-mat-19b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "seq",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 19(b) (adaptada para múltipla escolha)",
+"r": 1690,
+"tm": 90,
+"ctx": "Dizemos que uma sequência de números reais não nulos (a₁, a₂, a₃, a₄, …) é uma progressão harmônica se a sequência dos inversos (1/a₁, 1/a₂, 1/a₃, 1/a₄, …) é uma progressão aritmética (PA). Sejam a, b e c termos consecutivos de uma progressão harmônica. Qual relação entre eles é sempre verdadeira?",
+"opts": [
+"b = 2ac/(a + c)",
+"b = (a + c)/2",
+"b = √(ac)",
+"b = (a + c)/(2ac)"
+],
+"a": 0,
+"d": [
+[
+"Termo do meio de uma PA",
+"Em três termos consecutivos de uma PA, o do meio é a média dos outros dois: 2y = x + z.",
+""
+],
+[
+"Inversos",
+"Aplique isso aos inversos 1/a, 1/b, 1/c e isole b.",
+""
+]
+],
+"h": [
+"1/a, 1/b, 1/c em PA ⟹ 2/b = 1/a + 1/c.",
+"2/b = (a + c)/(ac).",
+"<b>b = 2ac/(a + c)</b> (média harmônica de a e c)."
+]
+},
+{
+"id": "2014-2-mat-20a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 20(a)",
+"r": 1510,
+"tm": 75,
+"ctx": "Considere a pirâmide reta de base quadrada, ilustrada na figura, com lado da base b = 6 m e altura a. Encontre o valor de a, em metros, de modo que a área de uma face triangular seja igual a 15 m².",
+"fig": "<svg viewBox='0 0 160 104' class='fg' role='img' aria-label='pirâmide reta de base quadrada de lado b, desenhada em perspectiva; do vértice do topo, a altura a desce tracejada até o centro da base'><g fill='none' stroke='currentColor'><polygon points='20.0,78.0 84.0,94.0 140.0,74.0 80.0,8.0' fill='currentColor' fill-opacity='0.08' stroke='none'/><g stroke-width='0.9'><line x1='20.0' y1='78.0' x2='84.0' y2='94.0'/><line x1='84.0' y1='94.0' x2='140.0' y2='74.0'/><line x1='80.0' y1='8.0' x2='20.0' y2='78.0'/><line x1='80.0' y1='8.0' x2='84.0' y2='94.0'/><line x1='80.0' y1='8.0' x2='140.0' y2='74.0'/></g><g stroke-width='0.6' stroke-dasharray='2 1.5'><line x1='20.0' y1='78.0' x2='76.0' y2='60.0'/><line x1='76.0' y1='60.0' x2='140.0' y2='74.0'/><line x1='80.0' y1='8.0' x2='76.0' y2='60.0'/><line x1='80.0' y1='8.0' x2='80.0' y2='77.0'/></g></g><g fill='currentColor'><circle cx='80' cy='77' r='1.3'/><text x='83.0' y='45.0' text-anchor='start' font-size='7'>a</text><text x='50.0' y='93.0' text-anchor='middle' font-size='7'>b</text><text x='116.0' y='92.0' text-anchor='middle' font-size='7'>b</text></g></svg>",
+"a": 4,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Altura da face (apótema)",
+"A altura h de uma face triangular liga o topo ao ponto médio de um lado da base. Ela é hipotenusa de um triângulo retângulo cujos catetos são a altura a da pirâmide e metade do lado da base.",
+"Ex.: a = 4 e b/2 = 3 ⟹ h = 5."
+],
+[
+"Área da face",
+"Área = b·h/2.",
+""
+]
+],
+"h": [
+"15 = 6·h/2 ⟹ h = 5 m.",
+"h² = a² + (b/2)² ⟹ 25 = a² + 9.",
+"a = <b>4 m</b>."
+]
+},
+{
+"id": "2014-2-mat-20b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 20(b)",
+"r": 2060,
+"tm": 120,
+"ctx": "Considere a pirâmide reta de base quadrada, ilustrada na figura, com lado da base b = 6 m e altura a. Para a = 2 m, determine o raio, em metros, da esfera circunscrita à pirâmide.",
+"fig": "<svg viewBox='0 0 160 104' class='fg' role='img' aria-label='pirâmide reta de base quadrada de lado b, desenhada em perspectiva; do vértice do topo, a altura a desce tracejada até o centro da base'><g fill='none' stroke='currentColor'><polygon points='20.0,78.0 84.0,94.0 140.0,74.0 80.0,8.0' fill='currentColor' fill-opacity='0.08' stroke='none'/><g stroke-width='0.9'><line x1='20.0' y1='78.0' x2='84.0' y2='94.0'/><line x1='84.0' y1='94.0' x2='140.0' y2='74.0'/><line x1='80.0' y1='8.0' x2='20.0' y2='78.0'/><line x1='80.0' y1='8.0' x2='84.0' y2='94.0'/><line x1='80.0' y1='8.0' x2='140.0' y2='74.0'/></g><g stroke-width='0.6' stroke-dasharray='2 1.5'><line x1='20.0' y1='78.0' x2='76.0' y2='60.0'/><line x1='76.0' y1='60.0' x2='140.0' y2='74.0'/><line x1='80.0' y1='8.0' x2='76.0' y2='60.0'/><line x1='80.0' y1='8.0' x2='80.0' y2='77.0'/></g></g><g fill='currentColor'><circle cx='80' cy='77' r='1.3'/><text x='83.0' y='45.0' text-anchor='start' font-size='7'>a</text><text x='50.0' y='93.0' text-anchor='middle' font-size='7'>b</text><text x='116.0' y='92.0' text-anchor='middle' font-size='7'>b</text></g></svg>",
+"a": 5.5,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Centro da esfera circunscrita",
+"Por simetria, o centro está na reta da altura; ele fica à mesma distância r do topo e de um vértice da base. Ele pode cair abaixo da base, quando a pirâmide é baixa.",
+""
+],
+[
+"Pitágoras com a meia-diagonal",
+"A distância do centro da base a um vértice da base é metade da diagonal: b√2/2. Se o centro da esfera está a uma distância y abaixo do topo, r = y e r² = (y − a)² + (b√2/2)².",
+"Ex.: b = 2 ⟹ meia-diagonal √2."
+]
+],
+"h": [
+"Meia-diagonal da base: 6√2/2 = 3√2 m.",
+"r² = (r − 2)² + (3√2)² ⟹ r² = r² − 4r + 4 + 18 ⟹ 4r = 22.",
+"r = <b>5,5 m</b> (o centro fica 3,5 m abaixo da base)."
+]
+},
+{
+"id": "2014-2-mat-21a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 21(a)",
+"r": 1650,
+"tm": 60,
+"ctx": "A altura (em metros) de um arbusto em uma dada fase de seu desenvolvimento pode ser expressa pela função h(t) = 0,5 + log₃(t + 1), onde o tempo t ≥ 0 é dado em anos. Qual é o tempo necessário, em anos, para que a altura aumente de 0,5 m para 1,5 m?",
+"a": 2,
+"u": "anos",
+"tol": 0.005,
+"d": [
+[
+"Equação logarítmica",
+"log<sub>b</sub> X = k ⟺ X = bᵏ.",
+"Ex.: log₂(t + 3) = 3 ⟹ t + 3 = 8 ⟹ t = 5."
+],
+[
+"Intervalo de tempo",
+"Ache o instante de cada altura e subtraia.",
+""
+]
+],
+"h": [
+"h = 0,5 ⟹ log₃(t + 1) = 0 ⟹ t = 0.",
+"h = 1,5 ⟹ log₃(t + 1) = 1 ⟹ t + 1 = 3 ⟹ t = 2.",
+"Tempo necessário: <b>2 anos</b>."
+]
+},
+{
+"id": "2014-2-mat-21b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 21(b)",
+"r": 1760,
+"tm": 75,
+"ctx": "A altura (em metros) de um arbusto em uma dada fase de seu desenvolvimento pode ser expressa pela função h(t) = 0,5 + log₃(t + 1), onde o tempo t ≥ 0 é dado em anos. Suponha que outro arbusto, nessa mesma fase de desenvolvimento, tem sua altura expressa pela função composta g(t) = h(3t + 2). A diferença g(t) − h(t) é constante. Qual é o seu valor, em metros?",
+"a": 1,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Composição",
+"g(t) = h(3t + 2): troque t por 3t + 2 na fórmula de h.",
+""
+],
+[
+"Propriedades do logaritmo",
+"log(X) − log(Y) = log(X/Y); e log₃ 3 = 1.",
+"Ex.: log₂(4t) − log₂ t = log₂ 4 = 2."
+]
+],
+"h": [
+"g(t) = 0,5 + log₃(3t + 3) = 0,5 + log₃[3(t + 1)].",
+"g(t) − h(t) = log₃[3(t + 1)] − log₃(t + 1) = log₃ 3.",
+"g(t) − h(t) = <b>1 m</b>, para todo t."
+]
+},
+{
+"id": "2014-2-mat-22a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 22(a) (adaptada para múltipla escolha)",
+"r": 1640,
+"tm": 75,
+"ctx": "Considere a matriz A = [a  1  1; −1  0  b; c  −2  0] (linhas separadas por ponto e vírgula), onde a, b e c são números reais. Encontre os valores de a, b e c de modo que Aᵀ = −A.",
+"opts": [
+"a = 0, b = 2 e c = −1",
+"a = 0, b = −2 e c = 1",
+"a = 1, b = 2 e c = −1",
+"a = 0, b = 1 e c = −2"
+],
+"a": 0,
+"d": [
+[
+"Transposta",
+"Aᵀ troca linhas por colunas: o elemento (i, j) de Aᵀ é o elemento (j, i) de A.",
+""
+],
+[
+"Antissimétrica",
+"Aᵀ = −A significa a<sub>ji</sub> = −a<sub>ij</sub> para todos i, j; na diagonal, a<sub>ii</sub> = −a<sub>ii</sub> ⟹ a<sub>ii</sub> = 0.",
+""
+]
+],
+"h": [
+"Diagonal: a = −a ⟹ a = 0.",
+"Posições (1,3) e (3,1): c = −1. Posições (2,3) e (3,2): −2 = −b ⟹ b = 2.",
+"<b>a = 0, b = 2 e c = −1</b>."
+]
+},
+{
+"id": "2014-2-mat-22b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "matr",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 22(b) (adaptada para múltipla escolha)",
+"r": 1840,
+"tm": 90,
+"ctx": "Considere a matriz A = [a  1  1; −1  0  b; c  −2  0] (linhas separadas por ponto e vírgula), onde a, b e c são números reais. Dados a = 1 e b = −1, para que valores de c e d o sistema linear A·(x, y, z) = (1, 1, d) tem infinitas soluções?",
+"opts": [
+"c = 0 e d = −4",
+"c = 1 e d = −4",
+"c = 0 e d = 4",
+"c = −1 e d = 0"
+],
+"a": 0,
+"d": [
+[
+"Montar o sistema",
+"Cada linha da matriz vezes (x, y, z) dá uma equação.",
+""
+],
+[
+"Infinitas soluções",
+"Depois de eliminar variáveis, se sobrar uma equação do tipo 0·x = 0, há infinitas soluções; se sobrar 0·x = k ≠ 0, nenhuma.",
+""
+]
+],
+"h": [
+"Sistema: x + y + z = 1; −x − z = 1; cx − 2y = d. Somando as duas primeiras: y = 2.",
+"Restam x + z = −1 e cx = d + 4.",
+"Para infinitas soluções, a última precisa virar 0 = 0: <b>c = 0 e d = −4</b>."
+]
+},
+{
+"id": "2014-2-mat-23a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 23(a) (adaptada para múltipla escolha)",
+"r": 1640,
+"tm": 75,
+"ctx": "O polinômio p(x) = x³ − 2x² − 9x + 18 tem três raízes: r, −r e s. Determine os valores de r e s.",
+"opts": [
+"r = ±3 e s = 2",
+"r = ±2 e s = 3",
+"r = ±3 e s = −2",
+"r = ±9 e s = 2"
+],
+"a": 0,
+"d": [
+[
+"Relações de Girard",
+"Para x³ + Bx² + Cx + D com raízes x₁, x₂, x₃: soma = −B e produto = −D.",
+""
+],
+[
+"Raízes simétricas",
+"Com raízes r e −r, elas se cancelam na soma.",
+""
+]
+],
+"h": [
+"Soma: r − r + s = 2 ⟹ s = 2.",
+"Produto: r·(−r)·s = −18 ⟹ −2r² = −18 ⟹ r² = 9.",
+"<b>r = ±3 e s = 2</b> (as raízes são 3, −3 e 2)."
+]
+},
+{
+"id": "2014-2-mat-23b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 23(b) (adaptada para múltipla escolha)",
+"r": 1720,
+"tm": 75,
+"ctx": "O polinômio p(x) = x³ − 2x² − 9x + 18 tem três raízes: r, −r e s. Calcule p(z) para z = 1 + i, onde i é a unidade imaginária.",
+"opts": [
+"7 − 11i",
+"7 + 11i",
+"−7 − 11i",
+"11 − 7i"
+],
+"a": 0,
+"d": [
+[
+"Potências de 1 + i",
+"(1 + i)² = 1 + 2i + i² = 2i; então (1 + i)³ = 2i(1 + i) = −2 + 2i.",
+""
+],
+[
+"Organize",
+"Calcule cada termo separadamente e some as partes reais e as imaginárias.",
+""
+]
+],
+"h": [
+"z³ = −2 + 2i; −2z² = −4i; −9z = −9 − 9i.",
+"p(z) = (−2 + 2i) − 4i − 9 − 9i + 18.",
+"p(1 + i) = <b>7 − 11i</b>."
+]
+},
+{
+"id": "2014-2-mat-24a",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 24(a) (adaptada para múltipla escolha)",
+"r": 1890,
+"tm": 75,
+"ctx": "Considere no plano cartesiano os pontos A = (−1, 1) e B = (2, 2). A equação que representa o lugar geométrico dos centros dos círculos que passam pelos pontos A e B é",
+"opts": [
+"3x + y = 3",
+"x − 3y = −4",
+"3x − y = 0",
+"x + 3y = 6"
+],
+"a": 0,
+"d": [
+[
+"Mediatriz",
+"O centro de um círculo que passa por A e B está à mesma distância de A e de B: ele está na mediatriz de AB (reta perpendicular a AB pelo ponto médio).",
+""
+],
+[
+"Equação pela distância",
+"Iguale (x − x<sub>A</sub>)² + (y − y<sub>A</sub>)² a (x − x<sub>B</sub>)² + (y − y<sub>B</sub>)²: os quadrados x² e y² se cancelam e sobra uma reta.",
+""
+]
+],
+"h": [
+"(x + 1)² + (y − 1)² = (x − 2)² + (y − 2)².",
+"2x + 1 − 2y + 1 = −4x + 4 − 4y + 4 ⟹ 6x + 2y = 6.",
+"Lugar geométrico: <b>3x + y = 3</b>."
+]
+},
+{
+"id": "2014-2-mat-24b",
+"ano": 2014,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2014, 2ª fase, Matemática, questão 24(b) (adaptada para múltipla escolha)",
+"r": 2020,
+"tm": 75,
+"ctx": "Considere no plano cartesiano os pontos A = (−1, 1) e B = (2, 2). Seja C um ponto na parte negativa do eixo das ordenadas. Determine C de modo que o triângulo ABC tenha área igual a 8.",
+"opts": [
+"C = (0, −4)",
+"C = (0, −20/3)",
+"C = (0, −8)",
+"C = (0, −2)"
+],
+"a": 0,
+"d": [
+[
+"Área por determinante",
+"Área = |D|/2, com D o determinante das linhas (x, y, 1) dos três vértices.",
+"Ex.: (0,0), (4,0), (0,3) ⟹ D = 12 ⟹ área 6."
+],
+[
+"Equação modular",
+"|E| = k ⟹ E = k ou E = −k; depois use a condição dada (ordenada negativa).",
+""
+]
+],
+"h": [
+"C = (0, c): D = det[−1 1 1; 2 2 1; 0 c 1] = −1·(2 − c) − 1·(2 − 0) + 1·(2c − 0) = 3c − 4. Área = |3c − 4|/2 = 8 ⟹ |3c − 4| = 16.",
+"3c − 4 = 16 ⟹ c = 20/3 (positivo, não serve); 3c − 4 = −16 ⟹ c = −4.",
+"<b>C = (0, −4)</b>."
+]
+},
+{
+"id": "2014-2-qui-09a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2014, 2ª fase, Química, questão 9(a) (adaptada para múltipla escolha)",
+"r": 1440,
+"tm": 50,
+"ctx": "Na tirinha, o autor explora a questão do uso apropriado da linguagem na Ciência. Um urso branco, dentro da água, grita: “Socorro, estou me dissolvendo!”; um urso cinza, sobre um bloco de gelo, responde: “Mas ursos são insolúveis!”; e o urso branco retruca: “Pra você é fácil falar… Você não é polar!”. Imagine que o urso cinza tivesse respondido: “Eu é que deveria estar aflito, pois o gelo é que está dissolvendo!”. Nesse caso, estaria o urso cinza usando o termo “dissolvendo” de forma cientificamente correta?",
+"opts": [
+"Não: o gelo está fundindo (derretendo), uma mudança de estado da água; dissolução envolve um soluto e um solvente de naturezas distintas.",
+"Sim: o gelo é soluto e a água do mar é o solvente, então o gelo se dissolve.",
+"Sim: dissolver e derreter são sinônimos na linguagem científica.",
+"Não: o correto seria dizer que o gelo está sublimando."
+],
+"a": 0,
+"d": [
+[
+"Dissolução × fusão",
+"Dissolução: uma substância (soluto) se dispersa em outra (solvente), formando uma solução. Fusão: passagem do sólido para o líquido da mesma substância, por aquecimento.",
+"Ex.: açúcar na água se dissolve; manteiga na frigideira funde."
+]
+],
+"h": [
+"Gelo e água líquida são a mesma substância (H₂O) em estados diferentes.",
+"O gelo virando água é uma mudança de estado: fusão.",
+"Resposta: <b>não; o termo correto é “fundindo” (derretendo)</b>."
+]
+},
+{
+"id": "2014-2-qui-09b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2014, 2ª fase, Química, questão 9(b) (adaptada para múltipla escolha)",
+"r": 1300,
+"tm": 45,
+"ctx": "Na tirinha, o autor explora a questão do uso apropriado da linguagem na Ciência. Um urso branco, dentro da água, grita: “Socorro, estou me dissolvendo!”; um urso cinza, sobre um bloco de gelo, responde: “Mas ursos são insolúveis!”; e o urso branco retruca: “Pra você é fácil falar… Você não é polar!”. Considerando a última fala do urso branco, qual é o duplo significado da palavra “polar” que produz o efeito cômico?",
+"opts": [
+"“Polar” é o urso das regiões polares e também a substância com distribuição desigual de cargas, que tende a se dissolver na água (polar); o urso branco brinca que, por ser “polar”, seria solúvel em água.",
+"“Polar” é o urso das regiões polares e também a substância apolar, que não se dissolve em água.",
+"“Polar” indica um ímã com polos norte e sul, que se dissolve no mar.",
+"“Polar” indica uma substância iônica, que nunca se dissolve em água."
+],
+"a": 0,
+"d": [
+[
+"Polaridade e solubilidade",
+"Molécula polar tem distribuição desigual de cargas (um dipolo). Regra prática: semelhante dissolve semelhante; a água é polar, então substâncias polares tendem a se dissolver nela.",
+""
+]
+],
+"h": [
+"No sentido comum, urso polar é o urso branco das regiões polares.",
+"No sentido químico, polar é o que tem dipolo e, por isso, se dissolve em água (polar).",
+"A piada: o urso branco “polar” estaria se dissolvendo; o cinza, por não ser polar, seria “insolúvel”. Resposta: <b>polar = do polo e polar = com dipolo, solúvel em água</b>."
+]
+},
+{
+"id": "2014-2-qui-10a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2014, 2ª fase, Química, questão 10(a) (adaptada para múltipla escolha)",
+"r": 1650,
+"tm": 60,
+"ctx": "Na manhã de 11 de setembro de 2013, a Receita Federal apreendeu mais de 350 toneladas de vidro contaminado por chumbo no Porto de Navegantes (Santa Catarina). O exportador declarou a carga corretamente: tubos de raios catódicos. O laudo técnico confirmou que a porcentagem em massa de chumbo era de 11,5%. A importação de material (sucata) que contém chumbo é proibida no Brasil. O chumbo presente na carga estava na forma de óxido de chumbo II. Esse chumbo é recuperado como metal a partir do aquecimento do vidro a aproximadamente 800 °C na presença de carbono (carvão), processo semelhante ao da obtenção do ferro metálico em alto forno. Uma equação possível do processo e a identificação dos agentes são:",
+"opts": [
+"2 PbO + C → 2 Pb + CO₂; agente oxidante: PbO (o Pb²⁺ se reduz a Pb⁰); agente redutor: C (o carbono se oxida).",
+"2 PbO + C → 2 Pb + CO₂; agente oxidante: C; agente redutor: PbO.",
+"PbO₂ + C → Pb + CO₂; agente oxidante: C; agente redutor: Pb.",
+"Pb + CO₂ → PbO + CO; agente oxidante: Pb; agente redutor: CO₂."
+],
+"a": 0,
+"d": [
+[
+"Óxido de chumbo II",
+"O “II” indica Pb²⁺: a fórmula é PbO.",
+""
+],
+[
+"Oxidante e redutor",
+"O agente oxidante é quem contém o elemento que se reduz (ganha elétrons, número de oxidação diminui); o redutor é quem contém o elemento que se oxida.",
+"Ex.: em Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂, o oxidante é Fe₂O₃ e o redutor é CO."
+]
+],
+"h": [
+"O carbono retira o oxigênio do óxido: 2 PbO + C → 2 Pb + CO₂ (ou PbO + C → Pb + CO).",
+"Pb: +2 → 0 (redução) ⟹ PbO é o oxidante. C: 0 → +4 (ou +2) (oxidação) ⟹ C é o redutor.",
+"Resposta: <b>2 PbO + C → 2 Pb + CO₂; oxidante PbO, redutor C</b>."
+]
+},
+{
+"id": "2014-2-qui-10b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2014, 2ª fase, Química, questão 10(b)",
+"r": 1630,
+"tm": 60,
+"ctx": "Na manhã de 11 de setembro de 2013, a Receita Federal apreendeu mais de 350 toneladas de vidro contaminado por chumbo no Porto de Navegantes (Santa Catarina). O exportador declarou a carga corretamente: tubos de raios catódicos. O laudo técnico confirmou que a porcentagem em massa de chumbo era de 11,5%. A importação de material (sucata) que contém chumbo é proibida no Brasil. Considerando que o destino do chumbo presente no vidro (350 toneladas) poderia ser o meio ambiente aqui no Brasil, qual seria, em mols, a quantidade de chumbo a ser recuperada para que isso não ocorresse? (Massa molar do Pb = 207 g/mol.)",
+"a": 194000.0,
+"u": "mol",
+"tol": 0.02,
+"d": [
+[
+"Massa de um componente",
+"m(componente) = porcentagem em massa × massa total. 1 t = 10⁶ g.",
+"Ex.: 10% de 2 t = 0,2 t = 2 × 10⁵ g."
+],
+[
+"Mols",
+"n = m/M.",
+""
+]
+],
+"h": [
+"Massa de vidro: 350 t = 3,5 × 10⁸ g ⟹ chumbo: 0,115 × 3,5 × 10⁸ ≈ 4,03 × 10⁷ g.",
+"n = 4,03 × 10⁷/207.",
+"n ≈ <b>1,94 × 10⁵ mol</b>."
+]
+},
+{
+"id": "2014-2-qui-11a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2014, 2ª fase, Química, questão 11(a)",
+"r": 1580,
+"tm": 60,
+"ctx": "Quando uma pessoa ingere bebida alcoólica, cerca de 90% do álcool ingerido é absorvido no trato digestivo, na primeira hora. Esse álcool passa para a corrente sanguínea e é metabolizado no fígado. Sua eliminação, no entanto, leva muito mais tempo e é isso que torna ilegal uma pessoa dirigir nessa condição. O gráfico mostra a concentração média de álcool no sangue em função do tempo, após um consumo rápido de 1, 2, 3 e 4 doses de destilado. De acordo com o gráfico, se uma pessoa ingere 4 doses de destilado, após quanto tempo, em horas, a velocidade de metabolização do álcool passa a ser maior que a velocidade da absorção para a corrente sanguínea?",
+"fig": "<svg viewBox='0 0 164 110' class='fg' role='img' aria-label='concentração de álcool no sangue, em miligramas por litro, em função do tempo, em horas, de 0 a 7, para 1, 2, 3 e 4 doses. 1 dose: pico de cerca de 17 em 0,4 h e zero em 2,5 h. 2 doses: pico de 45 em 0,6 h, 20 em 2 h e zero em 4,5 h. 3 doses: pico de 69 em 0,85 h, cerca de 44 em 2 h e zero em 5,5 h. 4 doses: pico de 82 em 1 h, 68 em 2 h e quase zero em 7 h. Depois do pico, cada curva desce quase em linha reta'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='44.0' y1='92.0' x2='44.0' y2='12.0'/><line x1='62.0' y1='92.0' x2='62.0' y2='12.0'/><line x1='80.0' y1='92.0' x2='80.0' y2='12.0'/><line x1='98.0' y1='92.0' x2='98.0' y2='12.0'/><line x1='116.0' y1='92.0' x2='116.0' y2='12.0'/><line x1='134.0' y1='92.0' x2='134.0' y2='12.0'/><line x1='152.0' y1='92.0' x2='152.0' y2='12.0'/><line x1='26' y1='76.0' x2='152' y2='76.0'/><line x1='26' y1='60.0' x2='152' y2='60.0'/><line x1='26' y1='44.0' x2='152' y2='44.0'/><line x1='26' y1='28.0' x2='152' y2='28.0'/><line x1='26' y1='12.0' x2='152' y2='12.0'/></g><line x1='26' y1='92.0' x2='157.4' y2='92.0' stroke-width='1'/><line x1='26' y1='92.0' x2='26' y2='8.799999999999997' stroke-width='1'/><path d='M26.0,92.0 C26.3,90.9 27.1,87.6 27.8,85.6 C28.6,83.6 29.5,81.2 30.5,80.0 C31.5,78.8 32.1,78.1 33.6,78.4 C35.1,78.7 37.8,80.7 39.5,81.6 C41.2,82.5 41.8,82.9 44.0,84.0 C46.2,85.1 50.0,86.9 53.0,88.0 C56.0,89.1 59.0,89.7 62.0,90.4 C65.0,91.1 69.5,91.7 71.0,92.0' stroke-width='1.1'/><path d='M26.0,92.0 C26.3,89.3 26.9,81.1 27.8,76.0 C28.7,70.9 29.9,64.9 31.4,61.6 C32.9,58.3 34.7,56.3 36.8,56.0 C38.9,55.7 41.3,57.7 44.0,60.0 C46.7,62.3 50.0,66.9 53.0,69.6 C56.0,72.3 59.0,74.0 62.0,76.0 C65.0,78.0 68.0,79.9 71.0,81.6 C74.0,83.3 77.0,85.1 80.0,86.4 C83.0,87.7 86.0,88.8 89.0,89.6 C92.0,90.4 95.0,90.8 98.0,91.2 C101.0,91.6 105.5,91.9 107.0,92.0' stroke-width='1.1'/><path d='M26.0,92.0 C26.3,88.3 27.1,76.0 27.8,69.6 C28.6,63.2 29.3,58.3 30.5,53.6 C31.7,48.9 33.2,44.4 35.0,41.6 C36.8,38.8 39.0,36.4 41.3,36.8 C43.5,37.2 46.5,41.9 48.5,44.0 C50.5,46.1 50.8,47.4 53.0,49.6 C55.2,51.8 59.0,54.6 62.0,57.0 C65.0,59.4 68.0,61.9 71.0,64.0 C74.0,66.1 77.0,67.7 80.0,69.6 C83.0,71.5 86.0,73.5 89.0,75.2 C92.0,76.9 95.0,78.4 98.0,80.0 C101.0,81.6 104.0,83.3 107.0,84.8 C110.0,86.3 113.0,87.7 116.0,88.8 C119.0,89.9 123.5,91.1 125.0,91.6' stroke-width='1.1'/><path d='M26.0,92.0 C26.3,88.0 27.1,74.9 27.8,68.0 C28.6,61.1 29.3,55.7 30.5,50.4 C31.7,45.1 33.5,39.6 35.0,36.0 C36.5,32.4 38.0,30.4 39.5,28.8 C41.0,27.2 41.8,26.0 44.0,26.4 C46.2,26.8 50.0,29.3 53.0,31.2 C56.0,33.1 59.0,35.3 62.0,37.6 C65.0,39.9 68.0,42.5 71.0,44.8 C74.0,47.1 77.0,49.1 80.0,51.2 C83.0,53.3 86.0,55.5 89.0,57.6 C92.0,59.7 95.0,62.0 98.0,64.0 C101.0,66.0 104.0,67.6 107.0,69.6 C110.0,71.6 113.0,74.1 116.0,76.0 C119.0,77.9 122.0,79.1 125.0,80.8 C128.0,82.5 131.0,84.8 134.0,86.4 C137.0,88.0 140.0,89.5 143.0,90.4 C146.0,91.3 150.5,91.4 152.0,91.6' stroke-width='1.1'/></g><g fill='currentColor'><text x='26.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='44.0' y='99.0' text-anchor='middle' font-size='5.5'>1</text><text x='62.0' y='99.0' text-anchor='middle' font-size='5.5'>2</text><text x='80.0' y='99.0' text-anchor='middle' font-size='5.5'>3</text><text x='98.0' y='99.0' text-anchor='middle' font-size='5.5'>4</text><text x='116.0' y='99.0' text-anchor='middle' font-size='5.5'>5</text><text x='134.0' y='99.0' text-anchor='middle' font-size='5.5'>6</text><text x='152.0' y='99.0' text-anchor='middle' font-size='5.5'>7</text><text x='24.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='24.0' y='78.0' text-anchor='end' font-size='5.5'>20</text><text x='24.0' y='62.0' text-anchor='end' font-size='5.5'>40</text><text x='24.0' y='46.0' text-anchor='end' font-size='5.5'>60</text><text x='24.0' y='30.0' text-anchor='end' font-size='5.5'>80</text><text x='24.0' y='14.0' text-anchor='end' font-size='5.5'>100</text><text x='89.0' y='107.0' text-anchor='middle' font-size='6'>tempo (h)</text><text x='8.0' y='52.0' text-anchor='middle' font-size='6' transform='rotate(-90 8.0 52.0)'>álcool no sangue (mg/L)</text><text x='34.1' y='75.4' text-anchor='middle' font-size='5.5'>1</text><text x='36.8' y='53.0' text-anchor='middle' font-size='5.5'>2</text><text x='41.3' y='33.8' text-anchor='middle' font-size='5.5'>3</text><text x='44.9' y='23.4' text-anchor='start' font-size='5.5'>4 doses</text></g></svg>",
+"a": 1,
+"u": "h",
+"tol": 0.2,
+"d": [
+[
+"Saldo de duas velocidades",
+"A concentração no sangue sobe enquanto a absorção (entrada) supera a metabolização (saída) e desce quando a saída supera a entrada. A virada é o ponto mais alto da curva.",
+"Ex.: uma caixa d’água enche enquanto entra mais do que sai; o nível máximo ocorre quando entrada e saída se igualam."
+]
+],
+"h": [
+"Na curva de 4 doses, a concentração aumenta até cerca de 1 h e depois diminui.",
+"Depois do pico, a concentração cai: a metabolização passou a ser maior que a absorção.",
+"Resposta: <b>após cerca de 1 hora</b>."
+]
+},
+{
+"id": "2014-2-qui-11b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2014, 2ª fase, Química, questão 11(b)",
+"r": 1640,
+"tm": 75,
+"ctx": "Quando uma pessoa ingere bebida alcoólica, cerca de 90% do álcool ingerido é absorvido no trato digestivo, na primeira hora. Esse álcool passa para a corrente sanguínea e é metabolizado no fígado. Sua eliminação, no entanto, leva muito mais tempo e é isso que torna ilegal uma pessoa dirigir nessa condição. O gráfico mostra a concentração média de álcool no sangue em função do tempo, após um consumo rápido de 1, 2, 3 e 4 doses de destilado. Um teste do bafômetro realizado duas horas após a ingestão de destilado acusou a presença de 0,019 miligramas de álcool por litro de ar expirado por um condutor. Considerando essas informações e as do gráfico, quantas doses de destilado o condutor havia ingerido? Dado: a proporção entre as concentrações de álcool (sangue : ar expirado) é de 2300 : 1.",
+"fig": "<svg viewBox='0 0 164 110' class='fg' role='img' aria-label='concentração de álcool no sangue, em miligramas por litro, em função do tempo, em horas, de 0 a 7, para 1, 2, 3 e 4 doses. 1 dose: pico de cerca de 17 em 0,4 h e zero em 2,5 h. 2 doses: pico de 45 em 0,6 h, 20 em 2 h e zero em 4,5 h. 3 doses: pico de 69 em 0,85 h, cerca de 44 em 2 h e zero em 5,5 h. 4 doses: pico de 82 em 1 h, 68 em 2 h e quase zero em 7 h. Depois do pico, cada curva desce quase em linha reta'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='44.0' y1='92.0' x2='44.0' y2='12.0'/><line x1='62.0' y1='92.0' x2='62.0' y2='12.0'/><line x1='80.0' y1='92.0' x2='80.0' y2='12.0'/><line x1='98.0' y1='92.0' x2='98.0' y2='12.0'/><line x1='116.0' y1='92.0' x2='116.0' y2='12.0'/><line x1='134.0' y1='92.0' x2='134.0' y2='12.0'/><line x1='152.0' y1='92.0' x2='152.0' y2='12.0'/><line x1='26' y1='76.0' x2='152' y2='76.0'/><line x1='26' y1='60.0' x2='152' y2='60.0'/><line x1='26' y1='44.0' x2='152' y2='44.0'/><line x1='26' y1='28.0' x2='152' y2='28.0'/><line x1='26' y1='12.0' x2='152' y2='12.0'/></g><line x1='26' y1='92.0' x2='157.4' y2='92.0' stroke-width='1'/><line x1='26' y1='92.0' x2='26' y2='8.799999999999997' stroke-width='1'/><path d='M26.0,92.0 C26.3,90.9 27.1,87.6 27.8,85.6 C28.6,83.6 29.5,81.2 30.5,80.0 C31.5,78.8 32.1,78.1 33.6,78.4 C35.1,78.7 37.8,80.7 39.5,81.6 C41.2,82.5 41.8,82.9 44.0,84.0 C46.2,85.1 50.0,86.9 53.0,88.0 C56.0,89.1 59.0,89.7 62.0,90.4 C65.0,91.1 69.5,91.7 71.0,92.0' stroke-width='1.1'/><path d='M26.0,92.0 C26.3,89.3 26.9,81.1 27.8,76.0 C28.7,70.9 29.9,64.9 31.4,61.6 C32.9,58.3 34.7,56.3 36.8,56.0 C38.9,55.7 41.3,57.7 44.0,60.0 C46.7,62.3 50.0,66.9 53.0,69.6 C56.0,72.3 59.0,74.0 62.0,76.0 C65.0,78.0 68.0,79.9 71.0,81.6 C74.0,83.3 77.0,85.1 80.0,86.4 C83.0,87.7 86.0,88.8 89.0,89.6 C92.0,90.4 95.0,90.8 98.0,91.2 C101.0,91.6 105.5,91.9 107.0,92.0' stroke-width='1.1'/><path d='M26.0,92.0 C26.3,88.3 27.1,76.0 27.8,69.6 C28.6,63.2 29.3,58.3 30.5,53.6 C31.7,48.9 33.2,44.4 35.0,41.6 C36.8,38.8 39.0,36.4 41.3,36.8 C43.5,37.2 46.5,41.9 48.5,44.0 C50.5,46.1 50.8,47.4 53.0,49.6 C55.2,51.8 59.0,54.6 62.0,57.0 C65.0,59.4 68.0,61.9 71.0,64.0 C74.0,66.1 77.0,67.7 80.0,69.6 C83.0,71.5 86.0,73.5 89.0,75.2 C92.0,76.9 95.0,78.4 98.0,80.0 C101.0,81.6 104.0,83.3 107.0,84.8 C110.0,86.3 113.0,87.7 116.0,88.8 C119.0,89.9 123.5,91.1 125.0,91.6' stroke-width='1.1'/><path d='M26.0,92.0 C26.3,88.0 27.1,74.9 27.8,68.0 C28.6,61.1 29.3,55.7 30.5,50.4 C31.7,45.1 33.5,39.6 35.0,36.0 C36.5,32.4 38.0,30.4 39.5,28.8 C41.0,27.2 41.8,26.0 44.0,26.4 C46.2,26.8 50.0,29.3 53.0,31.2 C56.0,33.1 59.0,35.3 62.0,37.6 C65.0,39.9 68.0,42.5 71.0,44.8 C74.0,47.1 77.0,49.1 80.0,51.2 C83.0,53.3 86.0,55.5 89.0,57.6 C92.0,59.7 95.0,62.0 98.0,64.0 C101.0,66.0 104.0,67.6 107.0,69.6 C110.0,71.6 113.0,74.1 116.0,76.0 C119.0,77.9 122.0,79.1 125.0,80.8 C128.0,82.5 131.0,84.8 134.0,86.4 C137.0,88.0 140.0,89.5 143.0,90.4 C146.0,91.3 150.5,91.4 152.0,91.6' stroke-width='1.1'/></g><g fill='currentColor'><text x='26.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='44.0' y='99.0' text-anchor='middle' font-size='5.5'>1</text><text x='62.0' y='99.0' text-anchor='middle' font-size='5.5'>2</text><text x='80.0' y='99.0' text-anchor='middle' font-size='5.5'>3</text><text x='98.0' y='99.0' text-anchor='middle' font-size='5.5'>4</text><text x='116.0' y='99.0' text-anchor='middle' font-size='5.5'>5</text><text x='134.0' y='99.0' text-anchor='middle' font-size='5.5'>6</text><text x='152.0' y='99.0' text-anchor='middle' font-size='5.5'>7</text><text x='24.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='24.0' y='78.0' text-anchor='end' font-size='5.5'>20</text><text x='24.0' y='62.0' text-anchor='end' font-size='5.5'>40</text><text x='24.0' y='46.0' text-anchor='end' font-size='5.5'>60</text><text x='24.0' y='30.0' text-anchor='end' font-size='5.5'>80</text><text x='24.0' y='14.0' text-anchor='end' font-size='5.5'>100</text><text x='89.0' y='107.0' text-anchor='middle' font-size='6'>tempo (h)</text><text x='8.0' y='52.0' text-anchor='middle' font-size='6' transform='rotate(-90 8.0 52.0)'>álcool no sangue (mg/L)</text><text x='34.1' y='75.4' text-anchor='middle' font-size='5.5'>1</text><text x='36.8' y='53.0' text-anchor='middle' font-size='5.5'>2</text><text x='41.3' y='33.8' text-anchor='middle' font-size='5.5'>3</text><text x='44.9' y='23.4' text-anchor='start' font-size='5.5'>4 doses</text></g></svg>",
+"a": 3,
+"u": "doses",
+"tol": 0.005,
+"d": [
+[
+"Converter a medida do ar para o sangue",
+"Se sangue : ar = 2300 : 1, a concentração no sangue é 2300 vezes a do ar expirado.",
+"Ex.: 0,01 mg/L no ar ⟹ 23 mg/L no sangue."
+],
+[
+"Ler o gráfico",
+"Procure qual curva passa pelo ponto (2 h; concentração no sangue calculada).",
+""
+]
+],
+"h": [
+"Sangue: 2300 × 0,019 ≈ 43,7 mg/L.",
+"Em t = 2 h: 1 dose ≈ 2, 2 doses ≈ 20, 3 doses ≈ 44, 4 doses ≈ 68 mg/L.",
+"O ponto (2 h; 43,7 mg/L) está na curva de <b>3 doses</b>."
+]
+},
+{
+"id": "2014-2-qui-12a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_amb",
+"src": "Unicamp 2014, 2ª fase, Química, questão 12(a) (adaptada para múltipla escolha)",
+"r": 1350,
+"tm": 45,
+"ctx": "Materiais poliméricos podem ter destinos diversos, que não seja o simples descarte em lixões ou aterros. Na reciclagem secundária os diversos polímeros que compõem o descarte são separados e reutilizados na fabricação de outros materiais; já na reciclagem quaternária, o material é usado diretamente como combustível para gerar energia térmica ou elétrica. Considere uma embalagem de material polimérico composta por 18 g de PET (C₁₀H₈O₄)ₙ, 4 g de PEAD (C₂H₄)ₙ e 0,1 g de PP (C₃H₆)ₙ. Do ponto de vista ambiental, o que seria melhor: a reciclagem secundária ou a quaternária?",
+"opts": [
+"A secundária: a quaternária forma gases poluentes, principalmente CO₂, enquanto a secundária reaproveita o polímero e economiza matéria-prima (petróleo).",
+"A quaternária: queimar o polímero não gera nenhum resíduo.",
+"A quaternária: ela economiza petróleo, pois o polímero é reaproveitado como material.",
+"Tanto faz: as duas formam a mesma quantidade de CO₂."
+],
+"a": 0,
+"d": [
+[
+"Comparar destinos",
+"Pergunte: o processo mantém o material em uso (poupa matéria-prima) ou o destrói? Quais produtos ele lança no ambiente?",
+""
+],
+[
+"Combustão de polímeros",
+"Polímeros feitos de C, H e O, ao queimar, formam CO₂ e H₂O (e, se incompleta, CO e fuligem).",
+""
+]
+],
+"h": [
+"Reciclagem secundária: o plástico vira outro objeto; poupa petróleo e energia de produção.",
+"Reciclagem quaternária: o plástico é queimado, formando CO₂ (efeito estufa) e outros gases.",
+"Resposta: <b>a secundária é melhor</b>."
+]
+},
+{
+"id": "2014-2-qui-12b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2014, 2ª fase, Química, questão 12(b) (adaptada para múltipla escolha)",
+"r": 1640,
+"tm": 50,
+"ctx": "Materiais poliméricos podem ter destinos diversos, que não seja o simples descarte em lixões ou aterros. Na reciclagem secundária os diversos polímeros que compõem o descarte são separados e reutilizados na fabricação de outros materiais; já na reciclagem quaternária, o material é usado diretamente como combustível para gerar energia térmica ou elétrica. Considere uma embalagem de material polimérico composta por 18 g de PET (C₁₀H₈O₄)ₙ, 4 g de PEAD (C₂H₄)ₙ e 0,1 g de PP (C₃H₆)ₙ. Numa reciclagem quaternária, representada pela combustão completa da embalagem citada, a massa consumida de polímeros e oxigênio seria maior, menor ou igual à massa formada de gás carbônico e água?",
+"opts": [
+"Igual, pela lei de conservação das massas (Lavoisier).",
+"Maior, pois parte da massa se transforma em energia (calor).",
+"Menor, pois os gases formados são mais pesados que os reagentes.",
+"Maior, pois o oxigênio não tem massa mensurável."
+],
+"a": 0,
+"d": [
+[
+"Lei de Lavoisier",
+"Numa reação química em sistema fechado, a massa total dos reagentes é igual à massa total dos produtos: os átomos só se reorganizam.",
+"Ex.: 2 g de H₂ + 16 g de O₂ formam 18 g de água."
+]
+],
+"h": [
+"Reagentes: polímeros + O₂. Produtos: CO₂ + H₂O.",
+"Todos os átomos de C, H e O dos reagentes vão para os produtos.",
+"Resposta: <b>igual (conservação das massas)</b>."
+]
+},
+{
+"id": "2014-2-qui-13a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2014, 2ª fase, Química, questão 13(a) (adaptada para múltipla escolha)",
+"r": 1840,
+"tm": 60,
+"ctx": "O policarbonato é um polímero utilizado na fabricação de CDs e DVDs. Sua cadeia é formada pela repetição da unidade –O–C₆H₄–C(CH₃)₂–C₆H₄–O–C(=O)–, em que C₆H₄ é um anel benzênico ligado por posições opostas. O policarbonato foi banido da fabricação de mamadeiras, chupetas e vários utensílios domésticos, pela possibilidade de o bisfenol A, um de seus precursores, ser liberado e ingerido. Em contato com alguns produtos de limpeza e no aquecimento em micro-ondas, o policarbonato pode liberar unidades de bisfenol A. Sabendo-se que um fenol tem uma hidroxila ligada ao anel benzênico, a estrutura do bisfenol A é",
+"opts": [
+"HO–C₆H₄–C(CH₃)₂–C₆H₄–OH",
+"HO–C(=O)–O–C₆H₄–OH",
+"HO–CH₂–C(CH₃)₂–CH₂–OH",
+"C₆H₅–C(CH₃)₂–C₆H₅"
+],
+"a": 0,
+"d": [
+[
+"Separar a unidade que se repete",
+"Na cadeia, o pedaço –O–C₆H₄–C(CH₃)₂–C₆H₄–O– vem do bisfenol A e o pedaço –C(=O)– une esses blocos. Ao liberar o bisfenol, cada O que ligava o bloco ao C=O recebe um H.",
+""
+],
+[
+"Fenol",
+"Fenol: –OH ligado diretamente ao anel benzênico. “Bis” = dois.",
+""
+]
+],
+"h": [
+"O bloco entre dois grupos C=O é O–C₆H₄–C(CH₃)₂–C₆H₄–O.",
+"Com um H em cada oxigênio, formam-se dois grupos –OH ligados aos anéis (dois fenóis).",
+"Bisfenol A: <b>HO–C₆H₄–C(CH₃)₂–C₆H₄–OH</b>."
+]
+},
+{
+"id": "2014-2-qui-13b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2014, 2ª fase, Química, questão 13(b) (adaptada para múltipla escolha)",
+"r": 1740,
+"tm": 60,
+"ctx": "O policarbonato é um polímero utilizado na fabricação de CDs e DVDs. Sua cadeia é formada pela repetição da unidade –O–C₆H₄–C(CH₃)₂–C₆H₄–O–C(=O)–, em que C₆H₄ é um anel benzênico ligado por posições opostas. O policarbonato foi banido da fabricação de mamadeiras, chupetas e vários utensílios domésticos, pela possibilidade de o bisfenol A, um de seus precursores, ser liberado e ingerido. Qual fragmento do polímero justifica o uso do termo “policarbonato”?",
+"opts": [
+"–O–C(=O)–O–, o grupo carbonato (um carbono com uma dupla com O e ligado a dois outros oxigênios).",
+"–C(CH₃)₂–, o grupo isopropilideno.",
+"–C₆H₄–, o anel benzênico.",
+"–OH, o grupo hidroxila do fenol."
+],
+"a": 0,
+"d": [
+[
+"Carbonato",
+"O íon carbonato é CO₃²⁻: um carbono ligado a três oxigênios. Num éster de ácido carbônico, o carbono fica com uma ligação dupla com O e duas ligações simples com O, cada um ligado a uma cadeia.",
+""
+]
+],
+"h": [
+"Procure na cadeia um carbono com três oxigênios ligados.",
+"É o grupo –O–C(=O)–O– entre os blocos de bisfenol.",
+"Resposta: <b>–O–C(=O)–O– (grupo carbonato)</b>."
+]
+},
+{
+"id": "2014-2-qui-14a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2014, 2ª fase, Química, questão 14(a) (adaptada para múltipla escolha)",
+"r": 1700,
+"tm": 50,
+"ctx": "Explosão e incêndio se combinaram no terminal marítimo de São Francisco do Sul, em Santa Catarina, espalhando muita fumaça pela cidade e pela região. O incidente ocorreu com uma carga de fertilizante em que se estima tenham sido decompostas 10 mil toneladas de nitrato de amônio. A fumaça branca que foi eliminada durante 4 dias apresentava principalmente os produtos da decomposição térmica do nitrato de amônio: monóxido de dinitrogênio e água. A equação química da decomposição térmica que ocorreu com o nitrato de amônio é",
+"opts": [
+"NH₄NO₃ → N₂O + 2 H₂O",
+"NH₄NO₃ → NO + NH₃ + O₂",
+"2 NH₄NO₃ → 2 N₂ + O₂ + 4 H₂O",
+"NH₄NO₃ → N₂O₄ + H₂"
+],
+"a": 0,
+"d": [
+[
+"Fórmulas",
+"Nitrato de amônio: NH₄⁺ e NO₃⁻ ⟹ NH₄NO₃. Monóxido de dinitrogênio: “di” nitrogênio, “mon” óxido ⟹ N₂O.",
+""
+],
+[
+"Balanceamento",
+"Confira que cada elemento aparece com o mesmo número de átomos dos dois lados.",
+""
+]
+],
+"h": [
+"Reagente: NH₄NO₃ (2 N, 4 H, 3 O). Produtos: N₂O e H₂O.",
+"N₂O usa os 2 N e 1 O; os 4 H e os 2 O restantes formam 2 H₂O.",
+"Equação: <b>NH₄NO₃ → N₂O + 2 H₂O</b>."
+]
+},
+{
+"id": "2014-2-qui-14b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2014, 2ª fase, Química, questão 14(b)",
+"r": 1700,
+"tm": 60,
+"ctx": "Explosão e incêndio se combinaram no terminal marítimo de São Francisco do Sul, em Santa Catarina, espalhando muita fumaça pela cidade e pela região. O incidente ocorreu com uma carga de fertilizante em que se estima tenham sido decompostas 10 mil toneladas de nitrato de amônio. A fumaça branca que foi eliminada durante 4 dias apresentava principalmente os produtos da decomposição térmica do nitrato de amônio: monóxido de dinitrogênio e água. Dados os valores das entalpias padrão de formação, em kJ/mol: nitrato de amônio (−366), monóxido de dinitrogênio (+82) e água (−242), calcule a variação de entalpia, em kJ por mol de nitrato de amônio, da decomposição NH₄NO₃ → N₂O + 2 H₂O em condições padrão.",
+"a": -36,
+"u": "kJ/mol",
+"tol": 0.02,
+"d": [
+[
+"Lei de Hess com entalpias de formação",
+"ΔH = Σ ΔHf(produtos) − Σ ΔHf(reagentes), multiplicando cada ΔHf pelo coeficiente da equação.",
+"Ex.: A → 2 B com ΔHf(A) = −10 e ΔHf(B) = −20 ⟹ ΔH = −40 − (−10) = −30."
+],
+[
+"Sinal",
+"ΔH < 0: exotérmico; ΔH > 0: endotérmico.",
+""
+]
+],
+"h": [
+"Produtos: +82 + 2 × (−242) = −402 kJ.",
+"Reagente: −366 kJ.",
+"ΔH = −402 − (−366) = <b>−36 kJ/mol</b>: processo exotérmico."
+]
+},
+{
+"id": "2014-2-qui-15a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2014, 2ª fase, Química, questão 15(a) (adaptada para múltipla escolha)",
+"r": 1770,
+"tm": 75,
+"ctx": "Uma droga muito utilizada no tratamento de náuseas e vômitos e também como antialérgico pode ser comercializada na sua forma protonada (A, um cátion com o grupo N–H⁺) ou na sua forma neutra (B). Em meio aquoso, há o equilíbrio A ⇌ B + H⁺, cuja constante de equilíbrio é K = [B][H⁺]/[A] = 1,2 × 10⁻⁹. Qual espécie estaria em maior concentração no intestino, cujo pH é igual a 8?",
+"opts": [
+"A forma protonada A, pois [B]/[A] = 0,12.",
+"A forma neutra B, pois [B]/[A] ≈ 8,3.",
+"As duas na mesma concentração, pois K é muito pequeno.",
+"A forma neutra B, pois em pH 8 não há H⁺ no meio."
+],
+"a": 0,
+"d": [
+[
+"pH e [H⁺]",
+"[H⁺] = 10<sup>−pH</sup> mol/L.",
+"Ex.: pH 5 ⟹ [H⁺] = 10⁻⁵ mol/L."
+],
+[
+"Razão entre as formas",
+"De K = [B][H⁺]/[A]: [B]/[A] = K/[H⁺]. Se a razão é menor que 1, predomina A; se é maior, predomina B.",
+""
+]
+],
+"h": [
+"pH 8 ⟹ [H⁺] = 1 × 10⁻⁸ mol/L.",
+"[B]/[A] = 1,2 × 10⁻⁹/1 × 10⁻⁸ = 0,12 ⟹ [B] = 0,12·[A].",
+"Predomina a <b>forma protonada A</b>."
+]
+},
+{
+"id": "2014-2-qui-15b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_lig",
+"src": "Unicamp 2014, 2ª fase, Química, questão 15(b) (adaptada para múltipla escolha)",
+"r": 1650,
+"tm": 50,
+"ctx": "Uma droga muito utilizada no tratamento de náuseas e vômitos e também como antialérgico pode ser comercializada na sua forma protonada (A, um cátion com o grupo N–H⁺) ou na sua forma neutra (B). Em meio aquoso, há o equilíbrio A ⇌ B + H⁺, cuja constante de equilíbrio é K = [B][H⁺]/[A] = 1,2 × 10⁻⁹. Supondo que a droga seria absorvida de forma mais completa e com melhor efeito terapêutico se fosse mais solúvel em lipídios, qual forma seria preferível numa formulação?",
+"opts": [
+"A neutra B: sem carga, interage melhor com os lipídios, apolares (interações do tipo dipolo induzido–dipolo induzido).",
+"A protonada A: a carga positiva interage melhor com os lipídios.",
+"A protonada A: íons se dissolvem melhor em gorduras do que moléculas neutras.",
+"Tanto faz: as duas formas têm a mesma polaridade."
+],
+"a": 0,
+"d": [
+[
+"Semelhante dissolve semelhante",
+"Lipídios (gorduras) são apolares. Espécies com carga (íons) interagem bem com a água, polar; espécies neutras e pouco polares interagem melhor com lipídios.",
+""
+]
+],
+"h": [
+"A forma A tem carga (N–H⁺): é mais solúvel em água.",
+"A forma B é neutra e menos polar: dissolve-se melhor em lipídios.",
+"Preferível: <b>a forma neutra B</b>."
+]
+},
+{
+"id": "2014-2-qui-16a",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2014, 2ª fase, Química, questão 16(a)",
+"r": 1810,
+"tm": 60,
+"ctx": "A produção mundial de gás cloro é de 60 milhões de toneladas por ano. Um processo eletroquímico moderno e menos agressivo ao meio ambiente, em que se utiliza uma membrana semipermeável, evita que toneladas de mercúrio, utilizado no processo eletroquímico convencional, sejam dispensadas anualmente na natureza. Esse processo está parcialmente esquematizado na figura (faltam a fonte de corrente e a formação dos íons OH⁻). Se a produção anual de gás cloro fosse obtida apenas por esse processo, qual seria a produção de gás hidrogênio, em milhões de toneladas? (Massas molares: H = 1 g/mol, Cl = 35,5 g/mol.)",
+"fig": "<svg viewBox='0 0 160 104' class='fg' role='img' aria-label='célula eletroquímica com dois compartimentos separados por uma membrana pontilhada; no compartimento da esquerda há solução de NaCl e um eletrodo de onde sai gás cloro pelo alto; no da direita há solução de NaOH e um eletrodo de onde sai gás hidrogênio; íons Na+ atravessam a membrana da esquerda para a direita; a fonte de corrente não está desenhada'><g fill='none' stroke='currentColor'><rect x='40' y='28' width='80' height='66' stroke-width='1'/><g stroke-width='0.8' stroke-dasharray='1.5 1.5'><line x1='80.0' y1='28.0' x2='80.0' y2='94.0'/></g><g stroke-width='2.2'><line x1='58.0' y1='38.0' x2='58.0' y2='86.0'/><line x1='102.0' y1='38.0' x2='102.0' y2='86.0'/></g><g stroke-width='0.7'><line x1='58.0' y1='38.0' x2='58.0' y2='14.0'/><line x1='102.0' y1='38.0' x2='102.0' y2='14.0'/></g><g stroke-width='0.9'><line x1='72.0' y1='52.0' x2='88.0' y2='52.0'/><line x1='72.0' y1='60.0' x2='88.0' y2='60.0'/><line x1='72.0' y1='68.0' x2='88.0' y2='68.0'/><line x1='40.0' y1='36.0' x2='24.0' y2='36.0'/><line x1='40.0' y1='86.0' x2='24.0' y2='86.0'/><line x1='120.0' y1='36.0' x2='136.0' y2='36.0'/><line x1='120.0' y1='86.0' x2='136.0' y2='86.0'/></g></g><g fill='currentColor'><polygon points='88.0,52.0 84.8,53.5 84.8,50.5'/><polygon points='88.0,60.0 84.8,61.5 84.8,58.5'/><polygon points='88.0,68.0 84.8,69.5 84.8,66.5'/><polygon points='40.0,36.0 36.8,37.5 36.8,34.5'/><polygon points='24.0,86.0 27.2,84.5 27.2,87.5'/><polygon points='136.0,36.0 132.8,37.5 132.8,34.5'/><polygon points='120.0,86.0 123.2,84.5 123.2,87.5'/><text x='58.0' y='10.0' text-anchor='middle' font-size='6'>Cl₂(g)</text><text x='102.0' y='10.0' text-anchor='middle' font-size='6'>H₂(g)</text><text x='84.0' y='47.0' text-anchor='start' font-size='6'>Na⁺</text><text x='22.0' y='34.0' text-anchor='end' font-size='5.5'>NaCl(aq)</text><text x='22.0' y='90.0' text-anchor='end' font-size='5.5'>NaCl(aq)</text><text x='138.0' y='34.0' text-anchor='start' font-size='5.5'>NaOH(aq)</text><text x='138.0' y='90.0' text-anchor='start' font-size='5.5'>NaOH(aq)</text></g></svg>",
+"a": 1.69,
+"u": "milhões de t",
+"tol": 0.02,
+"d": [
+[
+"Proporção da eletrólise",
+"Na eletrólise da salmoura: 2 NaCl + 2 H₂O → Cl₂ + H₂ + 2 NaOH. Forma-se 1 mol de H₂ para cada mol de Cl₂.",
+""
+],
+[
+"Proporção em massa",
+"1 mol de H₂ = 2 g; 1 mol de Cl₂ = 71 g. A regra de três vale com qualquer unidade de massa (milhões de toneladas).",
+""
+]
+],
+"h": [
+"71 g de Cl₂ ↔ 2 g de H₂.",
+"m(H₂) = 60 × 2/71 milhões de toneladas.",
+"m(H₂) ≈ <b>1,69 milhão de toneladas</b>."
+]
+},
+{
+"id": "2014-2-qui-16b",
+"ano": 2014,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2014, 2ª fase, Química, questão 16(b) (adaptada para múltipla escolha)",
+"r": 1570,
+"tm": 60,
+"ctx": "A produção mundial de gás cloro é de 60 milhões de toneladas por ano. Um processo eletroquímico moderno e menos agressivo ao meio ambiente, em que se utiliza uma membrana semipermeável, evita que toneladas de mercúrio, utilizado no processo eletroquímico convencional, sejam dispensadas anualmente na natureza. Esse processo está parcialmente esquematizado na figura (faltam a fonte de corrente e a formação dos íons OH⁻). Para completar o esquema, qual deve ser a fonte de corrente e onde se formam os íons OH⁻?",
+"fig": "<svg viewBox='0 0 160 104' class='fg' role='img' aria-label='célula eletroquímica com dois compartimentos separados por uma membrana pontilhada; no compartimento da esquerda há solução de NaCl e um eletrodo de onde sai gás cloro pelo alto; no da direita há solução de NaOH e um eletrodo de onde sai gás hidrogênio; íons Na+ atravessam a membrana da esquerda para a direita; a fonte de corrente não está desenhada'><g fill='none' stroke='currentColor'><rect x='40' y='28' width='80' height='66' stroke-width='1'/><g stroke-width='0.8' stroke-dasharray='1.5 1.5'><line x1='80.0' y1='28.0' x2='80.0' y2='94.0'/></g><g stroke-width='2.2'><line x1='58.0' y1='38.0' x2='58.0' y2='86.0'/><line x1='102.0' y1='38.0' x2='102.0' y2='86.0'/></g><g stroke-width='0.7'><line x1='58.0' y1='38.0' x2='58.0' y2='14.0'/><line x1='102.0' y1='38.0' x2='102.0' y2='14.0'/></g><g stroke-width='0.9'><line x1='72.0' y1='52.0' x2='88.0' y2='52.0'/><line x1='72.0' y1='60.0' x2='88.0' y2='60.0'/><line x1='72.0' y1='68.0' x2='88.0' y2='68.0'/><line x1='40.0' y1='36.0' x2='24.0' y2='36.0'/><line x1='40.0' y1='86.0' x2='24.0' y2='86.0'/><line x1='120.0' y1='36.0' x2='136.0' y2='36.0'/><line x1='120.0' y1='86.0' x2='136.0' y2='86.0'/></g></g><g fill='currentColor'><polygon points='88.0,52.0 84.8,53.5 84.8,50.5'/><polygon points='88.0,60.0 84.8,61.5 84.8,58.5'/><polygon points='88.0,68.0 84.8,69.5 84.8,66.5'/><polygon points='40.0,36.0 36.8,37.5 36.8,34.5'/><polygon points='24.0,86.0 27.2,84.5 27.2,87.5'/><polygon points='136.0,36.0 132.8,37.5 132.8,34.5'/><polygon points='120.0,86.0 123.2,84.5 123.2,87.5'/><text x='58.0' y='10.0' text-anchor='middle' font-size='6'>Cl₂(g)</text><text x='102.0' y='10.0' text-anchor='middle' font-size='6'>H₂(g)</text><text x='84.0' y='47.0' text-anchor='start' font-size='6'>Na⁺</text><text x='22.0' y='34.0' text-anchor='end' font-size='5.5'>NaCl(aq)</text><text x='22.0' y='90.0' text-anchor='end' font-size='5.5'>NaCl(aq)</text><text x='138.0' y='34.0' text-anchor='start' font-size='5.5'>NaOH(aq)</text><text x='138.0' y='90.0' text-anchor='start' font-size='5.5'>NaOH(aq)</text></g></svg>",
+"opts": [
+"Fonte de corrente contínua, com o polo positivo no eletrodo onde sai Cl₂ e o negativo no eletrodo onde sai H₂; os íons OH⁻ se formam no compartimento do H₂ (lado do NaOH).",
+"Fonte de corrente alternada; os íons OH⁻ se formam no compartimento do Cl₂.",
+"Fonte de corrente contínua, com o polo negativo no eletrodo onde sai Cl₂; os íons OH⁻ se formam no compartimento do Cl₂.",
+"Fonte de corrente contínua, com o polo positivo no eletrodo onde sai H₂; os íons OH⁻ atravessam a membrana junto com o Na⁺."
+],
+"a": 0,
+"d": [
+[
+"Eletrólise exige corrente contínua",
+"Cada eletrodo precisa manter sempre a mesma função (ânodo ou cátodo); com corrente alternada os polos trocariam o tempo todo.",
+""
+],
+[
+"Ânodo e cátodo",
+"Ânodo (+): oxidação, 2 Cl⁻ → Cl₂ + 2 e⁻. Cátodo (−): redução, 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻.",
+""
+]
+],
+"h": [
+"Cl₂ sai do ânodo: esse eletrodo vai ao polo + da fonte; H₂ sai do cátodo, ligado ao polo −.",
+"No cátodo, a redução da água forma H₂ e OH⁻; o Na⁺ que atravessa a membrana completa o NaOH.",
+"Resposta: <b>corrente contínua, + no lado do Cl₂, − no lado do H₂; OH⁻ no compartimento do H₂</b>."
+]
+},
+{
+"id": "2014-2-fis-17a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2014, 2ª fase, Física, questão 17(a)",
+"r": 1420,
+"tm": 50,
+"ctx": "Correr uma maratona requer preparo físico e determinação. A uma pessoa comum se recomenda, para o treino de um dia, repetir 8 vezes a seguinte sequência: correr a distância de 1 km à velocidade de 10,8 km/h e, posteriormente, andar rápido a 7,2 km/h durante dois minutos. Qual será a distância total, em metros, percorrida pelo atleta ao terminar o treino?",
+"a": 9920,
+"u": "m",
+"tol": 0.005,
+"d": [
+[
+"Distância em cada etapa",
+"Na caminhada, d = v·Δt (passe km/h para m/s dividindo por 3,6). Depois some as etapas e multiplique pelo número de repetições.",
+"Ex.: 3,6 km/h durante 1 min = 1 m/s × 60 s = 60 m."
+]
+],
+"h": [
+"Caminhada: 7,2 km/h = 2 m/s; 2 min = 120 s ⟹ 240 m.",
+"Cada sequência: 1000 + 240 = 1240 m.",
+"Total: 8 × 1240 = <b>9920 m</b>."
+]
+},
+{
+"id": "2014-2-fis-17b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2014, 2ª fase, Física, questão 17(b)",
+"r": 1580,
+"tm": 50,
+"ctx": "Correr uma maratona requer preparo físico e determinação. A uma pessoa comum se recomenda, para o treino de um dia, repetir 8 vezes a seguinte sequência: correr a distância de 1 km à velocidade de 10,8 km/h e, posteriormente, andar rápido a 7,2 km/h durante dois minutos. Para atingir a velocidade de 10,8 km/h, partindo do repouso, o atleta percorre 3 m com aceleração constante. Calcule o módulo da aceleração do corredor nesse trecho, em m/s².",
+"a": 1.5,
+"u": "m/s²",
+"tol": 0.005,
+"d": [
+[
+"Torricelli",
+"Sem o tempo: v² = v₀² + 2·a·d.",
+"Ex.: do repouso a 4 m/s em 2 m ⟹ 16 = 4a ⟹ a = 4 m/s²."
+]
+],
+"h": [
+"v = 10,8 km/h = 3 m/s; v₀ = 0.",
+"9 = 2·a·3.",
+"a = <b>1,5 m/s²</b>."
+]
+},
+{
+"id": "2014-2-fis-18a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2014, 2ª fase, Física, questão 18(a)",
+"r": 1730,
+"tm": 75,
+"ctx": "O encontro das águas do Rio Negro e do Solimões, nas proximidades de Manaus, é um dos maiores espetáculos da natureza local. As águas dos dois rios, que formam o Rio Amazonas, correm lado a lado por vários quilômetros sem se misturarem. Um dos fatores que explicam esse fenômeno é a diferença da velocidade da água nos dois rios, cerca de v<sub>N</sub> = 2 km/h para o Negro e v<sub>S</sub> = 6 km/h para o Solimões. Se uma embarcação, navegando no Rio Negro, demora t<sub>N</sub> = 2 h para fazer um percurso entre duas cidades distantes 48 km, quanto tempo, em horas, levará para percorrer a mesma distância no Rio Solimões, também rio acima, supondo que sua velocidade com relação à água seja a mesma nos dois rios?",
+"a": 2.4,
+"u": "h",
+"tol": 0.005,
+"d": [
+[
+"Velocidade relativa",
+"Rio acima, a velocidade do barco em relação à margem é a velocidade em relação à água menos a velocidade da correnteza.",
+"Ex.: barco a 10 km/h na água, correnteza de 3 km/h ⟹ sobe o rio a 7 km/h."
+]
+],
+"h": [
+"No Negro: 48 km/2 h = 24 km/h em relação à margem ⟹ velocidade em relação à água: 24 + 2 = 26 km/h.",
+"No Solimões, rio acima: 26 − 6 = 20 km/h.",
+"t = 48/20 = <b>2,4 h</b>."
+]
+},
+{
+"id": "2014-2-fis-18b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_hid",
+"src": "Unicamp 2014, 2ª fase, Física, questão 18(b)",
+"r": 1690,
+"tm": 50,
+"ctx": "O encontro das águas do Rio Negro e do Solimões, nas proximidades de Manaus, é um dos maiores espetáculos da natureza local. As águas dos dois rios, que formam o Rio Amazonas, correm lado a lado por vários quilômetros sem se misturarem. Considere um ponto no Rio Negro e outro no Solimões, ambos à profundidade de 5 m e em águas calmas (água em repouso). Se a densidade da água do Rio Negro é ρ<sub>N</sub> = 996 kg/m³ e a do Rio Solimões é ρ<sub>S</sub> = 998 kg/m³, qual a diferença de pressão, em pascals, entre os dois pontos? (Use g = 10 m/s².)",
+"a": 100,
+"u": "Pa",
+"tol": 0.005,
+"d": [
+[
+"Pressão hidrostática",
+"p = p<sub>atm</sub> + ρ·g·h. Na mesma profundidade e com a mesma pressão na superfície, a diferença vem só das densidades: Δp = Δρ·g·h.",
+"Ex.: Δρ = 10 kg/m³ a 2 m ⟹ Δp = 200 Pa."
+]
+],
+"h": [
+"Δρ = 998 − 996 = 2 kg/m³.",
+"Δp = 2 × 10 × 5.",
+"Δp = <b>100 Pa</b> (maior no Solimões)."
+]
+},
+{
+"id": "2014-2-fis-19a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 2014, 2ª fase, Física, questão 19(a)",
+"r": 1790,
+"tm": 75,
+"ctx": "“As denúncias de violação de telefonemas e transmissão de dados de empresas e cidadãos brasileiros serviram para reforçar a tese das Forças Armadas da necessidade de o Brasil dispor de seu próprio satélite geoestacionário de comunicação militar” (O Estado de São Paulo, 15/07/2013). Uma órbita geoestacionária é caracterizada por estar no plano equatorial terrestre, sendo que o satélite que a executa está sempre acima do mesmo ponto no equador da superfície terrestre. Considere que a órbita geoestacionária tem raio r = 42 000 km. Calcule a aceleração centrípeta, em m/s², de um satélite em órbita circular geoestacionária. (Use π = 3.)",
+"a": 0.2025,
+"u": "m/s²",
+"tol": 0.03,
+"d": [
+[
+"Período geoestacionário",
+"O satélite acompanha a rotação da Terra: uma volta a cada 24 h.",
+""
+],
+[
+"Aceleração centrípeta",
+"v = 2πr/T e a<sub>c</sub> = v²/r (ou a<sub>c</sub> = 4π²r/T²). Use metros e segundos para obter m/s².",
+"Ex.: r = 10⁷ m, T = 10⁴ s, π = 3 ⟹ a<sub>c</sub> = 36 × 10⁷/10⁸ = 3,6 m/s²."
+]
+],
+"h": [
+"v = 2 × 3 × 4,2 × 10⁴ km/24 h = 1,05 × 10⁴ km/h ≈ 2917 m/s.",
+"a<sub>c</sub> = v²/r = (2917)²/(4,2 × 10⁷ m).",
+"a<sub>c</sub> ≈ <b>0,20 m/s²</b> (2625 km/h²)."
+]
+},
+{
+"id": "2014-2-fis-19b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 2014, 2ª fase, Física, questão 19(b)",
+"r": 1730,
+"tm": 90,
+"ctx": "“As denúncias de violação de telefonemas e transmissão de dados de empresas e cidadãos brasileiros serviram para reforçar a tese das Forças Armadas da necessidade de o Brasil dispor de seu próprio satélite geoestacionário de comunicação militar” (O Estado de São Paulo, 15/07/2013). Uma órbita geoestacionária é caracterizada por estar no plano equatorial terrestre, sendo que o satélite que a executa está sempre acima do mesmo ponto no equador da superfície terrestre. Considere que a órbita geoestacionária tem raio r = 42 000 km. A energia mecânica de um satélite de massa m em órbita circular em torno da Terra é dada por E = −GMm/(2r), em que r é o raio da órbita, M = 6 × 10²⁴ kg é a massa da Terra e G = 6,7 × 10⁻¹¹ N·m²/kg². O raio de órbita de satélites comuns de observação é tipicamente de 7000 km. Calcule a energia adicional, em joules, necessária para colocar um satélite de 200 kg em uma órbita geoestacionária, em comparação a colocá-lo em uma órbita comum de observação.",
+"a": 4800000000.0,
+"u": "J",
+"tol": 0.02,
+"d": [
+[
+"Diferença de energias",
+"ΔE = E<sub>final</sub> − E<sub>inicial</sub>. Como E é negativa e menos negativa para r maior, ΔE > 0.",
+""
+],
+[
+"Fatorar",
+"ΔE = (GMm/2)·(1/r<sub>comum</sub> − 1/r<sub>geo</sub>). Use os raios em metros.",
+"Ex.: 1/(7 × 10⁶) − 1/(42 × 10⁶) = 5/(42 × 10⁶)."
+]
+],
+"h": [
+"ΔE = (GMm/2)·(1/7 × 10⁶ − 1/42 × 10⁶) = (GMm/2) × 5/(4,2 × 10⁷).",
+"GMm/2 = 6,7 × 10⁻¹¹ × 6 × 10²⁴ × 200/2 = 4,02 × 10¹⁶.",
+"ΔE = 4,02 × 10¹⁶ × 1,19 × 10⁻⁷ ≈ <b>4,8 × 10⁹ J</b>."
+]
+},
+{
+"id": "2014-2-fis-20a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2014, 2ª fase, Física, questão 20(a)",
+"r": 1820,
+"tm": 75,
+"ctx": "O ar atmosférico oferece uma resistência significativa ao movimento dos automóveis. Suponha que um determinado automóvel movido a gasolina, trafegando em linha reta a uma velocidade constante de v = 72 km/h com relação ao ar, seja submetido a uma força de atrito de F<sub>ar</sub> = 380 N. Em uma viagem de uma hora, aproximadamente quantos litros de gasolina serão consumidos somente para “vencer” o atrito imposto pelo ar? Dados: calor de combustão da gasolina: 35 MJ/L. Rendimento do motor a gasolina: 30%.",
+"a": 2.6,
+"u": "L",
+"tol": 0.03,
+"d": [
+[
+"Trabalho contra o atrito",
+"Em velocidade constante, o motor faz uma força igual ao atrito: W = F·d, com d = v·Δt.",
+"Ex.: 200 N ao longo de 10 km ⟹ 2 × 10⁶ J."
+],
+[
+"Rendimento",
+"Só 30% da energia da gasolina vira trabalho útil: E<sub>gasolina</sub> = W/0,3. Litros = E<sub>gasolina</sub> ÷ (energia por litro).",
+""
+]
+],
+"h": [
+"d = 20 m/s × 3600 s = 72 000 m ⟹ W = 380 × 72 000 ≈ 2,74 × 10⁷ J.",
+"Energia da gasolina: 2,74 × 10⁷/0,3 ≈ 9,1 × 10⁷ J.",
+"Volume: 9,1 × 10⁷/3,5 × 10⁷ ≈ <b>2,6 L</b>."
+]
+},
+{
+"id": "2014-2-fis-20b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2014, 2ª fase, Física, questão 20(b)",
+"r": 1880,
+"tm": 90,
+"ctx": "A má calibração dos pneus gera gasto extra de combustível. Isso porque o rolamento é real e a baixa pressão aumenta a superfície de contato entre o solo e o pneu. Como consequência, o ponto efetivo da aplicação da força normal de módulo N não está verticalmente abaixo do eixo de rotação da roda (ponto O), e sim ligeiramente deslocado para a frente a uma distância d, como indica a figura. As forças que atuam sobre a roda não tracionada são: força F, que leva a roda para a frente, força peso P, força de atrito estático F<sub>at</sub> e força normal N. Para uma velocidade de translação V constante, o torque em relação ao ponto O, resultante das forças de atrito estático F<sub>at</sub> e normal N, deve ser nulo. Sendo R = 30 cm, d = 0,3 cm e N = 2500 N, calcule o módulo da força de atrito estático F<sub>at</sub>, em newtons.",
+"fig": "<svg viewBox='0 0 140 104' class='fg' role='img' aria-label='roda de raio R rolando para a direita com velocidade V; no centro O atuam a força F para a frente e o peso P para baixo; no chão, a força normal N para cima está aplicada um pouco à frente da vertical que passa por O, a uma distância d; a força de atrito estático F at, no ponto de contato, aponta para trás'><g fill='none' stroke='currentColor'><circle cx='60' cy='52' r='32' fill='currentColor' fill-opacity='0.08' stroke-width='1.2'/><circle cx='60' cy='52' r='26' stroke-width='0.5'/><g stroke-width='0.8'><line x1='10.0' y1='84.0' x2='130.0' y2='84.0'/></g><g stroke-width='0.5' stroke-dasharray='1.5 1.5'><line x1='60.0' y1='52.0' x2='60.0' y2='84.0'/><line x1='22.0' y1='52.0' x2='60.0' y2='52.0'/><line x1='66.0' y1='84.0' x2='66.0' y2='96.0'/><line x1='60.0' y1='84.0' x2='60.0' y2='96.0'/></g><g stroke-width='0.5'><line x1='22.0' y1='52.0' x2='22.0' y2='84.0'/></g><g stroke-width='1.2'><line x1='60.0' y1='52.0' x2='80.0' y2='52.0'/><line x1='60.0' y1='52.0' x2='60.0' y2='68.0'/><line x1='66.0' y1='84.0' x2='66.0' y2='64.0'/><line x1='60.0' y1='88.0' x2='42.0' y2='88.0'/><line x1='100.0' y1='12.0' x2='126.0' y2='12.0'/></g></g><g fill='currentColor'><circle cx='60' cy='52' r='1.6'/><polygon points='80.0,52.0 76.8,53.5 76.8,50.5'/><polygon points='60.0,68.0 58.5,64.8 61.5,64.8'/><polygon points='66.0,64.0 67.5,67.2 64.5,67.2'/><polygon points='42.0,88.0 45.2,86.5 45.2,89.5'/><polygon points='126.0,12.0 122.8,13.5 122.8,10.5'/><polygon points='22.0,52.0 23.3,54.7 20.7,54.7'/><polygon points='22.0,84.0 20.7,81.3 23.3,81.3'/><text x='56.0' y='49.0' text-anchor='end' font-size='6.5'>O</text><text x='82.0' y='50.0' text-anchor='start' font-size='7'>F</text><text x='56.0' y='70.0' text-anchor='end' font-size='7'>P</text><text x='69.0' y='66.0' text-anchor='start' font-size='7'>N</text><text x='40.0' y='92.0' text-anchor='end' font-size='7'>F<tspan font-size='5' dy='1.5'>at</tspan></text><text x='63.0' y='102.0' text-anchor='middle' font-size='6.5'>d</text><text x='19.0' y='70.0' text-anchor='end' font-size='7'>R</text><text x='113.0' y='9.0' text-anchor='middle' font-size='7'>V</text></g></svg>",
+"a": 25,
+"u": "N",
+"tol": 0.005,
+"d": [
+[
+"Torque (momento) de uma força",
+"τ = F × (braço), em que o braço é a distância perpendicular do ponto O até a linha de ação da força.",
+"Ex.: 100 N aplicados a 0,2 m do eixo, perpendicularmente ⟹ τ = 20 N·m."
+],
+[
+"Braço de cada força",
+"A normal é vertical e está a uma distância horizontal d de O. O atrito é horizontal, no chão, a uma distância vertical R de O.",
+""
+]
+],
+"h": [
+"Torques em relação a O com sentidos opostos: N·d (normal) e F<sub>at</sub>·R (atrito).",
+"Torque resultante nulo: N·d = F<sub>at</sub>·R.",
+"F<sub>at</sub> = 2500 × 0,3/30 = <b>25 N</b>."
+]
+},
+{
+"id": "2014-2-fis-21a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2014, 2ª fase, Física, questão 21(a)",
+"r": 1630,
+"tm": 75,
+"ctx": "Existem inúmeros tipos de extintores de incêndio que devem ser utilizados de acordo com a classe do fogo a se extinguir. No caso de incêndio envolvendo líquidos inflamáveis, classe B, os extintores à base de pó químico ou de dióxido de carbono (CO₂) são recomendados, enquanto extintores de água devem ser evitados, pois podem espalhar o fogo. Considere um extintor de CO₂ cilíndrico de volume interno V = 1800 cm³ que contém uma massa de CO₂ m = 6 kg. Tratando o CO₂ como um gás ideal, calcule a pressão, em pascals, no interior do extintor para uma temperatura T = 300 K. Dados: R = 8,3 J/(mol·K) e massa molar do CO₂ M = 44 g/mol.",
+"a": 190000000.0,
+"u": "Pa",
+"tol": 0.03,
+"d": [
+[
+"Equação dos gases ideais",
+"pV = nRT, em unidades do SI: V em m³ (1 cm³ = 10⁻⁶ m³), T em K, p em Pa.",
+""
+],
+[
+"Número de mols",
+"n = m/M, com m e M na mesma unidade (g e g/mol).",
+"Ex.: 88 g de CO₂ = 2 mol."
+]
+],
+"h": [
+"n = 6000 g/44 g/mol ≈ 136 mol; V = 1800 × 10⁻⁶ m³ = 1,8 × 10⁻³ m³.",
+"p = nRT/V = 136 × 8,3 × 300/1,8 × 10⁻³.",
+"p ≈ <b>1,9 × 10⁸ Pa</b>."
+]
+},
+{
+"id": "2014-2-fis-21b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_mom",
+"src": "Unicamp 2014, 2ª fase, Física, questão 21(b) (massa do extintor fornecida)",
+"r": 1790,
+"tm": 60,
+"ctx": "Existem inúmeros tipos de extintores de incêndio que devem ser utilizados de acordo com a classe do fogo a se extinguir. No caso de incêndio envolvendo líquidos inflamáveis, classe B, os extintores à base de pó químico ou de dióxido de carbono (CO₂) são recomendados, enquanto extintores de água devem ser evitados, pois podem espalhar o fogo. Suponha que um extintor de CO₂ completamente carregado, isolado e inicialmente em repouso, lance um jato de CO₂ de massa m = 50 g com velocidade v = 20 m/s. Estimando a massa total do extintor em M<sub>ext</sub> = 20 kg, calcule a sua velocidade de recuo, em m/s, provocada pelo lançamento do gás. Despreze a variação da massa total do cilindro decorrente do lançamento do jato.",
+"a": 0.05,
+"u": "m/s",
+"tol": 0.005,
+"d": [
+[
+"Conservação da quantidade de movimento",
+"Sistema isolado e inicialmente parado: a quantidade de movimento total continua zero. Assim, m·v (jato) = M·V (recuo), em sentidos opostos.",
+"Ex.: um canhão de 1000 kg dispara 10 kg a 100 m/s ⟹ recua a 1 m/s."
+]
+],
+"h": [
+"0 = m·v − M<sub>ext</sub>·V.",
+"V = 0,050 kg × 20 m/s/20 kg.",
+"V = <b>0,05 m/s</b>."
+]
+},
+{
+"id": "2014-2-fis-22a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_term",
+"src": "Unicamp 2014, 2ª fase, Física, questão 22(a)",
+"r": 1530,
+"tm": 50,
+"ctx": "Segundo as especificações de um fabricante, um forno de micro-ondas necessita, para funcionar, de uma potência de entrada de P = 1400 W, dos quais 50% são totalmente utilizados no aquecimento dos alimentos. Calcule o tempo, em segundos, necessário para elevar em 20 °C a temperatura de m = 100 g de água. O calor específico da água é c = 4,2 J/(g·°C).",
+"a": 12,
+"u": "s",
+"tol": 0.005,
+"d": [
+[
+"Calor sensível",
+"Q = m·c·Δθ.",
+"Ex.: 50 g de água aquecidos 10 °C ⟹ 2100 J."
+],
+[
+"Potência útil",
+"Só a parte aproveitada aquece: P<sub>útil</sub> = 0,5 × P. Tempo = Q/P<sub>útil</sub>.",
+""
+]
+],
+"h": [
+"Q = 100 × 4,2 × 20 = 8400 J.",
+"P<sub>útil</sub> = 0,5 × 1400 = 700 W.",
+"t = 8400/700 = <b>12 s</b>."
+]
+},
+{
+"id": "2014-2-fis-22b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2014, 2ª fase, Física, questão 22(b)",
+"r": 1580,
+"tm": 60,
+"ctx": "A figura mostra o esquema de um forno de micro-ondas, com 30 cm de distância entre duas de suas paredes internas paralelas, assim como uma representação simplificada de certo padrão de ondas estacionárias em seu interior. Considere a velocidade das ondas no interior do forno como c = 3 × 10⁸ m/s e calcule a frequência f, em hertz, das ondas que formam o padrão representado na figura.",
+"fig": "<svg viewBox='0 0 160 92' class='fg' role='img' aria-label='forno de micro-ondas visto de frente; dentro da cavidade, entre duas paredes paralelas separadas por 30 cm, há um padrão de ondas estacionárias com cinco ventres (cinco meios comprimentos de onda) e nós nas duas paredes'><g fill='none' stroke='currentColor'><rect x='8' y='8' width='146' height='76' rx='3' stroke-width='1.2'/><rect x='18' y='16' width='94' height='60' stroke-width='0.9'/><circle cx='134' cy='44' r='6' stroke-width='0.9'/><circle cx='134' cy='64' r='6' stroke-width='0.9'/><polyline points='22.0,54.0 22.9,55.7 23.7,57.4 24.6,59.0 25.4,60.5 26.3,61.8 27.2,62.9 28.0,63.8 28.9,64.5 29.7,64.9 30.6,65.0 31.5,64.9 32.3,64.5 33.2,63.8 34.0,62.9 34.9,61.8 35.8,60.5 36.6,59.0 37.5,57.4 38.3,55.7 39.2,54.0 40.1,52.3 40.9,50.6 41.8,49.0 42.6,47.5 43.5,46.2 44.4,45.1 45.2,44.2 46.1,43.5 46.9,43.1 47.8,43.0 48.7,43.1 49.5,43.5 50.4,44.2 51.2,45.1 52.1,46.2 53.0,47.5 53.8,49.0 54.7,50.6 55.5,52.3 56.4,54.0 57.3,55.7 58.1,57.4 59.0,59.0 59.8,60.5 60.7,61.8 61.6,62.9 62.4,63.8 63.3,64.5 64.1,64.9 65.0,65.0 65.9,64.9 66.7,64.5 67.6,63.8 68.4,62.9 69.3,61.8 70.2,60.5 71.0,59.0 71.9,57.4 72.7,55.7 73.6,54.0 74.5,52.3 75.3,50.6 76.2,49.0 77.0,47.5 77.9,46.2 78.8,45.1 79.6,44.2 80.5,43.5 81.3,43.1 82.2,43.0 83.1,43.1 83.9,43.5 84.8,44.2 85.6,45.1 86.5,46.2 87.4,47.5 88.2,49.0 89.1,50.6 89.9,52.3 90.8,54.0 91.7,55.7 92.5,57.4 93.4,59.0 94.2,60.5 95.1,61.8 96.0,62.9 96.8,63.8 97.7,64.5 98.5,64.9 99.4,65.0 100.3,64.9 101.1,64.5 102.0,63.8 102.8,62.9 103.7,61.8 104.6,60.5 105.4,59.0 106.3,57.4 107.1,55.7 108.0,54.0' stroke-width='0.9'/><polyline points='22.0,54.0 22.9,52.3 23.7,50.6 24.6,49.0 25.4,47.5 26.3,46.2 27.2,45.1 28.0,44.2 28.9,43.5 29.7,43.1 30.6,43.0 31.5,43.1 32.3,43.5 33.2,44.2 34.0,45.1 34.9,46.2 35.8,47.5 36.6,49.0 37.5,50.6 38.3,52.3 39.2,54.0 40.1,55.7 40.9,57.4 41.8,59.0 42.6,60.5 43.5,61.8 44.4,62.9 45.2,63.8 46.1,64.5 46.9,64.9 47.8,65.0 48.7,64.9 49.5,64.5 50.4,63.8 51.2,62.9 52.1,61.8 53.0,60.5 53.8,59.0 54.7,57.4 55.5,55.7 56.4,54.0 57.3,52.3 58.1,50.6 59.0,49.0 59.8,47.5 60.7,46.2 61.6,45.1 62.4,44.2 63.3,43.5 64.1,43.1 65.0,43.0 65.9,43.1 66.7,43.5 67.6,44.2 68.4,45.1 69.3,46.2 70.2,47.5 71.0,49.0 71.9,50.6 72.7,52.3 73.6,54.0 74.5,55.7 75.3,57.4 76.2,59.0 77.0,60.5 77.9,61.8 78.8,62.9 79.6,63.8 80.5,64.5 81.3,64.9 82.2,65.0 83.1,64.9 83.9,64.5 84.8,63.8 85.6,62.9 86.5,61.8 87.4,60.5 88.2,59.0 89.1,57.4 89.9,55.7 90.8,54.0 91.7,52.3 92.5,50.6 93.4,49.0 94.2,47.5 95.1,46.2 96.0,45.1 96.8,44.2 97.7,43.5 98.5,43.1 99.4,43.0 100.3,43.1 101.1,43.5 102.0,44.2 102.8,45.1 103.7,46.2 104.6,47.5 105.4,49.0 106.3,50.6 107.1,52.3 108.0,54.0' stroke-width='0.9'/><g stroke-width='0.6'><line x1='22.0' y1='28.0' x2='108.0' y2='28.0'/><line x1='22.0' y1='24.0' x2='22.0' y2='32.0'/><line x1='108.0' y1='24.0' x2='108.0' y2='32.0'/></g></g><g fill='currentColor'><rect x='129' y='18' width='10' height='8'/><polygon points='22.0,28.0 25.2,26.5 25.2,29.5'/><polygon points='108.0,28.0 104.8,29.5 104.8,26.5'/><text x='65.0' y='25.0' text-anchor='middle' font-size='7'>30 cm</text></g></svg>",
+"a": 2500000000.0,
+"u": "Hz",
+"tol": 0.01,
+"d": [
+[
+"Ondas estacionárias",
+"Cada “gomo” (ventre) entre dois nós corresponde a meio comprimento de onda. Conte os gomos entre as paredes: L = n·λ/2.",
+"Ex.: 4 gomos em 20 cm ⟹ λ = 10 cm."
+],
+[
+"Frequência",
+"f = c/λ.",
+""
+]
+],
+"h": [
+"Há 5 gomos em 30 cm: 5·λ/2 = 0,30 m ⟹ λ = 0,12 m.",
+"f = 3 × 10⁸/0,12.",
+"f = <b>2,5 × 10⁹ Hz</b> (2,5 GHz)."
+]
+},
+{
+"id": "2014-2-fis-23a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2014, 2ª fase, Física, questão 23(a)",
+"r": 1660,
+"tm": 50,
+"ctx": "No fenômeno de “magneto impedância gigante”, a resistência elétrica de determinado material pelo qual circula uma corrente alternada de frequência f varia com a aplicação de um campo magnético H. O gráfico da figura 1 mostra a resistência elétrica de determinado fio de resistividade elétrica ρ = 64,8 × 10⁻⁸ Ω·m em função da frequência f da corrente elétrica alternada que circula por esse fio, para diferentes valores de H. Como podemos ver na figura 1, o valor da resistência elétrica do fio para f = 0 Hz é R = 1,5 Ω. Calcule o comprimento L desse fio, em metros, cuja área de seção transversal vale A = 1,296 × 10⁻⁸ m².",
+"fig": "<svg viewBox='0 0 250 112' class='fg' role='img' aria-label='figura 1: resistência R, em ohms, em função da frequência f, de 0 a 10 MHz, para quatro valores de H; todas as curvas partem de 1,5 ohm em f = 0 e sobem; em 8 MHz valem cerca de 6,9 ohms para H = 5 Oe, 6,0 para H = 15 Oe, 4,0 para H = 35 Oe e 2,4 para H = 200 Oe. Figura 2: permeabilidade relativa mu r em função de H, de 0 a 100 Oe: cai de 6000 perto de H = 6 Oe para cerca de 3500 em 10 Oe, 1750 em 20 Oe, 1000 em 35 Oe e 350 em 100 Oe'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40.0' y1='92' x2='40.0' y2='12'/><line x1='58.0' y1='92' x2='58.0' y2='12'/><line x1='76.0' y1='92' x2='76.0' y2='12'/><line x1='94.0' y1='92' x2='94.0' y2='12'/><line x1='112.0' y1='92' x2='112.0' y2='12'/><line x1='22' y1='82.0' x2='112' y2='82.0'/><line x1='22' y1='72.0' x2='112' y2='72.0'/><line x1='22' y1='62.0' x2='112' y2='62.0'/><line x1='22' y1='52.0' x2='112' y2='52.0'/><line x1='22' y1='42.0' x2='112' y2='42.0'/><line x1='22' y1='32.0' x2='112' y2='32.0'/><line x1='22' y1='22.0' x2='112' y2='22.0'/><line x1='22' y1='12.0' x2='112' y2='12.0'/></g><line x1='22' y1='92' x2='115.60000000000001' y2='92' stroke-width='1'/><line x1='22' y1='92' x2='22' y2='9.0' stroke-width='1'/><polyline points='22.0,77.0 24.2,67.5 26.5,63.5 28.8,60.5 31.0,57.9 33.2,55.6 35.5,53.6 37.8,51.7 40.0,50.0 42.2,48.3 44.5,46.8 46.8,45.3 49.0,43.9 51.2,42.6 53.5,41.3 55.8,40.0 58.0,38.8 60.2,37.6 62.5,36.5 64.8,35.4 67.0,34.3 69.2,33.2 71.5,32.2 73.8,31.2 76.0,30.2 78.2,29.3 80.5,28.3 82.8,27.4 85.0,26.5 87.2,25.6 89.5,24.7 91.8,23.8 94.0,23.0 96.2,22.1 98.5,21.3 100.8,20.5 103.0,19.7 105.2,18.9 107.5,18.1 109.8,17.4 112.0,16.6' stroke-width='1'/><polyline points='22.0,77.0 24.2,69.0 26.5,65.8 28.8,63.2 31.0,61.1 33.2,59.2 35.5,57.5 37.8,56.0 40.0,54.5 42.2,53.1 44.5,51.9 46.8,50.6 49.0,49.5 51.2,48.3 53.5,47.3 55.8,46.2 58.0,45.2 60.2,44.2 62.5,43.3 64.8,42.3 67.0,41.4 69.2,40.6 71.5,39.7 73.8,38.9 76.0,38.1 78.2,37.2 80.5,36.5 82.8,35.7 85.0,34.9 87.2,34.2 89.5,33.5 91.8,32.7 94.0,32.0 96.2,31.3 98.5,30.6 100.8,30.0 103.0,29.3 105.2,28.6 107.5,28.0 109.8,27.4 112.0,26.7' stroke-width='1'/><polyline points='22.0,77.0 24.2,72.6 26.5,70.7 28.8,69.3 31.0,68.2 33.2,67.1 35.5,66.2 37.8,65.3 40.0,64.5 42.2,63.7 44.5,63.0 46.8,62.3 49.0,61.7 51.2,61.1 53.5,60.5 55.8,59.9 58.0,59.3 60.2,58.8 62.5,58.2 64.8,57.7 67.0,57.2 69.2,56.7 71.5,56.3 73.8,55.8 76.0,55.3 78.2,54.9 80.5,54.5 82.8,54.0 85.0,53.6 87.2,53.2 89.5,52.8 91.8,52.4 94.0,52.0 96.2,51.6 98.5,51.2 100.8,50.9 103.0,50.5 105.2,50.1 107.5,49.8 109.8,49.4 112.0,49.0' stroke-width='1'/><polyline points='22.0,77.0 24.2,75.4 26.5,74.8 28.8,74.2 31.0,73.8 33.2,73.4 35.5,73.1 37.8,72.8 40.0,72.5 42.2,72.2 44.5,72.0 46.8,71.7 49.0,71.5 51.2,71.3 53.5,71.1 55.8,70.8 58.0,70.6 60.2,70.4 62.5,70.3 64.8,70.1 67.0,69.9 69.2,69.7 71.5,69.5 73.8,69.4 76.0,69.2 78.2,69.0 80.5,68.9 82.8,68.7 85.0,68.6 87.2,68.4 89.5,68.3 91.8,68.1 94.0,68.0 96.2,67.9 98.5,67.7 100.8,67.6 103.0,67.5 105.2,67.3 107.5,67.2 109.8,67.1 112.0,66.9' stroke-width='1'/><g stroke-width='0.5' stroke-opacity='0.45'><line x1='168.0' y1='92.0' x2='168.0' y2='12.200000000000003'/><line x1='186.0' y1='92.0' x2='186.0' y2='12.200000000000003'/><line x1='204.0' y1='92.0' x2='204.0' y2='12.200000000000003'/><line x1='222.0' y1='92.0' x2='222.0' y2='12.200000000000003'/><line x1='240.0' y1='92.0' x2='240.0' y2='12.200000000000003'/><line x1='150.0' y1='78.7' x2='240.0' y2='78.7'/><line x1='150.0' y1='65.4' x2='240.0' y2='65.4'/><line x1='150.0' y1='52.1' x2='240.0' y2='52.1'/><line x1='150.0' y1='38.8' x2='240.0' y2='38.8'/><line x1='150.0' y1='25.5' x2='240.0' y2='25.5'/><line x1='150.0' y1='12.2' x2='240.0' y2='12.2'/></g><line x1='150.0' y1='92.0' x2='243.60000000000002' y2='92.0' stroke-width='1'/><line x1='150.0' y1='92.0' x2='150.0' y2='8.210000000000008' stroke-width='1'/><polyline points='155.3,12.3 155.4,14.4 156.3,25.5 157.2,33.8 158.1,40.3 159.0,45.5 159.9,49.7 160.8,53.2 161.7,56.2 162.6,58.8 163.5,61.0 164.4,62.9 165.3,64.6 166.2,66.1 167.1,67.5 168.0,68.7 168.9,69.8 169.8,70.8 170.7,71.8 171.6,72.6 172.5,73.4 173.4,74.1 174.3,74.8 175.2,75.4 176.1,75.9 177.0,76.5 177.9,77.0 178.8,77.5 179.7,77.9 180.6,78.3 181.5,78.7 182.4,79.1 183.3,79.4 184.2,79.8 185.1,80.1 186.0,80.4 186.9,80.6 187.8,80.9 188.7,81.2 189.6,81.4 190.5,81.7 191.4,81.9 192.3,82.1 193.2,82.3 194.1,82.5 195.0,82.7 195.9,82.9 196.8,83.0 197.7,83.2 198.6,83.4 199.5,83.5 200.4,83.7 201.3,83.8 202.2,84.0 203.1,84.1 204.0,84.2 204.9,84.4 205.8,84.5 206.7,84.6 207.6,84.7 208.5,84.8 209.4,84.9 210.3,85.1 211.2,85.2 212.1,85.3 213.0,85.3 213.9,85.4 214.8,85.5 215.7,85.6 216.6,85.7 217.5,85.8 218.4,85.9 219.3,86.0 220.2,86.0 221.1,86.1 222.0,86.2 222.9,86.3 223.8,86.3 224.7,86.4 225.6,86.5 226.5,86.5 227.4,86.6 228.3,86.6 229.2,86.7 230.1,86.8 231.0,86.8 231.9,86.9 232.8,86.9 233.7,87.0 234.6,87.0 235.5,87.1 236.4,87.2 237.3,87.2 238.2,87.2 239.1,87.3 240.0,87.3' stroke-width='1.1'/></g><g fill='currentColor'><text x='22.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='40.0' y='99.0' text-anchor='middle' font-size='5.5'>2</text><text x='58.0' y='99.0' text-anchor='middle' font-size='5.5'>4</text><text x='76.0' y='99.0' text-anchor='middle' font-size='5.5'>6</text><text x='94.0' y='99.0' text-anchor='middle' font-size='5.5'>8</text><text x='112.0' y='99.0' text-anchor='middle' font-size='5.5'>10</text><text x='20.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='20.0' y='74.0' text-anchor='end' font-size='5.5'>2</text><text x='20.0' y='54.0' text-anchor='end' font-size='5.5'>4</text><text x='20.0' y='34.0' text-anchor='end' font-size='5.5'>6</text><text x='20.0' y='14.0' text-anchor='end' font-size='5.5'>8</text><text x='88.6' y='23.0' text-anchor='end' font-size='5'>H = 5 Oe</text><text x='88.6' y='31.7' text-anchor='end' font-size='5'>H = 15 Oe</text><text x='88.6' y='51.0' text-anchor='end' font-size='5'>H = 35 Oe</text><text x='88.6' y='66.3' text-anchor='end' font-size='5'>H = 200 Oe</text><text x='67.0' y='107.0' text-anchor='middle' font-size='6'>f (MHz)</text><text x='8.0' y='52.0' text-anchor='middle' font-size='6' transform='rotate(-90 8.0 52.0)'>R (Ω)</text><text x='67.0' y='7.0' text-anchor='middle' font-size='6.5'>Figura 1</text><text x='150.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='168.0' y='99.0' text-anchor='middle' font-size='5.5'>20</text><text x='186.0' y='99.0' text-anchor='middle' font-size='5.5'>40</text><text x='204.0' y='99.0' text-anchor='middle' font-size='5.5'>60</text><text x='222.0' y='99.0' text-anchor='middle' font-size='5.5'>80</text><text x='240.0' y='99.0' text-anchor='middle' font-size='5.5'>100</text><text x='148.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='148.0' y='67.4' text-anchor='end' font-size='5.5'>2000</text><text x='148.0' y='40.8' text-anchor='end' font-size='5.5'>4000</text><text x='148.0' y='14.2' text-anchor='end' font-size='5.5'>6000</text><text x='195.0' y='107.0' text-anchor='middle' font-size='6'>H (Oe)</text><text x='128.0' y='52.1' text-anchor='middle' font-size='6.5' transform='rotate(-90 128.0 52.1)'>μ<tspan font-size='5' dy='1.5'>r</tspan></text><text x='195.0' y='7.0' text-anchor='middle' font-size='6.5'>Figura 2</text></g></svg>",
+"a": 0.03,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"2ª lei de Ohm",
+"R = ρ·L/A ⟹ L = R·A/ρ.",
+"Ex.: R = 2 Ω, A = 10⁻⁶ m², ρ = 2 × 10⁻⁸ Ω·m ⟹ L = 100 m."
+]
+],
+"h": [
+"L = 1,5 × 1,296 × 10⁻⁸/64,8 × 10⁻⁸.",
+"= 1,944/64,8.",
+"L = <b>0,03 m</b> (3 cm)."
+]
+},
+{
+"id": "2014-2-fis-23b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_mag",
+"src": "Unicamp 2014, 2ª fase, Física, questão 23(b)",
+"r": 1800,
+"tm": 90,
+"ctx": "No fenômeno de “magneto impedância gigante”, a resistência elétrica de determinado material pelo qual circula uma corrente alternada de frequência f varia com a aplicação de um campo magnético H. O gráfico da figura 1 mostra a resistência elétrica de determinado fio de resistividade elétrica ρ = 64,8 × 10⁻⁸ Ω·m em função da frequência f da corrente elétrica alternada que circula por esse fio, para diferentes valores de H. Para altas frequências, a corrente elétrica alternada fica confinada em uma região próxima à superfície do fio, determinada pelo comprimento de penetração δ = k·√(ρ/(μ<sub>r</sub>·f)), em que ρ é a resistividade do fio, f é a frequência, μ<sub>r</sub> é a permeabilidade magnética relativa do fio e k = 500 √(m·Hz/Ω). Sabendo que μ<sub>r</sub> varia com o campo magnético aplicado H, como mostra a figura 2, e que, para f = 8 MHz, temos R ≈ 4 Ω, calcule o valor de δ, em micrômetros, para essa situação.",
+"fig": "<svg viewBox='0 0 250 112' class='fg' role='img' aria-label='figura 1: resistência R, em ohms, em função da frequência f, de 0 a 10 MHz, para quatro valores de H; todas as curvas partem de 1,5 ohm em f = 0 e sobem; em 8 MHz valem cerca de 6,9 ohms para H = 5 Oe, 6,0 para H = 15 Oe, 4,0 para H = 35 Oe e 2,4 para H = 200 Oe. Figura 2: permeabilidade relativa mu r em função de H, de 0 a 100 Oe: cai de 6000 perto de H = 6 Oe para cerca de 3500 em 10 Oe, 1750 em 20 Oe, 1000 em 35 Oe e 350 em 100 Oe'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40.0' y1='92' x2='40.0' y2='12'/><line x1='58.0' y1='92' x2='58.0' y2='12'/><line x1='76.0' y1='92' x2='76.0' y2='12'/><line x1='94.0' y1='92' x2='94.0' y2='12'/><line x1='112.0' y1='92' x2='112.0' y2='12'/><line x1='22' y1='82.0' x2='112' y2='82.0'/><line x1='22' y1='72.0' x2='112' y2='72.0'/><line x1='22' y1='62.0' x2='112' y2='62.0'/><line x1='22' y1='52.0' x2='112' y2='52.0'/><line x1='22' y1='42.0' x2='112' y2='42.0'/><line x1='22' y1='32.0' x2='112' y2='32.0'/><line x1='22' y1='22.0' x2='112' y2='22.0'/><line x1='22' y1='12.0' x2='112' y2='12.0'/></g><line x1='22' y1='92' x2='115.60000000000001' y2='92' stroke-width='1'/><line x1='22' y1='92' x2='22' y2='9.0' stroke-width='1'/><polyline points='22.0,77.0 24.2,67.5 26.5,63.5 28.8,60.5 31.0,57.9 33.2,55.6 35.5,53.6 37.8,51.7 40.0,50.0 42.2,48.3 44.5,46.8 46.8,45.3 49.0,43.9 51.2,42.6 53.5,41.3 55.8,40.0 58.0,38.8 60.2,37.6 62.5,36.5 64.8,35.4 67.0,34.3 69.2,33.2 71.5,32.2 73.8,31.2 76.0,30.2 78.2,29.3 80.5,28.3 82.8,27.4 85.0,26.5 87.2,25.6 89.5,24.7 91.8,23.8 94.0,23.0 96.2,22.1 98.5,21.3 100.8,20.5 103.0,19.7 105.2,18.9 107.5,18.1 109.8,17.4 112.0,16.6' stroke-width='1'/><polyline points='22.0,77.0 24.2,69.0 26.5,65.8 28.8,63.2 31.0,61.1 33.2,59.2 35.5,57.5 37.8,56.0 40.0,54.5 42.2,53.1 44.5,51.9 46.8,50.6 49.0,49.5 51.2,48.3 53.5,47.3 55.8,46.2 58.0,45.2 60.2,44.2 62.5,43.3 64.8,42.3 67.0,41.4 69.2,40.6 71.5,39.7 73.8,38.9 76.0,38.1 78.2,37.2 80.5,36.5 82.8,35.7 85.0,34.9 87.2,34.2 89.5,33.5 91.8,32.7 94.0,32.0 96.2,31.3 98.5,30.6 100.8,30.0 103.0,29.3 105.2,28.6 107.5,28.0 109.8,27.4 112.0,26.7' stroke-width='1'/><polyline points='22.0,77.0 24.2,72.6 26.5,70.7 28.8,69.3 31.0,68.2 33.2,67.1 35.5,66.2 37.8,65.3 40.0,64.5 42.2,63.7 44.5,63.0 46.8,62.3 49.0,61.7 51.2,61.1 53.5,60.5 55.8,59.9 58.0,59.3 60.2,58.8 62.5,58.2 64.8,57.7 67.0,57.2 69.2,56.7 71.5,56.3 73.8,55.8 76.0,55.3 78.2,54.9 80.5,54.5 82.8,54.0 85.0,53.6 87.2,53.2 89.5,52.8 91.8,52.4 94.0,52.0 96.2,51.6 98.5,51.2 100.8,50.9 103.0,50.5 105.2,50.1 107.5,49.8 109.8,49.4 112.0,49.0' stroke-width='1'/><polyline points='22.0,77.0 24.2,75.4 26.5,74.8 28.8,74.2 31.0,73.8 33.2,73.4 35.5,73.1 37.8,72.8 40.0,72.5 42.2,72.2 44.5,72.0 46.8,71.7 49.0,71.5 51.2,71.3 53.5,71.1 55.8,70.8 58.0,70.6 60.2,70.4 62.5,70.3 64.8,70.1 67.0,69.9 69.2,69.7 71.5,69.5 73.8,69.4 76.0,69.2 78.2,69.0 80.5,68.9 82.8,68.7 85.0,68.6 87.2,68.4 89.5,68.3 91.8,68.1 94.0,68.0 96.2,67.9 98.5,67.7 100.8,67.6 103.0,67.5 105.2,67.3 107.5,67.2 109.8,67.1 112.0,66.9' stroke-width='1'/><g stroke-width='0.5' stroke-opacity='0.45'><line x1='168.0' y1='92.0' x2='168.0' y2='12.200000000000003'/><line x1='186.0' y1='92.0' x2='186.0' y2='12.200000000000003'/><line x1='204.0' y1='92.0' x2='204.0' y2='12.200000000000003'/><line x1='222.0' y1='92.0' x2='222.0' y2='12.200000000000003'/><line x1='240.0' y1='92.0' x2='240.0' y2='12.200000000000003'/><line x1='150.0' y1='78.7' x2='240.0' y2='78.7'/><line x1='150.0' y1='65.4' x2='240.0' y2='65.4'/><line x1='150.0' y1='52.1' x2='240.0' y2='52.1'/><line x1='150.0' y1='38.8' x2='240.0' y2='38.8'/><line x1='150.0' y1='25.5' x2='240.0' y2='25.5'/><line x1='150.0' y1='12.2' x2='240.0' y2='12.2'/></g><line x1='150.0' y1='92.0' x2='243.60000000000002' y2='92.0' stroke-width='1'/><line x1='150.0' y1='92.0' x2='150.0' y2='8.210000000000008' stroke-width='1'/><polyline points='155.3,12.3 155.4,14.4 156.3,25.5 157.2,33.8 158.1,40.3 159.0,45.5 159.9,49.7 160.8,53.2 161.7,56.2 162.6,58.8 163.5,61.0 164.4,62.9 165.3,64.6 166.2,66.1 167.1,67.5 168.0,68.7 168.9,69.8 169.8,70.8 170.7,71.8 171.6,72.6 172.5,73.4 173.4,74.1 174.3,74.8 175.2,75.4 176.1,75.9 177.0,76.5 177.9,77.0 178.8,77.5 179.7,77.9 180.6,78.3 181.5,78.7 182.4,79.1 183.3,79.4 184.2,79.8 185.1,80.1 186.0,80.4 186.9,80.6 187.8,80.9 188.7,81.2 189.6,81.4 190.5,81.7 191.4,81.9 192.3,82.1 193.2,82.3 194.1,82.5 195.0,82.7 195.9,82.9 196.8,83.0 197.7,83.2 198.6,83.4 199.5,83.5 200.4,83.7 201.3,83.8 202.2,84.0 203.1,84.1 204.0,84.2 204.9,84.4 205.8,84.5 206.7,84.6 207.6,84.7 208.5,84.8 209.4,84.9 210.3,85.1 211.2,85.2 212.1,85.3 213.0,85.3 213.9,85.4 214.8,85.5 215.7,85.6 216.6,85.7 217.5,85.8 218.4,85.9 219.3,86.0 220.2,86.0 221.1,86.1 222.0,86.2 222.9,86.3 223.8,86.3 224.7,86.4 225.6,86.5 226.5,86.5 227.4,86.6 228.3,86.6 229.2,86.7 230.1,86.8 231.0,86.8 231.9,86.9 232.8,86.9 233.7,87.0 234.6,87.0 235.5,87.1 236.4,87.2 237.3,87.2 238.2,87.2 239.1,87.3 240.0,87.3' stroke-width='1.1'/></g><g fill='currentColor'><text x='22.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='40.0' y='99.0' text-anchor='middle' font-size='5.5'>2</text><text x='58.0' y='99.0' text-anchor='middle' font-size='5.5'>4</text><text x='76.0' y='99.0' text-anchor='middle' font-size='5.5'>6</text><text x='94.0' y='99.0' text-anchor='middle' font-size='5.5'>8</text><text x='112.0' y='99.0' text-anchor='middle' font-size='5.5'>10</text><text x='20.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='20.0' y='74.0' text-anchor='end' font-size='5.5'>2</text><text x='20.0' y='54.0' text-anchor='end' font-size='5.5'>4</text><text x='20.0' y='34.0' text-anchor='end' font-size='5.5'>6</text><text x='20.0' y='14.0' text-anchor='end' font-size='5.5'>8</text><text x='88.6' y='23.0' text-anchor='end' font-size='5'>H = 5 Oe</text><text x='88.6' y='31.7' text-anchor='end' font-size='5'>H = 15 Oe</text><text x='88.6' y='51.0' text-anchor='end' font-size='5'>H = 35 Oe</text><text x='88.6' y='66.3' text-anchor='end' font-size='5'>H = 200 Oe</text><text x='67.0' y='107.0' text-anchor='middle' font-size='6'>f (MHz)</text><text x='8.0' y='52.0' text-anchor='middle' font-size='6' transform='rotate(-90 8.0 52.0)'>R (Ω)</text><text x='67.0' y='7.0' text-anchor='middle' font-size='6.5'>Figura 1</text><text x='150.0' y='99.0' text-anchor='middle' font-size='5.5'>0</text><text x='168.0' y='99.0' text-anchor='middle' font-size='5.5'>20</text><text x='186.0' y='99.0' text-anchor='middle' font-size='5.5'>40</text><text x='204.0' y='99.0' text-anchor='middle' font-size='5.5'>60</text><text x='222.0' y='99.0' text-anchor='middle' font-size='5.5'>80</text><text x='240.0' y='99.0' text-anchor='middle' font-size='5.5'>100</text><text x='148.0' y='94.0' text-anchor='end' font-size='5.5'>0</text><text x='148.0' y='67.4' text-anchor='end' font-size='5.5'>2000</text><text x='148.0' y='40.8' text-anchor='end' font-size='5.5'>4000</text><text x='148.0' y='14.2' text-anchor='end' font-size='5.5'>6000</text><text x='195.0' y='107.0' text-anchor='middle' font-size='6'>H (Oe)</text><text x='128.0' y='52.1' text-anchor='middle' font-size='6.5' transform='rotate(-90 128.0 52.1)'>μ<tspan font-size='5' dy='1.5'>r</tspan></text><text x='195.0' y='7.0' text-anchor='middle' font-size='6.5'>Figura 2</text></g></svg>",
+"a": 4.5,
+"u": "μm",
+"tol": 0.02,
+"d": [
+[
+"Ler os dois gráficos em sequência",
+"Na figura 1, ache qual curva (qual H) passa por R = 4 Ω em f = 8 MHz. Com esse H, leia μ<sub>r</sub> na figura 2.",
+""
+],
+[
+"Raiz de potências de 10",
+"Agrupe numa só potência de 10 com expoente par antes de tirar a raiz: √(81 × 10⁻¹⁸) = 9 × 10⁻⁹.",
+""
+]
+],
+"h": [
+"Figura 1: em 8 MHz, R ≈ 4 Ω na curva H = 35 Oe. Figura 2: em H = 35 Oe, μ<sub>r</sub> ≈ 1000.",
+"ρ/(μ<sub>r</sub>·f) = 64,8 × 10⁻⁸/(1000 × 8 × 10⁶) = 8,1 × 10⁻¹⁷ ⟹ raiz = 9 × 10⁻⁹.",
+"δ = 500 × 9 × 10⁻⁹ m = 4,5 × 10⁻⁶ m = <b>4,5 μm</b>."
+]
+},
+{
+"id": "2014-2-fis-24a",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2014, 2ª fase, Física, questão 24(a) (adaptada para múltipla escolha)",
+"r": 1860,
+"tm": 75,
+"ctx": "Em uma câmera fotográfica tradicional, como a representada na figura, a imagem é gravada em um filme fotográfico. A posição da lente é ajustada de modo a produzir a imagem no filme colocado na parte posterior da câmera. Considere uma câmera para a qual um objeto muito distante fornece uma imagem pontual no filme em uma posição p′ = 5 cm. O objeto é então colocado mais perto da câmera, em uma posição p = 100 cm, e a distância entre a lente e o filme é ajustada até que uma imagem nítida real invertida se forme no filme. Qual é, aproximadamente, a variação da posição da imagem p′ decorrente da troca de posição do objeto?",
+"fig": "<svg viewBox='0 0 150 84' class='fg' role='img' aria-label='câmera fotográfica: à esquerda, um objeto o, em forma de seta para cima, a uma distância p da lente objetiva; dentro da câmera, a imagem i, invertida, se forma no filme, na parede do fundo, a uma distância p linha da lente; raios de luz saem da ponta do objeto, atravessam a lente e convergem na ponta da imagem'><g fill='none' stroke='currentColor'><rect x='78' y='10' width='62' height='64' stroke-width='1.1'/><ellipse cx='86' cy='42' rx='3.5' ry='20' stroke-width='0.9'/><g stroke-width='0.5' stroke-dasharray='2 1.5'><line x1='6.0' y1='42.0' x2='140.0' y2='42.0'/></g><g stroke-width='1.3'><line x1='14.0' y1='42.0' x2='14.0' y2='28.0'/><line x1='134.0' y1='42.0' x2='134.0' y2='50.0'/></g><g stroke-width='0.5'><line x1='14.0' y1='28.0' x2='86.0' y2='26.0'/><line x1='86.0' y1='26.0' x2='134.0' y2='50.0'/><line x1='14.0' y1='28.0' x2='134.0' y2='50.0'/><line x1='14.0' y1='28.0' x2='86.0' y2='58.0'/><line x1='86.0' y1='58.0' x2='134.0' y2='50.0'/></g><g stroke-width='0.5'><line x1='14.0' y1='18.0' x2='86.0' y2='18.0'/><line x1='86.0' y1='66.0' x2='134.0' y2='66.0'/></g></g><g fill='currentColor'><polygon points='14.0,28.0 15.7,31.6 12.3,31.6'/><polygon points='134.0,50.0 132.3,46.4 135.7,46.4'/><polygon points='14.0,18.0 16.7,16.7 16.7,19.3'/><polygon points='86.0,18.0 83.3,19.3 83.3,16.7'/><polygon points='86.0,66.0 88.7,64.7 88.7,67.3'/><polygon points='134.0,66.0 131.3,67.3 131.3,64.7'/><text x='10.0' y='34.0' text-anchor='end' font-size='7'>o</text><text x='137.0' y='48.0' text-anchor='start' font-size='7'>i</text><text x='50.0' y='15.0' text-anchor='middle' font-size='7'>p</text><text x='110.0' y='63.0' text-anchor='middle' font-size='7'>p′</text><text x='86.0' y='82.0' text-anchor='middle' font-size='6'>objetiva</text></g></svg>",
+"opts": [
+"Cerca de 0,3 cm (a imagem passa a se formar a cerca de 5,3 cm da lente).",
+"Cerca de 5 cm (a imagem passa a se formar a 10 cm da lente).",
+"Nenhuma: a imagem continua a 5 cm da lente.",
+"Cerca de 0,3 cm, mas a imagem se aproxima da lente (passa a 4,7 cm)."
+],
+"a": 0,
+"d": [
+[
+"Objeto no infinito",
+"Raios de um objeto muito distante chegam paralelos e convergem no foco: a imagem fica a uma distância f da lente.",
+""
+],
+[
+"Equação das lentes",
+"1/f = 1/p + 1/p′ ⟹ 1/p′ = 1/f − 1/p.",
+"Ex.: f = 4 cm e p = 20 cm ⟹ 1/p′ = 1/4 − 1/20 = 1/5 ⟹ p′ = 5 cm."
+]
+],
+"h": [
+"Objeto distante: imagem no foco ⟹ f = 5 cm.",
+"1/p′ = 1/5 − 1/100 = 19/100 ⟹ p′ = 100/19 ≈ 5,26 cm.",
+"Δp′ ≈ 5,3 − 5,0 = <b>0,3 cm</b>, afastando a imagem da lente."
+]
+},
+{
+"id": "2014-2-fis-24b",
+"ano": 2014,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2014, 2ª fase, Física, questão 24(b)",
+"r": 1830,
+"tm": 50,
+"ctx": "Nas câmeras fotográficas modernas, a captação da imagem é feita normalmente por um sensor tipo CCD (<i>Charge Coupled Device</i>). Esse tipo de dispositivo possui trilhas de capacitores que acumulam cargas elétricas proporcionalmente à intensidade da luz incidente em cada parte da trilha. Considere um conjunto de 3 capacitores de mesma capacitância C = 0,6 pF, ligados em série conforme a figura. Se o conjunto de capacitores é submetido a uma diferença de potencial V = 5,0 V, qual é a carga elétrica total acumulada no conjunto, em picocoulombs?",
+"fig": "<svg viewBox='0 0 130 64' class='fg' role='img' aria-label='três capacitores de mesma capacitância C ligados em série num mesmo fio; os extremos do conjunto estão submetidos à diferença de potencial V'><g fill='none' stroke='currentColor'><g stroke-width='0.9'><line x1='14.0' y1='20.0' x2='38.0' y2='20.0'/><line x1='44.0' y1='20.0' x2='60.0' y2='20.0'/><line x1='66.0' y1='20.0' x2='82.0' y2='20.0'/><line x1='88.0' y1='20.0' x2='116.0' y2='20.0'/><line x1='14.0' y1='20.0' x2='14.0' y2='42.0'/><line x1='116.0' y1='20.0' x2='116.0' y2='42.0'/></g><g stroke-width='1.8'><line x1='38.0' y1='11.0' x2='38.0' y2='29.0'/><line x1='44.0' y1='11.0' x2='44.0' y2='29.0'/><line x1='60.0' y1='11.0' x2='60.0' y2='29.0'/><line x1='66.0' y1='11.0' x2='66.0' y2='29.0'/><line x1='82.0' y1='11.0' x2='82.0' y2='29.0'/><line x1='88.0' y1='11.0' x2='88.0' y2='29.0'/></g><g stroke-width='0.6'><line x1='16.0' y1='50.0' x2='114.0' y2='50.0'/></g></g><g fill='currentColor'><text x='41.0' y='39.0' text-anchor='middle' font-size='7'>C</text><text x='63.0' y='39.0' text-anchor='middle' font-size='7'>C</text><text x='85.0' y='39.0' text-anchor='middle' font-size='7'>C</text><polygon points='16.0,50.0 19.2,48.5 19.2,51.5'/><polygon points='114.0,50.0 110.8,51.5 110.8,48.5'/><text x='65.0' y='60.0' text-anchor='middle' font-size='7'>V</text><circle cx='14' cy='42' r='1.5'/><circle cx='116' cy='42' r='1.5'/></g></svg>",
+"a": 1,
+"u": "pC",
+"tol": 0.005,
+"d": [
+[
+"Capacitores em série",
+"1/C<sub>eq</sub> = 1/C₁ + 1/C₂ + 1/C₃. Com n capacitores iguais, C<sub>eq</sub> = C/n. Em série, todos ficam com a mesma carga, que é a carga do conjunto.",
+"Ex.: dois de 4 pF em série ⟹ 2 pF."
+],
+[
+"Carga",
+"Q = C<sub>eq</sub>·V.",
+""
+]
+],
+"h": [
+"C<sub>eq</sub> = 0,6/3 = 0,2 pF.",
+"Q = 0,2 pF × 5,0 V.",
+"Q = <b>1 pC</b>."
+]
+}
+]

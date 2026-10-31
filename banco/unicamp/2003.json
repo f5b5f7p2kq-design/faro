@@ -1,0 +1,2678 @@
+[
+{
+"id": "2003-1-05a",
+"ano": 2003,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2003, 1ª fase, questão 5(a)",
+"r": 1570,
+"tm": 45,
+"ctx": "Uma das maneiras de preparar sabão é reagir hidróxido de sódio com a tripalmitina, uma gordura: ela é o triéster do glicerol, C₃H₅(OH)₃, com o ácido palmítico, C₁₅H₃₁COOH. A reação forma glicerol e sabão (um sal de ácido orgânico). Qual a fórmula do sal orgânico (sabão) formado?",
+"opts": [
+"C₁₅H₃₁COONa (palmitato de sódio)",
+"C₃H₅(ONa)₃ (glicerato de sódio)",
+"C₁₅H₃₁COOH (ácido palmítico)",
+"C₁₅H₃₁ONa (alcóxido de sódio)"
+],
+"a": 0,
+"d": [
+[
+"Saponificação",
+"Éster + base forte → álcool + sal do ácido carboxílico. O sódio fica no lugar do H do grupo –COOH do ácido que formava o éster.",
+"Ex.: CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH."
+]
+],
+"h": [
+"Cada um dos três grupos éster da tripalmitina reage com um NaOH.",
+"O glicerol recupera as hidroxilas; o ácido palmítico sai como sal de sódio.",
+"Sabão: <b>C₁₅H₃₁COONa</b>, o palmitato de sódio."
+]
+},
+{
+"id": "2003-1-05b",
+"ano": 2003,
+"fase": 1,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2003, 1ª fase, questão 5(b)",
+"r": 1740,
+"tm": 75,
+"ctx": "Uma das maneiras de preparar sabão é reagir hidróxido de sódio com a tripalmitina, uma gordura: ela é o triéster do glicerol, C₃H₅(OH)₃, com o ácido palmítico, C₁₅H₃₁COOH. A reação forma glicerol e sabão (um sal de ácido orgânico). Partindo de 1,2·10⁻³ mol de tripalmitina e 5,0·10⁻³ mol de NaOH, quantos mol de sabão se formam? Responda em unidades de 10⁻³ mol.",
+"a": 3.6,
+"u": "10⁻³ mol",
+"tol": 0.01,
+"d": [
+[
+"Proporção",
+"Tripalmitina + 3 NaOH → glicerol + 3 sabão.",
+""
+],
+[
+"Reagente limitante",
+"Calcule quanto NaOH a gordura toda consumiria e compare com o disponível: o reagente que acaba primeiro determina quanto produto se forma."
+]
+],
+"h": [
+"1,2·10⁻³ mol de gordura consomem 3 × 1,2·10⁻³ = 3,6·10⁻³ mol de NaOH, menos que os 5,0·10⁻³ disponíveis.",
+"A gordura é o reagente limitante (sobra NaOH), e cada mol dela dá 3 mol de sabão.",
+"<b>3,6·10⁻³ mol</b> de sabão."
+]
+},
+{
+"id": "2003-1-06a",
+"ano": 2003,
+"fase": 1,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2003, 1ª fase, questão 6(a)",
+"r": 1280,
+"tm": 30,
+"ctx": "O sabão precipita em água que contém íons cálcio. Os detergentes alquilsulfônicos, desenvolvidos mais tarde, são solúveis em água e não precipitam com íons cálcio. Que elemento químico aparece na fórmula de um detergente alquilsulfônico e não aparece na de um sabão?",
+"opts": [
+"S, enxofre",
+"Na, sódio",
+"N, nitrogênio",
+"P, fósforo"
+],
+"a": 0,
+"d": [
+[
+"Sabão × detergente",
+"Sabão é sal de ácido carboxílico (R–COO⁻ Na⁺): só tem C, H, O e Na. O detergente \"sulfônico\" deriva do ácido sulfônico, R–SO₃H.",
+""
+]
+],
+"h": [
+"Sabão: R–COONa (C, H, O e Na).",
+"Alquilsulfônico: R–SO₃Na, com o grupo sulfonato.",
+"<b>S, enxofre</b>."
+]
+},
+{
+"id": "2003-1-06b",
+"ano": 2003,
+"fase": 1,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2003, 1ª fase, questão 6(b)",
+"r": 1490,
+"tm": 45,
+"ctx": "O sabão precipita em água que contém íons cálcio. Os detergentes alquilsulfônicos, desenvolvidos mais tarde, são solúveis em água e não precipitam com íons cálcio. Um detergente alquilsulfônico tem fórmula C₁₂H₂₅O₄XNa e massa molar 288 g/mol. Qual a massa molar do elemento X, em g/mol? (H = 1; C = 12; O = 16; Na = 23)",
+"a": 32,
+"u": "g/mol",
+"tol": 0,
+"d": [
+[
+"Massa molar",
+"É a soma das massas de todos os átomos da fórmula, cada uma multiplicada pelo número de átomos daquele elemento.",
+""
+]
+],
+"h": [
+"12 × 12 + 25 × 1 + 4 × 16 + 23 = 144 + 25 + 64 + 23 = 256.",
+"X = 288 − 256.",
+"X = <b>32 g/mol</b> (é o enxofre)."
+]
+},
+{
+"id": "2003-1-07a",
+"ano": 2003,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2003, 1ª fase, questão 7(a)",
+"r": 1660,
+"tm": 60,
+"ctx": "As luas de Júpiter permitiram as primeiras medidas da velocidade da luz. Considere órbitas circulares, π = 3 e 1 dia = 90.000 s. Ganimedes, uma das luas, orbita Júpiter a R = 10⁶ km, com período de 7 dias. Qual a aceleração centrípeta de Ganimedes, em m/s²?",
+"a": 0.09,
+"u": "m/s²",
+"tol": 0.12,
+"d": [
+[
+"Movimento circular uniforme",
+"v = 2πR/T e a<sub>c</sub> = v²/R (ou, direto, a<sub>c</sub> = 4π²R/T²).",
+""
+],
+[
+"Unidades",
+"R em metros e T em segundos."
+]
+],
+"h": [
+"T = 7 × 90.000 = 6,3·10⁵ s; R = 10⁹ m.",
+"v = 2 × 3 × 10⁹/6,3·10⁵ ≈ 9,5·10³ m/s.",
+"a<sub>c</sub> = v²/R ≈ 9,1·10⁷/10⁹ ≈ <b>0,09 m/s²</b>."
+]
+},
+{
+"id": "2003-1-07b",
+"ano": 2003,
+"fase": 1,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2003, 1ª fase, questão 7(b)",
+"r": 1490,
+"tm": 45,
+"ctx": "As luas de Júpiter permitiram as primeiras medidas da velocidade da luz. Considere órbitas circulares, π = 3 e 1 dia = 90.000 s. Era possível prever quando Ganimedes ficaria oculta por Júpiter. O fenômeno atrasa 1.000 s quando a Terra está no ponto de máximo afastamento de Júpiter, porque a luz precisa percorrer a mais o diâmetro da órbita da Terra. Sendo 1,5·10⁸ km a distância da Terra ao Sol, qual a velocidade da luz, em km/s?",
+"a": 300000,
+"u": "km/s",
+"tol": 0.01,
+"d": [
+[
+"Velocidade média",
+"v = distância ÷ tempo.",
+""
+],
+[
+"Diâmetro",
+"O diâmetro da órbita é o dobro da distância Terra–Sol."
+]
+],
+"h": [
+"Distância extra: 2 × 1,5·10⁸ = 3,0·10⁸ km.",
+"c = 3,0·10⁸ km ÷ 1.000 s.",
+"c = <b>3,0·10⁵ km/s</b>."
+]
+},
+{
+"id": "2003-1-08a",
+"ano": 2003,
+"fase": 1,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2003, 1ª fase, questão 8(a)",
+"r": 1440,
+"tm": 45,
+"ctx": "O filamento de tungstênio de uma lâmpada incandescente é aquecido pela corrente elétrica. O gráfico mostra a resistividade ρ do filamento em função da temperatura; a resistência é R = ρ·L/A (L: comprimento; A: área da seção reta). Despreze a dilatação térmica. Aquecendo o filamento da temperatura ambiente (20 °C) até 2.000 °C, a resistência aumenta ou diminui? Qual a razão R<sub>2000</sub>/R<sub>20</sub>?",
+"fig": "<svg viewBox='0 0 218 140' class='fg' role='img' aria-label='gráfico da resistividade do filamento, em 10 elevado a menos 8 ohm metro, em função da temperatura, de 0 a 3500 graus Celsius: uma linha quase reta que passa por 5 a 20 graus, 11 a 200 graus, 25 a 700 graus, 56 a 1700 graus, 91 a 2700 graus e 108 a 3200 graus'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='62.3' y1='12' x2='62.3' y2='112'/><line x1='86.6' y1='12' x2='86.6' y2='112'/><line x1='110.9' y1='12' x2='110.9' y2='112'/><line x1='135.1' y1='12' x2='135.1' y2='112'/><line x1='159.4' y1='12' x2='159.4' y2='112'/><line x1='183.7' y1='12' x2='183.7' y2='112'/><line x1='208.0' y1='12' x2='208.0' y2='112'/><line x1='38' y1='95.3' x2='208' y2='95.3'/><line x1='38' y1='78.7' x2='208' y2='78.7'/><line x1='38' y1='62.0' x2='208' y2='62.0'/><line x1='38' y1='45.3' x2='208' y2='45.3'/><line x1='38' y1='28.7' x2='208' y2='28.7'/><line x1='38' y1='12.0' x2='208' y2='12.0'/></g><line x1='38' y1='112' x2='208' y2='112' stroke-width='1'/><line x1='38' y1='112' x2='38' y2='12' stroke-width='1'/><polyline points='39.0,107.8 47.7,102.8 72.0,91.2 120.6,65.3 169.1,36.2 193.4,22.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='7'><circle cx='39.0' cy='107.8' r='2'/><circle cx='47.7' cy='102.8' r='2'/><circle cx='72.0' cy='91.2' r='2'/><circle cx='120.6' cy='65.3' r='2'/><circle cx='169.1' cy='36.2' r='2'/><circle cx='193.4' cy='22.0' r='2'/><text x='38.0' y='121' text-anchor='middle'>0</text><text x='86.6' y='121' text-anchor='middle'>1000</text><text x='135.1' y='121' text-anchor='middle'>2000</text><text x='183.7' y='121' text-anchor='middle'>3000</text><text x='34' y='114.5' text-anchor='end'>0</text><text x='34' y='97.8' text-anchor='end'>20</text><text x='34' y='81.2' text-anchor='end'>40</text><text x='34' y='64.5' text-anchor='end'>60</text><text x='34' y='47.8' text-anchor='end'>80</text><text x='34' y='31.2' text-anchor='end'>100</text><text x='34' y='14.5' text-anchor='end'>120</text><text x='123' y='133' text-anchor='middle' font-size='8'>temperatura (°C)</text><text x='9' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 9 62)'>ρ (10⁻⁸ Ω·m)</text></g></svg>",
+"opts": [
+"Aumenta; cerca de 13 vezes",
+"Diminui; fica cerca de 13 vezes menor",
+"Aumenta; cerca de 100 vezes",
+"Aumenta; cerca de 1,3 vez"
+],
+"a": 0,
+"d": [
+[
+"Ler o gráfico",
+"Leia ρ a 20 °C e a 2.000 °C.",
+""
+],
+[
+"Proporcionalidade",
+"Com L e A fixos, R é proporcional a ρ: R₂/R₁ = ρ₂/ρ₁."
+]
+],
+"h": [
+"Do gráfico: ρ(20 °C) ≈ 5·10⁻⁸ Ω·m e ρ(2.000 °C) ≈ 65·10⁻⁸ Ω·m.",
+"ρ cresce com a temperatura, e R acompanha.",
+"<b>Aumenta</b>; R<sub>2000</sub>/R<sub>20</sub> ≈ 65/5 = <b>13</b>."
+]
+},
+{
+"id": "2003-1-08b",
+"ano": 2003,
+"fase": 1,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2003, 1ª fase, questão 8(b)",
+"r": 1400,
+"tm": 30,
+"ctx": "O filamento de tungstênio de uma lâmpada incandescente é aquecido pela corrente elétrica. O gráfico mostra a resistividade ρ do filamento em função da temperatura; a resistência é R = ρ·L/A (L: comprimento; A: área da seção reta). Despreze a dilatação térmica. Qual a resistência de uma lâmpada acesa, de potência efetiva 60 W, alimentada por tensão efetiva de 120 V, em ohms?",
+"a": 240,
+"u": "Ω",
+"tol": 0,
+"d": [
+[
+"Potência elétrica",
+"P = U·i = U²/R ⟹ R = U²/P.",
+""
+]
+],
+"h": [
+"R = 120²/60.",
+"= 14.400/60.",
+"R = <b>240 Ω</b>."
+]
+},
+{
+"id": "2003-1-08c",
+"ano": 2003,
+"fase": 1,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2003, 1ª fase, questão 8(c) (o gabarito oficial usa π ≈ 3,14 e chega a cerca de 2.900 °C)",
+"r": 1780,
+"tm": 90,
+"ctx": "O filamento de tungstênio de uma lâmpada incandescente é aquecido pela corrente elétrica. O gráfico mostra a resistividade ρ do filamento em função da temperatura; a resistência é R = ρ·L/A (L: comprimento; A: área da seção reta). Despreze a dilatação térmica. A lâmpada acesa tem R = 240 Ω; o filamento tem 50 cm de comprimento e 0,05 mm de diâmetro. Qual a temperatura do filamento, em °C? Use π = 3.",
+"fig": "<svg viewBox='0 0 218 140' class='fg' role='img' aria-label='gráfico da resistividade do filamento, em 10 elevado a menos 8 ohm metro, em função da temperatura, de 0 a 3500 graus Celsius: uma linha quase reta que passa por 5 a 20 graus, 11 a 200 graus, 25 a 700 graus, 56 a 1700 graus, 91 a 2700 graus e 108 a 3200 graus'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='62.3' y1='12' x2='62.3' y2='112'/><line x1='86.6' y1='12' x2='86.6' y2='112'/><line x1='110.9' y1='12' x2='110.9' y2='112'/><line x1='135.1' y1='12' x2='135.1' y2='112'/><line x1='159.4' y1='12' x2='159.4' y2='112'/><line x1='183.7' y1='12' x2='183.7' y2='112'/><line x1='208.0' y1='12' x2='208.0' y2='112'/><line x1='38' y1='95.3' x2='208' y2='95.3'/><line x1='38' y1='78.7' x2='208' y2='78.7'/><line x1='38' y1='62.0' x2='208' y2='62.0'/><line x1='38' y1='45.3' x2='208' y2='45.3'/><line x1='38' y1='28.7' x2='208' y2='28.7'/><line x1='38' y1='12.0' x2='208' y2='12.0'/></g><line x1='38' y1='112' x2='208' y2='112' stroke-width='1'/><line x1='38' y1='112' x2='38' y2='12' stroke-width='1'/><polyline points='39.0,107.8 47.7,102.8 72.0,91.2 120.6,65.3 169.1,36.2 193.4,22.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='7'><circle cx='39.0' cy='107.8' r='2'/><circle cx='47.7' cy='102.8' r='2'/><circle cx='72.0' cy='91.2' r='2'/><circle cx='120.6' cy='65.3' r='2'/><circle cx='169.1' cy='36.2' r='2'/><circle cx='193.4' cy='22.0' r='2'/><text x='38.0' y='121' text-anchor='middle'>0</text><text x='86.6' y='121' text-anchor='middle'>1000</text><text x='135.1' y='121' text-anchor='middle'>2000</text><text x='183.7' y='121' text-anchor='middle'>3000</text><text x='34' y='114.5' text-anchor='end'>0</text><text x='34' y='97.8' text-anchor='end'>20</text><text x='34' y='81.2' text-anchor='end'>40</text><text x='34' y='64.5' text-anchor='end'>60</text><text x='34' y='47.8' text-anchor='end'>80</text><text x='34' y='31.2' text-anchor='end'>100</text><text x='34' y='14.5' text-anchor='end'>120</text><text x='123' y='133' text-anchor='middle' font-size='8'>temperatura (°C)</text><text x='9' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 9 62)'>ρ (10⁻⁸ Ω·m)</text></g></svg>",
+"a": 2700,
+"u": "°C",
+"tol": 0.08,
+"d": [
+[
+"Resistividade",
+"ρ = R·A/L, com A = π·d²/4 em m² e L em m.",
+""
+],
+[
+"Ler o gráfico ao contrário",
+"Ache o valor de ρ no eixo vertical e leia a temperatura correspondente na reta."
+]
+],
+"h": [
+"A = 3 × (5·10⁻⁵)²/4 = 1,875·10⁻⁹ m².",
+"ρ = 240 × 1,875·10⁻⁹/0,5 = 9,0·10⁻⁷ = 90·10⁻⁸ Ω·m.",
+"No gráfico, ρ = 90·10⁻⁸ Ω·m corresponde a T ≈ <b>2.700 °C</b>."
+]
+},
+{
+"id": "2003-1-11a",
+"ano": 2003,
+"fase": 1,
+"s": "mat",
+"t": "func",
+"src": "Unicamp 2003, 1ª fase, questão 11(a)",
+"r": 1320,
+"tm": 30,
+"ctx": "O IDH, divulgado pela ONU, é a média aritmética de três índices: expectativa de vida (IEV), escolaridade (IES) e PIB per capita (IPIB). Dados do Brasil: em 1998, IEV 0,700, IES 0,843, IPIB 0,700 e IDH 0,747; em 2000, IEV 0,712, IES 0,835, IPIB 0,723 e IDH 0,757. O IEV é calculado por IEV = (E − 25)/60, em que E é a expectativa de vida, em anos. Qual era a expectativa de vida no Brasil em 2000?",
+"a": 67.72,
+"u": "anos",
+"tol": 0.002,
+"d": [
+[
+"Isolar a incógnita",
+"De IEV = (E − 25)/60 vem E = 60·IEV + 25.",
+""
+]
+],
+"h": [
+"E − 25 = 60 × 0,712 = 42,72.",
+"E = 42,72 + 25.",
+"E = <b>67,72 anos</b>."
+]
+},
+{
+"id": "2003-1-11b",
+"ano": 2003,
+"fase": 1,
+"s": "mat",
+"t": "med",
+"src": "Unicamp 2003, 1ª fase, questão 11(b)",
+"r": 1440,
+"tm": 45,
+"ctx": "O IDH, divulgado pela ONU, é a média aritmética de três índices: expectativa de vida (IEV), escolaridade (IES) e PIB per capita (IPIB). Dados do Brasil: em 1998, IEV 0,700, IES 0,843, IPIB 0,700 e IDH 0,747; em 2000, IEV 0,712, IES 0,835, IPIB 0,723 e IDH 0,757. Mantidos o IES e o IPIB de 2000, qual deveria ter sido o IEV para que o IDH brasileiro daquele ano fosse igual ao IDH médio da América Latina, 0,767?",
+"a": 0.743,
+"tol": 0.002,
+"d": [
+[
+"Média aritmética",
+"IDH = (IEV + IES + IPIB)/3 ⟹ IEV = 3·IDH − IES − IPIB.",
+""
+]
+],
+"h": [
+"3 × 0,767 = 2,301.",
+"IEV = 2,301 − 0,835 − 0,723.",
+"IEV = <b>0,743</b>."
+]
+},
+{
+"id": "2003-1-12a",
+"ano": 2003,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2003, 1ª fase, questão 12(a)",
+"r": 1490,
+"tm": 45,
+"ctx": "O gráfico mostra a concentração de CO₂ na atmosfera, em partes por milhão (ppm), ao longo dos anos. Qual foi a porcentagem de crescimento da concentração de CO₂ de 1870 a 1930?",
+"fig": "<svg viewBox='0 0 215 132' class='fg' role='img' aria-label='gráfico da concentração de gás carbônico na atmosfera, em partes por milhão: 289 em 1870, 291 em 1890, 295 em 1910, 300 em 1930, 310 em 1950, 327 em 1970 e 350 em 1990'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40' y1='92.0' x2='210' y2='92.0'/><line x1='40' y1='72.0' x2='210' y2='72.0'/><line x1='40' y1='52.0' x2='210' y2='52.0'/><line x1='40' y1='32.0' x2='210' y2='32.0'/><line x1='40' y1='12.0' x2='210' y2='12.0'/></g><line x1='40' y1='112' x2='210' y2='112' stroke-width='1'/><line x1='40' y1='112' x2='40' y2='12' stroke-width='1'/><polyline points='40.0,83.0 67.5,81.0 95.0,77.0 122.5,72.0 150.0,62.0 177.5,45.0 205.0,22.0' stroke-width='1.4'/></g><g fill='currentColor' font-size='7'><circle cx='40.0' cy='83.0' r='2'/><text x='46.0' y='78.0' text-anchor='middle'>289</text><circle cx='67.5' cy='81.0' r='2'/><text x='64.5' y='76.0' text-anchor='middle'>291</text><circle cx='95.0' cy='77.0' r='2'/><text x='92.0' y='72.0' text-anchor='middle'>295</text><circle cx='122.5' cy='72.0' r='2'/><text x='119.5' y='67.0' text-anchor='middle'>300</text><circle cx='150.0' cy='62.0' r='2'/><text x='147.0' y='57.0' text-anchor='middle'>310</text><circle cx='177.5' cy='45.0' r='2'/><text x='174.5' y='40.0' text-anchor='middle'>327</text><circle cx='205.0' cy='22.0' r='2'/><text x='202.0' y='17.0' text-anchor='middle'>350</text><text x='40.0' y='121' text-anchor='middle'>1870</text><text x='67.5' y='121' text-anchor='middle'>1890</text><text x='95.0' y='121' text-anchor='middle'>1910</text><text x='122.5' y='121' text-anchor='middle'>1930</text><text x='150.0' y='121' text-anchor='middle'>1950</text><text x='177.5' y='121' text-anchor='middle'>1970</text><text x='205.0' y='121' text-anchor='middle'>1990</text><text x='36' y='114.5' text-anchor='end'>260</text><text x='36' y='94.5' text-anchor='end'>280</text><text x='36' y='74.5' text-anchor='end'>300</text><text x='36' y='54.5' text-anchor='end'>320</text><text x='36' y='34.5' text-anchor='end'>340</text><text x='36' y='14.5' text-anchor='end'>360</text><text x='9' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 9 62)'>CO₂ (ppm)</text></g></svg>",
+"a": 3.8,
+"u": "%",
+"tol": 0.03,
+"d": [
+[
+"Variação percentual",
+"Δ% = (valor final − valor inicial)/valor inicial × 100.",
+""
+]
+],
+"h": [
+"De 289 ppm (1870) para 300 ppm (1930): aumento de 11 ppm.",
+"11/289 ≈ 0,038.",
+"≈ <b>3,8%</b>."
+]
+},
+{
+"id": "2003-1-12b",
+"ano": 2003,
+"fase": 1,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2003, 1ª fase, questão 12(b)",
+"r": 1530,
+"tm": 45,
+"ctx": "O gráfico mostra a concentração de CO₂ na atmosfera, em partes por milhão (ppm), ao longo dos anos. Estima-se uma taxa de crescimento de 8,6% para o período de 1990 a 2010. Com essa taxa, qual será a concentração de CO₂ em 2010, em ppm?",
+"fig": "<svg viewBox='0 0 215 132' class='fg' role='img' aria-label='gráfico da concentração de gás carbônico na atmosfera, em partes por milhão: 289 em 1870, 291 em 1890, 295 em 1910, 300 em 1930, 310 em 1950, 327 em 1970 e 350 em 1990'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='40' y1='92.0' x2='210' y2='92.0'/><line x1='40' y1='72.0' x2='210' y2='72.0'/><line x1='40' y1='52.0' x2='210' y2='52.0'/><line x1='40' y1='32.0' x2='210' y2='32.0'/><line x1='40' y1='12.0' x2='210' y2='12.0'/></g><line x1='40' y1='112' x2='210' y2='112' stroke-width='1'/><line x1='40' y1='112' x2='40' y2='12' stroke-width='1'/><polyline points='40.0,83.0 67.5,81.0 95.0,77.0 122.5,72.0 150.0,62.0 177.5,45.0 205.0,22.0' stroke-width='1.4'/></g><g fill='currentColor' font-size='7'><circle cx='40.0' cy='83.0' r='2'/><text x='46.0' y='78.0' text-anchor='middle'>289</text><circle cx='67.5' cy='81.0' r='2'/><text x='64.5' y='76.0' text-anchor='middle'>291</text><circle cx='95.0' cy='77.0' r='2'/><text x='92.0' y='72.0' text-anchor='middle'>295</text><circle cx='122.5' cy='72.0' r='2'/><text x='119.5' y='67.0' text-anchor='middle'>300</text><circle cx='150.0' cy='62.0' r='2'/><text x='147.0' y='57.0' text-anchor='middle'>310</text><circle cx='177.5' cy='45.0' r='2'/><text x='174.5' y='40.0' text-anchor='middle'>327</text><circle cx='205.0' cy='22.0' r='2'/><text x='202.0' y='17.0' text-anchor='middle'>350</text><text x='40.0' y='121' text-anchor='middle'>1870</text><text x='67.5' y='121' text-anchor='middle'>1890</text><text x='95.0' y='121' text-anchor='middle'>1910</text><text x='122.5' y='121' text-anchor='middle'>1930</text><text x='150.0' y='121' text-anchor='middle'>1950</text><text x='177.5' y='121' text-anchor='middle'>1970</text><text x='205.0' y='121' text-anchor='middle'>1990</text><text x='36' y='114.5' text-anchor='end'>260</text><text x='36' y='94.5' text-anchor='end'>280</text><text x='36' y='74.5' text-anchor='end'>300</text><text x='36' y='54.5' text-anchor='end'>320</text><text x='36' y='34.5' text-anchor='end'>340</text><text x='36' y='14.5' text-anchor='end'>360</text><text x='9' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 9 62)'>CO₂ (ppm)</text></g></svg>",
+"a": 380.1,
+"u": "ppm",
+"tol": 0.005,
+"d": [
+[
+"Aumento percentual",
+"Aumentar x% é multiplicar por (1 + x/100).",
+""
+]
+],
+"h": [
+"Em 1990: 350 ppm.",
+"350 × 1,086 = 380,1.",
+"≈ <b>380 ppm</b>."
+]
+},
+{
+"id": "2003-2-mat-01a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 1(a)",
+"r": 1490,
+"tm": 30,
+"ctx": "Uma pessoa tem R$ 7.560,00 para comprar um terreno, que custa R$ 15,00 o metro quadrado. Os custos da documentação acrescentam ao comprador 5% do preço do terreno. Qual o custo final de cada m² do terreno?",
+"a": 15.75,
+"u": "R$",
+"tol": 0,
+"d": [
+[
+"Acréscimo percentual",
+"Acrescentar 5% é somar 5/100 do valor (ou multiplicar por 1,05).",
+""
+]
+],
+"h": [
+"5% de R$ 15,00 = R$ 0,75.",
+"15,00 + 0,75.",
+"<b>R$ 15,75</b> por m²."
+]
+},
+{
+"id": "2003-2-mat-01b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 1(b)",
+"r": 1660,
+"tm": 45,
+"ctx": "Uma pessoa tem R$ 7.560,00 para comprar um terreno, que custa R$ 15,00 o metro quadrado. Os custos da documentação acrescentam ao comprador 5% do preço do terreno. Qual a área máxima que a pessoa pode comprar, em m²?",
+"a": 480,
+"u": "m²",
+"tol": 0,
+"d": [
+[
+"Custo total por m²",
+"Inclua a documentação: cada m² custa, no total, 15 × 1,05.",
+""
+],
+[
+"Divisão",
+"Área = dinheiro disponível ÷ custo final por m²."
+]
+],
+"h": [
+"Custo final: R$ 15,75 por m².",
+"7.560/15,75.",
+"= <b>480 m²</b>."
+]
+},
+{
+"id": "2003-2-mat-02a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "gplan",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 2(a)",
+"r": 1620,
+"tm": 75,
+"ctx": "Uma caixa d’água cúbica, de volume máximo, será colocada entre o telhado e a laje de uma casa, como na figura: o espaço é um prisma cuja face da frente é o triângulo retângulo CAB, com a laje AB = 6 m, a altura AC = 1,5 m e a profundidade CD = 4 m. A caixa fica encostada no canto A. Qual deve ser a aresta da caixa, em metros?",
+"fig": "<svg viewBox='0 0 225 118' class='fg' role='img' aria-label='espaço entre a laje e o telhado de uma casa: um prisma cuja face da frente é o triângulo retângulo CAB, com a laje AB horizontal, a parede AC vertical e o telhado inclinado de C a B; a aresta CD vai para o fundo; uma caixa cúbica está encostada no canto A, com a quina de cima tocando o telhado'><g fill='none' stroke='currentColor'><polygon points='25.0,67.5 61.0,45.5 211.0,83.0 175.0,105.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.2'/><polyline points='25.0,67.5 25.0,105.0 175.0,105.0' stroke-width='1.2'/><polygon points='25.0,105.0 55.0,105.0 55.0,75.0 25.0,75.0' stroke-width='1.1'/><g stroke-width='0.8' stroke-dasharray='3 2'><polyline points='25.0,75.0 35.8,68.4 65.8,68.4 65.8,98.4'/><line x1='55.0' y1='75.0' x2='65.8' y2='68.4'/><line x1='55.0' y1='105.0' x2='65.8' y2='98.4'/></g></g><g fill='currentColor' font-size='9'><text x='21' y='115'>A</text><text x='172' y='115'>B</text><text x='15' y='70'>C</text><text x='58' y='42'>D</text></g></svg>",
+"a": 1.2,
+"u": "m",
+"tol": 0.01,
+"d": [
+[
+"Semelhança de triângulos",
+"Na face da frente, a quina de cima da caixa toca o telhado CB. O triângulo que sobra acima da caixa (catetos 1,5 − x na vertical e x na horizontal) é semelhante ao triângulo CAB.",
+""
+],
+[
+"Proporção",
+"(1,5 − x)/x = AC/AB."
+]
+],
+"h": [
+"A quina superior toca o telhado: (1,5 − x)/x = 1,5/6 = 1/4.",
+"4(1,5 − x) = x ⟹ 6 = 5x.",
+"x = <b>1,2 m</b> (e cabe na profundidade de 4 m)."
+]
+},
+{
+"id": "2003-2-mat-02b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 2(b)",
+"r": 1700,
+"tm": 45,
+"ctx": "Uma caixa d’água cúbica, de volume máximo, será colocada entre o telhado e a laje de uma casa, como na figura: o espaço é um prisma cuja face da frente é o triângulo retângulo CAB, com a laje AB = 6 m, a altura AC = 1,5 m e a profundidade CD = 4 m. A caixa fica encostada no canto A. A caixa tem aresta 1,2 m, e a água pode chegar a no máximo 85% da altura da caixa. Quantos litros de água cabem?",
+"fig": "<svg viewBox='0 0 225 118' class='fg' role='img' aria-label='espaço entre a laje e o telhado de uma casa: um prisma cuja face da frente é o triângulo retângulo CAB, com a laje AB horizontal, a parede AC vertical e o telhado inclinado de C a B; a aresta CD vai para o fundo; uma caixa cúbica está encostada no canto A, com a quina de cima tocando o telhado'><g fill='none' stroke='currentColor'><polygon points='25.0,67.5 61.0,45.5 211.0,83.0 175.0,105.0' fill='currentColor' fill-opacity='0.08' stroke-width='1.2'/><polyline points='25.0,67.5 25.0,105.0 175.0,105.0' stroke-width='1.2'/><polygon points='25.0,105.0 55.0,105.0 55.0,75.0 25.0,75.0' stroke-width='1.1'/><g stroke-width='0.8' stroke-dasharray='3 2'><polyline points='25.0,75.0 35.8,68.4 65.8,68.4 65.8,98.4'/><line x1='55.0' y1='75.0' x2='65.8' y2='68.4'/><line x1='55.0' y1='105.0' x2='65.8' y2='98.4'/></g></g><g fill='currentColor' font-size='9'><text x='21' y='115'>A</text><text x='172' y='115'>B</text><text x='15' y='70'>C</text><text x='58' y='42'>D</text></g></svg>",
+"a": 1468.8,
+"u": "L",
+"tol": 0.005,
+"d": [
+[
+"Volume",
+"Volume de água = área da base × altura da água.",
+""
+],
+[
+"Conversão",
+"1 m³ = 1.000 L."
+]
+],
+"h": [
+"Altura da água: 0,85 × 1,2 = 1,02 m.",
+"V = 1,2 × 1,2 × 1,02 = 1,4688 m³.",
+"<b>1.468,8 L</b>."
+]
+},
+{
+"id": "2003-2-mat-03a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 3(a)",
+"r": 1620,
+"tm": 45,
+"ctx": "Uma tabela (incompleta) de imposto de renda: renda até R$ 1.000, isento; de R$ 1.000 a R$ 2.000, alíquota de 15% e parcela a deduzir de R$ 150; de R$ 2.000 a R$ 3.000, alíquota de 20% e parcela a deduzir desconhecida; acima de R$ 3.000, alíquota desconhecida e parcela a deduzir de R$ 475. O imposto é a renda vezes a alíquota, menos a parcela a deduzir. Quanto pagam de imposto dois contribuintes com rendas de R$ 1.000,00 e de R$ 2.000,00?",
+"opts": [
+"R$ 0,00 e R$ 150,00",
+"R$ 150,00 e R$ 300,00",
+"R$ 0,00 e R$ 300,00",
+"R$ 0,00 e R$ 250,00"
+],
+"a": 0,
+"d": [
+[
+"Aplicar a regra",
+"Imposto = renda × alíquota − parcela a deduzir, na faixa da renda.",
+""
+],
+[
+"Na fronteira",
+"R$ 1.000 está em \"até 1.000\": isento. Para R$ 2.000 use a faixa de 15% (numa tabela bem feita, as duas faixas vizinhas dão o mesmo valor na fronteira)."
+]
+],
+"h": [
+"R$ 1.000: isento, imposto R$ 0 (pela faixa de 15% também daria 150 − 150 = 0).",
+"R$ 2.000: 0,15 × 2.000 − 150 = 150.",
+"<b>R$ 0,00 e R$ 150,00</b>."
+]
+},
+{
+"id": "2003-2-mat-03b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "porc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 3(b) (no original, pede-se para completar a tabela)",
+"r": 1780,
+"tm": 90,
+"ctx": "Uma tabela (incompleta) de imposto de renda: renda até R$ 1.000, isento; de R$ 1.000 a R$ 2.000, alíquota de 15% e parcela a deduzir de R$ 150; de R$ 2.000 a R$ 3.000, alíquota de 20% e parcela a deduzir desconhecida; acima de R$ 3.000, alíquota desconhecida e parcela a deduzir de R$ 475. O imposto é a renda vezes a alíquota, menos a parcela a deduzir. Para que o imposto não dê saltos nas mudanças de faixa, qual deve ser a parcela a deduzir da faixa de R$ 2.000 a R$ 3.000, e qual a alíquota acima de R$ 3.000?",
+"opts": [
+"R$ 250,00 e 27,5%",
+"R$ 200,00 e 25%",
+"R$ 250,00 e 25%",
+"R$ 150,00 e 27,5%"
+],
+"a": 0,
+"d": [
+[
+"Continuidade",
+"Na renda de fronteira, as regras das duas faixas vizinhas devem dar o mesmo imposto (como acontece em R$ 1.000).",
+""
+],
+[
+"Duas equações",
+"Em R$ 2.000: 0,20 × 2.000 − x = 150. Em R$ 3.000: p × 3.000 − 475 = imposto calculado pela faixa de 20%."
+]
+],
+"h": [
+"Em R$ 2.000: 400 − x = 150 ⟹ x = 250.",
+"Em R$ 3.000, pela faixa de 20%: 600 − 250 = 350; então 3.000p − 475 = 350 ⟹ p = 825/3.000 = 0,275.",
+"Parcela de <b>R$ 250,00</b> e alíquota de <b>27,5%</b>."
+]
+},
+{
+"id": "2003-2-mat-04a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 4(a)",
+"r": 1740,
+"tm": 45,
+"ctx": "Os inteiros positivos a e b têm mdc(a, b) = 5 e mmc(a, b) = 105. Qual é b, se a = 35?",
+"a": 15,
+"tol": 0,
+"d": [
+[
+"mdc × mmc",
+"Para dois inteiros positivos, mdc(a, b) × mmc(a, b) = a × b.",
+""
+]
+],
+"h": [
+"35 × b = 5 × 105 = 525.",
+"b = 525/35.",
+"b = <b>15</b> (confira: mdc(35, 15) = 5 e mmc(35, 15) = 105)."
+]
+},
+{
+"id": "2003-2-mat-04b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 4(b)",
+"r": 1960,
+"tm": 90,
+"ctx": "Os inteiros positivos a e b têm mdc(a, b) = 5 e mmc(a, b) = 105. Quais são todos os pares (a, b) possíveis?",
+"opts": [
+"(5, 105), (15, 35), (35, 15) e (105, 5)",
+"(15, 35) e (35, 15)",
+"(5, 105) e (105, 5)",
+"(5, 105), (15, 35), (21, 25), (35, 15) e (105, 5)"
+],
+"a": 0,
+"d": [
+[
+"Tirar o mdc",
+"Escreva a = 5m e b = 5n com m e n primos entre si; então mmc(a, b) = 5·m·n.",
+""
+],
+[
+"Repartir os primos",
+"m·n = 21 = 3 × 7, com mdc(m, n) = 1: cada primo vai inteiro para m ou para n."
+]
+],
+"h": [
+"5mn = 105 ⟹ mn = 21.",
+"Pares (m, n) primos entre si com produto 21: (1, 21), (3, 7), (7, 3) e (21, 1).",
+"(a, b) = <b>(5, 105), (15, 35), (35, 15) e (105, 5)</b>."
+]
+},
+{
+"id": "2003-2-mat-05a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 5(a)",
+"r": 1740,
+"tm": 45,
+"ctx": "Os pontos A e B estão na superfície da Terra (uma esfera de raio 6.400 km), ambos a 60° de latitude norte; A está a 15°45′ de longitude leste e B a 56°15′ de longitude oeste. Qual o raio do paralelo de 60°, em km?",
+"a": 3200,
+"u": "km",
+"tol": 0,
+"d": [
+[
+"Raio do paralelo",
+"O raio do paralelo de latitude φ é r = R·cos φ: é o cateto do triângulo retângulo formado pelo centro da Terra, o centro do paralelo e um ponto do paralelo.",
+""
+]
+],
+"h": [
+"r = 6.400 × cos 60°.",
+"= 6.400 × 1/2.",
+"r = <b>3.200 km</b>."
+]
+},
+{
+"id": "2003-2-mat-05b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 5(b)",
+"r": 1960,
+"tm": 75,
+"ctx": "Os pontos A e B estão na superfície da Terra (uma esfera de raio 6.400 km), ambos a 60° de latitude norte; A está a 15°45′ de longitude leste e B a 56°15′ de longitude oeste. Qual a menor distância de A a B medida ao longo do paralelo de 60°, em km? Use π ≈ 22/7.",
+"a": 4022.8571428571427,
+"u": "km",
+"tol": 0.005,
+"d": [
+[
+"Diferença de longitude",
+"Um ponto a leste e outro a oeste de Greenwich: some as longitudes. Se passar de 180°, o menor arco é 360° menos isso.",
+""
+],
+[
+"Comprimento de arco",
+"arco = (ângulo/360°) × 2πr, com r = 3.200 km (o raio do paralelo, não o da Terra)."
+]
+],
+"h": [
+"Δλ = 15°45′ + 56°15′ = 72°.",
+"arco = (72/360) × 2 × (22/7) × 3.200 = 1.280 × 22/7.",
+"≈ <b>4.023 km</b>."
+]
+},
+{
+"id": "2003-2-mat-06a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 6(a)",
+"r": 1660,
+"tm": 60,
+"ctx": "As circunferências (x + 1)² + y² = 1 e (x − 2)² + y² = 4 têm os centros no eixo das abscissas. Quais são os pontos de interseção das duas circunferências?",
+"opts": [
+"Só o ponto (0, 0): elas são tangentes",
+"(0, 0) e (−2, 0)",
+"(0, 1) e (0, −1)",
+"Não há pontos comuns"
+],
+"a": 0,
+"d": [
+[
+"Centro e raio",
+"(x − a)² + (y − b)² = r² tem centro (a, b) e raio r.",
+""
+],
+[
+"Posição relativa",
+"Compare a distância entre os centros com a soma dos raios; ou subtraia as equações para eliminar y²."
+]
+],
+"h": [
+"Centros (−1, 0) e (2, 0), raios 1 e 2: a distância entre centros é 3 = 1 + 2, tangentes por fora.",
+"Subtraindo as equações: (x + 1)² − (x − 2)² = 1 − 4 ⟹ 6x − 3 = −3 ⟹ x = 0, e então y = 0.",
+"Único ponto: <b>(0, 0)</b>."
+]
+},
+{
+"id": "2003-2-mat-06b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "ganal",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 6(b)",
+"r": 1910,
+"tm": 120,
+"ctx": "As circunferências (x + 1)² + y² = 1 e (x − 2)² + y² = 4 têm os centros no eixo das abscissas. Para que valor de a ≠ 0 há duas retas que passam por (a, 0) e são tangentes às duas circunferências?",
+"a": -4,
+"tol": 0,
+"d": [
+[
+"Semelhança",
+"Uma reta por P = (a, 0) tangente às duas forma, com os raios até os pontos de tangência, dois triângulos retângulos semelhantes: as distâncias de P aos centros são proporcionais aos raios.",
+""
+],
+[
+"Proporção",
+"dist(P, C₁)/dist(P, C₂) = r₁/r₂ = 1/2, com P fora das duas circunferências, do mesmo lado das duas."
+]
+],
+"h": [
+"Com P = (a, 0) à esquerda dos centros: (−1 − a)/(2 − a) = 1/2.",
+"2(−1 − a) = 2 − a ⟹ −2 − 2a = 2 − a ⟹ a = −4.",
+"<b>a = −4</b> (por a = 0 passa só uma tangente comum, a reta vertical x = 0)."
+]
+},
+{
+"id": "2003-2-mat-07a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "mdc",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 7(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Seja S = {n ∈ ℕ : 20 ≤ n ≤ 500}, que tem 481 elementos. Quantos elementos de S são múltiplos de 3 e de 7?",
+"a": 23,
+"tol": 0,
+"d": [
+[
+"Múltiplos de 3 e de 7",
+"São os múltiplos de mmc(3, 7) = 21.",
+""
+],
+[
+"Contar múltiplos num intervalo",
+"Ache o primeiro e o último múltiplo do intervalo e conte como progressão aritmética: (último − primeiro)/razão + 1."
+]
+],
+"h": [
+"Múltiplos de 21 em S: de 21 até 483 (= 21 × 23).",
+"(483 − 21)/21 + 1 = 23.",
+"<b>23</b>."
+]
+},
+{
+"id": "2003-2-mat-07b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "prob",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 7(b)",
+"r": 1910,
+"tm": 90,
+"ctx": "Seja S = {n ∈ ℕ : 20 ≤ n ≤ 500}, que tem 481 elementos. Escolhendo ao acaso um elemento de S, qual a probabilidade de ele ser múltiplo de 3 ou de 7?",
+"a": 0.4282744282744283,
+"tol": 0.005,
+"d": [
+[
+"União",
+"n(A ∪ B) = n(A) + n(B) − n(A ∩ B).",
+""
+],
+[
+"Contagens",
+"Múltiplos de 3 em S: de 21 a 498. Múltiplos de 7: de 21 a 497. Múltiplos de 21: 23 (item anterior)."
+]
+],
+"h": [
+"Múltiplos de 3: (498 − 21)/3 + 1 = 160. Múltiplos de 7: (497 − 21)/7 + 1 = 69.",
+"União: 160 + 69 − 23 = 206.",
+"P = <b>206/481 ≈ 0,43</b>."
+]
+},
+{
+"id": "2003-2-mat-08a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 8(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Dois triângulos retângulos T₁ e T₂ têm hipotenusa de 1 cm. Um dos ângulos agudos de T₁ mede α, e um dos ângulos agudos de T₂ mede 2α. Qual a área de T₂, em cm², para α = 22,5°?",
+"a": 0.25,
+"u": "cm²",
+"tol": 0.01,
+"d": [
+[
+"Catetos",
+"Com hipotenusa 1 e ângulo agudo θ, os catetos medem sen θ e cos θ.",
+""
+],
+[
+"Área",
+"Área = (1/2)·sen θ·cos θ = (1/4)·sen 2θ."
+]
+],
+"h": [
+"Em T₂, θ = 2α = 45°.",
+"Área = (1/2) × (√2/2) × (√2/2).",
+"= <b>1/4 cm²</b>."
+]
+},
+{
+"id": "2003-2-mat-08b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 8(b)",
+"r": 2040,
+"tm": 120,
+"ctx": "Dois triângulos retângulos T₁ e T₂ têm hipotenusa de 1 cm. Um dos ângulos agudos de T₁ mede α, e um dos ângulos agudos de T₂ mede 2α. Para que valores de α a área de T₁ é menor que a de T₂?",
+"opts": [
+"0° < α < 30°",
+"0° < α < 45°",
+"30° < α < 45°",
+"0° < α < 22,5°"
+],
+"a": 0,
+"d": [
+[
+"Áreas",
+"Área(T₁) = (1/4)·sen 2α e Área(T₂) = (1/4)·sen 4α.",
+""
+],
+[
+"Arco duplo",
+"sen 4α = 2·sen 2α·cos 2α. E 2α tem de ser agudo: 0° < α < 45°."
+]
+],
+"h": [
+"sen 2α < 2·sen 2α·cos 2α; como sen 2α > 0, divida: cos 2α > 1/2.",
+"2α < 60° ⟹ α < 30°.",
+"<b>0° < α < 30°</b>."
+]
+},
+{
+"id": "2003-2-mat-09a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 9(a)",
+"r": 1830,
+"tm": 90,
+"ctx": "O resfriamento de um corpo é descrito por T(t) = T<sub>A</sub> + α·3<sup>βt</sup>, em que T é a temperatura (°C) no instante t (min), T<sub>A</sub> é a temperatura ambiente e α e β são constantes. O corpo foi posto num congelador a −18 °C; atingiu 0 °C após 90 min e −16 °C após 270 min. Quais os valores de α e β?",
+"opts": [
+"α = 54 e β = −1/90",
+"α = 18 e β = −1/90",
+"α = 54 e β = 1/90",
+"α = 18 e β = −1/45"
+],
+"a": 0,
+"d": [
+[
+"Montar o sistema",
+"Substitua os dois pontos (com T<sub>A</sub> = −18): α·3<sup>90β</sup> = 18 e α·3<sup>270β</sup> = 2.",
+""
+],
+[
+"Dividir as equações",
+"Dividindo uma pela outra, α some e sobra uma equação exponencial em β."
+]
+],
+"h": [
+"Dividindo: 3<sup>180β</sup> = 2/18 = 1/9 = 3⁻² ⟹ β = −1/90.",
+"α·3⁻¹ = 18 ⟹ α = 54.",
+"<b>α = 54 e β = −1/90</b>."
+]
+},
+{
+"id": "2003-2-mat-09b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "logexp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 9(b)",
+"r": 1910,
+"tm": 60,
+"ctx": "O resfriamento de um corpo é descrito por T(t) = T<sub>A</sub> + α·3<sup>βt</sup>, em que T é a temperatura (°C) no instante t (min), T<sub>A</sub> é a temperatura ambiente e α e β são constantes. O corpo foi posto num congelador a −18 °C; atingiu 0 °C após 90 min e −16 °C após 270 min. Com α = 54 e β = −1/90, depois de quantos minutos a temperatura do corpo fica só 2/3 °C acima da ambiente?",
+"a": 360,
+"u": "min",
+"tol": 0,
+"d": [
+[
+"Equação exponencial",
+"T − T<sub>A</sub> = 54·3<sup>−t/90</sup> = 2/3. Escreva os dois lados como potências de 3.",
+""
+]
+],
+"h": [
+"3<sup>−t/90</sup> = (2/3)/54 = 1/81 = 3⁻⁴.",
+"t/90 = 4.",
+"t = <b>360 min</b>."
+]
+},
+{
+"id": "2003-2-mat-10a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 10(a)",
+"r": 1660,
+"tm": 45,
+"ctx": "Os centros das faces de um cubo de aresta 10 cm são os vértices de um octaedro regular, cujas faces são triângulos equiláteros. Qual a aresta do octaedro, em cm?",
+"fig": "<svg viewBox='0 0 175 125' class='fg' role='img' aria-label='cubo de aresta 10 centímetros com o octaedro regular cujos vértices são os centros das seis faces do cubo'><g fill='none' stroke='currentColor'><g stroke-width='0.8'><line x1='40.0' y1='110.0' x2='40.0' y2='30.0'/><line x1='40.0' y1='110.0' x2='120.0' y2='110.0'/><line x1='40.0' y1='30.0' x2='70.0' y2='10.0'/><line x1='40.0' y1='30.0' x2='120.0' y2='30.0'/><line x1='70.0' y1='10.0' x2='150.0' y2='10.0'/><line x1='120.0' y1='110.0' x2='150.0' y2='90.0'/><line x1='120.0' y1='110.0' x2='120.0' y2='30.0'/><line x1='150.0' y1='90.0' x2='150.0' y2='10.0'/><line x1='120.0' y1='30.0' x2='150.0' y2='10.0'/></g><g stroke-width='0.6' stroke-dasharray='3 2'><line x1='40.0' y1='110.0' x2='70.0' y2='90.0'/><line x1='70.0' y1='90.0' x2='70.0' y2='10.0'/><line x1='70.0' y1='90.0' x2='150.0' y2='90.0'/></g><polygon points='80.0,70.0 95.0,20.0 135.0,60.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><polygon points='80.0,70.0 135.0,60.0 95.0,100.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><polygon points='80.0,70.0 95.0,100.0 55.0,60.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><polygon points='80.0,70.0 55.0,60.0 95.0,20.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><g stroke-width='1.4'><line x1='80.0' y1='70.0' x2='95.0' y2='20.0'/><line x1='80.0' y1='70.0' x2='135.0' y2='60.0'/><line x1='80.0' y1='70.0' x2='95.0' y2='100.0'/><line x1='80.0' y1='70.0' x2='55.0' y2='60.0'/><line x1='95.0' y1='20.0' x2='135.0' y2='60.0'/><line x1='135.0' y1='60.0' x2='95.0' y2='100.0'/><line x1='95.0' y1='100.0' x2='55.0' y2='60.0'/><line x1='55.0' y1='60.0' x2='95.0' y2='20.0'/></g><g stroke-width='1' stroke-dasharray='3 2'><line x1='110.0' y1='50.0' x2='95.0' y2='20.0'/><line x1='110.0' y1='50.0' x2='135.0' y2='60.0'/><line x1='110.0' y1='50.0' x2='95.0' y2='100.0'/><line x1='110.0' y1='50.0' x2='55.0' y2='60.0'/></g></g><g fill='currentColor' font-size='8'><circle cx='80.0' cy='70.0' r='1.8'/><circle cx='110.0' cy='50.0' r='1.8'/><circle cx='55.0' cy='60.0' r='1.8'/><circle cx='135.0' cy='60.0' r='1.8'/><circle cx='95.0' cy='20.0' r='1.8'/><circle cx='95.0' cy='100.0' r='1.8'/><text x='80' y='121' text-anchor='middle'>10 cm</text></g></svg>",
+"a": 7.0710678118654755,
+"u": "cm",
+"tol": 0.01,
+"d": [
+[
+"Faces vizinhas",
+"Cada aresta do octaedro liga os centros de duas faces vizinhas do cubo. Cada centro está a 5 cm (meia aresta) da aresta comum às duas faces.",
+""
+],
+[
+"Pitágoras",
+"Os dois segmentos de 5 cm são perpendiculares."
+]
+],
+"h": [
+"Os dois centros ficam a 5 cm da aresta comum, em direções perpendiculares.",
+"ℓ² = 5² + 5² = 50.",
+"ℓ = <b>5√2 ≈ 7,1 cm</b>."
+]
+},
+{
+"id": "2003-2-mat-10b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "gesp",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 10(b)",
+"r": 1830,
+"tm": 75,
+"ctx": "Os centros das faces de um cubo de aresta 10 cm são os vértices de um octaedro regular, cujas faces são triângulos equiláteros. Qual o volume do octaedro, em cm³?",
+"fig": "<svg viewBox='0 0 175 125' class='fg' role='img' aria-label='cubo de aresta 10 centímetros com o octaedro regular cujos vértices são os centros das seis faces do cubo'><g fill='none' stroke='currentColor'><g stroke-width='0.8'><line x1='40.0' y1='110.0' x2='40.0' y2='30.0'/><line x1='40.0' y1='110.0' x2='120.0' y2='110.0'/><line x1='40.0' y1='30.0' x2='70.0' y2='10.0'/><line x1='40.0' y1='30.0' x2='120.0' y2='30.0'/><line x1='70.0' y1='10.0' x2='150.0' y2='10.0'/><line x1='120.0' y1='110.0' x2='150.0' y2='90.0'/><line x1='120.0' y1='110.0' x2='120.0' y2='30.0'/><line x1='150.0' y1='90.0' x2='150.0' y2='10.0'/><line x1='120.0' y1='30.0' x2='150.0' y2='10.0'/></g><g stroke-width='0.6' stroke-dasharray='3 2'><line x1='40.0' y1='110.0' x2='70.0' y2='90.0'/><line x1='70.0' y1='90.0' x2='70.0' y2='10.0'/><line x1='70.0' y1='90.0' x2='150.0' y2='90.0'/></g><polygon points='80.0,70.0 95.0,20.0 135.0,60.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><polygon points='80.0,70.0 135.0,60.0 95.0,100.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><polygon points='80.0,70.0 95.0,100.0 55.0,60.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><polygon points='80.0,70.0 55.0,60.0 95.0,20.0' fill='currentColor' fill-opacity='0.12' stroke='none'/><g stroke-width='1.4'><line x1='80.0' y1='70.0' x2='95.0' y2='20.0'/><line x1='80.0' y1='70.0' x2='135.0' y2='60.0'/><line x1='80.0' y1='70.0' x2='95.0' y2='100.0'/><line x1='80.0' y1='70.0' x2='55.0' y2='60.0'/><line x1='95.0' y1='20.0' x2='135.0' y2='60.0'/><line x1='135.0' y1='60.0' x2='95.0' y2='100.0'/><line x1='95.0' y1='100.0' x2='55.0' y2='60.0'/><line x1='55.0' y1='60.0' x2='95.0' y2='20.0'/></g><g stroke-width='1' stroke-dasharray='3 2'><line x1='110.0' y1='50.0' x2='95.0' y2='20.0'/><line x1='110.0' y1='50.0' x2='135.0' y2='60.0'/><line x1='110.0' y1='50.0' x2='95.0' y2='100.0'/><line x1='110.0' y1='50.0' x2='55.0' y2='60.0'/></g></g><g fill='currentColor' font-size='8'><circle cx='80.0' cy='70.0' r='1.8'/><circle cx='110.0' cy='50.0' r='1.8'/><circle cx='55.0' cy='60.0' r='1.8'/><circle cx='135.0' cy='60.0' r='1.8'/><circle cx='95.0' cy='20.0' r='1.8'/><circle cx='95.0' cy='100.0' r='1.8'/><text x='80' y='121' text-anchor='middle'>10 cm</text></g></svg>",
+"a": 166.66666666666666,
+"u": "cm³",
+"tol": 0.01,
+"d": [
+[
+"Duas pirâmides",
+"O octaedro são duas pirâmides de base quadrada unidas pela base; a base é o quadrado formado pelos centros das quatro faces laterais do cubo.",
+""
+],
+[
+"Volume da pirâmide",
+"V = (1/3)·área da base·altura; a altura vai do centro do cubo ao centro da face de cima."
+]
+],
+"h": [
+"Base: quadrado de lado 5√2, área 50 cm²; altura de cada pirâmide: 5 cm.",
+"V = 2 × (1/3) × 50 × 5.",
+"V = <b>500/3 ≈ 166,7 cm³</b>."
+]
+},
+{
+"id": "2003-2-mat-11a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 11(a)",
+"r": 1870,
+"tm": 75,
+"ctx": "Seja a um número real e p(x) o determinante da matriz de linhas (3 − x, −1, 2), (0, a − x, −1) e (0, 4, 1 − x). Para a = 1, quais as raízes de p(x) = 0?",
+"opts": [
+"3, 1 + 2i e 1 − 2i",
+"3, −1 e 3",
+"3, 1 + 4i e 1 − 4i",
+"1, 3 e 5"
+],
+"a": 0,
+"d": [
+[
+"Desenvolver o determinante",
+"Use a primeira coluna, que só tem um termo não nulo: p(x) = (3 − x)·[(a − x)(1 − x) + 4].",
+""
+],
+[
+"Raízes complexas",
+"Numa equação do 2º grau com Δ < 0, x = (−b ± i√|Δ|)/2a."
+]
+],
+"h": [
+"p(x) = (3 − x)[(1 − x)² + 4].",
+"Raiz x = 3; e (1 − x)² = −4 ⟹ 1 − x = ±2i.",
+"Raízes: <b>3, 1 + 2i e 1 − 2i</b>."
+]
+},
+{
+"id": "2003-2-mat-11b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "poli",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 11(b)",
+"r": 2120,
+"tm": 120,
+"ctx": "Seja a um número real e p(x) o determinante da matriz de linhas (3 − x, −1, 2), (0, a − x, −1) e (0, 4, 1 − x). Para que valores de a a equação p(x) = 0 tem uma única raiz real?",
+"opts": [
+"−3 < a ≤ 5",
+"−3 < a < 5",
+"a < −3 ou a > 5",
+"−5 < a ≤ 3"
+],
+"a": 0,
+"d": [
+[
+"Fator do 2º grau",
+"p(x) = (3 − x)·q(x), com q(x) = x² − (a + 1)x + a + 4. A raiz 3 existe sempre.",
+""
+],
+[
+"Casos",
+"Raiz real única: q sem raízes reais (Δ < 0), ou q com raiz dupla igual a 3."
+]
+],
+"h": [
+"Δ = (a + 1)² − 4(a + 4) = a² − 2a − 15 < 0 ⟹ −3 < a < 5.",
+"Δ = 0: a = 5 dá raiz dupla x = 3 (serve); a = −3 dá x = −1, outra raiz real (não serve).",
+"<b>−3 < a ≤ 5</b>."
+]
+},
+{
+"id": "2003-2-mat-12a",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "trig",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 12(a)",
+"r": 1740,
+"tm": 45,
+"ctx": "Considere a função f(x) = x² + x·cos α + sen α. Para α = 3π/2, quais as soluções de f(x) = 0?",
+"opts": [
+"x = 1 ou x = −1",
+"x = 0 ou x = 1",
+"x = 0 ou x = −1",
+"Não há soluções reais"
+],
+"a": 0,
+"d": [
+[
+"Valores notáveis",
+"cos(3π/2) = 0 e sen(3π/2) = −1.",
+""
+]
+],
+"h": [
+"f(x) = x² + 0·x − 1.",
+"x² = 1.",
+"<b>x = 1 ou x = −1</b>."
+]
+},
+{
+"id": "2003-2-mat-12b",
+"ano": 2003,
+"fase": 2,
+"s": "mat",
+"t": "cplx",
+"src": "Unicamp 2003, 2ª fase, Matemática, questão 12(b)",
+"r": 2080,
+"tm": 120,
+"ctx": "Considere a função f(x) = x² + x·cos α + sen α. Para que valores de α o número complexo 1/2 + (√3/2)i é raiz de f(x) + 1 = 0?",
+"opts": [
+"α = π + 2kπ, k inteiro",
+"α = 2kπ, k inteiro",
+"α = π/2 + 2kπ, k inteiro",
+"α = π/3 + 2kπ, k inteiro"
+],
+"a": 0,
+"d": [
+[
+"Raízes conjugadas",
+"Se os coeficientes são reais e z é raiz, o conjugado z̄ também é.",
+""
+],
+[
+"Soma e produto",
+"Em x² + bx + c = 0: soma das raízes = −b; produto = c."
+]
+],
+"h": [
+"Raízes 1/2 ± (√3/2)i: soma 1 e produto 1/4 + 3/4 = 1.",
+"Em x² + x·cos α + (sen α + 1) = 0: −cos α = 1 e sen α + 1 = 1, isto é, cos α = −1 e sen α = 0.",
+"<b>α = π + 2kπ</b>, k inteiro."
+]
+},
+{
+"id": "2003-2-fis-01a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2003, 2ª fase, Física, questão 1(a)",
+"r": 1320,
+"tm": 30,
+"ctx": "A velocidade linear de leitura de um CD é 1,2 m/s. Um CD de música toca durante 70 minutos. Qual o comprimento da trilha gravada, em metros?",
+"a": 5040,
+"u": "m",
+"tol": 0,
+"d": [
+[
+"Movimento uniforme",
+"s = v·t, com t em segundos.",
+""
+]
+],
+"h": [
+"t = 70 × 60 = 4.200 s.",
+"s = 1,2 × 4.200.",
+"s = <b>5.040 m</b>."
+]
+},
+{
+"id": "2003-2-fis-01b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2003, 2ª fase, Física, questão 1(b)",
+"r": 1620,
+"tm": 45,
+"ctx": "A velocidade linear de leitura de um CD é 1,2 m/s. Num CD de dados, cada caractere (letra, número ou espaço) ocupa 8 µm de trilha. Quanto tempo leva a leitura de um texto de 80 caracteres (o tamanho do item anterior desta questão), em microssegundos? 1 µm = 10⁻⁶ m.",
+"a": 533,
+"u": "µs",
+"tol": 0.02,
+"d": [
+[
+"Comprimento do texto",
+"Comprimento = número de caracteres × 8 µm.",
+""
+],
+[
+"Tempo",
+"t = comprimento ÷ velocidade, em metros e m/s."
+]
+],
+"h": [
+"Comprimento: 80 × 8·10⁻⁶ = 6,4·10⁻⁴ m.",
+"t = 6,4·10⁻⁴/1,2 ≈ 5,3·10⁻⁴ s.",
+"t ≈ <b>530 µs</b> (cerca de meio milissegundo)."
+]
+},
+{
+"id": "2003-2-fis-02a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2003, 2ª fase, Física, questão 2(a)",
+"r": 1570,
+"tm": 45,
+"ctx": "Um cartaz de segurança nas estradas mostra um carro acidentado com a legenda \"de 100 km/h a 0 km/h em 1 segundo\". Use g = 10 m/s². Qual a razão entre a desaceleração média do carro e a aceleração da gravidade, a/g?",
+"a": 2.8,
+"tol": 0.04,
+"d": [
+[
+"Aceleração média",
+"a = Δv/Δt, com v em m/s (km/h ÷ 3,6).",
+""
+]
+],
+"h": [
+"100 km/h ≈ 27,8 m/s.",
+"a = 27,8/1 = 27,8 m/s².",
+"a/g ≈ <b>2,8</b>."
+]
+},
+{
+"id": "2003-2-fis-02b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2003, 2ª fase, Física, questão 2(b)",
+"r": 1660,
+"tm": 60,
+"ctx": "Um cartaz de segurança nas estradas mostra um carro acidentado com a legenda \"de 100 km/h a 0 km/h em 1 segundo\". Use g = 10 m/s². De que altura o carro deveria cair para ter uma variação de energia potencial igual à sua variação de energia cinética no acidente, em metros?",
+"a": 38.6,
+"u": "m",
+"tol": 0.03,
+"d": [
+[
+"Igualar as energias",
+"m·g·h = m·v²/2: a massa se cancela, e h = v²/(2g).",
+""
+]
+],
+"h": [
+"v ≈ 27,8 m/s.",
+"h = 27,8²/20 ≈ 772/20.",
+"h ≈ <b>39 m</b> (um prédio de uns 13 andares)."
+]
+},
+{
+"id": "2003-2-fis-02c",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2003, 2ª fase, Física, questão 2(c)",
+"r": 1870,
+"tm": 75,
+"ctx": "Um cartaz de segurança nas estradas mostra um carro acidentado com a legenda \"de 100 km/h a 0 km/h em 1 segundo\". Use g = 10 m/s². A propaganda de um carro de 1.000 kg anuncia \"de 0 a 100 km/h em 14 segundos\", com aceleração constante. Desprezando perdas por atrito, qual a potência mecânica média necessária, em kW?",
+"a": 27.6,
+"u": "kW",
+"tol": 0.05,
+"d": [
+[
+"Teorema da energia cinética",
+"O trabalho do motor é a variação da energia cinética: W = m·v²/2.",
+""
+],
+[
+"Potência média",
+"P = W/Δt."
+]
+],
+"h": [
+"E<sub>c</sub> = 1.000 × 27,8²/2 ≈ 3,86·10⁵ J.",
+"P = 3,86·10⁵/14 ≈ 2,76·10⁴ W.",
+"P ≈ <b>28 kW</b>."
+]
+},
+{
+"id": "2003-2-fis-03a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 2003, 2ª fase, Física, questão 3(a)",
+"r": 1660,
+"tm": 75,
+"ctx": "Pela terceira lei de Kepler, T²/R³ é igual para todos os planetas (T: período de revolução em torno do Sol; R: distância ao Sol). A distância da Terra ao Sol vale 1 UA (unidade astronômica). A figura mostra o cinturão de asteroides, entre Marte e Júpiter. Se a matéria do cinturão tivesse se aglutinado num planeta, quanto duraria o ano desse planeta, em anos terrestres?",
+"fig": "<svg viewBox='0 0 252 140' class='fg' role='img' aria-label='sistema solar interior em escala: o Sol na origem; as órbitas de Mercúrio, Vênus, Terra e Marte; o cinturão de asteroides entre cerca de 2,5 e 2,9 unidades astronômicas; embaixo, uma régua de 0 a 3,5 unidades astronômicas'><g fill='none' stroke='currentColor' stroke-width='1'><circle cx='70' cy='60' r='17.6'/><circle cx='70' cy='60' r='32.4'/><path d='M92.5,21.0 A45.0,45.0 0 0 1 92.5,99.0'/><path d='M118.4,11.6 A68.4,68.4 0 0 1 118.4,108.4'/><line x1='70' y1='124' x2='227.5' y2='124'/><line x1='70.0' y1='121' x2='70.0' y2='127'/><line x1='92.5' y1='121' x2='92.5' y2='127'/><line x1='115.0' y1='121' x2='115.0' y2='127'/><line x1='137.5' y1='121' x2='137.5' y2='127'/><line x1='160.0' y1='121' x2='160.0' y2='127'/><line x1='182.5' y1='121' x2='182.5' y2='127'/><line x1='205.0' y1='121' x2='205.0' y2='127'/><line x1='227.5' y1='121' x2='227.5' y2='127'/><g stroke-width='0.6'><line x1='34' y1='41' x2='53.5' y2='54'/><line x1='29' y1='97' x2='47' y2='83'/></g></g><g fill='currentColor' font-size='7.5'><circle cx='70' cy='60' r='3'/><circle cx='176.0' cy='103.5' r='0.8'/><circle cx='192.9' cy='37.5' r='0.8'/><circle cx='190.9' cy='90.0' r='0.8'/><circle cx='191.6' cy='96.6' r='0.8'/><circle cx='188.2' cy='18.7' r='0.8'/><circle cx='183.8' cy='40.0' r='0.8'/><circle cx='195.9' cy='47.9' r='0.8'/><circle cx='185.0' cy='50.5' r='0.8'/><circle cx='191.9' cy='44.5' r='0.8'/><circle cx='182.1' cy='74.5' r='0.8'/><circle cx='190.7' cy='37.2' r='0.8'/><circle cx='182.4' cy='17.7' r='0.8'/><circle cx='197.1' cy='52.5' r='0.8'/><circle cx='191.5' cy='74.1' r='0.8'/><circle cx='182.7' cy='42.9' r='0.8'/><circle cx='184.6' cy='20.4' r='0.8'/><circle cx='179.5' cy='24.0' r='0.8'/><circle cx='187.9' cy='59.9' r='0.8'/><circle cx='182.7' cy='64.8' r='0.8'/><circle cx='192.9' cy='76.0' r='0.8'/><circle cx='187.9' cy='85.3' r='0.8'/><circle cx='180.2' cy='85.9' r='0.8'/><circle cx='191.1' cy='50.7' r='0.8'/><circle cx='187.3' cy='99.8' r='0.8'/><circle cx='189.5' cy='102.7' r='0.8'/><circle cx='184.7' cy='57.7' r='0.8'/><circle cx='197.3' cy='44.5' r='0.8'/><circle cx='182.8' cy='19.6' r='0.8'/><circle cx='184.1' cy='12.0' r='0.8'/><circle cx='189.5' cy='17.1' r='0.8'/><circle cx='192.3' cy='37.4' r='0.8'/><circle cx='182.1' cy='33.5' r='0.8'/><circle cx='192.2' cy='46.3' r='0.8'/><circle cx='187.0' cy='9.8' r='0.8'/><circle cx='195.0' cy='75.4' r='0.8'/><circle cx='199.2' cy='75.8' r='0.8'/><circle cx='188.9' cy='24.2' r='0.8'/><circle cx='190.0' cy='9.8' r='0.8'/><circle cx='192.7' cy='87.1' r='0.8'/><circle cx='191.5' cy='52.4' r='0.8'/><circle cx='180.1' cy='104.8' r='0.8'/><circle cx='188.4' cy='29.6' r='0.8'/><circle cx='177.5' cy='23.7' r='0.8'/><circle cx='191.5' cy='88.8' r='0.8'/><circle cx='198.4' cy='65.9' r='0.8'/><circle cx='184.9' cy='102.9' r='0.8'/><circle cx='197.4' cy='53.9' r='0.8'/><circle cx='180.3' cy='98.8' r='0.8'/><circle cx='181.6' cy='103.0' r='0.8'/><circle cx='178.7' cy='14.0' r='0.8'/><circle cx='195.2' cy='35.4' r='0.8'/><circle cx='193.8' cy='95.6' r='0.8'/><circle cx='187.4' cy='7.9' r='0.8'/><circle cx='191.7' cy='56.8' r='0.8'/><circle cx='187.1' cy='12.2' r='0.8'/><circle cx='184.8' cy='61.4' r='0.8'/><circle cx='196.3' cy='37.5' r='0.8'/><circle cx='189.9' cy='27.6' r='0.8'/><circle cx='195.8' cy='82.5' r='0.8'/><circle cx='186.3' cy='40.9' r='0.8'/><circle cx='188.2' cy='98.0' r='0.8'/><circle cx='190.1' cy='69.8' r='0.8'/><circle cx='198.0' cy='40.6' r='0.8'/><circle cx='187.0' cy='26.0' r='0.8'/><circle cx='185.7' cy='43.9' r='0.8'/><circle cx='188.2' cy='48.2' r='0.8'/><circle cx='177.1' cy='95.5' r='0.8'/><circle cx='182.5' cy='47.5' r='0.8'/><circle cx='185.9' cy='83.6' r='0.8'/><circle cx='197.6' cy='81.2' r='0.8'/><circle cx='194.2' cy='55.1' r='0.8'/><circle cx='195.3' cy='52.0' r='0.8'/><circle cx='195.8' cy='30.5' r='0.8'/><circle cx='178.3' cy='15.5' r='0.8'/><circle cx='192.6' cy='31.2' r='0.8'/><circle cx='198.2' cy='65.2' r='0.8'/><circle cx='191.0' cy='39.2' r='0.8'/><circle cx='190.8' cy='45.3' r='0.8'/><circle cx='185.2' cy='65.8' r='0.8'/><circle cx='194.9' cy='57.5' r='0.8'/><circle cx='198.6' cy='69.1' r='0.8'/><circle cx='179.2' cy='32.4' r='0.8'/><circle cx='185.5' cy='80.8' r='0.8'/><circle cx='191.1' cy='34.7' r='0.8'/><circle cx='184.8' cy='87.1' r='0.8'/><circle cx='195.8' cy='73.9' r='0.8'/><circle cx='189.1' cy='77.7' r='0.8'/><circle cx='197.1' cy='78.4' r='0.8'/><circle cx='195.5' cy='67.9' r='0.8'/><circle cx='180.1' cy='107.6' r='0.8'/><circle cx='189.5' cy='86.4' r='0.8'/><circle cx='188.9' cy='70.8' r='0.8'/><circle cx='193.2' cy='51.8' r='0.8'/><circle cx='196.7' cy='55.8' r='0.8'/><circle cx='199.6' cy='61.9' r='0.8'/><circle cx='185.6' cy='90.2' r='0.8'/><circle cx='187.6' cy='61.5' r='0.8'/><circle cx='182.6' cy='26.7' r='0.8'/><circle cx='179.2' cy='29.6' r='0.8'/><circle cx='194.6' cy='58.7' r='0.8'/><circle cx='182.6' cy='14.0' r='0.8'/><circle cx='191.9' cy='94.1' r='0.8'/><circle cx='181.7' cy='74.4' r='0.8'/><circle cx='192.3' cy='77.8' r='0.8'/><circle cx='188.5' cy='33.4' r='0.8'/><circle cx='189.1' cy='85.0' r='0.8'/><circle cx='190.3' cy='57.4' r='0.8'/><circle cx='188.9' cy='54.7' r='0.8'/><circle cx='184.8' cy='80.5' r='0.8'/><circle cx='192.8' cy='96.4' r='0.8'/><circle cx='185.1' cy='13.2' r='0.8'/><circle cx='184.2' cy='46.9' r='0.8'/><circle cx='186.7' cy='61.2' r='0.8'/><circle cx='184.2' cy='81.7' r='0.8'/><circle cx='193.6' cy='37.8' r='0.8'/><circle cx='189.0' cy='60.3' r='0.8'/><circle cx='182.9' cy='61.9' r='0.8'/><circle cx='194.0' cy='65.0' r='0.8'/><circle cx='190.9' cy='74.8' r='0.8'/><circle cx='189.8' cy='93.7' r='0.8'/><circle cx='194.3' cy='47.1' r='0.8'/><circle cx='182.3' cy='85.7' r='0.8'/><circle cx='174.8' cy='14.0' r='0.8'/><circle cx='181.6' cy='30.1' r='0.8'/><circle cx='199.3' cy='62.5' r='0.8'/><circle cx='178.4' cy='103.2' r='0.8'/><circle cx='194.3' cy='37.9' r='0.8'/><circle cx='194.0' cy='68.8' r='0.8'/><circle cx='191.4' cy='63.8' r='0.8'/><circle cx='181.9' cy='72.4' r='0.8'/><circle cx='180.6' cy='36.3' r='0.8'/><circle cx='197.2' cy='36.8' r='0.8'/><circle cx='178.5' cy='15.9' r='0.8'/><circle cx='180.7' cy='89.3' r='0.8'/><circle cx='195.4' cy='77.0' r='0.8'/><circle cx='184.8' cy='78.3' r='0.8'/><circle cx='191.1' cy='16.9' r='0.8'/><circle cx='192.1' cy='64.3' r='0.8'/><circle cx='185.2' cy='44.6' r='0.8'/><circle cx='190.4' cy='25.9' r='0.8'/><circle cx='191.0' cy='70.5' r='0.8'/><circle cx='187.6' cy='43.4' r='0.8'/><circle cx='195.9' cy='72.8' r='0.8'/><circle cx='185.0' cy='10.5' r='0.8'/><circle cx='197.5' cy='85.1' r='0.8'/><circle cx='179.6' cy='17.3' r='0.8'/><circle cx='184.5' cy='68.0' r='0.8'/><circle cx='199.1' cy='61.6' r='0.8'/><circle cx='176.2' cy='18.1' r='0.8'/><circle cx='186.1' cy='33.8' r='0.8'/><circle cx='189.1' cy='60.2' r='0.8'/><circle cx='192.1' cy='92.6' r='0.8'/><circle cx='186.7' cy='73.3' r='0.8'/><circle cx='197.9' cy='83.6' r='0.8'/><circle cx='192.5' cy='35.1' r='0.8'/><circle cx='188.6' cy='49.0' r='0.8'/><circle cx='188.9' cy='21.4' r='0.8'/><circle cx='184.3' cy='94.0' r='0.8'/><circle cx='189.1' cy='103.5' r='0.8'/><circle cx='190.1' cy='19.0' r='0.8'/><circle cx='186.5' cy='108.2' r='0.8'/><circle cx='186.4' cy='14.2' r='0.8'/><circle cx='184.3' cy='89.5' r='0.8'/><circle cx='187.5' cy='23.9' r='0.8'/><circle cx='189.7' cy='43.7' r='0.8'/><circle cx='179.7' cy='101.6' r='0.8'/><circle cx='188.0' cy='88.8' r='0.8'/><circle cx='184.9' cy='22.2' r='0.8'/><circle cx='194.9' cy='66.9' r='0.8'/><circle cx='186.2' cy='51.3' r='0.8'/><text x='64' y='73' font-size='7'>Sol</text><text x='2' y='40'>Mercúrio</text><text x='6' y='103'>Vênus</text><text x='90' y='17' text-anchor='end'>Terra</text><text x='121' y='13'>Marte</text><text x='206' y='56'>cinturão de</text><text x='206' y='65'>asteroides</text><text x='70' y='135' text-anchor='middle'>0</text><text x='115' y='135' text-anchor='middle'>1</text><text x='160' y='135' text-anchor='middle'>2</text><text x='205' y='135' text-anchor='middle'>3</text><text x='232' y='127'>UA</text></g></svg>",
+"a": 4.4,
+"u": "anos",
+"tol": 0.1,
+"d": [
+[
+"Comparar com a Terra",
+"T²/R³ = T<sub>Terra</sub>²/R<sub>Terra</sub>³ = 1 ano²/UA³ ⟹ T² = R³, com R em UA e T em anos.",
+""
+],
+[
+"Ler a figura",
+"Estime pela escala a distância do cinturão ao Sol."
+]
+],
+"h": [
+"Pela escala, o cinturão está a cerca de 2,7 UA.",
+"T² = 2,7³ ≈ 19,7.",
+"T ≈ <b>4,4 anos</b> (algo entre 4 e 4,7, conforme a leitura)."
+]
+},
+{
+"id": "2003-2-fis-03b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_grav",
+"src": "Unicamp 2003, 2ª fase, Física, questão 3(b)",
+"r": 1440,
+"tm": 30,
+"ctx": "Pela terceira lei de Kepler, T²/R³ é igual para todos os planetas (T: período de revolução em torno do Sol; R: distância ao Sol). A distância da Terra ao Sol vale 1 UA (unidade astronômica). A figura mostra o cinturão de asteroides, entre Marte e Júpiter. O ano de Mercúrio é mais longo ou mais curto que o ano terrestre?",
+"fig": "<svg viewBox='0 0 252 140' class='fg' role='img' aria-label='sistema solar interior em escala: o Sol na origem; as órbitas de Mercúrio, Vênus, Terra e Marte; o cinturão de asteroides entre cerca de 2,5 e 2,9 unidades astronômicas; embaixo, uma régua de 0 a 3,5 unidades astronômicas'><g fill='none' stroke='currentColor' stroke-width='1'><circle cx='70' cy='60' r='17.6'/><circle cx='70' cy='60' r='32.4'/><path d='M92.5,21.0 A45.0,45.0 0 0 1 92.5,99.0'/><path d='M118.4,11.6 A68.4,68.4 0 0 1 118.4,108.4'/><line x1='70' y1='124' x2='227.5' y2='124'/><line x1='70.0' y1='121' x2='70.0' y2='127'/><line x1='92.5' y1='121' x2='92.5' y2='127'/><line x1='115.0' y1='121' x2='115.0' y2='127'/><line x1='137.5' y1='121' x2='137.5' y2='127'/><line x1='160.0' y1='121' x2='160.0' y2='127'/><line x1='182.5' y1='121' x2='182.5' y2='127'/><line x1='205.0' y1='121' x2='205.0' y2='127'/><line x1='227.5' y1='121' x2='227.5' y2='127'/><g stroke-width='0.6'><line x1='34' y1='41' x2='53.5' y2='54'/><line x1='29' y1='97' x2='47' y2='83'/></g></g><g fill='currentColor' font-size='7.5'><circle cx='70' cy='60' r='3'/><circle cx='176.0' cy='103.5' r='0.8'/><circle cx='192.9' cy='37.5' r='0.8'/><circle cx='190.9' cy='90.0' r='0.8'/><circle cx='191.6' cy='96.6' r='0.8'/><circle cx='188.2' cy='18.7' r='0.8'/><circle cx='183.8' cy='40.0' r='0.8'/><circle cx='195.9' cy='47.9' r='0.8'/><circle cx='185.0' cy='50.5' r='0.8'/><circle cx='191.9' cy='44.5' r='0.8'/><circle cx='182.1' cy='74.5' r='0.8'/><circle cx='190.7' cy='37.2' r='0.8'/><circle cx='182.4' cy='17.7' r='0.8'/><circle cx='197.1' cy='52.5' r='0.8'/><circle cx='191.5' cy='74.1' r='0.8'/><circle cx='182.7' cy='42.9' r='0.8'/><circle cx='184.6' cy='20.4' r='0.8'/><circle cx='179.5' cy='24.0' r='0.8'/><circle cx='187.9' cy='59.9' r='0.8'/><circle cx='182.7' cy='64.8' r='0.8'/><circle cx='192.9' cy='76.0' r='0.8'/><circle cx='187.9' cy='85.3' r='0.8'/><circle cx='180.2' cy='85.9' r='0.8'/><circle cx='191.1' cy='50.7' r='0.8'/><circle cx='187.3' cy='99.8' r='0.8'/><circle cx='189.5' cy='102.7' r='0.8'/><circle cx='184.7' cy='57.7' r='0.8'/><circle cx='197.3' cy='44.5' r='0.8'/><circle cx='182.8' cy='19.6' r='0.8'/><circle cx='184.1' cy='12.0' r='0.8'/><circle cx='189.5' cy='17.1' r='0.8'/><circle cx='192.3' cy='37.4' r='0.8'/><circle cx='182.1' cy='33.5' r='0.8'/><circle cx='192.2' cy='46.3' r='0.8'/><circle cx='187.0' cy='9.8' r='0.8'/><circle cx='195.0' cy='75.4' r='0.8'/><circle cx='199.2' cy='75.8' r='0.8'/><circle cx='188.9' cy='24.2' r='0.8'/><circle cx='190.0' cy='9.8' r='0.8'/><circle cx='192.7' cy='87.1' r='0.8'/><circle cx='191.5' cy='52.4' r='0.8'/><circle cx='180.1' cy='104.8' r='0.8'/><circle cx='188.4' cy='29.6' r='0.8'/><circle cx='177.5' cy='23.7' r='0.8'/><circle cx='191.5' cy='88.8' r='0.8'/><circle cx='198.4' cy='65.9' r='0.8'/><circle cx='184.9' cy='102.9' r='0.8'/><circle cx='197.4' cy='53.9' r='0.8'/><circle cx='180.3' cy='98.8' r='0.8'/><circle cx='181.6' cy='103.0' r='0.8'/><circle cx='178.7' cy='14.0' r='0.8'/><circle cx='195.2' cy='35.4' r='0.8'/><circle cx='193.8' cy='95.6' r='0.8'/><circle cx='187.4' cy='7.9' r='0.8'/><circle cx='191.7' cy='56.8' r='0.8'/><circle cx='187.1' cy='12.2' r='0.8'/><circle cx='184.8' cy='61.4' r='0.8'/><circle cx='196.3' cy='37.5' r='0.8'/><circle cx='189.9' cy='27.6' r='0.8'/><circle cx='195.8' cy='82.5' r='0.8'/><circle cx='186.3' cy='40.9' r='0.8'/><circle cx='188.2' cy='98.0' r='0.8'/><circle cx='190.1' cy='69.8' r='0.8'/><circle cx='198.0' cy='40.6' r='0.8'/><circle cx='187.0' cy='26.0' r='0.8'/><circle cx='185.7' cy='43.9' r='0.8'/><circle cx='188.2' cy='48.2' r='0.8'/><circle cx='177.1' cy='95.5' r='0.8'/><circle cx='182.5' cy='47.5' r='0.8'/><circle cx='185.9' cy='83.6' r='0.8'/><circle cx='197.6' cy='81.2' r='0.8'/><circle cx='194.2' cy='55.1' r='0.8'/><circle cx='195.3' cy='52.0' r='0.8'/><circle cx='195.8' cy='30.5' r='0.8'/><circle cx='178.3' cy='15.5' r='0.8'/><circle cx='192.6' cy='31.2' r='0.8'/><circle cx='198.2' cy='65.2' r='0.8'/><circle cx='191.0' cy='39.2' r='0.8'/><circle cx='190.8' cy='45.3' r='0.8'/><circle cx='185.2' cy='65.8' r='0.8'/><circle cx='194.9' cy='57.5' r='0.8'/><circle cx='198.6' cy='69.1' r='0.8'/><circle cx='179.2' cy='32.4' r='0.8'/><circle cx='185.5' cy='80.8' r='0.8'/><circle cx='191.1' cy='34.7' r='0.8'/><circle cx='184.8' cy='87.1' r='0.8'/><circle cx='195.8' cy='73.9' r='0.8'/><circle cx='189.1' cy='77.7' r='0.8'/><circle cx='197.1' cy='78.4' r='0.8'/><circle cx='195.5' cy='67.9' r='0.8'/><circle cx='180.1' cy='107.6' r='0.8'/><circle cx='189.5' cy='86.4' r='0.8'/><circle cx='188.9' cy='70.8' r='0.8'/><circle cx='193.2' cy='51.8' r='0.8'/><circle cx='196.7' cy='55.8' r='0.8'/><circle cx='199.6' cy='61.9' r='0.8'/><circle cx='185.6' cy='90.2' r='0.8'/><circle cx='187.6' cy='61.5' r='0.8'/><circle cx='182.6' cy='26.7' r='0.8'/><circle cx='179.2' cy='29.6' r='0.8'/><circle cx='194.6' cy='58.7' r='0.8'/><circle cx='182.6' cy='14.0' r='0.8'/><circle cx='191.9' cy='94.1' r='0.8'/><circle cx='181.7' cy='74.4' r='0.8'/><circle cx='192.3' cy='77.8' r='0.8'/><circle cx='188.5' cy='33.4' r='0.8'/><circle cx='189.1' cy='85.0' r='0.8'/><circle cx='190.3' cy='57.4' r='0.8'/><circle cx='188.9' cy='54.7' r='0.8'/><circle cx='184.8' cy='80.5' r='0.8'/><circle cx='192.8' cy='96.4' r='0.8'/><circle cx='185.1' cy='13.2' r='0.8'/><circle cx='184.2' cy='46.9' r='0.8'/><circle cx='186.7' cy='61.2' r='0.8'/><circle cx='184.2' cy='81.7' r='0.8'/><circle cx='193.6' cy='37.8' r='0.8'/><circle cx='189.0' cy='60.3' r='0.8'/><circle cx='182.9' cy='61.9' r='0.8'/><circle cx='194.0' cy='65.0' r='0.8'/><circle cx='190.9' cy='74.8' r='0.8'/><circle cx='189.8' cy='93.7' r='0.8'/><circle cx='194.3' cy='47.1' r='0.8'/><circle cx='182.3' cy='85.7' r='0.8'/><circle cx='174.8' cy='14.0' r='0.8'/><circle cx='181.6' cy='30.1' r='0.8'/><circle cx='199.3' cy='62.5' r='0.8'/><circle cx='178.4' cy='103.2' r='0.8'/><circle cx='194.3' cy='37.9' r='0.8'/><circle cx='194.0' cy='68.8' r='0.8'/><circle cx='191.4' cy='63.8' r='0.8'/><circle cx='181.9' cy='72.4' r='0.8'/><circle cx='180.6' cy='36.3' r='0.8'/><circle cx='197.2' cy='36.8' r='0.8'/><circle cx='178.5' cy='15.9' r='0.8'/><circle cx='180.7' cy='89.3' r='0.8'/><circle cx='195.4' cy='77.0' r='0.8'/><circle cx='184.8' cy='78.3' r='0.8'/><circle cx='191.1' cy='16.9' r='0.8'/><circle cx='192.1' cy='64.3' r='0.8'/><circle cx='185.2' cy='44.6' r='0.8'/><circle cx='190.4' cy='25.9' r='0.8'/><circle cx='191.0' cy='70.5' r='0.8'/><circle cx='187.6' cy='43.4' r='0.8'/><circle cx='195.9' cy='72.8' r='0.8'/><circle cx='185.0' cy='10.5' r='0.8'/><circle cx='197.5' cy='85.1' r='0.8'/><circle cx='179.6' cy='17.3' r='0.8'/><circle cx='184.5' cy='68.0' r='0.8'/><circle cx='199.1' cy='61.6' r='0.8'/><circle cx='176.2' cy='18.1' r='0.8'/><circle cx='186.1' cy='33.8' r='0.8'/><circle cx='189.1' cy='60.2' r='0.8'/><circle cx='192.1' cy='92.6' r='0.8'/><circle cx='186.7' cy='73.3' r='0.8'/><circle cx='197.9' cy='83.6' r='0.8'/><circle cx='192.5' cy='35.1' r='0.8'/><circle cx='188.6' cy='49.0' r='0.8'/><circle cx='188.9' cy='21.4' r='0.8'/><circle cx='184.3' cy='94.0' r='0.8'/><circle cx='189.1' cy='103.5' r='0.8'/><circle cx='190.1' cy='19.0' r='0.8'/><circle cx='186.5' cy='108.2' r='0.8'/><circle cx='186.4' cy='14.2' r='0.8'/><circle cx='184.3' cy='89.5' r='0.8'/><circle cx='187.5' cy='23.9' r='0.8'/><circle cx='189.7' cy='43.7' r='0.8'/><circle cx='179.7' cy='101.6' r='0.8'/><circle cx='188.0' cy='88.8' r='0.8'/><circle cx='184.9' cy='22.2' r='0.8'/><circle cx='194.9' cy='66.9' r='0.8'/><circle cx='186.2' cy='51.3' r='0.8'/><text x='64' y='73' font-size='7'>Sol</text><text x='2' y='40'>Mercúrio</text><text x='6' y='103'>Vênus</text><text x='90' y='17' text-anchor='end'>Terra</text><text x='121' y='13'>Marte</text><text x='206' y='56'>cinturão de</text><text x='206' y='65'>asteroides</text><text x='70' y='135' text-anchor='middle'>0</text><text x='115' y='135' text-anchor='middle'>1</text><text x='160' y='135' text-anchor='middle'>2</text><text x='205' y='135' text-anchor='middle'>3</text><text x='232' y='127'>UA</text></g></svg>",
+"opts": [
+"Mais curto, porque Mercúrio está mais perto do Sol",
+"Mais longo, porque Mercúrio está mais perto do Sol",
+"Igual, porque o período não depende da distância",
+"Mais longo, porque Mercúrio é menor que a Terra"
+],
+"a": 0,
+"d": [
+[
+"Kepler",
+"T² é proporcional a R³: quanto menor a órbita, menor o período.",
+""
+]
+],
+"h": [
+"Mercúrio tem R < 1 UA.",
+"Então T² < 1 e T < 1 ano.",
+"<b>Mais curto</b> (cerca de 88 dias)."
+]
+},
+{
+"id": "2003-2-fis-04a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_est",
+"src": "Unicamp 2003, 2ª fase, Física, questão 4(a)",
+"r": 1740,
+"tm": 30,
+"ctx": "Um corpo que voa tem o peso P equilibrado por uma força de sustentação sobre a área A das asas; em voo baixo, P/A = 0,37·V² (unidades do SI), sendo V a velocidade típica de voo. Para um avião de passageiros, P/A = 7.200 N/m² e a envergadura (distância entre as pontas das asas) é b = 60 m. Admita que a razão (P/A)/b é a mesma para pássaros e aviões. Estime a envergadura de um pardal.",
+"opts": [
+"Cerca de 15 cm",
+"Cerca de 1,5 cm",
+"Cerca de 1,5 m",
+"Cerca de 60 cm"
+],
+"a": 0,
+"d": [
+[
+"Estimativa",
+"Compare com algo conhecido: um pardal de asas abertas cabe sobre uma folha de caderno.",
+""
+]
+],
+"h": [
+"Um pardal mede uns 15 cm do bico à cauda.",
+"Aberto, tem asas de comprimento parecido: algo entre 10 e 25 cm.",
+"<b>Cerca de 15 cm</b>."
+]
+},
+{
+"id": "2003-2-fis-04b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 2003, 2ª fase, Física, questão 4(b)",
+"r": 1910,
+"tm": 75,
+"ctx": "Um corpo que voa tem o peso P equilibrado por uma força de sustentação sobre a área A das asas; em voo baixo, P/A = 0,37·V² (unidades do SI), sendo V a velocidade típica de voo. Para um avião de passageiros, P/A = 7.200 N/m² e a envergadura (distância entre as pontas das asas) é b = 60 m. Admita que a razão (P/A)/b é a mesma para pássaros e aviões. Adotando 15 cm para a envergadura de um pardal, qual a sua velocidade de voo, em m/s?",
+"a": 7,
+"u": "m/s",
+"tol": 0.06,
+"d": [
+[
+"Proporção",
+"(P/A)/b é igual nos dois: (P/A)<sub>pardal</sub> = 7.200 × (0,15/60).",
+""
+],
+[
+"Velocidade",
+"V = √((P/A)/0,37)."
+]
+],
+"h": [
+"(P/A)<sub>pardal</sub> = 7.200 × 0,0025 = 18 N/m².",
+"V² = 18/0,37 ≈ 49.",
+"V ≈ <b>7 m/s</b>."
+]
+},
+{
+"id": "2003-2-fis-04c",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2003, 2ª fase, Física, questão 4(c)",
+"r": 1740,
+"tm": 45,
+"ctx": "Um pássaro voando a 10 m/s consome 3,2 J/s de energia muscular, dos quais 25% viram potência mecânica. Qual a força de resistência do ar nesse voo, em newtons?",
+"a": 0.08,
+"u": "N",
+"tol": 0.01,
+"d": [
+[
+"Rendimento",
+"P<sub>mec</sub> = 0,25 × 3,2 W.",
+""
+],
+[
+"Potência e força",
+"Em velocidade constante, a força que o pássaro faz iguala a resistência do ar: P = F·v."
+]
+],
+"h": [
+"P<sub>mec</sub> = 0,8 W.",
+"F = P/v = 0,8/10.",
+"F = <b>0,08 N</b>."
+]
+},
+{
+"id": "2003-2-fis-05a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2003, 2ª fase, Física, questão 5(a)",
+"r": 1620,
+"tm": 45,
+"ctx": "Uma usina de ondas é uma caixa fechada em cima e parcialmente cheia de água do mar, que entra e sai por uma passagem embaixo, aprisionando ar (figura). Quando as ondas fazem o nível da água subir, o ar é comprimido e aciona uma turbina. A superfície horizontal da caixa tem 50 m². Inicialmente, o nível da água está a 10 m do teto e o ar está à pressão atmosférica (10⁵ Pa). A saída para a turbina está fechada, e a temperatura do ar fica constante. Qual a pressão final do ar se o nível da água subir 2,0 m? Responda em unidades de 10⁵ Pa.",
+"fig": "<svg viewBox='0 0 240 118' class='fg' role='img' aria-label='usina de ondas em corte: à esquerda, o mar; à direita, uma caixa fechada em cima, com água embaixo e ar preso em cima; a parede esquerda da caixa não chega ao fundo, deixando uma passagem por onde a água do mar entra e sai; no teto, à direita, uma saída de ar para a turbina; o nível da água está a 10 metros do teto'><rect x='5' y='55' width='65' height='53' fill='currentColor' fill-opacity='0.2'/><rect x='70' y='55' width='130' height='53' fill='currentColor' fill-opacity='0.2'/><g fill='none' stroke='currentColor'><line x1='5' y1='108' x2='205' y2='108' stroke-width='1.2'/><polyline points='70,84 70,20 200,20 200,108' stroke-width='2.2'/><polyline points='182,20 182,8 206,8' stroke-width='1.5'/><line x1='5' y1='55' x2='200' y2='55' stroke-width='0.6' stroke-dasharray='3 2'/><line x1='105' y1='20' x2='105' y2='55' stroke-width='0.7'/><line x1='58' y1='100' x2='68' y2='95' stroke-width='0.7'/></g><g fill='currentColor' font-size='8'><polygon points='105.0,20.0 106.7,23.6 103.3,23.6'/><polygon points='105.0,55.0 103.3,51.4 106.7,51.4'/><polygon points='206.0,8.0 201.5,10.1 201.5,5.9'/><polygon points='70.0,94.0 67.5,97.2 66.0,94.1'/><text x='130' y='42'>ar</text><text x='109' y='41'>10 m</text><text x='209' y='11'>turbina</text><text x='10' y='50'>mar</text><text x='14' y='104'>passagem</text><text x='128' y='86'>área: 50 m²</text></g></svg>",
+"a": 1.25,
+"u": "10⁵ Pa",
+"tol": 0.01,
+"d": [
+[
+"Transformação isotérmica",
+"p₁·V₁ = p₂·V₂.",
+""
+],
+[
+"Volumes",
+"V = área × altura da coluna de ar; a área não muda, então basta comparar as alturas."
+]
+],
+"h": [
+"A coluna de ar passa de 10 m para 8 m.",
+"p₂ = 10⁵ × 10/8.",
+"p₂ = <b>1,25·10⁵ Pa</b>."
+]
+},
+{
+"id": "2003-2-fis-05b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2003, 2ª fase, Física, questão 5(b) (no original, pede-se o esboço da curva)",
+"r": 1780,
+"tm": 60,
+"ctx": "Uma usina de ondas é uma caixa fechada em cima e parcialmente cheia de água do mar, que entra e sai por uma passagem embaixo, aprisionando ar (figura). Quando as ondas fazem o nível da água subir, o ar é comprimido e aciona uma turbina. A superfície horizontal da caixa tem 50 m². Inicialmente, o nível da água está a 10 m do teto e o ar está à pressão atmosférica (10⁵ Pa). A saída para a turbina está fechada, e a temperatura do ar fica constante. Como é a curva desse processo num diagrama de pressão em função do volume do ar?",
+"fig": "<svg viewBox='0 0 240 118' class='fg' role='img' aria-label='usina de ondas em corte: à esquerda, o mar; à direita, uma caixa fechada em cima, com água embaixo e ar preso em cima; a parede esquerda da caixa não chega ao fundo, deixando uma passagem por onde a água do mar entra e sai; no teto, à direita, uma saída de ar para a turbina; o nível da água está a 10 metros do teto'><rect x='5' y='55' width='65' height='53' fill='currentColor' fill-opacity='0.2'/><rect x='70' y='55' width='130' height='53' fill='currentColor' fill-opacity='0.2'/><g fill='none' stroke='currentColor'><line x1='5' y1='108' x2='205' y2='108' stroke-width='1.2'/><polyline points='70,84 70,20 200,20 200,108' stroke-width='2.2'/><polyline points='182,20 182,8 206,8' stroke-width='1.5'/><line x1='5' y1='55' x2='200' y2='55' stroke-width='0.6' stroke-dasharray='3 2'/><line x1='105' y1='20' x2='105' y2='55' stroke-width='0.7'/><line x1='58' y1='100' x2='68' y2='95' stroke-width='0.7'/></g><g fill='currentColor' font-size='8'><polygon points='105.0,20.0 106.7,23.6 103.3,23.6'/><polygon points='105.0,55.0 103.3,51.4 106.7,51.4'/><polygon points='206.0,8.0 201.5,10.1 201.5,5.9'/><polygon points='70.0,94.0 67.5,97.2 66.0,94.1'/><text x='130' y='42'>ar</text><text x='109' y='41'>10 m</text><text x='209' y='11'>turbina</text><text x='10' y='50'>mar</text><text x='14' y='104'>passagem</text><text x='128' y='86'>área: 50 m²</text></g></svg>",
+"opts": [
+"Um arco de hipérbole (p·V constante), de (500 m³; 1,0·10⁵ Pa) até (400 m³; 1,25·10⁵ Pa)",
+"Um segmento horizontal, a 1,0·10⁵ Pa, de 500 m³ até 400 m³",
+"Um segmento vertical, em 500 m³, de 1,0·10⁵ Pa até 1,25·10⁵ Pa",
+"Um arco de hipérbole de (500 m³; 1,0·10⁵ Pa) até (600 m³; 0,8·10⁵ Pa)"
+],
+"a": 0,
+"d": [
+[
+"Isoterma",
+"Com T constante, p = constante/V: no diagrama p × V a curva é uma hipérbole.",
+""
+],
+[
+"Pontos",
+"Volume = 50 m² × altura da coluna de ar, antes e depois."
+]
+],
+"h": [
+"V inicial = 50 × 10 = 500 m³, a 1,0·10⁵ Pa; V final = 50 × 8 = 400 m³, a 1,25·10⁵ Pa.",
+"p·V = 5·10⁷ J fica constante: hipérbole, percorrida com V diminuindo.",
+"<b>Arco de hipérbole de (500 m³; 1,0·10⁵ Pa) a (400 m³; 1,25·10⁵ Pa)</b>."
+]
+},
+{
+"id": "2003-2-fis-05c",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_gas",
+"src": "Unicamp 2003, 2ª fase, Física, questão 5(c)",
+"r": 1960,
+"tm": 75,
+"ctx": "Uma usina de ondas é uma caixa fechada em cima e parcialmente cheia de água do mar, que entra e sai por uma passagem embaixo, aprisionando ar (figura). Quando as ondas fazem o nível da água subir, o ar é comprimido e aciona uma turbina. A superfície horizontal da caixa tem 50 m². Inicialmente, o nível da água está a 10 m do teto e o ar está à pressão atmosférica (10⁵ Pa). A saída para a turbina está fechada, e a temperatura do ar fica constante. Estime o trabalho realizado pelas ondas sobre o ar da caixa, em unidades de 10⁷ J.",
+"fig": "<svg viewBox='0 0 240 118' class='fg' role='img' aria-label='usina de ondas em corte: à esquerda, o mar; à direita, uma caixa fechada em cima, com água embaixo e ar preso em cima; a parede esquerda da caixa não chega ao fundo, deixando uma passagem por onde a água do mar entra e sai; no teto, à direita, uma saída de ar para a turbina; o nível da água está a 10 metros do teto'><rect x='5' y='55' width='65' height='53' fill='currentColor' fill-opacity='0.2'/><rect x='70' y='55' width='130' height='53' fill='currentColor' fill-opacity='0.2'/><g fill='none' stroke='currentColor'><line x1='5' y1='108' x2='205' y2='108' stroke-width='1.2'/><polyline points='70,84 70,20 200,20 200,108' stroke-width='2.2'/><polyline points='182,20 182,8 206,8' stroke-width='1.5'/><line x1='5' y1='55' x2='200' y2='55' stroke-width='0.6' stroke-dasharray='3 2'/><line x1='105' y1='20' x2='105' y2='55' stroke-width='0.7'/><line x1='58' y1='100' x2='68' y2='95' stroke-width='0.7'/></g><g fill='currentColor' font-size='8'><polygon points='105.0,20.0 106.7,23.6 103.3,23.6'/><polygon points='105.0,55.0 103.3,51.4 106.7,51.4'/><polygon points='206.0,8.0 201.5,10.1 201.5,5.9'/><polygon points='70.0,94.0 67.5,97.2 66.0,94.1'/><text x='130' y='42'>ar</text><text x='109' y='41'>10 m</text><text x='209' y='11'>turbina</text><text x='10' y='50'>mar</text><text x='14' y='104'>passagem</text><text x='128' y='86'>área: 50 m²</text></g></svg>",
+"a": 1.125,
+"u": "10⁷ J",
+"tol": 0.04,
+"d": [
+[
+"Trabalho no diagrama p × V",
+"O trabalho é a área sob a curva entre V = 400 m³ e V = 500 m³.",
+""
+],
+[
+"Estimativa",
+"Aproxime a curva por um segmento de reta: a área vira um trapézio, (p₁ + p₂)/2 × ΔV."
+]
+],
+"h": [
+"ΔV = 100 m³; pressões de 1,0·10⁵ e 1,25·10⁵ Pa.",
+"W ≈ (1,0 + 1,25)/2 × 10⁵ × 100 = 1,125·10⁷ J.",
+"W ≈ <b>1,1·10⁷ J</b> (o cálculo exato da isoterma dá 1,12·10⁷ J)."
+]
+},
+{
+"id": "2003-2-fis-07a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2003, 2ª fase, Física, questão 7(a)",
+"r": 1740,
+"tm": 75,
+"ctx": "Uma moeda está exatamente no centro do fundo de uma caneca; despreze a espessura da moeda. A caneca tem altura igual a 4 diâmetros da moeda (4d<sub>M</sub>) e diâmetro 3d<sub>M</sub>. Um observador está a 9d<sub>M</sub> da borda da caneca, como na figura. Qual a altura mínima, acima do topo da caneca, em que deve estar o olho do observador para ver a moeda toda? Responda em diâmetros da moeda.",
+"fig": "<svg viewBox='0 0 215 112' class='fg' role='img' aria-label='caneca em corte, com altura de 4 diâmetros da moeda e largura de 3 diâmetros; a moeda está no centro do fundo; a partir da borda direita da caneca, uma linha tracejada horizontal vai até o observador, a 9 diâmetros da moeda de distância; ali, uma linha vertical tracejada indica a altura h do olho, a determinar'><g fill='none' stroke='currentColor'><polyline points='40,40 40,88 76,88 76,40' stroke-width='2.5'/><path d='M40,50 H28 V76 H40' stroke-width='2'/><line x1='52' y1='86.5' x2='64' y2='86.5' stroke-width='3'/><g stroke-width='0.7' stroke-dasharray='3 2'><line x1='76' y1='40' x2='184' y2='40'/><line x1='184' y1='40' x2='184' y2='8'/></g><g stroke-width='0.6'><line x1='76' y1='52' x2='184' y2='52'/><line x1='16' y1='40' x2='16' y2='88'/><line x1='40' y1='98' x2='76' y2='98'/><line x1='194' y1='40' x2='194' y2='10'/></g></g><g fill='currentColor' font-size='8'><circle cx='184' cy='8' r='2.5'/><polygon points='76.0,52.0 79.6,50.3 79.6,53.7'/><polygon points='184.0,52.0 180.4,53.7 180.4,50.3'/><polygon points='16.0,40.0 17.7,43.6 14.3,43.6'/><polygon points='16.0,88.0 14.3,84.4 17.7,84.4'/><polygon points='40.0,98.0 43.6,96.3 43.6,99.7'/><polygon points='76.0,98.0 72.4,99.7 72.4,96.3'/><polygon points='194.0,10.0 195.7,13.6 192.3,13.6'/><text x='130' y='62' text-anchor='middle'>9d<tspan font-size='6' dy='2'>M</tspan></text><text x='2' y='67'>4d<tspan font-size='6' dy='2'>M</tspan></text><text x='58' y='108' text-anchor='middle'>3d<tspan font-size='6' dy='2'>M</tspan></text><text x='197' y='28'>h ?</text><text x='160' y='11'>olho</text></g></svg>",
+"a": 36,
+"u": "diâmetros da moeda",
+"tol": 0.01,
+"d": [
+[
+"Raio limite",
+"A borda da caneca do lado do observador esconde parte do fundo. O ponto mais difícil de ver é a ponta da moeda mais próxima do observador: o raio que sai dela passa raspando na borda.",
+""
+],
+[
+"Semelhança",
+"Dentro da caneca, esse raio anda 1d<sub>M</sub> na horizontal enquanto sobe 4d<sub>M</sub>; fora, mantém a mesma inclinação."
+]
+],
+"h": [
+"A moeda ocupa o terço central do fundo: a ponta do lado do observador fica a 1d<sub>M</sub> da parede.",
+"O raio sobe 4 para cada 1 na horizontal; em 9d<sub>M</sub>: h = 4 × 9.",
+"h = <b>36d<sub>M</sub></b>."
+]
+},
+{
+"id": "2003-2-fis-07b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_opt",
+"src": "Unicamp 2003, 2ª fase, Física, questão 7(b)",
+"r": 2000,
+"tm": 120,
+"ctx": "Uma moeda está exatamente no centro do fundo de uma caneca; despreze a espessura da moeda. A caneca tem altura igual a 4 diâmetros da moeda (4d<sub>M</sub>) e diâmetro 3d<sub>M</sub>. Um observador está a 9d<sub>M</sub> da borda da caneca, como na figura. Com a caneca cheia de água (n = 1,3), qual a nova altura mínima do olho? Responda em diâmetros da moeda.",
+"fig": "<svg viewBox='0 0 215 112' class='fg' role='img' aria-label='caneca em corte, com altura de 4 diâmetros da moeda e largura de 3 diâmetros; a moeda está no centro do fundo; a partir da borda direita da caneca, uma linha tracejada horizontal vai até o observador, a 9 diâmetros da moeda de distância; ali, uma linha vertical tracejada indica a altura h do olho, a determinar'><g fill='none' stroke='currentColor'><polyline points='40,40 40,88 76,88 76,40' stroke-width='2.5'/><path d='M40,50 H28 V76 H40' stroke-width='2'/><line x1='52' y1='86.5' x2='64' y2='86.5' stroke-width='3'/><g stroke-width='0.7' stroke-dasharray='3 2'><line x1='76' y1='40' x2='184' y2='40'/><line x1='184' y1='40' x2='184' y2='8'/></g><g stroke-width='0.6'><line x1='76' y1='52' x2='184' y2='52'/><line x1='16' y1='40' x2='16' y2='88'/><line x1='40' y1='98' x2='76' y2='98'/><line x1='194' y1='40' x2='194' y2='10'/></g></g><g fill='currentColor' font-size='8'><circle cx='184' cy='8' r='2.5'/><polygon points='76.0,52.0 79.6,50.3 79.6,53.7'/><polygon points='184.0,52.0 180.4,53.7 180.4,50.3'/><polygon points='16.0,40.0 17.7,43.6 14.3,43.6'/><polygon points='16.0,88.0 14.3,84.4 17.7,84.4'/><polygon points='40.0,98.0 43.6,96.3 43.6,99.7'/><polygon points='76.0,98.0 72.4,99.7 72.4,96.3'/><polygon points='194.0,10.0 195.7,13.6 192.3,13.6'/><text x='130' y='62' text-anchor='middle'>9d<tspan font-size='6' dy='2'>M</tspan></text><text x='2' y='67'>4d<tspan font-size='6' dy='2'>M</tspan></text><text x='58' y='108' text-anchor='middle'>3d<tspan font-size='6' dy='2'>M</tspan></text><text x='197' y='28'>h ?</text><text x='160' y='11'>olho</text></g></svg>",
+"a": 27,
+"u": "diâmetros da moeda",
+"tol": 0.03,
+"d": [
+[
+"Refração na superfície",
+"O raio sai da água junto à borda: n<sub>água</sub>·sen θ<sub>água</sub> = n<sub>ar</sub>·sen θ<sub>ar</sub>, com ângulos medidos a partir da vertical.",
+""
+],
+[
+"Senos pela geometria",
+"Na água, o raio vai da ponta da moeda à borda: sen θ = 1/√(1² + 4²) = 1/√17. No ar, até o olho: sen θ = 9/√(9² + h²)."
+]
+],
+"h": [
+"sen θ<sub>ar</sub> = 1,3/√17 ⟹ sen² θ<sub>ar</sub> = 1,69/17 ≈ 0,1.",
+"81/(81 + h²) = 0,1 ⟹ 81 + h² = 810 ⟹ h² = 729.",
+"h ≈ <b>27d<sub>M</sub></b>."
+]
+},
+{
+"id": "2003-2-fis-08a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2003, 2ª fase, Física, questão 8(a)",
+"r": 1740,
+"tm": 60,
+"ctx": "Para afinar um piano usa-se um diapasão de 440 Hz (nota Lá). No gráfico, a curva contínua é a onda de 440 Hz do diapasão, e a tracejada é o harmônico fundamental da nota Lá de um piano desafinado. Qual a frequência da nota Lá desafinada, em Hz?",
+"fig": "<svg viewBox='0 0 212 140' class='fg' role='img' aria-label='gráfico de amplitude em função do tempo, de 0 a 6 milissegundos: em cima, a curva contínua do diapasão de 440 hertz, com picos perto de 0,6, 2,8 e 5,1 milissegundos; embaixo, a curva tracejada do piano desafinado, com picos perto de 0,6, 3,1 e 5,6 milissegundos'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='55.0' y1='10' x2='55.0' y2='115'/><line x1='85.0' y1='10' x2='85.0' y2='115'/><line x1='115.0' y1='10' x2='115.0' y2='115'/><line x1='145.0' y1='10' x2='145.0' y2='115'/><line x1='175.0' y1='10' x2='175.0' y2='115'/><line x1='25' y1='25.0' x2='205' y2='25.0'/><line x1='25' y1='40.0' x2='205' y2='40.0'/><line x1='25' y1='55.0' x2='205' y2='55.0'/><line x1='25' y1='70.0' x2='205' y2='70.0'/><line x1='25' y1='85.0' x2='205' y2='85.0'/><line x1='25' y1='100.0' x2='205' y2='100.0'/></g><rect x='25' y='10' width='180' height='105' stroke-width='1'/><polyline points='25.0,40.0 25.8,39.0 26.5,37.9 27.2,36.9 28.0,35.9 28.8,34.9 29.5,34.0 30.2,33.0 31.0,32.1 31.8,31.3 32.5,30.4 33.2,29.7 34.0,28.9 34.8,28.3 35.5,27.6 36.2,27.1 37.0,26.6 37.8,26.2 38.5,25.8 39.2,25.5 40.0,25.3 40.8,25.1 41.5,25.0 42.2,25.0 43.0,25.1 43.8,25.2 44.5,25.4 45.2,25.6 46.0,26.0 46.8,26.4 47.5,26.9 48.2,27.4 49.0,28.0 49.8,28.6 50.5,29.3 51.2,30.1 52.0,30.9 52.8,31.7 53.5,32.6 54.2,33.5 55.0,34.5 55.8,35.5 56.5,36.5 57.2,37.5 58.0,38.5 58.8,39.5 59.5,40.6 60.2,41.6 61.0,42.6 61.8,43.6 62.5,44.6 63.2,45.6 64.0,46.6 64.8,47.5 65.5,48.4 66.2,49.2 67.0,50.0 67.8,50.7 68.5,51.4 69.2,52.1 70.0,52.7 70.8,53.2 71.5,53.7 72.2,54.0 73.0,54.4 73.8,54.6 74.5,54.8 75.2,54.9 76.0,55.0 76.8,55.0 77.5,54.9 78.2,54.7 79.0,54.5 79.8,54.2 80.5,53.8 81.2,53.4 82.0,52.9 82.8,52.3 83.5,51.7 84.2,51.0 85.0,50.3 85.8,49.5 86.5,48.7 87.2,47.8 88.0,46.9 88.8,46.0 89.5,45.0 90.2,44.0 91.0,43.0 91.8,42.0 92.5,40.9 93.2,39.9 94.0,38.9 94.8,37.8 95.5,36.8 96.2,35.8 97.0,34.8 97.8,33.9 98.5,32.9 99.2,32.0 100.0,31.2 100.8,30.4 101.5,29.6 102.2,28.9 103.0,28.2 103.8,27.6 104.5,27.0 105.2,26.6 106.0,26.1 106.8,25.8 107.5,25.5 108.2,25.2 109.0,25.1 109.8,25.0 110.5,25.0 111.2,25.1 112.0,25.2 112.8,25.4 113.5,25.7 114.2,26.0 115.0,26.4 115.8,26.9 116.5,27.4 117.2,28.0 118.0,28.7 118.8,29.4 119.5,30.2 120.2,31.0 121.0,31.8 121.8,32.7 122.5,33.6 123.2,34.6 124.0,35.5 124.8,36.5 125.5,37.6 126.2,38.6 127.0,39.6 127.8,40.7 128.5,41.7 129.2,42.7 130.0,43.7 130.8,44.7 131.5,45.7 132.2,46.6 133.0,47.6 133.8,48.4 134.5,49.3 135.2,50.1 136.0,50.8 136.8,51.5 137.5,52.1 138.2,52.7 139.0,53.2 139.8,53.7 140.5,54.1 141.2,54.4 142.0,54.7 142.8,54.8 143.5,55.0 144.2,55.0 145.0,55.0 145.8,54.9 146.5,54.7 147.2,54.5 148.0,54.1 148.8,53.8 149.5,53.3 150.2,52.8 151.0,52.2 151.8,51.6 152.5,50.9 153.2,50.2 154.0,49.4 154.8,48.6 155.5,47.7 156.2,46.8 157.0,45.9 157.8,44.9 158.5,43.9 159.2,42.9 160.0,41.9 160.8,40.8 161.5,39.8 162.2,38.8 163.0,37.7 163.8,36.7 164.5,35.7 165.2,34.7 166.0,33.8 166.8,32.9 167.5,32.0 168.2,31.1 169.0,30.3 169.8,29.5 170.5,28.8 171.2,28.1 172.0,27.5 172.8,27.0 173.5,26.5 174.2,26.1 175.0,25.7 175.8,25.4 176.5,25.2 177.2,25.1 178.0,25.0 178.8,25.0 179.5,25.1 180.2,25.2 181.0,25.4 181.8,25.7 182.5,26.1 183.2,26.5 184.0,26.9 184.8,27.5 185.5,28.1 186.2,28.7 187.0,29.5 187.8,30.2 188.5,31.0 189.2,31.9 190.0,32.8 190.8,33.7 191.5,34.7 192.2,35.6 193.0,36.6 193.8,37.7 194.5,38.7 195.2,39.7 196.0,40.8 196.8,41.8 197.5,42.8 198.2,43.8 199.0,44.8 199.8,45.8 200.5,46.7 201.2,47.6 202.0,48.5 202.8,49.3 203.5,50.1 204.2,50.9 205.0,51.6' stroke-width='1.3'/><polyline points='25.0,85.0 25.8,84.1 26.5,83.1 27.2,82.2 28.0,81.3 28.8,80.4 29.5,79.5 30.2,78.6 31.0,77.8 31.8,77.0 32.5,76.2 33.2,75.4 34.0,74.7 34.8,74.1 35.5,73.4 36.2,72.9 37.0,72.3 37.8,71.9 38.5,71.4 39.2,71.1 40.0,70.7 40.8,70.5 41.5,70.3 42.2,70.1 43.0,70.0 43.8,70.0 44.5,70.0 45.2,70.1 46.0,70.3 46.8,70.5 47.5,70.7 48.2,71.1 49.0,71.4 49.8,71.9 50.5,72.3 51.2,72.9 52.0,73.4 52.8,74.1 53.5,74.7 54.2,75.4 55.0,76.2 55.8,77.0 56.5,77.8 57.2,78.6 58.0,79.5 58.8,80.4 59.5,81.3 60.2,82.2 61.0,83.1 61.8,84.1 62.5,85.0 63.2,85.9 64.0,86.9 64.8,87.8 65.5,88.7 66.2,89.6 67.0,90.5 67.8,91.4 68.5,92.2 69.2,93.0 70.0,93.8 70.8,94.6 71.5,95.3 72.2,95.9 73.0,96.6 73.8,97.1 74.5,97.7 75.2,98.1 76.0,98.6 76.8,98.9 77.5,99.3 78.2,99.5 79.0,99.7 79.8,99.9 80.5,100.0 81.2,100.0 82.0,100.0 82.8,99.9 83.5,99.7 84.2,99.5 85.0,99.3 85.8,98.9 86.5,98.6 87.2,98.1 88.0,97.7 88.8,97.1 89.5,96.6 90.2,95.9 91.0,95.3 91.8,94.6 92.5,93.8 93.2,93.0 94.0,92.2 94.8,91.4 95.5,90.5 96.2,89.6 97.0,88.7 97.8,87.8 98.5,86.9 99.2,85.9 100.0,85.0 100.8,84.1 101.5,83.1 102.2,82.2 103.0,81.3 103.8,80.4 104.5,79.5 105.2,78.6 106.0,77.8 106.8,77.0 107.5,76.2 108.2,75.4 109.0,74.7 109.8,74.1 110.5,73.4 111.2,72.9 112.0,72.3 112.8,71.9 113.5,71.4 114.2,71.1 115.0,70.7 115.8,70.5 116.5,70.3 117.2,70.1 118.0,70.0 118.8,70.0 119.5,70.0 120.2,70.1 121.0,70.3 121.8,70.5 122.5,70.7 123.2,71.1 124.0,71.4 124.8,71.9 125.5,72.3 126.2,72.9 127.0,73.4 127.8,74.1 128.5,74.7 129.2,75.4 130.0,76.2 130.8,77.0 131.5,77.8 132.2,78.6 133.0,79.5 133.8,80.4 134.5,81.3 135.2,82.2 136.0,83.1 136.8,84.1 137.5,85.0 138.2,85.9 139.0,86.9 139.8,87.8 140.5,88.7 141.2,89.6 142.0,90.5 142.8,91.4 143.5,92.2 144.2,93.0 145.0,93.8 145.8,94.6 146.5,95.3 147.2,95.9 148.0,96.6 148.8,97.1 149.5,97.7 150.2,98.1 151.0,98.6 151.8,98.9 152.5,99.3 153.2,99.5 154.0,99.7 154.8,99.9 155.5,100.0 156.2,100.0 157.0,100.0 157.8,99.9 158.5,99.7 159.2,99.5 160.0,99.3 160.8,98.9 161.5,98.6 162.2,98.1 163.0,97.7 163.8,97.1 164.5,96.6 165.2,95.9 166.0,95.3 166.8,94.6 167.5,93.8 168.2,93.0 169.0,92.2 169.8,91.4 170.5,90.5 171.2,89.6 172.0,88.7 172.8,87.8 173.5,86.9 174.2,85.9 175.0,85.0 175.8,84.1 176.5,83.1 177.2,82.2 178.0,81.3 178.8,80.4 179.5,79.5 180.2,78.6 181.0,77.8 181.8,77.0 182.5,76.2 183.2,75.4 184.0,74.7 184.8,74.1 185.5,73.4 186.2,72.9 187.0,72.3 187.8,71.9 188.5,71.4 189.2,71.1 190.0,70.7 190.8,70.5 191.5,70.3 192.2,70.1 193.0,70.0 193.8,70.0 194.5,70.0 195.2,70.1 196.0,70.3 196.8,70.5 197.5,70.7 198.2,71.1 199.0,71.4 199.8,71.9 200.5,72.3 201.2,72.9 202.0,73.4 202.8,74.1 203.5,74.7 204.2,75.4 205.0,76.2' stroke-width='1.3' stroke-dasharray='4 2.5'/></g><g fill='currentColor' font-size='8'><text x='25' y='124' text-anchor='middle'>0</text><text x='55' y='124' text-anchor='middle'>1</text><text x='85' y='124' text-anchor='middle'>2</text><text x='115' y='124' text-anchor='middle'>3</text><text x='145' y='124' text-anchor='middle'>4</text><text x='175' y='124' text-anchor='middle'>5</text><text x='205' y='124' text-anchor='middle'>6</text><text x='115' y='136' text-anchor='middle'>tempo (10⁻³ s)</text><text x='14' y='62' text-anchor='middle' transform='rotate(-90 14 62)'>amplitude</text></g></svg>",
+"a": 400,
+"u": "Hz",
+"tol": 0.02,
+"d": [
+[
+"Período no gráfico",
+"Meça o tempo entre dois picos seguidos da curva tracejada; f = 1/T. Teste o método na curva contínua: 1/440 Hz ≈ 2,27 ms.",
+""
+]
+],
+"h": [
+"Picos da tracejada em ≈ 0,6 ms e ≈ 3,1 ms (e 5,6 ms): T = 2,5·10⁻³ s.",
+"f = 1/2,5·10⁻³.",
+"f = <b>400 Hz</b>."
+]
+},
+{
+"id": "2003-2-fis-08b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_ond",
+"src": "Unicamp 2003, 2ª fase, Física, questão 8(b)",
+"r": 2000,
+"tm": 120,
+"ctx": "Para afinar um piano usa-se um diapasão de 440 Hz (nota Lá). No gráfico, a curva contínua é a onda de 440 Hz do diapasão, e a tracejada é o harmônico fundamental da nota Lá de um piano desafinado. A nota desafinada está em 400 Hz. A corda tem 1,0 m e densidade linear 5,0·10⁻² g/cm. Qual o aumento de tensão necessário para afiná-la em 440 Hz, em newtons?",
+"a": 672,
+"u": "N",
+"tol": 0.05,
+"d": [
+[
+"Fundamental da corda",
+"No harmônico fundamental, λ = 2L; v = λ·f.",
+""
+],
+[
+"Velocidade na corda",
+"v = √(T/μ) ⟹ T = μ·v², com μ em kg/m (1 g/cm = 0,1 kg/m)."
+]
+],
+"h": [
+"μ = 5,0·10⁻³ kg/m e λ = 2 m: v₄₀₀ = 800 m/s e v₄₄₀ = 880 m/s.",
+"T₄₀₀ = 5·10⁻³ × 800² = 3.200 N; T₄₄₀ = 5·10⁻³ × 880² = 3.872 N.",
+"Aumento de ≈ <b>670 N</b>."
+]
+},
+{
+"id": "2003-2-fis-09a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2003, 2ª fase, Física, questão 9(a)",
+"r": 1660,
+"tm": 60,
+"ctx": "Uma resistência R varia com a temperatura segundo R = R₀(1 + αT), com R₀ = 100 Ω, α = 4·10⁻³ °C⁻¹ e T em °C. Ela está em equilíbrio térmico com um corpo de temperatura T. No circuito da figura, ajusta-se a resistência variável R₂ até que a corrente no amperímetro, no trecho AB, seja nula. Qual a temperatura do corpo quando R₂ = 108 Ω, em °C?",
+"fig": "<svg viewBox='0 0 200 115' class='fg' role='img' aria-label='ponte de Wheatstone: os nós C e D ficam à esquerda e à direita, A em cima e B embaixo; entre C e A e entre A e D há resistências R1; entre C e B está a resistência R, que fica no corpo de temperatura T; entre B e D está a resistência variável R2; um amperímetro liga A a B; a ponte é alimentada pelos terminais C e D'><g fill='none' stroke='currentColor' stroke-width='1.1'><polyline points='60.0,60.0 74.0,47.4 78.5,48.7 76.8,39.5 85.8,42.1 84.2,32.9 93.2,35.5 91.5,26.3 96.0,27.6 110.0,15.0'/><polyline points='110.0,15.0 124.0,27.6 123.2,32.2 132.2,29.6 130.5,38.8 139.5,36.2 137.8,45.4 146.8,42.8 146.0,47.4 160.0,60.0'/><polyline points='60.0,60.0 74.0,72.6 73.2,77.2 82.2,74.6 80.5,83.8 89.5,81.2 87.8,90.4 96.8,87.8 96.0,92.4 110.0,105.0'/><polyline points='110.0,105.0 124.0,92.4 128.5,93.7 126.8,84.5 135.8,87.1 134.2,77.9 143.2,80.5 141.5,71.3 146.0,72.6 160.0,60.0'/><line x1='110' y1='15' x2='110' y2='52'/><line x1='110' y1='68' x2='110' y2='105'/><circle cx='110' cy='60' r='8'/><line x1='60' y1='60' x2='32' y2='60'/><line x1='160' y1='60' x2='188' y2='60'/><circle cx='30' cy='60' r='2'/><circle cx='190' cy='60' r='2'/><line x1='126' y1='98' x2='145' y2='68' stroke-width='0.9'/></g><g fill='currentColor' font-size='9'><polygon points='145.0,68.0 144.4,73.0 140.8,70.7'/><circle cx='110' cy='15' r='2'/><circle cx='110' cy='105' r='2'/><circle cx='60' cy='60' r='2'/><circle cx='160' cy='60' r='2'/><text x='110' y='63.5' text-anchor='middle' font-size='8'>A</text><text x='106' y='10'>A</text><text x='106' y='114'>B</text><text x='52' y='54'>C</text><text x='164' y='54'>D</text><text x='68' y='31'>R₁</text><text x='143' y='31'>R₁</text><text x='70' y='97'>R</text><text x='149' y='97'>R₂</text></g></svg>",
+"a": 20,
+"u": "°C",
+"tol": 0,
+"d": [
+[
+"Ponte equilibrada",
+"Sem corrente em AB, A e B têm o mesmo potencial, e os produtos cruzados se igualam: R₁·R₂ = R₁·R, isto é, R = R₂.",
+""
+],
+[
+"Isolar T",
+"R = R₀(1 + αT) ⟹ T = (R/R₀ − 1)/α."
+]
+],
+"h": [
+"R = R₂ = 108 Ω.",
+"108 = 100(1 + 0,004T) ⟹ 0,4T = 8.",
+"T = <b>20 °C</b>."
+]
+},
+{
+"id": "2003-2-fis-09b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2003, 2ª fase, Física, questão 9(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "Uma resistência R varia com a temperatura segundo R = R₀(1 + αT), com R₀ = 100 Ω, α = 4·10⁻³ °C⁻¹ e T em °C. Ela está em equilíbrio térmico com um corpo de temperatura T. No circuito da figura, ajusta-se a resistência variável R₂ até que a corrente no amperímetro, no trecho AB, seja nula. Com a ponte equilibrada e R = R₂ = 108 Ω, a corrente em R é 5,0·10⁻³ A. Qual a diferença de potencial entre C e D, em volts?",
+"fig": "<svg viewBox='0 0 200 115' class='fg' role='img' aria-label='ponte de Wheatstone: os nós C e D ficam à esquerda e à direita, A em cima e B embaixo; entre C e A e entre A e D há resistências R1; entre C e B está a resistência R, que fica no corpo de temperatura T; entre B e D está a resistência variável R2; um amperímetro liga A a B; a ponte é alimentada pelos terminais C e D'><g fill='none' stroke='currentColor' stroke-width='1.1'><polyline points='60.0,60.0 74.0,47.4 78.5,48.7 76.8,39.5 85.8,42.1 84.2,32.9 93.2,35.5 91.5,26.3 96.0,27.6 110.0,15.0'/><polyline points='110.0,15.0 124.0,27.6 123.2,32.2 132.2,29.6 130.5,38.8 139.5,36.2 137.8,45.4 146.8,42.8 146.0,47.4 160.0,60.0'/><polyline points='60.0,60.0 74.0,72.6 73.2,77.2 82.2,74.6 80.5,83.8 89.5,81.2 87.8,90.4 96.8,87.8 96.0,92.4 110.0,105.0'/><polyline points='110.0,105.0 124.0,92.4 128.5,93.7 126.8,84.5 135.8,87.1 134.2,77.9 143.2,80.5 141.5,71.3 146.0,72.6 160.0,60.0'/><line x1='110' y1='15' x2='110' y2='52'/><line x1='110' y1='68' x2='110' y2='105'/><circle cx='110' cy='60' r='8'/><line x1='60' y1='60' x2='32' y2='60'/><line x1='160' y1='60' x2='188' y2='60'/><circle cx='30' cy='60' r='2'/><circle cx='190' cy='60' r='2'/><line x1='126' y1='98' x2='145' y2='68' stroke-width='0.9'/></g><g fill='currentColor' font-size='9'><polygon points='145.0,68.0 144.4,73.0 140.8,70.7'/><circle cx='110' cy='15' r='2'/><circle cx='110' cy='105' r='2'/><circle cx='60' cy='60' r='2'/><circle cx='160' cy='60' r='2'/><text x='110' y='63.5' text-anchor='middle' font-size='8'>A</text><text x='106' y='10'>A</text><text x='106' y='114'>B</text><text x='52' y='54'>C</text><text x='164' y='54'>D</text><text x='68' y='31'>R₁</text><text x='143' y='31'>R₁</text><text x='70' y='97'>R</text><text x='149' y='97'>R₂</text></g></svg>",
+"a": 1.08,
+"u": "V",
+"tol": 0.01,
+"d": [
+[
+"Ramo de baixo",
+"Sem corrente em AB, a mesma corrente percorre R e R₂, que ficam em série entre C e D.",
+""
+],
+[
+"Lei de Ohm",
+"U = (R + R₂)·i."
+]
+],
+"h": [
+"R + R₂ = 216 Ω.",
+"U = 216 × 5,0·10⁻³.",
+"U<sub>CD</sub> = <b>1,08 V</b>."
+]
+},
+{
+"id": "2003-2-fis-10a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_un",
+"src": "Unicamp 2003, 2ª fase, Física, questão 10(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "A fumaça do fogão tem gotículas de óleo com diâmetros entre 0,05 µm e 1 µm. Numa coifa eletrostática, as gotículas ganham carga elétrica e passam por um coletor de placas paralelas, com campo elétrico entre elas, onde se precipitam. Qual a massa das maiores gotículas? Considere a gota esférica, a densidade do óleo 9,0·10² kg/m³ e π = 3. Responda em unidades de 10⁻¹⁶ kg.",
+"a": 4.5,
+"u": "10⁻¹⁶ kg",
+"tol": 0.02,
+"d": [
+[
+"Volume da esfera",
+"V = (4/3)·π·r³, com r = metade do diâmetro, em metros.",
+""
+],
+[
+"Massa",
+"m = ρ·V."
+]
+],
+"h": [
+"r = 0,5 µm = 5·10⁻⁷ m; V = (4/3) × 3 × (5·10⁻⁷)³ = 4 × 1,25·10⁻¹⁹ = 5·10⁻¹⁹ m³.",
+"m = 9,0·10² × 5·10⁻¹⁹.",
+"m = <b>4,5·10⁻¹⁶ kg</b>."
+]
+},
+{
+"id": "2003-2-fis-10b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cin",
+"src": "Unicamp 2003, 2ª fase, Física, questão 10(b)",
+"r": 1440,
+"tm": 30,
+"ctx": "A fumaça do fogão tem gotículas de óleo com diâmetros entre 0,05 µm e 1 µm. Numa coifa eletrostática, as gotículas ganham carga elétrica e passam por um coletor de placas paralelas, com campo elétrico entre elas, onde se precipitam. O ar arrastado pela ventoinha tem velocidade de 0,6 m/s, e o coletor tem 0,30 m de comprimento. Quanto tempo a gotícula leva para atravessar o coletor, em segundos?",
+"fig": "<svg viewBox='0 0 252 115' class='fg' role='img' aria-label='coletor da coifa: duas placas paralelas horizontais, a 1 centímetro uma da outra e com 0,30 metro de comprimento; uma gotícula carregada entra pela esquerda, no meio entre as placas, com a velocidade v do ar'><rect x='40' y='19' width='180' height='6' fill='currentColor' fill-opacity='0.5'/><rect x='40' y='85' width='180' height='6' fill='currentColor' fill-opacity='0.5'/><g fill='none' stroke='currentColor' stroke-width='0.7'><line x1='26' y1='55' x2='48' y2='55' stroke-width='1.2'/><line x1='231' y1='25' x2='231' y2='85'/><line x1='40' y1='101' x2='220' y2='101'/><line x1='40' y1='93' x2='40' y2='105' stroke-dasharray='2 2'/><line x1='220' y1='93' x2='220' y2='105' stroke-dasharray='2 2'/></g><g fill='currentColor' font-size='8'><circle cx='22' cy='55' r='3.2'/><polygon points='50.0,55.0 45.5,57.1 45.5,52.9'/><polygon points='231.0,25.0 232.7,28.6 229.3,28.6'/><polygon points='231.0,85.0 229.3,81.4 232.7,81.4'/><polygon points='40.0,101.0 43.6,99.3 43.6,102.7'/><polygon points='220.0,101.0 216.4,102.7 216.4,99.3'/><text x='34' y='50'>v</text><text x='235' y='58'>1 cm</text><text x='130' y='111' text-anchor='middle'>0,30 m</text><text x='130' y='14' text-anchor='middle'>coletor</text></g></svg>",
+"a": 0.5,
+"u": "s",
+"tol": 0,
+"d": [
+[
+"Movimento uniforme",
+"t = distância ÷ velocidade.",
+""
+]
+],
+"h": [
+"t = 0,30/0,6.",
+"= 0,5.",
+"t = <b>0,5 s</b>."
+]
+},
+{
+"id": "2003-2-fis-10c",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_ele",
+"src": "Unicamp 2003, 2ª fase, Física, questão 10(c)",
+"r": 2040,
+"tm": 120,
+"ctx": "A fumaça do fogão tem gotículas de óleo com diâmetros entre 0,05 µm e 1 µm. Numa coifa eletrostática, as gotículas ganham carga elétrica e passam por um coletor de placas paralelas, com campo elétrico entre elas, onde se precipitam. Uma gotícula de 4,5·10⁻¹⁶ kg, com carga de 8·10⁻¹⁹ C, entra no coletor no meio entre as placas, que estão a 1 cm uma da outra, com 50 V entre elas; ela leva 0,5 s para atravessar o coletor. Ela fica retida? Despreze o atrito e a gravidade.",
+"fig": "<svg viewBox='0 0 252 115' class='fg' role='img' aria-label='coletor da coifa: duas placas paralelas horizontais, a 1 centímetro uma da outra e com 0,30 metro de comprimento; uma gotícula carregada entra pela esquerda, no meio entre as placas, com a velocidade v do ar'><rect x='40' y='19' width='180' height='6' fill='currentColor' fill-opacity='0.5'/><rect x='40' y='85' width='180' height='6' fill='currentColor' fill-opacity='0.5'/><g fill='none' stroke='currentColor' stroke-width='0.7'><line x1='26' y1='55' x2='48' y2='55' stroke-width='1.2'/><line x1='231' y1='25' x2='231' y2='85'/><line x1='40' y1='101' x2='220' y2='101'/><line x1='40' y1='93' x2='40' y2='105' stroke-dasharray='2 2'/><line x1='220' y1='93' x2='220' y2='105' stroke-dasharray='2 2'/></g><g fill='currentColor' font-size='8'><circle cx='22' cy='55' r='3.2'/><polygon points='50.0,55.0 45.5,57.1 45.5,52.9'/><polygon points='231.0,25.0 232.7,28.6 229.3,28.6'/><polygon points='231.0,85.0 229.3,81.4 232.7,81.4'/><polygon points='40.0,101.0 43.6,99.3 43.6,102.7'/><polygon points='220.0,101.0 216.4,102.7 216.4,99.3'/><text x='34' y='50'>v</text><text x='235' y='58'>1 cm</text><text x='130' y='111' text-anchor='middle'>0,30 m</text><text x='130' y='14' text-anchor='middle'>coletor</text></g></svg>",
+"opts": [
+"Sim: com a ≈ 9 m/s², ela percorre os 0,5 cm até uma placa em ≈ 0,03 s, bem menos que 0,5 s",
+"Não: a força elétrica numa carga tão pequena é desprezível",
+"Não: em 0,5 s ela se desloca só 0,1 mm na direção das placas",
+"Sim, mas só porque a gravidade a puxa para a placa de baixo"
+],
+"a": 0,
+"d": [
+[
+"Campo uniforme",
+"E = U/d; F = q·E; a = F/m.",
+""
+],
+[
+"MUV a partir do repouso, na direção das placas",
+"d = a·t²/2. Compare o tempo para andar 0,5 cm (metade da distância entre as placas) com o tempo de travessia."
+]
+],
+"h": [
+"E = 50/0,01 = 5·10³ V/m; F = 8·10⁻¹⁹ × 5·10³ = 4·10⁻¹⁵ N; a = 4·10⁻¹⁵/4,5·10⁻¹⁶ ≈ 9 m/s².",
+"t = √(2 × 0,005/9) ≈ 0,033 s.",
+"0,033 s < 0,5 s: <b>sim, ela fica retida</b>."
+]
+},
+{
+"id": "2003-2-fis-11a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2003, 2ª fase, Física, questão 11(a)",
+"r": 1530,
+"tm": 45,
+"ctx": "Um LED infravermelho, como os de controle remoto, tem as características dos gráficos: à esquerda, a corrente em função da tensão aplicada; à direita, a potência luminosa emitida em função da corrente. Qual a potência elétrica do LED sob tensão de 1,2 V, em mW?",
+"fig": "<svg viewBox='0 0 250 126' class='fg' role='img' aria-label='dois gráficos do LED; à esquerda, corrente em miliampères em função da tensão em volts: quase zero até 0,9 volt, 10 miliampères em 1,2 volt e 50 miliampères em 1,5 volt; à direita, potência luminosa em miliwatts em função da corrente: 0,6 miliwatt em 10 miliampères e 1,8 miliwatt em 50 miliampères, numa curva que cresce cada vez mais devagar'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='35.5' y1='15' x2='35.5' y2='100'/><line x1='43.0' y1='15' x2='43.0' y2='100'/><line x1='50.5' y1='15' x2='50.5' y2='100'/><line x1='58.0' y1='15' x2='58.0' y2='100'/><line x1='65.5' y1='15' x2='65.5' y2='100'/><line x1='73.0' y1='15' x2='73.0' y2='100'/><line x1='80.5' y1='15' x2='80.5' y2='100'/><line x1='88.0' y1='15' x2='88.0' y2='100'/><line x1='95.5' y1='15' x2='95.5' y2='100'/><line x1='103.0' y1='15' x2='103.0' y2='100'/><line x1='110.5' y1='15' x2='110.5' y2='100'/><line x1='118.0' y1='15' x2='118.0' y2='100'/><line x1='28' y1='83.0' x2='118' y2='83.0'/><line x1='28' y1='66.0' x2='118' y2='66.0'/><line x1='28' y1='49.0' x2='118' y2='49.0'/><line x1='28' y1='32.0' x2='118' y2='32.0'/><line x1='28' y1='15.0' x2='118' y2='15.0'/></g><line x1='28' y1='100' x2='118' y2='100' stroke-width='1'/><line x1='28' y1='100' x2='28' y2='15' stroke-width='1'/><g stroke-width='0.5' stroke-opacity='0.45'><line x1='172.0' y1='15' x2='172.0' y2='100'/><line x1='189.0' y1='15' x2='189.0' y2='100'/><line x1='206.0' y1='15' x2='206.0' y2='100'/><line x1='223.0' y1='15' x2='223.0' y2='100'/><line x1='240.0' y1='15' x2='240.0' y2='100'/><line x1='155' y1='91.5' x2='240' y2='91.5'/><line x1='155' y1='83.0' x2='240' y2='83.0'/><line x1='155' y1='74.5' x2='240' y2='74.5'/><line x1='155' y1='66.0' x2='240' y2='66.0'/><line x1='155' y1='57.5' x2='240' y2='57.5'/><line x1='155' y1='49.0' x2='240' y2='49.0'/><line x1='155' y1='40.5' x2='240' y2='40.5'/><line x1='155' y1='32.0' x2='240' y2='32.0'/><line x1='155' y1='23.5' x2='240' y2='23.5'/><line x1='155' y1='15.0' x2='240' y2='15.0'/></g><line x1='155' y1='100' x2='240' y2='100' stroke-width='1'/><line x1='155' y1='100' x2='155' y2='15' stroke-width='1'/><path d='M28.0,100.0 C33.0,100.0 51.8,100.1 58.0,100.0 C64.2,99.9 63.0,99.9 65.5,99.5 C68.0,99.0 70.5,98.5 73.0,97.3 C75.5,96.1 78.0,94.7 80.5,92.3 C83.0,90.0 85.5,87.1 88.0,83.0 C90.5,78.9 93.0,73.9 95.5,67.7 C98.0,61.5 100.5,54.4 103.0,45.6 C105.5,36.8 109.2,20.1 110.5,15.0' stroke-width='1.4'/><path d='M155.0,100.0 C156.4,97.7 160.7,90.2 163.5,86.0 C166.3,81.7 169.2,78.2 172.0,74.5 C174.8,70.8 177.7,67.2 180.5,63.9 C183.3,60.5 186.2,57.4 189.0,54.5 C191.8,51.6 194.7,48.9 197.5,46.5 C200.3,44.0 203.2,41.8 206.0,39.7 C208.8,37.5 211.7,35.5 214.5,33.7 C217.3,31.9 220.2,30.4 223.0,29.0 C225.8,27.7 228.7,26.5 231.5,25.6 C234.3,24.7 238.6,23.9 240.0,23.5' stroke-width='1.4'/></g><g fill='currentColor' font-size='6.5'><text x='28.0' y='108' text-anchor='middle'>0,4</text><text x='58.0' y='108' text-anchor='middle'>0,8</text><text x='88.0' y='108' text-anchor='middle'>1,2</text><text x='118.0' y='108' text-anchor='middle'>1,6</text><text x='25' y='102.2' text-anchor='end'>0</text><text x='25' y='85.2' text-anchor='end'>10</text><text x='25' y='68.2' text-anchor='end'>20</text><text x='25' y='51.2' text-anchor='end'>30</text><text x='25' y='34.2' text-anchor='end'>40</text><text x='25' y='17.2' text-anchor='end'>50</text><text x='155.0' y='108' text-anchor='middle'>0</text><text x='172.0' y='108' text-anchor='middle'>10</text><text x='189.0' y='108' text-anchor='middle'>20</text><text x='206.0' y='108' text-anchor='middle'>30</text><text x='223.0' y='108' text-anchor='middle'>40</text><text x='240.0' y='108' text-anchor='middle'>50</text><text x='152' y='102.2' text-anchor='end'>0</text><text x='152' y='85.2' text-anchor='end'>0,4</text><text x='152' y='68.2' text-anchor='end'>0,8</text><text x='152' y='51.2' text-anchor='end'>1,2</text><text x='152' y='34.2' text-anchor='end'>1,6</text><text x='152' y='17.2' text-anchor='end'>2</text><text x='73' y='118' text-anchor='middle' font-size='7.5'>tensão (V)</text><text x='197' y='118' text-anchor='middle' font-size='7.5'>corrente (mA)</text><text x='8' y='58' text-anchor='middle' font-size='7.5' transform='rotate(-90 8 58)'>corrente (mA)</text><text x='135' y='58' text-anchor='middle' font-size='7.5' transform='rotate(-90 135 58)'>luz (mW)</text></g></svg>",
+"a": 12,
+"u": "mW",
+"tol": 0.05,
+"d": [
+[
+"Ler o gráfico",
+"Ache, no gráfico da esquerda, a corrente para 1,2 V.",
+""
+],
+[
+"Potência elétrica",
+"P = U·i."
+]
+],
+"h": [
+"Em 1,2 V, i ≈ 10 mA.",
+"P = 1,2 × 10·10⁻³ = 1,2·10⁻² W.",
+"P = <b>12 mW</b>."
+]
+},
+{
+"id": "2003-2-fis-11b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2003, 2ª fase, Física, questão 11(b)",
+"r": 1700,
+"tm": 60,
+"ctx": "Um LED infravermelho, como os de controle remoto, tem as características dos gráficos: à esquerda, a corrente em função da tensão aplicada; à direita, a potência luminosa emitida em função da corrente. Sob 1,2 V, qual a eficiência do LED (potência luminosa ÷ potência elétrica), em %?",
+"fig": "<svg viewBox='0 0 250 126' class='fg' role='img' aria-label='dois gráficos do LED; à esquerda, corrente em miliampères em função da tensão em volts: quase zero até 0,9 volt, 10 miliampères em 1,2 volt e 50 miliampères em 1,5 volt; à direita, potência luminosa em miliwatts em função da corrente: 0,6 miliwatt em 10 miliampères e 1,8 miliwatt em 50 miliampères, numa curva que cresce cada vez mais devagar'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='35.5' y1='15' x2='35.5' y2='100'/><line x1='43.0' y1='15' x2='43.0' y2='100'/><line x1='50.5' y1='15' x2='50.5' y2='100'/><line x1='58.0' y1='15' x2='58.0' y2='100'/><line x1='65.5' y1='15' x2='65.5' y2='100'/><line x1='73.0' y1='15' x2='73.0' y2='100'/><line x1='80.5' y1='15' x2='80.5' y2='100'/><line x1='88.0' y1='15' x2='88.0' y2='100'/><line x1='95.5' y1='15' x2='95.5' y2='100'/><line x1='103.0' y1='15' x2='103.0' y2='100'/><line x1='110.5' y1='15' x2='110.5' y2='100'/><line x1='118.0' y1='15' x2='118.0' y2='100'/><line x1='28' y1='83.0' x2='118' y2='83.0'/><line x1='28' y1='66.0' x2='118' y2='66.0'/><line x1='28' y1='49.0' x2='118' y2='49.0'/><line x1='28' y1='32.0' x2='118' y2='32.0'/><line x1='28' y1='15.0' x2='118' y2='15.0'/></g><line x1='28' y1='100' x2='118' y2='100' stroke-width='1'/><line x1='28' y1='100' x2='28' y2='15' stroke-width='1'/><g stroke-width='0.5' stroke-opacity='0.45'><line x1='172.0' y1='15' x2='172.0' y2='100'/><line x1='189.0' y1='15' x2='189.0' y2='100'/><line x1='206.0' y1='15' x2='206.0' y2='100'/><line x1='223.0' y1='15' x2='223.0' y2='100'/><line x1='240.0' y1='15' x2='240.0' y2='100'/><line x1='155' y1='91.5' x2='240' y2='91.5'/><line x1='155' y1='83.0' x2='240' y2='83.0'/><line x1='155' y1='74.5' x2='240' y2='74.5'/><line x1='155' y1='66.0' x2='240' y2='66.0'/><line x1='155' y1='57.5' x2='240' y2='57.5'/><line x1='155' y1='49.0' x2='240' y2='49.0'/><line x1='155' y1='40.5' x2='240' y2='40.5'/><line x1='155' y1='32.0' x2='240' y2='32.0'/><line x1='155' y1='23.5' x2='240' y2='23.5'/><line x1='155' y1='15.0' x2='240' y2='15.0'/></g><line x1='155' y1='100' x2='240' y2='100' stroke-width='1'/><line x1='155' y1='100' x2='155' y2='15' stroke-width='1'/><path d='M28.0,100.0 C33.0,100.0 51.8,100.1 58.0,100.0 C64.2,99.9 63.0,99.9 65.5,99.5 C68.0,99.0 70.5,98.5 73.0,97.3 C75.5,96.1 78.0,94.7 80.5,92.3 C83.0,90.0 85.5,87.1 88.0,83.0 C90.5,78.9 93.0,73.9 95.5,67.7 C98.0,61.5 100.5,54.4 103.0,45.6 C105.5,36.8 109.2,20.1 110.5,15.0' stroke-width='1.4'/><path d='M155.0,100.0 C156.4,97.7 160.7,90.2 163.5,86.0 C166.3,81.7 169.2,78.2 172.0,74.5 C174.8,70.8 177.7,67.2 180.5,63.9 C183.3,60.5 186.2,57.4 189.0,54.5 C191.8,51.6 194.7,48.9 197.5,46.5 C200.3,44.0 203.2,41.8 206.0,39.7 C208.8,37.5 211.7,35.5 214.5,33.7 C217.3,31.9 220.2,30.4 223.0,29.0 C225.8,27.7 228.7,26.5 231.5,25.6 C234.3,24.7 238.6,23.9 240.0,23.5' stroke-width='1.4'/></g><g fill='currentColor' font-size='6.5'><text x='28.0' y='108' text-anchor='middle'>0,4</text><text x='58.0' y='108' text-anchor='middle'>0,8</text><text x='88.0' y='108' text-anchor='middle'>1,2</text><text x='118.0' y='108' text-anchor='middle'>1,6</text><text x='25' y='102.2' text-anchor='end'>0</text><text x='25' y='85.2' text-anchor='end'>10</text><text x='25' y='68.2' text-anchor='end'>20</text><text x='25' y='51.2' text-anchor='end'>30</text><text x='25' y='34.2' text-anchor='end'>40</text><text x='25' y='17.2' text-anchor='end'>50</text><text x='155.0' y='108' text-anchor='middle'>0</text><text x='172.0' y='108' text-anchor='middle'>10</text><text x='189.0' y='108' text-anchor='middle'>20</text><text x='206.0' y='108' text-anchor='middle'>30</text><text x='223.0' y='108' text-anchor='middle'>40</text><text x='240.0' y='108' text-anchor='middle'>50</text><text x='152' y='102.2' text-anchor='end'>0</text><text x='152' y='85.2' text-anchor='end'>0,4</text><text x='152' y='68.2' text-anchor='end'>0,8</text><text x='152' y='51.2' text-anchor='end'>1,2</text><text x='152' y='34.2' text-anchor='end'>1,6</text><text x='152' y='17.2' text-anchor='end'>2</text><text x='73' y='118' text-anchor='middle' font-size='7.5'>tensão (V)</text><text x='197' y='118' text-anchor='middle' font-size='7.5'>corrente (mA)</text><text x='8' y='58' text-anchor='middle' font-size='7.5' transform='rotate(-90 8 58)'>corrente (mA)</text><text x='135' y='58' text-anchor='middle' font-size='7.5' transform='rotate(-90 135 58)'>luz (mW)</text></g></svg>",
+"a": 5,
+"u": "%",
+"tol": 0.1,
+"d": [
+[
+"Segundo gráfico",
+"Com a corrente que passa em 1,2 V (≈ 10 mA), leia a potência luminosa no gráfico da direita.",
+""
+],
+[
+"Eficiência",
+"η = P<sub>luz</sub>/P<sub>elétrica</sub>, com P<sub>elétrica</sub> = U·i."
+]
+],
+"h": [
+"i ≈ 10 mA ⟹ P<sub>luz</sub> ≈ 0,6 mW; P<sub>elétrica</sub> = 1,2 V × 10 mA = 12 mW.",
+"η = 0,6/12 = 0,05.",
+"η = <b>5%</b>."
+]
+},
+{
+"id": "2003-2-fis-11c",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_cir",
+"src": "Unicamp 2003, 2ª fase, Física, questão 11(c)",
+"r": 1830,
+"tm": 60,
+"ctx": "Um LED infravermelho, como os de controle remoto, tem as características dos gráficos: à esquerda, a corrente em função da tensão aplicada; à direita, a potência luminosa emitida em função da corrente. Qual a eficiência do LED sob tensão de 1,5 V, em %?",
+"fig": "<svg viewBox='0 0 250 126' class='fg' role='img' aria-label='dois gráficos do LED; à esquerda, corrente em miliampères em função da tensão em volts: quase zero até 0,9 volt, 10 miliampères em 1,2 volt e 50 miliampères em 1,5 volt; à direita, potência luminosa em miliwatts em função da corrente: 0,6 miliwatt em 10 miliampères e 1,8 miliwatt em 50 miliampères, numa curva que cresce cada vez mais devagar'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='35.5' y1='15' x2='35.5' y2='100'/><line x1='43.0' y1='15' x2='43.0' y2='100'/><line x1='50.5' y1='15' x2='50.5' y2='100'/><line x1='58.0' y1='15' x2='58.0' y2='100'/><line x1='65.5' y1='15' x2='65.5' y2='100'/><line x1='73.0' y1='15' x2='73.0' y2='100'/><line x1='80.5' y1='15' x2='80.5' y2='100'/><line x1='88.0' y1='15' x2='88.0' y2='100'/><line x1='95.5' y1='15' x2='95.5' y2='100'/><line x1='103.0' y1='15' x2='103.0' y2='100'/><line x1='110.5' y1='15' x2='110.5' y2='100'/><line x1='118.0' y1='15' x2='118.0' y2='100'/><line x1='28' y1='83.0' x2='118' y2='83.0'/><line x1='28' y1='66.0' x2='118' y2='66.0'/><line x1='28' y1='49.0' x2='118' y2='49.0'/><line x1='28' y1='32.0' x2='118' y2='32.0'/><line x1='28' y1='15.0' x2='118' y2='15.0'/></g><line x1='28' y1='100' x2='118' y2='100' stroke-width='1'/><line x1='28' y1='100' x2='28' y2='15' stroke-width='1'/><g stroke-width='0.5' stroke-opacity='0.45'><line x1='172.0' y1='15' x2='172.0' y2='100'/><line x1='189.0' y1='15' x2='189.0' y2='100'/><line x1='206.0' y1='15' x2='206.0' y2='100'/><line x1='223.0' y1='15' x2='223.0' y2='100'/><line x1='240.0' y1='15' x2='240.0' y2='100'/><line x1='155' y1='91.5' x2='240' y2='91.5'/><line x1='155' y1='83.0' x2='240' y2='83.0'/><line x1='155' y1='74.5' x2='240' y2='74.5'/><line x1='155' y1='66.0' x2='240' y2='66.0'/><line x1='155' y1='57.5' x2='240' y2='57.5'/><line x1='155' y1='49.0' x2='240' y2='49.0'/><line x1='155' y1='40.5' x2='240' y2='40.5'/><line x1='155' y1='32.0' x2='240' y2='32.0'/><line x1='155' y1='23.5' x2='240' y2='23.5'/><line x1='155' y1='15.0' x2='240' y2='15.0'/></g><line x1='155' y1='100' x2='240' y2='100' stroke-width='1'/><line x1='155' y1='100' x2='155' y2='15' stroke-width='1'/><path d='M28.0,100.0 C33.0,100.0 51.8,100.1 58.0,100.0 C64.2,99.9 63.0,99.9 65.5,99.5 C68.0,99.0 70.5,98.5 73.0,97.3 C75.5,96.1 78.0,94.7 80.5,92.3 C83.0,90.0 85.5,87.1 88.0,83.0 C90.5,78.9 93.0,73.9 95.5,67.7 C98.0,61.5 100.5,54.4 103.0,45.6 C105.5,36.8 109.2,20.1 110.5,15.0' stroke-width='1.4'/><path d='M155.0,100.0 C156.4,97.7 160.7,90.2 163.5,86.0 C166.3,81.7 169.2,78.2 172.0,74.5 C174.8,70.8 177.7,67.2 180.5,63.9 C183.3,60.5 186.2,57.4 189.0,54.5 C191.8,51.6 194.7,48.9 197.5,46.5 C200.3,44.0 203.2,41.8 206.0,39.7 C208.8,37.5 211.7,35.5 214.5,33.7 C217.3,31.9 220.2,30.4 223.0,29.0 C225.8,27.7 228.7,26.5 231.5,25.6 C234.3,24.7 238.6,23.9 240.0,23.5' stroke-width='1.4'/></g><g fill='currentColor' font-size='6.5'><text x='28.0' y='108' text-anchor='middle'>0,4</text><text x='58.0' y='108' text-anchor='middle'>0,8</text><text x='88.0' y='108' text-anchor='middle'>1,2</text><text x='118.0' y='108' text-anchor='middle'>1,6</text><text x='25' y='102.2' text-anchor='end'>0</text><text x='25' y='85.2' text-anchor='end'>10</text><text x='25' y='68.2' text-anchor='end'>20</text><text x='25' y='51.2' text-anchor='end'>30</text><text x='25' y='34.2' text-anchor='end'>40</text><text x='25' y='17.2' text-anchor='end'>50</text><text x='155.0' y='108' text-anchor='middle'>0</text><text x='172.0' y='108' text-anchor='middle'>10</text><text x='189.0' y='108' text-anchor='middle'>20</text><text x='206.0' y='108' text-anchor='middle'>30</text><text x='223.0' y='108' text-anchor='middle'>40</text><text x='240.0' y='108' text-anchor='middle'>50</text><text x='152' y='102.2' text-anchor='end'>0</text><text x='152' y='85.2' text-anchor='end'>0,4</text><text x='152' y='68.2' text-anchor='end'>0,8</text><text x='152' y='51.2' text-anchor='end'>1,2</text><text x='152' y='34.2' text-anchor='end'>1,6</text><text x='152' y='17.2' text-anchor='end'>2</text><text x='73' y='118' text-anchor='middle' font-size='7.5'>tensão (V)</text><text x='197' y='118' text-anchor='middle' font-size='7.5'>corrente (mA)</text><text x='8' y='58' text-anchor='middle' font-size='7.5' transform='rotate(-90 8 58)'>corrente (mA)</text><text x='135' y='58' text-anchor='middle' font-size='7.5' transform='rotate(-90 135 58)'>luz (mW)</text></g></svg>",
+"a": 2.4,
+"u": "%",
+"tol": 0.1,
+"d": [
+[
+"Ler os dois gráficos",
+"Primeiro a corrente em 1,5 V (gráfico da esquerda); depois a potência luminosa para essa corrente (gráfico da direita).",
+""
+],
+[
+"Eficiência",
+"η = P<sub>luz</sub>/(U·i)."
+]
+],
+"h": [
+"Em 1,5 V, i ≈ 50 mA: P<sub>elétrica</sub> = 1,5 × 50 = 75 mW.",
+"Com 50 mA, P<sub>luz</sub> ≈ 1,8 mW.",
+"η = 1,8/75 ≈ <b>2,4%</b>."
+]
+},
+{
+"id": "2003-2-fis-12a",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_din",
+"src": "Unicamp 2003, 2ª fase, Física, questão 12(a)",
+"r": 1780,
+"tm": 45,
+"ctx": "Um nanotubo de carbono fechado nas pontas oscila dentro de outro nanotubo, mais largo e aberto. A interação entre os tubos gera a força restauradora do gráfico (força em nN em função do deslocamento x em nm; 1 nN = 10⁻⁹ N e 1 nm = 10⁻⁹ m). Qual a constante de mola desse oscilador, em N/m?",
+"fig": "<svg viewBox='0 0 230 115' class='fg' role='img' aria-label='gráfico da força restauradora, em nanonewtons, em função do deslocamento x, em nanômetros: uma reta decrescente que passa pela origem, vai de 1,5 nanonewton em x igual a menos 30 nanômetros, ponto F, até menos 1,5 nanonewton em x igual a 30 nanômetros, ponto C'><g fill='none' stroke='currentColor'><line x1='18' y1='60' x2='222' y2='60' stroke-width='1'/><line x1='118' y1='112' x2='118' y2='8' stroke-width='1'/><line x1='28' y1='58' x2='28' y2='62' stroke-width='0.8'/><line x1='58' y1='58' x2='58' y2='62' stroke-width='0.8'/><line x1='88' y1='58' x2='88' y2='62' stroke-width='0.8'/><line x1='148' y1='58' x2='148' y2='62' stroke-width='0.8'/><line x1='178' y1='58' x2='178' y2='62' stroke-width='0.8'/><line x1='208' y1='58' x2='208' y2='62' stroke-width='0.8'/><line x1='116' y1='105.0' x2='120' y2='105.0' stroke-width='0.8'/><line x1='116' y1='90.0' x2='120' y2='90.0' stroke-width='0.8'/><line x1='116' y1='75.0' x2='120' y2='75.0' stroke-width='0.8'/><line x1='116' y1='45.0' x2='120' y2='45.0' stroke-width='0.8'/><line x1='116' y1='30.0' x2='120' y2='30.0' stroke-width='0.8'/><line x1='116' y1='15.0' x2='120' y2='15.0' stroke-width='0.8'/><line x1='28' y1='15.0' x2='208' y2='105.0' stroke-width='1.8'/></g><g fill='currentColor' font-size='7'><polygon points='222.0,60.0 217.5,62.1 217.5,57.9'/><polygon points='118.0,8.0 120.1,12.5 115.9,12.5'/><circle cx='28' cy='15.0' r='2.3'/><circle cx='208' cy='105.0' r='2.3'/><text x='28' y='70' text-anchor='middle'>-30</text><text x='58' y='70' text-anchor='middle'>-20</text><text x='88' y='70' text-anchor='middle'>-10</text><text x='148' y='70' text-anchor='middle'>10</text><text x='178' y='70' text-anchor='middle'>20</text><text x='113' y='107.5' text-anchor='end'>-1,5</text><text x='113' y='92.5' text-anchor='end'>-1</text><text x='113' y='77.5' text-anchor='end'>-0,5</text><text x='113' y='47.5' text-anchor='end'>0,5</text><text x='113' y='32.5' text-anchor='end'>1</text><text x='113' y='17.5' text-anchor='end'>1,5</text><text x='208' y='70' text-anchor='middle'>30</text><text x='19' y='17.0' font-size='8'>F</text><text x='212' y='108.0' font-size='8'>C</text><text x='123' y='12' font-size='8'>força (nN)</text><text x='192' y='54' font-size='8'>x (nm)</text></g></svg>",
+"a": 0.05,
+"u": "N/m",
+"tol": 0.03,
+"d": [
+[
+"Lei de Hooke",
+"F = −k·x: k é o módulo da inclinação da reta.",
+""
+],
+[
+"Unidades",
+"nN/nm = N/m."
+]
+],
+"h": [
+"Do gráfico: F = −1,5 nN em x = 30 nm.",
+"k = 1,5·10⁻⁹/30·10⁻⁹.",
+"k = <b>0,05 N/m</b>."
+]
+},
+{
+"id": "2003-2-fis-12b",
+"ano": 2003,
+"fase": 2,
+"s": "fis",
+"t": "f_en",
+"src": "Unicamp 2003, 2ª fase, Física, questão 12(b)",
+"r": 2000,
+"tm": 90,
+"ctx": "Um nanotubo de carbono fechado nas pontas oscila dentro de outro nanotubo, mais largo e aberto. A interação entre os tubos gera a força restauradora do gráfico (força em nN em função do deslocamento x em nm; 1 nN = 10⁻⁹ N e 1 nm = 10⁻⁹ m). O tubo oscilante tem k = 0,05 N/m e 90 átomos de carbono, cada um com massa de 2·10⁻²⁶ kg, e oscila com amplitude de 30 nm (o maior deslocamento do gráfico). Qual a sua velocidade máxima, em m/s?",
+"fig": "<svg viewBox='0 0 230 115' class='fg' role='img' aria-label='gráfico da força restauradora, em nanonewtons, em função do deslocamento x, em nanômetros: uma reta decrescente que passa pela origem, vai de 1,5 nanonewton em x igual a menos 30 nanômetros, ponto F, até menos 1,5 nanonewton em x igual a 30 nanômetros, ponto C'><g fill='none' stroke='currentColor'><line x1='18' y1='60' x2='222' y2='60' stroke-width='1'/><line x1='118' y1='112' x2='118' y2='8' stroke-width='1'/><line x1='28' y1='58' x2='28' y2='62' stroke-width='0.8'/><line x1='58' y1='58' x2='58' y2='62' stroke-width='0.8'/><line x1='88' y1='58' x2='88' y2='62' stroke-width='0.8'/><line x1='148' y1='58' x2='148' y2='62' stroke-width='0.8'/><line x1='178' y1='58' x2='178' y2='62' stroke-width='0.8'/><line x1='208' y1='58' x2='208' y2='62' stroke-width='0.8'/><line x1='116' y1='105.0' x2='120' y2='105.0' stroke-width='0.8'/><line x1='116' y1='90.0' x2='120' y2='90.0' stroke-width='0.8'/><line x1='116' y1='75.0' x2='120' y2='75.0' stroke-width='0.8'/><line x1='116' y1='45.0' x2='120' y2='45.0' stroke-width='0.8'/><line x1='116' y1='30.0' x2='120' y2='30.0' stroke-width='0.8'/><line x1='116' y1='15.0' x2='120' y2='15.0' stroke-width='0.8'/><line x1='28' y1='15.0' x2='208' y2='105.0' stroke-width='1.8'/></g><g fill='currentColor' font-size='7'><polygon points='222.0,60.0 217.5,62.1 217.5,57.9'/><polygon points='118.0,8.0 120.1,12.5 115.9,12.5'/><circle cx='28' cy='15.0' r='2.3'/><circle cx='208' cy='105.0' r='2.3'/><text x='28' y='70' text-anchor='middle'>-30</text><text x='58' y='70' text-anchor='middle'>-20</text><text x='88' y='70' text-anchor='middle'>-10</text><text x='148' y='70' text-anchor='middle'>10</text><text x='178' y='70' text-anchor='middle'>20</text><text x='113' y='107.5' text-anchor='end'>-1,5</text><text x='113' y='92.5' text-anchor='end'>-1</text><text x='113' y='77.5' text-anchor='end'>-0,5</text><text x='113' y='47.5' text-anchor='end'>0,5</text><text x='113' y='32.5' text-anchor='end'>1</text><text x='113' y='17.5' text-anchor='end'>1,5</text><text x='208' y='70' text-anchor='middle'>30</text><text x='19' y='17.0' font-size='8'>F</text><text x='212' y='108.0' font-size='8'>C</text><text x='123' y='12' font-size='8'>força (nN)</text><text x='192' y='54' font-size='8'>x (nm)</text></g></svg>",
+"a": 5000,
+"u": "m/s",
+"tol": 0.03,
+"d": [
+[
+"Conservação da energia",
+"No deslocamento máximo a energia é toda elástica, k·A²/2; no centro, toda cinética, m·v²/2.",
+""
+],
+[
+"Isolar v",
+"v = A·√(k/m)."
+]
+],
+"h": [
+"m = 90 × 2·10⁻²⁶ = 1,8·10⁻²⁴ kg.",
+"v = 30·10⁻⁹ × √(0,05/1,8·10⁻²⁴) ≈ 30·10⁻⁹ × 1,67·10¹¹.",
+"v = <b>5.000 m/s</b>."
+]
+},
+{
+"id": "2003-2-qui-01a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2003, 2ª fase, Química, questão 1(a)",
+"r": 1700,
+"tm": 45,
+"ctx": "Num jantar de Natal, duas garrafas do mesmo vinho foram abertas. Uma ficou intacta; da outra, consumiram-se cerca de 90%. As duas foram tampadas: a cheia foi para a geladeira, a outra para um armário da cozinha. Uma semana depois, o conteúdo desta última foi usado para temperar a salada. O que aconteceu com esse vinho?",
+"opts": [
+"O etanol foi oxidado a ácido acético (vinagre): CH₃CH₂OH + O₂ → CH₃COOH + H₂O",
+"O etanol evaporou e sobrou só água: CH₃CH₂OH(l) → CH₃CH₂OH(g)",
+"O etanol foi reduzido a etano: CH₃CH₂OH + H₂ → CH₃CH₃ + H₂O",
+"O açúcar do vinho fermentou: C₁₂H₂₂O₁₁ + H₂O → 4 C₂H₅OH + 4 CO₂"
+],
+"a": 0,
+"d": [
+[
+"Vinagre",
+"Vinagre é uma solução de ácido acético, CH₃COOH. Pense em que substância do ar transformaria o etanol nele.",
+""
+],
+[
+"Oxidação de álcool primário",
+"Álcool primário + oxidante → aldeído → ácido carboxílico."
+]
+],
+"h": [
+"A garrafa quase vazia tinha muito ar (O₂) em contato com o vinho.",
+"O etanol, um álcool primário, foi oxidado a ácido acético.",
+"<b>CH₃CH₂OH + O₂ → CH₃COOH + H₂O</b>: o vinho virou vinagre."
+]
+},
+{
+"id": "2003-2-qui-01b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_cin",
+"src": "Unicamp 2003, 2ª fase, Química, questão 1(b)",
+"r": 1740,
+"tm": 30,
+"ctx": "Num jantar de Natal, duas garrafas do mesmo vinho foram abertas. Uma ficou intacta; da outra, consumiram-se cerca de 90%. As duas foram tampadas: a cheia foi para a geladeira, a outra para um armário da cozinha. Uma semana depois, o conteúdo desta última foi usado para temperar a salada. Que dois fatores favoreceram essa transformação numa garrafa e não na outra?",
+"opts": [
+"Temperatura mais alta (armário) e mais oxigênio disponível (garrafa quase vazia)",
+"Luz da geladeira e pressão menor no armário",
+"Menos oxigênio e temperatura mais baixa no armário",
+"A rolha e a cor da garrafa"
+],
+"a": 0,
+"d": [
+[
+"Velocidade de reação",
+"Reações ficam mais rápidas com temperatura maior e com maior quantidade (concentração) de reagentes.",
+""
+]
+],
+"h": [
+"Armário: temperatura ambiente; geladeira: fria, reação lenta.",
+"A garrafa com 10% de vinho tinha muito ar, logo muito O₂; a cheia quase não tinha.",
+"<b>Temperatura e oxigênio (ar)</b>."
+]
+},
+{
+"id": "2003-2-qui-02a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 2(a) (no original, pede-se para desenhar o tubo)",
+"r": 1530,
+"tm": 45,
+"ctx": "As margarinas contêm gorduras vegetais hidrogenadas; a \"light\" difere da \"normal\" pelo teor de gordura e de água. Quantidades iguais de margarina normal e light foram postas em dois tubos de ensaio idênticos e aquecidas em banho-maria até aparecerem duas fases, como na figura (escala em unidades de volume). Qual tubo contém a margarina light, e qual é a fase lipídica (a gordura)?",
+"fig": "<svg viewBox='0 0 200 136' class='fg' role='img' aria-label='dois tubos de ensaio iguais com uma escala de 0 a 10 entre eles; cada tubo tem duas fases; no tubo 1, a fase de baixo vai de 0 a 6 e a de cima de 6 a 10; no tubo 2, a fase de baixo vai de 0 a 2 e a de cima de 2 a 10'><rect x='30' y='64' width='28' height='54' fill='currentColor' fill-opacity='0.12'/><rect x='30' y='28' width='28' height='36' fill='currentColor' fill-opacity='0.45'/><rect x='142' y='100' width='28' height='18' fill='currentColor' fill-opacity='0.12'/><rect x='142' y='28' width='28' height='72' fill='currentColor' fill-opacity='0.45'/><g fill='none' stroke='currentColor'><rect x='30' y='14' width='28' height='104' stroke-width='1.2'/><rect x='142' y='14' width='28' height='104' stroke-width='1.2'/><line x1='70' y1='118' x2='80' y2='118' stroke-width='0.8'/><line x1='120' y1='118' x2='130' y2='118' stroke-width='0.8'/><line x1='70' y1='109' x2='80' y2='109' stroke-width='0.8'/><line x1='120' y1='109' x2='130' y2='109' stroke-width='0.8'/><line x1='70' y1='100' x2='80' y2='100' stroke-width='0.8'/><line x1='120' y1='100' x2='130' y2='100' stroke-width='0.8'/><line x1='70' y1='91' x2='80' y2='91' stroke-width='0.8'/><line x1='120' y1='91' x2='130' y2='91' stroke-width='0.8'/><line x1='70' y1='82' x2='80' y2='82' stroke-width='0.8'/><line x1='120' y1='82' x2='130' y2='82' stroke-width='0.8'/><line x1='70' y1='73' x2='80' y2='73' stroke-width='0.8'/><line x1='120' y1='73' x2='130' y2='73' stroke-width='0.8'/><line x1='70' y1='64' x2='80' y2='64' stroke-width='0.8'/><line x1='120' y1='64' x2='130' y2='64' stroke-width='0.8'/><line x1='70' y1='55' x2='80' y2='55' stroke-width='0.8'/><line x1='120' y1='55' x2='130' y2='55' stroke-width='0.8'/><line x1='70' y1='46' x2='80' y2='46' stroke-width='0.8'/><line x1='120' y1='46' x2='130' y2='46' stroke-width='0.8'/><line x1='70' y1='37' x2='80' y2='37' stroke-width='0.8'/><line x1='120' y1='37' x2='130' y2='37' stroke-width='0.8'/><line x1='70' y1='28' x2='80' y2='28' stroke-width='0.8'/><line x1='120' y1='28' x2='130' y2='28' stroke-width='0.8'/></g><g fill='currentColor' font-size='8'><text x='100' y='121' text-anchor='middle'>0</text><text x='100' y='76' text-anchor='middle'>5</text><text x='100' y='31' text-anchor='middle'>10</text><text x='44' y='130' text-anchor='middle'>tubo 1</text><text x='156' y='130' text-anchor='middle'>tubo 2</text></g></svg>",
+"opts": [
+"Tubo 1; a fase lipídica é a de cima (4 unidades) e a aquosa a de baixo (6)",
+"Tubo 2; a fase lipídica é a de cima (8 unidades) e a aquosa a de baixo (2)",
+"Tubo 1; a fase lipídica é a de baixo (6 unidades) e a aquosa a de cima (4)",
+"Tubo 2; a fase lipídica é a de baixo (2 unidades) e a aquosa a de cima (8)"
+],
+"a": 0,
+"d": [
+[
+"Densidade",
+"Gordura é menos densa que a água e não se mistura com ela: forma a fase de cima.",
+""
+],
+[
+"Light",
+"A margarina light tem menos gordura."
+]
+],
+"h": [
+"Nos dois tubos a gordura, menos densa, fica em cima.",
+"Tubo 1: 4 de gordura e 6 de água; tubo 2: 8 de gordura e 2 de água.",
+"A light está no <b>tubo 1</b>, com a <b>fase lipídica em cima</b>."
+]
+},
+{
+"id": "2003-2-qui-02b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 2(b)",
+"r": 1660,
+"tm": 45,
+"ctx": "As margarinas contêm gorduras vegetais hidrogenadas; a \"light\" difere da \"normal\" pelo teor de gordura e de água. Quantidades iguais de margarina normal e light foram postas em dois tubos de ensaio idênticos e aquecidas em banho-maria até aparecerem duas fases, como na figura (escala em unidades de volume). As duas margarinas custam o mesmo, e o preço se refere só ao teor de gordura. Em qual delas a gordura custa mais, e quantas vezes mais?",
+"fig": "<svg viewBox='0 0 200 136' class='fg' role='img' aria-label='dois tubos de ensaio iguais com uma escala de 0 a 10 entre eles; cada tubo tem duas fases; no tubo 1, a fase de baixo vai de 0 a 6 e a de cima de 6 a 10; no tubo 2, a fase de baixo vai de 0 a 2 e a de cima de 2 a 10'><rect x='30' y='64' width='28' height='54' fill='currentColor' fill-opacity='0.12'/><rect x='30' y='28' width='28' height='36' fill='currentColor' fill-opacity='0.45'/><rect x='142' y='100' width='28' height='18' fill='currentColor' fill-opacity='0.12'/><rect x='142' y='28' width='28' height='72' fill='currentColor' fill-opacity='0.45'/><g fill='none' stroke='currentColor'><rect x='30' y='14' width='28' height='104' stroke-width='1.2'/><rect x='142' y='14' width='28' height='104' stroke-width='1.2'/><line x1='70' y1='118' x2='80' y2='118' stroke-width='0.8'/><line x1='120' y1='118' x2='130' y2='118' stroke-width='0.8'/><line x1='70' y1='109' x2='80' y2='109' stroke-width='0.8'/><line x1='120' y1='109' x2='130' y2='109' stroke-width='0.8'/><line x1='70' y1='100' x2='80' y2='100' stroke-width='0.8'/><line x1='120' y1='100' x2='130' y2='100' stroke-width='0.8'/><line x1='70' y1='91' x2='80' y2='91' stroke-width='0.8'/><line x1='120' y1='91' x2='130' y2='91' stroke-width='0.8'/><line x1='70' y1='82' x2='80' y2='82' stroke-width='0.8'/><line x1='120' y1='82' x2='130' y2='82' stroke-width='0.8'/><line x1='70' y1='73' x2='80' y2='73' stroke-width='0.8'/><line x1='120' y1='73' x2='130' y2='73' stroke-width='0.8'/><line x1='70' y1='64' x2='80' y2='64' stroke-width='0.8'/><line x1='120' y1='64' x2='130' y2='64' stroke-width='0.8'/><line x1='70' y1='55' x2='80' y2='55' stroke-width='0.8'/><line x1='120' y1='55' x2='130' y2='55' stroke-width='0.8'/><line x1='70' y1='46' x2='80' y2='46' stroke-width='0.8'/><line x1='120' y1='46' x2='130' y2='46' stroke-width='0.8'/><line x1='70' y1='37' x2='80' y2='37' stroke-width='0.8'/><line x1='120' y1='37' x2='130' y2='37' stroke-width='0.8'/><line x1='70' y1='28' x2='80' y2='28' stroke-width='0.8'/><line x1='120' y1='28' x2='130' y2='28' stroke-width='0.8'/></g><g fill='currentColor' font-size='8'><text x='100' y='121' text-anchor='middle'>0</text><text x='100' y='76' text-anchor='middle'>5</text><text x='100' y='31' text-anchor='middle'>10</text><text x='44' y='130' text-anchor='middle'>tubo 1</text><text x='156' y='130' text-anchor='middle'>tubo 2</text></g></svg>",
+"opts": [
+"Na light; 2 vezes mais",
+"Na normal; 2 vezes mais",
+"Na light; 1,5 vez mais",
+"Na normal; 4 vezes mais"
+],
+"a": 0,
+"d": [
+[
+"Preço por unidade",
+"Mesmo preço por menos gordura ⟹ cada unidade de gordura sai mais cara. Preço da gordura = preço ÷ quantidade de gordura.",
+""
+]
+],
+"h": [
+"Light: 4 unidades de gordura; normal: 8.",
+"Pelo mesmo preço, a gordura da light custa 8/4 = 2 vezes a da normal.",
+"<b>Na light, 2 vezes mais</b>."
+]
+},
+{
+"id": "2003-2-qui-03a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2003, 2ª fase, Química, questão 3(a)",
+"r": 1620,
+"tm": 60,
+"ctx": "O gasto diário de energia de uma pessoa soma três parcelas: (1) gasto metabólico de repouso, de 4,2 kJ por kg de massa corporal por hora; (2) digestão e absorção, 10% da energia dos alimentos ingeridos; (3) atividade física, que, sendo moderada, vale 40% do gasto metabólico de repouso. Qual o gasto energético diário de uma pessoa de 60 kg, com atividade moderada, que ingere 7.600 kJ por dia, em kJ?",
+"a": 9227.2,
+"u": "kJ",
+"tol": 0.005,
+"d": [
+[
+"Somar as parcelas",
+"Repouso = 4,2 × massa × 24 h; digestão = 0,10 × energia ingerida; atividade = 0,40 × repouso.",
+""
+]
+],
+"h": [
+"Repouso: 4,2 × 60 × 24 = 6.048 kJ.",
+"Digestão: 760 kJ; atividade: 0,4 × 6.048 = 2.419,2 kJ.",
+"Total: <b>9.227,2 kJ</b>."
+]
+},
+{
+"id": "2003-2-qui-03b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_ter",
+"src": "Unicamp 2003, 2ª fase, Química, questão 3(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "O gasto diário de energia de uma pessoa soma três parcelas: (1) gasto metabólico de repouso, de 4,2 kJ por kg de massa corporal por hora; (2) digestão e absorção, 10% da energia dos alimentos ingeridos; (3) atividade física, que, sendo moderada, vale 40% do gasto metabólico de repouso. Uma pessoa gasta 9.227,2 kJ por dia e ingere 7.600 kJ. Se 450 g de massa corporal correspondem a cerca de 15.000 kJ, quanto ela ganha ou perde por dia?",
+"opts": [
+"Perde cerca de 49 g por dia",
+"Ganha cerca de 49 g por dia",
+"Perde cerca de 228 g por dia",
+"Perde cerca de 5 g por dia"
+],
+"a": 0,
+"d": [
+[
+"Balanço",
+"Saldo = energia ingerida − energia gasta. Saldo negativo: o corpo consome reservas.",
+""
+],
+[
+"Regra de três",
+"15.000 kJ correspondem a 450 g."
+]
+],
+"h": [
+"Saldo: 7.600 − 9.227,2 = −1.627,2 kJ por dia.",
+"1.627,2 × 450/15.000 ≈ 48,8 g.",
+"<b>Perde cerca de 49 g por dia</b>."
+]
+},
+{
+"id": "2003-2-qui-04a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_elq",
+"src": "Unicamp 2003, 2ª fase, Química, questão 4(a)",
+"r": 1780,
+"tm": 45,
+"ctx": "A vitamina C (ácido ascórbico, C₆H₈O₆) pode ser dosada por titulação com iodo. A reação, mostrada na figura, é: ácido ascórbico + I₂ → ácido desidroascórbico (C₆H₆O₆) + 2 HI. Nela, as duas hidroxilas ligadas aos carbonos da dupla C=C do anel viram carbonilas (C=O). Essa reação é de oxirredução?",
+"fig": "<svg viewBox='0 0 250 124' class='fg' role='img' aria-label='equação da titulação: o ácido ascórbico, um anel de cinco átomos com um oxigênio no anel, uma carbonila, uma dupla ligação carbono-carbono com uma hidroxila em cada carbono e uma cadeia lateral CH(OH)CH2OH, reage com I2 formando o ácido desidroascórbico, em que as duas hidroxilas viraram carbonilas e a dupla do anel virou ligação simples, mais 2 HI'><g fill='none' stroke='currentColor' stroke-width='1'><line x1='58.2' y1='64.1' x2='62.3' y2='76.6'/><line x1='39.2' y1='59.9' x2='52.3' y2='59.9'/><line x1='62.3' y1='76.6' x2='48.0' y2='87.0'/><line x1='33.7' y1='76.6' x2='39.2' y2='59.9'/><line x1='48.0' y1='87.0' x2='33.7' y2='76.6'/><line x1='46.1' y1='82.3' x2='38.8' y2='77.0'/><line x1='48.0' y1='87.0' x2='48.0' y2='96.0'/><line x1='33.7' y1='76.6' x2='25.2' y2='79.4'/><line x1='61.8' y1='78.1' x2='70.4' y2='80.8'/><line x1='62.7' y1='75.2' x2='71.3' y2='78.0'/><line x1='39.2' y1='59.9' x2='39.2' y2='47.9'/><line x1='39.2' y1='38.9' x2='39.2' y2='30.9'/><line x1='180.2' y1='64.1' x2='184.3' y2='76.6'/><line x1='161.2' y1='59.9' x2='174.3' y2='59.9'/><line x1='184.3' y1='76.6' x2='170.0' y2='87.0'/><line x1='155.7' y1='76.6' x2='161.2' y2='59.9'/><line x1='170.0' y1='87.0' x2='155.7' y2='76.6'/><line x1='168.5' y1='87.0' x2='168.5' y2='96.0'/><line x1='171.5' y1='87.0' x2='171.5' y2='96.0'/><line x1='155.3' y1='75.2' x2='146.7' y2='78.0'/><line x1='156.2' y1='78.1' x2='147.6' y2='80.8'/><line x1='183.8' y1='78.1' x2='192.4' y2='80.8'/><line x1='184.7' y1='75.2' x2='193.3' y2='78.0'/><line x1='161.2' y1='59.9' x2='161.2' y2='47.9'/><line x1='161.2' y1='38.9' x2='161.2' y2='30.9'/><line x1='108' y1='72' x2='128' y2='72'/></g><g fill='currentColor' font-size='8'><text x='56.8' y='62.9' text-anchor='middle'>O</text><text x='74.6' y='83.7' text-anchor='middle'>O</text><text x='42.2' y='46.9' text-anchor='end'>HC</text><text x='42.7' y='46.9'>–OH</text><text x='36.2' y='28.9'>CH₂OH</text><text x='48.0' y='105.0' text-anchor='middle'>OH</text><text x='24.4' y='84.7' text-anchor='end'>HO</text><text x='178.8' y='62.9' text-anchor='middle'>O</text><text x='196.6' y='83.7' text-anchor='middle'>O</text><text x='164.2' y='46.9' text-anchor='end'>HC</text><text x='164.7' y='46.9'>–OH</text><text x='158.2' y='28.9'>CH₂OH</text><text x='170.0' y='105.0' text-anchor='middle'>O</text><text x='143.4' y='84.7' text-anchor='middle'>O</text><polygon points='132.0,72.0 127.5,74.1 127.5,69.9'/><text x='92' y='75' text-anchor='middle'>+ I₂</text><text x='226' y='75' text-anchor='middle'>+ 2 HI</text><text x='50' y='121' text-anchor='middle' font-size='7'>ácido ascórbico</text><text x='172' y='121' text-anchor='middle' font-size='7'>ácido desidroascórbico</text></g></svg>",
+"opts": [
+"Sim: o I₂ se reduz a I⁻ (nox de 0 para −1), e o ácido ascórbico se oxida",
+"Não: é só uma neutralização, porque forma um ácido (HI)",
+"Não: só o iodo muda de nox, e uma redução pode ocorrer sozinha",
+"Sim: o I₂ se oxida a I⁻, e o ácido ascórbico se reduz"
+],
+"a": 0,
+"d": [
+[
+"Oxirredução",
+"Há oxirredução quando algum elemento muda de número de oxidação. Toda redução vem acompanhada de uma oxidação.",
+""
+],
+[
+"Nox do iodo",
+"Em I₂ (substância simples) o nox é 0; em HI, o iodo tem nox −1."
+]
+],
+"h": [
+"Iodo: de 0 em I₂ para −1 em HI: ganhou elétrons, reduziu-se.",
+"Os elétrons vieram do ácido ascórbico, que perdeu 2 H (seus carbonos se oxidaram).",
+"<b>Sim</b>, é uma oxirredução."
+]
+},
+{
+"id": "2003-2-qui-04b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2003, 2ª fase, Química, questão 4(b)",
+"r": 1910,
+"tm": 60,
+"ctx": "A vitamina C (ácido ascórbico, C₆H₈O₆) pode ser dosada por titulação com iodo. A reação, mostrada na figura, é: ácido ascórbico + I₂ → ácido desidroascórbico (C₆H₆O₆) + 2 HI. Nela, as duas hidroxilas ligadas aos carbonos da dupla C=C do anel viram carbonilas (C=O). A vitamina C não tem grupo carboxila (–COOH). Que equação de dissociação iônica em água justifica seu caráter ácido?",
+"fig": "<svg viewBox='0 0 250 124' class='fg' role='img' aria-label='equação da titulação: o ácido ascórbico, um anel de cinco átomos com um oxigênio no anel, uma carbonila, uma dupla ligação carbono-carbono com uma hidroxila em cada carbono e uma cadeia lateral CH(OH)CH2OH, reage com I2 formando o ácido desidroascórbico, em que as duas hidroxilas viraram carbonilas e a dupla do anel virou ligação simples, mais 2 HI'><g fill='none' stroke='currentColor' stroke-width='1'><line x1='58.2' y1='64.1' x2='62.3' y2='76.6'/><line x1='39.2' y1='59.9' x2='52.3' y2='59.9'/><line x1='62.3' y1='76.6' x2='48.0' y2='87.0'/><line x1='33.7' y1='76.6' x2='39.2' y2='59.9'/><line x1='48.0' y1='87.0' x2='33.7' y2='76.6'/><line x1='46.1' y1='82.3' x2='38.8' y2='77.0'/><line x1='48.0' y1='87.0' x2='48.0' y2='96.0'/><line x1='33.7' y1='76.6' x2='25.2' y2='79.4'/><line x1='61.8' y1='78.1' x2='70.4' y2='80.8'/><line x1='62.7' y1='75.2' x2='71.3' y2='78.0'/><line x1='39.2' y1='59.9' x2='39.2' y2='47.9'/><line x1='39.2' y1='38.9' x2='39.2' y2='30.9'/><line x1='180.2' y1='64.1' x2='184.3' y2='76.6'/><line x1='161.2' y1='59.9' x2='174.3' y2='59.9'/><line x1='184.3' y1='76.6' x2='170.0' y2='87.0'/><line x1='155.7' y1='76.6' x2='161.2' y2='59.9'/><line x1='170.0' y1='87.0' x2='155.7' y2='76.6'/><line x1='168.5' y1='87.0' x2='168.5' y2='96.0'/><line x1='171.5' y1='87.0' x2='171.5' y2='96.0'/><line x1='155.3' y1='75.2' x2='146.7' y2='78.0'/><line x1='156.2' y1='78.1' x2='147.6' y2='80.8'/><line x1='183.8' y1='78.1' x2='192.4' y2='80.8'/><line x1='184.7' y1='75.2' x2='193.3' y2='78.0'/><line x1='161.2' y1='59.9' x2='161.2' y2='47.9'/><line x1='161.2' y1='38.9' x2='161.2' y2='30.9'/><line x1='108' y1='72' x2='128' y2='72'/></g><g fill='currentColor' font-size='8'><text x='56.8' y='62.9' text-anchor='middle'>O</text><text x='74.6' y='83.7' text-anchor='middle'>O</text><text x='42.2' y='46.9' text-anchor='end'>HC</text><text x='42.7' y='46.9'>–OH</text><text x='36.2' y='28.9'>CH₂OH</text><text x='48.0' y='105.0' text-anchor='middle'>OH</text><text x='24.4' y='84.7' text-anchor='end'>HO</text><text x='178.8' y='62.9' text-anchor='middle'>O</text><text x='196.6' y='83.7' text-anchor='middle'>O</text><text x='164.2' y='46.9' text-anchor='end'>HC</text><text x='164.7' y='46.9'>–OH</text><text x='158.2' y='28.9'>CH₂OH</text><text x='170.0' y='105.0' text-anchor='middle'>O</text><text x='143.4' y='84.7' text-anchor='middle'>O</text><polygon points='132.0,72.0 127.5,74.1 127.5,69.9'/><text x='92' y='75' text-anchor='middle'>+ I₂</text><text x='226' y='75' text-anchor='middle'>+ 2 HI</text><text x='50' y='121' text-anchor='middle' font-size='7'>ácido ascórbico</text><text x='172' y='121' text-anchor='middle' font-size='7'>ácido desidroascórbico</text></g></svg>",
+"opts": [
+"C₆H₈O₆ ⇌ H⁺ + C₆H₇O₆⁻, com o H⁺ saindo de uma hidroxila ligada a um carbono da dupla C=C",
+"C₆H₈O₆ ⇌ C₆H₇O₅⁺ + OH⁻, com uma hidroxila se soltando da molécula",
+"C₆H₈O₆ ⇌ H⁺ + C₆H₇O₆⁻, com o H⁺ saindo de um grupo –COOH",
+"C₆H₈O₆ ⇌ C₆H₆O₆ + 2 H⁺"
+],
+"a": 0,
+"d": [
+[
+"Ácido de Arrhenius",
+"Ácido libera H⁺ em água. O H ionizável está ligado a oxigênio (O–H).",
+""
+],
+[
+"Na molécula",
+"A vitamina C tem quatro O–H; os das hidroxilas ligadas à dupla C=C (enóis) são os mais ácidos."
+]
+],
+"h": [
+"Sem –COOH, o H⁺ sai de uma hidroxila (O–H), a de um carbono da dupla.",
+"Fica o ânion ascorbato, C₆H₇O₆⁻ (as cargas fecham: 0 = +1 − 1).",
+"<b>C₆H₈O₆ ⇌ H⁺ + C₆H₇O₆⁻</b>."
+]
+},
+{
+"id": "2003-2-qui-05a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2003, 2ª fase, Química, questão 5(a)",
+"r": 1490,
+"tm": 30,
+"ctx": "O consumo de sódio aconselhado para um adulto vai de 1.100 a 3.300 mg por dia. Uma salada leva 100 g de agrião (33 mg de sódio), 100 g de iogurte (50 mg) e uma xícara de requeijão cremoso (750 mg), e é acompanhada de uma fatia de pão integral (157 mg). Que porcentagem da necessidade diária mínima de sódio foi ingerida?",
+"a": 90,
+"u": "%",
+"tol": 0.01,
+"d": [
+[
+"Somar e comparar",
+"Some o sódio de todos os itens e divida pela necessidade mínima, 1.100 mg.",
+""
+]
+],
+"h": [
+"33 + 50 + 750 + 157 = 990 mg.",
+"990/1.100 = 0,9.",
+"<b>90%</b>."
+]
+},
+{
+"id": "2003-2-qui-05b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_mol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 5(b)",
+"r": 1740,
+"tm": 60,
+"ctx": "O consumo de sódio aconselhado para um adulto vai de 1.100 a 3.300 mg por dia. Uma salada leva 100 g de agrião (33 mg de sódio), 100 g de iogurte (50 mg) e uma xícara de requeijão cremoso (750 mg), e é acompanhada de uma fatia de pão integral (157 mg). Quantos gramas de cloreto de sódio deveriam ser acrescentados à refeição para atingir o consumo máximo aconselhado? (Na = 23; Cl = 35,5 g/mol)",
+"a": 5.85,
+"u": "g",
+"tol": 0.03,
+"d": [
+[
+"Sódio que falta",
+"3.300 mg menos o sódio já ingerido.",
+""
+],
+[
+"Proporção na fórmula",
+"Em 58,5 g de NaCl há 23 g de sódio."
+]
+],
+"h": [
+"Faltam 3.300 − 990 = 2.310 mg = 2,31 g de sódio.",
+"m(NaCl) = 2,31 × 58,5/23.",
+"≈ <b>5,9 g</b> de NaCl."
+]
+},
+{
+"id": "2003-2-qui-06a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2003, 2ª fase, Química, questão 6(a)",
+"r": 1660,
+"tm": 30,
+"ctx": "Lipídios vegetais contêm ácidos graxos poli-insaturados de estrutura cis. A hidrogenação parcial dessas gorduras, como na fabricação de margarinas, pode formar isômeros trans, suspeitos de elevar o colesterol no sangue. Qual equação representa a hidrogenação de uma dupla ligação carbono-carbono?",
+"opts": [
+"R–CH=CH–R′ + H₂ → R–CH₂–CH₂–R′",
+"R–CH=CH–R′ + H₂O → R–CH₂–CH(OH)–R′",
+"R–CH₂–CH₂–R′ → R–CH=CH–R′ + H₂",
+"R–CH=CH–R′ + 2 H₂ → R–CH₃ + CH₃–R′"
+],
+"a": 0,
+"d": [
+[
+"Reação de adição",
+"Na hidrogenação, cada carbono da dupla recebe um H, e a dupla vira ligação simples (com catalisador, como Ni ou Pt).",
+""
+]
+],
+"h": [
+"Entra uma molécula de H₂.",
+"Um H em cada carbono da dupla, que vira simples; a cadeia não se quebra.",
+"<b>R–CH=CH–R′ + H₂ → R–CH₂–CH₂–R′</b>."
+]
+},
+{
+"id": "2003-2-qui-06b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2003, 2ª fase, Química, questão 6(b)",
+"r": 1780,
+"tm": 60,
+"ctx": "Lipídios vegetais contêm ácidos graxos poli-insaturados de estrutura cis. A hidrogenação parcial dessas gorduras, como na fabricação de margarinas, pode formar isômeros trans, suspeitos de elevar o colesterol no sangue. O ácido linoleico tem fórmula C₁₈H₃₂O₂. Quantas duplas ligações C=C há em sua molécula?",
+"a": 2,
+"tol": 0,
+"d": [
+[
+"Hidrogênios que faltam",
+"Um ácido carboxílico saturado de n carbonos tem fórmula CₙH₂ₙO₂. Cada dupla C=C a mais tira 2 H.",
+""
+],
+[
+"Atenção",
+"A dupla C=O da carboxila já está contada em CₙH₂ₙO₂."
+]
+],
+"h": [
+"Saturado com 18 C: C₁₈H₃₆O₂.",
+"Faltam 36 − 32 = 4 H, ou seja, 2 pares.",
+"<b>2 duplas</b> C=C."
+]
+},
+{
+"id": "2003-2-qui-07a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2003, 2ª fase, Química, questão 7(a)",
+"r": 1660,
+"tm": 30,
+"ctx": "Íons como Cu²⁺, Fe³⁺ e Fe²⁺ podem deteriorar alimentos como a maionese. Para evitar isso, adiciona-se EDTA, na forma do sal de sódio e cálcio, que complexa esses íons: CaEDTA²⁻ + Me<sup>n+</sup> ⇌ MeEDTA<sup>n−4</sup> + Ca²⁺. Os logaritmos das constantes de equilíbrio de complexação com EDTA são: Fe²⁺, 14,4; Cu²⁺, 18,8; Fe³⁺, 25,1. Qual dos íons será removido com mais eficiência?",
+"opts": [
+"Fe³⁺, que tem a maior constante de equilíbrio",
+"Fe²⁺, que tem a menor constante de equilíbrio",
+"Cu²⁺, que tem a constante intermediária",
+"Os três igualmente, porque todos reagem com o EDTA"
+],
+"a": 0,
+"d": [
+[
+"Constante de equilíbrio",
+"Quanto maior K, mais o equilíbrio fica deslocado para os produtos. log K maior significa K maior.",
+""
+]
+],
+"h": [
+"log K: 14,4 < 18,8 < 25,1.",
+"Com o Fe³⁺, o equilíbrio fica mais deslocado para o complexo.",
+"<b>Fe³⁺</b>."
+]
+},
+{
+"id": "2003-2-qui-07b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_eq",
+"src": "Unicamp 2003, 2ª fase, Química, questão 7(b)",
+"r": 1870,
+"tm": 45,
+"ctx": "Íons como Cu²⁺, Fe³⁺ e Fe²⁺ podem deteriorar alimentos como a maionese. Para evitar isso, adiciona-se EDTA, na forma do sal de sódio e cálcio, que complexa esses íons: CaEDTA²⁻ + Me<sup>n+</sup> ⇌ MeEDTA<sup>n−4</sup> + Ca²⁺. Os logaritmos das constantes de equilíbrio de complexação com EDTA são: Fe²⁺, 14,4; Cu²⁺, 18,8; Fe³⁺, 25,1. Qual a equação da reação entre o CaEDTA²⁻ e o Fe³⁺?",
+"opts": [
+"CaEDTA²⁻ + Fe³⁺ ⇌ FeEDTA⁻ + Ca²⁺",
+"CaEDTA²⁻ + Fe³⁺ ⇌ FeEDTA⁺ + Ca²⁺",
+"CaEDTA²⁻ + Fe³⁺ ⇌ FeEDTA²⁻ + Ca³⁺",
+"CaEDTA²⁻ + 2 Fe³⁺ ⇌ Fe₂EDTA²⁺ + Ca²⁺"
+],
+"a": 0,
+"d": [
+[
+"Seguir o modelo",
+"Use a equação genérica com n = 3: a carga do complexo é n − 4.",
+""
+],
+[
+"Conferir cargas",
+"A soma das cargas tem de ser igual dos dois lados."
+]
+],
+"h": [
+"n = 3: carga do complexo = 3 − 4 = −1.",
+"Esquerda: −2 + 3 = +1; direita: −1 + 2 = +1.",
+"<b>CaEDTA²⁻ + Fe³⁺ ⇌ FeEDTA⁻ + Ca²⁺</b>."
+]
+},
+{
+"id": "2003-2-qui-08a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 8(a)",
+"r": 1700,
+"tm": 60,
+"ctx": "O cloreto de potássio substitui o cloreto de sódio em dietas especiais. O gráfico mostra a percepção dos sabores doce, amargo e salgado de soluções aquosas de KCl em função da concentração. Numa sopa de 1,5 L, pôs-se a quantidade mínima de KCl para que o sabor fosse só salgado, sem as componentes amargo e doce. Quantos gramas de KCl foram adicionados? (K = 39,1; Cl = 35,5 g/mol)",
+"fig": "<svg viewBox='0 0 225 135' class='fg' role='img' aria-label='gráfico da porcentagem média de gosto em função da concentração de cloreto de potássio, de 0 a 0,05 mol por litro: o gosto doce começa em 100 por cento e cai até zero em 0,035; o amargo sobe de zero, chega a cerca de 70 por cento perto de 0,015 e volta a zero em 0,035; o salgado começa em 0,015 e sobe até 100 por cento em 0,05'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-opacity='0.45'><line x1='71.0' y1='15' x2='71.0' y2='110'/><line x1='107.0' y1='15' x2='107.0' y2='110'/><line x1='143.0' y1='15' x2='143.0' y2='110'/><line x1='179.0' y1='15' x2='179.0' y2='110'/><line x1='215.0' y1='15' x2='215.0' y2='110'/><line x1='35' y1='91.0' x2='215' y2='91.0'/><line x1='35' y1='72.0' x2='215' y2='72.0'/><line x1='35' y1='53.0' x2='215' y2='53.0'/><line x1='35' y1='34.0' x2='215' y2='34.0'/><line x1='35' y1='15.0' x2='215' y2='15.0'/></g><line x1='35' y1='110' x2='215' y2='110' stroke-width='1'/><line x1='35' y1='110' x2='35' y2='12' stroke-width='1'/><path d='M35.0,15.0 C36.5,16.7 41.0,21.8 44.0,25.5 C47.0,29.1 50.0,33.2 53.0,36.9 C56.0,40.5 59.0,43.5 62.0,47.3 C65.0,51.1 68.0,55.5 71.0,59.7 C74.0,63.8 77.0,67.9 80.0,72.0 C83.0,76.1 86.0,80.9 89.0,84.3 C92.0,87.8 95.0,90.5 98.0,92.9 C101.0,95.3 104.0,97.0 107.0,98.6 C110.0,100.2 113.0,101.3 116.0,102.4 C119.0,103.5 122.0,104.5 125.0,105.2 C128.0,106.0 131.0,106.6 134.0,107.2 C137.0,107.7 140.0,108.2 143.0,108.6 C146.0,109.0 149.0,109.3 152.0,109.5 C155.0,109.8 158.0,109.9 161.0,110.0 C164.0,110.1 167.0,110.0 170.0,110.0 C173.0,110.0 177.5,110.0 179.0,110.0' stroke-width='1.1'/><path d='M44.0,110.0 C45.5,106.8 50.0,97.0 53.0,91.0 C56.0,85.0 59.0,79.4 62.0,73.9 C65.0,68.4 68.0,62.2 71.0,57.8 C74.0,53.3 77.0,49.5 80.0,47.3 C83.0,45.1 86.0,44.8 89.0,44.5 C92.0,44.1 95.0,44.5 98.0,45.4 C101.0,46.4 104.0,47.6 107.0,50.2 C110.0,52.7 113.0,56.2 116.0,60.6 C119.0,65.0 122.0,71.7 125.0,76.8 C128.0,81.8 131.0,87.0 134.0,91.0 C137.0,95.0 140.0,97.8 143.0,100.5 C146.0,103.2 149.0,105.6 152.0,107.2 C155.0,108.7 159.5,109.5 161.0,110.0' stroke-width='1.1' stroke-dasharray='3 2'/><path d='M89.0,110.0 C90.5,108.6 95.0,104.1 98.0,101.5 C101.0,98.8 104.0,96.4 107.0,93.8 C110.0,91.3 113.0,88.8 116.0,86.2 C119.0,83.7 122.0,81.0 125.0,78.7 C128.0,76.3 131.0,74.2 134.0,72.0 C137.0,69.8 140.0,67.6 143.0,65.3 C146.0,63.1 149.0,60.8 152.0,58.7 C155.0,56.6 156.5,56.2 161.0,53.0 C165.5,49.8 173.0,44.0 179.0,39.7 C185.0,35.4 191.0,31.5 197.0,27.4 C203.0,23.2 212.0,17.1 215.0,15.0' stroke-width='1.1'/><circle cx='44.0' cy='110.0' r='1.7' fill='none' stroke-width='0.9'/><circle cx='53.0' cy='91.0' r='1.7' fill='none' stroke-width='0.9'/><circle cx='62.0' cy='73.9' r='1.7' fill='none' stroke-width='0.9'/><circle cx='71.0' cy='57.8' r='1.7' fill='none' stroke-width='0.9'/><circle cx='80.0' cy='47.3' r='1.7' fill='none' stroke-width='0.9'/><circle cx='89.0' cy='44.5' r='1.7' fill='none' stroke-width='0.9'/><circle cx='98.0' cy='45.4' r='1.7' fill='none' stroke-width='0.9'/><circle cx='107.0' cy='50.2' r='1.7' fill='none' stroke-width='0.9'/><circle cx='116.0' cy='60.6' r='1.7' fill='none' stroke-width='0.9'/><circle cx='125.0' cy='76.8' r='1.7' fill='none' stroke-width='0.9'/><circle cx='134.0' cy='91.0' r='1.7' fill='none' stroke-width='0.9'/><circle cx='143.0' cy='100.5' r='1.7' fill='none' stroke-width='0.9'/><circle cx='152.0' cy='107.2' r='1.7' fill='none' stroke-width='0.9'/><circle cx='161.0' cy='110.0' r='1.7' fill='none' stroke-width='0.9'/></g><g fill='currentColor' font-size='7'><rect x='33.4' y='13.4' width='3.2' height='3.2'/><rect x='42.4' y='23.9' width='3.2' height='3.2'/><rect x='51.4' y='35.3' width='3.2' height='3.2'/><rect x='60.4' y='45.7' width='3.2' height='3.2'/><rect x='69.4' y='58.1' width='3.2' height='3.2'/><rect x='78.4' y='70.4' width='3.2' height='3.2'/><rect x='87.4' y='82.8' width='3.2' height='3.2'/><rect x='96.4' y='91.3' width='3.2' height='3.2'/><rect x='105.4' y='97.0' width='3.2' height='3.2'/><rect x='114.4' y='100.8' width='3.2' height='3.2'/><rect x='123.4' y='103.7' width='3.2' height='3.2'/><rect x='132.4' y='105.6' width='3.2' height='3.2'/><rect x='141.4' y='107.0' width='3.2' height='3.2'/><rect x='150.4' y='107.9' width='3.2' height='3.2'/><rect x='159.4' y='108.4' width='3.2' height='3.2'/><rect x='168.4' y='108.4' width='3.2' height='3.2'/><rect x='177.4' y='108.4' width='3.2' height='3.2'/><circle cx='89.0' cy='110.0' r='1.8'/><circle cx='98.0' cy='101.5' r='1.8'/><circle cx='107.0' cy='93.8' r='1.8'/><circle cx='116.0' cy='86.2' r='1.8'/><circle cx='125.0' cy='78.7' r='1.8'/><circle cx='134.0' cy='72.0' r='1.8'/><circle cx='143.0' cy='65.3' r='1.8'/><circle cx='152.0' cy='58.7' r='1.8'/><circle cx='161.0' cy='53.0' r='1.8'/><circle cx='179.0' cy='39.7' r='1.8'/><circle cx='197.0' cy='27.4' r='1.8'/><circle cx='215.0' cy='15.0' r='1.8'/><text x='35.0' y='119' text-anchor='middle'>0</text><text x='71.0' y='119' text-anchor='middle'>0,01</text><text x='107.0' y='119' text-anchor='middle'>0,02</text><text x='143.0' y='119' text-anchor='middle'>0,03</text><text x='179.0' y='119' text-anchor='middle'>0,04</text><text x='215.0' y='119' text-anchor='middle'>0,05</text><text x='31' y='112.5' text-anchor='end'>0</text><text x='31' y='93.5' text-anchor='end'>20</text><text x='31' y='74.5' text-anchor='end'>40</text><text x='31' y='55.5' text-anchor='end'>60</text><text x='31' y='36.5' text-anchor='end'>80</text><text x='31' y='17.5' text-anchor='end'>100</text><text x='49.4' y='22.6' font-size='8'>doce</text><text x='67.4' y='38.8' font-size='8'>amargo</text><text x='153.8' y='26.4' font-size='8'>salgado</text><text x='125' y='131' text-anchor='middle' font-size='8'>concentração de KCl (mol/L)</text><text x='9' y='62' text-anchor='middle' font-size='8' transform='rotate(-90 9 62)'>gosto (%)</text></g></svg>",
+"a": 3.92,
+"u": "g",
+"tol": 0.05,
+"d": [
+[
+"Ler o gráfico",
+"Procure a menor concentração em que as curvas \"doce\" e \"amargo\" já chegaram a zero.",
+""
+],
+[
+"Massa",
+"n = c·V e m = n·M."
+]
+],
+"h": [
+"Pelo gráfico, doce e amargo chegam a zero em 0,035 mol/L.",
+"n = 0,035 × 1,5 = 0,0525 mol; M(KCl) = 74,6 g/mol.",
+"m ≈ <b>3,9 g</b>."
+]
+},
+{
+"id": "2003-2-qui-08b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 8(b)",
+"r": 2000,
+"tm": 60,
+"ctx": "O cloreto de potássio substitui o cloreto de sódio em dietas especiais. O gráfico mostra a percepção dos sabores doce, amargo e salgado de soluções aquosas de KCl em função da concentração. Numa sopa de 1,5 L, pôs-se a quantidade mínima de KCl para que o sabor fosse só salgado, sem as componentes amargo e doce. A sopa tem 0,035 mol/L de KCl. Qual a pressão osmótica dessa solução a 57 °C, em atm? Use π = c·R·T, com c a concentração de partículas (mol/L) e R = 0,082 L·atm/(K·mol).",
+"a": 1.89,
+"u": "atm",
+"tol": 0.04,
+"d": [
+[
+"Partículas",
+"O KCl se dissocia: KCl → K⁺ + Cl⁻. Cada mol de KCl dá 2 mol de partículas.",
+""
+],
+[
+"Temperatura absoluta",
+"T(K) = T(°C) + 273."
+]
+],
+"h": [
+"c(partículas) = 2 × 0,035 = 0,070 mol/L; T = 330 K.",
+"π = 0,070 × 0,082 × 330.",
+"π ≈ <b>1,9 atm</b>."
+]
+},
+{
+"id": "2003-2-qui-09a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_org",
+"src": "Unicamp 2003, 2ª fase, Química, questão 9(a) (no original, pede-se para escrever a fórmula)",
+"r": 1660,
+"tm": 60,
+"ctx": "O ácido eicosapentaenoico (EPA) é um ácido graxo ômega-3 representado por C20:5ω3: 20 átomos de carbono, 5 duplas ligações, e a primeira dupla no carbono 3 da cadeia linear, contando a partir da ponta oposta à carboxila. Qual é uma fórmula estrutural possível do ácido C18:3ω3?",
+"opts": [
+"CH₃–CH₂–CH=CH–CH₂–CH=CH–CH₂–CH=CH–(CH₂)₇–COOH",
+"CH₃–(CH₂)₄–CH=CH–CH₂–CH=CH–CH₂–CH=CH–(CH₂)₄–COOH",
+"HOOC–CH₂–CH=CH–CH₂–CH=CH–CH₂–CH=CH–(CH₂)₇–CH₃",
+"CH₃–CH₂–CH=CH–CH₂–CH=CH–(CH₂)₁₀–COOH"
+],
+"a": 0,
+"d": [
+[
+"Ler o código",
+"C18:3ω3: 18 carbonos, 3 duplas C=C e a primeira dupla entre o 3º e o 4º carbono, contando a partir do CH₃ (a ponta oposta à –COOH).",
+""
+],
+[
+"Montar e conferir",
+"Escreva a cadeia a partir do CH₃ e conte os carbonos no fim, incluindo o da –COOH."
+]
+],
+"h": [
+"A partir do CH₃: C1 (CH₃), C2 (CH₂) e a dupla em C3=C4.",
+"Mais duas duplas, separadas por um CH₂ cada (C6=C7 e C9=C10), e o resto saturado até a carboxila, que é o C18.",
+"<b>CH₃–CH₂–CH=CH–CH₂–CH=CH–CH₂–CH=CH–(CH₂)₇–COOH</b>."
+]
+},
+{
+"id": "2003-2-qui-09b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_est",
+"src": "Unicamp 2003, 2ª fase, Química, questão 9(b)",
+"r": 1830,
+"tm": 60,
+"ctx": "O ácido eicosapentaenoico (EPA) é um ácido graxo ômega-3 representado por C20:5ω3: 20 átomos de carbono, 5 duplas ligações, e a primeira dupla no carbono 3 da cadeia linear, contando a partir da ponta oposta à carboxila. Compostos com duplas C=C adicionam I₂ às duplas. Quantos mol de I₂ reagem completamente com 5,56 g do ácido C18:3ω3 (C₁₈H₃₀O₂)? (H = 1; C = 12; O = 16)",
+"a": 0.06,
+"u": "mol",
+"tol": 0.02,
+"d": [
+[
+"Massa molar",
+"Some as massas: 18 C, 30 H e 2 O.",
+""
+],
+[
+"Proporção",
+"Cada dupla C=C consome 1 I₂: 1 mol do ácido consome 3 mol de I₂."
+]
+],
+"h": [
+"M = 18 × 12 + 30 + 32 = 278 g/mol; n = 5,56/278 = 0,02 mol.",
+"n(I₂) = 3 × 0,02.",
+"<b>0,06 mol</b> de I₂."
+]
+},
+{
+"id": "2003-2-qui-10a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 10(a)",
+"r": 1910,
+"tm": 60,
+"ctx": "10,0 g de pimenta foram postos em 100 mL de acetona para extrair a capsaicina e a di-hidrocapsaicina, responsáveis pela ardência. A mistura foi filtrada e o líquido reduzido a 5,0 mL por aquecimento. Esses 5,0 mL foram diluídos a 50 mL com etanol; desses 50 mL, uma porção de 10 mL foi diluída a 25 mL. A análise desta última solução deu o gráfico da figura. A concentração de capsaicina é metade da de di-hidrocapsaicina. Quantas vezes a concentração de capsaicina na solução de 5,0 mL é maior que na solução final?",
+"fig": "<svg viewBox='0 0 215 136' class='fg' role='img' aria-label='gráfico da medida lida em função do tempo, em minutos: uma linha de base na medida 2 com dois triângulos; o triângulo B vai de 2,5 a 4 minutos, com pico de altura 3 em 3,25 minutos; o triângulo A vai de 4,5 a 5,5 minutos, com pico de altura 5 em 5 minutos'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-dasharray='2 2' stroke-opacity='0.6'><line x1='42.5' y1='15.0' x2='42.5' y2='110.0'/><line x1='55.0' y1='15.0' x2='55.0' y2='110.0'/><line x1='67.5' y1='15.0' x2='67.5' y2='110.0'/><line x1='80.0' y1='15.0' x2='80.0' y2='110.0'/><line x1='92.5' y1='15.0' x2='92.5' y2='110.0'/><line x1='105.0' y1='15.0' x2='105.0' y2='110.0'/><line x1='117.5' y1='15.0' x2='117.5' y2='110.0'/><line x1='130.0' y1='15.0' x2='130.0' y2='110.0'/><line x1='142.5' y1='15.0' x2='142.5' y2='110.0'/><line x1='155.0' y1='15.0' x2='155.0' y2='110.0'/><line x1='167.5' y1='15.0' x2='167.5' y2='110.0'/><line x1='180.0' y1='15.0' x2='180.0' y2='110.0'/><line x1='192.5' y1='15.0' x2='192.5' y2='110.0'/><line x1='30.0' y1='95.0' x2='205.0' y2='95.0'/><line x1='30.0' y1='80.0' x2='205.0' y2='80.0'/><line x1='30.0' y1='65.0' x2='205.0' y2='65.0'/><line x1='30.0' y1='50.0' x2='205.0' y2='50.0'/><line x1='30.0' y1='35.0' x2='205.0' y2='35.0'/><line x1='30.0' y1='20.0' x2='205.0' y2='20.0'/></g><line x1='30' y1='110' x2='205' y2='110' stroke-width='1'/><line x1='30' y1='110' x2='30' y2='10' stroke-width='1'/><polyline points='30.0,79.2 92.5,80.0 111.2,65.0 130.0,80.0 142.5,80.0 155.0,35.0 167.5,80.0 195.0,80.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='8'><text x='55' y='120' text-anchor='middle'>1</text><text x='80' y='120' text-anchor='middle'>2</text><text x='105' y='120' text-anchor='middle'>3</text><text x='130' y='120' text-anchor='middle'>4</text><text x='155' y='120' text-anchor='middle'>5</text><text x='180' y='120' text-anchor='middle'>6</text><text x='26' y='98' text-anchor='end'>1</text><text x='26' y='83' text-anchor='end'>2</text><text x='26' y='68' text-anchor='end'>3</text><text x='26' y='53' text-anchor='end'>4</text><text x='26' y='38' text-anchor='end'>5</text><text x='26' y='23' text-anchor='end'>6</text><text x='159' y='34' font-weight='bold'>A</text><text x='108.25' y='61' font-weight='bold'>B</text><text x='118' y='131' text-anchor='middle'>tempo (min)</text><text x='10' y='62' text-anchor='middle' transform='rotate(-90 10 62)'>medida lida</text></g></svg>",
+"a": 25,
+"tol": 0,
+"d": [
+[
+"Diluição",
+"c₁·V₁ = c₂·V₂: cada diluição divide a concentração por V<sub>final</sub>/V<sub>inicial</sub>.",
+""
+],
+[
+"Porção",
+"Retirar uma porção (10 mL dos 50 mL) não muda a concentração."
+]
+],
+"h": [
+"De 5,0 para 50 mL: fator 10.",
+"Os 10 mL retirados têm a mesma concentração dos 50 mL; de 10 para 25 mL: fator 2,5.",
+"Ao todo, 10 × 2,5 = <b>25 vezes</b>."
+]
+},
+{
+"id": "2003-2-qui-10b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 10(b)",
+"r": 2040,
+"tm": 75,
+"ctx": "10,0 g de pimenta foram postos em 100 mL de acetona para extrair a capsaicina e a di-hidrocapsaicina, responsáveis pela ardência. A mistura foi filtrada e o líquido reduzido a 5,0 mL por aquecimento. Esses 5,0 mL foram diluídos a 50 mL com etanol; desses 50 mL, uma porção de 10 mL foi diluída a 25 mL. A análise desta última solução deu o gráfico da figura. A concentração de capsaicina é metade da de di-hidrocapsaicina. Qual \"triângulo\" corresponde à capsaicina?",
+"fig": "<svg viewBox='0 0 215 136' class='fg' role='img' aria-label='gráfico da medida lida em função do tempo, em minutos: uma linha de base na medida 2 com dois triângulos; o triângulo B vai de 2,5 a 4 minutos, com pico de altura 3 em 3,25 minutos; o triângulo A vai de 4,5 a 5,5 minutos, com pico de altura 5 em 5 minutos'><g fill='none' stroke='currentColor'><g stroke-width='0.5' stroke-dasharray='2 2' stroke-opacity='0.6'><line x1='42.5' y1='15.0' x2='42.5' y2='110.0'/><line x1='55.0' y1='15.0' x2='55.0' y2='110.0'/><line x1='67.5' y1='15.0' x2='67.5' y2='110.0'/><line x1='80.0' y1='15.0' x2='80.0' y2='110.0'/><line x1='92.5' y1='15.0' x2='92.5' y2='110.0'/><line x1='105.0' y1='15.0' x2='105.0' y2='110.0'/><line x1='117.5' y1='15.0' x2='117.5' y2='110.0'/><line x1='130.0' y1='15.0' x2='130.0' y2='110.0'/><line x1='142.5' y1='15.0' x2='142.5' y2='110.0'/><line x1='155.0' y1='15.0' x2='155.0' y2='110.0'/><line x1='167.5' y1='15.0' x2='167.5' y2='110.0'/><line x1='180.0' y1='15.0' x2='180.0' y2='110.0'/><line x1='192.5' y1='15.0' x2='192.5' y2='110.0'/><line x1='30.0' y1='95.0' x2='205.0' y2='95.0'/><line x1='30.0' y1='80.0' x2='205.0' y2='80.0'/><line x1='30.0' y1='65.0' x2='205.0' y2='65.0'/><line x1='30.0' y1='50.0' x2='205.0' y2='50.0'/><line x1='30.0' y1='35.0' x2='205.0' y2='35.0'/><line x1='30.0' y1='20.0' x2='205.0' y2='20.0'/></g><line x1='30' y1='110' x2='205' y2='110' stroke-width='1'/><line x1='30' y1='110' x2='30' y2='10' stroke-width='1'/><polyline points='30.0,79.2 92.5,80.0 111.2,65.0 130.0,80.0 142.5,80.0 155.0,35.0 167.5,80.0 195.0,80.0' stroke-width='1.5'/></g><g fill='currentColor' font-size='8'><text x='55' y='120' text-anchor='middle'>1</text><text x='80' y='120' text-anchor='middle'>2</text><text x='105' y='120' text-anchor='middle'>3</text><text x='130' y='120' text-anchor='middle'>4</text><text x='155' y='120' text-anchor='middle'>5</text><text x='180' y='120' text-anchor='middle'>6</text><text x='26' y='98' text-anchor='end'>1</text><text x='26' y='83' text-anchor='end'>2</text><text x='26' y='68' text-anchor='end'>3</text><text x='26' y='53' text-anchor='end'>4</text><text x='26' y='38' text-anchor='end'>5</text><text x='26' y='23' text-anchor='end'>6</text><text x='159' y='34' font-weight='bold'>A</text><text x='108.25' y='61' font-weight='bold'>B</text><text x='118' y='131' text-anchor='middle'>tempo (min)</text><text x='10' y='62' text-anchor='middle' transform='rotate(-90 10 62)'>medida lida</text></g></svg>",
+"opts": [
+"B, porque sua área é metade da área de A",
+"A, porque é o mais alto",
+"B, porque aparece primeiro",
+"A, porque sua área é metade da área de B"
+],
+"a": 0,
+"d": [
+[
+"Sinal e quantidade",
+"Num registro desses, a área do pico (não só a altura) é proporcional à quantidade da substância.",
+""
+],
+[
+"Área do triângulo",
+"Área = base × altura/2, com a altura medida a partir da linha de base (medida 2)."
+]
+],
+"h": [
+"B: base 1,5 min (de 2,5 a 4) e altura 1 ⟹ área 0,75. A: base 1 min (de 4,5 a 5,5) e altura 3 ⟹ área 1,5.",
+"A área de B é metade da de A, assim como a concentração da capsaicina é metade da outra.",
+"<b>B é a capsaicina</b> (A é a di-hidrocapsaicina)."
+]
+},
+{
+"id": "2003-2-qui-11a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 11(a)",
+"r": 1700,
+"tm": 45,
+"ctx": "Uma receita de biscoitos leva (massa em gramas e densidade aparente em g/cm³): farinha de trigo, 360 (0,65); carbonato ácido de amônio, 6 (1,5); sal, 1 (2,0); manteiga, 100 (0,85); açúcar, 90 (0,90); 2 ovos, 100 (1,05); raspas de laranja, 3 (0,50). A densidade aparente da massa recém-preparada, antes de assar, é 1,10 g/cm³. Densidade aparente é a massa do material, na forma em que se encontra, dividida pelo volume que ele ocupa. Qual o volume ocupado pela massa de uma receita, em cm³?",
+"a": 600,
+"u": "cm³",
+"tol": 0.01,
+"d": [
+[
+"Densidade",
+"V = m/d, com m = soma das massas de todos os ingredientes.",
+""
+]
+],
+"h": [
+"m = 360 + 6 + 1 + 100 + 90 + 100 + 3 = 660 g.",
+"V = 660/1,10.",
+"V = <b>600 cm³</b>."
+]
+},
+{
+"id": "2003-2-qui-11b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_sol",
+"src": "Unicamp 2003, 2ª fase, Química, questão 11(b) (no original, a resposta é discursiva)",
+"r": 2000,
+"tm": 60,
+"ctx": "Uma receita de biscoitos leva (massa em gramas e densidade aparente em g/cm³): farinha de trigo, 360 (0,65); carbonato ácido de amônio, 6 (1,5); sal, 1 (2,0); manteiga, 100 (0,85); açúcar, 90 (0,90); 2 ovos, 100 (1,05); raspas de laranja, 3 (0,50). A densidade aparente da massa recém-preparada, antes de assar, é 1,10 g/cm³. Densidade aparente é a massa do material, na forma em que se encontra, dividida pelo volume que ele ocupa. Por que a densidade aparente da massa difere da média ponderada das densidades aparentes dos ingredientes?",
+"opts": [
+"Ao misturar, os espaços vazios entre as partículas mudam (há dissolução e acomodação), e os volumes não se somam",
+"Porque a massa total dos ingredientes diminui na mistura",
+"Porque o carbonato ácido de amônio se decompõe já na mistura, liberando gases",
+"Porque densidade só vale para substâncias puras"
+],
+"a": 0,
+"d": [
+[
+"Densidade aparente",
+"O volume de um pó inclui o ar entre os grãos. Compare: separados, os ingredientes ocupam a soma de m/d de cada um.",
+""
+],
+[
+"Volumes não se somam",
+"Ao misturar, partículas ocupam vazios entre outras, e algumas se dissolvem."
+]
+],
+"h": [
+"Separados, os ingredientes ocupam ≈ 877 cm³ (farinha e açúcar com muito ar entre os grãos); a massa ocupa 600 cm³.",
+"Na mistura o ar sai, açúcar e sal se dissolvem e as partículas se acomodam.",
+"Os <b>vazios entre as partículas mudam</b>, e o volume não é a soma dos volumes."
+]
+},
+{
+"id": "2003-2-qui-12a",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_inorg",
+"src": "Unicamp 2003, 2ª fase, Química, questão 12(a)",
+"r": 1740,
+"tm": 30,
+"ctx": "O carbonato ácido de amônio (hidrogenocarbonato de amônio, NH₄HCO₃, 79 g/mol) da receita de biscoitos se decompõe totalmente com o calor do forno, formando amônia, água e gás carbônico, todos gasosos. Qual a equação da decomposição?",
+"opts": [
+"NH₄HCO₃ → NH₃ + H₂O + CO₂",
+"NH₄HCO₃ → NH₄⁺ + HCO₃⁻",
+"2 NH₄HCO₃ → 2 NH₃ + 2 H₂ + 2 CO₂ + O₂",
+"NH₄HCO₃ → NH₄OH + CO₂"
+],
+"a": 0,
+"d": [
+[
+"Decomposição",
+"Escreva o reagente e os três produtos citados, e confira N, H, C e O.",
+""
+]
+],
+"h": [
+"Produtos: NH₃, H₂O e CO₂.",
+"Conferindo: N 1 = 1; H 5 = 3 + 2; C 1 = 1; O 3 = 1 + 2.",
+"<b>NH₄HCO₃ → NH₃ + H₂O + CO₂</b>."
+]
+},
+{
+"id": "2003-2-qui-12b",
+"ano": 2003,
+"fase": 2,
+"s": "qui",
+"t": "q_gas",
+"src": "Unicamp 2003, 2ª fase, Química, questão 12(b)",
+"r": 1960,
+"tm": 60,
+"ctx": "O carbonato ácido de amônio (hidrogenocarbonato de amônio, NH₄HCO₃, 79 g/mol) da receita de biscoitos se decompõe totalmente com o calor do forno, formando amônia, água e gás carbônico, todos gasosos. Qual o volume total de gases produzidos pelos 6 g de NH₄HCO₃ da receita, num forno a 227 °C e à pressão de 1 atm, em litros? (R = 0,082 L·atm/(K·mol))",
+"a": 9.34,
+"u": "L",
+"tol": 0.03,
+"d": [
+[
+"Mol de gás",
+"Cada mol de NH₄HCO₃ dá 3 mol de gases.",
+""
+],
+[
+"Gás ideal",
+"p·V = n·R·T, com T em kelvin."
+]
+],
+"h": [
+"n(NH₄HCO₃) = 6/79 ≈ 0,076 mol ⟹ n(gases) ≈ 0,228 mol; T = 500 K.",
+"V = 0,228 × 0,082 × 500/1.",
+"V ≈ <b>9,3 L</b>."
+]
+}
+]
