@@ -12,18 +12,19 @@
     <button type="button" data-v="estatisticas"><span class="ni" data-i="stats"></span><span>Estatísticas</span></button>
     <button type="button" data-v="ranking"><span class="ni" data-i="rank"></span><span>Ranking</span></button>
     <span class="lb">Foco</span>
-    <button type="button" data-v="ruido"><span class="ni" data-i="noise"></span><span>Ruído branco</span><span class="ct" id="nzNav"></span></button>
+    <button type="button" data-v="ruido"><span class="ni" data-i="noise"></span><span>Ruído</span><span class="ct" id="nzNav"></span></button>
     <button type="button" data-v="tempo"><span class="ni" data-i="clock"></span><span>Tempo</span><span class="ct" id="tmNav"></span></button>
     <span class="lb">Rotina</span>
     <button type="button" data-v="calendario"><span class="ni" data-i="cal"></span><span>Calendário</span><span class="ct" id="calNav"></span></button>
     <button type="button" data-v="habitos"><span class="ni" data-i="hab"></span><span>Hábitos</span><span class="ct" id="hbNav"></span></button>
+    <button type="button" data-v="leitura"><span class="ni" data-i="read"></span><span>Leitura</span><span class="ct" id="lvNav"></span></button>
     <span class="lb">Motivação</span>
     <button type="button" data-v="metas"><span class="ni" data-i="flag"></span><span>Metas</span></button>
   </div>
   <div class="pins" id="pins">
-    <section class="box mini noise" id="pinNz" aria-label="Ruído branco" hidden>
-      <div class="hd"><button type="button" class="mt" data-go="ruido">Ruído branco</button><span class="ms" data-nz="state">desligado</span><button type="button" class="unpin" data-unpin="nz" aria-label="Tirar o ruído branco do menu"></button></div>
-      <div class="mr"><button type="button" class="mp" data-nz="play" aria-label="Tocar o ruído branco">▶</button><canvas class="nzs" data-nz="scope" width="150" height="30" aria-hidden="true"></canvas></div>
+    <section class="box mini noise" id="pinNz" aria-label="Ruído" hidden>
+      <div class="hd"><button type="button" class="mt" data-go="ruido">Ruído</button><span class="ms" data-nz="state">desligado</span><button type="button" class="unpin" data-unpin="nz" aria-label="Tirar o ruído do menu"></button></div>
+      <div class="mr"><button type="button" class="mp" data-nz="play" aria-label="Tocar o ruído">▶</button><canvas class="nzs" data-nz="scope" width="150" height="30" aria-hidden="true"></canvas></div>
       <div class="bd"><div class="nzc"><label for="nzVolM">volume</label><input id="nzVolM" data-nz="vol" type="range" min="0" max="100" value="40"><output data-nz="volOut">40%</output></div></div>
     </section>
     <section class="box mini" id="pinTimer" aria-label="Timer" hidden>
@@ -40,7 +41,7 @@
     </section>
   </div>
   <div class="nf">
-    <a class="dl" href="https://claude.ai/artifact/3wHqTT2rP8Z8v8FsAXw1fG" target="_blank" rel="noopener">Dicas por tópico ↗</a>
+    <div class="nfr"><a class="dl" href="https://claude.ai/artifact/3wHqTT2rP8Z8v8FsAXw1fG" target="_blank" rel="noopener">Dicas por tópico ↗</a><button type="button" class="thq" id="themeQ" aria-pressed="false"><span class="ico" aria-hidden="true"></span><span id="themeQT">escuro</span></button></div>
     <button type="button" class="me" id="me" data-v="config"><span class="av" id="meAv"></span><span class="mt"><span id="meName"></span><span class="ms">configurações</span></span></button>
   </div>
 </nav>
@@ -49,7 +50,7 @@
   <header class="ph">
     <button type="button" class="menu" id="menu" aria-label="Abrir o menu" aria-expanded="false" aria-controls="side"><span class="ico" id="icoMenu"></span></button>
     <h1><button type="button" class="logo m" id="logo2" aria-label="Ir para os exercícios"></button><span id="pTitle">EXERCÍCIOS</span></h1>
-    <span class="qk"><button type="button" class="tmq" id="tmQuick" hidden aria-label="Abrir o tempo"><span class="ico" id="icoClock"></span><span id="tmQuickT"></span></button><button type="button" class="nzq" id="nzQuick" hidden aria-label="Parar o ruído branco">■ RUÍDO</button></span>
+    <span class="qk"><button type="button" class="tmq" id="tmQuick" hidden aria-label="Abrir o tempo"><span class="ico" id="icoClock"></span><span id="tmQuickT"></span></button><button type="button" class="nzq" id="nzQuick" hidden aria-label="Parar o ruído">■ RUÍDO</button></span>
   </header>
   <p class="sub" id="modeSub"></p>
 
@@ -221,22 +222,42 @@
 
   <div id="vNoise" class="view" hidden>
   <div class="col">
-    <section class="box noise big" aria-label="Ruído branco">
-      <div class="hd"><span>Gerador</span><span data-nz="state">desligado</span></div>
+    <section class="box noise big" aria-label="Sons para estudar">
+      <div class="hd"><span id="nzWhat">Gerador</span><span data-nz="state">desligado</span></div>
       <canvas class="nzs" data-nz="scope" width="540" height="120" aria-hidden="true"></canvas>
       <button type="button" class="nzp" data-nz="play" aria-pressed="false">▶ TOCAR</button>
     </section>
-    <button type="button" class="chk" id="nzPin" aria-pressed="false">mostrar o ruído branco no menu lateral</button>
+    <button type="button" class="chk" id="nzPin" aria-pressed="false">mostrar o ruído no menu lateral</button>
+    <section class="box">
+      <div class="hd"><span>Receitas</span><span id="nzPre"></span></div>
+      <div class="bd cf">
+        <div class="nzr" id="nzRec" role="group" aria-label="Receitas prontas"></div>
+        <p class="note" id="nzRecTxt"></p>
+      </div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Mixer</span><button type="button" id="nzZero">zerar</button></div>
+      <div class="bd cf nzmx" id="nzMix"></div>
+    </section>
+    <section class="box">
+      <div class="hd"><span>Batidas binaurais</span><span id="nzBinSt">só com fones</span></div>
+      <div class="bd cf">
+        <div class="nzc"><label for="nzBin">volume</label><input id="nzBin" type="range" min="0" max="100" value="0"><output id="nzBinOut" for="nzBin">desl.</output></div>
+        <div class="row"><span class="lb">Diferença entre os ouvidos</span><div class="seg" id="nzBf"><button type="button" data-v="6">6 HZ</button><button type="button" data-v="10">10 HZ</button><button type="button" data-v="16">16 HZ</button><button type="button" data-v="40">40 HZ</button></div></div>
+        <p class="note">Cada ouvido recebe um tom puro, com uma pequena diferença de frequência (200 Hz num, 200 + a diferença no outro). O cérebro percebe uma pulsação nessa diferença. Só funciona com fones de ouvido. A evidência é mista: veja abaixo.</p>
+      </div>
+    </section>
   </div>
   <aside class="col aside">
     <section class="box">
-      <div class="hd"><span>Som</span><span id="nzPre"></span></div>
+      <div class="hd"><span>Volume e filtros</span></div>
       <div class="bd cf">
-        <div class="nzc"><label for="nzVol">volume</label><input id="nzVol" data-nz="vol" type="range" min="0" max="100" value="40"><output data-nz="volOut" for="nzVol">40%</output></div>
-        <div class="row"><span class="lb">Cor do ruído</span><div class="seg" id="nzColor"><button type="button" data-v="branco">BRANCO</button><button type="button" data-v="suave">SUAVE</button><button type="button" data-v="grave">GRAVE</button><button type="button" data-v="agudo">AGUDO</button></div></div>
+        <div class="nzc"><label for="nzVol">volume geral</label><input id="nzVol" data-nz="vol" type="range" min="0" max="100" value="40"><output data-nz="volOut" for="nzVol">40%</output></div>
+        <p class="note">Baixo é melhor: um som que você mal percebe, abaixo da sua voz. Som alto cansa e atrapalha (veja a pesquisa abaixo).</p>
+        <div class="row"><span class="lb">Filtro</span><div class="seg" id="nzColor"><button type="button" data-v="branco">NENHUM</button><button type="button" data-v="suave">SUAVE</button><button type="button" data-v="grave">GRAVE</button><button type="button" data-v="agudo">AGUDO</button></div></div>
         <div class="nzc"><label for="nzHp">corta graves abaixo de</label><input id="nzHp" data-nz="hp" type="range" min="0" max="1000" value="0"><output data-nz="hpOut" for="nzHp">desl.</output></div>
         <div class="nzc"><label for="nzLp">corta agudos acima de</label><input id="nzLp" data-nz="lp" type="range" min="0" max="1000" value="1000"><output data-nz="lpOut" for="nzLp">desl.</output></div>
-        <p class="note">Ruído branco tem a mesma energia em todas as frequências. Os filtros deixam o som mais grave (corta agudos) ou mais fino (corta graves); SUAVE e GRAVE costumam cansar menos em sessões longas.</p>
+        <p class="note">Os filtros valem para todo o mixer (não para as batidas binaurais). SUAVE e GRAVE costumam cansar menos em sessões longas.</p>
       </div>
     </section>
     <section class="box">
@@ -246,13 +267,23 @@
         <p class="note">Conta a partir de quando você escolhe (ou de quando o som começa). Para ligar e desligar junto com o foco do pomodoro, use a opção do pomodoro, na página Tempo.</p>
       </div>
     </section>
-    <section class="box nzdef">
-      <div class="hd"><span>Definição</span><span>w[n]</span></div>
+    <section class="box nzres">
+      <div class="hd"><span>O que a pesquisa diz</span></div>
       <div class="bd">
-        <p>Ruído branco é um processo aleatório estacionário de média zero cujas amostras não têm correlação entre si. A autocorrelação é um impulso na origem, e por isso a densidade espectral de potência é constante em todas as frequências.</p>
+        <p><b>Não existe um som que ajude todo mundo.</b> Teste por uma semana e compare com o silêncio: se você rende menos, desligue.</p>
+        <p><b>Ruído branco e rosa:</b> numa meta-análise de 13 estudos, ajudaram um pouco quem tem TDAH ou muita desatenção, e atrapalharam um pouco quem não tem. Ruído marrom ainda não foi estudado.<span class="src">Nigg et al., <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11283987/" target="_blank" rel="noopener">J. Am. Acad. Child Adolesc. Psychiatry, 2024</a>; Söderlund et al., <a href="https://doi.org/10.1111/j.1469-7610.2007.01749.x" target="_blank" rel="noopener">J. Child Psychol. Psychiatry, 2007</a></span></p>
+        <p><b>Volume:</b> ruído ambiente moderado (cerca de 70 dB, o de um café) ajudou em tarefas criativas, e ruído alto (85 dB) atrapalhou. Um estudo com EEG que testou 75, 85 e 95 dB resume a literatura: de 58 estudos sobre ruído e desempenho, 29 acharam efeito negativo, 7 positivo e 22 nenhum.<span class="src">Mehta, Zhu e Cheema, <a href="https://doi.org/10.1086/665048" target="_blank" rel="noopener">J. Consumer Research, 2012</a>; Jafari et al., <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6901841/" target="_blank" rel="noopener">Open Access Maced. J. Med. Sci., 2019</a></span></p>
+        <p><b>Sons da natureza:</b> ouvir natureza (chuva, água, grilos) melhorou o desempenho em tarefas de atenção, comparado a sons da cidade.<span class="src">Van Hedger et al., <a href="https://doi.org/10.3758/s13423-018-1539-1" target="_blank" rel="noopener">Psychonomic Bulletin &amp; Review, 2019</a></span></p>
+        <p><b>Fala e música com letra:</b> sons que mudam o tempo todo, como conversa, atrapalham a leitura e a memorização mais que um som constante. Por isso o Faro não tem “barulho de café” com vozes.<span class="src">Banbury et al., <a href="https://doi.org/10.1518/001872001775992462" target="_blank" rel="noopener">Human Factors, 2001</a></span></p>
+        <p><b>Batidas binaurais:</b> uma meta-análise de 22 estudos achou efeito médio em memória, atenção e ansiedade, maior quando se ouve antes e durante a tarefa e por mais tempo. Os estudos variam muito, e o efeito depende da frequência.<span class="src">Garcia-Argibay et al., <a href="https://doi.org/10.1007/s00426-018-1066-8" target="_blank" rel="noopener">Psychological Research, 2019</a></span></p>
+      </div>
+    </section>
+    <section class="box nzdef">
+      <div class="hd"><span>Como os sons são feitos</span><span>w[n]</span></div>
+      <div class="bd">
+        <p>Tudo é sintetizado na hora, sem gravações e sem repetir um trecho em loop. Ruído branco é um processo aleatório de média zero cujas amostras não têm correlação entre si: a densidade espectral de potência é constante em todas as frequências, até a de Nyquist<span data-nz="ny"></span>.</p>
         <div class="nzeq"><span>E{w[n]} = 0</span><span>R(k) = σ² δ(k)</span><span>S(f) = σ²</span></div>
-        <p>Aqui cada amostra é sorteada de forma independente, com distribuição gaussiana, e gerada continuamente, sem repetir um trecho em loop. Como o áudio digital é limitado à metade da taxa de amostragem, o espectro é plano de 0 Hz até essa frequência de Nyquist<span data-nz="ny"></span>.</p>
-        <p>As cores SUAVE, GRAVE e AGUDO e os dois filtros removem faixas do espectro. Com qualquer um deles, o ruído deixa de ser branco no sentido estrito e passa a ser ruído colorido.</p>
+        <p>O ruído rosa perde 3 dB por oitava (a mesma energia em cada oitava) e o marrom, 6 dB (o branco integrado). Chuva, mar, vento, riacho e lareira são ruídos filtrados e modulados devagar, com gotas, bolhas e estalos sorteados.</p>
         <p class="note">Fonte: J. O. Smith III, <a href="https://ccrma.stanford.edu/~jos/sasp/White_Noise_I.html" target="_blank" rel="noopener">Spectral Audio Signal Processing, “White Noise”</a>, CCRMA, Stanford.</p>
       </div>
     </section>
@@ -323,7 +354,7 @@
         <div class="sts" id="tmPomoSt"></div>
         <button type="button" class="chk" id="tmAutoP" aria-pressed="false">começar a pausa sozinho</button>
         <button type="button" class="chk" id="tmAutoF" aria-pressed="false">voltar ao foco sozinho depois da pausa</button>
-        <button type="button" class="chk" id="tmNoise" aria-pressed="false">tocar o ruído branco durante o foco</button>
+        <button type="button" class="chk" id="tmNoise" aria-pressed="false">tocar o ruído durante o foco</button>
         <p class="note">Um ciclo é foco, pausa curta, foco, pausa curta… e, depois do último foco, a pausa longa. Pular uma fase não conta o foco no dia.</p>
       </div>
     </section>
@@ -343,37 +374,43 @@
   </div>
 
   <div id="vGoals" class="view" hidden>
+   <div class="ghome" id="glHome">
     <section class="box why" id="glWhy" hidden>
       <div class="hd"><span>Lembre por quê</span><button type="button" id="glNext">outro motivo</button></div>
-      <div class="bd"><blockquote id="glQ"></blockquote><p class="gwm" id="glQm"></p><p class="gwm" id="glQs"></p></div>
+      <div class="bd"><blockquote id="glQ"></blockquote><p class="gwm" id="glQm"></p></div>
     </section>
     <div class="gtop"><button type="button" class="mk pri" id="glNew">+ nova meta</button></div>
-    <form class="box gform" id="glForm" hidden>
-      <div class="hd"><span id="glFormHd">Nova meta</span></div>
-      <div class="bd cf">
-        <label class="fl"><span class="lb">O que você quer conquistar</span><input id="gfT" maxlength="80" autocomplete="off" placeholder="passar em medicina, tocar a Partita nº 2, ler 12 livros…"></label>
-        <div class="row"><span class="lb">Tipo</span><div class="gks" id="gfKs" role="group" aria-label="Tipos sugeridos"></div>
-          <label class="fl"><input id="gfK" maxlength="30" autocomplete="off" placeholder="ou escreva outro" aria-label="Tipo da meta"></label></div>
-        <label class="fl"><span class="lb">Por que isso importa para você</span><textarea id="gfY" maxlength="600" rows="4" placeholder="o que muda na sua vida quando você conseguir?"></textarea></label>
-        <p class="note">Escreva para você mesmo ler num dia difícil. Ajuda pensar: por que você começou? O que fica possível quando conseguir? Quem vai ficar feliz com isso, além de você?</p>
-        <label class="fl gdate"><span class="lb">Prazo (opcional)</span><input id="gfD" type="date"></label>
-        <label class="fl" id="gfSRow"><span class="lb">Primeiro passo (opcional)</span><input id="gfS" maxlength="120" autocomplete="off" placeholder="o menor passo que dá para dar esta semana"></label>
-        <div class="mbtns"><button type="submit" class="mk pri">salvar</button><button type="button" class="mk" id="gfCancel">cancelar</button></div>
-      </div>
-    </form>
     <p class="note mmsg" id="glMsg" aria-live="polite" hidden></p>
     <section class="box" id="glEmpty" hidden>
       <div class="hd"><span>Para que serve esta página</span></div>
       <div class="bd cf">
-        <p class="gin">Aqui ficam os motivos pelos quais você estuda, escritos por você. Nos dias em que der vontade de largar tudo, eles lembram por que você começou.</p>
-        <p class="note">Cada meta tem o que você quer conquistar, por que isso importa, um prazo se quiser e os próximos passos, bem pequenos. Comece por uma:</p>
+        <p class="gin">Cada meta é uma página sua: o que você quer conquistar, por que isso importa e tudo o mais que quiser anotar. Nos dias difíceis, ela lembra por que você começou.</p>
+        <p class="note">As páginas são escritas em markdown (títulos, listas, tarefas, citações). Comece por uma:</p>
         <div class="gks" id="glEmptyKs"></div>
       </div>
     </section>
-    <div class="glist" id="glList"></div>
-    <details class="gsec" id="glPaused" hidden><summary>Pausadas <span id="glPausedN"></span></summary><div class="glist" id="glPausedL"></div></details>
-    <details class="gsec" id="glDone" hidden><summary>Conquistas <span id="glDoneN"></span></summary><div class="glist" id="glDoneL"></div></details>
+    <div class="gpl" id="glList"></div>
+    <details class="gsec" id="glPaused" hidden><summary>Pausadas <span id="glPausedN"></span></summary><div class="gpl" id="glPausedL"></div></details>
+    <details class="gsec" id="glDone" hidden><summary>Conquistas <span id="glDoneN"></span></summary><div class="gpl" id="glDoneL"></div></details>
     <p class="note gpriv">Só você vê esta página. As metas ficam na sua conta (ou neste navegador, sem conta) e não entram no ranking nem nas estatísticas.</p>
+   </div>
+   <article class="gpage" id="glPage" hidden>
+    <div class="gpbar"><button type="button" class="lnk" id="gpBack">‹ todas as metas</button><span class="gpsv" id="gpSaved" aria-live="polite"></span></div>
+    <h2 class="gph"><span class="gfox" id="gpFox" hidden></span><input class="gpt" id="gpT" maxlength="80" autocomplete="off" placeholder="Sem título" aria-label="Título da meta"></h2>
+    <div class="gprops">
+      <span class="lb">Tipo</span><div class="gpv"><div class="gks" id="gpKs" role="group" aria-label="Tipos sugeridos"></div><input class="gpin" id="gpK" maxlength="30" autocomplete="off" placeholder="ou escreva outro" aria-label="Tipo da meta"></div>
+      <span class="lb">Prazo</span><div class="gpv"><input class="gpin" id="gpD" type="date" aria-label="Prazo"><span class="gpm" id="gpDue"></span></div>
+      <span class="lb">Situação</span><div class="gpv"><div class="seg gpst" id="gpSt" role="group" aria-label="Situação"><button type="button" data-v="on">EM ANDAMENTO</button><button type="button" data-v="pausa">PAUSADA</button><button type="button" data-v="feita">CONQUISTADA</button></div></div>
+      <span class="lb">Tempo</span><div class="gpv"><p class="gtm" id="gpTm"></p></div>
+    </div>
+    <div class="gpmode"><div class="seg" id="gpMode" role="group" aria-label="Ver ou escrever" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="ver">VER</button><button type="button" data-v="escrever">ESCREVER</button></div></div>
+    <div class="gmd" id="gpView"></div>
+    <textarea class="gped" id="gpEd" maxlength="20000" spellcheck="true" aria-label="Página da meta, em markdown" hidden></textarea>
+    <details class="gphelp"><summary>como escrever em markdown</summary>
+      <div class="gmdk"><code># Título</code><span>título de seção (## e ### para menores)</span><code>**negrito** *itálico*</code><span>destaque no texto</span><code>- item</code><span>lista (1. para numerada)</span><code>- [ ] tarefa</code><span>tarefa: dá para marcar tocando, no modo ver</span><code>&gt; citação</code><span>a primeira citação vira o lembrete do topo da página Metas</span><code>[texto](https://…)</code><span>link</span><code>---</code><span>linha separando partes</span></div>
+    </details>
+    <div class="gact"><button type="button" class="mk" id="gpDel">apagar esta meta</button></div>
+   </article>
   </div>
 
   <div id="vCal" class="view" hidden>
@@ -384,14 +421,18 @@
     <p class="note mmsg" id="calMsg" aria-live="polite" hidden></p>
     <section class="box" id="calPend" hidden>
       <div class="hd"><span>Para confirmar</span><span id="calPendN"></span></div>
-      <div class="bd cpb"><p class="note">Esses blocos já passaram. Diga quanto deles foi estudo de verdade para somar ao seu tempo, ou marque que não rolou.</p><ol class="cpl" id="calPendL"></ol></div>
+      <div class="bd cpb"><p class="note" id="calPendTxt"></p><ol class="cpl" id="calPendL"></ol><button type="button" class="mk pri" id="calPendAll" hidden></button></div>
     </section>
     <section class="box ccal" id="calBox" aria-label="Calendário">
       <div class="cdays" id="calDays" role="group" aria-label="Dia"></div>
       <div class="cgw" id="calGrid"></div>
     </section>
-    <div class="ckey" aria-hidden="true"><span><i class="k0"></i>planejado</span><span><i class="k1"></i>confirmado</span><span><i class="k2"></i>relógios do Faro</span><span><i class="k4"></i>questões</span><span><i class="k3"></i>passou, falta confirmar</span></div>
-    <p class="note cnote">Toque num horário vazio para criar um bloco (no computador, dá para arrastar o mouse e desenhar o bloco do tamanho certo). O que o Faro mede (timer, cronômetro, foco do pomodoro e questões) aparece sozinho na faixa listrada. Um bloco só vira tempo de estudo quando você confirma quanto dele foi útil; o que o Faro já mediu naquele horário não conta duas vezes. No topo de cada dia fica o total estudado, e ✎ é o tempo registrado à mão, sem horário.</p>
+    <div class="ckey" aria-hidden="true"><span><i class="k0"></i>planejado</span><span><i class="k1"></i>contou no estudo</span><span><i class="k2"></i>relógios do Faro</span><span><i class="k4"></i>questões</span><span><i class="k3"></i>passou, falta confirmar</span></div>
+    <section class="box">
+      <div class="hd"><span>Quando um bloco passa</span></div>
+      <div class="bd cf"><div class="seg" id="calAuto" role="group" aria-label="Quando um bloco passa" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="on">CONTA SOZINHO</button><button type="button" data-v="off">EU CONFIRMO</button></div><p class="note" id="calAutoTxt"></p></div>
+    </section>
+    <p class="note cnote">Toque num horário vazio para criar um bloco (no computador, dá para arrastar o mouse e desenhar o bloco do tamanho certo). O que o Faro mede (timer, cronômetro, foco do pomodoro e questões) aparece sozinho na faixa listrada; o que ele já mediu no horário de um bloco não conta duas vezes. No topo de cada dia fica o total estudado, e ✎ é o tempo registrado à mão, sem horário.</p>
   </div>
 
   <div id="vHab" class="view" hidden>
@@ -429,6 +470,63 @@
     <p class="note gpriv">Toque num quadradinho para marcar ou desmarcar um dia que passou. Os hábitos ficam na sua conta (ou neste navegador, sem conta) e não entram no ranking.</p>
   </div>
 
+  <div id="vRead" class="view" hidden>
+   <div class="ghome" id="lvHome">
+    <section class="box" id="lvSum">
+      <div class="hd"><span>Sua leitura</span><button type="button" id="lvGoalBtn" aria-expanded="false" aria-controls="lvGoalEd">meta do ano</button></div>
+      <div class="bd cf">
+        <div class="sl3" id="lvStats"></div>
+        <div class="cf" id="lvGoalEd" hidden>
+          <span class="lb">Livros para ler este ano</span>
+          <div class="sts" id="lvGoalSt"></div>
+          <p class="note">0 deixa sem meta. Contam os livros que você marcar como lidos neste ano.</p>
+        </div>
+        <div id="lvGoalBar" hidden><div class="gbar" aria-hidden="true"><i id="lvGoalFill"></i></div><p class="tss" id="lvGoalTxt"></p></div>
+      </div>
+    </section>
+    <div class="gtop"><button type="button" class="mk pri" id="lvNew">+ livro</button></div>
+    <form class="box gform" id="lvForm" hidden>
+      <div class="hd"><span>Novo livro</span></div>
+      <div class="bd cf">
+        <label class="fl"><span class="lb">Título</span><input id="lfT" maxlength="100" autocomplete="off" placeholder="Dom Casmurro, Sapiens, a apostila de bio…"></label>
+        <label class="fl"><span class="lb">Autor (opcional)</span><input id="lfA" maxlength="60" autocomplete="off"></label>
+        <label class="fl lfp"><span class="lb">Páginas (opcional)</span><input id="lfP" type="number" inputmode="numeric" min="1" max="9999"></label>
+        <div class="row"><span class="lb">Situação</span><div class="seg g3" id="lfS" role="group" aria-label="Situação"><button type="button" data-v="lendo">LENDO</button><button type="button" data-v="quero">QUERO LER</button><button type="button" data-v="lido">JÁ LI</button></div></div>
+        <div class="mbtns"><button type="submit" class="mk pri">guardar</button><button type="button" class="mk" id="lfCancel">cancelar</button></div>
+      </div>
+    </form>
+    <p class="note mmsg" id="lvMsg" aria-live="polite" hidden></p>
+    <section class="box" id="lvEmpty" hidden>
+      <div class="hd"><span>Para que serve esta página</span></div>
+      <div class="bd cf">
+        <p class="gin">Aqui ficam os livros que você está lendo, os que quer ler e os que já leu, com o ponto em que parou e as suas anotações.</p>
+        <p class="note">Atualize a página em que está e o Faro calcula o seu ritmo e quando você termina. Ler um pouco todo dia vira um hábito: dá para criar um hábito de tempo na página Hábitos.</p>
+      </div>
+    </section>
+    <div class="lvl" id="lvNow"></div>
+    <details class="gsec" id="lvWant" hidden open><summary>Quero ler <span id="lvWantN"></span></summary><div class="gpl" id="lvWantL"></div></details>
+    <details class="gsec" id="lvDone" hidden><summary>Lidos <span id="lvDoneN"></span></summary><div class="gpl" id="lvDoneL"></div></details>
+    <details class="gsec" id="lvDrop" hidden><summary>Larguei <span id="lvDropN"></span></summary><div class="gpl" id="lvDropL"></div></details>
+    <p class="note gpriv">Os livros ficam na sua conta (ou neste navegador, sem conta) e não entram no ranking.</p>
+   </div>
+   <article class="gpage" id="lvPage" hidden>
+    <div class="gpbar"><button type="button" class="lnk" id="lpBack">‹ todos os livros</button><span class="gpsv" id="lpSaved" aria-live="polite"></span></div>
+    <h2 class="gph"><input class="gpt" id="lpT" maxlength="100" autocomplete="off" placeholder="Sem título" aria-label="Título do livro"></h2>
+    <div class="gprops">
+      <span class="lb">Autor</span><div class="gpv"><input class="gpin" id="lpA" maxlength="60" autocomplete="off" placeholder="quem escreveu" aria-label="Autor"></div>
+      <span class="lb">Situação</span><div class="gpv"><div class="seg gpst lpst" id="lpS" role="group" aria-label="Situação"><button type="button" data-v="quero">QUERO LER</button><button type="button" data-v="lendo">LENDO</button><button type="button" data-v="lido">LIDO</button><button type="button" data-v="larguei">LARGUEI</button></div></div>
+      <span class="lb">Páginas</span><div class="gpv"><input class="gpin lpn" id="lpAt" type="number" inputmode="numeric" min="0" max="9999" aria-label="Página em que está"><span class="gpm">de</span><input class="gpin lpn" id="lpP" type="number" inputmode="numeric" min="0" max="9999" aria-label="Total de páginas"></div>
+      <span class="lb">Ritmo</span><div class="gpv"><p class="gtm" id="lpPace"></p></div>
+      <span class="lb">Nota</span><div class="gpv"><div class="lstars" id="lpR" role="group" aria-label="Nota do livro"></div></div>
+    </div>
+    <div class="w7 lw" id="lpWk" role="img"></div>
+    <div class="gpmode"><div class="seg" id="lpMode" role="group" aria-label="Ver ou escrever" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="ver">VER</button><button type="button" data-v="escrever">ESCREVER</button></div></div>
+    <div class="gmd" id="lpView"></div>
+    <textarea class="gped" id="lpEd" maxlength="20000" spellcheck="true" aria-label="Anotações do livro, em markdown" hidden></textarea>
+    <div class="gact"><button type="button" class="mk" id="lpDel">apagar este livro</button></div>
+   </article>
+  </div>
+
   <div id="vConfig" class="view" hidden>
     <section class="box">
       <div class="hd"><span>Perfil</span></div>
@@ -444,6 +542,8 @@
     <section class="box">
       <div class="hd"><span>Aparência</span></div>
       <div class="bd cf">
+        <div class="row"><span class="lb">Estilo</span><div class="seg" id="cStyle" style="grid-template-columns:repeat(2,1fr)"><button type="button" data-v="8bit">8 BITS</button><button type="button" data-v="min">MINIMALISTA</button></div></div>
+        <p class="note">8 bits é o Faro de sempre, com letras de fliperama. Minimalista usa letra comum, cinzas suaves e cantos arredondados.</p>
         <div class="row"><span class="lb">Tema</span><div class="seg" id="cTheme" style="grid-template-columns:repeat(3,1fr)"><button type="button" data-v="claro">CLARO</button><button type="button" data-v="escuro">ESCURO</button><button type="button" data-v="sistema">SISTEMA</button></div></div>
         <div class="row"><span class="lb">Tamanho do texto das questões</span><div class="seg" id="cFs"><button type="button" data-v="0.9">P</button><button type="button" data-v="1">M</button><button type="button" data-v="1.15">G</button><button type="button" data-v="1.3">GG</button></div></div>
         <p class="ctx demo">Exemplo: um carro a 72 km/h anda quantos metros em 5 s?</p>
@@ -473,7 +573,7 @@
     <section class="box">
       <div class="hd"><span>Menu lateral</span></div>
       <div class="bd cf" id="cPins">
-        <button type="button" class="chk" data-pin="nz" aria-pressed="false">mostrar o ruído branco</button>
+        <button type="button" class="chk" data-pin="nz" aria-pressed="false">mostrar o ruído</button>
         <button type="button" class="chk" data-pin="timer" aria-pressed="false">mostrar o timer</button>
         <button type="button" class="chk" data-pin="crono" aria-pressed="false">mostrar o cronômetro</button>
         <button type="button" class="chk" data-pin="pomo" aria-pressed="false">mostrar o pomodoro</button>

@@ -18,7 +18,7 @@
 
   // ---------- estado (preferências guardadas só neste navegador) ----------
   const load = (k, d) => { try { const v = localStorage.getItem('cm.' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } };
-  const SYNCED = ['ratings', 'marked', 'off', 'best', 'prefs', 'days', 'tmDays', 'tmMan', 'metas', 'tmLog', 'tmTl', 'cal', 'habs'];
+  const SYNCED = ['ratings', 'marked', 'off', 'best', 'prefs', 'days', 'tmDays', 'tmMan', 'metas', 'tmLog', 'tmTl', 'cal', 'habs', 'livros'];
   let cloud = null, pushT;
   const save = (k, v) => {
     try { localStorage.setItem('cm.' + k, JSON.stringify(v)); } catch (e) {}
@@ -66,9 +66,12 @@
   }
   let best = load('best', 0);
   // preferências: aparência, avanço automático, meta do dia, nome e foto (vão para a conta junto com o rating)
-  const PREF0 = { theme: 'claro', fs: 1, auto: -1, autoBad: false, goal: 20, tgoal: 0, tnote: 'end', check: 'auto', name: '', photo: '' };
+  const PREF0 = { theme: 'claro', estilo: '8bit', calAuto: -1, lmeta: 0, fs: 1, auto: -1, autoBad: false, goal: 20, tgoal: 0, tnote: 'end', check: 'auto', name: '', photo: '' };
   const fixPrefs = p => { const o = { ...PREF0, ...(p && typeof p === 'object' ? p : {}) };
     if (!['claro', 'escuro', 'sistema'].includes(o.theme)) o.theme = 'claro';
+    if (!['8bit', 'min'].includes(o.estilo)) o.estilo = '8bit';  // 8bit: o visual de sempre; min: minimalista, letra comum
+    o.lmeta = Math.max(0, Math.min(200, Math.round(+o.lmeta) || 0));  // meta de livros lidos no ano
+    o.calAuto = Math.round(+o.calAuto); if (!Number.isFinite(o.calAuto) || o.calAuto < -1) o.calAuto = -1;  // blocos que passaram contam sozinhos desde esta hora (0 = só confirmando)
     if (![0.9, 1, 1.15, 1.3].includes(+o.fs)) o.fs = 1;
     if (![-1, 0, 1000, 2000, 3000, 5000].includes(+o.auto)) o.auto = -1;
     if (![0, 10, 20, 30, 50].includes(+o.goal)) o.goal = 20;
@@ -80,15 +83,18 @@
     return o; };
   let prefs = fixPrefs(load('prefs', {}));
   // metas da pessoa (a página Metas); blocos do calendário e sessões dos relógios podem apontar para uma delas
-  const fixMetas = a => (Array.isArray(a) ? a : []).filter(g => g && typeof g.id === 'string' && String(g.t || '').trim()).slice(0, 60).map(g => ({
-    id: g.id.slice(0, 24), t: String(g.t).slice(0, 80), k: String(g.k || '').slice(0, 30), y: String(g.y || '').slice(0, 600),
+  // md: a página da meta, em markdown. As metas antigas tinham o porquê (y) e os passos (s): viram a primeira página
+  const gMig = g => [String(g.y || '').trim() ? String(g.y).trim().split('\n').map(l => '> ' + l).join('\n') : '',
+    (Array.isArray(g.s) ? g.s : []).filter(x => x && String(x.x || '').trim()).map(x => `- [${x.ok ? 'x' : ' '}] ${String(x.x).trim()}`).join('\n')].filter(Boolean).join('\n\n');
+  const fixMetas = a => (Array.isArray(a) ? a : []).filter(g => g && typeof g.id === 'string' && (String(g.t || '').trim() || String(g.md || '').trim())).slice(0, 80).map(g => ({
+    id: g.id.slice(0, 24), t: String(g.t || '').slice(0, 80), md: typeof g.md === 'string' ? g.md.slice(0, 20000) : gMig(g), k: String(g.k || '').slice(0, 30), y: String(g.y || '').slice(0, 600),
     d: /^\d{4}-\d\d-\d\d$/.test(g.d) ? g.d : '', st: ['on', 'pausa', 'feita'].includes(g.st) ? g.st : 'on', at: +g.at || 0, c: +g.c || 0, u: +g.u || 0,
     s: (Array.isArray(g.s) ? g.s : []).filter(x => x && typeof x.id === 'string' && String(x.x || '').trim()).slice(0, 40).map(x => ({ id: x.id.slice(0, 24), x: String(x.x).slice(0, 120), ok: !!x.ok })) }));
   let metas = fixMetas(load('metas', []));
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  const metaT = id => { const g = id && metas.find(x => x.id === id); return g ? g.t : ''; };
+  const metaT = id => { const g = id && metas.find(x => x.id === id); return g ? g.t.trim() || 'Sem título' : ''; };
   // botões para escolher a meta: as em andamento, mais a já escolhida se ela foi pausada ou conquistada
-  const goalKs = sel => metas.filter(g => g.st === 'on' || g.id === sel).map(g => `<button type="button" data-g="${g.id}" aria-pressed="${g.id === sel}" title="${esc(g.t)}">${esc(g.t.length > 32 ? g.t.slice(0, 31) + '…' : g.t)}</button>`).join('');
+  const goalKs = sel => metas.filter(g => g.st === 'on' || g.id === sel).map(g => `<button type="button" data-g="${g.id}" aria-pressed="${g.id === sel}" title="${esc(metaT(g.id))}">${esc(metaT(g.id).length > 32 ? metaT(g.id).slice(0, 31) + '…' : metaT(g.id))}</button>`).join('');
   // um registro por dia: questões respondidas, acertos e o rating de cada tópico mexido no fim do dia
   const dayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   const fixDays = d => (d && typeof d === 'object' && !Array.isArray(d) ? Object.fromEntries(Object.entries(d).filter(([k, v]) => /^\d{4}-\d\d-\d\d$/.test(k) && v && typeof v === 'object').map(([k, v]) => [k, { n: +v.n || 0, ok: +v.ok || 0, r: v.r && typeof v.r === 'object' ? v.r : {} }])) : {});
@@ -150,9 +156,9 @@
   // nome e linha de cada página, como aparecem no topo
   const PT = { exercicios: ['EXERCÍCIOS', 'contas rápidas, resolvidas de cabeça'], teoria: ['TEORIA', 'fórmulas, leis e constantes, sem contas'], marcadas: ['MARCADAS', 'questões guardadas para estudar depois'],
     estatisticas: ['ESTATÍSTICAS', 'o seu treino, dia a dia'], ranking: ['RANKING', 'quem mais respondeu e estudou'], config: ['CONFIGURAÇÕES', 'perfil, aparência e treino'],
-    ruido: ['RUÍDO BRANCO', 'um som constante que abafa o barulho em volta'], tempo: ['TEMPO', 'timer, cronômetro e pomodoro'],
+    ruido: ['RUÍDO', 'sons constantes que abafam o barulho em volta, e o que a pesquisa diz'], tempo: ['TEMPO', 'timer, cronômetro e pomodoro'],
     metas: ['METAS', 'os seus porquês, para lembrar nos dias difíceis'], calendario: ['CALENDÁRIO', 'blocos de estudo e o tempo que você estudou, hora a hora'],
-    habitos: ['HÁBITOS', 'o que você quer fazer sempre, um dia de cada vez'] };
+    habitos: ['HÁBITOS', 'o que você quer fazer sempre, um dia de cada vez'], leitura: ['LEITURA', 'o que você está lendo, onde parou e o que anotou'] };
   const cur_ = (b, on) => on ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current');
   function syncSettings() {
     const here = view === 'treino' ? mode : view;
@@ -440,8 +446,9 @@
       return;
     }
     if (view === 'estatisticas' && e.key === 'Escape' && !$('manForm').hidden) { manOpen(false); $('manOpen').focus(); return; }
-    if (view === 'metas' && e.key === 'Escape' && !$('glForm').hidden && e.target.tagName !== 'TEXTAREA') { glClose(); $('glNew').focus(); return; }
+    if (view === 'metas' && e.key === 'Escape' && glPg) { if (e.target.tagName === 'TEXTAREA') { glMode = 'ver'; drawGoals(); } else glBack(); return; }
     if (view === 'habitos' && e.key === 'Escape' && !$('hbForm').hidden) { hbClose(); $('hbNew').focus(); return; }
+    if (view === 'leitura' && e.key === 'Escape' && (lvPg || !$('lvForm').hidden)) { if (e.target.tagName === 'TEXTAREA') { lvMode = 'ver'; drawRead(); } else if (lvPg) lvBack(); else { $('lvForm').hidden = true; drawRead(); } return; }
     if (view !== 'treino') { if (e.key === 'Escape' && !/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) go(mode); return; }
     if (e.key === 'Escape' && !revealed) { e.preventDefault(); finish(false, true); }
     else if (e.key === 'Enter' && revealed && e.target.tagName !== 'BUTTON') { e.preventDefault(); next(); }
@@ -516,7 +523,7 @@
   }
   const segOn = (id, v) => $(id).querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', +b.dataset.v === +v || b.dataset.v === v));
   function drawConfig() {
-    segOn('cTheme', prefs.theme); segOn('cFs', prefs.fs); segOn('cAuto', prefs.auto); segOn('cGoal', prefs.goal); segOn('cCheck', prefs.check); segOn('cTNote', prefs.tnote);
+    segOn('cTheme', prefs.theme); segOn('cStyle', prefs.estilo); segOn('cFs', prefs.fs); segOn('cAuto', prefs.auto); segOn('cGoal', prefs.goal); segOn('cCheck', prefs.check); segOn('cTNote', prefs.tnote);
     $('tnNoteTxt').textContent = prefs.tnote === 'start' ? 'Ao começar um timer, um cronômetro do zero ou um foco do pomodoro, aparece um campo para escrever o que você vai fazer.'
       : prefs.tnote === 'end' ? 'Quando um timer acaba, um foco do pomodoro termina ou você zera o cronômetro, aparece um campo para escrever o que fez (se ainda não tiver escrito).'
       : 'Nada é perguntado. Dá para escrever mesmo assim, tocando na sessão, na lista da página Tempo.';
@@ -527,16 +534,29 @@
       : `Depois de acertar, a próxima vem ${prefs.auto ? `em ${prefs.auto / 1000} s` : 'na hora'}${prefs.autoBad ? '; depois de errar ou pular, com pelo menos 1,5 s para ver a resposta' : ''}. Abrir a dica ou marcar a questão segura a tela.`;
     drawProfile(); drawTGoal();
   }
+  // escuro agora? (o tema "sistema" segue o aparelho, ou o claude.ai quando ele diz)
+  const isDark = () => prefs.theme === 'escuro' || (prefs.theme === 'sistema' && (document.documentElement.dataset.theme ? document.documentElement.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches));
+  // o botão do menu troca entre claro e escuro, com ou sem conta
+  function drawThemeQ() {
+    const d = isDark(), b = $('themeQ');
+    b.setAttribute('aria-pressed', d); b.setAttribute('aria-label', d ? 'Usar o tema claro' : 'Usar o tema escuro');
+    b.title = d ? 'tema claro' : 'tema escuro'; $('themeQT').textContent = d ? 'claro' : 'escuro';
+    const k = d ? 'sun' : 'moon'; if (b.dataset.k !== k) { b.dataset.k = k; b.querySelector('.ico').innerHTML = d ? SUN : MOON; }
+  }
+  const MOON = pix(['...####..', '.##......', '.#.......', '#........', '#........', '#........', '.#......#', '.##....##', '...####..']);
+  const SUN = pix(['....#....', '.#.....#.', '...###...', '..#####..', '#.#####.#', '..#####..', '...###...', '.#.....#.', '....#....']);
+  $('themeQ').addEventListener('click', () => setPref('theme', isDark() ? 'claro' : 'escuro'));
   function applyPrefs() {
     const r = document.documentElement;
-    r.dataset.tema = prefs.theme; r.style.setProperty('--fs', prefs.fs);
+    r.dataset.tema = prefs.theme; r.dataset.estilo = prefs.estilo; r.style.setProperty('--fs', prefs.fs);
+    drawThemeQ();
     drawProfile(); drawGoal(); drawHist(); drawEvo();
     if (view === 'config') drawConfig();
     drawTGoal();
   }
   const setPref = (k, v) => { prefs[k] = v; save('prefs', prefs); applyPrefs(); };
   const segPick = (id, k, num) => $(id).addEventListener('click', e => { const b = e.target.closest('button'); if (b) setPref(k, num ? +b.dataset.v : b.dataset.v); });
-  segPick('cTheme', 'theme'); segPick('cFs', 'fs', true); segPick('cAuto', 'auto', true); segPick('cGoal', 'goal', true); segPick('cCheck', 'check'); segPick('cTNote', 'tnote');
+  segPick('cTheme', 'theme'); segPick('cStyle', 'estilo'); segPick('cFs', 'fs', true); segPick('cAuto', 'auto', true); segPick('cGoal', 'goal', true); segPick('cCheck', 'check'); segPick('cTNote', 'tnote');
   $('cAutoBad').addEventListener('click', () => setPref('autoBad', !prefs.autoBad));
   $('pName').addEventListener('input', e => { prefs.name = e.target.value.slice(0, 40); save('prefs', prefs); $('meName').textContent = prefs.name.trim() || acctName; });
   $('pName').addEventListener('change', e => { prefs.name = e.target.value.trim().slice(0, 40); save('prefs', prefs); drawProfile(); rkQueue(); });
@@ -557,7 +577,7 @@
     days = {}; save('days', days); drawGoal(); drawEvo(); evoOptions();
   });
   // o tema "sistema" acompanha o aparelho e o claude.ai; o histórico em canvas precisa ser redesenhado
-  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => drawHist());
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { drawHist(); drawThemeQ(); });
   new MutationObserver(() => drawHist()).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
   // ---------- meta do dia e dias seguidos ----------
@@ -657,6 +677,7 @@
     flag: pix(['#........', '####.....', '#######..', '#########', '#######..', '####.....', '#........', '#........', '#........']),
     cal: pix(['.#.....#.', '#########', '#.......#', '#########', '#.......#', '#.#.#.#.#', '#.......#', '#.#.#.#.#', '#########']),
     hab: pix(['#########', '#.......#', '#......##', '#.....#.#', '##...#..#', '#.#.#...#', '#..#....#', '#.......#', '#########']),
+    read: pix(['##.....##', '#.##.##.#', '#...#...#', '#.#.#.#.#', '#...#...#', '#.#.#.#.#', '#...#...#', '.###.###.', '....#....']),
   };
   $('nav').querySelectorAll('.ni').forEach(n => { n.innerHTML = NI[n.dataset.i]; });
   const XI = pix(['#.....#', '.#...#.', '..#.#..', '...#...', '..#.#..', '.#...#.', '#.....#']);
@@ -814,48 +835,151 @@
   document.addEventListener('click', e => {
     const u = e.target.closest('[data-unpin]'); if (u) return setPin(u.dataset.unpin, false);
     const p = e.target.closest('[data-pin]'); if (p) return setPin(p.dataset.pin, !pins[p.dataset.pin]);
+    if (e.target.closest('[data-go-cfg]')) { go('config'); return scrollTo({ top: 0 }); }
     const g = e.target.closest('[data-go]');
     if (g) { if (g.dataset.go !== 'ruido') { tm.tab = g.dataset.go; tmSave(); } go(g.dataset.go === 'ruido' ? 'ruido' : 'tempo'); scrollTo({ top: 0 }); }
   });
   $('nzPin').addEventListener('click', () => setPin('nz', !pins.nz));
   $('tmPin').addEventListener('click', () => setPin(tm.tab, !pins[tm.tab]));
 
-  // ---------- ruído branco: o mesmo gerador do app Ruído Branco ----------
-  const nz = { ctx: null, gain: null, hpf: null, lpf: null, an: null, on: false, raf: 0, offAt: 0, watch: 0 };
-  const nzSet = Object.assign({ vol: 40, hp: 0, lp: 1000, off: 0 }, load('noise', {}));
+  // ---------- ruído: um mixer de sons sintetizados na hora, mais batidas binaurais ----------
+  // os sons: cada um é uma função que escreve uma amostra estéreo em o[0] e o[1]. Roda dentro do AudioWorklet
+  // (o texto da função vai para lá) ou, sem worklet, gera 30 s em loop.
+  function nzGen(kind, sr) {
+    const R = Math.random, TAU = 2 * Math.PI;
+    const gs = () => { const u = 1 - R(), v = R(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(TAU * v); };
+    // rosa: filtro de Paul Kellet sobre ruído branco (-3 dB por oitava); marrom: ruído branco integrado (-6 dB por oitava)
+    const pink = () => { let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0; return () => { const w = R() * 2 - 1;
+      b0 = .99886 * b0 + w * .0555179; b1 = .99332 * b1 + w * .0750759; b2 = .969 * b2 + w * .153852; b3 = .8665 * b3 + w * .3104856; b4 = .55 * b4 + w * .5329522; b5 = -.7616 * b5 - w * .016898;
+      const y = b0 + b1 + b2 + b3 + b4 + b5 + b6 + w * .5362; b6 = w * .115926; return y * .11; }; };
+    const brown = () => { let b = 0; return () => { b = (b + .02 * (R() * 2 - 1)) / 1.02; return b * 3.5; }; };
+    const lp = fc => { let a = Math.exp(-TAU * fc / sr), y = 0; const f = x => (y = (1 - a) * x + a * y); f.set = c => { a = Math.exp(-TAU * c / sr); }; return f; };
+    // passa-faixa de estado variável, para o vento
+    const bp = () => { let lo = 0, ba = 0; return (x, fc, q) => { const f = 2 * Math.sin(Math.PI * Math.min(fc, sr / 6) / sr); lo += f * ba; const hi = x - lo - q * ba; ba += f * hi; return ba; }; };
+    // um valor que vagueia devagar entre a e b (rajadas, ondas)
+    const drift = (a, b, sec) => { let v = R(), t = R(); const k = 1 / (sec * sr); return () => { t += (R() - .5) * k * 40; t = Math.max(0, Math.min(1, t)); v += (t - v) * k * 8; return a + (b - a) * v; }; };
+    const ev = []; // eventos curtos: gotas, bolhas, estalos
+    const evRun = o => { for (let i = ev.length - 1; i >= 0; i--) { const e = ev[i], s = e.f(e); o[0] += s * (1 - e.p); o[1] += s * e.p; if (e.a < 1e-4) ev.splice(i, 1); } };
+    if (kind === 'white') return o => { o[0] = gs() * .25; o[1] = gs() * .25; };
+    if (kind === 'pink') { const a = pink(), b = pink(); return o => { o[0] = a(); o[1] = b(); }; }
+    if (kind === 'brown') { const a = brown(), b = brown(); return o => { o[0] = a(); o[1] = b(); }; }
+    if (kind === 'rain') {
+      const a = pink(), b = pink(), la = lp(400), lb = lp(400), ha = lp(7000), hb = lp(7000);
+      const drop = () => { const l = lp(1200 + R() * 6000), d = Math.exp(-1 / (sr * (.001 + R() * .006))); return { a: .15 + R() * .5, p: R(), f: e => { const s = l((R() * 2 - 1) * e.a); e.a *= d; return s * 2.2; } }; };
+      return o => { let x = a(), y = b(); x = ha(x - la(x)); y = hb(y - lb(y)); o[0] = x * .9; o[1] = y * .9; if (R() < 90 / sr) ev.push(drop()); evRun(o); };
+    }
+    if (kind === 'waves') {
+      const a = brown(), b = pink(), c = pink(), la = lp(500), lb = lp(500); let ph = R(), per = 7, n = 0, env = 0;
+      return o => {
+        if (++n >= 64) { n = 0; ph += 64 / (per * sr); if (ph >= 1) { ph -= 1; per = 6 + R() * 6; }
+          const s = Math.sin(Math.PI * ph); env = .12 + .88 * s * s * (ph < .4 ? ph / .4 : 1); la.set(250 + 2600 * env * env); lb.set(250 + 2600 * env * env); }
+        const r = a() * .5; o[0] = (la(c()) * 2.2 + r) * env; o[1] = (lb(b()) * 2.2 + r) * (env * .9 + .05);
+      };
+    }
+    if (kind === 'wind') {
+      const fa = bp(), fb = bp(), cf = drift(220, 900, 3), g = drift(.25, 1, 4), q = drift(.25, .7, 5); let n = 0, f = 400, gg = .5, qq = .5;
+      return o => { if (++n >= 32) { n = 0; f = cf(); gg = g(); qq = q(); } o[0] = fa(R() * 3.4 - 1.7, f, qq) * gg * .55; o[1] = fb(R() * 3.4 - 1.7, f * 1.07, qq) * gg * .55; };
+    }
+    if (kind === 'stream') {
+      const a = pink(), b = pink(), la = lp(300), lb = lp(300), ha = lp(3500), hb = lp(3500);
+      // bolhas: senoides curtas que sobem de tom, o som característico da água correndo
+      const bub = () => { const f0 = 350 * Math.pow(8, R()), tau = .004 + R() * .016, d = Math.exp(-1 / (tau * sr)), rise = 1 + (1.5 + R() * 3) / (tau * sr); let ph = 0, f = f0;
+        return { a: .08 + R() * .22, p: R(), f: e => { ph += TAU * f / sr; f *= rise; const s = Math.sin(ph) * e.a; e.a *= d; return s; } }; };
+      return o => { let x = a(), y = b(); x = ha(x - la(x)); y = hb(y - lb(y)); o[0] = x * .45; o[1] = y * .45; if (R() < 70 / sr) ev.push(bub()); evRun(o); };
+    }
+    if (kind === 'fire') {
+      const a = brown(), b = brown(), h = pink(), lh = lp(1500), hh = lp(1500), g = drift(.5, 1, 1.5);
+      const crack = () => { const d = Math.exp(-1 / (sr * (.0003 + R() * .0015))), l = lp(2000 + R() * 8000); return { a: .2 + R() * .8, p: .2 + R() * .6, f: e => { const s = l((R() * 2 - 1) * e.a); e.a *= d; return s * 1.6; } }; };
+      let n = 0, gg = .7, burst = 0;
+      return o => {
+        if (++n >= 64) { n = 0; gg = g(); }
+        const r = (a() + b()) * .3 * gg, x = h(); o[0] = r + (x - lh(x)) * .06; o[1] = r * .95 + (x - hh(x)) * .06;
+        if (burst > 0 ? R() < 600 / sr : R() < 6 / sr) { ev.push(crack()); burst = burst > 0 ? burst - 1 : Math.floor(R() * 5); }
+        evRun(o);
+      };
+    }
+    return o => { o[0] = 0; o[1] = 0; };
+  }
+  // os sons do mixer: nome, o que é, e um ganho que deixa todos com volume parecido
+  const NZK = [
+    ['white', 'Ruído branco', 'a mesma energia em todas as frequências; chiado de TV', 1],
+    ['pink', 'Ruído rosa', 'mais grave que o branco, como chuva fina ou cachoeira ao longe', 1.25],
+    ['brown', 'Ruído marrom', 'bem grave, como um avião por dentro ou trovão longe', 1.2],
+    ['rain', 'Chuva', 'chuva constante com gotas', 1.9],
+    ['waves', 'Mar', 'ondas que vêm e vão, a cada 6 a 12 s', 1.05],
+    ['wind', 'Vento', 'rajadas que sobem e descem', 2.1],
+    ['stream', 'Riacho', 'água correndo, com bolhas', 2.6],
+    ['fire', 'Lareira', 'fogo baixo, com estalos', 2.8]];
+  // receitas: [nome, mistura, por que]
+  const NZR = [
+    ['Branco', { white: 100 }, 'O clássico. Na pesquisa, ruído branco e rosa ajudaram um pouco quem tem dificuldade de atenção.'],
+    ['Rosa', { pink: 100 }, 'Parecido com o branco, mais macio. Bom para abafar conversa em volta.'],
+    ['Marrom', { brown: 100 }, 'O mais grave. Muita gente acha relaxante; ainda não há estudos sobre ele.'],
+    ['Chuva', { rain: 100, brown: 20 }, 'Som da natureza, constante e sem vozes.'],
+    ['Mar', { waves: 100 }, 'Natureza, com um ritmo lento de ondas.'],
+    ['Riacho', { stream: 90, wind: 15 }, 'Água correndo: natureza que também abafa o barulho em volta.'],
+    ['Lareira', { fire: 100, brown: 15 }, 'Fogo baixo com estalos, para estudar à noite.'],
+    ['Tempestade', { rain: 100, wind: 55, brown: 45 }, 'Chuva forte com vento: abafa bastante o barulho em volta.']];
+  const nz = { ctx: null, gain: null, bus: null, hpf: null, lpf: null, an: null, src: {}, g: {}, bin: null, on: false, raf: 0, offAt: 0, watch: 0 };
+  const nzSet = Object.assign({ vol: 40, hp: 0, lp: 1000, off: 0, mix: { white: 100 }, bin: 0, bf: 10 }, load('noise', {}));
   if (![0, 15, 30, 60, 120].includes(+nzSet.off)) nzSet.off = 0;
+  if (![6, 10, 16, 40].includes(+nzSet.bf)) nzSet.bf = 10;
+  nzSet.bin = Math.max(0, Math.min(100, Math.round(+nzSet.bin) || 0));
+  nzSet.mix = Object.fromEntries(NZK.map(([k]) => [k, Math.max(0, Math.min(100, Math.round(+(nzSet.mix || {})[k]) || 0))]));
   const NZQ = n => document.querySelectorAll(`[data-nz="${n}"]`);
   const nzHz = v => 20 * Math.pow(1000, v / 1000);
   const nzFmt = hz => hz >= 1000 ? (hz / 1000).toLocaleString('pt-BR', { maximumFractionDigits: hz >= 10000 ? 0 : 1 }) + ' kHz' : Math.round(hz) + ' Hz';
-  // cores prontas: [corta graves, corta agudos] na escala dos controles (0 a 1000)
+  // filtros prontos: [corta graves, corta agudos] na escala dos controles (0 a 1000)
   const NZC = { branco: [0, 1000], suave: [0, 767], grave: [0, 515], agudo: [625, 1000] };
-  const NZ_WORKLET = `class White extends AudioWorkletProcessor {
+  const NZ_WORKLET = `const nzGen = ${nzGen.toString()};
+  class FaroSound extends AudioWorkletProcessor {
+    constructor(o) { super(); this.g = nzGen(o.processorOptions.kind, sampleRate); this.o = [0, 0]; }
     process(_, outputs) {
-      for (const ch of outputs[0]) for (let i = 0; i < ch.length; i += 2) {
-        const u = 1 - Math.random(), v = Math.random(), r = Math.sqrt(-2 * Math.log(u)) * 0.25;
-        ch[i] = r * Math.cos(2 * Math.PI * v); if (i + 1 < ch.length) ch[i + 1] = r * Math.sin(2 * Math.PI * v);
-      }
+      const [l, r] = outputs[0], o = this.o, g = this.g;
+      for (let i = 0; i < l.length; i++) { g(o); l[i] = o[0]; if (r) r[i] = o[1]; }
       return true;
     }
   }
-  registerProcessor('white-noise', White);`;
-  async function nzSource(ctx) {
-    try {
-      await ctx.audioWorklet.addModule(URL.createObjectURL(new Blob([NZ_WORKLET], { type: 'application/javascript' })));
-      return new AudioWorkletNode(ctx, 'white-noise', { outputChannelCount: [2] });
-    } catch (e) {
-      // sem worklet: 30 s de ruído gaussiano em loop
-      const len = ctx.sampleRate * 30, buf = ctx.createBuffer(2, len, ctx.sampleRate);
-      for (let c = 0; c < 2; c++) { const d = buf.getChannelData(c); for (let i = 0; i < len; i++) { const u = 1 - Math.random(), v = Math.random(); d[i] = Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v) * 0.25; } }
-      const s = ctx.createBufferSource(); s.buffer = buf; s.loop = true; s.start(); return s;
-    }
+  registerProcessor('faro-sound', FaroSound);`;
+  let nzWk = null;
+  async function nzSource(ctx, kind) {
+    if (nzWk === null) nzWk = ctx.audioWorklet ? ctx.audioWorklet.addModule(URL.createObjectURL(new Blob([NZ_WORKLET], { type: 'application/javascript' }))).then(() => true, () => false) : Promise.resolve(false);
+    if (await nzWk) return new AudioWorkletNode(ctx, 'faro-sound', { outputChannelCount: [2], processorOptions: { kind } });
+    // sem worklet: 30 s do mesmo som, em loop
+    const len = ctx.sampleRate * 30, buf = ctx.createBuffer(2, len, ctx.sampleRate), g = nzGen(kind, ctx.sampleRate), o = [0, 0], L = buf.getChannelData(0), Rc = buf.getChannelData(1);
+    for (let i = 0; i < len; i++) { g(o); L[i] = o[0]; Rc[i] = o[1]; }
+    const s = ctx.createBufferSource(); s.buffer = buf; s.loop = true; s.start(); return s;
   }
   const nzLevel = () => (nzSet.vol / 100) ** 2;
+  const nzLayer = k => { const v = nzSet.mix[k] / 100, f = NZK.find(x => x[0] === k)[3]; return v * v * f; };
+  const nzAny = () => NZK.some(([k]) => nzSet.mix[k] > 0) || nzSet.bin > 0;
   function nzFilters(instant) {
     if (!nz.ctx) return;
     const ny = nz.ctx.sampleRate / 2, t = nz.ctx.currentTime;
     nz.hpf.frequency.setTargetAtTime(+nzSet.hp === 0 ? 1 : nzHz(nzSet.hp), t, instant ? 0 : 0.03);
     nz.lpf.frequency.setTargetAtTime(+nzSet.lp === 1000 ? ny : Math.min(nzHz(nzSet.lp), ny), t, instant ? 0 : 0.03);
+  }
+  // cada som só é criado quando entra na mistura; depois fica, em silêncio, para voltar sem atraso
+  async function nzLayers(tc = 0.08) {
+    if (!nz.ctx) return;
+    const t = nz.ctx.currentTime;
+    for (const [k] of NZK) {
+      const want = nzLayer(k);
+      if (want > 0 && !nz.src[k]) {
+        nz.src[k] = 'loading';
+        const s = await nzSource(nz.ctx, k), g = nz.ctx.createGain(); g.gain.value = 0;
+        s.connect(g); g.connect(nz.bus); nz.src[k] = s; nz.g[k] = g;
+      }
+      if (nz.g[k]) nz.g[k].gain.setTargetAtTime(nzLayer(k), nz.ctx.currentTime || t, tc);
+    }
+    // batidas binaurais: 200 Hz num ouvido, 200 + a diferença no outro; não passam pelos filtros
+    if (nzSet.bin > 0 && !nz.bin) {
+      const ctx = nz.ctx, m = ctx.createChannelMerger(2), l = ctx.createOscillator(), r = ctx.createOscillator(), g = ctx.createGain();
+      l.frequency.value = 200; r.frequency.value = 200 + +nzSet.bf; g.gain.value = 0;
+      l.connect(m, 0, 0); r.connect(m, 0, 1); m.connect(g); g.connect(nz.gain); l.start(); r.start();
+      nz.bin = { l, r, g };
+    }
+    if (nz.bin) { nz.bin.r.frequency.setTargetAtTime(200 + +nzSet.bf, t, 0.05); nz.bin.g.gain.setTargetAtTime((nzSet.bin / 100) ** 2 * 0.35, t, tc); }
   }
   // o volume e o desligamento automático ficam agendados no próprio áudio, que segue na hora com a aba parada
   function nzGain(tc = 0.05) {
@@ -868,6 +992,14 @@
     clearInterval(nz.watch); nz.watch = 0;
     if (nz.on && nz.offAt) nz.watch = setInterval(() => { if (nz.on && Date.now() >= nz.offAt + 2000) nzToggle(); else nzUI(); }, 1000);
   }
+  const nzSave = () => save('noise', nzSet);
+  // o nome do que está tocando: a receita, um som só, ou "mistura"
+  function nzName() {
+    const r = NZR.find(([, m]) => NZK.every(([k]) => (m[k] || 0) === nzSet.mix[k]));
+    if (r) return r[0];
+    const on = NZK.filter(([k]) => nzSet.mix[k] > 0);
+    return on.length === 1 ? on[0][1] : on.length ? 'mistura' : nzSet.bin ? 'batidas binaurais' : 'nada no mixer';
+  }
   function nzUI() {
     const hp = +nzSet.hp, lp = +nzSet.lp;
     NZQ('hpOut').forEach(o => setT(o, hp === 0 ? 'desl.' : nzFmt(nzHz(hp))));
@@ -876,13 +1008,20 @@
     if (nz.ctx) NZQ('ny').forEach(o => setT(o, ` (aqui, ${nzFmt(nz.ctx.sampleRate / 2)})`));
     for (const k of ['vol', 'hp', 'lp']) NZQ(k).forEach(i => { if (document.activeElement !== i) i.value = nzSet[k]; });
     const c = Object.keys(NZC).find(k => NZC[k][0] === hp && NZC[k][1] === lp);
-    segOn('nzColor', c || ''); setT($('nzPre'), c ? '' : 'personalizado');
+    segOn('nzColor', c || '');
+    const r = NZR.find(([, m]) => NZK.every(([k]) => (m[k] || 0) === nzSet.mix[k]));
+    $('nzRec').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', !!r && b.dataset.r === r[0]));
+    setT($('nzPre'), r ? '' : 'personalizada'); setT($('nzRecTxt'), r ? r[2] : 'Mistura sua. Toque numa receita para voltar a uma pronta.');
+    for (const [k] of NZK) { const i = $('nzM_' + k); if (document.activeElement !== i) i.value = nzSet.mix[k]; setT($('nzO_' + k), nzSet.mix[k] ? nzSet.mix[k] + '%' : 'desl.'); i.closest('.nzc').classList.toggle('off', !nzSet.mix[k]); }
+    if (document.activeElement !== $('nzBin')) $('nzBin').value = nzSet.bin;
+    setT($('nzBinOut'), nzSet.bin ? nzSet.bin + '%' : 'desl.'); segOn('nzBf', nzSet.bf);
+    setT($('nzWhat'), nzName());
     NZQ('play').forEach(b => {
       b.setAttribute('aria-pressed', nz.on);
-      if (b.classList.contains('mp')) { const k = nz.on ? 'stop' : 'play'; if (b.dataset.k !== k) { b.dataset.k = k; b.innerHTML = IC[k]; b.setAttribute('aria-label', nz.on ? 'Parar o ruído branco' : 'Tocar o ruído branco'); } }
+      if (b.classList.contains('mp')) { const k = nz.on ? 'stop' : 'play'; if (b.dataset.k !== k) { b.dataset.k = k; b.innerHTML = IC[k]; b.setAttribute('aria-label', nz.on ? 'Parar o ruído' : 'Tocar o ruído'); } }
       else setT(b, nz.on ? '■ PARAR' : '▶ TOCAR');
     });
-    const st = !nz.on ? 'desligado' : nz.offAt ? `até ${hhmm(nz.offAt)}` : 'tocando';
+    const st = !nz.on ? 'desligado' : !nzAny() ? 'tocando, mas o mixer está zerado' : nz.offAt ? `até ${hhmm(nz.offAt)}` : 'tocando';
     NZQ('state').forEach(s => setT(s, st));
     document.querySelectorAll('.noise').forEach(x => x.classList.toggle('on', nz.on));
     setT($('nzNav'), nz.on ? '▶' : '');
@@ -893,19 +1032,21 @@
   async function nzToggle() {
     if (!nz.ctx) {
       const ctx = new (window.AudioContext || window.webkitAudioContext)();
-      const src = await nzSource(ctx);
+      nz.bus = ctx.createGain();
       nz.hpf = ctx.createBiquadFilter(); nz.hpf.type = 'highpass';
       nz.lpf = ctx.createBiquadFilter(); nz.lpf.type = 'lowpass';
       nz.gain = ctx.createGain(); nz.gain.gain.value = 0;
       nz.an = ctx.createAnalyser(); nz.an.fftSize = 512; nz.an.smoothingTimeConstant = 0.85;
-      src.connect(nz.hpf); nz.hpf.connect(nz.lpf); nz.lpf.connect(nz.gain); nz.gain.connect(nz.an); nz.an.connect(ctx.destination);
+      nz.bus.connect(nz.hpf); nz.hpf.connect(nz.lpf); nz.lpf.connect(nz.gain); nz.gain.connect(nz.an); nz.an.connect(ctx.destination);
       nz.ctx = ctx; nzFilters(true);
     }
     if (nz.ctx.state === 'suspended') await nz.ctx.resume();
     nz.on = !nz.on;
+    // tocar com o mixer zerado volta para o ruído branco
+    if (nz.on && !nzAny()) { nzSet.mix.white = 100; nzSave(); }
     nz.offAt = nz.on && +nzSet.off ? Date.now() + nzSet.off * 60000 : 0;
     nzGain(); nzWatch(); nzUI();
-    if (nz.on) nzDraw();
+    if (nz.on) { await nzLayers(0); nzDraw(); }
   }
   // espectro em blocos de pixel: um painel pequeno no menu e um grande na página
   function nzFrame(cv, bins) {
@@ -929,20 +1070,36 @@
     if (nz.on || live) nz.raf = requestAnimationFrame(nzDraw);
   }
   for (const k of ['vol', 'hp', 'lp']) NZQ(k).forEach(i => i.addEventListener('input', e => {
-    nzSet[k] = +e.target.value; save('noise', nzSet); nzFilters();
+    nzSet[k] = +e.target.value; nzSave(); nzFilters();
     if (k === 'vol') nzGain(0.03);
     nzUI();
   }));
   $('nzColor').addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
-    [nzSet.hp, nzSet.lp] = NZC[b.dataset.v]; save('noise', nzSet); nzFilters(); nzUI();
+    [nzSet.hp, nzSet.lp] = NZC[b.dataset.v]; nzSave(); nzFilters(); nzUI();
   });
   $('nzOff').addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
-    nzSet.off = +b.dataset.v; save('noise', nzSet);
+    nzSet.off = +b.dataset.v; nzSave();
     if (nz.on) { nz.offAt = nzSet.off ? Date.now() + nzSet.off * 60000 : 0; nzGain(); nzWatch(); }
     nzUI();
   });
+  $('nzRec').innerHTML = NZR.map(([n]) => `<button type="button" data-r="${n}">${n}</button>`).join('');
+  $('nzMix').innerHTML = NZK.map(([k, n, d]) => `<div class="nzc"><label for="nzM_${k}">${n}<small>${d}</small></label><input id="nzM_${k}" type="range" min="0" max="100" step="5" value="0"><output id="nzO_${k}" for="nzM_${k}">desl.</output></div>`).join('');
+  $('nzRec').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const r = NZR.find(x => x[0] === b.dataset.r);
+    for (const [k] of NZK) nzSet.mix[k] = r[1][k] || 0;
+    nzSave(); nzLayers(); nzUI();
+    if (!nz.on) nzToggle();
+  });
+  $('nzMix').addEventListener('input', e => {
+    const k = e.target.id.slice(4); if (!(k in nzSet.mix)) return;
+    nzSet.mix[k] = +e.target.value; nzSave(); nzLayers(0.03); nzUI();
+  });
+  $('nzZero').addEventListener('click', () => { for (const [k] of NZK) nzSet.mix[k] = 0; nzSave(); nzLayers(); nzUI(); });
+  $('nzBin').addEventListener('input', e => { nzSet.bin = +e.target.value; nzSave(); nzLayers(0.03); nzUI(); });
+  $('nzBf').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; nzSet.bf = +b.dataset.v; nzSave(); nzLayers(); nzUI(); });
   NZQ('play').forEach(b => b.addEventListener('click', nzToggle));
   $('nzQuick').addEventListener('click', () => { if (nz.on) nzToggle(); });
   NZQ('scope').forEach(cv => nzFrame(cv));
@@ -1717,66 +1874,81 @@
     marked = []; save('marked', marked); drawMarked(); syncMark();
   });
 
-  // ---------- metas: os motivos de quem estuda, escritos pela própria pessoa; ficam só nesta página ----------
+  // ---------- metas: cada meta é uma página da pessoa, escrita em markdown ----------
   const GK = ['vestibular', 'faculdade', 'curso', 'música', 'idioma', 'leitura', 'concurso'];
-  let glEdit = null, glQi = null;
+  let glPg = null, glQi = null, glMode = 'ver';
   const gid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
-  const gSave = g => { if (g) g.u = Date.now(); save('metas', metas); };
+  const gSave = g => { if (g) { g.u = Date.now(); g.y = mdWhy(g.md).slice(0, 600); } save('metas', metas); };
   const mkEl = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
   const gDue = d => { const n = Math.round((new Date(d + 'T12:00') - new Date(dayKey() + 'T12:00')) / 864e5);
     return n > 1 ? `faltam ${n} dias` : n === 1 ? 'falta 1 dia' : n === 0 ? 'é hoje' : `passou há ${-n} ${n === -1 ? 'dia' : 'dias'}`; };
+  // markdown pequeno e seguro: o texto é escapado antes, e só links http(s) viram links
+  const mdInline = t => esc(t)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/(^|[^*\w])\*([^*\s](?:[^*]*[^*\s])?)\*/g, '$1<i>$2</i>')
+    .replace(/(^|[^\w])_([^_\s](?:[^_]*[^_\s])?)_/g, '$1<i>$2</i>')
+    .replace(/~~([^~]+)~~/g, '<s>$1</s>')
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  function mdHtml(src, live) {
+    const L = String(src || '').replace(/\r/g, '').split('\n'), out = [];
+    let para = [], list = null, quote = [];
+    const flushP = () => { if (para.length) out.push(`<p>${para.map(mdInline).join('<br>')}</p>`); para = []; };
+    const flushL = () => { if (list) out.push(`</${list}>`); list = null; };
+    const flushQ = () => { if (quote.length) out.push(`<blockquote>${quote.map(mdInline).join('<br>')}</blockquote>`); quote = []; };
+    const flush = () => { flushP(); flushL(); flushQ(); };
+    L.forEach((ln, i) => {
+      let m;
+      if (!ln.trim()) return flush();
+      if ((m = /^(#{1,3})\s+(.*)$/.exec(ln))) { flush(); const h = m[1].length + 1; return out.push(`<h${h}>${mdInline(m[2])}</h${h}>`); }
+      if (/^\s*([-*_])(\s*\1){2,}\s*$/.test(ln)) { flush(); return out.push('<hr>'); }
+      if ((m = /^>\s?(.*)$/.exec(ln))) { flushP(); flushL(); return quote.push(m[1]); }
+      flushQ();
+      const task = /^\s*[-*+]\s+\[( |x|X)\]\s?(.*)$/.exec(ln), ul = !task && /^\s*[-*+]\s+(.*)$/.exec(ln), ol = !task && !ul && /^\s*\d+[.)]\s+(.*)$/.exec(ln);
+      if (task || ul || ol) {
+        flushP(); const kind = ol ? 'ol' : 'ul';
+        if (list !== kind) { flushL(); list = kind; out.push(`<${kind}${task ? ' class="tk"' : ''}>`); }
+        if (task) { const on = task[1] !== ' '; return out.push(`<li class="tk${on ? ' on' : ''}"><button type="button" class="gtk" data-ln="${i}" aria-pressed="${on}"${live ? '' : ' disabled'} aria-label="${on ? 'Desmarcar' : 'Marcar'}: ${esc(task[2])}"></button><span>${mdInline(task[2])}</span></li>`); }
+        return out.push(`<li>${mdInline((ul || ol)[1])}</li>`);
+      }
+      flushL(); para.push(ln.trim());
+    });
+    flush();
+    return out.join('');
+  }
+  // o motivo da meta: a primeira citação (> …) da página; sem citação, o primeiro parágrafo
+  function mdWhy(md) {
+    const L = String(md || '').split('\n'), q = [];
+    for (const ln of L) { const m = /^>\s?(.*)$/.exec(ln); if (m) q.push(m[1]); else if (q.length) break; }
+    if (q.length) return q.join('\n').trim();
+    const p = L.find(ln => ln.trim() && !/^\s*(#|[-*+]\s|\d+[.)]\s|>|---)/.test(ln));
+    return (p || '').trim();
+  }
+  const mdPlain = t => String(t || '').replace(/^\s*(#{1,3}|>|[-*+](\s+\[[ xX]\])?|\d+[.)])\s*/gm, '').replace(/[*_~`]/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\s+/g, ' ').trim();
+  const gTasks = md => { const t = String(md || '').match(/^\s*[-*+]\s+\[( |x|X)\]/gm) || []; return { n: t.length, ok: t.filter(x => /x/i.test(x)).length }; };
   // o lembrete do topo: um motivo por dia, entre as metas em andamento
   function drawWhy() {
-    const rs = metas.filter(g => g.st === 'on' && g.y.trim());
+    const rs = metas.filter(g => g.st === 'on' && mdWhy(g.md));
     $('glWhy').hidden = !rs.length; if (!rs.length) return;
     if (glQi == null) { glQi = 0; for (const ch of dayKey()) glQi = (glQi * 31 + ch.charCodeAt(0)) % 9973; }
-    const g = rs[glQi % rs.length], nx = g.s.find(x => !x.ok);
-    $('glQ').textContent = g.y.trim();
-    $('glQm').textContent = `${g.t}${g.d ? ' · ' + gDue(g.d) : ''}`;
-    $('glQs').textContent = nx ? `próximo passo: ${nx.x}` : ''; $('glQs').hidden = !nx;
+    const g = rs[glQi % rs.length];
+    $('glQ').textContent = mdPlain(mdWhy(g.md));
+    $('glQm').textContent = `${gName(g)}${g.d ? ' · ' + gDue(g.d) : ''}`;
     $('glNext').hidden = rs.length < 2;
   }
-  function gCard(g) {
-    const box = mkEl('section', 'box gcard' + (g.st !== 'on' ? ' ' + g.st : '')), hd = mkEl('div', 'hd'), bd = mkEl('div', 'bd'), t = mkEl('h3', 'gt');
-    box.dataset.id = g.id;
-    hd.append(mkEl('span', '', g.k || 'meta'), mkEl('span', '', g.st === 'feita' ? `conquistada em ${new Date(g.at).toLocaleDateString('pt-BR')}` : g.d ? `${gDue(g.d)} · ${fmtD(g.d)}` : ''));
-    if (g.st === 'feita') { const f = mkEl('span', 'gfox'); f.innerHTML = FOX; t.append(f); }
-    t.append(g.t); bd.append(t);
-    if (g.y.trim()) bd.append(mkEl('blockquote', 'gy', g.y.trim()));
-    const mt = metaTime(g.id);
-    if (mt.t >= 60000 || mt.nx || g.st === 'on') {
-      const p = mkEl('p', 'gtm');
-      if (mt.t >= 60000) p.append(`${fmtStudy(mt.t)} dedicados nos últimos 30 dias`);
-      if (mt.nx) { const a = mkEl('button', 'lnk', `próximo bloco: ${dName(mt.nx.d, true)}, ${hm(mt.nx.s)}`); a.type = 'button'; a.dataset.a = 'cal'; a.dataset.b = mt.nx.id; if (p.childNodes.length) p.append(' · '); p.append(a); }
-      else if (g.st === 'on') { const a = mkEl('button', 'lnk', '+ planejar um bloco'); a.type = 'button'; a.dataset.a = 'plan'; if (p.childNodes.length) p.append(' · '); p.append(a); }
-      bd.append(p);
-    }
-    else if (g.st === 'on') { const b = mkEl('button', 'lnk', '+ escrever por que isso importa'); b.type = 'button'; b.dataset.a = 'edit'; bd.append(b); }
-    if (g.st !== 'feita' || g.s.length) {
-      const st = mkEl('div', 'gst'), ul = mkEl('ul', 'gsl'), lb = mkEl('span', 'lb', 'Próximos passos'), n = g.s.filter(x => x.ok).length;
-      if (g.s.length) lb.append(mkEl('em', '', ` · ${n} de ${g.s.length}`));
-      for (const x of [...g.s.filter(x => !x.ok), ...g.s.filter(x => x.ok)]) {
-        const li = mkEl('li', x.ok ? 'ok' : ''), ck = mkEl('button', 'gck', x.x);
-        ck.type = 'button'; ck.dataset.a = 'step'; ck.dataset.s = x.id; ck.setAttribute('aria-pressed', x.ok); ck.disabled = g.st === 'feita';
-        li.append(ck);
-        if (g.st !== 'feita') { const del = mkEl('button', 'del'); del.type = 'button'; del.dataset.a = 'sdel'; del.dataset.s = x.id; del.innerHTML = XI; del.setAttribute('aria-label', `Apagar o passo: ${x.x}`); li.append(del); }
-        ul.append(li);
-      }
-      st.append(lb, ul);
-      if (g.st === 'on') {
-        const f = mkEl('form', 'gadd'), i = mkEl('input'), b = mkEl('button', 'mk', '+');
-        i.maxLength = 120; i.autocomplete = 'off'; i.placeholder = g.s.length ? 'mais um passo' : 'o menor passo que dá para dar agora'; i.setAttribute('aria-label', `Novo passo para ${g.t}`);
-        b.type = 'submit'; b.setAttribute('aria-label', 'Adicionar o passo'); f.append(i, b); st.append(f);
-      }
-      bd.append(st);
-    }
-    const act = mkEl('div', 'gact');
-    const A = g.st === 'on' ? [['done', 'conquistei'], ['edit', 'editar'], ['pause', 'pausar'], ['del', 'apagar']] : g.st === 'pausa' ? [['resume', 'retomar'], ['edit', 'editar'], ['del', 'apagar']] : [['reopen', 'reabrir'], ['del', 'apagar']];
-    for (const [a, txt] of A) { const b = mkEl('button', a === 'done' || a === 'resume' ? 'mk pri' : 'mk', txt); b.type = 'button'; b.dataset.a = a; act.append(b); }
-    bd.append(act); box.append(hd, bd);
-    return box;
+  // uma linha por página na lista, como num caderno
+  function gRow(g) {
+    const b = mkEl('button', 'gpi' + (g.st !== 'on' ? ' ' + g.st : '')); b.type = 'button'; b.dataset.id = g.id;
+    const ic = mkEl('span', 'gpic'); ic.innerHTML = g.st === 'feita' ? FOX : NI.flag;
+    const tx = mkEl('span', 'gptx'), t = mkEl('b', '', gName(g)), mt = metaTime(g.id), tk = gTasks(g.md);
+    const meta = [g.k, g.st === 'feita' && g.at ? `conquistada em ${new Date(g.at).toLocaleDateString('pt-BR')}` : g.d ? gDue(g.d) : '', tk.n ? `${tk.ok} de ${tk.n} tarefas` : '', mt.t >= 60000 ? `${fmtStudy(mt.t)} em 30 dias` : ''].filter(Boolean).join(' · ');
+    tx.append(t);
+    if (meta) tx.append(mkEl('span', 'gpm', meta));
+    const sn = mdPlain(g.md); if (sn) tx.append(mkEl('span', 'gpsn', sn.length > 140 ? sn.slice(0, 139) + '…' : sn));
+    b.append(ic, tx, mkEl('span', 'gpgo', '›'));
+    return b;
   }
-  // tempo dedicado a uma meta nos últimos 30 dias: blocos confirmados e sessões dos relógios ligadas a ela (sem contar duas vezes)
+  // tempo dedicado a uma meta nos últimos 30 dias: blocos que contaram e sessões dos relógios ligadas a ela (sem contar duas vezes)
   function metaTime(id) {
     const now = Date.now(), cut = now - 30 * DAY, bl = cal.filter(b => b.m === id && bSt(b) === 'ok' && bB(b) >= cut);
     let t = bl.reduce((a, b) => a + b.v, 0);
@@ -1786,91 +1958,110 @@
   }
   function drawGoals() {
     if (view !== 'metas') return;
-    const on = metas.filter(g => g.st === 'on'), pa = metas.filter(g => g.st === 'pausa'), fe = metas.filter(g => g.st === 'feita').sort((a, b) => b.at - a.at), form = !$('glForm').hidden;
+    const g = glPg && metas.find(x => x.id === glPg); if (!g) glPg = null;
+    $('glHome').hidden = !!g; $('glPage').hidden = !g;
+    if (g) return drawPage(g);
+    const on = metas.filter(g => g.st === 'on'), pa = metas.filter(g => g.st === 'pausa'), fe = metas.filter(g => g.st === 'feita').sort((a, b) => b.at - a.at);
     drawWhy();
-    $('glNew').hidden = form; $('glEmpty').hidden = form || metas.length > 0;
-    if (on.length || !metas.length) $('glList').replaceChildren(...on.map(gCard));
+    $('glEmpty').hidden = metas.length > 0;
+    if (on.length || !metas.length) $('glList').replaceChildren(...on.map(gRow));
     else $('glList').replaceChildren(mkEl('p', 'note gnone', 'Nenhuma meta em andamento agora. Retome uma pausada ou crie uma nova.'));
-    $('glPaused').hidden = !pa.length; $('glPausedN').textContent = pa.length; $('glPausedL').replaceChildren(...pa.map(gCard));
-    $('glDone').hidden = !fe.length; $('glDoneN').textContent = fe.length; $('glDoneL').replaceChildren(...fe.map(gCard));
+    $('glPaused').hidden = !pa.length; $('glPausedN').textContent = pa.length; $('glPausedL').replaceChildren(...pa.map(gRow));
+    $('glDone').hidden = !fe.length; $('glDoneN').textContent = fe.length; $('glDoneL').replaceChildren(...fe.map(gRow));
   }
+  const gpGrow = () => { const t = $('gpEd'); t.style.height = 'auto'; t.style.height = Math.max(220, t.scrollHeight + 2) + 'px'; };
+  function drawPage(g) {
+    const a = document.activeElement;
+    if (a !== $('gpT')) $('gpT').value = g.t;
+    if (a !== $('gpK')) $('gpK').value = g.k;
+    if (a !== $('gpD')) $('gpD').value = g.d;
+    $('gpKs').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.k === g.k.toLowerCase()));
+    $('gpDue').textContent = g.d && g.st !== 'feita' ? gDue(g.d) : '';
+    $('gpFox').hidden = g.st !== 'feita'; $('gpFox').innerHTML = FOX;
+    segOn('gpSt', g.st); segOn('gpMode', glMode);
+    const mt = metaTime(g.id), p = $('gpTm'); p.textContent = '';
+    p.append(mt.t >= 60000 ? `${fmtStudy(mt.t)} dedicados nos últimos 30 dias` : 'Nada ainda nos últimos 30 dias');
+    const lk = (txt, act, id) => { const x = mkEl('button', 'lnk', txt); x.type = 'button'; x.dataset.a = act; if (id) x.dataset.b = id; p.append(' · ', x); };
+    if (mt.nx) lk(`próximo bloco: ${dName(mt.nx.d, true)}, ${hm(mt.nx.s)}`, 'cal', mt.nx.id);
+    else if (g.st === 'on') lk('+ planejar um bloco', 'plan');
+    const w = glMode === 'escrever';
+    $('gpEd').hidden = !w; $('gpView').hidden = w;
+    if (w) { if (a !== $('gpEd')) $('gpEd').value = g.md; gpGrow(); }
+    else $('gpView').innerHTML = g.md.trim() ? mdHtml(g.md, true) : '<p class="gmd0">Página em branco. Toque em ESCREVER para contar por que essa meta importa, o plano e o que mais quiser.</p>';
+  }
+  const gName = g => g.t.trim() || 'Sem título';
+  let gpSvT;
+  const gpSaved = () => { $('gpSaved').textContent = 'salvo'; clearTimeout(gpSvT); gpSvT = setTimeout(() => { $('gpSaved').textContent = ''; }, 1500); };
+  const curG = () => glPg && metas.find(x => x.id === glPg);
   function glMsgShow(txt, undo, fox) {
     const m = $('glMsg'); m.hidden = false; m.textContent = '';
     if (fox) { const f = mkEl('span', 'gfox'); f.innerHTML = FOX; m.append(f); }
     m.append(txt);
     if (undo) { const b = mkEl('button', 'undo', 'desfazer'); b.type = 'button'; b.onclick = () => { undo(); m.hidden = true; }; m.append(' ', b); }
   }
-  const gkPaint = () => { const k = $('gfK').value.trim().toLowerCase(); $('gfKs').querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', b.dataset.k === k)); };
-  function glOpen(g, k) {
-    glEdit = g ? g.id : null;
-    $('glForm').hidden = false; $('glMsg').hidden = true;
-    $('glFormHd').textContent = g ? 'Editar meta' : 'Nova meta';
-    $('gfT').value = g ? g.t : ''; $('gfK').value = g ? g.k : k || ''; $('gfY').value = g ? g.y : ''; $('gfD').value = g ? g.d : ''; $('gfS').value = '';
-    $('gfSRow').hidden = !!g; gkPaint(); drawGoals();
-    $('glForm').scrollIntoView({ block: 'nearest' });
-    $(g && g.t && !g.y.trim() ? 'gfY' : 'gfT').focus({ preventScroll: true });
+  function glOpen(id, write) {
+    glPg = id; glMode = write ? 'escrever' : 'ver'; $('glMsg').hidden = true;
+    drawGoals(); scrollTo({ top: 0 });
   }
-  function glClose() { $('glForm').hidden = true; glEdit = null; drawGoals(); }
-  $('gfKs').innerHTML = GK.map(k => `<button type="button" data-k="${k}">${k}</button>`).join('');
+  // voltar para a lista; uma página nova que ficou vazia não é guardada
+  function glBack() {
+    const g = curG();
+    if (g && !g.t.trim() && !g.md.trim()) { metas.splice(metas.indexOf(g), 1); gSave(); }
+    glPg = null; drawGoals();
+  }
+  function glNew(k) {
+    const g = { id: gid(), t: '', k: k || '', y: '', md: '', d: '', st: 'on', at: 0, c: Date.now(), u: 0, s: [] };
+    metas.push(g); glOpen(g.id, true);
+    $('gpT').focus();
+  }
+  $('gpKs').innerHTML = GK.map(k => `<button type="button" data-k="${k}">${k}</button>`).join('');
   $('glEmptyKs').innerHTML = ['vestibular', 'faculdade', 'curso', 'leitura'].map(k => `<button type="button" data-k="${k}">${k}</button>`).join('') + '<button type="button" data-k="">outra</button>';
-  $('gfKs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; $('gfK').value = $('gfK').value.trim().toLowerCase() === b.dataset.k ? '' : b.dataset.k; gkPaint(); });
-  $('glEmptyKs').addEventListener('click', e => { const b = e.target.closest('button'); if (b) glOpen(null, b.dataset.k); });
-  $('gfK').addEventListener('input', gkPaint);
-  $('glNew').addEventListener('click', () => glOpen());
-  $('gfCancel').addEventListener('click', () => { glClose(); $('glNew').focus(); });
+  $('glEmptyKs').addEventListener('click', e => { const b = e.target.closest('button'); if (b) glNew(b.dataset.k); });
+  $('glNew').addEventListener('click', () => glNew());
   $('glNext').addEventListener('click', () => { glQi++; drawWhy(); });
-  $('glForm').addEventListener('submit', e => {
-    e.preventDefault();
-    const t = $('gfT').value.trim(); if (!t) { $('gfT').focus(); return; }
-    const v = { t: t.slice(0, 80), k: $('gfK').value.trim().slice(0, 30), y: $('gfY').value.trim().slice(0, 600), d: $('gfD').value };
-    let g = glEdit && metas.find(x => x.id === glEdit); const isNew = !g;
-    if (g) Object.assign(g, v);
-    else { g = { id: gid(), ...v, st: 'on', at: 0, c: Date.now(), u: 0, s: [] }; const s = $('gfS').value.trim(); if (s) g.s.push({ id: gid(), x: s.slice(0, 120), ok: false }); metas.push(g); }
-    gSave(g); glClose(); glMsgShow(isNew ? 'Meta guardada.' : 'Meta atualizada.');
+  $('glHome').addEventListener('click', e => { const b = e.target.closest('.gpi'); if (b) glOpen(b.dataset.id); });
+  $('gpBack').addEventListener('click', glBack);
+  $('gpEd').placeholder = '> Por que isso importa para mim: …\n\n## Plano\n- [ ] o menor passo que dá para dar esta semana\n\nEscreva do jeito que quiser. A primeira citação (a linha que começa com >) aparece no topo da página Metas nos dias difíceis.';
+  $('gpT').addEventListener('input', () => { const g = curG(); if (!g) return; g.t = $('gpT').value.slice(0, 80); gSave(g); gpSaved(); });
+  $('gpT').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); glMode = 'escrever'; drawGoals(); $('gpEd').focus(); } });
+  $('gpK').addEventListener('input', () => { const g = curG(); if (!g) return; g.k = $('gpK').value.trim().slice(0, 30); gSave(g); drawPage(g); gpSaved(); });
+  $('gpKs').addEventListener('click', e => { const b = e.target.closest('button'), g = curG(); if (!b || !g) return; g.k = g.k.toLowerCase() === b.dataset.k ? '' : b.dataset.k; gSave(g); drawPage(g); gpSaved(); });
+  $('gpD').addEventListener('change', () => { const g = curG(); if (!g) return; g.d = /^\d{4}-\d\d-\d\d$/.test($('gpD').value) ? $('gpD').value : ''; gSave(g); drawPage(g); gpSaved(); });
+  $('gpEd').addEventListener('input', () => { const g = curG(); if (!g) return; g.md = $('gpEd').value.slice(0, 20000); gSave(g); gpGrow(); gpSaved(); });
+  $('gpMode').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; glMode = b.dataset.v; drawGoals(); if (glMode === 'escrever') $('gpEd').focus({ preventScroll: true }); });
+  // tocar numa tarefa no modo ver marca ou desmarca a linha dela no markdown
+  $('gpView').addEventListener('click', e => {
+    const b = e.target.closest('.gtk'), g = curG(); if (!b || !g) return;
+    const L = g.md.split('\n'), i = +b.dataset.ln; if (!L[i]) return;
+    L[i] = L[i].replace(/\[( |x|X)\]/, m => m === '[ ]' ? '[x]' : '[ ]');
+    g.md = L.join('\n'); gSave(g); drawPage(g); gpSaved();
+    const nb = $('gpView').querySelector(`.gtk[data-ln="${i}"]`); if (nb) nb.focus({ preventScroll: true });
   });
-  // ações dos cartões: passos, conquistar, pausar, apagar
-  $('vGoals').addEventListener('click', e => {
-    const b = e.target.closest('[data-a]'), card = b && b.closest('.gcard'), g = card && metas.find(x => x.id === card.dataset.id); if (!g) return;
-    const a = b.dataset.a;
-    if (a === 'edit') return glOpen(g);
-    if (a === 'cal') { const x = cal.find(y => y.id === b.dataset.b); if (!x) return; calRef = x.d; go('calendario'); scrollTo({ top: 0 }); return calOpen(x.id); }
-    if (a === 'plan') { calRef = dayKey(); go('calendario'); scrollTo({ top: 0 }); calNew(); cfG = g.id; return cfGPaint(); }
-    if (a === 'step' || a === 'sdel') {
-      const i = g.s.findIndex(x => x.id === b.dataset.s); if (i < 0) return;
-      if (a === 'step') g.s[i].ok = !g.s[i].ok; else g.s.splice(i, 1);
-      gSave(g); drawGoals();
-      const c = $('vGoals').querySelector(`.gcard[data-id="${g.id}"]`), f = c && (c.querySelector(`[data-s="${b.dataset.s}"]`) || c.querySelector('.gadd input'));
-      if (f) f.focus({ preventScroll: true });
-      return;
-    }
-    if (a === 'del') {
-      const i = metas.indexOf(g); metas.splice(i, 1); gSave(); drawGoals();
-      return glMsgShow(`“${g.t}” apagada.`, () => { metas.splice(Math.min(i, metas.length), 0, g); gSave(g); drawGoals(); });
-    }
-    const was = g.st;
-    g.st = a === 'done' ? 'feita' : a === 'pause' ? 'pausa' : 'on'; g.at = a === 'done' ? Date.now() : 0;
-    gSave(g); drawGoals();
-    const back = () => { g.st = was; g.at = was === 'feita' ? g.at : 0; gSave(g); drawGoals(); };
-    if (a === 'done') glMsgShow('Conquista guardada. Parabéns! Ela fica em Conquistas, mais abaixo.', back, true);
-    else if (a === 'pause') glMsgShow('Meta pausada. Ela fica em Pausadas, mais abaixo, para quando quiser retomar.', back);
-    else glMsgShow(a === 'reopen' ? 'Meta reaberta.' : 'Meta retomada.');
+  $('gpSt').addEventListener('click', e => {
+    const b = e.target.closest('button'), g = curG(); if (!b || !g || b.dataset.v === g.st) return;
+    const was = g.st, at = g.at;
+    g.st = b.dataset.v; g.at = g.st === 'feita' ? Date.now() : 0; gSave(g); drawPage(g);
+    if (g.st === 'feita') { glBack(); glMsgShow(`Conquista guardada: ${gName(g)}. Parabéns! Ela fica em Conquistas, mais abaixo.`, () => { g.st = was; g.at = at; gSave(g); drawGoals(); }, true); }
+    else gpSaved();
   });
-  $('vGoals').addEventListener('submit', e => {
-    const f = e.target.closest('.gadd'); if (!f) return;
-    e.preventDefault();
-    const card = f.closest('.gcard'), g = metas.find(x => x.id === card.dataset.id), x = f.querySelector('input').value.trim();
-    if (!g || !x) return;
-    if (g.s.length >= 40) return glMsgShow('Essa meta já tem 40 passos. Apague alguns feitos antes de somar mais.');
-    g.s.push({ id: gid(), x: x.slice(0, 120), ok: false }); gSave(g); drawGoals();
-    $('vGoals').querySelector(`.gcard[data-id="${g.id}"] .gadd input`).focus({ preventScroll: true });
+  $('gpDel').addEventListener('click', () => {
+    const g = curG(); if (!g) return;
+    const i = metas.indexOf(g); metas.splice(i, 1); gSave(); glPg = null; drawGoals();
+    glMsgShow(`“${gName(g)}” apagada.`, () => { metas.splice(Math.min(i, metas.length), 0, g); gSave(g); drawGoals(); });
+  });
+  $('gpTm').addEventListener('click', e => {
+    const b = e.target.closest('[data-a]'), g = curG(); if (!b || !g) return;
+    if (b.dataset.a === 'cal') { const x = cal.find(y => y.id === b.dataset.b); if (!x) return; calRef = x.d; go('calendario'); scrollTo({ top: 0 }); return calOpen(x.id); }
+    if (b.dataset.a === 'plan') { calRef = dayKey(); go('calendario'); scrollTo({ top: 0 }); calNew(); cfG = g.id; return cfGPaint(); }
   });
 
   // ---------- calendário: blocos de estudo planejados e todo o tempo medido, no horário em que aconteceu ----------
   // bloco: { id, d: dia, s e e: minutos desde a meia-noite, t: o que estudar, g: série que se repete, st: '' planejado | ok confirmado | no não rolou,
-  //          v: tempo útil confirmado (ms), x: registro à mão que a confirmação criou, m: meta ligada, u }
+  //          v: tempo útil confirmado (ms), x: registro à mão que a confirmação criou, m: meta ligada,
+  //          a: 1 contou sozinho | 2 a pessoa já mexeu (não conta sozinho de novo), u }
   const fixCal = a => (Array.isArray(a) ? a : []).filter(b => b && typeof b.id === 'string' && /^\d{4}-\d\d-\d\d$/.test(b.d) && +b.s >= 0 && +b.e > +b.s && +b.e <= 1440)
     .map(b => ({ id: b.id.slice(0, 24), d: b.d, s: Math.round(+b.s), e: Math.round(+b.e), t: String(b.t || '').slice(0, 40), g: typeof b.g === 'string' ? b.g.slice(0, 24) : '',
-      st: ['ok', 'no'].includes(b.st) ? b.st : '', v: Math.max(0, Math.round(+b.v) || 0), x: typeof b.x === 'string' ? b.x.slice(0, 24) : '', m: typeof b.m === 'string' ? b.m.slice(0, 24) : '', u: +b.u || 0 })).slice(-3000);
+      st: ['ok', 'no'].includes(b.st) ? b.st : '', v: Math.max(0, Math.round(+b.v) || 0), x: typeof b.x === 'string' ? b.x.slice(0, 24) : '', m: typeof b.m === 'string' ? b.m.slice(0, 24) : '', a: [1, 2].includes(+b.a) ? +b.a : 0, u: +b.u || 0 })).slice(-3000);
   let cal = fixCal(load('cal', [])), calRef = dayKey(), calMode = load('calMode', ''), cc = null, cvMs = 0;
   // repetição de um bloco novo: no = não, d = todo dia, w = toda semana no mesmo dia, x = alguns dias da semana; até a data cfU
   let cfR = 'no', cfW = new Set(), cfU = '', cfG = '';
@@ -1891,6 +2082,33 @@
     return Math.round(t);
   }
   const pending = () => { const now = Date.now(), cut = dAgo(30); return cal.filter(b => !bSt(b) && b.d >= cut && bB(b) <= now).sort((a, b) => bA(b) - bA(a)); };
+  // quem planeja e estuda sem usar os relógios não precisa confirmar: um bloco que passou conta sozinho, inteiro,
+  // menos o que o Faro já mediu no horário (e sem passar do que cabe no dia). Dá para ajustar ou dizer que não rolou depois.
+  const autoId = b => ('a' + b.id).slice(0, 24);  // o mesmo id em todo aparelho: dois aparelhos não somam o mesmo bloco duas vezes
+  function autoCount(b) {
+    const dur = bDur(b), meas = Math.min(measured(bA(b), bB(b)), dur);
+    const extra = Math.floor(Math.min(Math.max(0, dur - meas), manRoom(b.d)) / 60000) * 60000;
+    let x = '';
+    if (extra >= 60000) { x = autoId(b); if (!tmMan.some(m => m.id === x)) tmMan.push({ id: x, d: b.d, ms: extra, l: bTitle(b), t: Date.now(), b: b.id }); }
+    Object.assign(b, { st: 'ok', v: meas + (x ? extra : 0), x, a: 1 }); b.u = Date.now();
+  }
+  // -1 (o padrão) conta os blocos que acabaram depois que a contagem sozinha chegou ao Faro; 0 desliga; outro valor, desde aquela hora
+  const CAL_AUTO0 = +new Date('2026-11-05T00:00');
+  const calAutoFrom = () => prefs.calAuto === -1 ? CAL_AUTO0 : prefs.calAuto;
+  function calAutoRun() {
+    const from = calAutoFrom(); if (!from) return 0;
+    const now = Date.now(); let n = 0;
+    for (const b of cal) if (!b.st && !b.a && bB(b) <= now && bB(b) > from) { autoCount(b); n++; }
+    if (n) { manSave(); calSave(); drawStudy(); drawTStats(); rkQueue(); hbBadge(); }
+    return n;
+  }
+  // os que já estavam esperando confirmação quando a contagem sozinha começou
+  function calCountAll() {
+    const pd = pending(); if (!pd.length) return;
+    for (const b of pd) { if (b.st === 'ok') unconfirm(b); autoCount(b); }
+    manSave(); calChanged();
+    calMsg(`${pd.length} ${pd.length === 1 ? 'bloco contado' : 'blocos contados'} como estudo.`, () => { for (const b of pd) { unconfirm(b); b.a = 0; } calChanged(); });
+  }
   const calWeek = () => calMode ? calMode === 'semana' : innerWidth >= 600;
   const calDays = () => { if (!calWeek()) return [calRef]; const s = dayKey(weekStart(new Date(calRef + 'T12:00'))); return Array.from({ length: 7 }, (_, i) => shiftDay(s, i)); };
   // blocos que se cruzam dividem a largura da coluna
@@ -1907,6 +2125,7 @@
   }
   function drawCal() {
     if (view !== 'calendario') return;
+    calAutoRun();
     const week = calWeek(), ks = calDays(), now = Date.now(), today = dayKey();
     segOn('calMode', week ? 'semana' : 'dia');
     $('calPrev').setAttribute('aria-label', week ? 'Semana anterior' : 'Dia anterior'); $('calNext').setAttribute('aria-label', week ? 'Próxima semana' : 'Próximo dia');
@@ -1950,7 +2169,7 @@
       for (const b of p.bl) {
         const st = bSt(b), L = lay.get(b.id), t = Y(b.s), ht = Math.max(20, Y(b.e) - t), due = !st && bB(b) <= now, on = !st && bA(b) <= now && now < bB(b);
         const cls = st === 'ok' ? 'ok' : st === 'no' ? 'no' : due ? 'due' : on ? 'on' : '';
-        const tag = st === 'ok' ? `${fmtRk(b.v)} útil` : st === 'no' ? 'não rolou' : due ? 'falta confirmar' : on ? 'agora' : '';
+        const tag = st === 'ok' ? `${fmtRk(b.v)}${b.a === 1 ? '' : ' útil'}` : st === 'no' ? 'não rolou' : due ? 'falta confirmar' : on ? 'agora' : '';
         const mt = metaT(b.m), sub = week ? (st === 'ok' ? tag : `${hm(b.s)}–${hm(b.e)}`) : `${hm(b.s)}–${hm(b.e)}${tag ? ' · ' + tag : ''}${mt ? ' · ' + mt : ''}`;
         h += `<button type="button" class="cb ${cls}" data-id="${b.id}" style="top:${t.toFixed(1)}px;height:${ht.toFixed(1)}px;--l:${L.i};--n:${L.n}" title="${esc(bTitle(b))} · ${hm(b.s)}–${hm(b.e)}${tag ? ' · ' + tag : ''}${mt ? ' · meta: ' + esc(mt) : ''}"><b>${esc(bTitle(b))}</b><span>${esc(sub)}</span></button>`;
       }
@@ -1961,6 +2180,10 @@
     // para confirmar
     const pd = pending();
     $('calPend').hidden = !pd.length; $('calPendN').textContent = pd.length;
+    $('calPendAll').hidden = pd.length < 2 && !calAutoFrom(); $('calPendAll').textContent = pd.length > 1 ? `contar os ${pd.length} como estudados` : 'contar como estudado';
+    $('calPendTxt').textContent = calAutoFrom() ? 'Esses blocos passaram antes de a contagem sozinha começar. Conte todos de uma vez, ou toque num para dizer quanto foi estudo.' : 'Esses blocos já passaram. Diga quanto deles foi estudo de verdade para somar ao seu tempo, ou marque que não rolou.';
+    segOn('calAuto', calAutoFrom() ? 'on' : 'off');
+    $('calAutoTxt').textContent = calAutoFrom() ? 'Quando um bloco acaba, ele entra inteiro no seu tempo de estudo (o que o Faro já mediu no horário não conta duas vezes). Se não foi bem assim, toque no bloco para ajustar ou dizer que não estudou.' : 'Um bloco só vira tempo de estudo quando você confirma quanto dele foi útil.';
     $('calPendL').innerHTML = pd.slice(0, 6).map(b => `<li><button type="button" class="cpi" data-id="${b.id}"><span class="w">${dName(b.d, true)} · ${hm(b.s)}–${hm(b.e)}</span><b>${esc(bTitle(b))}</b><span class="go">confirmar ›</span></button></li>`).join('')
       + (pd.length > 6 ? `<li class="m0">e mais ${pd.length - 6}, mais antigos</li>` : '');
     calBadge();
@@ -2069,7 +2292,8 @@
     cc = { form: false, id };
     const st = bSt(b), now = Date.now(), started = bA(b) <= now, meas = measured(bA(b), Math.min(bB(b), now));
     ccShow(false, bTitle(b), `${dName(b.d, true)} · ${hm(b.s)}–${hm(b.e)} · ${fmtStudy(bDur(b))}`);
-    $('cvSt').textContent = st === 'ok' ? `Confirmado: ${fmtStudy(b.v)} de estudo útil${b.x ? '' : ' (tudo já medido pelo Faro)'}.` : st === 'no' ? 'Marcado como não estudado.'
+    $('cvSt').textContent = st === 'ok' && b.a === 1 ? `Contou sozinho: ${fmtStudy(b.v)} de estudo${b.v < bDur(b) ? ` (de ${fmtStudy(bDur(b))}; o resto não cabia no dia)` : ''}. Se não foi bem assim, ajuste.`
+      : st === 'ok' ? `Confirmado: ${fmtStudy(b.v)} de estudo útil${b.x ? '' : ' (tudo já medido pelo Faro)'}.` : st === 'no' ? 'Marcado como não estudado.'
       : !started ? 'Planejado. Quando o bloco começar, dá para dizer quanto foi estudo.' : bB(b) > now ? 'Acontecendo agora.' : 'Já passou. Quanto dele foi estudo de verdade?';
     $('cvMeas').textContent = meas >= 60000 ? `O Faro mediu ${fmtStudy(meas)} neste horário (relógios ou questões). Esse tempo já conta no seu estudo.` : started && !st ? 'O Faro não mediu nada neste horário.' : '';
     $('cvMeas').hidden = !$('cvMeas').textContent;
@@ -2080,7 +2304,7 @@
     if (can) { cvMs = 0; const c = cvCalc(b); cvMs = Math.max(60000, Math.floor(Math.min(c.max, c.meas + c.room) / 60000) * 60000); cvPaint(); }
     $('cvList').hidden = true;
     const next = b.g && cal.some(x => x !== b && x.g === b.g && x.d > b.d && !bSt(x));
-    $('cvAct').innerHTML = (st ? actBtn('undo', st === 'ok' ? 'desfazer confirmação' : 'desfazer') : '') + actBtn('edit', 'editar') + actBtn('del', 'apagar') + (next ? actBtn('delNext', 'apagar este e os próximos') : '');
+    $('cvAct').innerHTML = (st === 'ok' && b.a === 1 ? actBtn('adjust', 'ajustar o tempo', true) + actBtn('notStudied', 'não estudei') : st ? actBtn('undo', st === 'ok' ? 'desfazer confirmação' : 'desfazer') : '') + actBtn('edit', 'editar') + actBtn('del', 'apagar') + (next ? actBtn('delNext', 'apagar este e os próximos') : '');
   }
   function calMeas(A, k) {
     const x = tlAll().find(y => y[0] === A && y[2] === k); if (!x) return;
@@ -2109,7 +2333,7 @@
   function unconfirm(b) {
     const i = b.x ? tmMan.findIndex(m => m.id === b.x) : -1, m = i >= 0 ? tmMan.splice(i, 1)[0] : null;
     if (m) manSave();
-    Object.assign(b, { st: '', v: 0, x: '' });
+    Object.assign(b, { st: '', v: 0, x: '', a: 2 });
     return m;
   }
   const calChanged = () => { calSave(); drawCal(); drawStudy(); drawTStats(); rkQueue(); hbBadge(); };
@@ -2173,7 +2397,7 @@
   $('cvNo').addEventListener('click', () => {
     const b = cc && cal.find(x => x.id === cc.id); if (!b) return;
     b.st = 'no'; calClose(); calChanged();
-    calMsg(`${bTitle(b)}: marcado como não estudado.`, () => { b.st = ''; calChanged(); });
+    calMsg(`${bTitle(b)}: marcado como não estudado.`, () => { b.st = ''; b.a = 2; calChanged(); });
   });
   $('calView').addEventListener('click', e => {
     const t = e.target.closest('[data-tn]'); if (t) { const id = t.dataset.tn; calClose(); return tnAsk({ id }, true); }
@@ -2186,6 +2410,11 @@
     if (a.dataset.a === 'del') return calDel([b]);
     if (a.dataset.a === 'delNext') return calDel([b, ...cal.filter(x => x !== b && x.g === b.g && x.d > b.d && !bSt(x))]);
     if (a.dataset.a === 'undo') { unconfirm(b); b.u = Date.now(); calChanged(); calOpen(b.id); }
+    if (a.dataset.a === 'adjust') { unconfirm(b); b.u = Date.now(); calChanged(); calOpen(b.id); }
+    if (a.dataset.a === 'notStudied') {
+      const old = { ...b }, m = unconfirm(b); b.st = 'no'; b.u = Date.now(); calClose(); calChanged();
+      calMsg(`${bTitle(b)}: marcado como não estudado.`, () => { Object.assign(b, old); if (m) { tmMan.push(m); manSave(); } calChanged(); });
+    }
   });
   // computador: arrastar o mouse num horário vazio desenha o bloco, de 15 em 15 min
   let drag = null, dragged = false;
@@ -2222,6 +2451,8 @@
     const g = col.closest('.cg'), y = e.clientY - col.getBoundingClientRect().top;
     calNewAt(col.dataset.d, +g.dataset.lo * 60 + Math.floor(y / +g.dataset.hh * 2) * 30);
   });
+  $('calPendAll').addEventListener('click', calCountAll);
+  $('calAuto').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; setPref('calAuto', b.dataset.v === 'on' ? Date.now() : 0); calChanged(); });
   $('calPendL').addEventListener('click', e => { const b = e.target.closest('.cpi'); if (b) calOpen(b.dataset.id); });
   $('calDays').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { calRef = b.dataset.d; drawCal(); } });
   $('calMode').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { calMode = b.dataset.v; save('calMode', calMode); drawCal(); } });
@@ -2386,15 +2617,178 @@
   });
   // o calendário e os hábitos acompanham o relógio: o agora anda, os de tempo se marcam sozinhos
   setInterval(() => {
-    calBadge(); hbBadge();
+    calAutoRun(); calBadge(); hbBadge();
     const a = document.activeElement, busy = a && a !== document.body && (a.closest('#calCard') || a.closest('#hbForm'));
     if (view === 'calendario' && !busy && !drag) drawCal();
     else if (view === 'habitos' && !busy && !(a && a.closest && a.closest('#vHab'))) drawHabs();
   }, 60000);
 
+  // ---------- leitura: os livros que a pessoa lê, quer ler e já leu, com a página em que parou e as anotações ----------
+  // livro: { id, t, a: autor, p: páginas (0 = não sei), at: página atual, st: quero | lendo | lido | larguei, c: criado, s: dia em que começou,
+  //          f: dia em que terminou, r: nota de 0 a 5, nt: anotações em markdown, lg: { dia: páginas lidas no dia }, u }
+  const LST = ['quero', 'lendo', 'lido', 'larguei'];
+  const fixBooks = a => (Array.isArray(a) ? a : []).filter(b => b && typeof b.id === 'string' && (String(b.t || '').trim() || String(b.nt || '').trim())).slice(0, 300).map(b => {
+    const p = Math.max(0, Math.min(9999, Math.round(+b.p) || 0));
+    return { id: b.id.slice(0, 24), t: String(b.t || '').slice(0, 100), a: String(b.a || '').slice(0, 60), p, at: Math.max(0, Math.min(p || 9999, Math.round(+b.at) || 0)),
+      st: LST.includes(b.st) ? b.st : 'quero', c: +b.c || 0, s: /^\d{4}-\d\d-\d\d$/.test(b.s) ? b.s : '', f: /^\d{4}-\d\d-\d\d$/.test(b.f) ? b.f : '',
+      r: Math.max(0, Math.min(5, Math.round(+b.r) || 0)), nt: String(b.nt || '').slice(0, 20000),
+      lg: Object.fromEntries(Object.entries(b.lg && typeof b.lg === 'object' ? b.lg : {}).filter(([k, v]) => /^\d{4}-\d\d-\d\d$/.test(k) && +v > 0).slice(-400).map(([k, v]) => [k, Math.min(9999, Math.round(+v))])), u: +b.u || 0 };
+  });
+  let books = fixBooks(load('livros', [])), lvPg = null, lvMode = 'ver', lfS = 'lendo';
+  const bName = b => b.t.trim() || 'Sem título';
+  const lvSave = b => { if (b) b.u = Date.now(); save('livros', books); };
+  const pagesOn = k => books.reduce((a, b) => a + (b.lg[k] || 0), 0);
+  // ritmo: páginas por dia nos últimos 14 dias em que o livro foi lido, e quando ele termina nesse ritmo
+  function bPace(b) {
+    const ks = Array.from({ length: 14 }, (_, i) => dAgo(i)), n = ks.reduce((a, k) => a + (b.lg[k] || 0), 0);
+    const per = n / 14, left = b.p ? Math.max(0, b.p - b.at) : 0, days = per > 0 && left ? Math.ceil(left / per) : 0;
+    return { per, left, days, n };
+  }
+  // dias seguidos com pelo menos uma página lida (hoje ainda pode entrar)
+  function lvStreak() { let n = 0, i = pagesOn(dayKey()) ? 0 : 1; while (pagesOn(dAgo(i)) > 0) { n++; i++; } return n; }
+  const yr = () => String(new Date().getFullYear());
+  function drawLvBadge() { const n = books.filter(b => b.st === 'lendo').length; $('lvNav').textContent = n || ''; }
+  function lvRow(b) {
+    const el = mkEl('button', 'gpi' + (b.st === 'larguei' ? ' pausa' : '')); el.type = 'button'; el.dataset.id = b.id;
+    const ic = mkEl('span', 'gpic'); ic.innerHTML = b.st === 'lido' ? FOX : NI.read;
+    const tx = mkEl('span', 'gptx'); tx.append(mkEl('b', '', bName(b)));
+    const meta = [b.a, b.st === 'lido' && b.f ? `lido em ${fmtD(b.f)}` : '', b.r ? '★'.repeat(b.r) : '', b.p ? `${b.p} páginas` : ''].filter(Boolean).join(' · ');
+    if (meta) tx.append(mkEl('span', 'gpm', meta));
+    el.append(ic, tx, mkEl('span', 'gpgo', '›'));
+    return el;
+  }
+  // cartão de um livro em andamento: progresso e o campo para dizer em que página está
+  function lvCard(b) {
+    const box = mkEl('section', 'box lvc'), hd = mkEl('div', 'hd'), bd = mkEl('div', 'bd'), pc = bPace(b), pct = b.p ? Math.round(100 * b.at / b.p) : 0;
+    box.dataset.id = b.id;
+    hd.append(mkEl('span', '', b.a || 'lendo'), mkEl('span', '', b.p ? `${pct}%` : ''));
+    const t = mkEl('button', 'lvt', bName(b)); t.type = 'button'; t.dataset.a = 'open'; bd.append(t);
+    if (b.p) { const g = mkEl('div', 'gbar'); g.setAttribute('aria-hidden', 'true'); const i = mkEl('i'); i.style.width = `calc(${Math.min(100, pct)}% - 2px)`; g.append(i); bd.append(g); }
+    bd.append(mkEl('p', 'lvs', [b.p ? `página ${b.at} de ${b.p}` : `página ${b.at}`, pc.per >= .5 ? `${Math.round(pc.per)} pág./dia` : '', pc.days ? `termina em ~${pc.days} ${pc.days === 1 ? 'dia' : 'dias'}` : ''].filter(Boolean).join(' · ')));
+    const f = mkEl('form', 'lvu'), lb = mkEl('label', 'lb', 'estou na página'), i = mkEl('input'), ok = mkEl('button', 'mk pri', 'ok');
+    i.type = 'number'; i.inputMode = 'numeric'; i.min = 0; i.max = b.p || 9999; i.value = b.at; i.setAttribute('aria-label', `Página em que está em ${bName(b)}`); ok.type = 'submit';
+    lb.append(i); f.append(lb, ok);
+    for (const n of [5, 10, 20]) { const x = mkEl('button', 'mk', `+${n}`); x.type = 'button'; x.dataset.a = 'add'; x.dataset.n = n; f.append(x); }
+    bd.append(f); box.append(hd, bd);
+    return box;
+  }
+  // mudar a página em que está: a diferença entra no dia de hoje (voltar páginas tira de hoje, sem ficar negativo)
+  function lvSetAt(b, at) {
+    at = Math.max(0, Math.min(b.p || 9999, Math.round(at) || 0));
+    const d = at - b.at, k = dayKey(); if (!d) return 0;
+    b.lg[k] = Math.max(0, (b.lg[k] || 0) + d); if (!b.lg[k]) delete b.lg[k];
+    b.at = at; if (!b.s) b.s = k;
+    if (b.p && at >= b.p && b.st === 'lendo') { b.st = 'lido'; b.f = k; }
+    lvSave(b); return d;
+  }
+  function drawRead() {
+    drawLvBadge();
+    if (view !== 'leitura') return;
+    const b = lvPg && books.find(x => x.id === lvPg); if (!b) lvPg = null;
+    $('lvHome').hidden = !!b; $('lvPage').hidden = !b;
+    if (b) return drawBook(b);
+    const k = dayKey(), wk = weekDays().reduce((a, d) => a + pagesOn(d), 0), done = books.filter(x => x.st === 'lido' && x.f.startsWith(yr())).length, g = prefs.lmeta;
+    const cell = (a, v, d) => `<div><span>${a}</span><b>${v}</b><em>${d}</em></div>`;
+    $('lvStats').innerHTML = cell('hoje', pagesOn(k), 'páginas') + cell('esta semana', wk, `páginas · ${lvStreak()} ${lvStreak() === 1 ? 'dia seguido' : 'dias seguidos'}`) + cell(`lidos em ${yr()}`, done, g ? `de ${g}` : 'livros');
+    $('lvGoalBar').hidden = !g;
+    if (g) {
+      $('lvGoalFill').style.width = `calc(${Math.min(100, 100 * done / g)}% - 2px)`;
+      const doy = (Date.now() - new Date(+yr(), 0, 1)) / 864e5, exp = g * doy / 365;
+      $('lvGoalTxt').textContent = done >= g ? 'Meta do ano cumprida. Parabéns!' : done >= Math.floor(exp) ? `No ritmo: faltam ${g - done} ${g - done === 1 ? 'livro' : 'livros'} até o fim do ano.` : `Um pouco atrás: para chegar a ${g}, o esperado até agora era ${Math.floor(exp)}.`;
+    }
+    setStp('lvGo', g);
+    const now = books.filter(x => x.st === 'lendo').sort((a, b2) => b2.u - a.u), want = books.filter(x => x.st === 'quero').sort((a, b2) => b2.c - a.c),
+      lid = books.filter(x => x.st === 'lido').sort((a, b2) => (b2.f || '').localeCompare(a.f || '')), drop = books.filter(x => x.st === 'larguei');
+    $('lvEmpty').hidden = books.length > 0 || !$('lvForm').hidden; $('lvNew').hidden = !$('lvForm').hidden;
+    $('lvNow').replaceChildren(...now.map(lvCard));
+    $('lvWant').hidden = !want.length; $('lvWantN').textContent = want.length; $('lvWantL').replaceChildren(...want.map(lvRow));
+    $('lvDone').hidden = !lid.length; $('lvDoneN').textContent = lid.length; $('lvDoneL').replaceChildren(...lid.map(lvRow));
+    $('lvDrop').hidden = !drop.length; $('lvDropN').textContent = drop.length; $('lvDropL').replaceChildren(...drop.map(lvRow));
+  }
+  function drawBook(b) {
+    const a = document.activeElement, pc = bPace(b);
+    if (a !== $('lpT')) $('lpT').value = b.t;
+    if (a !== $('lpA')) $('lpA').value = b.a;
+    if (a !== $('lpAt')) $('lpAt').value = b.at;
+    if (a !== $('lpP')) $('lpP').value = b.p || '';
+    segOn('lpS', b.st); segOn('lpMode', lvMode);
+    $('lpPace').textContent = b.st === 'lido' ? `lido${b.s ? ` de ${fmtD(b.s)}` : ''}${b.f ? ` a ${fmtD(b.f)}` : ''}` : pc.n ? `${pc.n} páginas nos últimos 14 dias (${Math.round(pc.per * 10) / 10} por dia)${pc.days ? `; nesse ritmo, termina em ~${pc.days} ${pc.days === 1 ? 'dia' : 'dias'}` : ''}` : 'ainda sem páginas registradas';
+    $('lpR').innerHTML = [1, 2, 3, 4, 5].map(n => `<button type="button" data-r="${n}" aria-pressed="${n <= b.r}" aria-label="${n} ${n === 1 ? 'estrela' : 'estrelas'}">${n <= b.r ? '★' : '☆'}</button>`).join('');
+    const ks = Array.from({ length: 14 }, (_, i) => dAgo(13 - i)), rs = ks.map(k => b.lg[k] || 0), top = Math.max(1, ...rs);
+    $('lpWk').hidden = !rs.some(Boolean);
+    $('lpWk').setAttribute('aria-label', `Páginas nos últimos 14 dias: ${rs.join(', ')}`);
+    $('lpWk').innerHTML = `<div class="w7b">${rs.map((r, i) => `<div class="sb${i === 13 ? ' td' : ''}" title="${dName(ks[i], true)} · ${r} pág."><i style="height:${(r / top * 100).toFixed(1)}%"></i></div>`).join('')}</div>`
+      + `<div class="w7x">${ks.map((k, i) => `<span>${i === 13 ? 'hoje' : i % 2 ? '' : +k.slice(8)}</span>`).join('')}</div>`;
+    const w = lvMode === 'escrever';
+    $('lpEd').hidden = !w; $('lpView').hidden = w;
+    if (w) { if (a !== $('lpEd')) $('lpEd').value = b.nt; const t = $('lpEd'); t.style.height = 'auto'; t.style.height = Math.max(220, t.scrollHeight + 2) + 'px'; }
+    else $('lpView').innerHTML = b.nt.trim() ? mdHtml(b.nt, true) : '<p class="gmd0">Sem anotações. Toque em ESCREVER para guardar trechos, ideias, personagens, o que cai no vestibular…</p>';
+  }
+  let lpSvT;
+  const lpSaved = () => { $('lpSaved').textContent = 'salvo'; clearTimeout(lpSvT); lpSvT = setTimeout(() => { $('lpSaved').textContent = ''; }, 1500); };
+  const curB = () => lvPg && books.find(x => x.id === lvPg);
+  function lvMsg(txt, undo) {
+    const m = $('lvMsg'); m.hidden = false; m.textContent = txt;
+    if (undo) { const b = mkEl('button', 'undo', 'desfazer'); b.type = 'button'; b.onclick = () => { undo(); m.hidden = true; }; m.append(' ', b); }
+  }
+  function lvOpen(id) { lvPg = id; lvMode = 'ver'; $('lvMsg').hidden = true; drawRead(); scrollTo({ top: 0 }); }
+  function lvBack() { lvPg = null; drawRead(); }
+  STP.lvGo = v => { setPref('lmeta', Math.max(0, Math.min(200, v))); drawRead(); };
+  $('lvGoalSt').innerHTML = stepRow('lvGo', 'Livros', 'no ano', 0, 200, 1);
+  $('lvGoalBtn').addEventListener('click', () => { const on = $('lvGoalEd').hidden; $('lvGoalEd').hidden = !on; $('lvGoalBtn').setAttribute('aria-expanded', on); });
+  $('lvNew').addEventListener('click', () => { $('lvForm').hidden = false; $('lvMsg').hidden = true; lfS = 'lendo'; segOn('lfS', lfS); for (const id of ['lfT', 'lfA', 'lfP']) $(id).value = ''; drawRead(); $('lfT').focus(); });
+  $('lfCancel').addEventListener('click', () => { $('lvForm').hidden = true; drawRead(); });
+  $('lfS').addEventListener('click', e => { const b = e.target.closest('button'); if (b) { lfS = b.dataset.v; segOn('lfS', lfS); } });
+  $('lvForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const t = $('lfT').value.trim(); if (!t) return $('lfT').focus();
+    const p = Math.max(0, Math.min(9999, Math.round(+$('lfP').value) || 0)), k = dayKey();
+    const b = { id: gid(), t: t.slice(0, 100), a: $('lfA').value.trim().slice(0, 60), p, at: lfS === 'lido' ? p : 0, st: lfS, c: Date.now(), s: lfS === 'quero' ? '' : k, f: lfS === 'lido' ? k : '', r: 0, nt: '', lg: {}, u: 0 };
+    books.push(b); lvSave(b); $('lvForm').hidden = true; drawRead();
+    lvMsg(lfS === 'lido' ? `“${bName(b)}” entrou nos lidos.` : lfS === 'quero' ? `“${bName(b)}” entrou em Quero ler.` : `Boa leitura: ${bName(b)}.`);
+  });
+  $('lvHome').addEventListener('click', e => {
+    const r = e.target.closest('.gpi'); if (r) return lvOpen(r.dataset.id);
+    const x = e.target.closest('[data-a]'), card = x && x.closest('.lvc'), b = card && books.find(y => y.id === card.dataset.id); if (!b) return;
+    if (x.dataset.a === 'open') return lvOpen(b.id);
+    if (x.dataset.a === 'add') { const was = b.st; lvSetAt(b, b.at + +x.dataset.n); drawRead(); if (b.st === 'lido' && was !== 'lido') lvMsg(`Você terminou ${bName(b)}! Ele foi para Lidos.`); else { const n = $('lvNow').querySelector(`.lvc[data-id="${b.id}"] [data-n="${x.dataset.n}"]`); if (n) n.focus({ preventScroll: true }); } }
+  });
+  $('lvHome').addEventListener('submit', e => {
+    const f = e.target.closest('.lvu'); if (!f) return; e.preventDefault();
+    const b = books.find(y => y.id === f.closest('.lvc').dataset.id); if (!b) return;
+    const was = b.st, d = lvSetAt(b, +f.querySelector('input').value); drawRead();
+    if (b.st === 'lido' && was !== 'lido') lvMsg(`Você terminou ${bName(b)}! Ele foi para Lidos.`);
+    else if (d) lvMsg(d > 0 ? `+${d} ${d === 1 ? 'página' : 'páginas'} hoje em ${bName(b)}.` : `${bName(b)}: voltou para a página ${b.at}.`);
+  });
+  $('lpBack').addEventListener('click', lvBack);
+  $('lpT').addEventListener('input', () => { const b = curB(); if (!b) return; b.t = $('lpT').value.slice(0, 100); lvSave(b); lpSaved(); });
+  $('lpA').addEventListener('input', () => { const b = curB(); if (!b) return; b.a = $('lpA').value.slice(0, 60); lvSave(b); lpSaved(); });
+  $('lpP').addEventListener('change', () => { const b = curB(); if (!b) return; b.p = Math.max(0, Math.min(9999, Math.round(+$('lpP').value) || 0)); if (b.p && b.at > b.p) b.at = b.p; lvSave(b); drawBook(b); lpSaved(); });
+  $('lpAt').addEventListener('change', () => { const b = curB(); if (!b) return; lvSetAt(b, +$('lpAt').value); drawBook(b); lpSaved(); });
+  $('lpS').addEventListener('click', e => {
+    const x = e.target.closest('button'), b = curB(); if (!x || !b || x.dataset.v === b.st) return;
+    const k = dayKey(); b.st = x.dataset.v;
+    if (b.st === 'lendo' && !b.s) b.s = k;
+    if (b.st === 'lido') { b.f = k; if (!b.s) b.s = k; if (b.p && b.at < b.p) lvSetAt(b, b.p); } else b.f = '';
+    lvSave(b); drawBook(b); lpSaved();
+  });
+  $('lpR').addEventListener('click', e => { const x = e.target.closest('[data-r]'), b = curB(); if (!x || !b) return; b.r = b.r === +x.dataset.r ? 0 : +x.dataset.r; lvSave(b); drawBook(b); lpSaved(); });
+  $('lpMode').addEventListener('click', e => { const x = e.target.closest('button'); if (!x) return; lvMode = x.dataset.v; drawRead(); if (lvMode === 'escrever') $('lpEd').focus({ preventScroll: true }); });
+  $('lpEd').addEventListener('input', () => { const b = curB(); if (!b) return; b.nt = $('lpEd').value.slice(0, 20000); lvSave(b); const t = $('lpEd'); t.style.height = 'auto'; t.style.height = Math.max(220, t.scrollHeight + 2) + 'px'; lpSaved(); });
+  $('lpView').addEventListener('click', e => {
+    const x = e.target.closest('.gtk'), b = curB(); if (!x || !b) return;
+    const L = b.nt.split('\n'), i = +x.dataset.ln; if (!L[i]) return;
+    L[i] = L[i].replace(/\[( |x|X)\]/, m => m === '[ ]' ? '[x]' : '[ ]'); b.nt = L.join('\n'); lvSave(b); drawBook(b); lpSaved();
+  });
+  $('lpDel').addEventListener('click', () => {
+    const b = curB(); if (!b) return;
+    const i = books.indexOf(b); books.splice(i, 1); lvSave(); lvPg = null; drawRead();
+    lvMsg(`“${bName(b)}” apagado.`, () => { books.splice(Math.min(i, books.length), 0, b); lvSave(b); drawRead(); });
+  });
+
   // ---------- páginas ----------
   const VDRAW = {};
-  const VIEWS = { treino: 'vTrain', marcadas: 'vMarked', estatisticas: 'vStats', ranking: 'vRank', config: 'vConfig', ruido: 'vNoise', tempo: 'vTime', metas: 'vGoals', calendario: 'vCal', habitos: 'vHab' };
+  const VIEWS = { treino: 'vTrain', marcadas: 'vMarked', estatisticas: 'vStats', ranking: 'vRank', config: 'vConfig', ruido: 'vNoise', tempo: 'vTime', metas: 'vGoals', calendario: 'vCal', habitos: 'vHab', leitura: 'vRead' };
   function go(v, fresh) {
     view = VIEWS[v] && v !== 'treino' ? v : 'treino';
     if (view !== 'calendario') calClose();
@@ -2406,9 +2800,10 @@
     else if (view === 'estatisticas') drawStats();
     else if (view === 'ranking') drawRank();
     else if (view === 'tempo') drawTime();
-    else if (view === 'metas') { $('glMsg').hidden = true; drawGoals(); }
+    else if (view === 'metas') { $('glMsg').hidden = true; if (glPg) glBack(); else drawGoals(); }
     else if (view === 'calendario') { $('calMsg').hidden = true; drawCal(); }
     else if (view === 'habitos') { $('hbMsg').hidden = true; drawHabs(); }
+    else if (view === 'leitura') { $('lvMsg').hidden = true; lvPg = null; drawRead(); }
     else if (view === 'ruido') { drawPins(); nzUI(); if (nz.on) nzDraw(); else NZQ('scope').forEach(cv => nzFrame(cv)); }
     else if (VDRAW[view]) VDRAW[view]();
     else if (v !== mode) { mode = v; save('mode', mode); if (fresh !== false) { syncSettings(); next(); } }
@@ -2428,7 +2823,7 @@
 
   // ---------- conta: rating e marcadas salvos na conta Claude de quem está vendo ----------
   const acct = (on, txt) => { for (const id of ['acct', 'acct2']) { $(id).classList.toggle('on', on); $(id).textContent = txt; } };
-  const snapshot = () => ({ v: 1, rv: RV, ratings, marked: marked.slice(0, 300), off: [...off], best, prefs, days, tmDays, tmMan, metas, tmLog, tmTl, cal, habs, t: Date.now() });
+  const snapshot = () => ({ v: 1, rv: RV, ratings, marked: marked.slice(0, 300), off: [...off], best, prefs, days, tmDays, tmMan, metas, tmLog, tmTl, cal, habs, livros: books, t: Date.now() });
   let pushing = false, again = false, last = 0;
   async function push() {
     pushT = null;
@@ -2455,8 +2850,9 @@
     if (st.tmTl) tmTl = fixTl(st.tmTl);
     if (st.cal) cal = fixCal(st.cal);
     if (st.habs) habs = fixHabs(st.habs);
-    try { for (const k of SYNCED) localStorage.setItem('cm.' + k, JSON.stringify(k === 'off' ? [...off] : { ratings, marked, best, prefs, days, tmDays, tmMan, metas, tmLog, tmTl, cal, habs }[k])); } catch (e) {}
-    applyPrefs(); syncSettings(); syncMark(); stats();
+    if (st.livros) books = fixBooks(st.livros);
+    try { for (const k of SYNCED) localStorage.setItem('cm.' + k, JSON.stringify(k === 'off' ? [...off] : { ratings, marked, best, prefs, days, tmDays, tmMan, metas, tmLog, tmTl, cal, habs, livros: books }[k])); } catch (e) {}
+    applyPrefs(); syncSettings(); syncMark(); stats(); calAutoRun();
     if (view === 'config') drawConfig();
     if (view === 'marcadas') drawMarked();
     if (view === 'estatisticas') drawStats();
@@ -2464,7 +2860,8 @@
     if (view === 'tempo') drawTn();
     if (view === 'calendario' && !(cc && cc.form)) drawCal();
     if (view === 'habitos' && $('hbForm').hidden) drawHabs();
-    calBadge(); hbBadge();
+    if (view === 'leitura' && $('lvForm').hidden && !lvPg) drawRead();
+    calBadge(); hbBadge(); drawLvBadge();
     rkQueue();
   }
   // primeira vez neste navegador: junta o que já havia aqui com o que está na conta
@@ -2485,11 +2882,13 @@
     for (const x of [...fixTl(b.tmTl), ...fixTl(a.tmTl)]) { const k = x[0] + x[2]; if (!tl.has(k) || x[1] > tl.get(k)[1]) tl.set(k, x); }
     const cm = new Map();
     for (const x of [...fixCal(b.cal), ...fixCal(a.cal)]) if (!cm.has(x.id) || x.u > cm.get(x.id).u) cm.set(x.id, x);
+    const bm = new Map();
+    for (const x of [...fixBooks(b.livros), ...fixBooks(a.livros)]) if (!bm.has(x.id) || x.u > bm.get(x.id).u) bm.set(x.id, x);
     const hm2 = new Map();
     for (const x of [...fixHabs(b.habs), ...fixHabs(a.habs)]) if (!hm2.has(x.id) || x.u > hm2.get(x.id).u) hm2.set(x.id, x);
     return { ratings: r, marked: m, off: b.off || a.off || [], best: Math.max(a.best || 0, b.best || 0), prefs: b.prefs || a.prefs, days: dd, tmDays: td, tmMan: mm,
       metas: [...gm.values()].sort((x, y) => x.c - y.c), tmLog: [...lm.values()].sort((x, y) => x.a - y.a),
-      tmTl: fixTl([...tl.values()]), cal: [...cm.values()], habs: [...hm2.values()] };
+      tmTl: fixTl([...tl.values()]), cal: [...cm.values()], habs: [...hm2.values()], livros: [...bm.values()] };
   }
 
   // ---------- levar os dados para outro Faro (outro endereço, outro navegador) ----------
@@ -2566,6 +2965,6 @@
 
   const start = location.hash.slice(1);
   if (start === 'teoria' || start === 'exercicios') mode = start;
-  applyPrefs(); syncSettings(); stats(); next();
+  applyPrefs(); syncSettings(); stats(); next(); calAutoRun(); calBadge(); drawLvBadge();
   if (VIEWS[start] && start !== 'treino') go(start); else go(mode);
   calBadge(); hbBadge();
