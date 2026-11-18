@@ -12,7 +12,9 @@ page() { # $1 = web | claude
   echo '<title>Faro</title>'
   cat src/fox-link.html
   cat src/base-head.html src/app.css
-  echo '</style>'; echo '</head>'
+  echo '</style>'
+  [ "$1" = web ] && cat src/analytics.html
+  echo '</head>'
   if [ "$1" = web ]; then sed -e '/<!--@WEB-BODY@-->/{r src/web-body.html' -e 'd}' src/body.html; else sed '/<!--@WEB-BODY@-->/d' src/body.html; fi
   echo
   [ "$1" = web ] && echo '<script src="vendor/supabase.js"></script>'
@@ -28,4 +30,4 @@ mkdir -p dist public/vendor
 page claude > dist/claude.html
 sed "s#@FARO@#$FARO_CLAUDE\" target=\"_blank\" rel=\"noopener#" src/dicas.html > dist/dicas.html
 page web | sed -e "s#$TIPS_CLAUDE#dicas.html#g" -e '/<meta name="claude:viewport-fit-sides"/d' > public/index.html
-sed -e 's#@FARO@#./#' -e '/<meta name="claude:viewport-fit-sides"/d' src/dicas.html > public/dicas.html
+sed -e 's#@FARO@#./#' -e '/<meta name="claude:viewport-fit-sides"/d' -e 's#</head>#<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>\n</head>#' src/dicas.html > public/dicas.html
